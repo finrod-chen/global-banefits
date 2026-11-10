@@ -149,8 +149,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 600,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "免費註冊即可，無需提供信用卡或消費門檻。",
     "regions": [
@@ -164,10 +164,10 @@
       "點擊 'Join Suno for free' 進行註冊"
     ],
     "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-10T20:12:05.823Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，提取時間 2026-11-10T20:12:05.823Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "無商業版權、不支援月度歌曲下載、不支援購買額外額度、不支援人聲分離。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
