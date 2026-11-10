@@ -1,3 +1,4 @@
+
 # Worker 版（Cloudflare Workers）
 
 與 GitHub Actions 版並存的線上版本：Cron Triggers 每 2 小時掃一次，看板用網頁即時渲染。
@@ -5,14 +6,25 @@
 ## 檔案
 
 - src/index.js：Worker 本體（scheduled 掃描、fetch 提供看板與 API）
-- wrangler.toml：cron 每 2 小時、KV binding DEAL_DATA（namespace id 由部署流程自動寫入）
-- ../.github/workflows/deploy-worker.yml：CI 部署（push 到 main 且動到 worker/** 或 data 時觸發，也可手動 Run）
+- wrangler.toml：cron 每 2 小時、KV binding DEAL_DATA（namespace id 是佔位符，部署腳本會自動替換）
+- deploy.sh：Cloudflare Workers Builds 用的部署腳本
+- ../.github/workflows/deploy-worker.yml：GitHub Actions 部署（備援路線）
 
-## 部署前需要（倉庫擁有者設定）
+## 部署路線 A：Cloudflare Workers Builds（推薦，免 API Token）
 
-Settings → Secrets and variables → Actions 加兩個 secret：CLOUDFLARE_API_TOKEN、CLOUDFLARE_ACCOUNT_ID。Token 權限需要 Account 層級的 Workers Scripts:Edit 與 Workers KV Storage:Edit。
+1. 在 Cloudflare 把 GitHub repo 連接後，打開該 Worker 的 Settings → Build。
+2. 把 Deploy command 設為：bash worker/deploy.sh（Root directory 維持 repo 根目錄）。
+3. 合併 PR 後 push 會自動觸發；也可在 Cloudflare 面板手動 Retry build。
 
-KV namespace 不用預先建：部署流程查不到 DEAL_DATA 會自動建立並把 id 寫回 wrangler.toml。
+deploy.sh 會自動：找到或建立 DEAL_DATA KV namespace、把 id 寫進 wrangler.toml（只在 build 環境內，不動 repo）、部署、種子化 KV（sources 每次覆蓋，deals/state/archive 只在不存在時種入）。
+
+若 build log 顯示未授權錯誤：在 Build 的環境變數加 CLOUDFLARE_API_TOKEN（Workers Builds 通常會自動帶入連線權限，多半不用）。
+
+## 部署路線 B：GitHub Actions（備援，需要 secrets）
+
+Settings → Secrets and variables → Actions 加 CLOUDFLARE_API_TOKEN、CLOUDFLARE_ACCOUNT_ID；Token 權限需 Account 層級的 Workers Scripts:Edit 與 Workers KV Storage:Edit。workflow 會自動建立 KV namespace 並部署。
+
+兩條路線同時開會重複部署同一個 Worker（同程式碼，無害但沒必要）：走路線 A 就不必加 secrets，Actions 那條會因為缺 token 而失敗，屬正常，可忽略或停用。
 
 ## 端點
 
