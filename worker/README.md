@@ -43,7 +43,7 @@ Settings → Secrets and variables → Actions 加 CLOUDFLARE_API_TOKEN、CLOUDF
 ## AI 提取
 
 - endpoint 與模型寫在 src/core.mjs 的 LLM 常數：https://apihub.agnes-ai.com/v1（OpenAI 相容 /chat/completions）、模型 agnes-3.0-flash。
-- 掃描發現來源「內容變更」或「首次見到」時，把頁面去掉 script、style 與標籤後的文字（截 12,000 字）交給 LLM；每輪最多 5 個來源，沒輪到的排進 state 的 llmBacklog，下一輪優先處理。
+- 掃描發現來源「內容變更」或「首次見到」時，把頁面去掉 script、style 與標籤後的文字（截 12,000 字）交給 LLM；每輪最多 5 個來源，呼叫之間間隔 1.5 秒；沒輪到或失敗的留在 state 的 llmBacklog，下一輪再試。遇到 429 限流會等一下重試一次，還是不行就結束這一輪的提取。
 - 產出一律 status=pending、價值不填數字。同一來源重新提取時，舊的待核實草稿會被新的取代；已核實的不動；人工退回過的不會再出現。
 - LLM 可能誤讀頁面，草稿未經核實請勿當成事實。
 
