@@ -1,4 +1,3 @@
-
 #!/usr/bin/env node
 /**
  * GLOBAL DEAL RADAR 掃描器 v1
@@ -27,8 +26,7 @@ const readJson = (file, fallback) => {
 const writeJson = (file, value) => {
   const p = path.join(dataDir, file);
   fs.mkdirSync(path.dirname(p), {recursive: true});
-  fs.writeFileSync(p, JSON.stringify(value, null, 2) + '
-');
+  fs.writeFileSync(p, JSON.stringify(value, null, 2) + '\n');
 };
 
 const nowISO = new Date().toISOString();

@@ -1,4 +1,3 @@
-
 #!/usr/bin/env node
 /**
  * GLOBAL DEAL RADAR 看板產生器
@@ -62,9 +61,7 @@ const highValue = active.slice().sort((a, b) => (b.value && b.value.valueTWD ? b
 const endingSoon = active.filter(d => d.endDate && d.endDate >= today && d.endDate <= daysAheadISO(14) && d.ongoing !== true);
 
 function writeDash(file, title, lines) {
-  const content = ['# ' + title].concat(note(), lines).join('
-') + '
-';
+  const content = ['# ' + title].concat(note(), lines).join('\n') + '\n';
   fs.writeFileSync(path.join(dashDir, file), content, 'utf8');
 }
 
