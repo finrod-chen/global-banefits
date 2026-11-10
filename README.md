@@ -21,15 +21,17 @@
 
 ## 倉庫結構
 
-- data/deals.json：優惠資料庫，唯一事實來源，格式見 docs/SCHEMA.md
+- data/deals.json：優惠資料庫，唯一事實來源（看板也是讀這份），格式見 docs/SCHEMA.md
 - data/sources.json：監控來源清單（只收官方頁面），可隨時加來源
 - data/last-run.json：最近一次掃描報告，含待核實佇列
 - data/archive.json：過期與重複條目歸檔
-- worker/src/core.mjs：掃描核心（擷取、變更偵測、去重、過期歸檔、LLM 提取），GitHub Actions 與 Worker 共用
-- scripts/scan.mjs：GitHub Actions 版掃描器（讀寫 data/，呼叫掃描核心與通知）
+- worker/src/core.mjs：掃描核心（擷取、變更偵測、去重、過期歸檔、LLM 提取）與審核邏輯
+- scripts/scan.mjs：掃描器（讀寫 data/，呼叫掃描核心與通知），由 GitHub Actions 執行
+- scripts/review.mjs：人工審核一條草稿（核實通過或退回），由 Review Deal workflow 執行
 - scripts/build-dashboards.mjs：看板產生器
-- .github/workflows/deal-hunter.yml：每 2 小時的定時任務
-- worker/：Cloudflare Workers 線上版（cron 掃描 + KV + 即時看板網頁），見 worker/README.md
+- .github/workflows/deal-hunter.yml：每 2 小時的定時掃描
+- .github/workflows/review-deal.yml：人工審核（Actions 頁手動執行，或從看板按鈕觸發）
+- worker/：Cloudflare Worker 看板網頁，只讀 repo 的 data/ 來顯示，見 worker/README.md
 - docs/RUNBOOK.md：怎麼加來源、怎麼核實、哪些自動化要另外設定
 
 ## 目前收錄
@@ -40,12 +42,12 @@
 
 已經能跑的：定時掃描、官方頁面變更偵測、疑似失效偵測、重複優惠去重、過期自動歸檔、看板自動重建、掃描報告與驗證時間記錄。
 
-設了金鑰就會啟用的：AI 自動提取優惠草稿（LLM_API_KEY）、Telegram 推播（TELEGRAM_BOT_TOKEN、TELEGRAM_CHAT_ID）、Worker 看板的管理模式（ADMIN_TOKEN）。沒設的功能自動停用。設定方式見 docs/RUNBOOK.md 與 worker/README.md。
+設了金鑰就會啟用的：AI 自動提取優惠草稿（repo secret LLM_API_KEY）、Telegram 推播（repo secrets TELEGRAM_BOT_TOKEN、TELEGRAM_CHAT_ID）、看板上的核實與立即掃描按鈕（Worker 的 ADMIN_TOKEN 與 GITHUB_TOKEN）。沒設的功能自動停用。設定方式見 docs/RUNBOOK.md 與 worker/README.md。
 
 AI 提取的結果一律是待核實草稿、不填價值數字，要人工對照官方頁面後才會標成已核實。
 
 ## 快速上手
 
-1. 合併本 PR 後到 Actions 頁確認 Deal Radar Scan 與 Deploy Deal Radar Worker 出現，手動 Run 一次驗證。
+1. 到 Actions 頁確認 Deal Radar Scan 有在跑，沒有的話手動 Run 一次。
 2. 想加監控來源：編輯 data/sources.json。
 3. 想加優惠條目：按 docs/SCHEMA.md 寫進 data/deals.json，下一輪掃描會自動整理看板。

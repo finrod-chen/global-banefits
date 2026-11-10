@@ -1,0 +1,67 @@
+name: Review Deal
+
+# 人工審核一條 AI 草稿：核實通過（可填估算價值）或退回。
+# 可以在 Actions 頁按 Run workflow 手動執行，也可以從看板的管理模式按鈕觸發（需要 Worker 設 GITHUB_TOKEN）。
+on:
+  workflow_dispatch:
+    inputs:
+      id:
+        description: 優惠的 id（看板卡片或 data/deals.json 裡的 id）
+        required: true
+        type: string
+      action:
+        description: 動作
+        required: true
+        type: choice
+        options:
+          - verify
+          - reject
+      value_twd:
+        description: 估算價值（新台幣，只在 verify 時用，可留空）
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+
+# 與掃描共用同一組，避免兩邊同時改 data/ 造成推送衝突
+concurrency:
+  group: deal-radar
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Apply review
+        env:
+          DEAL_ID: ${{ inputs.id }}
+          ACTION: ${{ inputs.action }}
+          VALUE_TWD: ${{ inputs.value_twd }}
+        run: node scripts/review.mjs
+
+      - name: Rebuild dashboards
+        run: node scripts/build-dashboards.mjs
+
+      - name: Commit and push
+        env:
+          DEAL_ID: ${{ inputs.id }}
+          ACTION: ${{ inputs.action }}
+        run: |
+          git config user.name "deal-radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data dashboards
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "review: $ACTION $DEAL_ID"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push
+          fi
