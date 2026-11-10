@@ -14,7 +14,7 @@ export const CATEGORIES = Object.keys(CATEGORY_LABEL);
 // 實測（2026-11-10，agnes 免費方案）：短時間連打會回 429「API rate limit for free users」，沒有 Retry-After，
 // 約 30 秒後恢復；門檻不固定（連續 5 到 10 次之間觸發過）。單次送滿 12,000 字的請求本身不會被擋。
 // 所以呼叫之間隔 16 秒（每分鐘不到 4 次），被限流時等 35 秒重試一次。等待不耗 CPU 時間。
-export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600, gapMs: 16000, retryWaitMs: 35000};
+export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600, gapMs: 16000, retryWaitMs: 35000, reextractMs: 12 * 3600 * 1000};
 
 const UA = 'Mozilla/5.0 (compatible; DealRadarBot/1.0; +https://github.com/finrod-chen/global-banefits)';
 const DAY = 86400000;
@@ -138,6 +138,8 @@ export async function scanCore(data, cfg) {
       entry.httpStatus = res.status;
       entry.bytes = body.length;
       if (res.status >= 400) throw new Error('HTTP ' + res.status);
+      // 空內容（例如 Binance 回 202 且 0 位元組）是被擋或還沒渲染，不能當成「頁面沒變」
+      if (!body.trim()) throw new Error('空回應（HTTP ' + res.status + '），可能被擋');
       entry.hash = await sha256Hex16(body);
       const lower = body.toLowerCase();
       entry.keywordHits = (source.watchKeywords || []).filter(k => lower.includes(String(k).toLowerCase()));
@@ -161,7 +163,7 @@ export async function scanCore(data, cfg) {
     // 擷取失敗時保留上一輪的雜湊，恢復後才能正確比對有沒有變更
     state.sources[source.id] = {hash: entry.hash || (previous ? previous.hash : null) || null, httpStatus: entry.httpStatus, failed: entry.change === 'fetch-failed', at: nowISO};
     // llmHash：上次成功交給 LLM 的頁面雜湊。跟現在的不一樣就代表這個版本還沒提取過
-    if (previous && previous.llmHash) state.sources[source.id].llmHash = previous.llmHash;
+    if (previous && previous.llmHash) { state.sources[source.id].llmHash = previous.llmHash; state.sources[source.id].llmAt = previous.llmAt || null; }
   }
 
   // 2. 過期歸檔 + 重複優惠去重
@@ -189,11 +191,21 @@ export async function scanCore(data, cfg) {
   //    沒輪到或提取失敗（例如被限流）的留在 state.llmBacklog，下一輪再試
   const sourceById = {};
   for (const s of sources) sourceById[s.id] = s;
-  const candidates = results.filter(r => r.hash && r.change !== 'content-changed-suspect-expired' && state.sources[r.id].llmHash !== r.hash).map(r => r.id);
+  // 從沒提取過的來源一定要提取；提取過的，頁面雜湊變了且距上次提取超過 reextractMs 才再提取一次。
+  // 有些頁面每次抓都不一樣（廣告、版本號、隨機值），不設間隔的話佇列永遠清不掉，還會一直換掉待核實草稿。
+  const needsLlm = r => {
+    const st = state.sources[r.id];
+    if (!r.hash || r.change === 'content-changed-suspect-expired') return false;
+    if (!st.llmHash) return true;
+    return st.llmHash !== r.hash && Date.parse(nowISO) - (st.llmAt ? Date.parse(st.llmAt) : 0) >= LLM.reextractMs;
+  };
+  const candidates = results.filter(needsLlm).map(r => r.id);
   const queue = [];
   for (const id of (state.llmBacklog || []).concat(candidates)) {
     if (sourceById[id] && queue.indexOf(id) < 0) queue.push(id);
   }
+  // 沒提取過的排前面，重新提取的排後面（sort 是穩定排序，原本順序保留）
+  queue.sort((a, b) => (state.sources[a] && state.sources[a].llmHash ? 1 : 0) - (state.sources[b] && state.sources[b].llmHash ? 1 : 0));
   const ai = {attempted: 0, extracted: 0, duplicateSkipped: 0, deferred: 0, errors: [], noKey: !llmApiKey};
   let deferred = queue;
   if (llmApiKey) {
@@ -220,6 +232,7 @@ export async function scanCore(data, cfg) {
       }
       done.push(id);
       state.sources[id].llmHash = state.sources[id].hash;
+      state.sources[id].llmAt = nowISO;
       // 同一來源的舊草稿以最新頁面為準：先撤掉還沒核實的，再放新的（已核實的不動）
       keep = keep.filter(d => {
         if (d.status === 'pending' && d.sourceId === id) { seen.delete(dealKey(d.name, d.officialUrl)); return false; }
