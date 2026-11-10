@@ -8,3 +8,7 @@ kv_namespaces = [ { binding = "DEAL_DATA", id = "REPLACE_WITH_NAMESPACE_ID" } ]
 
 [triggers]
 crons = [ "0 */2 * * *" ]
+
+# 開啟 Workers Logs，排程掃描的結果與錯誤可以在面板的 Observability 看到
+[observability]
+enabled = true

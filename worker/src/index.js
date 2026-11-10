@@ -89,7 +89,15 @@ async function handleAdmin(request, env, url) {
 
 export default {
   async scheduled(event, env, ctx) {
-    ctx.waitUntil(runScan(env));
+    // 一定要 await：用 ctx.waitUntil 的話，handler 一返回就只剩約 30 秒，
+    // 而 LLM 呼叫之間要等 16 秒，一輪會超過，掃描會在寫回 KV 前被中止。
+    try {
+      const lastRun = await runScan(env);
+      console.log('[deal-radar] scan ok', JSON.stringify({at: lastRun.at, summary: lastRun.summary, ai: lastRun.aiExtraction, notification: lastRun.notification}));
+    } catch (error) {
+      console.error('[deal-radar] scan failed', error && error.stack ? error.stack : String(error));
+      throw error;
+    }
   },
   async fetch(request, env) {
     const url = new URL(request.url);
