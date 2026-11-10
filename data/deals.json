@@ -688,8 +688,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 3284,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
     },
     "requirements": "必須是學生身分。",
     "regions": [
@@ -703,10 +703,10 @@
       "選擇升級至包含 YouTube Premium 的學生方案"
     ],
     "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，提取時間 2026-11-10T22:37:46.258Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "自動續約",
-    "status": "ai-reviewed",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T22:36:18.839Z",
       "model": "agnes-3.0-flash",
