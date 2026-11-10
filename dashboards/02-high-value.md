@@ -6,7 +6,6 @@
 |---|---|---|---|---|---|
 | [Oracle Cloud 免費層：300 美元試用金 + Always Free 永久免費資源](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 註冊 Oracle Cloud 免費層：30 天內可用的 300 美元雲端額度；30 天後不升級也保留 Always Free 永久免費資源 | 約 TWD 9,600 | 長期活動 | 已核實 |
 | [Google Cloud 免費試用：300 美元抵免額（90 天）+ 免費方案](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 新用戶註冊 Google Cloud 免費試用，獲得 300 美元迎新抵免額，90 天內可用；另有每月限額的永久免費方案。試用期間不會自動收 | 約 TWD 9,600 | 長期活動 | 已核實 |
-| [Oracle Cloud Free Trial](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 提供 US$300 雲端信用額度，可於 30 天內使用於所有適用的 OCI 服務；若額度未用完或 30 天期滿，試用量即停止。 | 約 TWD 9,600 | 長期活動 | 已核實 |
 | [AWS Free Tier 新戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Free 免費方案](https://www.anthropic.com/pricing) | AI 工具 | 每月 $0，所有人皆可免費使用。限制使用量：每 5 小時及每週皆有使用量限制。功能包含：網路、桌面與行動端聊天、網頁搜尋、建立檔案與執行程式 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
