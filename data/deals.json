@@ -95,8 +95,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 320,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "無明確付費條件，但受每 5 小時與每週的使用量限制。",
     "regions": [
@@ -110,10 +110,10 @@
       "點擊 'Try Claude' 進入免費方案"
     ],
     "officialUrl": "https://www.anthropic.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-10T20:10:58.828Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，提取時間 2026-11-10T20:10:58.828Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "使用量受限，超過限制需等待重置或升級方案。",
-    "status": "ai-reviewed",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
@@ -149,8 +149,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 600,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "免費註冊即可，無需提供信用卡或消費門檻。",
     "regions": [
@@ -164,10 +164,10 @@
       "點擊 'Join Suno for free' 進行註冊"
     ],
     "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-10T20:12:05.823Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，提取時間 2026-11-10T20:12:05.823Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "無商業版權、不支援月度歌曲下載、不支援購買額外額度、不支援人聲分離。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
@@ -280,8 +280,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 750,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
     },
     "requirements": "無需信用卡；驗證過的學生可存取 GitHub Copilot 學生方案",
     "regions": [
@@ -296,10 +296,10 @@
       "選擇 Free 方案並點擊 Get started"
     ],
     "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-10T20:12:24.084Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，提取時間 2026-11-10T20:12:24.084Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "無風險",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
@@ -340,140 +340,6 @@
     }
   },
   {
-    "id": "oracle-free-20261110-1",
-    "sourceId": "oracle-free",
-    "name": "Oracle Cloud Free Trial",
-    "category": "vps-cloud",
-    "summary": "提供 US$300 雲端信用額度，可於 30 天內使用於所有適用的 OCI 服務；若額度未用完或 30 天期滿，試用量即停止。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "每人僅限建立一個免費帳戶,註冊時需提供有效的信用卡或簽帳金融卡資訊用於身份驗證（可能產生暫時性授權預扣，非實際扣款）,不接受 PIN 簽帳卡、虛擬卡、一次性卡或預付卡,帳戶若閒置 30 天以上可能被視為棄置並暫停或終止,信用額度僅在特定國家可用",
-    "regions": [
-      "特定國家"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "建立 Oracle 帳戶並提供信用卡資訊進行驗證",
-      "選擇 Data Region（區域）",
-      "開始使用 US$300 信用額度測試應用",
-      "在 30 天內切換為 Pay As You Go（隨付隨用）帳戶或保持免費狀態"
-    ],
-    "officialUrl": "https://www.oracle.com/cloud/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，待人工核實，提取時間 2026-11-10T20:13:03.052Z",
-    "lastVerified": "2026-11-10",
-    "risks": "30 天期限後若未停止使用超出 Always Free 額度的服務，將自動轉為付費計費,信用卡預扣授權可能因銀行處理延遲存在,違反規定（如建立多個帳戶）將導致帳戶停用",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-10T21:07:20.488Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供時限 30 天、額度 US$300 的免費試用金及 Always Free 服務，屬新戶獎勵與免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start with a US$300 cloud credit.* You’ll have 30 days to use it to test your applications on all OCI services, in addition to Always Free Services in your Free Tier account.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "One Oracle Cloud Free Trial or Always Free account is permitted per person.",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "The US$300 cloud credit is available in select countries and valid for up to 30 days.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 9600,
-      "basis": "explicit-amount",
-      "usd": 300,
-      "quote": "Start with a US$300 cloud credit",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "oracle-free-20261110-2",
-    "sourceId": "oracle-free",
-    "name": "Oracle Cloud Always Free Services",
-    "category": "vps-cloud",
-    "summary": "提供無限期的免費服務額度，包括 HeatWave、AMD-based Compute、Arm-based Ampere A1 Compute、Block Volume、Object Storage、Autonomous Databases 等基礎設施與數據庫服務。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需註冊 Oracle Cloud Free Tier 帳戶,每人僅限一個帳戶,部分服務可能有地域限制（如 NoSQL Database 僅限 Phoenix Region）,需遵守服務容量限制",
-    "regions": [
-      "所有商業 OCI 服務可用地區"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Oracle Cloud Free Tier 帳戶",
-      "在控制台中配置並使用 Always Free 服務"
-    ],
-    "officialUrl": "https://www.oracle.com/cloud/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，待人工核實，提取時間 2026-11-10T20:13:03.052Z",
-    "lastVerified": "2026-11-10",
-    "risks": "超出 Always Free 額度將計費,帳戶閒置 30 天可能導致服務暫停",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-10T21:07:20.488Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該方案提供無限期的免費服務額度（Always Free Services），屬於持續性的免費優惠方案。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "HeatWave\nAMD-based Compute\nArm-based Ampere A1 Compute\nBlock Volume\nObject Storage\nArchive Storage\nFlexible Load Balancer\nFlexible Network Load Balancer\nSite-to-Site VPN\nAutonomous Data Warehouse\nAutonomous Transaction Processing\nAutonomous",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "One Oracle Cloud Free Trial or Always Free account is permitted per person. Please note:\nCreating or attempting to create multiple free accounts is prohibited.\nAll contact and billing information provided must be accurate, valid, and used w",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Oracle Cloud Free Tier is currently available in all regions where commercial Oracle Cloud Infrastructure service is available.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 36500,
-      "basis": "ai-estimate",
-      "note": "保守估算基於 Always Free 方案中最基礎且高頻的 Object Storage (100 GB) 與 Compute (2 個 Arm A1 微實例) 之每月市場價值，假設月均價值約 3150 新台幣，一年為 37800，向下保守取整至 36500。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "aws-free-20261110-1",
     "sourceId": "aws-free",
     "name": "AWS Free Tier 新戶信用額度",
@@ -481,9 +347,9 @@
     "summary": "創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用於開發、測試與實驗，不會產生意外費用。",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 200,
+      "valueTWD": 6400,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "需創建新 AWS Free Tier 帳號。帳號在開啟 6 個月後或額度用完時（以較早者為準）會自動關閉。除非轉換為付費方案，否則不會計費。",
     "regions": [
@@ -499,10 +365,10 @@
       "在 6 個月期限內使用額度進行構建與實驗"
     ],
     "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-10T21:07:36.730Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，提取時間 2026-11-10T21:07:36.730Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "帳號會在 6 個月後或額度用盡時自動關閉。若轉換為付費方案（Paid plan）或啟用僅限付費的服務，則需按使用量計費。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
@@ -623,8 +489,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 6400,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "僅限新 Azure 客戶；註冊時需進行驗證（可能產生暫時性 $1 授權扣款並立即退回）；30 天內使用完 $200 額度或期限後需轉為隨用隨付計費。",
     "regions": [
@@ -640,10 +506,10 @@
       "在 30 天內使用 $200 額度及各項免費服務"
     ],
     "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-10T21:08:16.273Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，提取時間 2026-11-10T21:08:16.273Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "若未在 30 天內轉為付費帳戶且超過免費額度，可能會產生費用；註冊時的 $1 授權扣款會在驗證後退回。",
-    "status": "pending"
+    "status": "verified"
   },
   {
     "id": "azure-free-20261110-2",
@@ -654,8 +520,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 32000,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "適用於所有 Azure 客戶（部分服務僅限新客戶 12 個月內，但此分類強調永遠免費項目）；無需消費門檻。",
     "regions": [
@@ -669,10 +535,10 @@
       "在 Azure Portal 中選擇並啟用對應的免費服務（如 Functions、DevOps 等）"
     ],
     "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-10T21:08:16.273Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，提取時間 2026-11-10T21:08:16.273Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "部分「永遠免費」有月度用量上限，超出部分將依隨用隨付價格計費。",
-    "status": "pending"
+    "status": "verified"
   },
   {
     "id": "azure-free-20261110-3",
@@ -683,8 +549,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 32000,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "僅限新 Azure 客戶；期限為註冊後 12 個月內。",
     "regions": [
@@ -698,9 +564,9 @@
       "在 12 個月有效期内使用指定服務（如 B1s VM 750 小時）"
     ],
     "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-10T21:08:16.273Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，提取時間 2026-11-10T21:08:16.273Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "12 個月期限結束後，相關服務將開始按標準付費方案計費。",
-    "status": "pending"
+    "status": "verified"
   }
 ]

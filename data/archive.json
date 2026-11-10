@@ -1,1 +1,140 @@
-[]
+[
+  {
+    "id": "oracle-free-20261110-1",
+    "sourceId": "oracle-free",
+    "name": "Oracle Cloud Free Trial",
+    "category": "vps-cloud",
+    "summary": "提供 US$300 雲端信用額度，可於 30 天內使用於所有適用的 OCI 服務；若額度未用完或 30 天期滿，試用量即停止。",
+    "value": {
+      "type": "free",
+      "amountUSD": 300,
+      "valueTWD": 9600,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
+    },
+    "requirements": "每人僅限建立一個免費帳戶,註冊時需提供有效的信用卡或簽帳金融卡資訊用於身份驗證（可能產生暫時性授權預扣，非實際扣款）,不接受 PIN 簽帳卡、虛擬卡、一次性卡或預付卡,帳戶若閒置 30 天以上可能被視為棄置並暫停或終止,信用額度僅在特定國家可用",
+    "regions": [
+      "特定國家"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Oracle 帳戶並提供信用卡資訊進行驗證",
+      "選擇 Data Region（區域）",
+      "開始使用 US$300 信用額度測試應用",
+      "在 30 天內切換為 Pay As You Go（隨付隨用）帳戶或保持免費狀態"
+    ],
+    "officialUrl": "https://www.oracle.com/cloud/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，提取時間 2026-11-10T20:13:03.052Z；人工核實於 2026-11-10",
+    "lastVerified": "2026-11-10",
+    "risks": "30 天期限後若未停止使用超出 Always Free 額度的服務，將自動轉為付費計費,信用卡預扣授權可能因銀行處理延遲存在,違反規定（如建立多個帳戶）將導致帳戶停用",
+    "status": "rejected",
+    "review": {
+      "at": "2026-11-10T21:07:20.488Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供時限 30 天、額度 US$300 的免費試用金及 Always Free 服務，屬新戶獎勵與免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with a US$300 cloud credit.* You’ll have 30 days to use it to test your applications on all OCI services, in addition to Always Free Services in your Free Tier account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "One Oracle Cloud Free Trial or Always Free account is permitted per person.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "The US$300 cloud credit is available in select countries and valid for up to 30 days.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9600,
+      "basis": "explicit-amount",
+      "usd": 300,
+      "quote": "Start with a US$300 cloud credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-10T21:23:16.635Z",
+    "archiveReason": "人工退回"
+  },
+  {
+    "id": "oracle-free-20261110-2",
+    "sourceId": "oracle-free",
+    "name": "Oracle Cloud Always Free Services",
+    "category": "vps-cloud",
+    "summary": "提供無限期的免費服務額度，包括 HeatWave、AMD-based Compute、Arm-based Ampere A1 Compute、Block Volume、Object Storage、Autonomous Databases 等基礎設施與數據庫服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需註冊 Oracle Cloud Free Tier 帳戶,每人僅限一個帳戶,部分服務可能有地域限制（如 NoSQL Database 僅限 Phoenix Region）,需遵守服務容量限制",
+    "regions": [
+      "所有商業 OCI 服務可用地區"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Oracle Cloud Free Tier 帳戶",
+      "在控制台中配置並使用 Always Free 服務"
+    ],
+    "officialUrl": "https://www.oracle.com/cloud/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，待人工核實，提取時間 2026-11-10T20:13:03.052Z",
+    "lastVerified": "2026-11-10",
+    "risks": "超出 Always Free 額度將計費,帳戶閒置 30 天可能導致服務暫停",
+    "status": "rejected",
+    "review": {
+      "at": "2026-11-10T21:07:20.488Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供無限期的免費服務額度（Always Free Services），屬於持續性的免費優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "HeatWave\nAMD-based Compute\nArm-based Ampere A1 Compute\nBlock Volume\nObject Storage\nArchive Storage\nFlexible Load Balancer\nFlexible Network Load Balancer\nSite-to-Site VPN\nAutonomous Data Warehouse\nAutonomous Transaction Processing\nAutonomous",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "One Oracle Cloud Free Trial or Always Free account is permitted per person. Please note:\nCreating or attempting to create multiple free accounts is prohibited.\nAll contact and billing information provided must be accurate, valid, and used w",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Oracle Cloud Free Tier is currently available in all regions where commercial Oracle Cloud Infrastructure service is available.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 36500,
+      "basis": "ai-estimate",
+      "note": "保守估算基於 Always Free 方案中最基礎且高頻的 Object Storage (100 GB) 與 Compute (2 個 Arm A1 微實例) 之每月市場價值，假設月均價值約 3150 新台幣，一年為 37800，向下保守取整至 36500。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-10T21:25:21.866Z",
+    "archiveReason": "人工退回"
+  }
+]
