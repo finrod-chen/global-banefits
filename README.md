@@ -28,6 +28,7 @@
 - scripts/scan.mjs：掃描器（擷取、雜湊變更偵測、去重、過期歸檔）
 - scripts/build-dashboards.mjs：看板產生器
 - .github/workflows/deal-hunter.yml：每 2 小時的定時任務
+- worker/：Cloudflare Workers 線上版（cron 掃描 + KV + 即時看板網頁），見 worker/README.md
 - docs/RUNBOOK.md：怎麼加來源、怎麼核實、哪些自動化要另外設定
 
 ## 目前收錄
@@ -38,10 +39,10 @@
 
 已經能跑的：定時掃描、官方頁面變更偵測、疑似失效偵測、重複優惠去重、過期自動歸檔、看板自動重建、掃描報告與驗證時間記錄。
 
-要額外設定才有的：AI 自動提取優惠欄位（需要設 LLM API 金鑰）、推播通知（需要 Telegram Bot Token 或郵件服務），都寫在 docs/RUNBOOK.md，目前版本不假裝已經實作。
+要額外設定才有的：AI 自動提取優惠欄位（需要設 LLM API 金鑰）、推播通知（需要 Telegram Bot Token 或郵件服務）、Workers 線上版部署（需要 Cloudflare 的 API Token 與 Account ID），都寫在 docs/RUNBOOK.md 與 worker/README.md，目前版本不假裝已經實作。
 
 ## 快速上手
 
-1. 合併本 PR 後到 Actions 頁確認 Deal Radar Scan 出現，手動 Run workflow 一次驗證。
+1. 合併本 PR 後到 Actions 頁確認 Deal Radar Scan 與 Deploy Deal Radar Worker 出現，手動 Run 一次驗證。
 2. 想加監控來源：編輯 data/sources.json。
 3. 想加優惠條目：按 docs/SCHEMA.md 寫進 data/deals.json，下一輪掃描會自動整理看板。
