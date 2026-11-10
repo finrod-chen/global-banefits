@@ -11,7 +11,10 @@
 
 export const CATEGORY_LABEL = {ai: 'AI 工具', crypto: 'Crypto', banking: '海外銀行/卡', 'vps-cloud': 'VPS/雲服務', software: '軟體/數位服務', other: '其他'};
 export const CATEGORIES = Object.keys(CATEGORY_LABEL);
-export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600};
+// 實測（2026-11-10，agnes 免費方案）：短時間連打會回 429「API rate limit for free users」，沒有 Retry-After，
+// 約 30 秒後恢復；門檻不固定（連續 5 到 10 次之間觸發過）。單次送滿 12,000 字的請求本身不會被擋。
+// 所以呼叫之間隔 16 秒（每分鐘不到 4 次），被限流時等 35 秒重試一次。等待不耗 CPU 時間。
+export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600, gapMs: 16000, retryWaitMs: 35000};
 
 const UA = 'Mozilla/5.0 (compatible; DealRadarBot/1.0; +https://github.com/finrod-chen/global-banefits)';
 const DAY = 86400000;
@@ -49,7 +52,7 @@ function normDate(d) {
 export async function llmExtractDeals(apiKey, source, bodyText) {
   if (!apiKey) return {deals: [], error: 'no LLM_API_KEY'};
   if (!bodyText) return {deals: [], error: '頁面沒有可讀文字'};
-  const system = '你是優惠情報提取器。從官方頁面文字中找出具體的優惠、活動、免費資源、折扣或獎勵計畫。只提取頁面上明確寫著的內容，不要推測、不要編造數字；頁面看不到的資訊填 null。若頁面沒有明確優惠，回傳 []。所有文字用繁體中文。';
+  const system = '你是優惠情報提取器。從官方頁面文字中找出具體的優惠：免費方案或免費額度、免費試用、限時折扣或促銷、新戶獎勵、回饋、空投或積分活動、學生或教育優惠。一般的付費方案與定價不是優惠，不要列出；年繳比月繳便宜這種常態價差也不算。只提取頁面上明確寫著的內容，不要推測、不要編造數字；頁面看不到的資訊填 null。若頁面沒有明確優惠，回傳 []。所有文字用繁體中文。';
   const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請）、regions（適用地區，字串或字串陣列）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、steps（參與步驟，字串陣列）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
   try {
     const res = await fetch(LLM.baseUrl + '/chat/completions', {
@@ -58,7 +61,11 @@ export async function llmExtractDeals(apiKey, source, bodyText) {
       body: JSON.stringify({model: LLM.model, messages: [{role: 'system', content: system}, {role: 'user', content: user}], temperature: 0.2, max_tokens: LLM.maxTokens}),
       signal: AbortSignal.timeout(60000)
     });
-    if (!res.ok) return {deals: [], error: 'LLM HTTP ' + res.status};
+    if (!res.ok) {
+      const detail = (await res.text().catch(() => '')).replace(/\s+/g, ' ').slice(0, 160);
+      const retryAfter = Number(res.headers.get('retry-after'));
+      return {deals: [], error: 'LLM HTTP ' + res.status + (detail ? ' ' + detail : ''), rateLimited: res.status === 429, retryAfterMs: Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 0};
+    }
     const data = await res.json();
     const content = data.choices && data.choices[0] && data.choices[0].message ? String(data.choices[0].message.content || '') : '';
     const start = content.indexOf('[');
@@ -153,6 +160,8 @@ export async function scanCore(data, cfg) {
     results.push(entry);
     // 擷取失敗時保留上一輪的雜湊，恢復後才能正確比對有沒有變更
     state.sources[source.id] = {hash: entry.hash || (previous ? previous.hash : null) || null, httpStatus: entry.httpStatus, failed: entry.change === 'fetch-failed', at: nowISO};
+    // llmHash：上次成功交給 LLM 的頁面雜湊。跟現在的不一樣就代表這個版本還沒提取過
+    if (previous && previous.llmHash) state.sources[source.id].llmHash = previous.llmHash;
   }
 
   // 2. 過期歸檔 + 重複優惠去重
@@ -176,10 +185,11 @@ export async function scanCore(data, cfg) {
   // 人工退回過的條目不再讓 LLM 重新塞回來
   const rejected = new Set(archive.filter(d => d.status === 'rejected').map(d => dealKey(d.name, d.officialUrl)));
 
-  // 3. LLM 提取：變更/首次見到的來源，每輪上限 maxSourcesPerRun，沒輪到的排進 state.llmBacklog
+  // 3. LLM 提取：頁面目前版本還沒成功提取過的來源，每輪上限 maxSourcesPerRun，
+  //    沒輪到或提取失敗（例如被限流）的留在 state.llmBacklog，下一輪再試
   const sourceById = {};
   for (const s of sources) sourceById[s.id] = s;
-  const candidates = results.filter(r => r.change === 'first-seen' || r.change === 'content-changed').map(r => r.id);
+  const candidates = results.filter(r => r.hash && r.change !== 'content-changed-suspect-expired' && state.sources[r.id].llmHash !== r.hash).map(r => r.id);
   const queue = [];
   for (const id of (state.llmBacklog || []).concat(candidates)) {
     if (sourceById[id] && queue.indexOf(id) < 0) queue.push(id);
@@ -190,11 +200,26 @@ export async function scanCore(data, cfg) {
     // 這一輪抓不到頁面的來源留在佇列，下一輪再試
     const ready = queue.filter(id => bodies[id]);
     const todo = ready.slice(0, LLM.maxSourcesPerRun);
-    deferred = queue.filter(id => todo.indexOf(id) < 0);
-    ai.attempted = todo.length;
-    for (const id of todo) {
-      const r = await llmExtractDeals(llmApiKey, sourceById[id], htmlToText(bodies[id]).slice(0, LLM.maxBodyChars));
-      if (r.error) { ai.errors.push(id + ': ' + r.error); continue; }
+    const done = [];
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+    for (let n = 0; n < todo.length; n++) {
+      const id = todo[n];
+      if (n > 0) await sleep(LLM.gapMs);
+      const text = htmlToText(bodies[id]).slice(0, LLM.maxBodyChars);
+      let r = await llmExtractDeals(llmApiKey, sourceById[id], text);
+      if (r.rateLimited) {
+        await sleep(Math.max(r.retryAfterMs, LLM.retryWaitMs));
+        r = await llmExtractDeals(llmApiKey, sourceById[id], text);
+      }
+      ai.attempted++;
+      if (r.error) {
+        ai.errors.push(id + ': ' + r.error);
+        // 重試後還是被限流：這一輪不再打了，剩下的留給下一輪
+        if (r.rateLimited) break;
+        continue;
+      }
+      done.push(id);
+      state.sources[id].llmHash = state.sources[id].hash;
       // 同一來源的舊草稿以最新頁面為準：先撤掉還沒核實的，再放新的（已核實的不動）
       keep = keep.filter(d => {
         if (d.status === 'pending' && d.sourceId === id) { seen.delete(dealKey(d.name, d.officialUrl)); return false; }
@@ -212,6 +237,7 @@ export async function scanCore(data, cfg) {
         ai.extracted++;
       }
     }
+    deferred = queue.filter(id => done.indexOf(id) < 0);
   }
   ai.deferred = deferred.length;
   state.llmBacklog = deferred;
