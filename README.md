@@ -32,6 +32,7 @@
 - .github/workflows/deal-hunter.yml：每 2 小時的定時掃描
 - .github/workflows/review-deal.yml：人工審核（Actions 頁手動執行，或從看板按鈕觸發）
 - worker/：Cloudflare Worker 看板網頁，只讀 repo 的 data/ 來顯示，見 worker/README.md
+- wrangler.toml：Worker 設定（放根目錄，Cloudflare 部署需要）
 - docs/RUNBOOK.md：怎麼加來源、怎麼核實、哪些自動化要另外設定
 
 ## 目前收錄
