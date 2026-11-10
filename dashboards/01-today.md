@@ -1,9 +1,9 @@
-# A. 今日最新优惠
-> 本文件由 scripts/build-dashboards.mjs 自动生成，数据来源 data/deals.json。
-> 生成时间：2026-11-10T00:15:40.555Z（UTC）。手动编辑会被下一轮覆盖，要改内容请改数据文件。
+# A. 今日最新優惠
+> 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
+> 產生時間：2026-11-10T00:50:16.904Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
-| 活动名称 | 类别 | 优惠内容 | 价值 | 截止 | 状态 |
+| 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Oracle Cloud 免费层：300 美元试用金 + Always Free 永久免费资源](https://www.oracle.com/cloud/free/) | VPS/云服务 | 注册 Oracle Cloud 免费层：30 天内可用的 300 美元云端额度；30 天后不升级也保留 Always Free 永久免费资源… | 约 TWD 9,600 | 长期活动 | 已核实 |
-| [Google Cloud 免费试用：300 美元抵免额（90 天）+ 免费方案](https://cloud.google.com/free/docs/free-cloud-features) | VPS/云服务 | 新用户注册 Google Cloud 免费试用，获得 300 美元迎新抵免额，90 天内可用；另有每月限额的永久免费方案。试用期间不会自动收… | 约 TWD 9,600 | 长期活动 | 已核实 |
-| [GitHub Student Developer Pack（学生开发者大礼包）](https://education.github.com/pack) | 软件/数字服务 | 经学校身份验证的学生可免费获得数十项开发者工具与额度，包括 GitHub Copilot、Codespaces、云服务抵免额、域名、IDE … | 免费（价值视使用而定） | 长期活动 | 已核实 |
+| [Oracle Cloud 免費層：300 美元試用金 + Always Free 永久免費資源](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 註冊 Oracle Cloud 免費層：30 天內可用的 300 美元雲端額度；30 天後不升級也保留 Always Free 永久免費資源… | 約 TWD 9,600 | 長期活動 | 已核實 |
+| [Google Cloud 免費試用：300 美元抵免額（90 天）+ 免費方案](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 新用戶註冊 Google Cloud 免費試用，獲得 300 美元迎新抵免額，90 天內可用；另有每月限額的永久免費方案。試用期間不會自動收… | 約 TWD 9,600 | 長期活動 | 已核實 |
+| [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE … | 免費（價值視使用而定） | 長期活動 | 已核實 |
