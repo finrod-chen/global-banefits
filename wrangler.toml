@@ -20,6 +20,13 @@ crons = []
 REPO_SLUG = "finrod-chen/global-banefits"
 REPO_BRANCH = "main"
 
+# 非 production 分支的預覽（Cloudflare 對推到分支的 commit 執行 `wrangler preview`）要求另外寫 previews.vars，
+# 否則會報 "Your Wrangler configuration is missing a `previews` block"。
+# 看板只讀公開 repo 的資料，沒有任何寫入，所以預覽沿用相同的 repo 與分支是安全的。
+[previews.vars]
+REPO_SLUG = "finrod-chen/global-banefits"
+REPO_BRANCH = "main"
+
 # 開啟 Workers Logs，出問題可以在 Cloudflare 面板的 Observability 查
 [observability]
 enabled = true
