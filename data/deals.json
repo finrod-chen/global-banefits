@@ -481,9 +481,9 @@
     "summary": "創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用於開發、測試與實驗，不會產生意外費用。",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 200,
+      "valueTWD": 6400,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "需創建新 AWS Free Tier 帳號。帳號在開啟 6 個月後或額度用完時（以較早者為準）會自動關閉。除非轉換為付費方案，否則不會計費。",
     "regions": [
@@ -499,10 +499,10 @@
       "在 6 個月期限內使用額度進行構建與實驗"
     ],
     "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-10T21:07:36.730Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，提取時間 2026-11-10T21:07:36.730Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "帳號會在 6 個月後或額度用盡時自動關閉。若轉換為付費方案（Paid plan）或啟用僅限付費的服務，則需按使用量計費。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
