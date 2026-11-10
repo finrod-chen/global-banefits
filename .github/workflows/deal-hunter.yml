@@ -44,5 +44,7 @@ jobs:
             echo "No changes this run"
           else
             git commit -m "auto: scan update $(date -u +%Y-%m-%dT%H:%M+00:00)"
+            # 掃描要跑幾分鐘，期間可能有人審核推了提交；先併入再推送（只動不同條目時 git 能自動合併）
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi

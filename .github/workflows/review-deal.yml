@@ -25,10 +25,8 @@ on:
 permissions:
   contents: write
 
-# 與掃描共用同一組，避免兩邊同時改 data/ 造成推送衝突
-concurrency:
-  group: deal-radar
-  cancel-in-progress: false
+# 刻意不用 concurrency group：GitHub 同一組只保留一個等待中的執行，連續點幾次時中間的會被悄悄取消。
+# 並行安全由 scripts/apply-review.sh 處理（在最新資料上重新套用，推送被拒就重來）。
 
 jobs:
   review:
@@ -40,28 +38,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Apply review
+      - name: Apply review and push
         env:
           DEAL_ID: ${{ inputs.id }}
           ACTION: ${{ inputs.action }}
           VALUE_TWD: ${{ inputs.value_twd }}
-        run: node scripts/review.mjs
-
-      - name: Rebuild dashboards
-        run: node scripts/build-dashboards.mjs
-
-      - name: Commit and push
-        env:
-          DEAL_ID: ${{ inputs.id }}
-          ACTION: ${{ inputs.action }}
-        run: |
-          git config user.name "deal-radar-bot"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data dashboards
-          if git diff --cached --quiet; then
-            echo "No changes"
-          else
-            git commit -m "review: $ACTION $DEAL_ID"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push
-          fi
+        run: bash scripts/apply-review.sh
