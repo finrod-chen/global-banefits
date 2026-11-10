@@ -5,3 +5,4 @@
 | 活動名稱 | 類別 | 歸檔原因 | 歸檔時間 |
 |---|---|---|---|
 | [Oracle Cloud Free Trial](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 人工退回 | 2026-11-10T21:23:16.635Z |
+| [Oracle Cloud Always Free Services](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 人工退回 | 2026-11-10T21:25:21.866Z |

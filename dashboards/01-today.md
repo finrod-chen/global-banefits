@@ -11,7 +11,6 @@
 | [Suno 免費方案](https://suno.com/pricing) | AI 工具 | 每月 $0，提供每日 50 次額度（credits）、存取免費模型、上傳最長 8 分鐘音訊、使用共享創作佇列。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [年繳折扣（Pro 與 Premier）](https://suno.com/pricing) | AI 工具 | 選擇年繳方案比月繳價格更便宜。Pro 方案年繳每月 $8（原價 $10），Premier 方案年繳每月 $24（原價 $30）。 | 約 TWD 768（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 免費方案](https://github.com/features/copilot/plans) | AI 工具 | 每月 2,000 次 completions，可存取 Haiku 4.5、GPT-5 mini 等模型、Copilot CLI、社群支援 | 約 TWD 750（AI 估） | 長期活動 | 待核實 |
-| [Oracle Cloud Always Free Services](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 提供無限期的免費服務額度，包括 HeatWave、AMD-based Compute、Arm-based Ampere A1 Compute | 約 TWD 36,500（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Free Tier 新戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [AWS 免費方案服務使用權限](https://aws.amazon.com/free/) | VPS/雲服務 | Free plan 使用者可免費使用超過 90 項服務，期限最長 6 個月。另有 30 項以上服務在每月用量限制內永遠免費（Always F | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
