@@ -1,0 +1,67 @@
+
+name: Deploy Deal Radar Worker
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - worker/**
+      - data/sources.json
+      - data/deals.json
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install wrangler
+        run: npm install -g wrangler
+
+      - name: Ensure KV namespace and patch config
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cd worker
+          NS_ID=$(wrangler kv namespace list | jq -r '.[] | select(.title | endswith("DEAL_DATA")) | .id' | head -1)
+          if [ -z "$NS_ID" ] || [ "$NS_ID" = "null" ]; then
+            OUT=$(wrangler kv namespace create DEAL_DATA)
+            NS_ID=$(echo "$OUT" | grep -oE "[0-9a-f]{32}" | head -1)
+            echo "created new namespace: $NS_ID"
+          fi
+          sed -i "s/REPLACE_WITH_NAMESPACE_ID/$NS_ID/" wrangler.toml
+          echo "NS_ID=$NS_ID" >> "$GITHUB_ENV"
+
+      - name: Deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: cd worker && wrangler deploy
+
+      - name: Seed KV from repo data
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          cd worker
+          NS_ID=$(grep -oE '"[0-9a-f]{32}"' wrangler.toml | tr -d '"' | head -1)
+          # sources：每次部署都覆蓋（與 repo 同步）
+          wrangler kv key put sources --path ../data/sources.json --namespace-id "$NS_ID" --remote
+          # deals / state / archive：只在不存在時種入，不覆蓋 Worker 已掃出的進度
+          seed_if_missing() {
+            if ! wrangler kv key get "$1" --namespace-id "$NS_ID" --remote >/dev/null 2>&1; then
+              wrangler kv key put "$1" --path "../$2" --namespace-id "$NS_ID" --remote
+              echo "seeded $1"
+            else
+              echo "keep existing $1"
+            fi
+          }
+          seed_if_missing deals data/deals.json
+          seed_if_missing state data/state.json
+          seed_if_missing archive data/archive.json
