@@ -520,8 +520,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 32000,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "適用於所有 Azure 客戶（部分服務僅限新客戶 12 個月內，但此分類強調永遠免費項目）；無需消費門檻。",
     "regions": [
@@ -535,10 +535,10 @@
       "在 Azure Portal 中選擇並啟用對應的免費服務（如 Functions、DevOps 等）"
     ],
     "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-10T21:08:16.273Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，提取時間 2026-11-10T21:08:16.273Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "部分「永遠免費」有月度用量上限，超出部分將依隨用隨付價格計費。",
-    "status": "pending"
+    "status": "verified"
   },
   {
     "id": "azure-free-20261110-3",
