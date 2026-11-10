@@ -1,8 +1,9 @@
+
 #!/usr/bin/env node
 /**
- * GLOBAL DEAL HUNTER 看板生成器
- * 从 data/deals.json 与 data/archive.json 重建 dashboards/ 下的看板文件。
- * 由 .github/workflows/deal-hunter.yml 在每轮扫描后调用；也可手动运行：node scripts/build-dashboards.mjs
+ * GLOBAL DEAL RADAR 看板產生器
+ * 從 data/deals.json 與 data/archive.json 重建 dashboards/ 下的看板檔案。
+ * 由 .github/workflows/deal-hunter.yml 在每輪掃描後呼叫；也可手動執行：node scripts/build-dashboards.mjs
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -25,31 +26,31 @@ const state = readJson('state.json', {});
 const at = state.lastRun || new Date().toISOString();
 const today = at.slice(0, 10);
 
-const CATEGORY_LABEL = {ai: 'AI 工具', crypto: 'Crypto', banking: '海外银行/卡', 'vps-cloud': 'VPS/云服务', software: '软件/数字服务', other: '其他'};
+const CATEGORY_LABEL = {ai: 'AI 工具', crypto: 'Crypto', banking: '海外銀行/卡', 'vps-cloud': 'VPS/雲服務', software: '軟體/數位服務', other: '其他'};
 
 function fmtValue(d) {
   const v = d.value || {};
-  if (v.valueTWD) return '约 TWD ' + Number(v.valueTWD).toLocaleString('en-US');
-  if (v.type === 'free') return '免费（价值视使用而定）';
-  return v.note || '待评估';
+  if (v.valueTWD) return '約 TWD ' + Number(v.valueTWD).toLocaleString('en-US');
+  if (v.type === 'free') return '免費（價值視使用而定）';
+  return v.note || '待評估';
 }
 function fmtEnd(d) {
-  if (d.ongoing === true) return '长期活动';
+  if (d.ongoing === true) return '長期活動';
   return d.endDate || '未知';
 }
 function cell(text) {
   return String(text === undefined || text === null ? '' : text).replace(/\|/g, '，').replace(/\r?\n/g, ' ');
 }
 function row(d) {
-  return '| [' + cell(d.name) + '](' + d.officialUrl + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(String(d.summary || '').slice(0, 70)) + ' | ' + cell(fmtValue(d)) + ' | ' + cell(fmtEnd(d)) + ' | ' + (d.status === 'verified' ? '已核实' : '待核实') + ' |';
+  return '| [' + cell(d.name) + '](' + d.officialUrl + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(String(d.summary || '').slice(0, 70)) + ' | ' + cell(fmtValue(d)) + ' | ' + cell(fmtEnd(d)) + ' | ' + (d.status === 'verified' ? '已核實' : '待核實') + ' |';
 }
-const HEAD = ['| 活动名称 | 类别 | 优惠内容 | 价值 | 截止 | 状态 |', '|---|---|---|---|---|---|'];
+const HEAD = ['| 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |', '|---|---|---|---|---|---|'];
 function table(rows) {
-  if (!rows.length) return ['本专区目前没有符合条件的条目。', ''];
+  if (!rows.length) return ['本專區目前沒有符合條件的條目。', ''];
   return HEAD.concat(rows);
 }
 function note() {
-  return ['> 本文件由 scripts/build-dashboards.mjs 自动生成，数据来源 data/deals.json。', '> 生成时间：' + at + '（UTC）。手动编辑会被下一轮覆盖，要改内容请改数据文件。', ''];
+  return ['> 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。', '> 產生時間：' + at + '（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。', ''];
 }
 function byCategory(cat) { return deals.filter(d => d.category === cat && d.status !== 'example'); }
 const daysAgoISO = n => new Date(Date.now() - n * 86400000).toISOString().slice(0, 10);
@@ -67,17 +68,17 @@ function writeDash(file, title, lines) {
   fs.writeFileSync(path.join(dashDir, file), content, 'utf8');
 }
 
-writeDash('01-today.md', 'A. 今日最新优惠', table(recent.map(row)));
-writeDash('02-high-value.md', 'B. 高价值优惠排行榜', table(highValue.map(row)));
-writeDash('03-ai-tools.md', 'C. AI 工具免费与折扣专区', table(byCategory('ai').map(row)));
-writeDash('04-crypto.md', 'D. Crypto 空投与积分专区', table(byCategory('crypto').map(row)));
-writeDash('05-banking-cards.md', 'E. 海外银行与银行卡优惠', table(byCategory('banking').map(row)));
-writeDash('06-vps-cloud.md', 'F. VPS 及云服务专区', table(byCategory('vps-cloud').map(row)));
-writeDash('09-software.md', 'I. 软件与数字服务专区', table(byCategory('software').map(row)));
-writeDash('07-ending-soon.md', 'G. 即将截止的活动（14 天内）', table(endingSoon.map(row)));
+writeDash('01-today.md', 'A. 今日最新優惠', table(recent.map(row)));
+writeDash('02-high-value.md', 'B. 高價值優惠排行榜', table(highValue.map(row)));
+writeDash('03-ai-tools.md', 'C. AI 工具免費與折扣專區', table(byCategory('ai').map(row)));
+writeDash('04-crypto.md', 'D. Crypto 空投與積分專區', table(byCategory('crypto').map(row)));
+writeDash('05-banking-cards.md', 'E. 海外銀行與銀行卡優惠', table(byCategory('banking').map(row)));
+writeDash('06-vps-cloud.md', 'F. VPS 及雲服務專區', table(byCategory('vps-cloud').map(row)));
+writeDash('09-software.md', 'I. 軟體與數位服務專區', table(byCategory('software').map(row)));
+writeDash('07-ending-soon.md', 'G. 即將截止的活動（14 天內）', table(endingSoon.map(row)));
 const archiveRows = archive.length
-  ? ['| 活动名称 | 类别 | 归档原因 | 归档时间 |', '|---|---|---|---|'].concat(archive.map(d => '| [' + cell(d.name) + '](' + (d.officialUrl || '') + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(d.archiveReason) + ' | ' + cell(d.archivedAt) + ' |'))
-  : ['归档目前为空。', ''];
-writeDash('08-archive.md', 'H. 已结束活动档案', archiveRows);
+  ? ['| 活動名稱 | 類別 | 歸檔原因 | 歸檔時間 |', '|---|---|---|---|'].concat(archive.map(d => '| [' + cell(d.name) + '](' + (d.officialUrl || '') + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(d.archiveReason) + ' | ' + cell(d.archivedAt) + ' |'))
+  : ['歸檔目前為空。', ''];
+writeDash('08-archive.md', 'H. 已結束活動檔案', archiveRows);
 
-console.log('[deal-hunter] dashboards rebuilt: ' + at);
+console.log('[deal-radar] dashboards rebuilt: ' + at);
