@@ -418,9 +418,9 @@
     "summary": "Free plan 使用者可免費使用超過 90 項服務，期限最長 6 個月。另有 30 項以上服務在每月用量限制內永遠免費（Always Free），適用於 Free 和 Paid 方案。",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 200,
+      "valueTWD": 6400,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "Free plan 限於特定服務。超出免費限制或存取付費功能時，信用額度會自動抵扣成本。",
     "regions": [
@@ -435,10 +435,10 @@
       "使用 30 項以上永遠免費服務（在月度用量限制內）"
     ],
     "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-10T21:07:36.730Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，提取時間 2026-11-10T21:07:36.730Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "若超出每月用量限制或存取付費功能，將從信用額度中扣除；若額度不足則可能產生費用（視於是否升級為付費方案）。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",
