@@ -8,6 +8,7 @@ on:
       - worker/**
       - data/sources.json
       - data/deals.json
+      - .github/workflows/deploy-worker.yml
   workflow_dispatch:
 
 jobs:

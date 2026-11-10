@@ -24,7 +24,12 @@ jobs:
         with:
           node-version: '20'
 
+      # 三個 secrets 都是選填：沒設 LLM_API_KEY 就不做 AI 提取，沒設 Telegram 就不推播
       - name: Scan sources
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: node scripts/scan.mjs
 
       - name: Rebuild dashboards
