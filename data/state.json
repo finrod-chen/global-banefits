@@ -1,5 +1,136 @@
 {
-  "lastRun": null,
-  "sources": {},
-  "note": "由 scripts/scan.mjs 維護，請勿手改"
+  "sources": {
+    "openai-pricing": {
+      "hash": null,
+      "httpStatus": 403,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "anthropic-pricing": {
+      "hash": "3fdd6f5ad95623ea",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "gemini-plans": {
+      "hash": null,
+      "httpStatus": 404,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "midjourney-docs": {
+      "hash": null,
+      "httpStatus": 403,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "suno-pricing": {
+      "hash": "3b23827e2a382d2a",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "copilot-plans": {
+      "hash": "33131120582e0755",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "binance-announce": {
+      "hash": "e3b0c44298fc1c14",
+      "httpStatus": 202,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "okx-announce": {
+      "hash": null,
+      "httpStatus": 404,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "revolut-home": {
+      "hash": null,
+      "httpStatus": 403,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "wise-home": {
+      "hash": "71c58d08058dc57d",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "oracle-free": {
+      "hash": "000421aed4d51834",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "aws-free": {
+      "hash": "3fe58640fa2054b3",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "gcp-free": {
+      "hash": "ebe4fccad7fba2f4",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "azure-free": {
+      "hash": "b7a4beaf2cab2a3c",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "cloudflare-plans": {
+      "hash": "dabcb10620ab1de1",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "namecheap-promo": {
+      "hash": null,
+      "httpStatus": 403,
+      "failed": true,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "jetbrains-community": {
+      "hash": "98806bae28c76f70",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "github-education": {
+      "hash": "3c9e104cc31c2e04",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    },
+    "figma-pricing": {
+      "hash": "a29c966299b8f5dc",
+      "httpStatus": 200,
+      "failed": false,
+      "at": "2026-11-10T17:32:40.655Z"
+    }
+  },
+  "lastRun": "2026-11-10T17:32:40.655Z",
+  "note": "由 scripts/scan.mjs 維護，請勿手改",
+  "llmBacklog": [
+    "anthropic-pricing",
+    "suno-pricing",
+    "copilot-plans",
+    "binance-announce",
+    "wise-home",
+    "oracle-free",
+    "aws-free",
+    "gcp-free",
+    "azure-free",
+    "cloudflare-plans",
+    "jetbrains-community",
+    "github-education",
+    "figma-pricing"
+  ],
+  "notifiedEnding": []
 }
