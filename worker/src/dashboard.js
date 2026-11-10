@@ -303,14 +303,23 @@ function call(path,body){msg.textContent='';msg.className='';
 return fetch(path,{method:'POST',headers:{'Authorization':'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify(body||{})})
 .then(function(r){return r.json().catch(function(){return {};}).then(function(j){if(!r.ok){if(r.status===401)setAdmin('');throw new Error(j.error||('HTTP '+r.status));}return j;});});}
 adminBtn.addEventListener('click',function(){if(token){setAdmin('');return;}var t=prompt('輸入 ADMIN_TOKEN（只存在這台瀏覽器）');if(t)setAdmin(t.trim());});
-document.getElementById('scan').addEventListener('click',function(e){var b=e.currentTarget;b.disabled=true;b.textContent='掃描中…';
-call('/api/scan').then(function(j){msg.className='ok';msg.textContent=j.message||'已送出';b.textContent='已送出';}).catch(function(err){msg.textContent=err.message;b.disabled=false;b.textContent='立即掃描';});});
+// 送出後每 6 秒問一次最新資料，看到變化就重新整理；等太久就提示稍後自己重新整理
+function waitFor(url,changed,tries,onDone,onGiveUp){var n=0;(function tick(){
+fetch(url).then(function(r){return r.ok?r.json():null;}).then(function(j){if(j!==null&&changed(j)){onDone();return;}retry();}).catch(retry);
+function retry(){if(++n>=tries){onGiveUp();return;}setTimeout(tick,6000);}})();}
+var scanBtn=document.getElementById('scan');
+scanBtn.addEventListener('click',function(){var b=scanBtn;b.disabled=true;b.textContent='掃描中…';
+call('/api/scan').then(function(j){msg.className='ok';msg.textContent='已送出，掃描約需 3 到 5 分鐘，完成後這頁會自動更新。';
+waitFor('/api/last-run?fresh=1',function(r){return r&&r.at&&r.at!==b.dataset.runAt;},60,function(){location.reload();},function(){msg.textContent='掃描還沒完成，請稍後重新整理。';b.textContent='已送出';});
+}).catch(function(err){msg.textContent=err.message;b.disabled=false;b.textContent='立即掃描';});});
 list.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(!b)return;
 var card=b.closest('.ticket'),act=b.dataset.act,body={};
 if(act==='reject'&&!confirm('退回這條草稿並歸檔？'))return;
 if(act==='verify'){var est=card.dataset.est||'';var v=prompt('已對照官方頁面確認內容無誤。價值（新台幣）'+(est?'：已帶入 AI 估值，可直接放行或修改':'，可留空'),est);if(v===null)return;if(v.trim())body.valueTWD=Number(v.replace(/[^0-9.]/g,''));}
 b.disabled=true;
-call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(j){msg.className='ok';msg.textContent=j.message||'已送出';var r=card.querySelector('.review');if(r)r.textContent='已送出，約 1 分鐘後更新';}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
+call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(j){var id=card.dataset.id,r=card.querySelector('.review');msg.className='ok';msg.textContent=j.message||'已送出';if(r)r.textContent='處理中…完成後這頁會自動更新';
+waitFor('/api/deals?fresh=1',function(list){var d=list.filter(function(x){return x.id===id;})[0];return act==='reject'?!d:(!d||d.status==='verified');},18,function(){location.reload();},function(){if(r)r.textContent='已送出，但還沒看到更新，請稍後重新整理';});
+}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
 setAdmin(token);
 var h=location.hash.slice(1);if(h&&tabs.some(function(b){return b.dataset.tab===h;}))tab=h;
 apply();
@@ -344,7 +353,7 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
     '<header class="top">' +
       '<svg class="mark" viewBox="0 0 44 44" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="22" cy="22" r="20" stroke-width="1.5"/><circle cx="22" cy="22" r="12" stroke-width="1.5" opacity=".55"/><circle cx="22" cy="22" r="3" fill="currentColor" stroke="none"/><path class="sweep" d="M22 22 L22 2 A20 20 0 0 1 39.3 12 Z" fill="currentColor" stroke="none" opacity=".28"/></svg>' +
       '<div class="brand"><small>GLOBAL DEAL RADAR</small><h1>全球好康情報中心</h1></div>' +
-      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新<button type="button" id="scan" class="admin-only">立即掃描</button></p>' +
+      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新<button type="button" id="scan" class="admin-only" data-run-at="' + esc(lastRun && lastRun.at ? lastRun.at : '') + '">立即掃描</button></p>' +
     '</header>' +
     '<dl class="stats">' + stat('', '有效優惠', active.length) + stat('ok', '已核實', verified) + stat('ai', 'AI 預審通過', aiOk) + stat('wait', '待核實', active.length - verified - aiOk) +
       stat('hot', '14 天內截止', soon) + stat('', '監控來源', sources === null || sources === undefined ? '—' : sources) + '</dl>' +

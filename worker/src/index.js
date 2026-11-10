@@ -13,8 +13,10 @@
  *   POST /api/deals/:id/verify   觸發 Actions 核實這條草稿，body 可帶 {"valueTWD": 數字}
  *   POST /api/deals/:id/reject   觸發 Actions 退回這條草稿並歸檔
  *
- * 讀資料：repo 是公開的，直接讀 raw.githubusercontent.com，不需要金鑰。結果在記憶體快取 60 秒
- * （raw 本身還有約 5 分鐘快取），所以 Actions 提交後看板最慢約 6 分鐘更新；讀不到時沿用上一份。
+ * 讀資料：repo 是公開的，直接讀 raw.githubusercontent.com，不需要金鑰。結果在記憶體快取 60 秒；
+ * 請求網址帶時間戳（15 秒一格）避開 raw 約 5 分鐘的快取，所以 Actions 提交後看板最慢約 1 分鐘更新。
+ * 在網址加 ?fresh=1 會略過記憶體快取（距上次讀取至少 5 秒），看板的操作按鈕用它輪詢結果。
+ * 讀不到時沿用上一份。
  *
  * 變數（Worker 的 Settings → Variables and Secrets；wrangler.toml 的 [vars] 有預設值）：
  *   REPO_SLUG、REPO_BRANCH   讀哪個 repo 與分支（預設 finrod-chen/global-banefits、main）
@@ -27,6 +29,7 @@ import {dashboardHtml} from './dashboard.js';
 
 const FILES = {deals: 'data/deals.json', archive: 'data/archive.json', lastRun: 'data/last-run.json'};
 const TTL_MS = 60 * 1000;
+const FRESH_MIN_MS = 5 * 1000;
 let memo = null; // {at, data}：同一個 isolate 內重複使用
 
 function repoOf(env) {
@@ -35,7 +38,8 @@ function repoOf(env) {
 
 async function readRepoJson(env, path, fallback) {
   const {slug, branch} = repoOf(env);
-  const res = await fetch('https://raw.githubusercontent.com/' + slug + '/' + branch + '/' + path, {
+  // 時間戳讓每 15 秒換一個網址，避開 raw.githubusercontent.com 約 5 分鐘的快取，否則審核完要等很久才看得到
+  const res = await fetch('https://raw.githubusercontent.com/' + slug + '/' + branch + '/' + path + '?t=' + Math.floor(Date.now() / 15000), {
     headers: {'User-Agent': 'deal-radar-dashboard'},
     signal: AbortSignal.timeout(10000)
   });
@@ -44,8 +48,8 @@ async function readRepoJson(env, path, fallback) {
   return JSON.parse(await res.text());
 }
 
-async function loadData(env) {
-  if (memo && Date.now() - memo.at < TTL_MS) return memo.data;
+async function loadData(env, fresh) {
+  if (memo && Date.now() - memo.at < (fresh ? FRESH_MIN_MS : TTL_MS)) return memo.data;
   try {
     const [deals, archive, lastRun] = await Promise.all([
       readRepoJson(env, FILES.deals, null),
@@ -99,7 +103,7 @@ async function dispatchWorkflow(env, workflow, inputs) {
   });
   if (res.status === 204) {
     memo = null; // 下次看板讀取時重新抓
-    return json({ok: true, message: '已送出，GitHub Actions 約 1 分鐘後完成，之後重新整理看板。'});
+    return json({ok: true, message: '已送出，處理完成後這頁會自動更新。'});
   }
   const detail = (await res.text().catch(() => '')).replace(/\s+/g, ' ').slice(0, 160);
   return json({error: 'GitHub 回應 HTTP ' + res.status + (detail ? '：' + detail : '')}, 502);
@@ -138,7 +142,7 @@ export default {
     if (known.indexOf(url.pathname) < 0) return new Response('Not found', {status: 404});
     let data;
     try {
-      data = await loadData(env);
+      data = await loadData(env, url.searchParams.get('fresh') === '1');
     } catch (error) {
       const message = '讀不到 GitHub repo 的資料：' + error.message;
       if (url.pathname.indexOf('/api/') === 0) return json({error: message}, 502);

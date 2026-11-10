@@ -14,7 +14,7 @@
 
 ## 資料怎麼來
 
-repo 是公開的，Worker 直接讀 `raw.githubusercontent.com/<REPO_SLUG>/<REPO_BRANCH>/data/` 下的 `deals.json`、`archive.json`、`last-run.json`，不需要金鑰。結果在記憶體快取 60 秒，raw 本身還有約 5 分鐘快取，所以 Actions 提交後看板最慢約 6 分鐘更新。讀不到 GitHub 時沿用上一份資料，頁尾會標示。
+repo 是公開的，Worker 直接讀 `raw.githubusercontent.com/<REPO_SLUG>/<REPO_BRANCH>/data/` 下的 `deals.json`、`archive.json`、`last-run.json`，不需要金鑰。結果在記憶體快取 60 秒；請求網址帶時間戳（15 秒一格）避開 raw 約 5 分鐘的快取，所以 Actions 提交後看板最慢約 1 分鐘更新。在 API 網址加 `?fresh=1` 會略過記憶體快取（距上次讀取至少 5 秒），看板的操作按鈕用它輪詢結果。讀不到 GitHub 時沿用上一份資料，頁尾會標示。
 
 要改讀別的 repo 或分支，改根目錄 `wrangler.toml` 的 `[vars]`。repo 若改成私有，目前的讀法就不能用了（需要加帶 token 的讀取）。
 
@@ -27,7 +27,7 @@ repo 是公開的，Worker 直接讀 `raw.githubusercontent.com/<REPO_SLUG>/<REP
 - `POST /api/deals/:id/verify`：核實通過，body 可帶 `{"valueTWD": 數字}`
 - `POST /api/deals/:id/reject`：退回並歸檔
 
-三個 POST 都要帶 `Authorization: Bearer <ADMIN_TOKEN>`；沒設 `ADMIN_TOKEN` 回 503。它們不直接改資料，而是呼叫 GitHub API 觸發 workflow（`deal-hunter.yml`、`review-deal.yml`），所以送出後約 1 分鐘資料才會更新。
+三個 POST 都要帶 `Authorization: Bearer <ADMIN_TOKEN>`；沒設 `ADMIN_TOKEN` 回 503。它們不直接改資料，而是呼叫 GitHub API 觸發 workflow（`deal-hunter.yml`、`review-deal.yml`），所以送出後要等 workflow 跑完。看板會顯示「處理中」並每 6 秒檢查一次，看到資料變了就自動重新整理（審核約 1 分鐘，掃描約 3 到 5 分鐘）。
 
 ## 設定（Worker 的 Settings → Variables and Secrets）
 

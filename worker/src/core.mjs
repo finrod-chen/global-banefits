@@ -82,7 +82,7 @@ export async function llmExtractDeals(apiKey, source, bodyText, existing) {
   if (!apiKey) return {deals: [], error: 'no LLM_API_KEY'};
   if (!bodyText) return {deals: [], error: '頁面沒有可讀文字'};
   const system = '你是優惠情報提取器。從官方頁面文字中找出具體的優惠：免費方案或免費額度、免費試用、限時折扣或促銷、新戶獎勵、回饋、空投或積分活動、學生或教育優惠。一般的付費方案與定價不是優惠，不要列出；年繳比月繳便宜這種常態價差也不算。只提取頁面上明確寫著的內容，不要推測、不要編造數字；頁面看不到的資訊填 null。若頁面沒有明確優惠，回傳 []。所有文字用繁體中文。';
-  const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱，必須含品牌或產品名，例如「Suno 免費方案」，不要只寫「免費方案」）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請）、regions（適用地區，字串或字串陣列）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、steps（參與步驟，字串陣列）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
+  const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱，必須含品牌或產品名，例如「Suno 免費方案」，不要只寫「免費方案」）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請；頁面沒有明確寫到就填 null，不要用常識補充，例如不要自己寫「免費註冊即可」）、regions（適用地區，字串或字串陣列；頁面沒有明確寫到就填 null，不要因為是網路服務就寫「全球」）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、steps（參與步驟，字串陣列）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
   const known = (existing || []).filter(Boolean).slice(0, 20);
   const knownNote = known.length ? '\n這個頁面已經收錄了下列優惠（不要重複列出，也不要把它們拆成多條）：' + known.join('；') : '';
   const r = await llmChat(apiKey, system, user + knownNote, LLM.maxTokens);
@@ -229,7 +229,8 @@ export function evaluateReview(deal, source, pageText, parsed, today, nowISO) {
   if (Number.isFinite(usd) && usd > 0 && quoteOk) {
     valueEstimate = {twd: Math.round(usd * FX_TWD_PER_USD), basis: 'explicit-amount', usd, quote: amountQuote.slice(0, 240), note: '頁面原文有明確金額，依 1 USD ≈ ' + FX_TWD_PER_USD + ' TWD 換算', confidence: 'high'};
   } else if (Number.isFinite(guess) && guess > 0 && guess <= MAX_ESTIMATE_TWD) {
-    valueEstimate = {twd: Math.round(guess), basis: 'ai-estimate', note: basisText || 'AI 推測，頁面沒有明確金額', confidence};
+    // 推測沒有原文可驗證，模型自評的 high 不採信，最高只給 medium
+    valueEstimate = {twd: Math.round(guess), basis: 'ai-estimate', note: basisText || 'AI 推測，頁面沒有明確金額', confidence: confidence === 'high' ? 'medium' : confidence};
   } else if (Number.isFinite(usd) && usd > 0 && usd * FX_TWD_PER_USD <= MAX_ESTIMATE_TWD) {
     valueEstimate = {twd: Math.round(usd * FX_TWD_PER_USD), basis: 'ai-estimate', usd, note: '金額沒有在頁面原文逐字找到，僅供參考；' + basisText, confidence: 'low'};
   }
