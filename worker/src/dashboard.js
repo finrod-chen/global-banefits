@@ -2,12 +2,13 @@
  * GLOBAL DEAL RADAR 看板網頁（Worker 的 GET /）
  * 純伺服器端渲染 + 一小段前端篩選腳本；沒有外部資源，關掉 JS 也能看到全部條目。
  * 版面：統計列 → 篩選列（專區分頁、搜尋、排序）→ 票券式優惠卡 → 掃描報告與歸檔。
+ * 狀態有三種：已核實（人工放行）、AI 預審通過（程式比對過原文，但沒人看過）、待核實。
  * 管理模式：頁尾輸入 ADMIN_TOKEN（只存在這台瀏覽器的 localStorage）後，待核實的卡片會出現
  * 「核實通過／退回」，頁首出現「立即掃描」；實際權限檢查在 index.js 的 POST 端點，
  * 這些操作是去觸發 GitHub Actions，所以按下後要等約 1 分鐘資料才會更新。
  */
 
-import {CATEGORY_LABEL} from './core.mjs';
+import {CATEGORY_LABEL, REVIEW_FIELD_LABEL} from './core.mjs';
 
 const DAY = 86400000;
 const CHANGE_LABEL = {
@@ -37,11 +38,50 @@ function fmtTaipei(iso) {
 function valueOf(d) {
   const v = d.value || {};
   if (v.valueTWD) return {big: 'TWD ' + Number(v.valueTWD).toLocaleString('en-US'), cap: '估算價值', sort: Number(v.valueTWD)};
+  const e = d.valueEstimate;
+  if (e && Number(e.twd) > 0) {
+    return {big: '≈ TWD ' + Number(e.twd).toLocaleString('en-US'), cap: e.basis === 'explicit-amount' ? 'AI 估（依原文金額）' : 'AI 估（推測）', sort: Number(e.twd), est: Number(e.twd)};
+  }
   if (v.amountUSD) return {big: 'USD ' + Number(v.amountUSD).toLocaleString('en-US'), cap: '官方面額', sort: Number(v.amountUSD) * 32};
   if (String(v.note || '').indexOf('待評估') === 0 || !v.type) return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true};
   if (v.type === 'free') return {big: '免費', cap: '價值視使用而定', sort: 0};
   return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true};
 }
+const FLAG_LABEL = {
+  'regular-pricing': '疑似常態定價，不是促銷',
+  'kind-unclear': 'AI 無法判斷是否為促銷',
+  'domain-mismatch': '連結網域與來源頁不同',
+  'expired': '截止日已過',
+  'quote-missing': '部分論點在頁面上找不到原文依據'
+};
+function flagTexts(rv) {
+  const out = [];
+  for (const f of (rv && rv.flags) || []) {
+    if (f === 'numbers-missing') out.push('摘要裡的數字 ' + ((rv.numbersMissing || []).join('、') || '—') + ' 在頁面上找不到');
+    else if (FLAG_LABEL[f]) out.push(FLAG_LABEL[f]);
+  }
+  return out;
+}
+function reviewLine(rv) {
+  if (!rv || !rv.coverage) return '<p class="ailine">AI 預審：尚未進行</p>';
+  const problems = flagTexts(rv);
+  return '<p class="ailine' + (rv.passed ? ' ok' : ' warn') + '">AI 預審：原文對照 ' + esc(rv.coverage.found) + '/' + esc(rv.coverage.total) +
+    (problems.length ? '　' + problems.map(esc).join('；') : '，數字、網域與截止日都符合') + '</p>';
+}
+function reviewDetail(rv, e) {
+  let html = '';
+  if (rv && Array.isArray(rv.claims) && rv.claims.length) {
+    html += '<dt>AI 預審的原文依據</dt><dd><ul class="claims">' + rv.claims.map(c =>
+      '<li class="' + (c.found ? 'yes' : 'no') + '"><b>' + (c.found ? '✓' : '✗') + ' ' + esc(REVIEW_FIELD_LABEL[c.field] || c.field) + '</b>' +
+      (c.found ? '：「' + esc(c.quote) + '」' : '：頁面上找不到對應原文') + '</li>').join('') + '</ul>' +
+      (rv.kindReason ? '<span class="muted">AI 判斷：' + esc(rv.kindReason) + '</span>' : '') + '</dd>';
+  }
+  if (e && Number(e.twd) > 0) {
+    html += '<dt>AI 估值依據（信心 ' + esc(e.confidence || 'low') + '）</dt><dd>' + esc(e.note || '') + (e.quote ? '<br><span class="muted">原文：「' + esc(e.quote) + '」</span>' : '') + '</dd>';
+  }
+  return html;
+}
+
 function deadlineOf(d, todayISO) {
   if (d.ongoing === true) return {text: '長期活動', days: null};
   if (!d.endDate) return {text: '截止日未知', days: null};
@@ -56,7 +96,9 @@ function cardHtml(d, todayISO, recentISO) {
   const url = safeUrl(d.officialUrl);
   const v = valueOf(d);
   const dl = deadlineOf(d, todayISO);
-  const verified = d.status === 'verified';
+  const status = d.status === 'verified' ? 'verified' : (d.status === 'ai-reviewed' ? 'ai-reviewed' : 'pending');
+  const verified = status === 'verified';
+  const rv = d.review && typeof d.review === 'object' ? d.review : null;
   const soon = dl.days !== null && dl.days >= 0 && dl.days <= 14;
   const recent = !!(d.lastVerified && d.lastVerified >= recentISO);
   const regions = Array.isArray(d.regions) ? d.regions.join('、') : String(d.regions || '');
@@ -69,24 +111,28 @@ function cardHtml(d, todayISO, recentISO) {
     d.requirements ? '<dt>參與條件</dt><dd>' + esc(d.requirements) + '</dd>' : '',
     steps.length ? '<dt>參與步驟</dt><dd><ol>' + steps.map(s => '<li>' + esc(s) + '</li>').join('') + '</ol></dd>' : '',
     d.risks ? '<dt>風險提示</dt><dd>' + esc(d.risks) + '</dd>' : '',
-    d.source ? '<dt>資訊來源</dt><dd>' + esc(d.source) + '</dd>' : ''
+    d.source ? '<dt>資訊來源</dt><dd>' + esc(d.source) + '</dd>' : '',
+    reviewDetail(rv, d.valueEstimate)
   ].join('');
-  return '<article class="ticket' + (verified ? '' : ' is-pending') + '" data-id="' + esc(d.id) + '" data-cat="' + esc(d.category) + '" data-verified="' + (verified ? 1 : 0) +
+  const badge = verified ? '<span class="badge ok">已核實</span>' : (status === 'ai-reviewed' ? '<span class="badge ai">AI 預審通過</span>' : '<span class="badge wait">待核實</span>');
+  const warnBadge = !verified && rv && (rv.flags || []).indexOf('regular-pricing') >= 0 ? '<span class="badge hot">疑似常態定價</span>' : '';
+  return '<article class="ticket' + (verified ? '' : (status === 'ai-reviewed' ? ' is-ai' : ' is-pending')) + '" data-id="' + esc(d.id) + '" data-status="' + status + '" data-est="' + (v.est || '') + '" data-cat="' + esc(d.category) + '" data-verified="' + (verified ? 1 : 0) +
     '" data-recent="' + (recent ? 1 : 0) + '" data-soon="' + (soon ? 1 : 0) + '" data-value="' + v.sort + '" data-days="' + (dl.days === null ? 99999 : dl.days) +
     '" data-checked="' + esc(d.lastVerified || '') + '" data-text="' + esc(text) + '">' +
     '<div class="body">' +
       '<p class="tags"><span class="cat">' + esc(CATEGORY_LABEL[d.category] || d.category) + '</span>' +
-        '<span class="badge ' + (verified ? 'ok' : 'wait') + '">' + (verified ? '已核實' : '待核實') + '</span>' +
+        badge + warnBadge +
         (soon ? '<span class="badge hot">即將截止</span>' : '') + '</p>' +
       '<h3>' + title + '</h3>' +
       '<p class="summary">' + esc(d.summary) + '</p>' +
-      '<p class="meta">' + [regions ? esc(regions) : '', d.lastVerified ? '核實於 ' + esc(d.lastVerified) : '', url ? esc(hostOf(url)) : ''].filter(Boolean).join('<i></i>') + '</p>' +
+      '<p class="meta">' + [regions ? esc(regions) : '', d.lastVerified ? (verified ? '核實於 ' : '提取於 ') + esc(d.lastVerified) : '', url ? esc(hostOf(url)) : ''].filter(Boolean).join('<i></i>') + '</p>' +
+      (verified ? '' : reviewLine(rv)) +
       (detail ? '<details><summary>條件、步驟與風險</summary><dl>' + detail + '</dl></details>' : '') +
       (verified ? '' : '<p class="review admin-only"><button type="button" data-act="verify">核實通過</button><button type="button" data-act="reject">退回</button></p>') +
     '</div>' +
     '<div class="stub">' +
       '<p class="cap">' + esc(v.cap) + '</p>' +
-      '<p class="value' + (v.dim ? ' dim' : '') + '">' + esc(v.big) + '</p>' +
+      '<p class="value' + (v.dim ? ' dim' : '') + (v.est ? ' est' : '') + '">' + esc(v.big) + '</p>' +
       '<p class="deadline' + (soon ? ' hot' : '') + '">' + esc(dl.text) + '</p>' +
       (url ? '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">前往官方頁面 <span aria-hidden="true">→</span></a>' : '') +
     '</div>' +
@@ -106,20 +152,22 @@ function scanHtml(lastRun, archive) {
   const aiLine = ai
     ? (ai.noKey ? 'AI 提取未啟用（未設定 LLM_API_KEY）' : 'AI 提取：處理 ' + ai.attempted + ' 個來源，產出 ' + ai.extracted + ' 條草稿' + (ai.deferred ? '，佇列 ' + ai.deferred : '') + (ai.errors && ai.errors.length ? '，錯誤 ' + ai.errors.length : ''))
     : '';
+  const rvs = lastRun.aiReview;
+  const aiReviewLine = rvs && !(ai && ai.noKey) ? '；AI 預審：處理 ' + rvs.attempted + ' 條，通過 ' + rvs.passed + ' 條，有疑慮 ' + rvs.flagged + ' 條' + (rvs.errors && rvs.errors.length ? '，錯誤 ' + rvs.errors.length : '') : '';
   const nt = lastRun.notification;
   const ntLine = nt ? (nt.sent ? '已發送通知。' : (nt.error ? '通知失敗：' + nt.error + '。' : (nt.reason || '') + '。')) : '';
   const arch = (archive || []).slice(-30).reverse().map(d => '<li>' + esc(d.name) + '<span class="muted">　' + esc(d.archiveReason || '') + ' · ' + esc(String(d.archivedAt || '').slice(0, 10)) + '</span></li>').join('');
   return '<section class="panel"><h2>掃描報告</h2>' +
-    '<p class="muted">最近一輪 ' + esc(fmtTaipei(lastRun.at)) + '（台北時間）：檢查 ' + (s.sourcesChecked || 0) + ' 個來源，' + (s.changed || 0) + ' 個有變更，' + (s.fetchFailed || 0) + ' 個擷取失敗。' + esc(aiLine) + (aiLine ? '。' : '') + esc(ntLine) + '</p>' +
+    '<p class="muted">最近一輪 ' + esc(fmtTaipei(lastRun.at)) + '（台北時間）：檢查 ' + (s.sourcesChecked || 0) + ' 個來源，' + (s.changed || 0) + ' 個有變更，' + (s.fetchFailed || 0) + ' 個擷取失敗。' + esc(aiLine + aiReviewLine) + (aiLine ? '。' : '') + esc(ntLine) + '</p>' +
     (rows ? '<details><summary>各來源結果（' + (lastRun.results || []).length + '）</summary><div class="scroll"><table><thead><tr><th>來源</th><th>類別</th><th>結果</th><th class="num">HTTP</th></tr></thead><tbody>' + rows + '</tbody></table></div></details>' : '') +
     '<details><summary>已結束活動（' + (archive || []).length + '）</summary>' + (arch ? '<ul class="arch">' + arch + '</ul>' : '<p class="muted">歸檔目前為空。</p>') + '</details>' +
     '</section>';
 }
 
 const CSS = `
-:root{--bg:#f4f1ea;--surface:#fffdf8;--ink:#1c1a17;--muted:#6b655c;--line:#ddd6c8;--accent:#b8400f;--accent-ink:#fff;--ok:#1f7a4d;--ok-bg:#e3f1e8;--wait:#8a5a00;--wait-bg:#f6ebcf;--hot:#b3261e;--hot-bg:#f9e2df;--chip:#ebe6da;
+:root{--bg:#f4f1ea;--surface:#fffdf8;--ink:#1c1a17;--muted:#6b655c;--line:#ddd6c8;--accent:#b8400f;--accent-ink:#fff;--ok:#1f7a4d;--ok-bg:#e3f1e8;--wait:#8a5a00;--wait-bg:#f6ebcf;--hot:#b3261e;--hot-bg:#f9e2df;--chip:#ebe6da;--ai:#2b5fb8;--ai-bg:#e2ebf9;
 --sans:"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
-@media (prefers-color-scheme:dark){:root{--bg:#141311;--surface:#1d1b18;--ink:#ece7dc;--muted:#a39c8f;--line:#37332c;--accent:#f08a4b;--accent-ink:#1c1206;--ok:#6cc79a;--ok-bg:#1c3327;--wait:#e2b655;--wait-bg:#3a2f14;--hot:#f2877f;--hot-bg:#402120;--chip:#2a2722}}
+@media (prefers-color-scheme:dark){:root{--bg:#141311;--surface:#1d1b18;--ink:#ece7dc;--muted:#a39c8f;--line:#37332c;--accent:#f08a4b;--accent-ink:#1c1206;--ok:#6cc79a;--ok-bg:#1c3327;--wait:#e2b655;--wait-bg:#3a2f14;--hot:#f2877f;--hot-bg:#402120;--chip:#2a2722;--ai:#8db4f0;--ai-bg:#1b2a44}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.65 var(--sans);-webkit-text-size-adjust:100%}
 a{color:inherit}
@@ -131,12 +179,12 @@ header.top{padding:36px 0 20px;display:flex;gap:16px;align-items:center;flex-wra
 .brand h1{margin:6px 0 0;font-size:26px;line-height:1.2;letter-spacing:.02em;text-wrap:balance}
 .pulse{font-size:13px;color:var(--muted);text-align:right}
 .pulse b{display:block;color:var(--ink);font:600 15px/1.5 var(--mono);font-variant-numeric:tabular-nums}
-.stats{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
+.stats{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
 .stats div{padding:14px 16px;border-left:1px solid var(--line)}
 .stats div:first-child{border-left:0}
 .stats dt{font-size:12px;color:var(--muted)}
 .stats dd{margin:2px 0 0;font:600 26px/1.2 var(--mono);font-variant-numeric:tabular-nums}
-.stats .ok dd{color:var(--ok)}.stats .wait dd{color:var(--wait)}.stats .hot dd{color:var(--hot)}
+.stats .ai dd{color:var(--ai)}.stats .ok dd{color:var(--ok)}.stats .wait dd{color:var(--wait)}.stats .hot dd{color:var(--hot)}
 .bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 12px;margin-top:14px;border-bottom:1px solid var(--line)}
 .tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
 .tabs::-webkit-scrollbar{display:none}
@@ -154,6 +202,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,su
 .ticket{display:grid;grid-template-columns:minmax(0,1fr) 220px;background:var(--surface);border:1px solid var(--line);border-radius:14px;position:relative}
 .ticket[hidden]{display:none}
 .ticket.is-pending{border-style:dashed}
+.ticket.is-ai{border-style:dashed;border-color:var(--ai)}
 .body{padding:18px 22px;min-width:0}
 .stub{padding:18px 20px;border-left:2px dashed var(--line);display:flex;flex-direction:column;justify-content:center;gap:2px;position:relative}
 .stub:before,.stub:after{content:"";position:absolute;left:-10px;width:18px;height:18px;border-radius:50%;background:var(--bg);border:1px solid var(--line)}
@@ -162,7 +211,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,su
 .tags{margin:0 0 6px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .cat{font:600 11px/1 var(--mono);letter-spacing:.08em;color:var(--muted);margin-right:4px}
 .badge{font-size:12px;line-height:1;padding:4px 8px;border-radius:6px}
-.badge.ok{color:var(--ok);background:var(--ok-bg)}.badge.wait{color:var(--wait);background:var(--wait-bg)}.badge.hot{color:var(--hot);background:var(--hot-bg)}
+.badge.ai{color:var(--ai);background:var(--ai-bg)}.badge.ok{color:var(--ok);background:var(--ok-bg)}.badge.wait{color:var(--wait);background:var(--wait-bg)}.badge.hot{color:var(--hot);background:var(--hot-bg)}
 .ticket h3{margin:0;font-size:18px;line-height:1.4;text-wrap:pretty}
 .ticket h3 a{text-decoration:none}
 .ticket h3 a:hover{text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:4px}
@@ -176,8 +225,11 @@ dl{margin:10px 0 0;font-size:14px}
 dl dt{font-size:12px;color:var(--muted);margin-top:10px}
 dl dd{margin:2px 0 0;max-width:66ch}
 dl ol{margin:0;padding-left:20px}
+.ailine{margin:8px 0 0;font-size:13px;color:var(--muted)}.ailine.ok{color:var(--ai)}.ailine.warn{color:var(--wait)}
+.claims{margin:0;padding:0;list-style:none;font-size:13px}.claims li{margin:4px 0;overflow-wrap:anywhere}.claims .yes b{color:var(--ok)}.claims .no b{color:var(--hot)}
 .cap{margin:0;font-size:12px;color:var(--muted)}
 .value{margin:0;font:700 24px/1.25 var(--mono);font-variant-numeric:tabular-nums;color:var(--accent);overflow-wrap:anywhere}
+.value.est{color:var(--ai)}
 .value.dim{color:var(--muted);font-family:var(--sans);font-weight:600;font-size:20px}
 .deadline{margin:4px 0 0;font-size:13px;color:var(--muted)}
 .deadline.hot{color:var(--hot);font-weight:600}
@@ -209,7 +261,7 @@ button.link{font:inherit;color:var(--ink);background:none;border:0;padding:0;tex
 footer a{color:var(--ink)}
 @media (max-width:720px){
 header.top{padding-top:24px}.brand h1{font-size:22px}.pulse{text-align:left;width:100%}
-.stats{grid-template-columns:repeat(2,1fr)}.stats div{border-left:0;border-top:1px solid var(--line)}.stats div:nth-child(-n+2){border-top:0}.stats div:nth-child(even){border-left:1px solid var(--line)}.stats div:last-child{grid-column:1/-1}
+.stats{grid-template-columns:repeat(2,1fr)}.stats div{border-left:0;border-top:1px solid var(--line)}.stats div:nth-child(-n+2){border-top:0}.stats div:nth-child(even){border-left:1px solid var(--line)}.stats div:last-child:nth-child(odd){grid-column:1/-1}
 .ticket{grid-template-columns:1fr}.body{padding:16px}
 .stub{border-left:0;border-top:2px dashed var(--line);padding:14px 16px 16px;display:grid;grid-template-columns:1fr auto;align-items:end;column-gap:12px}
 .stub:before,.stub:after{top:-10px;bottom:auto;clip-path:inset(0 0 0 50%)}.stub:after{left:auto;right:-10px;clip-path:inset(0 50% 0 0)}
@@ -223,13 +275,13 @@ const SCRIPT = `
 (function(){
 var list=document.getElementById('list'),cards=[].slice.call(list.querySelectorAll('.ticket')),
 tabs=[].slice.call(document.querySelectorAll('.tabs button')),q=document.getElementById('q'),
-only=document.getElementById('only'),sort=document.getElementById('sort'),empty=document.getElementById('empty'),
+st=document.getElementById('st'),sort=document.getElementById('sort'),empty=document.getElementById('empty'),
 count=document.getElementById('count'),tab='all';
 function match(c){
 if(tab==='recent'&&c.dataset.recent!=='1')return false;
 if(tab==='soon'&&c.dataset.soon!=='1')return false;
 if(tab!=='all'&&tab!=='recent'&&tab!=='soon'&&c.dataset.cat!==tab)return false;
-if(only.checked&&c.dataset.verified!=='1')return false;
+if(st.value!=='all'&&c.dataset.status!==st.value)return false;
 var t=q.value.trim().toLowerCase();
 return !t||c.dataset.text.indexOf(t)>=0;}
 function apply(){
@@ -242,7 +294,7 @@ return b.dataset.value-a.dataset.value||b.dataset.verified-a.dataset.verified;
 empty.hidden=shown>0;count.textContent='顯示 '+shown+' / '+cards.length+' 條';
 tabs.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.tab===tab?'true':'false');});}
 tabs.forEach(function(b){b.addEventListener('click',function(){tab=b.dataset.tab;try{history.replaceState(null,'','#'+tab);}catch(e){}apply();});});
-[q,only,sort].forEach(function(el){el.addEventListener('input',apply);});
+[q,st,sort].forEach(function(el){el.addEventListener('input',apply);});
 var msg=document.getElementById('msg'),adminBtn=document.getElementById('admin'),token='';
 try{token=localStorage.getItem('dealRadarAdminToken')||'';}catch(e){}
 function setAdmin(t){token=t;try{t?localStorage.setItem('dealRadarAdminToken',t):localStorage.removeItem('dealRadarAdminToken');}catch(e){}
@@ -256,7 +308,7 @@ call('/api/scan').then(function(j){msg.className='ok';msg.textContent=j.message|
 list.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(!b)return;
 var card=b.closest('.ticket'),act=b.dataset.act,body={};
 if(act==='reject'&&!confirm('退回這條草稿並歸檔？'))return;
-if(act==='verify'){var v=prompt('已對照官方頁面確認內容無誤。估算價值（新台幣，可留空）','');if(v===null)return;if(v.trim())body.valueTWD=Number(v.replace(/[^0-9.]/g,''));}
+if(act==='verify'){var est=card.dataset.est||'';var v=prompt('已對照官方頁面確認內容無誤。價值（新台幣）'+(est?'：已帶入 AI 估值，可直接放行或修改':'，可留空'),est);if(v===null)return;if(v.trim())body.valueTWD=Number(v.replace(/[^0-9.]/g,''));}
 b.disabled=true;
 call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(j){msg.className='ok';msg.textContent=j.message||'已送出';var r=card.querySelector('.review');if(r)r.textContent='已送出，約 1 分鐘後更新';}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
 setAdmin(token);
@@ -273,6 +325,7 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
     .sort((a, b) => valueOf(b).sort - valueOf(a).sort || (b.status === 'verified') - (a.status === 'verified'));
   const cards = active.map(d => cardHtml(d, todayISO, recentISO));
   const verified = active.filter(d => d.status === 'verified').length;
+  const aiOk = active.filter(d => d.status === 'ai-reviewed').length;
   const isSoon = d => { const x = deadlineOf(d, todayISO).days; return x !== null && x >= 0 && x <= 14; };
   const soon = active.filter(isSoon).length;
   const recent = active.filter(d => d.lastVerified && d.lastVerified >= recentISO).length;
@@ -293,16 +346,17 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
       '<div class="brand"><small>GLOBAL DEAL RADAR</small><h1>全球好康情報中心</h1></div>' +
       '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新<button type="button" id="scan" class="admin-only">立即掃描</button></p>' +
     '</header>' +
-    '<dl class="stats">' + stat('', '有效優惠', active.length) + stat('ok', '已核實', verified) + stat('wait', '待核實', active.length - verified) +
+    '<dl class="stats">' + stat('', '有效優惠', active.length) + stat('ok', '已核實', verified) + stat('ai', 'AI 預審通過', aiOk) + stat('wait', '待核實', active.length - verified - aiOk) +
       stat('hot', '14 天內截止', soon) + stat('', '監控來源', sources === null || sources === undefined ? '—' : sources) + '</dl>' +
     '<div class="bar"><nav class="tabs" aria-label="專區">' + tabs + '</nav>' +
       '<div class="tools"><input id="q" type="search" placeholder="搜尋名稱、內容、地區" aria-label="搜尋優惠">' +
       '<select id="sort" aria-label="排序"><option value="value">價值高到低</option><option value="days">截止日近到遠</option><option value="checked">最近核實</option></select>' +
-      '<label><input id="only" type="checkbox"> 只看已核實</label><span class="muted" id="count" aria-live="polite"></span></div></div>' +
+      '<select id="st" aria-label="狀態"><option value="all">所有狀態</option><option value="verified">已核實</option><option value="ai-reviewed">AI 預審通過</option><option value="pending">待核實</option></select>' +
+      '<span class="muted" id="count" aria-live="polite"></span></div></div>' +
     '<main><div class="list" id="list">' + cards.join('') + '</div>' +
       '<div class="empty" id="empty"' + (cards.length ? ' hidden' : '') + '><b>這裡目前沒有條目</b>寧缺勿濫：只收官方頁面核對過的優惠，等掃描與核實流程填充。</div>' +
       scanHtml(lastRun, archive) + '</main>' +
-    '<footer>原則：不編造優惠。待核實的條目是 AI 從官方頁面提取的草稿，數字與條件請以官方頁面為準。　' +
+    '<footer>原則：不編造優惠。只有「已核實」是人工放行的；「AI 預審通過」是程式比對過頁面原文，但沒有人看過；AI 估值是推測，請以官方頁面為準。　' +
       (meta && meta.repo ? '資料來自 <a href="https://github.com/' + esc(meta.repo) + '">' + esc(meta.repo) + '</a>（GitHub Actions 每 2 小時掃描並提交）。' : '') +
       (meta && meta.stale ? '<strong>暫時讀不到 GitHub，顯示的是上一份資料。</strong>' : '') + '　資料：<a href="/api/deals">/api/deals</a>　<a href="/api/archive">/api/archive</a>　<a href="/api/last-run">/api/last-run</a>　<button type="button" id="admin" class="link">管理模式</button><span id="msg" role="status"></span></footer>' +
     '</div><script>' + SCRIPT + '</script></body></html>';
