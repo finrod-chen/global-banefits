@@ -1,0 +1,89 @@
+[
+  {
+    "id": "oracle-cloud-free-tier",
+    "name": "Oracle Cloud 免费层：300 美元试用金 + Always Free 永久免费资源",
+    "category": "vps-cloud",
+    "summary": "注册 Oracle Cloud 免费层：30 天内可用的 300 美元云端额度；30 天后不升级也保留 Always Free 永久免费资源（AMD 小型 VM、Arm 4 核 24GB 额度、数据库、存储等，以官方页面清单为准）。",
+    "value": {
+      "type": "credit",
+      "amountUSD": 300,
+      "valueTWD": 9600,
+      "note": "约新台币 9,600 元（按 1 USD 约换 32 TWD 估算）；Always Free 部分长期免费"
+    },
+    "requirements": "需以信用卡完成验证（不扣款）；同一身份限一组免费层账号；部分资源受容量限制",
+    "regions": [
+      "全球多数国家与地区（含台湾）"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "打开官方页面 oracle.com/cloud/free/",
+      "注册账号并完成信用卡验证",
+      "进入 Console 开通 Trial 与 Always Free 资源"
+    ],
+    "officialUrl": "https://www.oracle.com/cloud/free/",
+    "source": "Oracle 官网 Free Tier 页面（2026-11-10 开页核对：US$300 / 30 天 / Always Free 表述均在页面）",
+    "lastVerified": "2026-11-10",
+    "risks": "需绑卡验证；30 天后若不升级为 Pay As You Go，付费资源会被停用但 Always Free 保留；升级后超出免费额度的用量会扣款",
+    "status": "verified"
+  },
+  {
+    "id": "gcp-free-trial",
+    "name": "Google Cloud 免费试用：300 美元抵免额（90 天）+ 免费方案",
+    "category": "vps-cloud",
+    "summary": "新用户注册 Google Cloud 免费试用，获得 300 美元迎新抵免额，90 天内可用；另有每月限额的永久免费方案。试用期间不会自动收费、无需绑约。",
+    "value": {
+      "type": "credit",
+      "amountUSD": 300,
+      "valueTWD": 9600,
+      "note": "约新台币 9,600 元（按 1 USD 约换 32 TWD 估算）"
+    },
+    "requirements": "从未付费使用过 Google Cloud / Google Maps Platform / Firebase；从未申请过免费试用；需提供有效信用卡（验证用，会有 0 到 1 美元临时预授权）",
+    "regions": [
+      "可用地区以官方页面为准（含台湾）"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "打开官方说明页 cloud.google.com/free/docs/free-cloud-features",
+      "点「免费试用」注册并通过身份与付款验证",
+      "在 90 天内使用抵免额；到期未升级则资源停止"
+    ],
+    "officialUrl": "https://cloud.google.com/free/docs/free-cloud-features",
+    "source": "Google Cloud 官方说明页（2026-11-10 开页核对：300 美元 / 90 天 / 不自动收费，页面更新于 2026-10-27）",
+    "lastVerified": "2026-11-10",
+    "risks": "300 美元抵免额不适用于 Gemini API、模型即服务、Marketplace、GPU 等；90 天内未升级为付费账号，项目与资源会停止；升级后超出抵免额的用量会计费",
+    "status": "verified"
+  },
+  {
+    "id": "github-student-pack",
+    "name": "GitHub Student Developer Pack（学生开发者大礼包）",
+    "category": "software",
+    "summary": "经学校身份验证的学生可免费获得数十项开发者工具与额度，包括 GitHub Copilot、Codespaces、云服务抵免额、域名、IDE 授权等（以官方页面当前合作方清单为准）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "免费；总价值取决于实际使用的合作方优惠，官方未给单一数字，不自行估算"
+    },
+    "requirements": "年满 13 岁的在学学生，需可验证学校身份（学籍文件或学校邮箱）；每段学业限领一次",
+    "regions": [
+      "全球（含台湾，学校需在 GitHub Education 可验证名单）"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "打开 education.github.com/pack",
+      "点 Sign up for Student Developer Pack",
+      "提交学校身份证明，等待审核通过"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "GitHub Education 官方页面（2026-11-10 开页核对：页面与报名入口正常）",
+    "lastVerified": "2026-11-10",
+    "risks": "身份审核可能要求补件；部分合作方优惠有各自的地区或时间限制；毕业或身份失效后优惠会被收回",
+    "status": "verified"
+  }
+]
