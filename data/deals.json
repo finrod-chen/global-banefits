@@ -209,9 +209,9 @@
     "summary": "選擇年繳方案比月繳價格更便宜。Pro 方案年繳每月 $8（原價 $10），Premier 方案年繳每月 $24（原價 $30）。",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 24,
+      "valueTWD": 768,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "需一次性支付一年費用並自動續約。",
     "regions": [
@@ -225,10 +225,10 @@
       "選擇 Pro 或 Premier 方案並完成付款"
     ],
     "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-10T20:12:05.823Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，提取時間 2026-11-10T20:12:05.823Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "訂閱會自動續約，需自行設提醒以便在到期前取消，避免產生下一期費用。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T21:07:20.488Z",
       "model": "agnes-3.0-flash",

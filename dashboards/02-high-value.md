@@ -15,10 +15,10 @@
 | [Google AI Pro 贈送 Google Home Premium 標準方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案的用戶可免費享有 Google Home Premium 標準方案（價值 $10/月），包含 30 天 | 約 TWD 3,672 | 長期活動 | 已核實 |
 | [Google AI Pro 與 YouTube Premium 學生組合優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可支付 $8.99/月 取得 Google AI Pro 及 YouTube Premium（單獨購買需 $35.98/月），享有免廣告 | 約 TWD 3,284 | 長期活動 | 已核實 |
 | [Google AI Ultra 贈送 YouTube Premium 個人方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 YouTube Premium 個人方案，包含免廣告、離線與背景播放功能。 | 約 TWD 3,100 | 長期活動 | 已核實 |
+| [年繳折扣（Pro 與 Premier）](https://suno.com/pricing) | AI 工具 | 選擇年繳方案比月繳價格更便宜。Pro 方案年繳每月 $8（原價 $10），Premier 方案年繳每月 $24（原價 $30）。 | 約 TWD 768 | 長期活動 | 已核實 |
 | [GitHub Copilot 免費方案](https://github.com/features/copilot/plans) | AI 工具 | 每月 2,000 次 completions，可存取 Haiku 4.5、GPT-5 mini 等模型、Copilot CLI、社群支援 | 約 TWD 750 | 長期活動 | 已核實 |
 | [Google AI Ultra 贈送 Google Home Premium 進階方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 Google Home Premium 進階方案（價值 $20/月），包含 24 | 約 TWD 640 | 長期活動 | 已核實 |
 | [Suno 免費方案](https://suno.com/pricing) | AI 工具 | 每月 $0，提供每日 50 次額度（credits）、存取免費模型、上傳最長 8 分鐘音訊、使用共享創作佇列。 | 約 TWD 600 | 長期活動 | 已核實 |
 | [Free 免費方案](https://www.anthropic.com/pricing) | AI 工具 | 每月 $0，所有人皆可免費使用。限制使用量：每 5 小時及每週皆有使用量限制。功能包含：網路、桌面與行動端聊天、網頁搜尋、建立檔案與執行程式 | 約 TWD 320 | 長期活動 | 已核實 |
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [年繳折扣（Pro 與 Premier）](https://suno.com/pricing) | AI 工具 | 選擇年繳方案比月繳價格更便宜。Pro 方案年繳每月 $8（原價 $10），Premier 方案年繳每月 $24（原價 $30）。 | 約 TWD 768（AI 估） | 長期活動 | 待核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
