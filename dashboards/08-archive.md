@@ -1,5 +1,6 @@
-# H. 已结束活动档案
-> 本文件由 scripts/build-dashboards.mjs 自动生成，数据来源 data/deals.json。
-> 生成时间：2026-11-10T00:15:40.555Z（UTC）。手动编辑会被下一轮覆盖，要改内容请改数据文件。
+# H. 已結束活動檔案
+> 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
+> 產生時間：2026-11-10T00:51:07.242Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
-归档目前为空。
+歸檔目前為空。
+
