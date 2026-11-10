@@ -1,20 +1,20 @@
 {
-  "at": "2026-11-10T17:32:40.655Z",
+  "at": "2026-11-10T20:10:48.032Z",
   "summary": {
     "sourcesChecked": 19,
-    "changed": 0,
-    "fetchFailed": 6,
-    "activeDeals": 3,
-    "pending": 0,
+    "changed": 10,
+    "fetchFailed": 7,
+    "activeDeals": 9,
+    "pending": 6,
     "archived": 0
   },
   "aiExtraction": {
-    "attempted": 0,
-    "extracted": 0,
+    "attempted": 5,
+    "extracted": 6,
     "duplicateSkipped": 0,
-    "deferred": 13,
+    "deferred": 8,
     "errors": [],
-    "noKey": true
+    "noKey": false
   },
   "needsReview": [
     {
@@ -22,7 +22,7 @@
       "category": "ai",
       "name": "OpenAI ChatGPT 定價頁",
       "url": "https://openai.com/chatgpt/pricing/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 9973,
       "error": "HTTP 403",
@@ -33,21 +33,21 @@
       "category": "ai",
       "name": "Anthropic Claude 定價頁",
       "url": "https://www.anthropic.com/pricing",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 1325176,
-      "hash": "3fdd6f5ad95623ea",
+      "bytes": 1345446,
+      "hash": "8143622db4a10f18",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "gemini-plans",
       "category": "ai",
       "name": "Google One AI 方案",
       "url": "https://one.google.com/about/ai-plans/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 404,
       "bytes": 1707,
       "error": "HTTP 404",
@@ -58,7 +58,7 @@
       "category": "ai",
       "name": "Midjourney 訂閱文件",
       "url": "https://docs.midjourney.com/hc/en-us",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 5679,
       "error": "HTTP 403",
@@ -69,50 +69,49 @@
       "category": "ai",
       "name": "Suno 定價頁",
       "url": "https://suno.com/pricing",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 363432,
-      "hash": "3b23827e2a382d2a",
+      "bytes": 367324,
+      "hash": "6ae037f3ff281fb4",
       "keywordHits": [
         "free",
         "credits"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "copilot-plans",
       "category": "ai",
       "name": "GitHub Copilot 方案",
       "url": "https://github.com/features/copilot/plans",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 1017825,
-      "hash": "33131120582e0755",
+      "bytes": 1017907,
+      "hash": "e8da5370474ef7bb",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "binance-announce",
       "category": "crypto",
       "name": "Binance 官方公告",
       "url": "https://www.binance.com/en/support/announcement",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 202,
       "bytes": 0,
-      "hash": "e3b0c44298fc1c14",
-      "keywordHits": [],
-      "change": "first-seen"
+      "error": "空回應（HTTP 202），可能被擋",
+      "change": "fetch-failed"
     },
     {
       "id": "okx-announce",
       "category": "crypto",
       "name": "OKX 官方公告",
       "url": "https://www.okx.com/help/announcements",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 404,
-      "bytes": 60781,
+      "bytes": 56376,
       "error": "HTTP 404",
       "change": "fetch-failed"
     },
@@ -121,7 +120,7 @@
       "category": "banking",
       "name": "Revolut 官網",
       "url": "https://www.revolut.com/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 818348,
       "error": "HTTP 403",
@@ -132,143 +131,114 @@
       "category": "banking",
       "name": "Wise 官網",
       "url": "https://wise.com/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 904658,
-      "hash": "71c58d08058dc57d",
+      "bytes": 899782,
+      "hash": "d09668b167dddcd4",
       "keywordHits": [
         "promo",
         "cashback"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "oracle-free",
       "category": "vps-cloud",
       "name": "Oracle Cloud Free Tier",
       "url": "https://www.oracle.com/cloud/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 80568,
-      "hash": "000421aed4d51834",
+      "bytes": 80567,
+      "hash": "c5c74fefe0179461",
       "keywordHits": [
         "$300",
         "always free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "aws-free",
       "category": "vps-cloud",
       "name": "AWS Free Tier",
       "url": "https://aws.amazon.com/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 432206,
-      "hash": "3fe58640fa2054b3",
+      "hash": "5df8eec30febac73",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "gcp-free",
       "category": "vps-cloud",
       "name": "Google Cloud 免費試用說明",
       "url": "https://cloud.google.com/free/docs/free-cloud-features",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 181918,
-      "hash": "ebe4fccad7fba2f4",
+      "hash": "3c23ad46dad3534b",
       "keywordHits": [
         "$300",
         "free trial"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "azure-free",
       "category": "vps-cloud",
       "name": "Azure 免費帳戶",
       "url": "https://azure.microsoft.com/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 502102,
-      "hash": "b7a4beaf2cab2a3c",
+      "bytes": 502218,
+      "hash": "f3c3e4a757dabcbf",
       "keywordHits": [
         "credit",
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "cloudflare-plans",
       "category": "vps-cloud",
       "name": "Cloudflare 方案頁",
       "url": "https://www.cloudflare.com/plans/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 714144,
-      "hash": "dabcb10620ab1de1",
+      "hash": "3f6f7f3b37d090d9",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "namecheap-promo",
       "category": "vps-cloud",
       "name": "Namecheap 促銷頁",
       "url": "https://www.namecheap.com/promotions/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 5750,
       "error": "HTTP 403",
       "change": "fetch-failed"
     },
     {
-      "id": "jetbrains-community",
-      "category": "software",
-      "name": "JetBrains 社群與免費授權",
-      "url": "https://www.jetbrains.com/community/",
-      "at": "2026-11-10T17:32:40.655Z",
-      "httpStatus": 200,
-      "bytes": 43512,
-      "hash": "98806bae28c76f70",
-      "keywordHits": [
-        "free",
-        "license"
-      ],
-      "change": "first-seen"
-    },
-    {
       "id": "github-education",
       "category": "software",
       "name": "GitHub 學生包",
       "url": "https://education.github.com/pack",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 271353,
-      "hash": "3c9e104cc31c2e04",
+      "bytes": 271347,
+      "hash": "3c11c1f445346dc9",
       "keywordHits": [
         "student",
         "free"
       ],
-      "change": "first-seen"
-    },
-    {
-      "id": "figma-pricing",
-      "category": "software",
-      "name": "Figma 定價頁",
-      "url": "https://www.figma.com/pricing/",
-      "at": "2026-11-10T17:32:40.655Z",
-      "httpStatus": 200,
-      "bytes": 2580061,
-      "hash": "a29c966299b8f5dc",
-      "keywordHits": [
-        "free"
-      ],
-      "change": "first-seen"
+      "change": "content-changed"
     }
   ],
   "results": [
@@ -277,7 +247,7 @@
       "category": "ai",
       "name": "OpenAI ChatGPT 定價頁",
       "url": "https://openai.com/chatgpt/pricing/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 9973,
       "error": "HTTP 403",
@@ -288,21 +258,21 @@
       "category": "ai",
       "name": "Anthropic Claude 定價頁",
       "url": "https://www.anthropic.com/pricing",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 1325176,
-      "hash": "3fdd6f5ad95623ea",
+      "bytes": 1345446,
+      "hash": "8143622db4a10f18",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "gemini-plans",
       "category": "ai",
       "name": "Google One AI 方案",
       "url": "https://one.google.com/about/ai-plans/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 404,
       "bytes": 1707,
       "error": "HTTP 404",
@@ -313,7 +283,7 @@
       "category": "ai",
       "name": "Midjourney 訂閱文件",
       "url": "https://docs.midjourney.com/hc/en-us",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 5679,
       "error": "HTTP 403",
@@ -324,50 +294,49 @@
       "category": "ai",
       "name": "Suno 定價頁",
       "url": "https://suno.com/pricing",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 363432,
-      "hash": "3b23827e2a382d2a",
+      "bytes": 367324,
+      "hash": "6ae037f3ff281fb4",
       "keywordHits": [
         "free",
         "credits"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "copilot-plans",
       "category": "ai",
       "name": "GitHub Copilot 方案",
       "url": "https://github.com/features/copilot/plans",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 1017825,
-      "hash": "33131120582e0755",
+      "bytes": 1017907,
+      "hash": "e8da5370474ef7bb",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "binance-announce",
       "category": "crypto",
       "name": "Binance 官方公告",
       "url": "https://www.binance.com/en/support/announcement",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 202,
       "bytes": 0,
-      "hash": "e3b0c44298fc1c14",
-      "keywordHits": [],
-      "change": "first-seen"
+      "error": "空回應（HTTP 202），可能被擋",
+      "change": "fetch-failed"
     },
     {
       "id": "okx-announce",
       "category": "crypto",
       "name": "OKX 官方公告",
       "url": "https://www.okx.com/help/announcements",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 404,
-      "bytes": 60781,
+      "bytes": 56376,
       "error": "HTTP 404",
       "change": "fetch-failed"
     },
@@ -376,7 +345,7 @@
       "category": "banking",
       "name": "Revolut 官網",
       "url": "https://www.revolut.com/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 818348,
       "error": "HTTP 403",
@@ -387,95 +356,95 @@
       "category": "banking",
       "name": "Wise 官網",
       "url": "https://wise.com/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 904658,
-      "hash": "71c58d08058dc57d",
+      "bytes": 899782,
+      "hash": "d09668b167dddcd4",
       "keywordHits": [
         "promo",
         "cashback"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "oracle-free",
       "category": "vps-cloud",
       "name": "Oracle Cloud Free Tier",
       "url": "https://www.oracle.com/cloud/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 80568,
-      "hash": "000421aed4d51834",
+      "bytes": 80567,
+      "hash": "c5c74fefe0179461",
       "keywordHits": [
         "$300",
         "always free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "aws-free",
       "category": "vps-cloud",
       "name": "AWS Free Tier",
       "url": "https://aws.amazon.com/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 432206,
-      "hash": "3fe58640fa2054b3",
+      "hash": "5df8eec30febac73",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "gcp-free",
       "category": "vps-cloud",
       "name": "Google Cloud 免費試用說明",
       "url": "https://cloud.google.com/free/docs/free-cloud-features",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 181918,
-      "hash": "ebe4fccad7fba2f4",
+      "hash": "3c23ad46dad3534b",
       "keywordHits": [
         "$300",
         "free trial"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "azure-free",
       "category": "vps-cloud",
       "name": "Azure 免費帳戶",
       "url": "https://azure.microsoft.com/free/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 502102,
-      "hash": "b7a4beaf2cab2a3c",
+      "bytes": 502218,
+      "hash": "f3c3e4a757dabcbf",
       "keywordHits": [
         "credit",
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "cloudflare-plans",
       "category": "vps-cloud",
       "name": "Cloudflare 方案頁",
       "url": "https://www.cloudflare.com/plans/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 714144,
-      "hash": "dabcb10620ab1de1",
+      "hash": "3f6f7f3b37d090d9",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "namecheap-promo",
       "category": "vps-cloud",
       "name": "Namecheap 促銷頁",
       "url": "https://www.namecheap.com/promotions/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 403,
       "bytes": 5750,
       "error": "HTTP 403",
@@ -486,7 +455,7 @@
       "category": "software",
       "name": "JetBrains 社群與免費授權",
       "url": "https://www.jetbrains.com/community/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 43512,
       "hash": "98806bae28c76f70",
@@ -494,40 +463,40 @@
         "free",
         "license"
       ],
-      "change": "first-seen"
+      "change": "unchanged"
     },
     {
       "id": "github-education",
       "category": "software",
       "name": "GitHub 學生包",
       "url": "https://education.github.com/pack",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
-      "bytes": 271353,
-      "hash": "3c9e104cc31c2e04",
+      "bytes": 271347,
+      "hash": "3c11c1f445346dc9",
       "keywordHits": [
         "student",
         "free"
       ],
-      "change": "first-seen"
+      "change": "content-changed"
     },
     {
       "id": "figma-pricing",
       "category": "software",
       "name": "Figma 定價頁",
       "url": "https://www.figma.com/pricing/",
-      "at": "2026-11-10T17:32:40.655Z",
+      "at": "2026-11-10T20:10:48.032Z",
       "httpStatus": 200,
       "bytes": 2580061,
       "hash": "a29c966299b8f5dc",
       "keywordHits": [
         "free"
       ],
-      "change": "first-seen"
+      "change": "unchanged"
     }
   ],
   "notification": {
     "sent": false,
-    "reason": "本輪沒有需要通知的事"
+    "reason": "未設定 Telegram，略過通知"
   }
 }
