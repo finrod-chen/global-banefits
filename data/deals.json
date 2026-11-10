@@ -568,5 +568,368 @@
     "lastVerified": "2026-11-10",
     "risks": "12 個月期限結束後，相關服務將開始按標準付費方案計費。",
     "status": "verified"
+  },
+  {
+    "id": "figma-pricing-20261110-1",
+    "sourceId": "figma-pricing",
+    "name": "Figma Starter 免費方案",
+    "category": "software",
+    "summary": "免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額度）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Figma 定價頁面",
+      "選擇 Starter 方案"
+    ],
+    "officialUrl": "https://www.figma.com/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-10T22:37:22.684Z",
+    "lastVerified": "2026-11-10",
+    "risks": "",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是 Figma 提供的免費 Starter 方案，包含功能與 AI 額度，屬於免費方案類型。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free limited access to Figma products Includes: Unlimited drafts UI kits and templates 150 AI credits/day, up to 500 AI credits/mo",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gemini-plans-20261110-1",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 學生免費優惠",
+    "category": "ai",
+    "summary": "學生可免費獲得 1 年的 Google AI Pro 方案，包含更高的 Gemini 使用額度、24/7 個人 AI 代理以及 5 TB 儲存空間。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是學生身分。",
+    "regions": [
+      "地區供應情況依國家而異"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "確認符合學生資格",
+      "查看並選擇學生方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "lastVerified": "2026-11-10",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為針對特定學生身分提供的免費年度服務期。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students get Google AI Pro free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students get Google AI Pro free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Availability varies by country – see full list of countries and regions where Google AI Pro and YouTube Premium are supported.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gemini-plans-20261110-2",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 與 YouTube Premium 學生組合優惠",
+    "category": "ai",
+    "summary": "學生可支付 $8.99/月 取得 Google AI Pro 及 YouTube Premium（單獨購買需 $35.98/月），享有免廣告影片與音樂。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是學生身分。",
+    "regions": [
+      "地區供應情況依國家而異（YouTube Premium 支援地區）"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "確認符合學生資格",
+      "選擇升級至包含 YouTube Premium 的學生方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "lastVerified": "2026-11-10",
+    "risks": "自動續約",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠針對學生身分提供大幅折扣的組合方案，屬於特定群體的長期價格優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Or, upgrade to get AI Pro and YouTube Premium with ad-free videos and music for just $8.99/mo ($35.98/mo when purchased separately). 12",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students get exclusive offers on Google AI plans",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Availability varies by country – see full list of countries and regions where Google AI Pro and YouTube Premium are supported.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3284,
+      "basis": "ai-estimate",
+      "note": "假設此優惠為學生首年免費後，續約每月 $8.99，一年總計 $107.88，以匯率 1:30.5 估算約為 3290 元，此處保守估算或指第一年的總價值（若包含之前 1 年免費的價值會更高，若僅指後續每月費用的年繳價值則為估算基準）；或依據學生 1 年免費後轉為 $8.99/月，若計算包含 1 年免費後的持續價值，但通常 amount 僅指頁面寫出的價格。若指第一年的價值，因為有「free for 1 year」，第一年價值為 $0（因為免費），但草稿是說「可支付 $8.99/月」，這通常是續約價。為了保守估計「一般使用者」（在此情境下是學生）第一年能得到的價值，若前一年免費，價值極高；但若指",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261110-3",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 贈送 YouTube Premium 個人方案",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案的用戶可免費享有 YouTube Premium 個人方案，包含免廣告、離線與背景播放功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須訂閱 Google AI Ultra 方案。",
+    "regions": [
+      "YouTube Premium 個人方案在超過 40 個國家地區可用"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "lastVerified": "2026-11-10",
+    "risks": "自動續約",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "訂閱 Google AI Ultra 方案即贈送 YouTube Premium 個人方案，屬於新戶或升級方案的額外贈品獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "When you get a Google AI Ultra subscription, you’ll also get a YouTube Premium individual plan for no",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "When you get a Google AI Ultra subscription, you’ll also get a YouTube Premium individual plan for no",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "YouTube Premium individual plan is available in over 40 countries — see full list of countries .",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3100,
+      "basis": "ai-estimate",
+      "note": "頁面未列出 YouTube Premium 的價格，但根據頁面提到的 Google Home Premium Standard 價值為 $10/mo，且 YouTube Premium 通常價值類似（約 $10-$11/mo），保守估算每月價值約 $10，一年為 $120，換算成新台幣約 3100 元（按 1 USD = 26 TWD 計算）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261110-4",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 贈送 Google Home Premium 標準方案",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案的用戶可免費享有 Google Home Premium 標準方案（價值 $10/月），包含 30 天事件歷史記錄與 Gemini 功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須訂閱 Google AI Pro 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "lastVerified": "2026-11-10",
+    "risks": "自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠為訂閱付費方案（Google AI Pro）時額外贈送的另一項服務（Google Home Premium Standard），屬於綁定方案的附加價值或免費權益。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get the Google Home Premium Standard plan at no cost ($10/mo value), with 30 days of event history and Gemini features.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3672,
+      "basis": "ai-estimate",
+      "note": "根據頁面標示的 '$10/mo value' 計算，一年價值為 $120 USD。換算成新台幣約為 $3,672（假設匯率 1 USD = 30.6 TWD）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261110-5",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 贈送 Google Home Premium 進階方案",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案的用戶可免費享有 Google Home Premium 進階方案（價值 $20/月），包含 24/7 事件歷史記錄、Gemini 功能與事件描述。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須訂閱 Google AI Ultra 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-10T22:37:46.258Z",
+    "lastVerified": "2026-11-10",
+    "risks": "自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T22:36:18.839Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態付費方案（Google AI Ultra）中免費包含的額外權益，並非獨立的限時免費方案或試用活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get the Google Home Premium Advanced plan at no cost ($20/mo value), with 24/7 event history, Gemini features, and event descriptions. 9",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Google AI Ultra",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640,
+      "basis": "explicit-amount",
+      "usd": 20,
+      "quote": "$20/mo value",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-10T21:07:20.488Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-10T22:36:18.839Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -16,3 +16,9 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
+| [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 學生免費優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可免費獲得 1 年的 Google AI Pro 方案，包含更高的 Gemini 使用額度、24/7 個人 AI 代理以及 5 TB 儲 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 與 YouTube Premium 學生組合優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可支付 $8.99/月 取得 Google AI Pro 及 YouTube Premium（單獨購買需 $35.98/月），享有免廣告 | 約 TWD 3,284（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Ultra 贈送 YouTube Premium 個人方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 YouTube Premium 個人方案，包含免廣告、離線與背景播放功能。 | 約 TWD 3,100（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 贈送 Google Home Premium 標準方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案的用戶可免費享有 Google Home Premium 標準方案（價值 $10/月），包含 30 天 | 約 TWD 3,672（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 贈送 Google Home Premium 進階方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 Google Home Premium 進階方案（價值 $20/月），包含 24 | 約 TWD 640（AI 估） | 長期活動 | 待核實 |
