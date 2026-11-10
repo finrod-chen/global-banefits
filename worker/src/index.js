@@ -2,28 +2,33 @@
  * GLOBAL DEAL RADAR｜全球好康情報中心 - Cloudflare Workers 版
  *
  * scheduled：Cron Triggers 每 2 小時掃描一次（見 wrangler.toml）
- * fetch：GET / 看板網頁；GET /api/deals、GET /api/last-run 回 JSON；GET /healthz 健康檢查
+ * fetch：
+ *   GET  /                       看板網頁
+ *   GET  /api/deals              目前有效優惠
+ *   GET  /api/archive            已結束/退回的條目
+ *   GET  /api/last-run           最近一次掃描報告
+ *   GET  /healthz                健康檢查
+ *   POST /api/scan               立即掃描（需 ADMIN_TOKEN）
+ *   POST /api/deals/:id/verify   核實通過，body 可帶 {"valueTWD": 數字}（需 ADMIN_TOKEN）
+ *   POST /api/deals/:id/reject   退回並歸檔（需 ADMIN_TOKEN）
  *
- * AI 提取層（v2 新增）：掃描發現來源頁面變更（content-changed / first-seen）時，
- * 把頁面內容丟給 OpenAI 相容的 LLM 提取優惠草稿，一律標 status=pending（待核實），
- * 由人工確認後改成 verified。設定：env.LLM_API_KEY（Bearer token）；
- * endpoint 與模型寫在下方 LLM 常數。每輪最多處理 LLM.maxSourcesPerRun 個來源，
- * 沒輪到的排入 llm-backlog（KV），下一輪優先處理。
+ * 掃描邏輯在 core.mjs（與 GitHub Actions 版共用），通知在 notify.mjs，版面在 dashboard.js。
+ * 資料放在 KV namespace DEAL_DATA，鍵值：sources / state / deals / archive / last-run
  *
- * 資料放在 KV namespace DEAL_DATA，鍵值：sources / state / deals / archive / last-run / llm-backlog
- * 部署時由 GitHub Actions 或 worker/deploy.sh 從 repo 的 data/ 種子化。
+ * 環境變數（都在 Worker 的 Settings → Variables and Secrets 設，沒設的功能自動停用）：
+ *   LLM_API_KEY                           AI 提取草稿
+ *   TELEGRAM_BOT_TOKEN、TELEGRAM_CHAT_ID  推播通知
+ *   ADMIN_TOKEN                           看板管理模式與上面三個 POST 端點
+ *   DASHBOARD_URL                         通知訊息裡附的看板連結（選填）
  *
- * 如實說明：
- * - KV 這份資料與 repo（GitHub Actions 版）是各自獨立的副本，不會自動互相同步。
- * - LLM 提取可能誤讀頁面：產出只是草稿（pending），未經人工核實不會變成「已核實」。
+ * 如實說明：KV 這份資料與 repo（GitHub Actions 版）是各自獨立的副本，不會自動互相同步。
  */
 
 import {dashboardHtml} from './dashboard.js';
+import {scanCore, reviewDeal} from './core.mjs';
+import {notifyScan} from './notify.mjs';
 
-const KEY = {sources: 'sources', state: 'state', deals: 'deals', archive: 'archive', lastrun: 'last-run', backlog: 'llm-backlog'};
-const UA = 'Mozilla/5.0 (compatible; DealRadarWorker/1.0; +https://github.com/finrod-chen/global-banefits)';
-const CATEGORIES = ['ai', 'crypto', 'banking', 'vps-cloud', 'software', 'other'];
-const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxBodyChars: 12000, maxTokens: 1600};
+const KEY = {sources: 'sources', state: 'state', deals: 'deals', archive: 'archive', lastrun: 'last-run'};
 
 async function getJson(env, key, fallback) {
   const raw = await env.DEAL_DATA.get(key);
@@ -33,201 +38,53 @@ async function getJson(env, key, fallback) {
 async function putJson(env, key, value) {
   await env.DEAL_DATA.put(key, JSON.stringify(value, null, 2));
 }
-
-async function sha256Hex16(text) {
-  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));
-  return [...new Uint8Array(digest)].slice(0, 8).map(b => b.toString(16).padStart(2, '0')).join('');
+function json(value, status) {
+  return new Response(JSON.stringify(value, null, 2), {status: status || 200, headers: {'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store'}});
 }
-
-
-// ---------- LLM 提取層 ----------
-
-function dealKey(name, url) {
-  return String(name || '').toLowerCase().trim() + '|' + String(url || '').replace(/\/+$/, '');
-}
-
-function normRegions(r) {
-  if (Array.isArray(r)) return r.map(x => String(x));
-  if (typeof r === 'string' && r.trim()) return [r.trim()];
-  return null;
-}
-
-function normDate(d) {
-  return typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.trim()) ? d.trim() : null;
-}
-
-async function llmExtractDeals(env, source, bodyText) {
-  const key = env.LLM_API_KEY;
-  if (!key) return {deals: [], error: 'no LLM_API_KEY'};
-  const system = '你是優惠情報提取器。從官方頁面文字中找出具體的優惠、活動、免費資源、折扣或獎勵計畫。只提取頁面上明確寫著的內容，不要推測、不要編造數字；頁面看不到的資訊填 null。若頁面沒有明確優惠，回傳 []。所有文字用繁體中文。';
-  const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請）、regions（適用地區，字串或字串陣列）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
-  try {
-    const res = await fetch(LLM.baseUrl + '/chat/completions', {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + key},
-      body: JSON.stringify({
-        model: LLM.model,
-        messages: [{role: "system", content: system}, {role: "user", content: user}],
-        temperature: 0.2,
-        max_tokens: LLM.maxTokens
-      })
-    });
-    if (!res.ok) return {deals: [], error: "LLM HTTP " + res.status};
-    const data = await res.json();
-    const content = data.choices && data.choices[0] && data.choices[0].message ? String(data.choices[0].message.content || "") : "";
-    const start = content.indexOf('[');
-    const end = content.lastIndexOf(']');
-    if (start < 0 || end <= start) return {deals: []};
-    let arr;
-    try { arr = JSON.parse(content.slice(start, end + 1)); } catch (e) { return {deals: [], error: "LLM 輸出解析失敗"}; }
-    if (!Array.isArray(arr)) return {deals: []};
-    const nowISO = new Date().toISOString();
-    const today = nowISO.slice(0, 10);
-    const out = [];
-    let i = 0;
-    for (const d of arr) {
-      i++;
-      if (!d || !d.name || !d.summary) continue;
-      const url = typeof d.officialUrl === "string" && d.officialUrl.indexOf("http") === 0 ? d.officialUrl : source.url;
-      const endDate = normDate(d.endDate);
-      out.push({
-        id: source.id + "-" + today.replace(/-/g, "") + "-" + i,
-        name: String(d.name).slice(0, 120),
-        category: CATEGORIES.indexOf(d.category) >= 0 ? d.category : source.category,
-        summary: String(d.summary).slice(0, 500),
-        value: {type: 'free', amountUSD: null, valueTWD: null, note: '待評估（LLM 草稿，未核實不填數字）'},
-        requirements: d.requirements ? String(d.requirements).slice(0, 500) : "待補",
-        regions: normRegions(d.regions) || ["待確認"],
-        startDate: normDate(d.startDate),
-        endDate: endDate,
-        ongoing: d.ongoing === true ? true : !endDate,
-        steps: Array.isArray(d.steps) ? d.steps.map(s => String(s)).slice(0, 8) : [],
-        officialUrl: url,
-        source: "LLM 自動提取（" + LLM.model + "）自「" + source.name + "」，待人工核實，提取時間 " + nowISO,
-        lastVerified: today,
-        risks: d.risks ? String(d.risks).slice(0, 500) : "LLM 草稿：未經人工核實，請以官方頁面為準",
-        status: 'pending'
-      });
-    }
-    return {deals: out};
-  } catch (error) {
-    return {deals: [], error: String(error && error.message ? error.message : error)};
-  }
-}
-
-// ---------- 掃描主流程 ----------
 
 export async function runScan(env) {
-  const nowISO = new Date().toISOString();
-  const today = nowISO.slice(0, 10);
-  const sources = await getJson(env, KEY.sources, []);
-  const state = await getJson(env, KEY.state, {sources: {}, lastRun: null});
+  const result = await scanCore({
+    sources: await getJson(env, KEY.sources, []),
+    state: await getJson(env, KEY.state, {sources: {}, lastRun: null}),
+    deals: await getJson(env, KEY.deals, []),
+    archive: await getJson(env, KEY.archive, [])
+  }, {llmApiKey: env.LLM_API_KEY});
+  result.lastRun.notification = await notifyScan(result, env);
+  await putJson(env, KEY.state, result.state);
+  await putJson(env, KEY.deals, result.deals);
+  await putJson(env, KEY.archive, result.archive);
+  await putJson(env, KEY.lastrun, result.lastRun);
+  return result.lastRun;
+}
+
+// 固定時間比對，避免從回應時間猜出 token
+function tokenMatches(given, expected) {
+  if (!given || !expected || given.length !== expected.length) return false;
+  let diff = 0;
+  for (let i = 0; i < given.length; i++) diff |= given.charCodeAt(i) ^ expected.charCodeAt(i);
+  return diff === 0;
+}
+function adminError(request, env) {
+  if (!env.ADMIN_TOKEN) return json({error: '未設定 ADMIN_TOKEN，管理功能停用'}, 503);
+  const given = (request.headers.get('authorization') || '').replace(/^Bearer\s+/i, '');
+  return tokenMatches(given, env.ADMIN_TOKEN) ? null : json({error: 'token 不正確'}, 401);
+}
+
+async function handleAdmin(request, env, url) {
+  const denied = adminError(request, env);
+  if (denied) return denied;
+  if (url.pathname === '/api/scan') return json(await runScan(env));
+  const m = url.pathname.match(/^\/api\/deals\/([^/]+)\/(verify|reject)$/);
+  if (!m) return json({error: 'Not found'}, 404);
+  let patch = null;
+  try { patch = await request.json(); } catch (e) { patch = null; }
   const deals = await getJson(env, KEY.deals, []);
   const archive = await getJson(env, KEY.archive, []);
-
-  // 1. 擷取與變更偵測（變更/首次見到的頁面保留內容供 LLM 用）
-  const results = [];
-  const bodies = {};
-  for (const source of sources) {
-    if (source.enabled === false) continue;
-    const entry = {id: source.id, category: source.category, name: source.name, url: source.url, at: nowISO};
-    try {
-      const res = await fetch(source.url, {headers: {'User-Agent': UA, 'Accept-Language': 'en'}, redirect: 'follow'});
-      const body = await res.text();
-      entry.httpStatus = res.status;
-      entry.bytes = body.length;
-      entry.hash = await sha256Hex16(body);
-      entry.keywordHits = (source.watchKeywords || []).filter(k => body.toLowerCase().includes(String(k).toLowerCase()));
-      const previous = state.sources ? state.sources[source.id] : null;
-      if (!previous) {
-        entry.change = 'first-seen';
-      } else if (previous.hash !== entry.hash) {
-        entry.change = 'content-changed';
-        if ((source.watchKeywords || []).length > 0 && entry.keywordHits.length === 0) {
-          entry.change = 'content-changed-suspect-expired';
-        }
-      } else {
-        entry.change = 'unchanged';
-      }
-      if (entry.change === "first-seen" || entry.change === "content-changed") {
-        bodies[source.id] = body.slice(0, LLM.maxBodyChars);
-      }
-    } catch (error) {
-      entry.httpStatus = 'error';
-      entry.error = String(error && error.message ? error.message : error);
-      entry.change = 'fetch-failed';
-    }
-    results.push(entry);
-    state.sources = state.sources || {};
-    state.sources[source.id] = {hash: entry.hash ? entry.hash : null, httpStatus: entry.httpStatus, at: nowISO};
-  }
-
-  // 2. 過期歸檔 + 重複優惠去重
-  const seen = new Map();
-  const keep = [];
-  for (const deal of deals) {
-    if (deal.status === 'example') { keep.push(deal); continue; }
-    const key = dealKey(deal.name, deal.officialUrl);
-    if (seen.has(key)) {
-      archive.push(Object.assign({}, deal, {status: 'duplicate', archivedAt: nowISO, archiveReason: 'duplicate of ' + seen.get(key)}));
-      continue;
-    }
-    seen.set(key, deal.id);
-    if (deal.endDate && deal.endDate < today && deal.ongoing !== true) {
-      archive.push(Object.assign({}, deal, {status: 'expired', archivedAt: nowISO, archiveReason: 'endDate passed'}));
-      continue;
-    }
-    keep.push(deal);
-  }
-
-  // 3. LLM 提取（變更/首次見到的來源；每輪上限 LLM.maxSourcesPerRun，沒輪到的進 backlog）
-  const backlog = await getJson(env, KEY.backlog, []);
-  const sourceById = {};
-  for (const s of sources) sourceById[s.id] = s;
-  let candidates = results
-    .filter(r => (r.change === 'first-seen' || r.change === 'content-changed') && bodies[r.id])
-    .map(r => r.id);
-  const queue = [];
-  const queuedSeen = new Set();
-  for (const id of backlog.concat(candidates)) {
-    if (!queuedSeen.has(id) && sourceById[id]) { queuedSeen.add(id); queue.push(id); }
-  }
-  const todo = queue.slice(0, LLM.maxSourcesPerRun);
-  const deferred = queue.slice(LLM.maxSourcesPerRun);
-  const ai = {attempted: todo.length, extracted: 0, duplicateSkipped: 0, deferred: deferred.length, errors: [], noKey: !env.LLM_API_KEY};
-  for (const id of todo) {
-    const source = sourceById[id];
-    const r = await llmExtractDeals(env, source, bodies[id] || "");
-    for (const d of r.deals) {
-      const k = dealKey(d.name, d.officialUrl);
-      if (seen.has(k)) { ai.duplicateSkipped++; continue; }
-      seen.set(k, d.id);
-      keep.push(d);
-      ai.extracted++;
-    }
-    if (r.error) ai.errors.push(id + ": " + r.error);
-  }
-  await putJson(env, KEY.backlog, deferred);
-
-  // 4. 寫回
-  const lastRun = {
-    at: nowISO,
-    summary: {
-      sourcesChecked: results.length,
-      changed: results.filter(r => String(r.change).indexOf('content-changed') === 0).length,
-      fetchFailed: results.filter(r => r.change === 'fetch-failed').length,
-      activeDeals: keep.length,
-      archived: archive.length
-    },
-    aiExtraction: ai,
-    needsReview: results.filter(r => r.change !== 'unchanged'),
-    results
-  };
-  await putJson(env, KEY.state, state);
-  await putJson(env, KEY.deals, keep);
-  await putJson(env, KEY.archive, archive);
-  await putJson(env, KEY.lastrun, lastRun);
-  return lastRun;
+  const deal = reviewDeal(deals, archive, decodeURIComponent(m[1]), m[2], patch);
+  if (!deal) return json({error: '找不到這條優惠'}, 404);
+  await putJson(env, KEY.deals, deals);
+  if (m[2] === 'reject') await putJson(env, KEY.archive, archive);
+  return json({ok: true, deal});
 }
 
 export default {
@@ -236,18 +93,17 @@ export default {
   },
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (request.method === 'POST') return handleAdmin(request, env, url);
+    if (request.method !== 'GET' && request.method !== 'HEAD') return new Response('Method not allowed', {status: 405});
     if (url.pathname === '/healthz') return new Response('ok');
-    if (url.pathname === '/api/deals') {
-      return new Response(JSON.stringify(await getJson(env, KEY.deals, []), null, 2), {headers: {"content-type": "application/json; charset=utf-8"}});
-    }
-    if (url.pathname === '/api/last-run') {
-      return new Response(JSON.stringify(await getJson(env, KEY.lastrun, null), null, 2), {headers: {"content-type": "application/json; charset=utf-8"}});
-    }
+    if (url.pathname === '/api/deals') return json(await getJson(env, KEY.deals, []));
+    if (url.pathname === '/api/archive') return json(await getJson(env, KEY.archive, []));
+    if (url.pathname === '/api/last-run') return json(await getJson(env, KEY.lastrun, null));
     if (url.pathname === '/' || url.pathname === '/index.html') {
       const deals = await getJson(env, KEY.deals, []);
       const lastRun = await getJson(env, KEY.lastrun, null);
       const archive = await getJson(env, KEY.archive, []);
-      return new Response(dashboardHtml(deals, lastRun, archive), {headers: {"content-type": "text/html; charset=utf-8"}});
+      return new Response(dashboardHtml(deals, lastRun, archive), {headers: {'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store'}});
     }
     return new Response('Not found', {status: 404});
   }

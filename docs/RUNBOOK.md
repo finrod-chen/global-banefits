@@ -4,8 +4,8 @@
 ## 日常流程
 
 1. 掃描：GitHub Actions 每 2 小時跑一次 scripts/scan.mjs，跑完自動執行 scripts/build-dashboards.mjs 重建看板並提交。
-2. 待核實佇列：打開 data/last-run.json 看 needsReview 欄位，裡面是本輪發生變更的來源（content-changed / first-seen / suspect-expired / fetch-failed）。
-3. 人工核實：點開對應來源頁面，確認有新活動後，按 docs/SCHEMA.md 的格式把新條目寫進 data/deals.json（status 先填 pending，核實完改 verified）。
+2. 待核實：有設 LLM_API_KEY 時，變更的頁面會自動產生 status=pending 的草稿；沒設的話看 data/last-run.json 的 needsReview 欄位，自己按 docs/SCHEMA.md 寫條目。
+3. 人工核實：點開官方頁面確認草稿內容。Worker 版在看板的管理模式按「核實通過」或「退回」；GitHub Actions 版直接改 data/deals.json 的 status。
 4. 下一輪掃描會自動：去重（同名 + 同官方連結）、歸檔過期條目、重建看板。
 
 ## 新增監控來源
@@ -14,18 +14,37 @@
 
 ## 已實作的自動化
 
-- 每 2 小時定時掃描（GitHub Actions cron；GitHub 排程可能有 10 到 30 分鐘延遲）
-- 官方頁面雜湊比對、變更偵測、疑似失效偵測（關鍵字消失）
+- 每 2 小時定時掃描（GitHub Actions cron 與 Cloudflare Worker cron 各一份；GitHub 排程可能有 10 到 30 分鐘延遲）
+- 官方頁面雜湊比對、變更偵測、疑似失效偵測（關鍵字消失）；HTTP 4xx/5xx 一律算擷取失敗
 - 重複優惠去重、過期自動歸檔
-- 看板自動重建（今日、排行榜、分類、即將截止、檔案）
-- 掃描報告與每條優惠的最後驗證時間記錄
+- AI 自動提取優惠草稿（含地區與資格條件）：頁面先去掉 script 與標籤再交給 LLM；同一來源的舊草稿會被新一輪取代，不會越積越多；人工退回過的不會再被塞回來
+- 推播通知（Telegram）：新草稿、三天內截止、疑似失效、來源剛開始擷取失敗、過期歸檔；沒事不發
+- 人工審核：Worker 看板的管理模式可以一鍵「核實通過／退回」，也能立即掃描
+- 看板自動重建、掃描報告與每條優惠的最後驗證時間記錄
 
-## 尚未實作、需要額外設定的（不要誤以為已經在跑）
+掃描邏輯只有一份：worker/src/core.mjs，GitHub Actions（scripts/scan.mjs）與 Worker（worker/src/index.js）共用。
 
-- AI 自動提取優惠欄位：需要給倉庫設一個 LLM API 金鑰（Settings → Secrets and variables → Actions，例如 LLM_API_KEY），並在 scripts/scan.mjs 的待核實環節接入呼叫。目前版本只做頁面級變更偵測。
-- 推播通知（Telegram / 郵件 / Slack）：需要對應服務的 Bot Token 或 SMTP 設定，同樣是加 Secret 後在 workflow 裡加一步。目前版本不含。
-- 地區限制與資格條件的自動識別：依賴上面的 LLM 步驟，目前靠人工核實。
-- Actions 啟用：合併後在倉庫 Actions 頁確認 Deal Radar Scan 出現；如果排程沒跑，檢查 Settings → Actions → General 是否允許，並手動 Run workflow 驗證。GitHub 會在倉庫 60 天無活動時自動暫停排程，有新提交就會重置計時。
+## 需要設定金鑰才會啟用的功能
+
+沒設的功能自動停用，不影響其餘流程。Worker 版在 Cloudflare 面板的 Worker → Settings → Variables and Secrets 設；GitHub Actions 版在 repo 的 Settings → Secrets and variables → Actions 設。
+
+| 名稱 | 用途 | Worker | GitHub Actions |
+|---|---|---|---|
+| LLM_API_KEY | AI 提取草稿 | 支援 | 支援 |
+| TELEGRAM_BOT_TOKEN、TELEGRAM_CHAT_ID | 推播通知 | 支援 | 支援 |
+| ADMIN_TOKEN | 看板管理模式（核實、退回、立即掃描） | 支援 | 不適用 |
+| DASHBOARD_URL | 通知訊息附上的看板網址（選填，一般變數即可） | 支援 | 支援 |
+| CLOUDFLARE_API_TOKEN、CLOUDFLARE_ACCOUNT_ID | 從 GitHub Actions 部署 Worker | 不適用 | 支援 |
+
+Telegram 設定：找 @BotFather 建 bot 拿 token；對 bot 傳一則訊息後開 https://api.telegram.org/bot<token>/getUpdates 找 chat.id。兩邊都設 Telegram 會各發一次，建議只設在 Worker。
+
+ADMIN_TOKEN 自己產一串夠長的隨機字串（例如 openssl rand -hex 24）。
+
+## 還沒有的
+
+- Worker 的 KV 與 repo 的 data/ 是兩份獨立資料，不會互相同步。在看板核實的結果只在 KV；repo 這份要另外改 data/deals.json。
+- 通知管道目前只有 Telegram，沒有郵件與 Slack。
+- GitHub 會在倉庫 60 天無活動時自動暫停排程，有新提交就會重置計時。
 
 ## 本機執行
 

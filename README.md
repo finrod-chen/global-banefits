@@ -25,7 +25,8 @@
 - data/sources.json：監控來源清單（只收官方頁面），可隨時加來源
 - data/last-run.json：最近一次掃描報告，含待核實佇列
 - data/archive.json：過期與重複條目歸檔
-- scripts/scan.mjs：掃描器（擷取、雜湊變更偵測、去重、過期歸檔）
+- worker/src/core.mjs：掃描核心（擷取、變更偵測、去重、過期歸檔、LLM 提取），GitHub Actions 與 Worker 共用
+- scripts/scan.mjs：GitHub Actions 版掃描器（讀寫 data/，呼叫掃描核心與通知）
 - scripts/build-dashboards.mjs：看板產生器
 - .github/workflows/deal-hunter.yml：每 2 小時的定時任務
 - worker/：Cloudflare Workers 線上版（cron 掃描 + KV + 即時看板網頁），見 worker/README.md
@@ -39,7 +40,9 @@
 
 已經能跑的：定時掃描、官方頁面變更偵測、疑似失效偵測、重複優惠去重、過期自動歸檔、看板自動重建、掃描報告與驗證時間記錄。
 
-要額外設定才有的：AI 自動提取優惠欄位（需要設 LLM API 金鑰）、推播通知（需要 Telegram Bot Token 或郵件服務）、Workers 線上版部署（需要 Cloudflare 的 API Token 與 Account ID），都寫在 docs/RUNBOOK.md 與 worker/README.md，目前版本不假裝已經實作。
+設了金鑰就會啟用的：AI 自動提取優惠草稿（LLM_API_KEY）、Telegram 推播（TELEGRAM_BOT_TOKEN、TELEGRAM_CHAT_ID）、Worker 看板的管理模式（ADMIN_TOKEN）。沒設的功能自動停用。設定方式見 docs/RUNBOOK.md 與 worker/README.md。
+
+AI 提取的結果一律是待核實草稿、不填價值數字，要人工對照官方頁面後才會標成已核實。
 
 ## 快速上手
 

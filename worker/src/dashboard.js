@@ -2,9 +2,11 @@
  * GLOBAL DEAL RADAR 看板網頁（Worker 的 GET /）
  * 純伺服器端渲染 + 一小段前端篩選腳本；沒有外部資源，關掉 JS 也能看到全部條目。
  * 版面：統計列 → 篩選列（專區分頁、搜尋、排序）→ 票券式優惠卡 → 掃描報告與歸檔。
+ * 管理模式：頁尾輸入 ADMIN_TOKEN（只存在這台瀏覽器的 localStorage）後，待核實的卡片會出現
+ * 「核實通過／退回」，頁首出現「立即掃描」；實際權限檢查在 index.js 的 POST 端點。
  */
 
-export const CATEGORY_LABEL = {ai: 'AI 工具', crypto: 'Crypto', banking: '海外銀行/卡', 'vps-cloud': 'VPS/雲服務', software: '軟體/數位服務', other: '其他'};
+import {CATEGORY_LABEL} from './core.mjs';
 
 const DAY = 86400000;
 const CHANGE_LABEL = {
@@ -68,7 +70,7 @@ function cardHtml(d, todayISO, recentISO) {
     d.risks ? '<dt>風險提示</dt><dd>' + esc(d.risks) + '</dd>' : '',
     d.source ? '<dt>資訊來源</dt><dd>' + esc(d.source) + '</dd>' : ''
   ].join('');
-  return '<article class="ticket' + (verified ? '' : ' is-pending') + '" data-cat="' + esc(d.category) + '" data-verified="' + (verified ? 1 : 0) +
+  return '<article class="ticket' + (verified ? '' : ' is-pending') + '" data-id="' + esc(d.id) + '" data-cat="' + esc(d.category) + '" data-verified="' + (verified ? 1 : 0) +
     '" data-recent="' + (recent ? 1 : 0) + '" data-soon="' + (soon ? 1 : 0) + '" data-value="' + v.sort + '" data-days="' + (dl.days === null ? 99999 : dl.days) +
     '" data-checked="' + esc(d.lastVerified || '') + '" data-text="' + esc(text) + '">' +
     '<div class="body">' +
@@ -79,6 +81,7 @@ function cardHtml(d, todayISO, recentISO) {
       '<p class="summary">' + esc(d.summary) + '</p>' +
       '<p class="meta">' + [regions ? esc(regions) : '', d.lastVerified ? '核實於 ' + esc(d.lastVerified) : '', url ? esc(hostOf(url)) : ''].filter(Boolean).join('<i></i>') + '</p>' +
       (detail ? '<details><summary>條件、步驟與風險</summary><dl>' + detail + '</dl></details>' : '') +
+      (verified ? '' : '<p class="review admin-only"><button type="button" data-act="verify">核實通過</button><button type="button" data-act="reject">退回</button></p>') +
     '</div>' +
     '<div class="stub">' +
       '<p class="cap">' + esc(v.cap) + '</p>' +
@@ -102,9 +105,11 @@ function scanHtml(lastRun, archive) {
   const aiLine = ai
     ? (ai.noKey ? 'AI 提取未啟用（未設定 LLM_API_KEY）' : 'AI 提取：處理 ' + ai.attempted + ' 個來源，產出 ' + ai.extracted + ' 條草稿' + (ai.deferred ? '，佇列 ' + ai.deferred : '') + (ai.errors && ai.errors.length ? '，錯誤 ' + ai.errors.length : ''))
     : '';
+  const nt = lastRun.notification;
+  const ntLine = nt ? (nt.sent ? '已發送通知。' : (nt.error ? '通知失敗：' + nt.error + '。' : (nt.reason || '') + '。')) : '';
   const arch = (archive || []).slice(-30).reverse().map(d => '<li>' + esc(d.name) + '<span class="muted">　' + esc(d.archiveReason || '') + ' · ' + esc(String(d.archivedAt || '').slice(0, 10)) + '</span></li>').join('');
   return '<section class="panel"><h2>掃描報告</h2>' +
-    '<p class="muted">最近一輪 ' + esc(fmtTaipei(lastRun.at)) + '（台北時間）：檢查 ' + (s.sourcesChecked || 0) + ' 個來源，' + (s.changed || 0) + ' 個有變更，' + (s.fetchFailed || 0) + ' 個擷取失敗。' + esc(aiLine) + '</p>' +
+    '<p class="muted">最近一輪 ' + esc(fmtTaipei(lastRun.at)) + '（台北時間）：檢查 ' + (s.sourcesChecked || 0) + ' 個來源，' + (s.changed || 0) + ' 個有變更，' + (s.fetchFailed || 0) + ' 個擷取失敗。' + esc(aiLine) + (aiLine ? '。' : '') + esc(ntLine) + '</p>' +
     (rows ? '<details><summary>各來源結果（' + (lastRun.results || []).length + '）</summary><div class="scroll"><table><thead><tr><th>來源</th><th>類別</th><th>結果</th><th class="num">HTTP</th></tr></thead><tbody>' + rows + '</tbody></table></div></details>' : '') +
     '<details><summary>已結束活動（' + (archive || []).length + '）</summary>' + (arch ? '<ul class="arch">' + arch + '</ul>' : '<p class="muted">歸檔目前為空。</p>') + '</details>' +
     '</section>';
@@ -190,6 +195,16 @@ th{font-weight:600;color:var(--muted);font-size:12px}
 td.chg{color:var(--wait)}td.bad{color:var(--hot)}
 .arch{margin:10px 0 0;padding-left:18px;font-size:14px}
 footer{padding:22px 0 48px;font-size:13px;color:var(--muted)}
+.admin-only{display:none}
+body.admin .review.admin-only{display:flex}body.admin #scan{display:block}
+.review{margin:14px 0 0;gap:8px}
+.review button,#scan{font:inherit;font-size:13px;font-weight:600;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:7px 14px;min-height:36px;cursor:pointer}
+.review button[data-act=verify]{color:var(--ok);border-color:currentColor}
+.review button[data-act=reject]{color:var(--hot)}
+.review button:disabled,#scan:disabled{opacity:.5;cursor:wait}
+#scan{margin:8px 0 0 auto}
+button.link{font:inherit;color:var(--ink);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
+#msg{margin-left:10px;color:var(--hot)}
 footer a{color:var(--ink)}
 @media (max-width:720px){
 header.top{padding-top:24px}.brand h1{font-size:22px}.pulse{text-align:left;width:100%}
@@ -227,6 +242,23 @@ empty.hidden=shown>0;count.textContent='顯示 '+shown+' / '+cards.length+' 條'
 tabs.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.tab===tab?'true':'false');});}
 tabs.forEach(function(b){b.addEventListener('click',function(){tab=b.dataset.tab;try{history.replaceState(null,'','#'+tab);}catch(e){}apply();});});
 [q,only,sort].forEach(function(el){el.addEventListener('input',apply);});
+var msg=document.getElementById('msg'),adminBtn=document.getElementById('admin'),token='';
+try{token=localStorage.getItem('dealRadarAdminToken')||'';}catch(e){}
+function setAdmin(t){token=t;try{t?localStorage.setItem('dealRadarAdminToken',t):localStorage.removeItem('dealRadarAdminToken');}catch(e){}
+document.body.classList.toggle('admin',!!t);adminBtn.textContent=t?'離開管理模式':'管理模式';}
+function call(path,body){msg.textContent='';
+return fetch(path,{method:'POST',headers:{'Authorization':'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify(body||{})})
+.then(function(r){return r.json().catch(function(){return {};}).then(function(j){if(!r.ok){if(r.status===401)setAdmin('');throw new Error(j.error||('HTTP '+r.status));}return j;});});}
+adminBtn.addEventListener('click',function(){if(token){setAdmin('');return;}var t=prompt('輸入 ADMIN_TOKEN（只存在這台瀏覽器）');if(t)setAdmin(t.trim());});
+document.getElementById('scan').addEventListener('click',function(e){var b=e.currentTarget;b.disabled=true;b.textContent='掃描中…';
+call('/api/scan').then(function(){location.reload();}).catch(function(err){msg.textContent=err.message;b.disabled=false;b.textContent='立即掃描';});});
+list.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(!b)return;
+var card=b.closest('.ticket'),act=b.dataset.act,body={};
+if(act==='reject'&&!confirm('退回這條草稿並歸檔？'))return;
+if(act==='verify'){var v=prompt('已對照官方頁面確認內容無誤。估算價值（新台幣，可留空）','');if(v===null)return;if(v.trim())body.valueTWD=Number(v.replace(/[^0-9.]/g,''));}
+b.disabled=true;
+call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(){location.reload();}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
+setAdmin(token);
 var h=location.hash.slice(1);if(h&&tabs.some(function(b){return b.dataset.tab===h;}))tab=h;
 apply();
 })();
@@ -258,7 +290,7 @@ export function dashboardHtml(deals, lastRun, archive) {
     '<header class="top">' +
       '<svg class="mark" viewBox="0 0 44 44" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="22" cy="22" r="20" stroke-width="1.5"/><circle cx="22" cy="22" r="12" stroke-width="1.5" opacity=".55"/><circle cx="22" cy="22" r="3" fill="currentColor" stroke="none"/><path class="sweep" d="M22 22 L22 2 A20 20 0 0 1 39.3 12 Z" fill="currentColor" stroke="none" opacity=".28"/></svg>' +
       '<div class="brand"><small>GLOBAL DEAL RADAR</small><h1>全球好康情報中心</h1></div>' +
-      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新</p>' +
+      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新<button type="button" id="scan" class="admin-only">立即掃描</button></p>' +
     '</header>' +
     '<dl class="stats">' + stat('', '有效優惠', active.length) + stat('ok', '已核實', verified) + stat('wait', '待核實', active.length - verified) +
       stat('hot', '14 天內截止', soon) + stat('', '監控來源', sources === null || sources === undefined ? '—' : sources) + '</dl>' +
@@ -269,6 +301,6 @@ export function dashboardHtml(deals, lastRun, archive) {
     '<main><div class="list" id="list">' + cards.join('') + '</div>' +
       '<div class="empty" id="empty"' + (cards.length ? ' hidden' : '') + '><b>這裡目前沒有條目</b>寧缺勿濫：只收官方頁面核對過的優惠，等掃描與核實流程填充。</div>' +
       scanHtml(lastRun, archive) + '</main>' +
-    '<footer>原則：不編造優惠。待核實的條目是 AI 從官方頁面提取的草稿，數字與條件請以官方頁面為準。　資料：<a href="/api/deals">/api/deals</a>　<a href="/api/last-run">/api/last-run</a></footer>' +
+    '<footer>原則：不編造優惠。待核實的條目是 AI 從官方頁面提取的草稿，數字與條件請以官方頁面為準。　資料：<a href="/api/deals">/api/deals</a>　<a href="/api/archive">/api/archive</a>　<a href="/api/last-run">/api/last-run</a>　<button type="button" id="admin" class="link">管理模式</button><span id="msg" role="status"></span></footer>' +
     '</div><script>' + SCRIPT + '</script></body></html>';
 }
