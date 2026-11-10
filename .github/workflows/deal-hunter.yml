@@ -1,0 +1,42 @@
+name: Deal Hunter Scan
+
+on:
+  schedule:
+    # 每 2 小时运行一次（UTC 时间；GitHub 排程可能有 10 到 30 分钟延迟）
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deal-hunter
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Scan sources
+        run: node scripts/scan.mjs
+
+      - name: Rebuild dashboards
+        run: node scripts/build-dashboards.mjs
+
+      - name: Commit and push updates
+        run: |
+          git config user.name "deal-hunter-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data dashboards
+          if git diff --cached --quiet; then
+            echo "No changes this run"
+          else
+            git commit -m "auto: scan update $(date -u +%Y-%m-%dT%H:%M+00:00)"
+            git push
+          fi
