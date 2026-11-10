@@ -1,3 +1,4 @@
+
 name: Deploy Deal Radar Worker
 
 on:
@@ -49,11 +50,10 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           cd worker
-          NS_ID=$GITHUB_ENV_NS_ID 2>/dev/null || true
           NS_ID=$(grep -oE '"[0-9a-f]{32}"' wrangler.toml | tr -d '"' | head -1)
           # sources：每次部署都覆蓋（與 repo 同步）
           wrangler kv key put sources --path ../data/sources.json --namespace-id "$NS_ID" --remote
-          # deals / state / archive / last-run：只在不存在時種入，不覆蓋 Worker 已掃出的進度
+          # deals / state / archive：只在不存在時種入，不覆蓋 Worker 已掃出的進度
           seed_if_missing() {
             if ! wrangler kv key get "$1" --namespace-id "$NS_ID" --remote >/dev/null 2>&1; then
               wrangler kv key put "$1" --path "../$2" --namespace-id "$NS_ID" --remote
@@ -65,4 +65,3 @@ jobs:
           seed_if_missing deals data/deals.json
           seed_if_missing state data/state.json
           seed_if_missing archive data/archive.json
-          seed_if_missing last-run data/state.json
