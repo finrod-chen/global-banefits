@@ -3,7 +3,8 @@
  * 純伺服器端渲染 + 一小段前端篩選腳本；沒有外部資源，關掉 JS 也能看到全部條目。
  * 版面：統計列 → 篩選列（專區分頁、搜尋、排序）→ 票券式優惠卡 → 掃描報告與歸檔。
  * 管理模式：頁尾輸入 ADMIN_TOKEN（只存在這台瀏覽器的 localStorage）後，待核實的卡片會出現
- * 「核實通過／退回」，頁首出現「立即掃描」；實際權限檢查在 index.js 的 POST 端點。
+ * 「核實通過／退回」，頁首出現「立即掃描」；實際權限檢查在 index.js 的 POST 端點，
+ * 這些操作是去觸發 GitHub Actions，所以按下後要等約 1 分鐘資料才會更新。
  */
 
 import {CATEGORY_LABEL} from './core.mjs';
@@ -204,7 +205,7 @@ body.admin .review.admin-only{display:flex}body.admin #scan{display:block}
 .review button:disabled,#scan:disabled{opacity:.5;cursor:wait}
 #scan{margin:8px 0 0 auto}
 button.link{font:inherit;color:var(--ink);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer}
-#msg{margin-left:10px;color:var(--hot)}
+#msg{margin-left:10px;color:var(--hot)}#msg.ok{color:var(--ok)}
 footer a{color:var(--ink)}
 @media (max-width:720px){
 header.top{padding-top:24px}.brand h1{font-size:22px}.pulse{text-align:left;width:100%}
@@ -246,25 +247,25 @@ var msg=document.getElementById('msg'),adminBtn=document.getElementById('admin')
 try{token=localStorage.getItem('dealRadarAdminToken')||'';}catch(e){}
 function setAdmin(t){token=t;try{t?localStorage.setItem('dealRadarAdminToken',t):localStorage.removeItem('dealRadarAdminToken');}catch(e){}
 document.body.classList.toggle('admin',!!t);adminBtn.textContent=t?'離開管理模式':'管理模式';}
-function call(path,body){msg.textContent='';
+function call(path,body){msg.textContent='';msg.className='';
 return fetch(path,{method:'POST',headers:{'Authorization':'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify(body||{})})
 .then(function(r){return r.json().catch(function(){return {};}).then(function(j){if(!r.ok){if(r.status===401)setAdmin('');throw new Error(j.error||('HTTP '+r.status));}return j;});});}
 adminBtn.addEventListener('click',function(){if(token){setAdmin('');return;}var t=prompt('輸入 ADMIN_TOKEN（只存在這台瀏覽器）');if(t)setAdmin(t.trim());});
 document.getElementById('scan').addEventListener('click',function(e){var b=e.currentTarget;b.disabled=true;b.textContent='掃描中…';
-call('/api/scan').then(function(){location.reload();}).catch(function(err){msg.textContent=err.message;b.disabled=false;b.textContent='立即掃描';});});
+call('/api/scan').then(function(j){msg.className='ok';msg.textContent=j.message||'已送出';b.textContent='已送出';}).catch(function(err){msg.textContent=err.message;b.disabled=false;b.textContent='立即掃描';});});
 list.addEventListener('click',function(e){var b=e.target.closest('button[data-act]');if(!b)return;
 var card=b.closest('.ticket'),act=b.dataset.act,body={};
 if(act==='reject'&&!confirm('退回這條草稿並歸檔？'))return;
 if(act==='verify'){var v=prompt('已對照官方頁面確認內容無誤。估算價值（新台幣，可留空）','');if(v===null)return;if(v.trim())body.valueTWD=Number(v.replace(/[^0-9.]/g,''));}
 b.disabled=true;
-call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(){location.reload();}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
+call('/api/deals/'+encodeURIComponent(card.dataset.id)+'/'+act,body).then(function(j){msg.className='ok';msg.textContent=j.message||'已送出';var r=card.querySelector('.review');if(r)r.textContent='已送出，約 1 分鐘後更新';}).catch(function(err){msg.textContent=err.message;b.disabled=false;});});
 setAdmin(token);
 var h=location.hash.slice(1);if(h&&tabs.some(function(b){return b.dataset.tab===h;}))tab=h;
 apply();
 })();
 `;
 
-export function dashboardHtml(deals, lastRun, archive) {
+export function dashboardHtml(deals, lastRun, archive, meta) {
   const now = Date.now();
   const todayISO = new Date(now).toISOString().slice(0, 10);
   const recentISO = new Date(now - 2 * DAY).toISOString().slice(0, 10);
@@ -301,6 +302,8 @@ export function dashboardHtml(deals, lastRun, archive) {
     '<main><div class="list" id="list">' + cards.join('') + '</div>' +
       '<div class="empty" id="empty"' + (cards.length ? ' hidden' : '') + '><b>這裡目前沒有條目</b>寧缺勿濫：只收官方頁面核對過的優惠，等掃描與核實流程填充。</div>' +
       scanHtml(lastRun, archive) + '</main>' +
-    '<footer>原則：不編造優惠。待核實的條目是 AI 從官方頁面提取的草稿，數字與條件請以官方頁面為準。　資料：<a href="/api/deals">/api/deals</a>　<a href="/api/archive">/api/archive</a>　<a href="/api/last-run">/api/last-run</a>　<button type="button" id="admin" class="link">管理模式</button><span id="msg" role="status"></span></footer>' +
+    '<footer>原則：不編造優惠。待核實的條目是 AI 從官方頁面提取的草稿，數字與條件請以官方頁面為準。　' +
+      (meta && meta.repo ? '資料來自 <a href="https://github.com/' + esc(meta.repo) + '">' + esc(meta.repo) + '</a>（GitHub Actions 每 2 小時掃描並提交）。' : '') +
+      (meta && meta.stale ? '<strong>暫時讀不到 GitHub，顯示的是上一份資料。</strong>' : '') + '　資料：<a href="/api/deals">/api/deals</a>　<a href="/api/archive">/api/archive</a>　<a href="/api/last-run">/api/last-run</a>　<button type="button" id="admin" class="link">管理模式</button><span id="msg" role="status"></span></footer>' +
     '</div><script>' + SCRIPT + '</script></body></html>';
 }

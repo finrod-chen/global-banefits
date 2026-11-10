@@ -49,16 +49,18 @@ function normDate(d) {
   return typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.trim()) ? d.trim() : null;
 }
 
-export async function llmExtractDeals(apiKey, source, bodyText) {
+export async function llmExtractDeals(apiKey, source, bodyText, existing) {
   if (!apiKey) return {deals: [], error: 'no LLM_API_KEY'};
   if (!bodyText) return {deals: [], error: '頁面沒有可讀文字'};
   const system = '你是優惠情報提取器。從官方頁面文字中找出具體的優惠：免費方案或免費額度、免費試用、限時折扣或促銷、新戶獎勵、回饋、空投或積分活動、學生或教育優惠。一般的付費方案與定價不是優惠，不要列出；年繳比月繳便宜這種常態價差也不算。只提取頁面上明確寫著的內容，不要推測、不要編造數字；頁面看不到的資訊填 null。若頁面沒有明確優惠，回傳 []。所有文字用繁體中文。';
-  const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請）、regions（適用地區，字串或字串陣列）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、steps（參與步驟，字串陣列）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
+  const user = '頁面名稱：' + source.name + '（類別 ' + source.category + '）\n頁面網址：' + source.url + '\n--- 頁面內容開始 ---\n' + bodyText + '\n--- 頁面內容結束 ---\n請只輸出一個 JSON 陣列，不要其他文字。每個元素欄位：name（活動名稱，必須含品牌或產品名，例如「Suno 免費方案」，不要只寫「免費方案」）、summary（優惠內容，含具體數字與條件）、requirements（參與條件與隱藏條件，如綁卡、消費門檻、邀請）、regions（適用地區，字串或字串陣列）、startDate（YYYY-MM-DD 或 null）、endDate（YYYY-MM-DD 或 null）、ongoing（boolean，長期活動為 true）、steps（參與步驟，字串陣列）、officialUrl（官方活動連結，頁面內容沒有就填頁面網址）、risks（風險提示：扣款、自動續約、資格失效等）。';
+  const known = (existing || []).filter(Boolean).slice(0, 20);
+  const knownNote = known.length ? '\n這個頁面已經收錄了下列優惠（不要重複列出，也不要把它們拆成多條）：' + known.join('；') : '';
   try {
     const res = await fetch(LLM.baseUrl + '/chat/completions', {
       method: 'POST',
       headers: {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + apiKey},
-      body: JSON.stringify({model: LLM.model, messages: [{role: 'system', content: system}, {role: 'user', content: user}], temperature: 0.2, max_tokens: LLM.maxTokens}),
+      body: JSON.stringify({model: LLM.model, messages: [{role: 'system', content: system}, {role: 'user', content: user + knownNote}], temperature: 0.2, max_tokens: LLM.maxTokens}),
       signal: AbortSignal.timeout(60000)
     });
     if (!res.ok) {
@@ -218,10 +220,13 @@ export async function scanCore(data, cfg) {
       const id = todo[n];
       if (n > 0) await sleep(LLM.gapMs);
       const text = htmlToText(bodies[id]).slice(0, LLM.maxBodyChars);
-      let r = await llmExtractDeals(llmApiKey, sourceById[id], text);
+      // 同一個頁面已核實的條目帶進提示詞，避免 LLM 把它們拆成多條重複草稿
+      const norm = u => String(u || '').replace(/\/+$/, '');
+      const known = keep.filter(d => d.status === 'verified' && (d.sourceId === id || norm(d.officialUrl) === norm(sourceById[id].url))).map(d => d.name);
+      let r = await llmExtractDeals(llmApiKey, sourceById[id], text, known);
       if (r.rateLimited) {
         await sleep(Math.max(r.retryAfterMs, LLM.retryWaitMs));
-        r = await llmExtractDeals(llmApiKey, sourceById[id], text);
+        r = await llmExtractDeals(llmApiKey, sourceById[id], text, known);
       }
       ai.attempted++;
       if (r.error) {
