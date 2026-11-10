@@ -1,7 +1,7 @@
-# I. 软件与数字服务专区
-> 本文件由 scripts/build-dashboards.mjs 自动生成，数据来源 data/deals.json。
-> 生成时间：2026-11-10T00:15:40.555Z（UTC）。手动编辑会被下一轮覆盖，要改内容请改数据文件。
+# I. 軟體與數位服務專區
+> 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
+> 產生時間：2026-11-10T00:51:07.242Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
-| 活动名称 | 类别 | 优惠内容 | 价值 | 截止 | 状态 |
+| 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [GitHub Student Developer Pack（学生开发者大礼包）](https://education.github.com/pack) | 软件/数字服务 | 经学校身份验证的学生可免费获得数十项开发者工具与额度，包括 GitHub Copilot、Codespaces、云服务抵免额、域名、IDE … | 免费（价值视使用而定） | 长期活动 | 已核实 |
+| [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE… | 免費（價值視使用而定） | 長期活動 | 已核實 |
