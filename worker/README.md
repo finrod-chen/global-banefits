@@ -6,6 +6,7 @@
 ## 檔案
 
 - src/index.js：Worker 本體（scheduled 掃描、LLM 提取、fetch 提供看板與 API）
+- src/dashboard.js：看板網頁版面（票券式優惠卡、專區分頁、搜尋與排序、深淺色、手機版）
 - wrangler.toml：cron 每 2 小時、KV binding DEAL_DATA（namespace id 是佔位符，部署腳本會自動替換）
 - deploy.sh：Cloudflare Workers Builds 用的部署腳本
 - ../.github/workflows/deploy-worker.yml：GitHub Actions 部署（備援路線）
@@ -23,6 +24,8 @@ deploy.sh 會自動：找到或建立 DEAL_DATA KV namespace、把 id 寫進 wra
 ## 部署路線 B：GitHub Actions（備援，需要 secrets）
 
 Settings → Secrets and variables → Actions 加 CLOUDFLARE_API_TOKEN、CLOUDFLARE_ACCOUNT_ID；Token 權限需 Account 層級的 Workers Scripts:Edit 與 Workers KV Storage:Edit。workflow 會自動建立 KV namespace 並部署。
+
+沒設這兩個 secrets 時 workflow 會自動略過部署並顯示提示，不會失敗。
 
 兩條路線同時開會重複部署同一個 Worker（同程式碼，無害但沒必要）：走路線 A 就不必加 secrets。
 
