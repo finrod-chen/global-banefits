@@ -14,11 +14,18 @@ function section(title, items, line) {
   return title + '（' + items.length + '）\n' + rows.join('\n');
 }
 
+// 預審結果與估值是在提取之後才補上的（同一個物件），所以這裡看到的是最新狀態
+function draftTag(d) {
+  const parts = [d.status === 'ai-reviewed' ? 'AI 預審通過' : (d.review ? '預審有疑慮' : '待預審')];
+  if (d.valueEstimate && Number(d.valueEstimate.twd) > 0) parts.push('AI 估 TWD ' + Number(d.valueEstimate.twd).toLocaleString('en-US'));
+  return '(' + parts.join('，') + ')';
+}
+
 /** 把一輪掃描的事件組成通知文字；沒有值得通知的事回傳 null。 */
 export function buildDigest(events, lastRun, dashboardUrl) {
   if (!events) return null;
   const parts = [
-    section('🆕 新草稿，待核實', events.newDrafts, d => '・[' + (CATEGORY_LABEL[d.category] || d.category) + '] ' + d.name + '\n　' + d.officialUrl),
+    section('🆕 新草稿', events.newDrafts, d => '・[' + (CATEGORY_LABEL[d.category] || d.category) + '] ' + d.name + '　' + draftTag(d) + '\n　' + d.officialUrl),
     section('⏰ 三天內截止', events.endingSoon, d => '・' + d.name + '（' + d.endDate + '）\n　' + d.officialUrl),
     section('⚠️ 疑似失效，關鍵字從頁面消失', events.suspectExpired, r => '・' + r.name + '\n　' + r.url),
     section('🚫 來源擷取失敗', events.newFailures, r => '・' + r.name + '：' + (r.error || r.httpStatus)),
@@ -26,7 +33,7 @@ export function buildDigest(events, lastRun, dashboardUrl) {
   ].filter(Boolean);
   if (!parts.length) return null;
   const s = lastRun && lastRun.summary ? lastRun.summary : {};
-  const head = '全球好康情報中心｜掃描 ' + (s.sourcesChecked || 0) + ' 個來源，有效優惠 ' + (s.activeDeals || 0) + ' 條（待核實 ' + (s.pending || 0) + '）';
+  const head = '全球好康情報中心｜掃描 ' + (s.sourcesChecked || 0) + ' 個來源，有效優惠 ' + (s.activeDeals || 0) + ' 條（AI 預審通過 ' + (s.aiReviewed || 0) + '，待核實 ' + (s.pending || 0) + '）';
   const text = [head].concat(parts, dashboardUrl ? ['看板：' + dashboardUrl] : []).join('\n\n');
   return text.length > 3900 ? text.slice(0, 3900) + '\n…（內容過長已截斷）' : text;
 }

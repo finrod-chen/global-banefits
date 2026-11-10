@@ -30,6 +30,7 @@ const CATEGORY_LABEL = {ai: 'AI 工具', crypto: 'Crypto', banking: '海外銀�
 function fmtValue(d) {
   const v = d.value || {};
   if (v.valueTWD) return '約 TWD ' + Number(v.valueTWD).toLocaleString('en-US');
+  if (d.valueEstimate && Number(d.valueEstimate.twd) > 0) return '約 TWD ' + Number(d.valueEstimate.twd).toLocaleString('en-US') + '（AI 估）';
   if (v.type === 'free') return '免費（價值視使用而定）';
   return v.note || '待評估';
 }
@@ -41,7 +42,7 @@ function cell(text) {
   return String(text === undefined || text === null ? '' : text).replace(/\|/g, '，').replace(/\r?\n/g, ' ');
 }
 function row(d) {
-  return '| [' + cell(d.name) + '](' + d.officialUrl + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(String(d.summary || '').slice(0, 70)) + ' | ' + cell(fmtValue(d)) + ' | ' + cell(fmtEnd(d)) + ' | ' + (d.status === 'verified' ? '已核實' : '待核實') + ' |';
+  return '| [' + cell(d.name) + '](' + d.officialUrl + ') | ' + (CATEGORY_LABEL[d.category] || d.category) + ' | ' + cell(String(d.summary || '').slice(0, 70)) + ' | ' + cell(fmtValue(d)) + ' | ' + cell(fmtEnd(d)) + ' | ' + (d.status === 'verified' ? '已核實' : (d.status === 'ai-reviewed' ? 'AI 預審通過' : '待核實')) + ' |';
 }
 const HEAD = ['| 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |', '|---|---|---|---|---|---|'];
 function table(rows) {

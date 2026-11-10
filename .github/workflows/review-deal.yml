@@ -17,7 +17,7 @@ on:
           - verify
           - reject
       value_twd:
-        description: 估算價值（新台幣，只在 verify 時用，可留空）
+        description: 價值（新台幣，只在 verify 時用）。留空就採用 AI 估值（如果有）；填了就以你填的為準
         required: false
         default: ''
         type: string
