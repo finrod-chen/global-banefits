@@ -1,10 +1,11 @@
+
 #!/usr/bin/env bash
 # GLOBAL DEAL RADAR - Cloudflare Workers Builds 部署腳本
 # 用法：在 Cloudflare 的 Workers Builds 設定，把 Deploy command 設為：
 #   bash worker/deploy.sh
 # （Root directory 維持 repo 根目錄不用改）
 # 這支腳本會：自動建立/找到 DEAL_DATA KV namespace、把 id 寫進 wrangler.toml（僅 build 環境內）、
-# 部署 Worker、種子化 KV（sources 每次覆蓋，deals/state/archive 只在不存在時種入）。
+# 部署 Worker、種子化 KV（sources 每次覆蓋；deals/state/archive 只在 repo 有檔且 KV 缺鍵時種入）。
 
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -31,8 +32,11 @@ echo "== 3. 部署 Worker =="
 npx wrangler deploy
 
 echo "== 4. 種子化 KV =="
-npx wrangler kv key put sources --path ../data/sources.json --namespace-id "$NS_ID" --remote
+if [ -f ../data/sources.json ]; then
+  npx wrangler kv key put sources --path ../data/sources.json --namespace-id "$NS_ID" --remote
+fi
 seed_if_missing() {
+  if [ ! -f "$2" ]; then echo "skip $1（repo 沒有 $2，Worker 第一次掃描會自己建立）"; return; fi
   if ! npx wrangler kv key get "$1" --namespace-id "$NS_ID" --remote >/dev/null 2>&1; then
     npx wrangler kv key put "$1" --path "$2" --namespace-id "$NS_ID" --remote
     echo "seeded $1"
