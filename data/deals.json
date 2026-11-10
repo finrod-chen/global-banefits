@@ -549,8 +549,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 32000,
+      "note": "人工核實時填入的估算價值"
     },
     "requirements": "僅限新 Azure 客戶；期限為註冊後 12 個月內。",
     "regions": [
@@ -564,9 +564,9 @@
       "在 12 個月有效期内使用指定服務（如 B1s VM 750 小時）"
     ],
     "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-10T21:08:16.273Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，提取時間 2026-11-10T21:08:16.273Z；人工核實於 2026-11-10",
     "lastVerified": "2026-11-10",
     "risks": "12 個月期限結束後，相關服務將開始按標準付費方案計費。",
-    "status": "pending"
+    "status": "verified"
   }
 ]
