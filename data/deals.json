@@ -85,5 +85,182 @@
     "lastVerified": "2026-11-10",
     "risks": "身分審核可能要求補件；部分合作方優惠有各自的地區或時間限制；畢業或身分失效後優惠會被收回",
     "status": "verified"
+  },
+  {
+    "id": "anthropic-pricing-20261110-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Free 免費方案",
+    "category": "ai",
+    "summary": "每月 $0，所有人皆可免費使用。限制使用量：每 5 小時及每週皆有使用量限制。功能包含：網路、桌面與行動端聊天、網頁搜尋、建立檔案與執行程式碼、跨會話記憶體、連接應用程式與工具、建立 Artifacts、Claude Design、Slides、Docs。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "無明確付費條件，但受每 5 小時與每週的使用量限制。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 https://www.anthropic.com/pricing",
+      "點擊 'Try Claude' 進入免費方案"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-10T20:10:58.828Z",
+    "lastVerified": "2026-11-10",
+    "risks": "使用量受限，超過限制需等待重置或升級方案。",
+    "status": "pending"
+  },
+  {
+    "id": "suno-pricing-20261110-1",
+    "sourceId": "suno-pricing",
+    "name": "Suno 免費方案",
+    "category": "ai",
+    "summary": "每月 $0，提供每日 50 次額度（credits）、存取免費模型、上傳最長 8 分鐘音訊、使用共享創作佇列。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "免費註冊即可，無需提供信用卡或消費門檻。",
+    "regions": [
+      "全球"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Suno 官網",
+      "點擊 'Join Suno for free' 進行註冊"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-10T20:12:05.823Z",
+    "lastVerified": "2026-11-10",
+    "risks": "無商業版權、不支援月度歌曲下載、不支援購買額外額度、不支援人聲分離。",
+    "status": "pending"
+  },
+  {
+    "id": "suno-pricing-20261110-2",
+    "sourceId": "suno-pricing",
+    "name": "年繳折扣（Pro 與 Premier）",
+    "category": "ai",
+    "summary": "選擇年繳方案比月繳價格更便宜。Pro 方案年繳每月 $8（原價 $10），Premier 方案年繳每月 $24（原價 $30）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需一次性支付一年費用並自動續約。",
+    "regions": [
+      "全球"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在定價頁面選擇年繳選項",
+      "選擇 Pro 或 Premier 方案並完成付款"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-10T20:12:05.823Z",
+    "lastVerified": "2026-11-10",
+    "risks": "訂閱會自動續約，需自行設提醒以便在到期前取消，避免產生下一期費用。",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261110-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 免費方案",
+    "category": "ai",
+    "summary": "每月 2,000 次 completions，可存取 Haiku 4.5、GPT-5 mini 等模型、Copilot CLI、社群支援",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "無需信用卡；驗證過的學生可存取 GitHub Copilot 學生方案",
+    "regions": [
+      "全球"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或登入 GitHub",
+      "前往 GitHub Copilot 方案頁面",
+      "選擇 Free 方案並點擊 Get started"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-10T20:12:24.084Z",
+    "lastVerified": "2026-11-10",
+    "risks": "無風險",
+    "status": "pending"
+  },
+  {
+    "id": "oracle-free-20261110-1",
+    "sourceId": "oracle-free",
+    "name": "Oracle Cloud Free Trial",
+    "category": "vps-cloud",
+    "summary": "提供 US$300 雲端信用額度，可於 30 天內使用於所有適用的 OCI 服務；若額度未用完或 30 天期滿，試用量即停止。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "每人僅限建立一個免費帳戶,註冊時需提供有效的信用卡或簽帳金融卡資訊用於身份驗證（可能產生暫時性授權預扣，非實際扣款）,不接受 PIN 簽帳卡、虛擬卡、一次性卡或預付卡,帳戶若閒置 30 天以上可能被視為棄置並暫停或終止,信用額度僅在特定國家可用",
+    "regions": [
+      "特定國家"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Oracle 帳戶並提供信用卡資訊進行驗證",
+      "選擇 Data Region（區域）",
+      "開始使用 US$300 信用額度測試應用",
+      "在 30 天內切換為 Pay As You Go（隨付隨用）帳戶或保持免費狀態"
+    ],
+    "officialUrl": "https://www.oracle.com/cloud/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，待人工核實，提取時間 2026-11-10T20:13:03.052Z",
+    "lastVerified": "2026-11-10",
+    "risks": "30 天期限後若未停止使用超出 Always Free 額度的服務，將自動轉為付費計費,信用卡預扣授權可能因銀行處理延遲存在,違反規定（如建立多個帳戶）將導致帳戶停用",
+    "status": "pending"
+  },
+  {
+    "id": "oracle-free-20261110-2",
+    "sourceId": "oracle-free",
+    "name": "Oracle Cloud Always Free Services",
+    "category": "vps-cloud",
+    "summary": "提供無限期的免費服務額度，包括 HeatWave、AMD-based Compute、Arm-based Ampere A1 Compute、Block Volume、Object Storage、Autonomous Databases 等基礎設施與數據庫服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需註冊 Oracle Cloud Free Tier 帳戶,每人僅限一個帳戶,部分服務可能有地域限制（如 NoSQL Database 僅限 Phoenix Region）,需遵守服務容量限制",
+    "regions": [
+      "所有商業 OCI 服務可用地區"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Oracle Cloud Free Tier 帳戶",
+      "在控制台中配置並使用 Always Free 服務"
+    ],
+    "officialUrl": "https://www.oracle.com/cloud/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Oracle Cloud Free Tier」，待人工核實，提取時間 2026-11-10T20:13:03.052Z",
+    "lastVerified": "2026-11-10",
+    "risks": "超出 Always Free 額度將計費,帳戶閒置 30 天可能導致服務暫停",
+    "status": "pending"
   }
 ]
