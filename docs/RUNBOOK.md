@@ -1,33 +1,34 @@
-# 运维手册（RUNBOOK）
+
+# 維運手冊（RUNBOOK）
 
 ## 日常流程
 
-1. 扫描：GitHub Actions 每 2 小时跑一次 scripts/scan.mjs，跑完自动执行 scripts/build-dashboards.mjs 重建看板并提交。
-2. 待核实队列：打开 data/last-run.json 看 needsReview 字段，里面是本轮发生变更的来源（content-changed / first-seen / suspect-expired / fetch-failed）。
-3. 人工核实：点开对应来源页面，确认有新活动后，按 docs/SCHEMA.md 的格式把新条目写进 data/deals.json（status 先填 pending，核实完改 verified）。
-4. 下一次扫描会自动：去重（同名 + 同官方链接）、归档过期条目、重建看板。
+1. 掃描：GitHub Actions 每 2 小時跑一次 scripts/scan.mjs，跑完自動執行 scripts/build-dashboards.mjs 重建看板並提交。
+2. 待核實佇列：打開 data/last-run.json 看 needsReview 欄位，裡面是本輪發生變更的來源（content-changed / first-seen / suspect-expired / fetch-failed）。
+3. 人工核實：點開對應來源頁面，確認有新活動後，按 docs/SCHEMA.md 的格式把新條目寫進 data/deals.json（status 先填 pending，核實完改 verified）。
+4. 下一輪掃描會自動：去重（同名 + 同官方連結）、歸檔過期條目、重建看板。
 
-## 新增监控来源
+## 新增監控來源
 
-编辑 data/sources.json 加一条：id（唯一英文标识）、category、name、url（只用官方域名）、watchKeywords（关注关键词数组；扫描时这些关键词全部从页面消失会标记 suspect-expired）、enabled（设为 false 可暂时停用）。
+編輯 data/sources.json 加一條：id（唯一英文識別）、category、name、url（只用官方網域）、watchKeywords（關注關鍵字陣列；掃描時這些關鍵字全部從頁面消失會標記 suspect-expired）、enabled（設為 false 可暫時停用）。
 
-## 已实现的自动化
+## 已實作的自動化
 
-- 每 2 小时定时扫描（GitHub Actions cron；GitHub 调度可能有 10 到 30 分钟延迟）
-- 官方页面哈希对比、变更侦测、疑似失效侦测（关键词消失）
-- 重复优惠去重、过期自动归档
-- 看板自动重建（今日、排行榜、分类、即将截止、档案）
-- 扫描报告与每条优惠的最后验证时间记录
+- 每 2 小時定時掃描（GitHub Actions cron；GitHub 排程可能有 10 到 30 分鐘延遲）
+- 官方頁面雜湊比對、變更偵測、疑似失效偵測（關鍵字消失）
+- 重複優惠去重、過期自動歸檔
+- 看板自動重建（今日、排行榜、分類、即將截止、檔案）
+- 掃描報告與每條優惠的最後驗證時間記錄
 
-## 尚未实现、需要额外配置的（不要误以为已经在跑）
+## 尚未實作、需要額外設定的（不要誤以為已經在跑）
 
-- AI 自动提取优惠字段：需要给仓库配一个 LLM API 金钥（Settings → Secrets and variables → Actions，例如 LLM_API_KEY），并在 scripts/scan.mjs 的待核实环节接入调用。当前版本只做页面级变更侦测。
-- 推送通知（Telegram / 邮件 / Slack）：需要对应服务的 Bot Token 或 SMTP 配置，同样是加 Secret 后在 workflow 里加一步。当前版本不含。
-- 地区限制与资格条件的自动识别：依赖上面的 LLM 步骤，当前靠人工核实。
-- Actions 启用：合并后在仓库 Actions 页确认 Deal Hunter Scan 出现；如果排程没跑，检查 Settings → Actions → General 是否允许，并手动 Run workflow 验证。GitHub 会在仓库 60 天无活动时自动暂停排程，有新提交就会重置计时。
+- AI 自動提取優惠欄位：需要給倉庫設一個 LLM API 金鑰（Settings → Secrets and variables → Actions，例如 LLM_API_KEY），並在 scripts/scan.mjs 的待核實環節接入呼叫。目前版本只做頁面級變更偵測。
+- 推播通知（Telegram / 郵件 / Slack）：需要對應服務的 Bot Token 或 SMTP 設定，同樣是加 Secret 後在 workflow 裡加一步。目前版本不含。
+- 地區限制與資格條件的自動識別：依賴上面的 LLM 步驟，目前靠人工核實。
+- Actions 啟用：合併後在倉庫 Actions 頁確認 Deal Radar Scan 出現；如果排程沒跑，檢查 Settings → Actions → General 是否允許，並手動 Run workflow 驗證。GitHub 會在倉庫 60 天無活動時自動暫停排程，有新提交就會重置計時。
 
-## 本地运行
+## 本機執行
 
 - node scripts/scan.mjs
 - node scripts/build-dashboards.mjs
-- 需要 Node 18 以上（用了内置 fetch）
+- 需要 Node 18 以上（用了內建 fetch）
