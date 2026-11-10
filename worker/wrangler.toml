@@ -1,0 +1,10 @@
+# GLOBAL DEAL RADAR Worker 設定
+# namespace id 的佔位符會由 GitHub Actions 在部署前自動替換成實際的 KV namespace id。
+name = "global-deal-radar"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+
+kv_namespaces = [ { binding = "DEAL_DATA", id = "REPLACE_WITH_NAMESPACE_ID" } ]
+
+[triggers]
+crons = [ "0 */2 * * *" ]
