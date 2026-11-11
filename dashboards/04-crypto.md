@@ -11,5 +11,5 @@
 | [Gate Futures Points 積分空投活動](https://www.gate.com/announcements) | Crypto | 賺取期貨積分並兌換空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate P2P 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | P2P 交易零手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
