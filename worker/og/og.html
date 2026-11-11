@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<title>OG image 原始稿</title>
+<!--
+  OG image（1200×630）的原始稿。要改圖就改這個檔，再執行 node scripts/build-og.mjs 重新產生
+  worker/og/og.png 與 worker/src/og-image.js。配色與看板一致（見 worker/src/dashboard.js 的 :root）。
+  圖上只放品牌與三種狀態的意思，不放任何具體優惠或數字，免得內容過期。
+-->
+<style>
+:root{--bg:#f4f1ea;--surface:#fffdf8;--ink:#1c1a17;--muted:#6b655c;--line:#ddd6c8;--accent:#b8400f;--ok:#1f7a4d;--ok-bg:#e3f1e8;--wait:#8a5a00;--wait-bg:#f6ebcf;--ai:#2b5fb8;--ai-bg:#e2ebf9;
+--sans:"WenQuanYi Zen Hei","PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+*{box-sizing:border-box;margin:0}
+html,body{width:1200px;height:630px;overflow:hidden}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);position:relative}
+.radar{position:absolute;right:-130px;top:50%;width:760px;height:760px;transform:translateY(-50%)}
+.copy{position:absolute;left:76px;top:0;bottom:0;width:640px;display:flex;flex-direction:column;justify-content:center}
+.brand{display:flex;align-items:center;gap:18px}
+.brand svg{width:56px;height:56px;color:var(--accent)}
+.brand small{font:700 24px/1 var(--mono);letter-spacing:.2em;color:var(--accent)}
+/* WenQuanYi Zen Hei 只有一種字重，用文字描邊模擬粗體 */
+h1{margin-top:34px;font-size:104px;line-height:1.08;font-weight:700;letter-spacing:.02em;-webkit-text-stroke:3px var(--ink)}
+.sub{margin-top:26px;font-size:38px;line-height:1.45;color:var(--muted)}
+.chips{margin-top:44px;display:flex;gap:14px}
+.chip{font-size:28px;line-height:1;padding:13px 20px;border-radius:12px;font-weight:700;-webkit-text-stroke:.7px currentColor}
+.chip.ok{color:var(--ok);background:var(--ok-bg)}.chip.ai{color:var(--ai);background:var(--ai-bg)}.chip.wait{color:var(--wait);background:var(--wait-bg)}
+.rule{margin-top:34px;font-size:27px;color:var(--muted)}
+.rule b{color:var(--ink);-webkit-text-stroke:.7px var(--ink)}
+</style></head><body>
+<svg class="radar" viewBox="0 0 760 760" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="fade" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#b8400f" stop-opacity=".0"/><stop offset="1" stop-color="#b8400f" stop-opacity=".26"/></radialGradient>
+    <mask id="wedge"><rect width="760" height="760" fill="#000"/><path d="M380 380 L380 20 A360 360 0 0 1 706 224 Z" fill="#fff"/></mask>
+  </defs>
+  <g stroke="#b8400f" stroke-opacity=".22" stroke-width="2">
+    <circle cx="380" cy="380" r="360"/><circle cx="380" cy="380" r="270"/><circle cx="380" cy="380" r="180"/><circle cx="380" cy="380" r="90"/>
+    <path d="M380 20V740M20 380H740" stroke-opacity=".14"/>
+  </g>
+  <circle cx="380" cy="380" r="360" fill="url(#fade)" mask="url(#wedge)"/>
+  <path d="M380 380 L380 20" stroke="#b8400f" stroke-opacity=".55" stroke-width="3"/>
+  <circle cx="380" cy="380" r="9" fill="#b8400f"/>
+  <!-- 光點：綠＝已核實、藍＝AI 預審通過、黃＝待核實 -->
+  <g>
+    <circle cx="560" cy="176" r="26" fill="#1f7a4d" fill-opacity=".16"/><circle cx="560" cy="176" r="11" fill="#1f7a4d"/>
+    <circle cx="214" cy="266" r="24" fill="#2b5fb8" fill-opacity=".16"/><circle cx="214" cy="266" r="10" fill="#2b5fb8"/>
+    <circle cx="520" cy="486" r="24" fill="#1f7a4d" fill-opacity=".16"/><circle cx="520" cy="486" r="10" fill="#1f7a4d"/>
+    <circle cx="330" cy="560" r="22" fill="#8a5a00" fill-opacity=".16"/><circle cx="330" cy="560" r="9" fill="#8a5a00"/>
+    <circle cx="468" cy="300" r="20" fill="#2b5fb8" fill-opacity=".16"/><circle cx="468" cy="300" r="8" fill="#2b5fb8"/>
+    <circle cx="252" cy="446" r="18" fill="#1f7a4d" fill-opacity=".16"/><circle cx="252" cy="446" r="7" fill="#1f7a4d"/>
+  </g>
+</svg>
+<div class="copy">
+  <div class="brand">
+    <svg viewBox="0 0 44 44" fill="none" stroke="currentColor"><circle cx="22" cy="22" r="20" stroke-width="1.8"/><circle cx="22" cy="22" r="12" stroke-width="1.8" opacity=".55"/><circle cx="22" cy="22" r="3.4" fill="currentColor" stroke="none"/><path d="M22 22 L22 2 A20 20 0 0 1 39.3 12 Z" fill="currentColor" stroke="none" opacity=".3"/></svg>
+    <small>GLOBAL DEAL RADAR</small>
+  </div>
+  <h1>全球好康<br>情報中心</h1>
+  <p class="sub">盯著官方頁面，整理全球優惠</p>
+  <div class="chips"><span class="chip ok">已核實</span><span class="chip ai">AI 預審通過</span><span class="chip wait">待核實</span></div>
+  <p class="rule"><b>不編造優惠</b>　只有人工放行才算已核實</p>
+</div>
+</body></html>

@@ -344,11 +344,29 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
   const tab = (id, label, n) => '<button type="button" data-tab="' + id + '" aria-pressed="' + (id === 'all' ? 'true' : 'false') + '">' + label + '<span>' + n + '</span></button>';
   const tabs = [tab('all', '全部', active.length), tab('recent', '最新 48 小時', recent), tab('soon', '即將截止', soon)]
     .concat(Object.keys(CATEGORY_LABEL).filter(c => c !== 'other' || byCat(c)).map(c => tab(c, CATEGORY_LABEL[c], byCat(c)))).join('');
+  // 社群分享預覽：og:image 與 og:url 必須是絕對網址，所以要有 origin 才會輸出
+  const origin = meta && meta.origin ? String(meta.origin).replace(/\/+$/, '') : '';
+  const pendingCount = active.length - verified - aiOk;
+  const ogTitle = '全球好康情報中心｜GLOBAL DEAL RADAR';
+  const ogDesc = '盯著官方頁面整理的全球優惠，目前 ' + active.length + ' 條：已核實 ' + verified + '、AI 預審通過 ' + aiOk + '、待核實 ' + pendingCount + '。不編造優惠，只有人工放行才算已核實。';
+  const ogAlt = '全球好康情報中心：雷達掃描全球優惠，光點標示已核實、AI 預審通過、待核實';
+  const metaTag = (attr, key, value) => '<meta ' + attr + '="' + key + '" content="' + esc(value) + '">';
+  const shareMeta = [
+    metaTag('name', 'description', ogDesc),
+    metaTag('property', 'og:type', 'website'), metaTag('property', 'og:site_name', 'GLOBAL DEAL RADAR'), metaTag('property', 'og:locale', 'zh_TW'),
+    metaTag('property', 'og:title', ogTitle), metaTag('property', 'og:description', ogDesc),
+    metaTag('name', 'twitter:card', origin ? 'summary_large_image' : 'summary'), metaTag('name', 'twitter:title', ogTitle), metaTag('name', 'twitter:description', ogDesc)
+  ].concat(origin ? [
+    metaTag('property', 'og:url', origin + '/'),
+    metaTag('property', 'og:image', origin + '/og.png'), metaTag('property', 'og:image:type', 'image/png'),
+    metaTag('property', 'og:image:width', '1200'), metaTag('property', 'og:image:height', '630'), metaTag('property', 'og:image:alt', ogAlt),
+    metaTag('name', 'twitter:image', origin + '/og.png'), metaTag('name', 'twitter:image:alt', ogAlt)
+  ] : []).join('');
   const stat = (cls, label, n) => '<div class="' + cls + '"><dt>' + label + '</dt><dd>' + n + '</dd></div>';
   return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="color-scheme" content="light dark">' +
-    '<title>全球好康情報中心｜GLOBAL DEAL RADAR</title>' +
+    '<title>' + ogTitle + '</title>' + shareMeta +
     '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 44 44%27%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%2720%27 fill=%27%23b8400f%27/%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%2711%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%273%27/%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%273%27 fill=%27%23fff%27/%3E%3C/svg%3E">' +
     '<style>' + CSS + '</style></head><body><div class="wrap">' +
     '<header class="top">' +

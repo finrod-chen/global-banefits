@@ -8,6 +8,7 @@
  *   GET  /api/deals              目前有效優惠（data/deals.json）
  *   GET  /api/archive            已結束/退回的條目（data/archive.json）
  *   GET  /api/last-run           最近一次掃描報告（data/last-run.json）
+ *   GET  /og.png                 社群分享預覽圖（1200×630，內嵌在 og-image.js，不需要讀 repo 資料）
  *   GET  /healthz                健康檢查
  *   POST /api/scan               觸發 Actions 立即掃描（需 ADMIN_TOKEN 與 GITHUB_TOKEN）
  *   POST /api/deals/:id/verify   觸發 Actions 核實這條草稿，body 可帶 {"valueTWD": 數字}
@@ -26,6 +27,7 @@
  */
 
 import {dashboardHtml} from './dashboard.js';
+import {OG_IMAGE_BASE64} from './og-image.js';
 
 const FILES = {deals: 'data/deals.json', archive: 'data/archive.json', lastRun: 'data/last-run.json'};
 const TTL_MS = 60 * 1000;
@@ -63,6 +65,19 @@ async function loadData(env, fresh) {
     if (memo) return Object.assign({}, memo.data, {stale: true});
     throw error;
   }
+}
+
+let ogBytes = null;
+// OG image 是靜態的，解碼一次後留在記憶體；不依賴 GitHub，所以 GitHub 讀不到時分享預覽圖照樣能出
+function ogImage(request) {
+  if (!ogBytes) {
+    const bin = atob(OG_IMAGE_BASE64);
+    ogBytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) ogBytes[i] = bin.charCodeAt(i);
+  }
+  return new Response(request.method === 'HEAD' ? null : ogBytes, {
+    headers: {'content-type': 'image/png', 'content-length': String(ogBytes.length), 'cache-control': 'public, max-age=86400'}
+  });
 }
 
 function json(value, status) {
@@ -138,6 +153,7 @@ export default {
     if (request.method === 'POST') return handleAdmin(request, env, url);
     if (request.method !== 'GET' && request.method !== 'HEAD') return new Response('Method not allowed', {status: 405});
     if (url.pathname === '/healthz') return new Response('ok');
+    if (url.pathname === '/og.png') return ogImage(request);
     const known = ['/', '/index.html', '/api/deals', '/api/archive', '/api/last-run'];
     if (known.indexOf(url.pathname) < 0) return new Response('Not found', {status: 404});
     let data;
@@ -151,6 +167,6 @@ export default {
     if (url.pathname === '/api/deals') return json(data.deals);
     if (url.pathname === '/api/archive') return json(data.archive);
     if (url.pathname === '/api/last-run') return json(data.lastRun);
-    return new Response(dashboardHtml(data.deals, data.lastRun, data.archive, {repo: repoOf(env).slug, stale: !!data.stale}), {headers: {'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store'}});
+    return new Response(dashboardHtml(data.deals, data.lastRun, data.archive, {repo: repoOf(env).slug, stale: !!data.stale, origin: url.origin}), {headers: {'content-type': 'text/html; charset=utf-8', 'cache-control': 'no-store'}});
   }
 };
