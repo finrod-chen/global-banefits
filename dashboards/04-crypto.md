@@ -5,7 +5,7 @@
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [Gate Referral 200 USDT 推薦獎勵](https://www.gate.com/announcements) | Crypto | 邀請朋友註冊並進行交易以賺取最高 200 USDT 的推薦獎勵 | 約 TWD 6,400 | 長期活動 | 已核實 |
-| [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate HODLer Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 持有 GT 代幣即可獲得大量免費空投 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate VIP Wealth Hub 限時 USDT 利率優惠](https://www.gate.com/announcements) | Crypto | 限時提供 9% 年化利率 (APR) 的 USDT 理財產品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Futures Points 積分空投活動](https://www.gate.com/announcements) | Crypto | 賺取期貨積分並兌換空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
