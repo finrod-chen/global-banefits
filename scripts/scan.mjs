@@ -47,4 +47,5 @@ console.log('[deal-radar] ' + result.lastRun.at + ' sources=' + s.sourcesChecked
   ' activeDeals=' + s.activeDeals + ' pending=' + s.pending + ' archived=' + s.archived +
   ' ai=' + (ai.noKey ? 'off' : ai.extracted + '/' + ai.attempted) + ' notify=' + (result.lastRun.notification.sent ? 'sent' : 'skip'));
 if (ai.errors.length) console.log('[deal-radar] ai errors: ' + ai.errors.join(' | '));
+if (ai.warnings && ai.warnings.length) console.log('[deal-radar] ai warnings: ' + ai.warnings.join(' | '));
 if (result.lastRun.notification.error) console.log('[deal-radar] notify error: ' + result.lastRun.notification.error);

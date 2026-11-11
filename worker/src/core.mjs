@@ -57,6 +57,32 @@ function normDate(d) {
   return typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d.trim()) ? d.trim() : null;
 }
 
+// 從可能被截斷或夾帶雜訊的文字中，盡量取出 JSON 陣列裡每個「完整」的物件；最後那個沒寫完的會被丟掉。
+// 模型的輸出被 max_tokens 截斷時，整段 JSON.parse 會失敗，但前面已完成的優惠仍然有用。
+export function salvageJsonArray(text) {
+  const src = String(text || '');
+  const start = src.indexOf('[');
+  if (start < 0) return [];
+  const out = [];
+  let depth = 0, inStr = false, esc = false, objStart = -1;
+  for (let i = start + 1; i < src.length; i++) {
+    const ch = src[i];
+    if (inStr) { if (esc) esc = false; else if (ch === '\\') esc = true; else if (ch === '"') inStr = false; continue; }
+    if (ch === '"') { inStr = true; continue; }
+    if (ch === '{') { if (depth === 0) objStart = i; depth++; }
+    else if (ch === '}') {
+      if (depth > 0) depth--;
+      if (depth === 0 && objStart >= 0) { try { out.push(JSON.parse(src.slice(objStart, i + 1))); } catch (e) { /* 這一個壞掉就略過，繼續找下一個 */ } objStart = -1; }
+    } else if (ch === ']' && depth === 0) break;
+  }
+  return out;
+}
+// 解析失敗時的診斷訊息：帶上長度、結束原因與頭尾，下次才看得出是被截斷還是格式不對
+function parseFailure(label, content, finishReason) {
+  const flat = String(content || '').replace(/\s+/g, ' ').trim();
+  return label + '（長度 ' + flat.length + (finishReason ? '，結束原因 ' + finishReason : '') + '，開頭「' + flat.slice(0, 60) + '」，結尾「' + flat.slice(-60) + '」）';
+}
+
 // 呼叫 OpenAI 相容的 /chat/completions。回傳 {content} 或 {error, rateLimited, retryAfterMs}，不丟例外。
 async function llmChat(apiKey, system, user, maxTokens) {
   try {
@@ -72,7 +98,8 @@ async function llmChat(apiKey, system, user, maxTokens) {
       return {error: 'LLM HTTP ' + res.status + (detail ? ' ' + detail : ''), rateLimited: res.status === 429, retryAfterMs: Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 0};
     }
     const data = await res.json();
-    return {content: data.choices && data.choices[0] && data.choices[0].message ? String(data.choices[0].message.content || '') : ''};
+    const choice = data.choices && data.choices[0] ? data.choices[0] : null;
+    return {content: choice && choice.message ? String(choice.message.content || '') : '', finishReason: choice && choice.finish_reason ? String(choice.finish_reason) : ''};
   } catch (error) {
     return {error: String(error && error.message ? error.message : error)};
   }
@@ -91,9 +118,18 @@ export async function llmExtractDeals(apiKey, source, bodyText, existing) {
     const content = r.content;
     const start = content.indexOf('[');
     const end = content.lastIndexOf(']');
-    if (start < 0 || end <= start) return {deals: []};
+    if (start < 0) return {deals: []};
     let arr;
-    try { arr = JSON.parse(content.slice(start, end + 1)); } catch (e) { return {deals: [], error: 'LLM 輸出解析失敗'}; }
+    let warning = '';
+    try {
+      if (end <= start) throw new Error('沒有結尾的 ]');
+      arr = JSON.parse(content.slice(start, end + 1));
+    } catch (e) {
+      // 整段解析失敗（常見是輸出被截斷）：盡量救回前面已寫完的優惠，一條都救不回才算失敗
+      arr = salvageJsonArray(content);
+      if (!arr.length) return {deals: [], error: parseFailure('LLM 輸出解析失敗', content, r.finishReason)};
+      warning = '輸出無法完整解析' + (r.finishReason === 'length' ? '（被截斷，達到 token 上限）' : '') + '，只取回前 ' + arr.length + ' 條';
+    }
     if (!Array.isArray(arr)) return {deals: []};
     const nowISO = new Date().toISOString();
     const today = nowISO.slice(0, 10);
@@ -124,7 +160,7 @@ export async function llmExtractDeals(apiKey, source, bodyText, existing) {
         status: 'pending'
       });
     }
-    return {deals: out};
+    return warning ? {deals: out, warning} : {deals: out};
   } catch (error) {
     return {deals: [], error: String(error && error.message ? error.message : error)};
   }
@@ -142,6 +178,12 @@ function hostOf(u) {
   try { return new URL(u).hostname.replace(/^www\./, '').toLowerCase(); } catch (e) { return ''; }
 }
 const siteOf = h => { const p = h.split('.'); return p.length <= 2 ? h : p.slice(-2).join('.'); };
+
+// 預審是否通過，只看預審紀錄本身（原文對照數與疑慮清單）。
+// 至少一個論點、所有被要求的論點都找得到原文、沒有任何疑慮。規則改變時可以用它對既有草稿重新判定，不必再叫 LLM。
+export function reviewPassed(rv) {
+  return !!(rv && rv.coverage && rv.coverage.total >= 1 && rv.coverage.found === rv.coverage.total && (rv.flags || []).length === 0);
+}
 
 export const REVIEW_FIELD_LABEL = {summary: '優惠內容', requirements: '參與條件', endDate: '截止日', regions: '適用地區'};
 
@@ -178,12 +220,12 @@ export async function llmReviewDraft(apiKey, source, bodyText, deal) {
   if (r.error) return r;
   const start = r.content.indexOf('{');
   const end = r.content.lastIndexOf('}');
-  if (start < 0 || end <= start) return {error: 'LLM 輸出解析失敗'};
+  if (start < 0 || end <= start) return {error: parseFailure('LLM 輸出解析失敗', r.content, r.finishReason)};
   try {
     const parsed = JSON.parse(r.content.slice(start, end + 1));
-    return parsed && typeof parsed === 'object' ? {parsed} : {error: 'LLM 輸出解析失敗'};
+    return parsed && typeof parsed === 'object' ? {parsed} : {error: parseFailure('LLM 輸出解析失敗', r.content, r.finishReason)};
   } catch (e) {
-    return {error: 'LLM 輸出解析失敗'};
+    return {error: parseFailure('LLM 輸出解析失敗', r.content, r.finishReason)};
   }
 }
 
@@ -216,7 +258,7 @@ export function evaluateReview(deal, source, pageText, parsed, today, nowISO) {
   if (numbersMissing.length) flags.push('numbers-missing');
   if (deal.endDate && deal.ongoing !== true && deal.endDate < today) flags.push('expired');
   if (found < claims.length) flags.push('quote-missing');
-  const passed = claims.length >= 2 && found === claims.length && flags.length === 0;
+  const passed = reviewPassed({coverage: {found, total: claims.length}, flags});
 
   // 估值：頁面上有明確金額且原文找得到，才用固定匯率換算；否則是 AI 推測。兩者都標明來源，且都不寫進 value。
   let valueEstimate = null;
@@ -350,8 +392,8 @@ export async function scanCore(data, cfg) {
   }
   // 沒提取過的排前面，重新提取的排後面（sort 是穩定排序，原本順序保留）
   queue.sort((a, b) => (state.sources[a] && state.sources[a].llmHash ? 1 : 0) - (state.sources[b] && state.sources[b].llmHash ? 1 : 0));
-  const ai = {attempted: 0, extracted: 0, duplicateSkipped: 0, deferred: 0, errors: [], noKey: !llmApiKey};
-  const rv = {attempted: 0, passed: 0, flagged: 0, errors: []};
+  const ai = {attempted: 0, extracted: 0, duplicateSkipped: 0, deferred: 0, errors: [], warnings: [], noKey: !llmApiKey};
+  const rv = {attempted: 0, passed: 0, flagged: 0, rejudged: 0, errors: []};
   // 提取與預審共用同一個限流節奏：呼叫之間隔 gapMs；被 429 時等一下重試一次，還是被擋就結束這一輪所有 LLM 呼叫
   const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
   let lastCallAt = 0;
@@ -388,6 +430,7 @@ export async function scanCore(data, cfg) {
         if (r.rateLimited) break;
         continue;
       }
+      if (r.warning) ai.warnings.push(id + ': ' + r.warning);
       done.push(id);
       state.sources[id].llmHash = state.sources[id].hash;
       state.sources[id].llmAt = nowISO;
@@ -409,6 +452,17 @@ export async function scanCore(data, cfg) {
       }
     }
     deferred = queue.filter(id => done.indexOf(id) < 0);
+
+    // 3a. 對已經預審過的草稿，用預審紀錄重新判定（通過規則改變後，舊草稿不必重新預審就能跟著更新）
+    for (const d of keep) {
+      if (!isDraft(d) || !d.review) continue;
+      const now = reviewPassed(d.review);
+      if (now !== !!d.review.passed || (now ? 'ai-reviewed' : 'pending') !== d.status) {
+        d.review.passed = now;
+        d.status = now ? 'ai-reviewed' : 'pending';
+        rv.rejudged++;
+      }
+    }
 
     // 3b. AI 預審：還沒預審過的草稿，用這一輪抓到的頁面內容對照。失敗最多重試 maxReviewAttempts 次
     const toReview = keep.filter(d => isDraft(d) && !d.review && (d.reviewAttempts || 0) < LLM.maxReviewAttempts && d.sourceId && sourceById[d.sourceId] && bodies[d.sourceId]).slice(0, LLM.maxReviewsPerRun);

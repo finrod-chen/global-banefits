@@ -37,15 +37,16 @@ function fmtTaipei(iso) {
 }
 function valueOf(d) {
   const v = d.value || {};
-  if (v.valueTWD) return {big: 'TWD ' + Number(v.valueTWD).toLocaleString('en-US'), cap: '估算價值', sort: Number(v.valueTWD)};
+  // tier：排序時人工填的價值（2）一律排在 AI 估值（1）前面，沒有數字的（0）最後；同一層再比金額
+  if (v.valueTWD) return {big: 'TWD ' + Number(v.valueTWD).toLocaleString('en-US'), cap: '估算價值', sort: Number(v.valueTWD), tier: 2};
+  if (v.amountUSD) return {big: 'USD ' + Number(v.amountUSD).toLocaleString('en-US'), cap: '官方面額', sort: Number(v.amountUSD) * 32, tier: 2};
   const e = d.valueEstimate;
   if (e && Number(e.twd) > 0) {
-    return {big: '≈ TWD ' + Number(e.twd).toLocaleString('en-US'), cap: e.basis === 'explicit-amount' ? 'AI 估（依原文金額）' : 'AI 估（推測）', sort: Number(e.twd), est: Number(e.twd)};
+    return {big: '≈ TWD ' + Number(e.twd).toLocaleString('en-US'), cap: e.basis === 'explicit-amount' ? 'AI 估（依原文金額）' : 'AI 估（推測）', sort: Number(e.twd), est: Number(e.twd), tier: 1};
   }
-  if (v.amountUSD) return {big: 'USD ' + Number(v.amountUSD).toLocaleString('en-US'), cap: '官方面額', sort: Number(v.amountUSD) * 32};
-  if (String(v.note || '').indexOf('待評估') === 0 || !v.type) return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true};
-  if (v.type === 'free') return {big: '免費', cap: '價值視使用而定', sort: 0};
-  return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true};
+  if (String(v.note || '').indexOf('待評估') === 0 || !v.type) return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true, tier: 0};
+  if (v.type === 'free') return {big: '免費', cap: '價值視使用而定', sort: 0, tier: 0};
+  return {big: '待評估', cap: '尚無官方數字', sort: -1, dim: true, tier: 0};
 }
 const FLAG_LABEL = {
   'regular-pricing': '疑似常態定價，不是促銷',
@@ -117,7 +118,7 @@ function cardHtml(d, todayISO, recentISO) {
   const badge = verified ? '<span class="badge ok">已核實</span>' : (status === 'ai-reviewed' ? '<span class="badge ai">AI 預審通過</span>' : '<span class="badge wait">待核實</span>');
   const warnBadge = !verified && rv && (rv.flags || []).indexOf('regular-pricing') >= 0 ? '<span class="badge hot">疑似常態定價</span>' : '';
   return '<article class="ticket' + (verified ? '' : (status === 'ai-reviewed' ? ' is-ai' : ' is-pending')) + '" data-id="' + esc(d.id) + '" data-status="' + status + '" data-est="' + (v.est || '') + '" data-cat="' + esc(d.category) + '" data-verified="' + (verified ? 1 : 0) +
-    '" data-recent="' + (recent ? 1 : 0) + '" data-soon="' + (soon ? 1 : 0) + '" data-value="' + v.sort + '" data-days="' + (dl.days === null ? 99999 : dl.days) +
+    '" data-recent="' + (recent ? 1 : 0) + '" data-soon="' + (soon ? 1 : 0) + '" data-tier="' + v.tier + '" data-value="' + v.sort + '" data-days="' + (dl.days === null ? 99999 : dl.days) +
     '" data-checked="' + esc(d.lastVerified || '') + '" data-text="' + esc(text) + '">' +
     '<div class="body">' +
       '<p class="tags"><span class="cat">' + esc(CATEGORY_LABEL[d.category] || d.category) + '</span>' +
@@ -150,7 +151,7 @@ function scanHtml(lastRun, archive) {
       esc(CATEGORY_LABEL[r.category] || r.category) + '</td><td' + cls + '>' + esc(CHANGE_LABEL[r.change] || r.change) + '</td><td class="num">' + esc(r.httpStatus) + '</td></tr>';
   }).join('');
   const aiLine = ai
-    ? (ai.noKey ? 'AI 提取未啟用（未設定 LLM_API_KEY）' : 'AI 提取：處理 ' + ai.attempted + ' 個來源，產出 ' + ai.extracted + ' 條草稿' + (ai.deferred ? '，佇列 ' + ai.deferred : '') + (ai.errors && ai.errors.length ? '，錯誤 ' + ai.errors.length : ''))
+    ? (ai.noKey ? 'AI 提取未啟用（未設定 LLM_API_KEY）' : 'AI 提取：處理 ' + ai.attempted + ' 個來源，產出 ' + ai.extracted + ' 條草稿' + (ai.deferred ? '，佇列 ' + ai.deferred : '') + (ai.errors && ai.errors.length ? '，錯誤 ' + ai.errors.length : '') + (ai.warnings && ai.warnings.length ? '，警告 ' + ai.warnings.length : ''))
     : '';
   const rvs = lastRun.aiReview;
   const aiReviewLine = rvs && !(ai && ai.noKey) ? '；AI 預審：處理 ' + rvs.attempted + ' 條，通過 ' + rvs.passed + ' 條，有疑慮 ' + rvs.flagged + ' 條' + (rvs.errors && rvs.errors.length ? '，錯誤 ' + rvs.errors.length : '') : '';
@@ -287,9 +288,9 @@ return !t||c.dataset.text.indexOf(t)>=0;}
 function apply(){
 var s=sort.value,shown=0;
 cards.slice().sort(function(a,b){
-if(s==='days')return a.dataset.days-b.dataset.days||b.dataset.value-a.dataset.value;
+if(s==='days')return a.dataset.days-b.dataset.days||b.dataset.tier-a.dataset.tier||b.dataset.value-a.dataset.value;
 if(s==='checked')return a.dataset.checked<b.dataset.checked?1:a.dataset.checked>b.dataset.checked?-1:0;
-return b.dataset.value-a.dataset.value||b.dataset.verified-a.dataset.verified;
+return b.dataset.tier-a.dataset.tier||b.dataset.value-a.dataset.value||b.dataset.verified-a.dataset.verified;
 }).forEach(function(c){var m=match(c);c.hidden=!m;if(m)shown++;list.appendChild(c);});
 empty.hidden=shown>0;count.textContent='顯示 '+shown+' / '+cards.length+' 條';
 tabs.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.tab===tab?'true':'false');});}
@@ -331,7 +332,7 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
   const todayISO = new Date(now).toISOString().slice(0, 10);
   const recentISO = new Date(now - 2 * DAY).toISOString().slice(0, 10);
   const active = (deals || []).filter(d => d && d.status !== 'example')
-    .sort((a, b) => valueOf(b).sort - valueOf(a).sort || (b.status === 'verified') - (a.status === 'verified'));
+    .sort((a, b) => valueOf(b).tier - valueOf(a).tier || valueOf(b).sort - valueOf(a).sort || (b.status === 'verified') - (a.status === 'verified'));
   const cards = active.map(d => cardHtml(d, todayISO, recentISO));
   const verified = active.filter(d => d.status === 'verified').length;
   const aiOk = active.filter(d => d.status === 'ai-reviewed').length;
@@ -343,11 +344,29 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
   const tab = (id, label, n) => '<button type="button" data-tab="' + id + '" aria-pressed="' + (id === 'all' ? 'true' : 'false') + '">' + label + '<span>' + n + '</span></button>';
   const tabs = [tab('all', '全部', active.length), tab('recent', '最新 48 小時', recent), tab('soon', '即將截止', soon)]
     .concat(Object.keys(CATEGORY_LABEL).filter(c => c !== 'other' || byCat(c)).map(c => tab(c, CATEGORY_LABEL[c], byCat(c)))).join('');
+  // 社群分享預覽：og:image 與 og:url 必須是絕對網址，所以要有 origin 才會輸出
+  const origin = meta && meta.origin ? String(meta.origin).replace(/\/+$/, '') : '';
+  const pendingCount = active.length - verified - aiOk;
+  const ogTitle = '全球好康情報中心｜GLOBAL DEAL RADAR';
+  const ogDesc = '盯著官方頁面整理的全球優惠，目前 ' + active.length + ' 條：已核實 ' + verified + '、AI 預審通過 ' + aiOk + '、待核實 ' + pendingCount + '。不編造優惠，只有人工放行才算已核實。';
+  const ogAlt = '全球好康情報中心：雷達掃描全球優惠，光點標示已核實、AI 預審通過、待核實';
+  const metaTag = (attr, key, value) => '<meta ' + attr + '="' + key + '" content="' + esc(value) + '">';
+  const shareMeta = [
+    metaTag('name', 'description', ogDesc),
+    metaTag('property', 'og:type', 'website'), metaTag('property', 'og:site_name', 'GLOBAL DEAL RADAR'), metaTag('property', 'og:locale', 'zh_TW'),
+    metaTag('property', 'og:title', ogTitle), metaTag('property', 'og:description', ogDesc),
+    metaTag('name', 'twitter:card', origin ? 'summary_large_image' : 'summary'), metaTag('name', 'twitter:title', ogTitle), metaTag('name', 'twitter:description', ogDesc)
+  ].concat(origin ? [
+    metaTag('property', 'og:url', origin + '/'),
+    metaTag('property', 'og:image', origin + '/og.png'), metaTag('property', 'og:image:type', 'image/png'),
+    metaTag('property', 'og:image:width', '1200'), metaTag('property', 'og:image:height', '630'), metaTag('property', 'og:image:alt', ogAlt),
+    metaTag('name', 'twitter:image', origin + '/og.png'), metaTag('name', 'twitter:image:alt', ogAlt)
+  ] : []).join('');
   const stat = (cls, label, n) => '<div class="' + cls + '"><dt>' + label + '</dt><dd>' + n + '</dd></div>';
   return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1">' +
     '<meta name="color-scheme" content="light dark">' +
-    '<title>全球好康情報中心｜GLOBAL DEAL RADAR</title>' +
+    '<title>' + ogTitle + '</title>' + shareMeta +
     '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 44 44%27%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%2720%27 fill=%27%23b8400f%27/%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%2711%27 fill=%27none%27 stroke=%27%23fff%27 stroke-width=%273%27/%3E%3Ccircle cx=%2722%27 cy=%2722%27 r=%273%27 fill=%27%23fff%27/%3E%3C/svg%3E">' +
     '<style>' + CSS + '</style></head><body><div class="wrap">' +
     '<header class="top">' +

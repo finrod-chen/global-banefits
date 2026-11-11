@@ -8,6 +8,8 @@
 - `src/dashboard.js`：看板版面（票券式優惠卡、專區分頁、搜尋與排序、深淺色、手機版、管理模式）。
 - `src/core.mjs`：掃描核心與審核邏輯，給 `scripts/scan.mjs`、`scripts/review.mjs` 用；Worker 只用它的類別名稱對照。
 - `src/notify.mjs`：Telegram 推播，給 `scripts/scan.mjs` 用。
+- `src/og-image.js`：OG image（社群分享預覽圖）的 base64，由腳本產生，不要手改。
+- `og/og.html`、`og/og.png`：OG image 的原始稿與輸出。改圖就改 `og.html`，再執行 `node scripts/build-og.mjs`（需要 Playwright 與中文字型），並把 `og.png`、`src/og-image.js` 一起提交。
 - `../wrangler.toml`：Worker 設定，**放在 repo 根目錄**（Cloudflare Workers Builds 的 Root directory 是 `/`，Deploy command 在那裡執行）。沒有排程、沒有 KV；`REPO_SLUG`、`REPO_BRANCH` 指定讀哪個 repo。
 - `deploy.sh`：已不需要做事的空殼，只為了讓 Cloudflare 現有的 Build command 不會壞掉。
 - `../.github/workflows/deploy-worker.yml`：GitHub Actions 部署（備援路線）。
@@ -22,6 +24,7 @@ repo 是公開的，Worker 直接讀 `raw.githubusercontent.com/<REPO_SLUG>/<REP
 
 - `GET /`：看板網頁
 - `GET /api/deals`、`/api/archive`、`/api/last-run`：對應 repo 的三個檔案
+- `GET /og.png`：社群分享預覽圖（1200×630）。內嵌在 Worker 裡，不讀 repo，GitHub 讀不到時照樣能出圖
 - `GET /healthz`：健康檢查
 - `POST /api/scan`：觸發 Actions 立即掃描
 - `POST /api/deals/:id/verify`：核實通過，body 可帶 `{"valueTWD": 數字}`
