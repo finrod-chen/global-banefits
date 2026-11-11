@@ -956,10 +956,10 @@
       "點擊「Get started」以開始使用免費方案"
     ],
     "officialUrl": "https://cursor.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cursor 定價頁」，待人工核實，提取時間 2026-11-10T23:56:46.108Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cursor 定價頁」，提取時間 2026-11-10T23:56:46.108Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1005,10 +1005,10 @@
       "點擊 'Free' 方案下的 'Try Claude' 按鈕"
     ],
     "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-10T23:57:04.261Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，提取時間 2026-11-10T23:57:04.261Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1039,8 +1039,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 8560,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
     },
     "requirements": "須為美國合資格的大學生，年滿18歲以上；需綁定有效的付款方式；每年需驗證資格；適用於新用戶或2025年 AI Pro 試用期已屆滿的學生。",
     "regions": [
@@ -1055,10 +1055,10 @@
       "綁定有效的付款方式以完成註冊"
     ],
     "officialUrl": "https://gemini.google/students/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，待人工核實，提取時間 2026-11-10T23:57:22.960Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，提取時間 2026-11-10T23:57:22.960Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "除非提前取消，試用期結束後 Google AI Pro 將自動每月扣款 $19.99；資格每年需重新驗證，否則可能失去存取權。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1104,57 +1104,6 @@
     }
   },
   {
-    "id": "elevenlabs-pricing-20261110-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 免費方案",
-    "category": "ai",
-    "summary": "每月 10,000 點數，每月 3 個專案，無月費",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊帳戶",
-      "選擇 Free 方案"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-10T23:56:01.864Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是ElevenLabs定價頁上列出的一般常態免費訂閱方案（Free plan），而非限時或特定群體的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\n$0 /mo\nBuild for free\nText to Speech\nSpeech to Text\nSound Effects\nVoice Design\nMusic\nProductions\nImage\n3 Projects in Studio\n10k credits per month",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "elevenlabs-pricing-20261110-2",
     "sourceId": "elevenlabs-pricing",
     "name": "ElevenLabs Starter 首月優惠",
@@ -1162,9 +1111,9 @@
     "summary": "首月 $1，其後每月 $6，含每月 30,000 點數",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 1,
+      "valueTWD": 32,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "待補",
     "regions": [
@@ -1178,10 +1127,10 @@
       "選擇 Starter 方案並訂閱"
     ],
     "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，提取時間 2026-11-10T23:57:46.192Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1219,9 +1168,9 @@
     "summary": "首月 $11，其後每月 $22，含每月 121,000 點數",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 11,
+      "valueTWD": 352,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "待補",
     "regions": [
@@ -1235,10 +1184,10 @@
       "選擇 Creator 方案並訂閱"
     ],
     "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，提取時間 2026-11-10T23:57:46.192Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1271,72 +1220,6 @@
     }
   },
   {
-    "id": "elevenlabs-pricing-20261110-4",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 新戶限時優惠",
-    "category": "ai",
-    "summary": "30,000 點數仅需 $1，活動截至 9 月 30 日",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-09-30",
-    "ongoing": false,
-    "steps": [
-      "在活動期間註冊並訂閱 Starter 方案"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
-    "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-10T23:56:01.864Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示限時優惠「Start with 30,000 credits for only $1」及截止日，屬於限時折扣/新戶獎勵性質。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends September 30",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Ends September 30",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing",
-        "expired"
-      ],
-      "numbersMissing": [
-        "9"
-      ]
-    },
-    "valueEstimate": {
-      "twd": 960000,
-      "basis": "explicit-amount",
-      "usd": 30000,
-      "quote": "30,000 credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "elevenlabs-pricing-20261110-5",
     "sourceId": "elevenlabs-pricing",
     "name": "ElevenLabs Startup Grants Program",
@@ -1360,10 +1243,10 @@
       "獲得核准後使用 12 個月免費額度"
     ],
     "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，提取時間 2026-11-10T23:57:46.192Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "僅限新創公司或新產品，需通過審核",
-    "status": "ai-reviewed",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",
@@ -1389,5 +1272,571 @@
       "flags": [],
       "numbersMissing": []
     }
+  },
+  {
+    "id": "mistral-pricing-20261111-1",
+    "sourceId": "mistral-pricing",
+    "name": "Mistral 免費方案",
+    "category": "ai",
+    "summary": "提供有限的訊息與網路搜尋、有限的程式設計工作階段、基本圖片生成與編輯，以及100多個連接器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": 1500,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Mistral 定價頁面",
+      "點擊 Free 方案下的 Start now"
+    ],
+    "officialUrl": "https://mistral.ai/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，提取時間 2026-11-11T03:18:57.562Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確列出「Free」方案，提供有限的功能與額度，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Limited messages and web searches.\nLimited coding sessions.\nBasic image generation and editing.\n100+ connectors.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "假設Pro方案月費約$15-20 USD，免費方案提供基本功能與有限額度，保守估算第一年價值約為Pro方案月費的5-10%或固定基礎價值的折現。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "mistral-pricing-20261111-2",
+    "sourceId": "mistral-pricing",
+    "name": "Mistral 學生教育優惠",
+    "category": "ai",
+    "summary": "經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。",
+    "value": {
+      "type": "free",
+      "amountUSD": 5.99,
+      "valueTWD": 192,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
+    },
+    "requirements": "必須是經驗證的學生，且就讀於獲得授權的高等教育機構；且必須未使用過 Vibe 或 Le Chat；優惠期限最長為 12 個月；價格不含稅。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Mistral 定價頁面",
+      "在 Pro 方案部分點擊 'I'm a student'"
+    ],
+    "officialUrl": "https://mistral.ai/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，提取時間 2026-11-11T03:18:57.562Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "此優惠僅限於未使用過 Vibe 或 Le Chat 的學生，且期限不超過 12 個月。",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供針對驗證學生的高等教育機構專屬定價方案，屬於學生優惠類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Valid for a maximum of 12 months for verified students at accredited higher institutions and if you haven't used Vibe (or Le Chat) before. Price not inclusive of taxes.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Valid for a maximum of 12 months for verified students at accredited higher institutions and if you haven't used Vibe (or Le Chat) before. Price not inclusive of taxes.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 192,
+      "basis": "explicit-amount",
+      "usd": 5.99,
+      "quote": "Verified students can get Mistral Pro for $5.99 / month (normally $14.99).",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "v0-pricing-20261111-1",
+    "sourceId": "v0-pricing",
+    "name": "v0 免費方案",
+    "category": "ai",
+    "summary": "每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日 7 則訊息。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 v0.app/pricing 頁面",
+      "點擊 Free 方案的 'Start Building' 按鈕"
+    ],
+    "officialUrl": "https://v0.app/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，提取時間 2026-11-11T03:19:18.223Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "無",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出的 $0 免費方案屬於提供常態免費額度與服務的內容，符合免費方案/額度的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 /month\nIncludes\nFree access to v0\nDeploy apps to Vercel\nEdit visually with Design Mode\nSync with GitHub\n7 message/day limit",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "v0-pricing-20261111-2",
+    "sourceId": "v0-pricing",
+    "name": "v0 新用戶一次性獎勵",
+    "category": "ai",
+    "summary": "新用戶可獲得一次性的 $5 信用額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": 5,
+      "valueTWD": 160,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
+    },
+    "requirements": "需為新用戶",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊新的 v0 帳戶"
+    ],
+    "officialUrl": "https://v0.app/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，提取時間 2026-11-11T03:19:18.223Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供給新用戶的一次性信用額度，屬於新戶獎勵或額度贈送。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$5 in one-time credits for new users",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "$5 in one-time credits for new users",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "$5 in one-time credits for new users",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261111-1",
+    "sourceId": "gate-announce",
+    "name": "Gate Referral 200 USDT 推薦獎勵",
+    "category": "crypto",
+    "summary": "邀請朋友註冊並進行交易以賺取最高 200 USDT 的推薦獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": 200,
+      "valueTWD": 6400,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
+    },
+    "requirements": "需邀請朋友並讓其完成特定交易額或條件",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 Referral 連結",
+      "邀請朋友註冊",
+      "朋友完成指定交易以解鎖獎勵"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容屬於邀請朋友註冊交易以獲得獎勵的新戶推廣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Referral 200 USDT\nInvite friends to earn referral rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400,
+      "basis": "explicit-amount",
+      "usd": 200,
+      "quote": "Referral 200 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261111-2",
+    "sourceId": "gate-announce",
+    "name": "Gate CandyDrop 空投活動",
+    "category": "crypto",
+    "summary": "收集糖果以賺取空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與 CandyDrop 活動",
+      "收集糖果"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動內容為透過收集糖果來賺取空投獎勵，屬於典型的空投積分類活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Collect candies to earn airdrops",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261111-3",
+    "sourceId": "gate-announce",
+    "name": "Gate HODLer Airdrop 空投活動",
+    "category": "crypto",
+    "summary": "持有 GT 代幣即可獲得大量免費空投",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需持有 GateToken (GT)",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "持有 GT 代幣"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified",
+    "review": {
+      "at": "2026-11-11T03:18:30.271Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示持有 GT 代幣可獲得免費空投，屬於空投積分或獎勵類型的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Hold GT and get massive airdrops for free",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Hold GT and get massive airdrops for free",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261111-4",
+    "sourceId": "gate-announce",
+    "name": "Gate VIP Wealth Hub 限時 USDT 利率優惠",
+    "category": "crypto",
+    "summary": "限時提供 9% 年化利率 (APR) 的 USDT 理財產品",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為 VIP 用戶",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 VIP 服務",
+      "投資 USDT 於 Wealth Hub 產品"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "限時活動，利率可能隨時調整",
+    "status": "verified"
+  },
+  {
+    "id": "gate-announce-20261111-5",
+    "sourceId": "gate-announce",
+    "name": "Gate Futures Points 積分空投活動",
+    "category": "crypto",
+    "summary": "賺取期貨積分並兌換空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需參與期貨交易累積積分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行期貨交易",
+      "累積 Futures Points",
+      "兌換空投獎勵"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified"
+  },
+  {
+    "id": "gate-announce-20261111-6",
+    "sourceId": "gate-announce",
+    "name": "Gate P2P 0 Fee 免手續費交易",
+    "category": "crypto",
+    "summary": "P2P 交易零手續費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 P2P 功能進行買賣"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified"
+  },
+  {
+    "id": "gate-announce-20261111-7",
+    "sourceId": "gate-announce",
+    "name": "Gate Convert & Auto-Invest 0 Fee 免手續費交易",
+    "category": "crypto",
+    "summary": "貨幣兌換與自動投資零手續費且無滑點",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Convert 或 Auto-Invest 功能"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified"
+  },
+  {
+    "id": "gate-announce-20261111-8",
+    "sourceId": "gate-announce",
+    "name": "Gate Crypto Loan 0 Fee 免手續費借貸",
+    "category": "crypto",
+    "summary": "抵押一種加密貨幣借出另一種，免手續費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需持有加密資產作為抵押",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Crypto Loan 功能抵押資產"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "資產可能被清算若價格波動超過保證金要求",
+    "status": "verified"
+  },
+  {
+    "id": "gate-announce-20261111-9",
+    "sourceId": "gate-announce",
+    "name": "Gate Stocks Activities 股票交易空投",
+    "category": "crypto",
+    "summary": "交易熱門股票以解鎖豐厚空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需交易特定股票達到指定金額",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "交易熱門股票",
+      "滿足活動條件以解鎖空投"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "verified"
   }
 ]
