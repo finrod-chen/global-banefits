@@ -1104,57 +1104,6 @@
     }
   },
   {
-    "id": "elevenlabs-pricing-20261110-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 免費方案",
-    "category": "ai",
-    "summary": "每月 10,000 點數，每月 3 個專案，無月費",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊帳戶",
-      "選擇 Free 方案"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
-    "lastVerified": "2026-11-10",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-10T23:56:01.864Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是ElevenLabs定價頁上列出的一般常態免費訂閱方案（Free plan），而非限時或特定群體的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\n$0 /mo\nBuild for free\nText to Speech\nSpeech to Text\nSound Effects\nVoice Design\nMusic\nProductions\nImage\n3 Projects in Studio\n10k credits per month",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "elevenlabs-pricing-20261110-2",
     "sourceId": "elevenlabs-pricing",
     "name": "ElevenLabs Starter 首月優惠",

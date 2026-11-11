@@ -31,7 +31,6 @@
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Cursor 免費方案](https://cursor.com/pricing) | AI 工具 | 每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Claude 免費方案](https://claude.com/pricing) | AI 工具 | 免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
