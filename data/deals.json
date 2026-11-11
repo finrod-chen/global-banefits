@@ -3200,7 +3200,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-11T18:07:12.299Z",
     "lastVerified": "2026-11-11",
     "risks": "無自動續約警示",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T20:05:18.680Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供「Start 7-day free trial」的明確文字，屬於免費試用期的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "anthropic-pricing-20261111-1",
@@ -3226,6 +3246,193 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-11T18:07:47.770Z",
     "lastVerified": "2026-11-11",
     "risks": "年繳需預付 $200",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T20:05:18.680Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "此為持續提供的常態年繳定價方案，而非限時或一次性折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Per month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "ai-estimate",
+      "usd": 10,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；由於是常態定價，年繳與月繳的每月價差 ($3) 乘以 12 個月為 $36，但這是持續的訂閱成本差異而非一次性贈送的金額。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "notion-pricing-20261111-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "提供 0 美元/成員/月的免費方案，包含 AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布到網頁、基本網站、日曆整合、資料庫功能（含子任務、依賴關係、自訂屬性）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Notion 帳號"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-11T20:05:45.985Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T20:05:18.680Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該草稿描述的是 Notion 的免費方案，包含明確的 0 美元價格與 AI 功能試用額度，屬於常態的免費方案或試用。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "wise-home-20261111-1",
+    "sourceId": "wise-home",
+    "name": "Wise 大額匯款費用折扣",
+    "category": "banking",
+    "summary": "匯款金額超過 20,000 GBP 或其等值貨幣時，將對費用提供折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "匯款金額需超過 20,000 GBP 或其等值貨幣。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行超過 20,000 GBP 或其等值的匯款。"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-11T20:06:39.220Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T20:05:18.680Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定高金額的匯款行為提供額外的費用折扣，屬於條件性的促銷優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "wise-home-20261111-2",
+    "sourceId": "wise-home",
+    "name": "Wise Assets 投資回報",
+    "category": "banking",
+    "summary": "Wise Assets 提供 GBP、EUR 和 USD 的即時存取回報，變動利率為 3.29%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇加入 Wise Assets 服務；注意金錢價值可能因政府違約或負利率而減少，當前利率不代表未來表現，可能涉及稅務。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇加入 Wise Assets 以賺取回報。"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-11T20:06:39.220Z",
+    "lastVerified": "2026-11-11",
+    "risks": "貨幣價值可能因政府違約或負利率而減少,當前利率不保證未來表現,變動利率基於 2026-09-23 的 7 天表現,可能涉及稅務",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T20:05:18.680Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "Wise Assets 提供的一般存款回報利率，非限時優惠或新戶獎勵，而是一項常態的金融產品功能。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn 3.29% variable rate on everyday GBP\nOpt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Money can decrease in value if governments default or interest rates go negative. Current rates do not guarantee future performance. Variable rate is based on 7 day performance as of 9/23/2026. Taxes may apply.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   }
 ]
