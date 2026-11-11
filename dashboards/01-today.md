@@ -22,7 +22,7 @@
 | [Google AI Ultra 贈送 YouTube Premium 個人方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 YouTube Premium 個人方案，包含免廣告、離線與背景播放功能。 | 約 TWD 3,100 | 長期活動 | 已核實 |
 | [Google AI Pro 贈送 Google Home Premium 標準方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案的用戶可免費享有 Google Home Premium 標準方案（價值 $10/月），包含 30 天 | 約 TWD 3,672 | 長期活動 | 已核實 |
 | [Google AI Ultra 贈送 Google Home Premium 進階方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 Google Home Premium 進階方案（價值 $20/月），包含 24 | 約 TWD 640 | 長期活動 | 已核實 |
-| [Cursor 免費方案](https://cursor.com/pricing) | AI 工具 | 每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cursor 免費方案](https://cursor.com/pricing) | AI 工具 | 每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Claude 免費方案](https://claude.com/pricing) | AI 工具 | 免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark | 約 TWD 8,560 | 2026-12-31 | 已核實 |
 | [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
