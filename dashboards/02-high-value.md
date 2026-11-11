@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-11T20:05:18.680Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-11T22:05:17.789Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -69,3 +69,6 @@
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供 0 美元/成員/月的免費方案，包含 AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布到網頁、基本網站、日曆整合、資料庫功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或其等值貨幣時，將對費用提供折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise Assets 投資回報](https://wise.com/) | 海外銀行/卡 | Wise Assets 提供 GBP、EUR 和 USD 的即時存取回報，變動利率為 3.29%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Max 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $200 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |

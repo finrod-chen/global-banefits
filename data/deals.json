@@ -3434,5 +3434,198 @@
       ],
       "numbersMissing": []
     }
+  },
+  {
+    "id": "claude-pricing-20261111-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude Pro 年繳 API 額度獎勵",
+    "category": "ai",
+    "summary": "每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "訂閱 Pro 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Claude Pro 方案",
+      "在 Claude Platform 使用每月 $100 API 額度"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-11T22:07:27.845Z",
+    "lastVerified": "2026-11-11",
+    "risks": "API 額度每月重置,價格與方案可能隨時變動",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T22:05:17.789Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該內容列於 Pro 方案的一般定價頁中，屬於訂閱該方案即享有的常態權益，非特指限時或新戶專屬的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "Everything in Pro, plus:\n5x Pro usage every 5 hours and every week*\nFable included, up to half your weekly limit New\n$100 a month in API credits to build on the Claude Platform † New",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 a month in API credits to build on the Claude Platform † New",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "claude-pricing-20261111-2",
+    "sourceId": "claude-pricing",
+    "name": "Claude Max 年繳 API 額度獎勵",
+    "category": "ai",
+    "summary": "每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "訂閱 Max 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Claude Max 方案",
+      "在 Claude Platform 使用每月 $100 API 額度"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-11T22:07:27.845Z",
+    "lastVerified": "2026-11-11",
+    "risks": "API 額度每月重置,價格與方案可能隨時變動",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T22:05:17.789Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Max 付費方案中標示的常態權益，非限時優惠或折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$100 a month in API credits to build on the Claude Platform † New",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Max\nFor all-day work\n$100\nPer month\nTry Claude\nEverything in Pro, plus:\n5x Pro usage every 5 hours and every week*\nFable included, up to half your weekly limit New\n$100 a month in API credits to build on the Claude Platform † New\nEarly acce",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 a month in API credits to build on the Claude Platform † New",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "claude-pricing-20261111-3",
+    "sourceId": "claude-pricing",
+    "name": "Claude Ultra 年繳 API 額度獎勵",
+    "category": "ai",
+    "summary": "每月包含 $200 API 額度（credits），可用於在 Claude Platform 上建構",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "訂閱 Ultra 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Claude Ultra 方案",
+      "在 Claude Platform 使用每月 $200 API 額度"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-11T22:07:27.845Z",
+    "lastVerified": "2026-11-11",
+    "risks": "API 額度每月重置,價格與方案可能隨時變動",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T22:05:17.789Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是Claude Ultra方案的標準訂閱內容之一，非特定活動的限時優惠或額外獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200 a month in API credits, up from $100 on Max † New",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Ultra\nFor your longest tasks\n$200\nPer month\nTry Claude\nEverything in Max, plus:",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400,
+      "basis": "explicit-amount",
+      "usd": 200,
+      "quote": "$200 a month in API credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   }
 ]
