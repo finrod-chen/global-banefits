@@ -21,7 +21,7 @@
 | [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352 | 長期活動 | 已核實 |
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Mistral 免費方案](https://mistral.ai/pricing) | AI 工具 | 提供有限的訊息與網路搜尋、有限的程式設計工作階段、基本圖片生成與編輯，以及100多個連接器。 | 約 TWD 1,500 | 長期活動 | 已核實 |
-| [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192（AI 估） | 長期活動 | AI 預審通過 |
+| [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192 | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [v0 Plus 方案每日免費額度](https://v0.app/pricing) | AI 工具 | 付費 Plus 方案用戶，每日登入時額外獲得 $2 的免費每日信用額度。 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |

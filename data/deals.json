@@ -1387,9 +1387,9 @@
     "summary": "經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 5.99,
+      "valueTWD": 192,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "必須是經驗證的學生，且就讀於獲得授權的高等教育機構；且必須未使用過 Vibe 或 Le Chat；優惠期限最長為 12 個月；價格不含稅。",
     "regions": [
@@ -1403,10 +1403,10 @@
       "在 Pro 方案部分點擊 'I'm a student'"
     ],
     "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-11T03:18:57.562Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，提取時間 2026-11-11T03:18:57.562Z；人工核實於 2026-11-11",
     "lastVerified": "2026-11-11",
     "risks": "此優惠僅限於未使用過 Vibe 或 Le Chat 的學生，且期限不超過 12 個月。",
-    "status": "ai-reviewed",
+    "status": "verified",
     "review": {
       "at": "2026-11-11T03:18:30.271Z",
       "model": "agnes-3.0-flash",
