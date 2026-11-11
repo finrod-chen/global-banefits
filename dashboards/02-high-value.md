@@ -13,6 +13,7 @@
 | [AWS Free Tier 新戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [AWS 免費方案服務使用權限](https://aws.amazon.com/free/) | VPS/雲服務 | Free plan 使用者可免費使用超過 90 項服務，期限最長 6 個月。另有 30 項以上服務在每月用量限制內永遠免費（Always F | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
+| [Gate Referral 200 USDT 推薦獎勵](https://www.gate.com/announcements) | Crypto | 邀請朋友註冊並進行交易以賺取最高 200 USDT 的推薦獎勵 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Google AI Pro 贈送 Google Home Premium 標準方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案的用戶可免費享有 Google Home Premium 標準方案（價值 $10/月），包含 30 天 | 約 TWD 3,672 | 長期活動 | 已核實 |
 | [Google AI Pro 與 YouTube Premium 學生組合優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可支付 $8.99/月 取得 Google AI Pro 及 YouTube Premium（單獨購買需 $35.98/月），享有免廣告 | 約 TWD 3,284 | 長期活動 | 已核實 |
 | [Google AI Ultra 贈送 YouTube Premium 個人方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 YouTube Premium 個人方案，包含免廣告、離線與背景播放功能。 | 約 TWD 3,100 | 長期活動 | 已核實 |
@@ -34,7 +35,6 @@
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [v0 Plus 方案每日免費額度](https://v0.app/pricing) | AI 工具 | 付費 Plus 方案用戶，每日登入時額外獲得 $2 的免費每日信用額度。 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
-| [Gate Referral 200 USDT 推薦獎勵](https://www.gate.com/announcements) | Crypto | 邀請朋友註冊並進行交易以賺取最高 200 USDT 的推薦獎勵 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate HODLer Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 持有 GT 代幣即可獲得大量免費空投 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate VIP Wealth Hub 限時 USDT 利率優惠](https://www.gate.com/announcements) | Crypto | 限時提供 9% 年化利率 (APR) 的 USDT 理財產品 | 免費（價值視使用而定） | 長期活動 | 待核實 |

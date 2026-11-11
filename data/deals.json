@@ -1623,9 +1623,9 @@
     "summary": "邀請朋友註冊並進行交易以賺取最高 200 USDT 的推薦獎勵",
     "value": {
       "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "amountUSD": 200,
+      "valueTWD": 6400,
+      "note": "採用 AI 估值（依頁面原文金額），經人工放行"
     },
     "requirements": "需邀請朋友並讓其完成特定交易額或條件",
     "regions": [
@@ -1640,10 +1640,10 @@
       "朋友完成指定交易以解鎖獎勵"
     ],
     "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-11T03:20:18.693Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，提取時間 2026-11-11T03:20:18.693Z；人工核實於 2026-11-11",
     "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-11T03:18:30.271Z",
       "model": "agnes-3.0-flash",
