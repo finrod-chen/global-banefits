@@ -1333,8 +1333,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 1500,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
     },
     "requirements": "待補",
     "regions": [
@@ -1348,10 +1348,10 @@
       "點擊 Free 方案下的 Start now"
     ],
     "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-11T03:18:57.562Z",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，提取時間 2026-11-11T03:18:57.562Z；人工核實於 2026-11-11",
     "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-11T03:18:30.271Z",
       "model": "agnes-3.0-flash",
