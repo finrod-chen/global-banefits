@@ -931,5 +931,463 @@
       "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
       "confidence": "high"
     }
+  },
+  {
+    "id": "cursor-pricing-20261110-1",
+    "sourceId": "cursor-pricing",
+    "name": "Cursor 免費方案",
+    "category": "ai",
+    "summary": "每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片生成等）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Cursor 定價頁面",
+      "點擊「Get started」以開始使用免費方案"
+    ],
+    "officialUrl": "https://cursor.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cursor 定價頁」，待人工核實，提取時間 2026-11-10T23:56:46.108Z",
+    "lastVerified": "2026-11-10",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為每月 $0 的免費方案，提供有限的 AI 額度與功能，屬於免費方案類型。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 /month\nGet started\nGet started with:\nLimited\nAI usage\nAI Features\nLimited agent requests\nLimited Chat requests",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "claude-pricing-20261110-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude 免費方案",
+    "category": "ai",
+    "summary": "免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工具、建立 Artifacts 及 Claude Design、Slides、Docs。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 https://claude.com/pricing",
+      "點擊 'Free' 方案下的 'Try Claude' 按鈕"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-10T23:57:04.261Z",
+    "lastVerified": "2026-11-10",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案標價為 $0，屬於免費使用額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Limited usage every 5 hours and every week *\nChat on web, desktop, and mobile\nSearch the web, create files, and run code\nMemory across conversations\nConnect your apps and tools\nCreate Artifacts\nClaude Design, Slides, Docs",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gemini-students-20261110-1",
+    "sourceId": "gemini-students",
+    "name": "Gemini 學生免費方案",
+    "category": "ai",
+    "summary": "提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark 以及 Gemini Omni 一年的使用權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須為美國合資格的大學生，年滿18歲以上；需綁定有效的付款方式；每年需驗證資格；適用於新用戶或2025年 AI Pro 試用期已屆滿的學生。",
+    "regions": [
+      "美國"
+    ],
+    "startDate": null,
+    "endDate": "2026-12-31",
+    "ongoing": false,
+    "steps": [
+      "點擊「Claim Free Student Plan」",
+      "驗證學生資格與年齡",
+      "綁定有效的付款方式以完成註冊"
+    ],
+    "officialUrl": "https://gemini.google/students/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，待人工核實，提取時間 2026-11-10T23:57:22.960Z",
+    "lastVerified": "2026-11-10",
+    "risks": "除非提前取消，試用期結束後 Google AI Pro 將自動每月扣款 $19.99；資格每年需重新驗證，否則可能失去存取權。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供美國大學生一年的免費 Google AI Pro 訂閱方案，屬於針對特定族群的限時免費試用與學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 4
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The free Google AI Pro student plan includes 4x higher usage limits in Gemini, more storage (5 TB), Gemini Spark, access to Gemini Omni for 1 year,",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "The free Google AI Pro student offer is available to eligible U.S. college students ages 18+. Both new users and students whose 2025 AI Pro trial has expired can qualify. Eligibility must be verified each year to maintain access. Eligible s",
+          "found": false
+        },
+        {
+          "field": "endDate",
+          "quote": "Redeem until December 31, 2026",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "The free Google AI Pro student offer is available to eligible U.S. college students",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 8560,
+      "basis": "ai-estimate",
+      "note": "頁面指出方案結束後每月費用為 $19.99 USD，一年共 12 個月；以 1 USD ≈ 35 TWD 估算，19.99 × 12 × 35 ≈ 8430，考慮匯率波動與稅費，保守取整為 8560 TWD。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261110-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 免費方案",
+    "category": "ai",
+    "summary": "每月 10,000 點數，每月 3 個專案，無月費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊帳戶",
+      "選擇 Free 方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
+    "lastVerified": "2026-11-10",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是ElevenLabs定價頁上列出的一般常態免費訂閱方案（Free plan），而非限時或特定群體的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 /mo\nBuild for free\nText to Speech\nSpeech to Text\nSound Effects\nVoice Design\nMusic\nProductions\nImage\n3 Projects in Studio\n10k credits per month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261110-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Starter 首月優惠",
+    "category": "ai",
+    "summary": "首月 $1，其後每月 $6，含每月 30,000 點數",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊帳戶",
+      "選擇 Starter 方案並訂閱"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
+    "lastVerified": "2026-11-10",
+    "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Starter 方案享有「$1 first month」（首月 1 美元）的限時或新戶優惠，與其後的常態價格不同，屬於針對新訂閱戶的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Starter\n$1 first month\nThen $6 per month\nChoose Starter\nEverything in free, plus\nCommercial License\nInstant Voice Cloning\n20 Projects in Studio\nMusic commercial use\nDubbing Studio\nImage & Video\n30k credits per month",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 32,
+      "basis": "explicit-amount",
+      "usd": 1,
+      "quote": "$1 first month",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261110-3",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Creator 首月優惠",
+    "category": "ai",
+    "summary": "首月 $11，其後每月 $22，含每月 121,000 點數",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊帳戶",
+      "選擇 Creator 方案並訂閱"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
+    "lastVerified": "2026-11-10",
+    "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案針對首月提供低於常態月費的折扣價格，屬於新戶或訂閱起始的優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$11 first month Then $22 per month Everything in Starter, plus Professional Voice Cloning Additional Credits 121k credits per month",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 352,
+      "basis": "explicit-amount",
+      "usd": 11,
+      "quote": "$11 first month",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261110-4",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 新戶限時優惠",
+    "category": "ai",
+    "summary": "30,000 點數仅需 $1，活動截至 9 月 30 日",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "在活動期間註冊並訂閱 Starter 方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
+    "lastVerified": "2026-11-10",
+    "risks": "訂閱後會自動按月續費，需手動取消以免持續扣款",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示限時優惠「Start with 30,000 credits for only $1」及截止日，屬於限時折扣/新戶獎勵性質。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends September 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "9"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 960000,
+      "basis": "explicit-amount",
+      "usd": 30000,
+      "quote": "30,000 credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261110-5",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Startup Grants Program",
+    "category": "ai",
+    "summary": "提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是新的產品或新創公司",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "申請 Startup Grants Program",
+      "獲得核准後使用 12 個月免費額度"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-10T23:57:46.192Z",
+    "lastVerified": "2026-11-10",
+    "risks": "僅限新創公司或新產品，需通過審核",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-10T23:56:01.864Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供針對新創公司或新產品的12個月免費額度與字符數，屬於限時或特定對象的推廣方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build intelligent, real-time conversational AI agents into your new product or startup for free with an ElevenLabs Grant. 12 Months free To build, launch & test 33M Characters Valid for 12 months",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Build intelligent, real-time conversational AI agents into your new product or startup for free with an ElevenLabs Grant.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-10T22:47:22.736Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-10T23:56:01.864Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -22,3 +22,11 @@
 | [Free 免費方案](https://www.anthropic.com/pricing) | AI 工具 | 每月 $0，所有人皆可免費使用。限制使用量：每 5 小時及每週皆有使用量限制。功能包含：網路、桌面與行動端聊天、網頁搜尋、建立檔案與執行程式 | 約 TWD 320 | 長期活動 | 已核實 |
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
+| [Cursor 免費方案](https://cursor.com/pricing) | AI 工具 | 每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude 免費方案](https://claude.com/pricing) | AI 工具 | 免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark | 約 TWD 8,560（AI 估） | 2026-12-31 | 待核實 |
+| [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Starter 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $1，其後每月 $6，含每月 30,000 點數 | 約 TWD 32（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs 新戶限時優惠](https://elevenlabs.io/pricing) | AI 工具 | 30,000 點數仅需 $1，活動截至 9 月 30 日 | 約 TWD 960,000（AI 估） | 2024-09-30 | 待核實 |
+| [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
