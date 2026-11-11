@@ -34,7 +34,6 @@
 | [ElevenLabs Starter 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $1，其後每月 $6，含每月 30,000 點數 | 約 TWD 32（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 Plus 方案每日免費額度](https://v0.app/pricing) | AI 工具 | 付費 Plus 方案用戶，每日登入時額外獲得 $2 的免費每日信用額度。 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
 | [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate HODLer Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 持有 GT 代幣即可獲得大量免費空投 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate VIP Wealth Hub 限時 USDT 利率優惠](https://www.gate.com/announcements) | Crypto | 限時提供 9% 年化利率 (APR) 的 USDT 理財產品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
