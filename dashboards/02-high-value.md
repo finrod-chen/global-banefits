@@ -34,7 +34,7 @@
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate CandyDrop 空投活動](https://www.gate.com/announcements) | Crypto | 收集糖果以賺取空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Gate HODLer Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 持有 GT 代幣即可獲得大量免費空投 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate HODLer Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 持有 GT 代幣即可獲得大量免費空投 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate VIP Wealth Hub 限時 USDT 利率優惠](https://www.gate.com/announcements) | Crypto | 限時提供 9% 年化利率 (APR) 的 USDT 理財產品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Futures Points 積分空投活動](https://www.gate.com/announcements) | Crypto | 賺取期貨積分並兌換空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate P2P 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | P2P 交易零手續費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
