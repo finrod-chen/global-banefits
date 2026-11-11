@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-11T16:05:19.415Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-11T18:05:18.915Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -17,8 +17,8 @@
 | [DigitalOcean Droplets 免費出站流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 方案包含免費的出站數據傳輸，起訖點為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 容器註冊表與防火牆免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含 1 個儲存庫與 500 MiB 儲量的免費容器註冊表；提供免費雲端防火牆。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 靜態網站免費託管](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建置和部署 3 個靜態網站。 | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
-| [RackNerd  dedicated servers 15% discount](https://www.racknerd.com/specials/) | VPS/雲服務 | Save 15% off for life on all dedicated servers using promo code: 15OFF | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd  dedicated servers 15% discount](https://www.racknerd.com/specials/) | VPS/雲服務 | Save 15% off for life on all dedicated servers using promo code: 15OFF | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [RackNerd VPS Specials](https://www.racknerd.com/specials/) | VPS/雲服務 | Special promotional pricing for KVM VPS plans: 1GB ($21.99/yr), 2GB ($ | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元（USD）的 AWS 推廣信用額度。根據資歷階層不同：1. Activate Founders（自籌資金）：最 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、每月 50,000 活躍用戶、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案包含每月 $10 的計算額度，足以涵蓋一個 Micro 實例或抵消其他實例的成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元（USD）的 AWS 推廣信用額度。根據資歷階層不同：1. Activate Founders（自籌資金）：最 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、每月 50,000 活躍用戶、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案包含每月 $10 的計算額度，足以涵蓋一個 Micro 實例或抵消其他實例的成本。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |

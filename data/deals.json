@@ -2763,7 +2763,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-11T16:06:36.559Z",
     "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供促銷代碼用於專屬伺服器產品，屬於限時折扣類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261111-2",
@@ -2792,7 +2812,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-11T16:06:36.559Z",
     "lastVerified": "2026-11-11",
     "risks": "Prices are annual; plan availability is 'while available'.",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面展示的是一組常態性的 VPS 定價方案，價格以年度計算，並未標示為臨時性折扣或新戶專屬優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "RackNerd VPS specials\n1 GB\n1 vCPU · 20 GB SSD\n$21.99 /yr\n2 GB\n2 vCPU · 35 GB SSD Popular\n$35.99 /yr\n4 GB\n3 vCPU · 60 GB SSD\n$59.99 /yr\n6 GB\n6 vCPU · 100 GB SSD\n$89.99 /yr\n8 GB\n7 vCPU · 150 GB SSD\n$119.99 /yr",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "CURRENT PROMOTIONS: Deals that everyone is opting for. WHILE AVAILABLE. GET YOURS.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-startups-credits-20261111-1",
@@ -2824,7 +2871,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-11T16:06:57.936Z",
     "lastVerified": "2026-11-11",
     "risks": "所有 AWS Activate Credits 以美元計價，並受 AWS 推廣信用條款與條件約束,部分額度（Founders 層級）需經篩選後才可能獲得最高額度，起始額度為 1,000 美元",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定階段的創始人、新創及AI公司的推廣性信用額度（Credits）。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.\nFind the right tier for you\nAWS offers promotional credits based on your startup's",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 in AWS Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "supabase-pricing-20261111-1",
@@ -2853,7 +2933,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-11T16:07:36.027Z",
     "lastVerified": "2026-11-11",
     "risks": "專案不活動 1 週後會暫停,超過限制會產生費用",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是提供永久免費額度與功能的方案，讓使用者可以無成本開始建構專案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start for Free $ 0\n/ month\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity. Limit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261111-2",
@@ -2882,6 +2987,245 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-11T16:07:36.027Z",
     "lastVerified": "2026-11-11",
     "risks": "僅限付費方案用戶,超出額度需額外付費",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是付費方案中內含的常規計算額度，屬於標準定價結構的一部分，而非限時優惠或折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Pro $ 25 /month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "Paid plans include $10/mo in compute credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "epic-free-games-20261111-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲《Idle Champions of the Forgotten Realms》",
+    "category": "software",
+    "summary": "免費獲得《Idle Champions of the Forgotten Realms》遊戲，該遊戲為一款經「龍與地下城」授權的策略管理遊戲。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-12",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-11T18:05:45.109Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "遊戲標價為0且分類包含freegames，屬於限時免費領取活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "《Idle Champions》是經「龍與地下城」授權的策略管理遊戲，將小說、戰役和節目中的經典角色集結在一場史詩冒險中。",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "2026-11-12T16:00:00.000Z",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gog-free-games-20261111-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 免費遊戲",
+    "category": "software",
+    "summary": "提供多款標價為 0 元的遊戲，可免費下載與擁有。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 GOG 商店的免費遊戲分類"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-11T18:06:03.925Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供標價為 0 元（FREE）的遊戲可供擁有，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "OWNED -{{ gamesProduct.price.discountPercentage }}% FREE $",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gog-free-games-20261111-2",
+    "sourceId": "gog-free-games",
+    "name": "GOG Welcome Offer",
+    "category": "software",
+    "summary": "新用戶限時歡迎優惠，包含特定遊戲的折扣交易。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊頁面中的 'Browse the deals' 連結查看具體折扣內容"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-11T18:06:03.925Z",
+    "lastVerified": "2026-11-11",
+    "risks": "優惠為限時（limited-time），可能隨時結束。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T18:05:18.915Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面文字僅提及歡迎優惠與限時交易，未明確說明該優惠適用於新用戶，也缺乏具體的遊戲項目或折扣細節。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Don’t miss your Welcome Offer!",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "setapp-pricing-20261111-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 免費試用",
+    "category": "software",
+    "summary": "提供 7 天免費試用期",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇任一方案（Mac、Mac + iOS 或 Power User）",
+      "點擊「Start 7-day free trial」"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-11T18:07:12.299Z",
+    "lastVerified": "2026-11-11",
+    "risks": "無自動續約警示",
+    "status": "pending"
+  },
+  {
+    "id": "anthropic-pricing-20261111-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Claude Pro 年繳優惠",
+    "category": "ai",
+    "summary": "年繳每個月 $17（總計 $200 預付），月繳為 $20。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-11T18:07:47.770Z",
+    "lastVerified": "2026-11-11",
+    "risks": "年繳需預付 $200",
     "status": "pending"
   }
 ]
