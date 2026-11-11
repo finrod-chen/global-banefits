@@ -4,7 +4,7 @@ name: Deal Radar Scan
 on:
   schedule:
     # 每 2 小時執行一次（UTC 時間；GitHub 排程可能有 10 到 30 分鐘延遲）
-    - cron: '0 */2 * * *'
+    - cron: '23 */2 * * *'
   workflow_dispatch:
 
 permissions:
