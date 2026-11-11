@@ -16,7 +16,7 @@ export const CATEGORIES = Object.keys(CATEGORY_LABEL);
 // 實測（2026-11-10，agnes 免費方案）：短時間連打會回 429「API rate limit for free users」，沒有 Retry-After，
 // 約 30 秒後恢復；門檻不固定（連續 5 到 10 次之間觸發過）。單次送滿 12,000 字的請求本身不會被擋。
 // 所以呼叫之間隔 16 秒（每分鐘不到 4 次），被限流時等 35 秒重試一次。等待不耗 CPU 時間。
-export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 5, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600, gapMs: 16000, retryWaitMs: 35000, reextractMs: 12 * 3600 * 1000, maxReviewsPerRun: 8, maxReviewAttempts: 3};
+export const LLM = {baseUrl: 'https://apihub.agnes-ai.com/v1', model: 'agnes-3.0-flash', maxSourcesPerRun: 8, maxHtmlChars: 400000, maxBodyChars: 12000, maxTokens: 1600, gapMs: 16000, retryWaitMs: 35000, reextractMs: 12 * 3600 * 1000, maxReviewsPerRun: 8, maxReviewAttempts: 3};
 // 估值換算用的固定匯率，與 data/deals.json 既有條目一致；改這裡時要一併說明，因為會影響所有 AI 估值
 export const FX_TWD_PER_USD = 32;
 const MAX_ESTIMATE_TWD = 2000000;

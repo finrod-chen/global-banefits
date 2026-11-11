@@ -29,7 +29,7 @@
 - scripts/scan.mjs：掃描器（讀寫 data/，呼叫掃描核心與通知），由 GitHub Actions 執行
 - scripts/review.mjs：人工審核一條草稿（核實通過或退回），由 Review Deal workflow 執行
 - scripts/build-dashboards.mjs：看板產生器
-- .github/workflows/deal-hunter.yml：每 2 小時的定時掃描
+- .github/workflows/deal-hunter.yml：掃描。由 Worker 的 Cloudflare 排程每 2 小時觸發；GitHub 自己的排程只留作每 6 小時備援（它在這個 repo 很不可靠）
 - .github/workflows/review-deal.yml：人工審核（Actions 頁手動執行，或從看板按鈕觸發）
 - worker/：Cloudflare Worker 看板網頁，只讀 repo 的 data/ 來顯示（含社群分享用的 OG image），見 worker/README.md
 - scripts/build-og.mjs：重新產生 OG image（平常不用跑，只有改 worker/og/og.html 才需要）

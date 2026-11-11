@@ -2,7 +2,10 @@
  * GLOBAL DEAL RADAR｜全球好康情報中心 - Cloudflare Worker（看板）
  *
  * 資料只有一份：GitHub repo 的 data/。掃描、AI 提取、通知都在 GitHub Actions
- * （.github/workflows/deal-hunter.yml），Worker 只負責把 repo 的資料畫成看板。
+ * （.github/workflows/deal-hunter.yml），Worker 只負責把 repo 的資料畫成看板，
+ * 以及用 Cloudflare 的排程（wrangler.toml 的 crons，每 2 小時）去觸發 GitHub 上的掃描。
+ * 這麼做是因為 GitHub 自己的 schedule 在這個 repo 實測很不可靠（6 個時段只跑 2 次，晚 36 到 78 分鐘），
+ * 而 Cloudflare 的排程準時；GitHub 上的 schedule 只留作每 6 小時的備援。
  *
  *   GET  /                       看板網頁
  *   GET  /api/deals              目前有效優惠（data/deals.json）
@@ -99,12 +102,15 @@ function adminError(request, env) {
   return tokenMatches(given, env.ADMIN_TOKEN) ? null : json({error: 'token 不正確'}, 401);
 }
 
-async function dispatchWorkflow(env, workflow, inputs) {
+// 呼叫 GitHub API 觸發 workflow_dispatch。回傳 {ok: true} 或 {ok: false, status, error}，不丟例外
+async function triggerWorkflow(env, workflow, inputs) {
   const {slug, branch} = repoOf(env);
   if (!env.GITHUB_TOKEN) {
-    return json({error: '未設定 GITHUB_TOKEN，無法從看板觸發。請到 https://github.com/' + slug + '/actions/workflows/' + workflow + ' 按 Run workflow 手動執行。'}, 503);
+    return {ok: false, status: 503, error: '未設定 GITHUB_TOKEN，無法觸發。請到 https://github.com/' + slug + '/actions/workflows/' + workflow + ' 按 Run workflow 手動執行。'};
   }
-  const res = await fetch('https://api.github.com/repos/' + slug + '/actions/workflows/' + workflow + '/dispatches', {
+  let res;
+  try {
+    res = await fetch('https://api.github.com/repos/' + slug + '/actions/workflows/' + workflow + '/dispatches', {
     method: 'POST',
     headers: {
       'Authorization': 'Bearer ' + env.GITHUB_TOKEN,
@@ -115,13 +121,24 @@ async function dispatchWorkflow(env, workflow, inputs) {
     },
     body: JSON.stringify(inputs ? {ref: branch, inputs} : {ref: branch}),
     signal: AbortSignal.timeout(15000)
-  });
+    });
+  } catch (error) {
+    return {ok: false, status: 502, error: '連不上 GitHub：' + (error && error.message ? error.message : error)};
+  }
   if (res.status === 204) {
     memo = null; // 下次看板讀取時重新抓
-    return json({ok: true, message: '已送出，處理完成後這頁會自動更新。'});
+    return {ok: true};
   }
   const detail = (await res.text().catch(() => '')).replace(/\s+/g, ' ').slice(0, 160);
-  return json({error: 'GitHub 回應 HTTP ' + res.status + (detail ? '：' + detail : '')}, 502);
+  // 401/403 多半是 token 過期或權限被收回（fine-grained token 有到期日），特別點出來
+  const hint = res.status === 401 || res.status === 403 ? '（GITHUB_TOKEN 可能已過期或沒有 Actions: Read and write 權限）' : '';
+  return {ok: false, status: 502, error: 'GitHub 回應 HTTP ' + res.status + hint + (detail ? '：' + detail : '')};
+}
+
+async function dispatchWorkflow(env, workflow, inputs) {
+  const r = await triggerWorkflow(env, workflow, inputs);
+  if (r.ok) return json({ok: true, message: '已送出，處理完成後這頁會自動更新。'});
+  return json({error: r.error}, r.status);
 }
 
 async function handleAdmin(request, env, url) {
@@ -148,6 +165,17 @@ async function handleAdmin(request, env, url) {
 }
 
 export default {
+  // Cloudflare 排程（wrangler.toml 的 crons）：每 2 小時觸發 GitHub 上的掃描。
+  // 失敗就丟例外，Cloudflare 會把這次排程標為失敗，Workers Logs 看得到原因；
+  // 看板上「最近掃描」太久沒更新時也會顯示警告，所以不會悄悄停擺。
+  async scheduled(event, env) {
+    const r = await triggerWorkflow(env, 'deal-hunter.yml', null);
+    if (!r.ok) {
+      console.error('[deal-radar] 觸發掃描失敗：' + r.error);
+      throw new Error(r.error);
+    }
+    console.log('[deal-radar] 已觸發掃描 deal-hunter.yml（排程 ' + (event && event.cron ? event.cron : '?') + '）');
+  },
   async fetch(request, env) {
     const url = new URL(request.url);
     if (request.method === 'POST') return handleAdmin(request, env, url);

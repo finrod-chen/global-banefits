@@ -179,6 +179,7 @@ header.top{padding:36px 0 20px;display:flex;gap:16px;align-items:center;flex-wra
 .brand small{font:600 11px/1 var(--mono);letter-spacing:.18em;color:var(--accent)}
 .brand h1{margin:6px 0 0;font-size:26px;line-height:1.2;letter-spacing:.02em;text-wrap:balance}
 .pulse{font-size:13px;color:var(--muted);text-align:right}
+.pulse .stale{display:block;margin-top:2px;color:var(--hot);font-weight:600}
 .pulse b{display:block;color:var(--ink);font:600 15px/1.5 var(--mono);font-variant-numeric:tabular-nums}
 .stats{display:grid;grid-template-columns:repeat(6,1fr);border:1px solid var(--line);border-radius:14px;background:var(--surface);overflow:hidden}
 .stats div{padding:14px 16px;border-left:1px solid var(--line)}
@@ -362,6 +363,9 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
     metaTag('property', 'og:image:width', '1200'), metaTag('property', 'og:image:height', '630'), metaTag('property', 'og:image:alt', ogAlt),
     metaTag('name', 'twitter:image', origin + '/og.png'), metaTag('name', 'twitter:image:alt', ogAlt)
   ] : []).join('');
+  // 排程每 2 小時一次；超過 5 小時沒有新的掃描就在狀態列提醒（排程失敗、token 過期都會走到這裡，不會悄悄停擺）
+  const scanAgeMs = lastRun && lastRun.at ? Date.now() - Date.parse(lastRun.at) : NaN;
+  const staleScan = scanAgeMs > 5 * 3600 * 1000 ? '<span class="stale">⚠ 已 ' + Math.floor(scanAgeMs / 3600000) + ' 小時沒有新的掃描，排程可能有問題</span>' : '';
   const stat = (cls, label, n) => '<div class="' + cls + '"><dt>' + label + '</dt><dd>' + n + '</dd></div>';
   return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">' +
     '<meta name="viewport" content="width=device-width,initial-scale=1">' +
@@ -372,7 +376,7 @@ export function dashboardHtml(deals, lastRun, archive, meta) {
     '<header class="top">' +
       '<svg class="mark" viewBox="0 0 44 44" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="22" cy="22" r="20" stroke-width="1.5"/><circle cx="22" cy="22" r="12" stroke-width="1.5" opacity=".55"/><circle cx="22" cy="22" r="3" fill="currentColor" stroke="none"/><path class="sweep" d="M22 22 L22 2 A20 20 0 0 1 39.3 12 Z" fill="currentColor" stroke="none" opacity=".28"/></svg>' +
       '<div class="brand"><small>GLOBAL DEAL RADAR</small><h1>全球好康情報中心</h1></div>' +
-      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>每 2 小時自動更新<button type="button" id="scan" class="admin-only" data-run-at="' + esc(lastRun && lastRun.at ? lastRun.at : '') + '">立即掃描</button></p>' +
+      '<p class="pulse">最近掃描（台北時間）<b>' + (lastRun && lastRun.at ? esc(fmtTaipei(lastRun.at)) : '尚未掃描') + '</b>' + staleScan + '每 2 小時自動更新<button type="button" id="scan" class="admin-only" data-run-at="' + esc(lastRun && lastRun.at ? lastRun.at : '') + '">立即掃描</button></p>' +
     '</header>' +
     '<dl class="stats">' + stat('', '有效優惠', active.length) + stat('ok', '已核實', verified) + stat('ai', 'AI 預審通過', aiOk) + stat('wait', '待核實', active.length - verified - aiOk) +
       stat('hot', '14 天內截止', soon) + stat('', '監控來源', sources === null || sources === undefined ? '—' : sources) + '</dl>' +
