@@ -22,6 +22,7 @@
 | [GitHub Copilot 免費方案](https://github.com/features/copilot/plans) | AI 工具 | 每月 2,000 次 completions，可存取 Haiku 4.5、GPT-5 mini 等模型、Copilot CLI、社群支援 | 約 TWD 750 | 長期活動 | 已核實 |
 | [Google AI Ultra 贈送 Google Home Premium 進階方案](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案的用戶可免費享有 Google Home Premium 進階方案（價值 $20/月），包含 24 | 約 TWD 640 | 長期活動 | 已核實 |
 | [Suno 免費方案](https://suno.com/pricing) | AI 工具 | 每月 $0，提供每日 50 次額度（credits）、存取免費模型、上傳最長 8 分鐘音訊、使用共享創作佇列。 | 約 TWD 600 | 長期活動 | 已核實 |
+| [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352 | 長期活動 | 已核實 |
 | [Free 免費方案](https://www.anthropic.com/pricing) | AI 工具 | 每月 $0，所有人皆可免費使用。限制使用量：每 5 小時及每週皆有使用量限制。功能包含：網路、桌面與行動端聊天、網頁搜尋、建立檔案與執行程式 | 約 TWD 320 | 長期活動 | 已核實 |
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
@@ -29,7 +30,6 @@
 | [Claude 免費方案](https://claude.com/pricing) | AI 工具 | 免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs Starter 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $1，其後每月 $6，含每月 30,000 點數 | 約 TWD 32（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192（AI 估） | 長期活動 | AI 預審通過 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 待核實 |

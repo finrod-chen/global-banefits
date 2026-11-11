@@ -27,7 +27,7 @@
 | [Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark | 約 TWD 8,560 | 2026-12-31 | 已核實 |
 | [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs Starter 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $1，其後每月 $6，含每月 30,000 點數 | 約 TWD 32（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352 | 長期活動 | 已核實 |
 | [ElevenLabs Startup Grants Program](https://elevenlabs.io/pricing) | AI 工具 | 提供 12 個月免費使用，含 33M 角色數，用於建置、發布與測試 AI 對話代理人 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Mistral 免費方案](https://mistral.ai/pricing) | AI 工具 | 提供有限的訊息與網路搜尋、有限的程式設計工作階段、基本圖片生成與編輯，以及100多個連接器。 | 約 TWD 1,500 | 長期活動 | 已核實 |
 | [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192（AI 估） | 長期活動 | AI 預審通過 |
