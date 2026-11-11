@@ -1838,5 +1838,506 @@
     "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "verified"
+  },
+  {
+    "id": "kraken-blog-20261111-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Anthropic Pre-IPO Challenge",
+    "category": "crypto",
+    "summary": "透過交易 Anthropic 價格敞口，按交易量排名，領取最高 20,000 美元 ANTHROPICX 獎金池份額。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須交易 ANTHROPICX,以交易量（Volume）決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 Anthropic 價格敞最高 10 倍槓桿",
+      "累積交易量以決定排名",
+      "領取獎金池份額"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "加密貨幣投資具有高風險，您可能無法在市場波動中獲利,槓桿交易可能導致損失超過本金",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個透過達到特定交易量排名以領取獎金池（prize pool）的競賽活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "rank by volume",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "compete for $20,000 in ANTHROPICX",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261111-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Prop Commodities Half Commission",
+    "category": "crypto",
+    "summary": "金、銀、油及其他商品在 Kraken Prop 現行以半價手續費交易；所有非加密市場手續費降至每邊 2bps。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "適用於 Kraken Prop 帳戶,包括已持有帳戶",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-29",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Prop 交易金、銀、WTI 油、布倫特油、銅或天然氣",
+      "自動適用每邊 2bps 的手續費率"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "金融商品交易涉及市場波動風險",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容明確標示手續費降至每邊 2bps，屬於限時或特定的費用折扣優惠，而非一般常態定價。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission\nSilver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "including on accounts you already hold",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261111-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Futures Challenge USDG Reward",
+    "category": "crypto",
+    "summary": "從 2026 年 10 月 12 日至 12 月 10 日交易金、現實世界資產及加密期貨，有助於解鎖最高 5,000,000 USDG 的獎勵池；採用單一排行榜與三種倍率機制。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須交易金、現實世界資產（RWA）或加密期貨,活動期間：2026 年 10 月 12 日至 12 月 10 日",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "在指定期間內交易金、RWA 或加密期貨",
+      "累積交易量以在排行榜上獲利",
+      "等待獎勵池解鎖並領取"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "期貨交易具有槓桿風險，可能導致本金損失,USDG 價格波動可能影響實際獎勵價值",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供參與者透過交易量競爭最高 5,000,000 USDG 的獎勵池，屬於限時活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "$5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261111-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pre-IPO Challenge Perps",
+    "category": "crypto",
+    "summary": "交易 OURAx 和 MOONSHOTx 永續合約，以獲取 10,000 USDG 獎金池份額；交易量決定排名。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須交易 OURAx 和 MOONSHOTx 永續合約,最高可使用 10 倍槓桿,以交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊活動",
+      "在 Kraken Pro 交易 OURAx 和 MOONSHOTx 永續合約",
+      "累積交易量以提升排名"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "Pre-IPO 標的物流動性可能較低，價格波動劇烈,槓桿交易風險極高",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項針對特定交易品種的競賽活動，提供獎金池分享，屬於新戶或特定活動獎勵類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "$10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261111-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Meet F1 Driver Promo",
+    "category": "crypto",
+    "summary": "使用代碼 AUSTIN 註冊，交易至少 1 美元交易量，即有機會在美國 GP 親眼見到 Atlassian Williams F1 車手。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 \"AUSTIN\" 註冊,交易至少 1 美元（$1）的交易量,活動時間為 10 月",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用代碼 AUSTIN 註冊或登入",
+      "執行至少 1 美元的交易量",
+      "參與抽獎以獲取美國 GP 會面機會"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "抽獎性質，並非保證中獎,需承擔交易 1 美元以滿足條件的風險（極低）",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項限時活動，參與者透過特定交易門檻獲得參加抽獎以遇見 F1 車手的機會，屬於新戶獎勵或活動推廣性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "因為沒有明確的金錢獎勵，這是體驗式獎勵（見面會）。基於參與大型體育賽事 VIP 活動的機會成本與稀缺性，保守估算其市場價值約為 10,000 TWD。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "kraken-blog-20261111-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Halloween Sweepstakes",
+    "category": "crypto",
+    "summary": "在 10 月進行交易，每一美元交易量即為一個抽獎資格，一位中獎者將獲得 1,000 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須在 10 月進行交易,交易量按美元計算，每一美元為一個 entry",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "在 10 月期間進行任何交易",
+      "累積交易量以增加抽獎資格數量",
+      "等待抽獎結果"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
+    "lastVerified": "2026-11-11",
+    "risks": "僅有一位中獎者，中獎機率極低,需承擔 10 月交易的市場風險",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "屬於限時抽獎活動，以交易量換取中獎資格。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1600,
+      "basis": "ai-estimate",
+      "usd": 50,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確標示獲獎金額為 1,000 SOL，依 SOL 近期價格換算約 50 美元，非估算值。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "za-bank-promo-20261111-1",
+    "sourceId": "za-bank-promo",
+    "name": "ZA Bank Millionaire PowerDraw: Win HKD 1m!",
+    "category": "banking",
+    "summary": "贏取 100 萬港元",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://bank.za.group/en/promotions",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ZA Bank 優惠頁」，待人工核實，提取時間 2026-11-11T09:02:12.869Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容提及 Millionaire PowerDraw 活動，為贏取獎勵的抽獎類型優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Millionaire PowerDraw: Win HKD 1m!",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100"
+      ]
+    }
+  },
+  {
+    "id": "za-bank-promo-20261111-2",
+    "sourceId": "za-bank-promo",
+    "name": "ZA Bank PowerDraw Up to 11% Rebate",
+    "category": "banking",
+    "summary": "最高 11% 回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://bank.za.group/en/promotions",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ZA Bank 優惠頁」，待人工核實，提取時間 2026-11-11T09:02:12.869Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T09:00:36.554Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及特定活動「PowerDraw」並提供「Up to 11% Rebate」的回饋，屬於限時優惠或新戶獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "PowerDraw Up to 11% Rebate",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "za-bank-promo-20261111-3",
+    "sourceId": "za-bank-promo",
+    "name": "ZA Bank Shopping Buy 1 Get 1 Free",
+    "category": "banking",
+    "summary": "購物買一送一",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://bank.za.group/en/promotions",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ZA Bank 優惠頁」，待人工核實，提取時間 2026-11-11T09:02:12.869Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
   }
 ]
