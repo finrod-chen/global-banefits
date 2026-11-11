@@ -3,7 +3,7 @@
 
 ## 日常流程
 
-1. 掃描：GitHub Actions 每 2 小時跑一次 scripts/scan.mjs，跑完重建看板檔案並把 data/ 提交回 repo。
+1. 掃描：Worker 的 Cloudflare 排程每 2 小時觸發 GitHub Actions 跑 scripts/scan.mjs，跑完重建看板檔案並把 data/ 提交回 repo。也可以在看板的管理模式按「立即掃描」，或到 Actions 頁手動執行 Deal Radar Scan。
 2. 草稿與 AI 預審：有設 LLM_API_KEY 時，變更的頁面會自動產生草稿，接著每條草稿做一次 AI 預審（見下方「已實作的自動化」）；沒設的話看 data/last-run.json 的 needsReview 欄位，自己按 docs/SCHEMA.md 寫條目。
 3. 人工核實：優先看「AI 預審通過」的（卡片上有原文依據可以直接對照），點開官方頁面確認後，用下列任一方式放行；價值欄會帶入 AI 估值，可直接採用或修改：
    - 看板的管理模式按「核實通過」（可填估算價值）或「退回」（需要 Worker 設 ADMIN_TOKEN 與 GITHUB_TOKEN）。
@@ -19,7 +19,7 @@
 
 ## 已實作的自動化
 
-- 每 2 小時定時掃描（GitHub Actions cron，設在每個偶數小時的第 23 分，避開整點的壅塞：整點時段曾被延遲 36 分鐘，甚至整個被丟掉；即使如此仍可能有 10 到 30 分鐘延遲）
+- 每 2 小時定時掃描：由 Worker 的 Cloudflare 排程（wrangler.toml 的 crons，每個偶數小時的第 5 分 UTC）用 workflow_dispatch 觸發 GitHub 上的掃描。不用 GitHub 自己的 schedule 當主力，因為它在這個 repo 實測很不可靠：6 個時段只跑 2 次，而且晚 36 到 78 分鐘；GitHub 的 schedule 只留作每 6 小時備援。兩邊同時觸發也沒關係，掃描共用同一個 concurrency group 會排隊，內容沒變的來源有 12 小時冷卻不會重複提取。每輪最多提取 8 個來源、預審 8 條。看板在最近掃描超過 5 小時沒更新時會顯示警告
 - 官方頁面雜湊比對、變更偵測、疑似失效偵測（關鍵字消失）；HTTP 4xx/5xx 與空內容的回應都算擷取失敗
 - 重複優惠去重、過期自動歸檔
 - AI 自動提取優惠草稿（含地區與資格條件）：頁面先去掉 script 與標籤再交給 LLM；已核實的條目會告訴 LLM 不要重複；同一來源的舊草稿會被新一輪取代；人工退回過的不會再被塞回來；提取過的來源 12 小時內不重複提取。模型輸出被截斷或格式壞掉時，會盡量救回前面已寫完的優惠，並在 last-run 的 aiExtraction.warnings 記警告；一條都救不回才算失敗，錯誤訊息會帶長度、結束原因與頭尾各 60 字，方便看出是被截斷還是格式不對
@@ -53,7 +53,8 @@ ADMIN_TOKEN 自己產一串夠長的隨機字串（例如 openssl rand -hex 24�
 - Actions 的出口 IP 抓不到 OpenAI、Midjourney、Revolut、Namecheap（回 403），這四個來源目前一直是擷取失敗。
 - 通知管道目前只有 Telegram，沒有郵件與 Slack。
 - 看板讀的是公開 repo；repo 改成私有的話，Worker 的讀取方式要改。
-- GitHub 會在倉庫 60 天無活動時自動暫停排程，有新提交就會重置計時。
+- 排程依賴 Worker 的 `GITHUB_TOKEN`：fine-grained token 有到期日，過期或被收回權限時，Cloudflare 的排程會失敗（Workers Logs 看得到原因），這時只剩 GitHub 的備援排程；看板的「最近掃描」超過 5 小時沒更新會顯示警告。換 token 的地方在 Cloudflare 的 Worker → Settings → Variables and Secrets。
+- GitHub 會在倉庫 60 天無活動時自動暫停它的排程（備援那條），有新提交就會重置計時。
 
 ## 本機執行
 

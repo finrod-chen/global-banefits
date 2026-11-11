@@ -10,7 +10,7 @@
 - `src/notify.mjs`：Telegram 推播，給 `scripts/scan.mjs` 用。
 - `src/og-image.js`：OG image（社群分享預覽圖）的 base64，由腳本產生，不要手改。
 - `og/og.html`、`og/og.png`：OG image 的原始稿與輸出。改圖就改 `og.html`，再執行 `node scripts/build-og.mjs`（需要 Playwright 與中文字型），並把 `og.png`、`src/og-image.js` 一起提交。
-- `../wrangler.toml`：Worker 設定，**放在 repo 根目錄**（Cloudflare Workers Builds 的 Root directory 是 `/`，Deploy command 在那裡執行）。沒有排程、沒有 KV；`REPO_SLUG`、`REPO_BRANCH` 指定讀哪個 repo。
+- `../wrangler.toml`：Worker 設定，**放在 repo 根目錄**（Cloudflare Workers Builds 的 Root directory 是 `/`，Deploy command 在那裡執行）。沒有 KV；排程（`crons`）每 2 小時觸發 GitHub 上的掃描；`REPO_SLUG`、`REPO_BRANCH` 指定讀哪個 repo。
 - `deploy.sh`：已不需要做事的空殼，只為了讓 Cloudflare 現有的 Build command 不會壞掉。
 - `../.github/workflows/deploy-worker.yml`：GitHub Actions 部署（備援路線）。
 
@@ -34,10 +34,10 @@ repo 是公開的，Worker 直接讀 `raw.githubusercontent.com/<REPO_SLUG>/<REP
 
 ## 設定（Worker 的 Settings → Variables and Secrets）
 
-都是選填。
+`GITHUB_TOKEN` 是排程觸發掃描必要的；`ADMIN_TOKEN` 只在要用看板管理模式時才需要。
 
 - `ADMIN_TOKEN`：看板管理模式與 POST 端點的密碼，自己產一串夠長的隨機字串。
-- `GITHUB_TOKEN`（Secret）：讓看板按鈕能觸發 workflow。到 GitHub → Settings → Developer settings → Fine-grained tokens 建立，Repository access 只選這個 repo，權限只給 **Actions: Read and write**。沒設的話按鈕會回 503 並附上 GitHub 上手動執行的連結。
+- `GITHUB_TOKEN`（Secret）：讓看板按鈕**和 Worker 的排程**能觸發 workflow。排程每 2 小時用它去觸發掃描，所以這個 token 現在是必要的；它是 fine-grained token，有到期日，到期前要換，否則排程會失敗（失敗時 Cloudflare 會把該次排程標為失敗，Workers Logs 看得到原因，看板上「最近掃描」超過 5 小時沒更新也會顯示警告）。到 GitHub → Settings → Developer settings → Fine-grained tokens 建立，Repository access 只選這個 repo，權限只給 **Actions: Read and write**。沒設的話按鈕會回 503 並附上 GitHub 上手動執行的連結。
 
 ## 管理模式
 

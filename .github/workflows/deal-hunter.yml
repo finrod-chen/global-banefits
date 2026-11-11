@@ -3,8 +3,11 @@ name: Deal Radar Scan
 
 on:
   schedule:
-    # 每 2 小時執行一次（UTC 時間；GitHub 排程可能有 10 到 30 分鐘延遲）
-    - cron: '23 */2 * * *'
+    # 備援：每 6 小時一次。主要的排程是 Cloudflare Worker 每 2 小時用 workflow_dispatch 觸發（見 wrangler.toml）。
+    # GitHub 的 schedule 在這個 repo 實測很不可靠（6 個時段只跑 2 次，晚 36 到 78 分鐘），所以不再當主力；
+    # 兩邊同時觸發也沒關係：掃描共用同一個 concurrency group 會排隊；內容沒變的來源有 12 小時冷卻不會重複提取，
+    # 佇列裡還沒提取的來源則會接著處理，所以重複的那次不會白做。
+    - cron: '47 */6 * * *'
   workflow_dispatch:
 
 permissions:
