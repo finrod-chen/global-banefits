@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-11T09:00:36.554Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-11T16:05:19.415Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -46,7 +46,18 @@
 | [Kraken Futures Challenge USDG Reward](https://blog.kraken.com/) | Crypto | 從 2026 年 10 月 12 日至 12 月 10 日交易金、現實世界資產及加密期貨，有助於解鎖最高 5,000,000 USDG 的獎 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO Challenge Perps](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，以獲取 10,000 USDG 獎金池份額；交易量決定排名。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Meet F1 Driver Promo](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易至少 1 美元交易量，即有機會在美國 GP 親眼見到 Atlassian Williams F1 車手。 | 約 TWD 10,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，每一美元交易量即為一個抽獎資格，一位中獎者將獲得 1,000 SOL。 | 約 TWD 1,600（AI 估） | 2026-10-31 | 待核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 贏取 100 萬港元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 最高 11% 回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [ZA Bank Shopping Buy 1 Get 1 Free](https://bank.za.group/en/promotions) | 海外銀行/卡 | 購物買一送一 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典回饋活動](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費額度，有效期限為 90 天。在額度內消費不會扣款，超出額度部分才会計價。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 VPC 與 ingress 傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立無限量的虛擬私人雲（VPC）不額外加價；VPC 內的 Ingress 數據傳輸免費；同數據中心內 VPC 間的數據傳輸免費；同數據中心內 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可使用 90,000 GiB-seconds 的 Function 使用量，且對 Function 調用次數不額外收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplets 免費出站流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 方案包含免費的出站數據傳輸，起訖點為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 容器註冊表與防火牆免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含 1 個儲存庫與 500 MiB 儲量的免費容器註冊表；提供免費雲端防火牆。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 靜態網站免費託管](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建置和部署 3 個靜態網站。 | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
+| [RackNerd  dedicated servers 15% discount](https://www.racknerd.com/specials/) | VPS/雲服務 | Save 15% off for life on all dedicated servers using promo code: 15OFF | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd VPS Specials](https://www.racknerd.com/specials/) | VPS/雲服務 | Special promotional pricing for KVM VPS plans: 1GB ($21.99/yr), 2GB ($ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元（USD）的 AWS 推廣信用額度。根據資歷階層不同：1. Activate Founders（自籌資金）：最 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、每月 50,000 活躍用戶、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案計算額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案包含每月 $10 的計算額度，足以涵蓋一個 Micro 實例或抵消其他實例的成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

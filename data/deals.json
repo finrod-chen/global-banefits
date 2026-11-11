@@ -2149,76 +2149,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261111-6",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Halloween Sweepstakes",
-    "category": "crypto",
-    "summary": "在 10 月進行交易，每一美元交易量即為一個抽獎資格，一位中獎者將獲得 1,000 SOL。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須在 10 月進行交易,交易量按美元計算，每一美元為一個 entry",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-31",
-    "ongoing": false,
-    "steps": [
-      "在 10 月期間進行任何交易",
-      "累積交易量以增加抽獎資格數量",
-      "等待抽獎結果"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-11T09:01:36.304Z",
-    "lastVerified": "2026-11-11",
-    "risks": "僅有一位中獎者，中獎機率極低,需承擔 10 月交易的市場風險",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-11T09:00:36.554Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "屬於限時抽獎活動，以交易量換取中獎資格。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "expired",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600,
-      "basis": "ai-estimate",
-      "usd": 50,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確標示獲獎金額為 1,000 SOL，依 SOL 近期價格換算約 50 美元，非估算值。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "za-bank-promo-20261111-1",
     "sourceId": "za-bank-promo",
     "name": "ZA Bank Millionaire PowerDraw: Win HKD 1m!",
@@ -2338,6 +2268,620 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「ZA Bank 優惠頁」，待人工核實，提取時間 2026-11-11T09:02:12.869Z",
     "lastVerified": "2026-11-11",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出「Buy 1 Get 1 Free」分類，未說明具體適用產品或服務，無法判斷是限時折扣還是常態優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Buy 1 Get 1 Free",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "esun-card-offers-20261111-1",
+    "sourceId": "esun-card-offers",
+    "name": "玉山雙11購物盛典回饋活動",
+    "category": "banking",
+    "summary": "最高享9,800元回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-11T16:05:47.489Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示此為「玉山雙11購物盛典」的限時活動，明確標示了特定的開始與結束日期。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "最高享9,800元回饋",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "2026/11/1~2026/11/30",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9800,
+      "basis": "ai-estimate",
+      "note": "以頁面明確標註的最高回饋金額進行保守估算。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-1",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean $5 免費額度",
+    "category": "vps-cloud",
+    "summary": "提供 $5 免費額度，有效期限為 90 天。在額度內消費不會扣款，超出額度部分才会計價。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 DigitalOcean 帳戶",
+      "使用免費額度進行消費"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "若超過免費額度或額度過期（90天後），剩餘額度將無法使用，且超出部分會進行扣款",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及 $5 免費額度及 90 天有效期，屬於新戶獎勵或免費額度性質。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "How does the $5 free credit work? Your card will be charged only after you have utilized the free credits or after the credit expiration period. For example, if you received a $5 credit for 90 days, then that $5 credit is automatically appl",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "$5 free credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-2",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 免費 VPC 與 ingress 傳輸",
+    "category": "vps-cloud",
+    "summary": "建立無限量的虛擬私人雲（VPC）不額外加價；VPC 內的 Ingress 數據傳輸免費；同數據中心內 VPC 間的數據傳輸免費；同數據中心內的 VPC 互連（peering）免費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 DigitalOcean 控制台中創建 VPC"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "Egress（出站）數據傳輸至互聯網或跨數據中心互連會產生費用（跨數據中心互連每 GiB $0.01，VPC NAT Gateway 過量每 GiB $0.01）",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供無限制的虛擬私人雲創建與特定的免費數據傳輸額度，屬於免費方案或額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Create unlimited VPCs at no additional cost.\nIngress data transfer to VPCs is free.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "估算依據為節省建立多個 VPC 的潛在費用以及一般開發測試環境（約 100GB-200GB 每月）的內部網路傳輸流量價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-3",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Functions 免費額度",
+    "category": "vps-cloud",
+    "summary": "每月可使用 90,000 GiB-seconds 的 Function 使用量，且對 Function 調用次數不額外收費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Functions 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "超過每月 90,000 GiB-seconds 額度的部分可能會產生費用（頁面未明確列出超額費率，僅提及無額外調用費用）",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該條款描述的是每月免費的使用額度，屬於免費方案或額度類的優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-4",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Droplets 免費出站流量",
+    "category": "vps-cloud",
+    "summary": "Droplets 方案包含免費的出站數據傳輸，起訖點為每月 500 GiB。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Droplets 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "超過 500 GiB / 月的出站流量將按 $0.01 / GiB 計價",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 DigitalOcean 一般 Droplets 服務所包含的常態基礎定價與頻寬方案，並非獨立的限時推廣、免費額度或新戶專屬獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Droplets include free outbound data transfer, starting at 500 GiB / mo",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-5",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 容器註冊表與防火牆免費方案",
+    "category": "vps-cloud",
+    "summary": "包含 1 個儲存庫與 500 MiB 儲量的免費容器註冊表；提供免費雲端防火牆。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "啟用 Container Registry 或 Cloud Firewalls 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "超出 1 個儲存庫或 500 MiB 儲量限制將可能產生額外費用",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費的容器註冊表儲存空間及雲端防火牆功能，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free container registry with 1 repository and 500 MiB storage\nFree cloud firewalls",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "保守估算，若付費容器註冊表每月費用約 $5 美元，且防火牆服務價值約 $10-20 美元，一年總價值約 $150-240 美元，換算成新台幣約 1500 元。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "digitalocean-pricing-20261111-6",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 靜態網站免費託管",
+    "category": "vps-cloud",
+    "summary": "可免費建置和部署 3 個靜態網站。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 App Platform 部署靜態網站"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-11T16:06:13.603Z",
+    "lastVerified": "2026-11-11",
+    "risks": "超過 3 個靜態網站的限制將產生費用",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-11T16:05:19.415Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "页面提到“免费”提供功能，属于免费方案或额度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "假设一个静态网站在一般共享主机上的价格约为 100 台币/月，3 个网站即 300 台币/月，一年共计 3600 台币；但考虑到静态网站通常可使用更低成本的 CDN 服务，且“免费”价值无法精确换算为现金，此处取保守估计或视为附加服务。由于“免费”是无限期的（Page states: 'Platform benefits... included at no additional cost'），估算第一年价值，若按市价 100 TWD/月/站计算，3 站即 3600 TWD。但考虑到保守估计，可能仅为 300 TWD 左右？不对，静态网站托管其实很便宜，但免费额度价值主要在于省去了基础费用。若按",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "racknerd-specials-20261111-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd  dedicated servers 15% discount",
+    "category": "vps-cloud",
+    "summary": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Use promo code 15OFFDEDI when purchasing dedicated servers."
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-11T16:06:36.559Z",
+    "lastVerified": "2026-11-11",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261111-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd VPS Specials",
+    "category": "vps-cloud",
+    "summary": "Special promotional pricing for KVM VPS plans: 1GB ($21.99/yr), 2GB ($35.99/yr), 4GB ($59.99/yr), 6GB ($89.99/yr), and 8GB ($119.99/yr). These are yearly prices listed under 'RackNerd VPS specials'.",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "While available.",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Select a VPS plan from the specials list.",
+      "Order the chosen plan."
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-11T16:06:36.559Z",
+    "lastVerified": "2026-11-11",
+    "risks": "Prices are annual; plan availability is 'while available'.",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261111-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate 新創額度",
+    "category": "vps-cloud",
+    "summary": "提供最高 200,000 美元（USD）的 AWS 推廣信用額度。根據資歷階層不同：1. Activate Founders（自籌資金）：最高 5,000 美元，部分參與者資格可獲最多 5,000 美元，起始額度為 1,000 美元。2. Activate Portfolio（Pre-Series B）：最高 200,000 美元，需提供 Accelerator、天使投資人或風投機構的 Org ID。3. AI 新創額度：邀請制，提供 200,000 美元以上額度，需透過客戶經理聯繫。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "符合 AWS Activate 資格：Pre-Series B 前階段,成立時間在過去 10 年內,擁有 Paid Tier Plan（付費層級）的 AWS 帳戶,是 Activate Credits 的新用戶，或申請的額度超過之前收到的額度,若為 Activate Portfolio 層級，必須擁有 Activate Provider（如加速器、天使投資人、風投）的 Organization ID (Org ID)",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 AWS Builder ID（使用專業電子郵件註冊或登入現有帳戶並完成驗證）",
+      "選擇信用額度層級（自籌資金選 Activate Founders；VC/加速器背書選 Activate Portfolio 並使用 Org ID）",
+      "提供新創公司詳細資訊（產品、融資階段、公司概況）以確認資格",
+      "連結 AWS 帳戶並提交申請",
+      "等待 5-10 個工作日的審核結果"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-11T16:06:57.936Z",
+    "lastVerified": "2026-11-11",
+    "risks": "所有 AWS Activate Credits 以美元計價，並受 AWS 推廣信用條款與條件約束,部分額度（Founders 層級）需經篩選後才可能獲得最高額度，起始額度為 1,000 美元",
+    "status": "pending"
+  },
+  {
+    "id": "supabase-pricing-20261111-1",
+    "sourceId": "supabase-pricing",
+    "name": "Supabase 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0，包含無限 API 請求、每月 50,000 活躍用戶、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲存空間。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "免費專案在 1 週不活動後會暫停；最多 2 個活動專案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訪問 Supabase 定價頁面",
+      "點選 \"Start for Free\""
+    ],
+    "officialUrl": "https://supabase.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-11T16:07:36.027Z",
+    "lastVerified": "2026-11-11",
+    "risks": "專案不活動 1 週後會暫停,超過限制會產生費用",
+    "status": "pending"
+  },
+  {
+    "id": "supabase-pricing-20261111-2",
+    "sourceId": "supabase-pricing",
+    "name": "Supabase 付費方案計算額度",
+    "category": "vps-cloud",
+    "summary": "Pro 和 Team 方案包含每月 $10 的計算額度，足以涵蓋一個 Micro 實例或抵消其他實例的成本。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Pro ($25/月) 或 Team ($599/月) 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Pro 或 Team 方案",
+      "計算額度自動套用於專案費用"
+    ],
+    "officialUrl": "https://supabase.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-11T16:07:36.027Z",
+    "lastVerified": "2026-11-11",
+    "risks": "僅限付費方案用戶,超出額度需額外付費",
     "status": "pending"
   }
 ]

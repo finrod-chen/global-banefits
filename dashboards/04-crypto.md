@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-11T09:00:36.554Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-11T16:05:19.415Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -18,4 +18,3 @@
 | [Kraken Futures Challenge USDG Reward](https://blog.kraken.com/) | Crypto | 從 2026 年 10 月 12 日至 12 月 10 日交易金、現實世界資產及加密期貨，有助於解鎖最高 5,000,000 USDG 的獎 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO Challenge Perps](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，以獲取 10,000 USDG 獎金池份額；交易量決定排名。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Meet F1 Driver Promo](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易至少 1 美元交易量，即有機會在美國 GP 親眼見到 Atlassian Williams F1 車手。 | 約 TWD 10,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，每一美元交易量即為一個抽獎資格，一位中獎者將獲得 1,000 SOL。 | 約 TWD 1,600（AI 估） | 2026-10-31 | 待核實 |
