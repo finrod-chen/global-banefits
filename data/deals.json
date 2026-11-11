@@ -1039,8 +1039,8 @@
     "value": {
       "type": "free",
       "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+      "valueTWD": 8560,
+      "note": "採用 AI 估值（AI 推測），經人工放行"
     },
     "requirements": "須為美國合資格的大學生，年滿18歲以上；需綁定有效的付款方式；每年需驗證資格；適用於新用戶或2025年 AI Pro 試用期已屆滿的學生。",
     "regions": [
@@ -1055,10 +1055,10 @@
       "綁定有效的付款方式以完成註冊"
     ],
     "officialUrl": "https://gemini.google/students/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，待人工核實，提取時間 2026-11-10T23:57:22.960Z",
-    "lastVerified": "2026-11-10",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，提取時間 2026-11-10T23:57:22.960Z；人工核實於 2026-11-11",
+    "lastVerified": "2026-11-11",
     "risks": "除非提前取消，試用期結束後 Google AI Pro 將自動每月扣款 $19.99；資格每年需重新驗證，否則可能失去存取權。",
-    "status": "pending",
+    "status": "verified",
     "review": {
       "at": "2026-11-10T23:56:01.864Z",
       "model": "agnes-3.0-flash",

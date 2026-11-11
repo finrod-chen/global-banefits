@@ -8,6 +8,7 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Oracle Cloud 免費層：300 美元試用金 + Always Free 永久免費資源](https://www.oracle.com/cloud/free/) | VPS/雲服務 | 註冊 Oracle Cloud 免費層：30 天內可用的 300 美元雲端額度；30 天後不升級也保留 Always Free 永久免費資源 | 約 TWD 9,600 | 長期活動 | 已核實 |
 | [Google Cloud 免費試用：300 美元抵免額（90 天）+ 免費方案](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 新用戶註冊 Google Cloud 免費試用，獲得 300 美元迎新抵免額，90 天內可用；另有每月限額的永久免費方案。試用期間不會自動收 | 約 TWD 9,600 | 長期活動 | 已核實 |
+| [Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark | 約 TWD 8,560 | 2026-12-31 | 已核實 |
 | [Google AI Pro 學生免費優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可免費獲得 1 年的 Google AI Pro 方案，包含更高的 Gemini 使用額度、24/7 個人 AI 代理以及 5 TB 儲 | 約 TWD 7,800 | 長期活動 | 已核實 |
 | [AWS Free Tier 新戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 創建新帳號時立即獲得 100 美元信用額度，透過探索關鍵服務最多多出 100 美元，總計最高 200 美元額度。額度可持續使用 6 個月，用 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [AWS 免費方案服務使用權限](https://aws.amazon.com/free/) | VPS/雲服務 | Free plan 使用者可免費使用超過 90 項服務，期限最長 6 個月。另有 30 項以上服務在每月用量限制內永遠免費（Always F | 約 TWD 6,400 | 長期活動 | 已核實 |
@@ -24,7 +25,6 @@
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Cursor 免費方案](https://cursor.com/pricing) | AI 工具 | 每月 $0，提供有限度的 AI 使用額度，包含有限的 Agent 請求、有限的 Chat 請求，以及有限的 X Grok 功能（如聊天、圖片 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude 免費方案](https://claude.com/pricing) | AI 工具 | 免費（$0），包含限制於每5小時及每週的使用額度，支援網頁、桌面、行動裝置聊天，搜尋網路、建立檔案與執行程式碼、跨對話記憶、連結應用程式與工 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供美國大學生1年免費 Google AI Pro 方案，包含 Gemini 使用量上限提高4倍、5TB 儲存空間、Gemini Spark | 約 TWD 8,560（AI 估） | 2026-12-31 | 待核實 |
 | [ElevenLabs 免費方案](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 點數，每月 3 個專案，無月費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs Starter 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $1，其後每月 $6，含每月 30,000 點數 | 約 TWD 32（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs Creator 首月優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月 $11，其後每月 $22，含每月 121,000 點數 | 約 TWD 352（AI 估） | 長期活動 | 待核實 |
