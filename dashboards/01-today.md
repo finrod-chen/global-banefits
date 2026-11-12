@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T15:37:47.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T16:05:21.735Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,20 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [玉山雙11購物盛典回饋活動](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，期限為 90 天。若未用完額度，過期後剩餘部分無法使用。扣款發生在額度用盡或過期後。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（free control plane）及免費頻寬配額（free bandwidth allow | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean 平台基礎設施免費資源](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立 3 個靜態網站；資料中心內及跨 VPC 的資料傳輸免費；VPC 入站（Ingress）資料傳輸免費；未綁定 Droplet 的預留 | 約 TWD 1,275（AI 估） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Functions 免費執行額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度。函數呼叫（function invocations）不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean VPC 免費資源與傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立無限數量的 VPC；VPC 入站資料傳輸免費；數據中心內的 VPC 對等連接（peering）免費；Uptime 監控每月包含 1  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Managed Database 免費備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Database 服務包含免費每日備份（Free daily backups）及自動故障轉移。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Action Gateway 免費工具搜尋](https://www.digitalocean.com/pricing) | VPS/雲服務 | Action Gateway 服務包含免費的工具搜尋功能（Tool search included at no charge）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專屬伺服器終身 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可獲得所有專屬伺服器（dedicated servers）終身 15% 的折扣。 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 特價年度方案，包括 1GB ($21.99/年)、2GB ($35.99/年)、4GB ($59.99/年)、6G | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 提供 50,000 月活躍用戶 (MAU)、500 MB 資料庫空間、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間、5 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 等付費方案每月包含 $10 的計算額度 (compute credits)，足以覆蓋一個 Micro 實例或抵銷其他實 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 0 美元，無時間限制且不需要信用卡。每專案每月 100 CU-hrs 計算量、1 GB 儲存空間、5 GB 物件儲存、100 個專案、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 10 萬美元的額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | AWS Activate Credits 提供根據新創公司融資階段的促銷額度。自我資金（Self-funded）可獲得最高 5,000 美元 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic Games 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 指定遊戲可以免費領取，例如《Idle Champions of the Forgotten Realms》的促銷期為2026-11-05至2 | 免費（價值視使用而定） | 2026-11-12 | AI 預審通過 |
 | [Humble Choice 會員方案與商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 月費 $14.99 美元；年繳方案每月低於 $13 美元；會員在商店中可節省最多 20%（含熱門新發行遊戲）；5 | 約 TWD 5,250（AI 估） | 長期活動 | 待核實 |
@@ -75,3 +61,15 @@
 | [Kraken Pre-IPO OURAx and MOONSHOTx 挑戰](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers & 儲存產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供多項產品的免費額度，包括：Workers 免費 100,000 請求/天、10 ms/請求 CPU 時間；Containers 免費 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用（$0 forever），包含社群論壇與 Discord 支援、最多 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 10,478（AI 估） | 2026-11-30 | 待核實 |
+| [玉山信用卡 繳地價稅優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [玉山信用卡繳學費優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Trip.com 玉山信用卡訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 免費額度與優惠](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起始於 $0/月；Functions 提供每月 90,000 GiB-seconds 免費使用且調用無額外費用；C | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd 專有伺服器终身 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可獲得所有專有伺服器（dedicated servers）的 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 月活躍使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 100 個專案，每個專案 100 CU-hrs 計費時數、1 GB 儲存空間，支援最大 2 CU（8 GB RAM）計算規格，含 5  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供高達 $100,000 的額度（Credits）給早期新創企業，加速產品發布。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護中的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
