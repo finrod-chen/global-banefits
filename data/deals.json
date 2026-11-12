@@ -4138,7 +4138,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T02:05:18.322Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題明確標示為「half the commission」（一半佣金），屬於限時折扣或優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261112-3",
@@ -4167,7 +4192,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T02:05:18.322Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時活動，透過交易量解鎖最高 $5,000,000 USDG 的獎勵池。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "one leaderboard, three multipliers",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "$5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261112-4",
@@ -4197,7 +4260,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "高槓桿交易涉及高風險。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T02:05:18.322Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供獎金挑戰賽，符合新戶獎勵或活動促銷性質",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG\nEnroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "$10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261112-5",
@@ -4226,7 +4322,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T02:05:18.322Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "此活動性質為「註冊加交易滿 $1 即有機會與 F1 車手見面」的體驗型抽獎，並非直接發放貨幣、額度或產品折扣的標準優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "該活動要求交易量 $1，沒有直接現金價值。保守估算將此次「與車手見面」的體驗價值以一般票務或貴賓體驗價值約 $150 USD (1:1 抽獎中獎機率極低) 換算成台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "kraken-blog-20261112-6",
@@ -4256,6 +4385,31 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T02:05:18.322Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個交易競賽活動，用戶透過產生交易量獲得抽獎機會，贏取固定資產獎勵，屬於限時促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]
