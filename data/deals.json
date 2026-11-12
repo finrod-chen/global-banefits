@@ -2091,114 +2091,6 @@
     }
   },
   {
-    "id": "wise-home-20261111-1",
-    "sourceId": "wise-home",
-    "name": "Wise 大額匯款費用折扣",
-    "category": "banking",
-    "summary": "匯款金額超過 20,000 GBP 或其等值貨幣時，將對費用提供折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "匯款金額需超過 20,000 GBP 或其等值貨幣。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進行超過 20,000 GBP 或其等值的匯款。"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-11T20:06:39.220Z",
-    "lastVerified": "2026-11-11",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-11T20:05:18.680Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對特定高金額的匯款行為提供額外的費用折扣，屬於條件性的促銷優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261111-2",
-    "sourceId": "wise-home",
-    "name": "Wise Assets 投資回報",
-    "category": "banking",
-    "summary": "Wise Assets 提供 GBP、EUR 和 USD 的即時存取回報，變動利率為 3.29%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇加入 Wise Assets 服務；注意金錢價值可能因政府違約或負利率而減少，當前利率不代表未來表現，可能涉及稅務。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇加入 Wise Assets 以賺取回報。"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-11T20:06:39.220Z",
-    "lastVerified": "2026-11-11",
-    "risks": "貨幣價值可能因政府違約或負利率而減少,當前利率不保證未來表現,變動利率基於 2026-09-23 的 7 天表現,可能涉及稅務",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-11T20:05:18.680Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "Wise Assets 提供的一般存款回報利率，非限時優惠或新戶獎勵，而是一項常態的金融產品功能。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn 3.29% variable rate on everyday GBP\nOpt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Money can decrease in value if governments default or interest rates go negative. Current rates do not guarantee future performance. Variable rate is based on 7 day performance as of 9/23/2026. Taxes may apply.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "claude-pricing-20261111-1",
     "sourceId": "claude-pricing",
     "name": "Claude Pro 年繳 API 額度獎勵",
@@ -4271,8 +4163,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-12T08:06:00.847Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "reviewAttempts": 1
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T10:05:20.218Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "數據顯示有特定起止日期的促銷活動，且分類包含免費遊戲。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"promotionalOffers\":[{\"startDate\":\"2026-11-05T16:00:00.000Z\",\"endDate\":\"2026-11-12T16:00:00.000Z\",\"discountSetting\":{\"discountType\":\"PERCENTAGE\",\"discountPercentage\":0}}]",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "\"endDate\":\"2026-11-12T16:00:00.000Z\"",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261112-1",
@@ -4450,6 +4366,164 @@
       "quote": "Save up to 40% yearly",
       "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
       "confidence": "high"
+    }
+  },
+  {
+    "id": "copilot-plans-20261112-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生專屬方案",
+    "category": "ai",
+    "summary": "經驗證的學生可申請 GitHub Copilot Student plan（頁面僅提及名稱與資格，未列出該學生方案的具體免費額度或定價數字）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為經驗證的學生（Verified students）",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "透過教育機構驗證學生身分",
+      "申請 GitHub Copilot Student plan"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-12T10:06:19.904Z",
+    "lastVerified": "2026-11-12",
+    "risks": "需完成學生身分驗證，資格失效後可能失去該特定方案權限",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T10:05:20.218Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該草稿明確指出是針對「經驗證的學生」提供「專屬方案」，屬於學生優惠類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "wise-home-20261112-1",
+    "sourceId": "wise-home",
+    "name": "Wise 免費帳戶",
+    "category": "banking",
+    "summary": "開立免費帳戶",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟帳戶",
+      "發送錢款"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-12T10:06:58.161Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T10:05:20.218Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確宣稱可以開立免費帳戶，屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "wise-home-20261112-2",
+    "sourceId": "wise-home",
+    "name": "Wise 匯款費用折扣",
+    "category": "banking",
+    "summary": "發送超過 20,000 英鎊等值金額時，將折扣其費用",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "匯款金額需超過 20,000 英鎊等值金額",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "發送超過 20,000 英鎊等值金額的匯款"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-12T10:06:58.161Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T10:05:20.218Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "該優惠為高匯款金額的常態性費用折扣，不屬於試用、限時或特定族群獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
     }
   }
 ]

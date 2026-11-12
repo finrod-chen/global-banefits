@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T08:05:17.805Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T10:05:20.218Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,3 +26,4 @@
 | [Claude Pro 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $200 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可申請 GitHub Copilot Student plan（頁面僅提及名稱與資格，未列出該學生方案的具體免費額度或定價數字） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

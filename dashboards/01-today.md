@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T08:05:17.805Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T10:05:20.218Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -46,8 +46,6 @@
 | [ZA Bank Shopping Buy 1 Get 1 Free](https://bank.za.group/en/promotions) | 海外銀行/卡 | 購物買一送一 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典回饋活動](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供 0 美元/成員/月的免費方案，包含 AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布到網頁、基本網站、日曆整合、資料庫功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或其等值貨幣時，將對費用提供折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise Assets 投資回報](https://wise.com/) | 海外銀行/卡 | Wise Assets 提供 GBP、EUR 和 USD 的即時存取回報，變動利率為 3.29%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Pro 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $200 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
@@ -85,7 +83,10 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 0 美元，無時間限制且不需要信用卡。每專案每月 100 CU-hrs 計算量、1 GB 儲存空間、5 GB 物件儲存、100 個專案、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 10 萬美元的額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | AWS Activate Credits 提供根據新創公司融資階段的促銷額度。自我資金（Self-funded）可獲得最高 5,000 美元 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Epic Games 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 指定遊戲可以免費領取，例如《Idle Champions of the Forgotten Realms》的促銷期為2026-11-05至2 | 免費（價值視使用而定） | 2026-11-12 | 待核實 |
+| [Epic Games 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 指定遊戲可以免費領取，例如《Idle Champions of the Forgotten Realms》的促銷期為2026-11-05至2 | 免費（價值視使用而定） | 2026-11-12 | AI 預審通過 |
 | [Humble Choice 會員方案與商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 月費 $14.99 美元；年繳方案每月低於 $13 美元；會員在商店中可節省最多 20%（含熱門新發行遊戲）；5 | 約 TWD 5,250（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，期間內含 1,000 AI 積分（Mac 與 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 年繳方案最多可節省 40% 費用（Save up to 40% yearly）。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可申請 GitHub Copilot Student plan（頁面僅提及名稱與資格，未列出該學生方案的具體免費額度或定價數字） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開立免費帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 發送超過 20,000 英鎊等值金額時，將折扣其費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
