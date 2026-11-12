@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T10:05:20.218Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T12:05:17.201Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -45,10 +45,6 @@
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 最高 11% 回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [ZA Bank Shopping Buy 1 Get 1 Free](https://bank.za.group/en/promotions) | 海外銀行/卡 | 購物買一送一 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典回饋活動](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供 0 美元/成員/月的免費方案，包含 AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布到網頁、基本網站、日曆整合、資料庫功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Max 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $100 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra 年繳 API 額度獎勵](https://claude.com/pricing) | AI 工具 | 每月包含 $200 API 額度（credits），可用於在 Claude Platform 上建構 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare SASE 免費團隊方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元，長期免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求 | 約 TWD 2,190（AI 估） | 長期活動 | AI 預審通過 |
@@ -90,3 +86,7 @@
 | [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可申請 GitHub Copilot Student plan（頁面僅提及名稱與資格，未列出該學生方案的具體免費額度或定價數字） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開立免費帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 發送超過 20,000 英鎊等值金額時，將折扣其費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每人 $0，個人可組織項目與生活；包含 Notion AI 功能試用（生成文件、自動填寫數據庫）；文件上傳上限 5 MB；頁面歷史記錄  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳支付模式可節省最高 20% 的費用。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Figma Starter 免費方案 150 AI 積分/天](https://www.figma.com/pricing/) | 軟體/數位服務 | 每天可獲得 150 個 AI 積分，每月上限 500 個 AI 積分 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Figma Professional 月繳方案 3,000 AI 積分/月](https://www.figma.com/pricing/) | 軟體/數位服務 | 全功能座位 (Full seat) 每月可獲得 3,000 個 AI 積分 | 約 TWD 16（AI 估） | 長期活動 | 待核實 |
