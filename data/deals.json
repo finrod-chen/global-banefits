@@ -1840,70 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "aws-startups-credits-20261112-1",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Activate 新創額度",
-    "category": "vps-cloud",
-    "summary": "AWS Activate Credits 提供根據新創公司融資階段的促銷額度。自我資金（Self-funded）可獲得最高 5,000 美元額度，起始為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度條件。Pre-Series B 階段的 Activate Portfolio 會員可獲得最高 200,000 美元額度。針對規模擴展的 AI 新創（Invite only），可提供 200,000 美元以上的 AWS Credits。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "公司成立於過去 10 年內,AWS 帳戶必須位於付費方案（Paid Tier Plan）,是 Activate Credits 的新用戶或請求的額度超過先前收到的額度,Activate Portfolio 申請者必須擁有來自 Activate Provider（如加速器、天使投資人、風投）的組織 ID（Org ID）,AI 新創額度為僅限邀請制（Invite only），需與帳戶經理聯繫",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用專業電子郵件創建 AWS Builder ID 或登入現有帳號並完成個人資料",
-      "選擇額度層級：自我資金者申請 Activate Founders；獲 VC 或加速器支援者透過 Activate Provider 的 Org ID 申請 Activate Portfolio",
-      "提供產品、融資階段和公司資料以確認資格",
-      "將 AWS 帳戶連結至 Builder ID 並提交申請，5-10 個工作日內會收到通知"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-12T06:05:45.495Z",
-    "lastVerified": "2026-11-12",
-    "risks": "額度以美元計價，且受 AWS 促銷額度條款與條件約束,帳戶必須維持在付費方案",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T06:05:17.219Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供針對特定對象（新創公司、AI 新創）的AWS促銷額度（Promotional Credits）。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Self-funded? Apply for Activate Founders. Backed by a VC or accelerator? Check if they're an Activate Provider and use their Org ID to apply for the Activate Portfolio.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400000,
-      "basis": "explicit-amount",
-      "usd": 200000,
-      "quote": "Up to $200,000 USD in Activate Credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "epic-free-games-20261112-1",
     "sourceId": "epic-free-games",
     "name": "Epic Games 每週免費遊戲",
@@ -3360,7 +3296,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-12T16:06:55.905Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供特定的促銷代碼，給予專有伺服器終身 15% 的折扣優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "using promo code: 15OFFDEDI",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261112-1",
@@ -3388,7 +3349,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-12T16:07:32.395Z",
     "lastVerified": "2026-11-12",
     "risks": "超過配額或專案長期未活動會被暫停；付費方案轉換時需注意計費方式。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供每月 $0 的永久免費方案，包含特定額度，符合免費方案或額度的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage\nCommunity support",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity. Limit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "2000000"
+      ]
+    }
   },
   {
     "id": "neon-pricing-20261112-1",
@@ -3417,7 +3407,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-12T16:07:52.808Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "Neon 提供永久免費方案，包含每月固定計費額度與功能，符合免費方案或額度的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "100 projects\n100 CU-hrs monthly per project\n1 GB of storage per project\nSizes up to 2 CU (8 GB RAM)\nUnlimited team members\nBackend\nManaged Better Auth\n5 GB of Object Storage\nFunctions\nAI Gateway\nRealtime (Beta)",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "依 Launch 方案單價估算，免費版每月 100 CU-hrs 相當於 $10.60，第一年約 $127.20，加上 12 GB 儲存空間價值約 $4.20，總計約 $131.4，換算台幣約 2500 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261112-2",
@@ -3445,7 +3466,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-12T16:07:52.808Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出的 Special programs 中，Startup Program 提供特定的額度補貼（credits），屬於針對特定族群的獎勵方案。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   },
   {
     "id": "neon-pricing-20261112-3",
@@ -3473,6 +3523,96 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-12T16:07:52.808Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該專案屬於 Neon 為特定對象（開源專案維護者）提供的贊助或資源支援計畫。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sponsorship for the open source you maintain.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "aws-startups-credits-20261112-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate 新創額度",
+    "category": "vps-cloud",
+    "summary": "提供最高 $200,000 USD 的 AWS 優惠代幣。針對自籌資金的新創提供最高 $5,000 USD 代幣（起始 $1,000 USD，部分合格者最高可至 $5,000 USD）；針對接受風險投資或加速器支援的 Pre-Series B 新創提供最高 $200,000 USD 代幣；針對準備擴充規模的 AI 新創提供 $200,000+ USD 代幣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "成立於過去 10 年內,AWS 帳戶必須在付費方案（Paid Tier Plan）,首次申請 Activate 代幣，或請求比之前接收更多的代幣,自籌資金者可直接申請 Activate Founders,受 VC 或加速器支援者需具備 Activate Provider（如加速器、天使投資人、風投）的組織 ID（Org ID）,AI 新創額外代幣為邀請制（Invite only），需透過客戶經理聯繫",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵件建立或登入 AWS Builder ID 並完成個人檔案驗證",
+      "選擇代幣等級：自籌資金者選擇 Activate Founders；受支援者確認其投資方是否為 Activate Provider 並使用其 Org ID 申請 Activate Portfolio",
+      "提供產品、資金階段和公司檔案等詳細資訊以確認資格",
+      "建立或連結 AWS 帳戶至 Builder ID 並提交申請",
+      "在 5 至 10 個工作天內收到回覆"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-12T18:05:45.072Z",
+    "lastVerified": "2026-11-12",
+    "risks": "所有 AWS Activate 代幣均受 AWS 推廣代幣條款與細則約束",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T18:05:17.704Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供新創公司最高 20 萬美元的金額代幣。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "up to $200,000",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   }
 ]
