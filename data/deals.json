@@ -2718,422 +2718,6 @@
     }
   },
   {
-    "id": "kucoin-announce-20261112-1",
-    "sourceId": "kucoin-announce",
-    "name": "Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway",
-    "category": "crypto",
-    "summary": "70,000 MTX 贈送活動",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-11",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-12T00:07:10.754Z",
-    "lastVerified": "2026-11-12",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T01:01:52.506Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該公告宣布針對新上線代幣 MTX 的贈送活動，屬於新戶獎勵或空投積分性質的促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 100,
-      "basis": "ai-estimate",
-      "note": "因頁面未提供 MTX 代幣單價，且 70,000 為總池，無法精確計算個人價值。此為極度保守的估算，假設一般使用者因參與門檻高或分得比例極低，其價值無法被明確量化，僅保留象征性估算。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Anthropic Pre-IPO Challenge",
-    "category": "crypto",
-    "summary": "透過交易量競榜，瓜分 $20,000 的 ANTHROPICX 獎池；可使用最高 10 倍槓桿交易 Anthropic 價格暴露。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Pro 上進行交易，排名依據交易量。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 交易 ANTHROPICX",
-      "透過交易量提升排名",
-      "領取獎池份額"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "高槓桿交易涉及高風險，投資準備損失所有投資金額；此為高風險投資。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T01:01:52.506Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動透過交易量排名提供獎金池，屬於交易競賽型的促銷獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 640000,
-      "basis": "explicit-amount",
-      "usd": 20000,
-      "quote": "$20,000 in ANTHROPICX",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-2",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Prop 大宗商品佣金折扣",
-    "category": "crypto",
-    "summary": "黃金、白銀、石油等大宗商品交易佣金降至每邊 2bps，適用於所有非加密貨幣市場，包括現有帳戶。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Prop 交易非加密貨幣市場。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 Kraken Prop 帳戶",
-      "交易黃金、白銀、WTI 原油、布倫特原油、銅或天然氣"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T02:05:18.322Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標題明確標示為「half the commission」（一半佣金），屬於限時折扣或優惠方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-3",
-    "sourceId": "kraken-blog",
-    "name": "Kraken $5,000,000 USDG Futures Challenge",
-    "category": "crypto",
-    "summary": "於 2026-10-12 至 2026-12-10 期間，交易黃金、現實世界資產或加密貨幣期貨，幫助解鎖最高 $5,000,000 USDG 的獎勵池。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在規定期間內進行期貨交易。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-12",
-    "endDate": "2026-12-10",
-    "ongoing": false,
-    "steps": [
-      "交易黃金、現實世界資產或加密貨幣期貨",
-      "累積交易量以解鎖獎勵池"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T02:05:18.322Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個限時活動，透過交易量解鎖最高 $5,000,000 USDG 的獎勵池。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "one leaderboard, three multipliers",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "December 10, 2026",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000000,
-      "basis": "explicit-amount",
-      "usd": 5000000,
-      "quote": "$5,000,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-4",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Pre-IPO Challenge (OURAx and MOONSHOTx)",
-    "category": "crypto",
-    "summary": "透過交易 OURAx 和 MOONSHOTx Perps，瓜分 $10,000 USDG 獎池；可使用最高 10 倍槓桿。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需報名，並在 Kraken Pro 交易 OURAx 和 MOONSHOTx Perps，排名依據交易量。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "報名活動",
-      "交易 OURAx 和 MOONSHOTx Perps",
-      "透過交易量提升排名"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "高槓桿交易涉及高風險。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T02:05:18.322Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供獎金挑戰賽，符合新戶獎勵或活動促銷性質",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG\nEnroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "$10,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-5",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Atlassian Williams F1 Team 活動",
-    "category": "crypto",
-    "summary": "使用代碼 AUSTIN 註冊，並交易 $1 以上的交易量，有機會在 COTA 與 Atlassian Williams F1 車手見面。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須使用代碼 AUSTIN 註冊，且交易量需達到 $1 以上。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用代碼 AUSTIN 註冊",
-      "交易 $1 或以上的交易量"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-12T02:05:18.322Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "此活動性質為「註冊加交易滿 $1 即有機會與 F1 車手見面」的體驗型抽獎，並非直接發放貨幣、額度或產品折扣的標準優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "該活動要求交易量 $1，沒有直接現金價值。保守估算將此次「與車手見面」的體驗價值以一般票務或貴賓體驗價值約 $150 USD (1:1 抽獎中獎機率極低) 換算成台幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "kraken-blog-20261112-6",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Halloween Sweepstakes",
-    "category": "crypto",
-    "summary": "在 10 月進行交易，每 $1 交易量換取一次抽獎機會，一名獲獎者將贏得 1,000 SOL。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 10 月進行交易，交易量越大抽獎機會越多。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "報名活動",
-      "在 10 月正常交易",
-      "累積交易量以獲得抽獎入場券"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
-    "lastVerified": "2026-11-12",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T02:05:18.322Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個交易競賽活動，用戶透過產生交易量獲得抽獎機會，贏取固定資產獎勵，屬於限時促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "digitalocean-pricing-20261112-1",
     "sourceId": "digitalocean-pricing",
     "name": "DigitalOcean $5 免費額度",
@@ -4510,5 +4094,504 @@
       "note": "假設使用者僅需要 1 個月的使用價值，將頁面標示的 $16 月費保守估算為等值新台幣整數。",
       "confidence": "medium"
     }
+  },
+  {
+    "id": "openai-pricing-20261112-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT 免費方案",
+    "category": "ai",
+    "summary": "提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 ChatGPT Work 桌面端存取。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點選「Get Free」按鈕"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-12T14:05:43.104Z",
+    "lastVerified": "2026-11-12",
+    "risks": "文字聊天與功能使用受到濫用防護機制（abuse guardrails）限制。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為ChatGPT的免費方案，屬於提供免費服務額度之類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261112-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 新戶限時優惠",
+    "category": "ai",
+    "summary": "30,000 credits 僅需 $1（原本為 $22 方案等級額度），限時活動",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-12T14:06:02.415Z",
+    "lastVerified": "2026-11-12",
+    "risks": "限時活動，逾期後價格可能恢復原價",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示限時優惠，提供 $1 購買 30,000 credits 的限時方案，屬於新戶或限時折扣性質。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends September 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 32,
+      "basis": "ai-estimate",
+      "usd": 1,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；因為有明確的優惠金額（$1 購買 30,000 credits），不需要進行價值估算，amountUSD 已明確。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "kucoin-announce-20261112-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Matrix (MTX) 上市活動贈送",
+    "category": "crypto",
+    "summary": "參與 Matrix (MTX) 上市活動，總計贈送 70,000 MTX。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-11",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-12T14:06:55.210Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為新幣上市活動，明確標註贈送（Giveaway）總計 70,000 MTX，屬於新幣上市獎勵/贈送。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Anthropic Pre-IPO Challenge",
+    "category": "crypto",
+    "summary": "在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分配 $20,000 ANTHROPICX 獎金池",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須在 Kraken Pro 交易 Anthropic 價格暴露，交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-11",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿）",
+      "依交易量進行排名",
+      "領取獎金池份額"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是限時交易競賽活動，依交易量排名分配獎金池，屬於新戶獎勵或限時優惠類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "rank by volume",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "ai-estimate",
+      "usd": 20000,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確給出總獎金池金額為 20,000 美元，故以明確金額為準，不需估算。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Prop 金銀油等商品交易半價佣金促銷",
+    "category": "crypto",
+    "summary": "銀、WTI 油、布蘭特油、銅、天然氣與黃金現在可在 Kraken Prop 交易，所有非加密貨幣市場的佣金降為每邊 2bps（半價）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "持有或開啟 Kraken Prop 帳戶",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-29",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Prop 交易非加密貨幣市場"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此頁面針對特定商品市場提供「half the commission」（佣金减半）的優惠，屬於限時折扣或促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "including on accounts you already hold.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Futures USDG $5,000,000 挑戰",
+    "category": "crypto",
+    "summary": "交易黃金、真實世界資產與加密期貨，幫助解鎖高達 $5,000,000 USDG 的獎勵池（一個排行榜，三個倍數）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在活動期間進行交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "交易黃金、真實世界資產或加密期貨"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "透過特定交易活動解鎖獎勵池，屬於限時交易競賽與獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The $5,000,000 USDG Kraken Futures Challenge: one leaderboard, three multipliers\nTrade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "a reward pool of up to $5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pre-IPO OURAx and MOONSHOTx 挑戰",
+    "category": "crypto",
+    "summary": "交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "報名後在 Kraken Pro 交易 OURAx 和 MOONSHOTx Perps",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-06",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "報名活動",
+      "在 Kraken Pro 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿）",
+      "交易量決定排名"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供總額 $10,000 的獎金池，透過交易量排名分配，屬於新戶獎勵或限時競賽型優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG\nEnroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "$10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Atlassian Williams F1 見面會促銷",
+    "category": "crypto",
+    "summary": "使用代碼 AUSTIN 註冊，交易量達 $1 以上，有機會在美國大獎賽期間親眼見到 Atlassian Williams F1 車手",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 AUSTIN 註冊，交易至少 $1 的成交量",
+    "regions": [
+      "美國（COTA 舉辦地）"
+    ],
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "使用代碼 AUSTIN 註冊",
+      "交易至少 $1 的成交量"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動透過註冊代碼與特定交易門檻提供實體見面機會，屬於限時新戶或用戶獎勵促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 4,
+        "total": 4
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "this October",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "at Circuit of the Americas (COTA)",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "以參與F1大獎賽門票及與車手見面機會的市場價值保守估算，無直接現金返现。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "kraken-blog-20261112-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎活動",
+    "category": "crypto",
+    "summary": "在 10 月交易，交易量越高入場券越多，一位獲獎者贏得 1,000 SOL",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 10 月進行交易，每交易 1 美元獲得一個入場資格",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "報名活動",
+      "在 10 月進行交易"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
   }
 ]

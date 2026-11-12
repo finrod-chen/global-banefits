@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T12:05:17.201Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T14:05:18.293Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,10 +13,10 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway](https://www.kucoin.com/announcement) | Crypto | 70,000 MTX 贈送活動 | 約 TWD 100（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 透過交易量競榜，瓜分 $20,000 的 ANTHROPICX 獎池；可使用最高 10 倍槓桿交易 Anthropic 價格暴露。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 大宗商品佣金折扣](https://blog.kraken.com/) | Crypto | 黃金、白銀、石油等大宗商品交易佣金降至每邊 2bps，適用於所有非加密貨幣市場，包括現有帳戶。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 於 2026-10-12 至 2026-12-10 期間，交易黃金、現實世界資產或加密貨幣期貨，幫助解鎖最高 $5,000,000 USDG | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO Challenge (OURAx and MOONSHOTx)](https://blog.kraken.com/) | Crypto | 透過交易 OURAx 和 MOONSHOTx Perps，瓜分 $10,000 USDG 獎池；可使用最高 10 倍槓桿。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Atlassian Williams F1 Team 活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，並交易 $1 以上的交易量，有機會在 COTA 與 Atlassian Williams F1 車手見面。 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
-| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，每 $1 交易量換取一次抽獎機會，一名獲獎者將贏得 1,000 SOL。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [KuCoin Matrix (MTX) 上市活動贈送](https://www.kucoin.com/announcement) | Crypto | 參與 Matrix (MTX) 上市活動，總計贈送 70,000 MTX。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分配 $20,000 ANTHROPICX | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Prop 金銀油等商品交易半價佣金促銷](https://blog.kraken.com/) | Crypto | 銀、WTI 油、布蘭特油、銅、天然氣與黃金現在可在 Kraken Prop 交易，所有非加密貨幣市場的佣金降為每邊 2bps（半價） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken Futures USDG $5,000,000 挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產與加密期貨，幫助解鎖高達 $5,000,000 USDG 的獎勵池（一個排行榜，三個倍數） | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
+| [Kraken Pre-IPO OURAx and MOONSHOTx 挑戰](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Atlassian Williams F1 見面會促銷](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 $1 以上，有機會在美國大獎賽期間親眼見到 Atlassian Williams F1 車手 | 約 TWD 10,000（AI 估） | 2026-10-31 | 待核實 |
+| [Kraken 萬聖節抽獎活動](https://blog.kraken.com/) | Crypto | 在 10 月交易，交易量越高入場券越多，一位獲獎者贏得 1,000 SOL | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
