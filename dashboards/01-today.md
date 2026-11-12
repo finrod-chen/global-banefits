@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T00:05:25.689Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T01:01:52.506Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -72,16 +72,16 @@
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求 | 約 TWD 2,190（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 記憶體 25 GiB-小時、CPU 375 vCPU-分鐘、磁碟 200 GB-小時、網路出站 1 TB（NA/EU） | 約 TWD 560（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次請求、每天 13,000 GB-秒、每天 50M SQL 讀取、每天 100K SQL 寫入、5 GB 儲存資料、1 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 分鐘、3 個並行瀏覽器 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 分鐘、3 個並行瀏覽器 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求、每次 10 毫秒 CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存、每月 100 萬次 Class A 操作、每月 1000 萬次 Class B 操作 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 100,000 次讀取請求、每天 1,000 次寫入/刪除/列出請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存、每天 500 萬行讀取、每天 100,000 行寫入 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次操作 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 100,000 次讀取請求、每天 1,000 次寫入/刪除/列出請求 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存、每天 500 萬行讀取、每天 100,000 行寫入 | 約 TWD 240（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次操作 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 個資料點寫入、每天 10,000 個讀取查詢 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway](https://www.kucoin.com/announcement) | Crypto | 70,000 MTX 贈送活動 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 透過交易量競榜，瓜分 $20,000 的 ANTHROPICX 獎池；可使用最高 10 倍槓桿交易 Anthropic 價格暴露。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 個資料點寫入、每天 10,000 個讀取查詢 | 約 TWD 12,268（AI 估） | 長期活動 | AI 預審通過 |
+| [Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway](https://www.kucoin.com/announcement) | Crypto | 70,000 MTX 贈送活動 | 約 TWD 100（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 透過交易量競榜，瓜分 $20,000 的 ANTHROPICX 獎池；可使用最高 10 倍槓桿交易 Anthropic 價格暴露。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 大宗商品佣金折扣](https://blog.kraken.com/) | Crypto | 黃金、白銀、石油等大宗商品交易佣金降至每邊 2bps，適用於所有非加密貨幣市場，包括現有帳戶。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 於 2026-10-12 至 2026-12-10 期間，交易黃金、現實世界資產或加密貨幣期貨，幫助解鎖最高 $5,000,000 USDG | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
 | [Kraken Pre-IPO Challenge (OURAx and MOONSHOTx)](https://blog.kraken.com/) | Crypto | 透過交易 OURAx 和 MOONSHOTx Perps，瓜分 $10,000 USDG 獎池；可使用最高 10 倍槓桿。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

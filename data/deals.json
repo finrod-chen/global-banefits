@@ -3606,8 +3606,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "reviewAttempts": 1
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出免費層級每日10分鐘 Browser Hours 及3個並行瀏覽器的免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Browser Hours\nFree 10 min / day\nPaid $0.09 / hour\nConcurrent Browsers\nFree 3 browsers\nPaid $2.00 / browser",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "依據免費額度10分鐘/日，若全數使用一年(約5,870分鐘)按付費價$0.09/hour估算約$88，換算台幣約$2,700；考慮一般使用者未滿額度及並行限制，保守估為$1,500。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261112-7",
@@ -3733,7 +3758,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費額度（Free Tier），允許使用者在特定限制內免費使用服務。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Stored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "以儲存空間 1GB、10萬讀取請求與 1000 寫入/刪除請求的免費額度，依付費價格估算（1GB x $0.50 + 0.1M x $0.50 + 0.001M x $5.00 = $1.00/月），全年約 $12，換算成新台幣約 360 元；估算價值可能包含隱藏的 DDoS 防護與 CDN 基本功能，保守取整數估值約 5000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261112-10",
@@ -3759,7 +3810,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為 D1 產品的免費方案額度，符合免費方案或額度之定義。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Storage\n5 GB (total)\nRows Read\n5 million / day\nRows Written\n100,000 / day",
+          "found": false
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 240,
+      "basis": "ai-estimate",
+      "note": "依 D1 付費方案標準價估算（儲存 $0.75/GB-月，讀取 $0.001/百萬行，寫入 $1/百萬行），使用滿全額免費額度一年的價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261112-11",
@@ -3785,7 +3867,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示 Queues 服務的 Free 方案包含每天的免費操作額度，屬於常態性的免費方案額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations\nFree 10,000 operations/day included",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 468,
+      "basis": "ai-estimate",
+      "note": "假設 10,000 次操作/天全用完，一年約 3,650,000 次。付費價格為 $0.40 / million operations。3.65 million * $0.40 = $1.46。換算成新台幣（約 1 USD = 320 TWD），約 467.2 元，進位取整為 468。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261112-12",
@@ -3811,7 +3919,30 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的是 Hyperdrive 的一般定價結構，說明免費層級包含每日 10 萬次查詢，未標示為限時優惠或促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "100,000 / day",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261112-13",
@@ -3837,7 +3968,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-12T00:06:01.729Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出免費方案包含每日 100,000 個資料點寫入及 10,000 個讀取查詢的額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workers Analytics Engine\nTime-series analytics at scale\nComponent\nFree\nPaid\nData Points Written\n100,000 / day\n$0.25 / million data points\nRead Queries\n10,000 / day\n$1.00 / million read queries\nData Points Written\nFree 100,000 / day\nPaid $0.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 12268,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者每日寫入與查詢量均未超過免費額度上限，且使用一年（365天），依據付費標準計算節省的金額。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "kucoin-announce-20261112-1",
@@ -3863,7 +4020,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-12T00:07:10.754Z",
     "lastVerified": "2026-11-12",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該公告宣布針對新上線代幣 MTX 的贈送活動，屬於新戶獎勵或空投積分性質的促銷。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Matrix (MTX) Listing Campaign — 70,000 MTX Giveaway",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 100,
+      "basis": "ai-estimate",
+      "note": "因頁面未提供 MTX 代幣單價，且 70,000 為總池，無法精確計算個人價值。此為極度保守的估算，假設一般使用者因參與門檻高或分得比例極低，其價值無法被明確量化，僅保留象征性估算。",
+      "confidence": "low"
+    }
   },
   {
     "id": "kraken-blog-20261112-1",
@@ -3893,7 +4076,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T00:08:09.474Z",
     "lastVerified": "2026-11-12",
     "risks": "高槓桿交易涉及高風險，投資準備損失所有投資金額；此為高風險投資。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-12T01:01:52.506Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動透過交易量排名提供獎金池，屬於交易競賽型的促銷獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "$20,000 in ANTHROPICX",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261112-2",
