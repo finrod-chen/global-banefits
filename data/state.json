@@ -2,25 +2,25 @@
   "sources": {
     "openai-pricing": {
       "hash": "e6a02457acc02d64",
-      "httpStatus": 200,
-      "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "httpStatus": 403,
+      "failed": true,
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "e6a02457acc02d64",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "anthropic-pricing": {
-      "hash": "35a8f4aae7c8b316",
+      "hash": "94cc84105e158745",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "41e5a43311345594",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "gemini-plans": {
-      "hash": "e548467dd6db9329",
+      "hash": "4224d86bea45fbe5",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "1535f07e4ef991d3",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
@@ -28,21 +28,21 @@
       "hash": null,
       "httpStatus": 403,
       "failed": true,
-      "at": "2026-11-12T14:05:18.293Z"
+      "at": "2026-11-12T15:37:47.569Z"
     },
     "suno-pricing": {
-      "hash": "8664688b3228ddf0",
+      "hash": "2dc0fa09ccfcdb09",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "c370f96cc3936a31",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
     "copilot-plans": {
-      "hash": "c8cbfe8e7d37a691",
+      "hash": "01802d6191a48c65",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "4fba44ff8d0f980a",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
@@ -50,13 +50,13 @@
       "hash": "e3b0c44298fc1c14",
       "httpStatus": 202,
       "failed": true,
-      "at": "2026-11-12T14:05:18.293Z"
+      "at": "2026-11-12T15:37:47.569Z"
     },
     "okx-announce": {
-      "hash": "4493b8d92ba68dfa",
+      "hash": "8491204fd75fda7f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "ba5782fc2bae3089",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
@@ -64,115 +64,115 @@
       "hash": null,
       "httpStatus": 403,
       "failed": true,
-      "at": "2026-11-12T14:05:18.293Z"
+      "at": "2026-11-12T15:37:47.569Z"
     },
     "wise-home": {
-      "hash": "7f2fa95b08a6caeb",
+      "hash": "7f6fa3185fdf818f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "b26524831f790e2b",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
     "oracle-free": {
-      "hash": "784bae439b1702be",
+      "hash": "4b359777111f2a4b",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "81464e455b39a141",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
     "aws-free": {
-      "hash": "c3ac751ba45aab9c",
+      "hash": "ab5c64c763080234",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "6f81b1fcefc85203",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
     "gcp-free": {
-      "hash": "dc4ef33d52a1d91b",
+      "hash": "c0c2405ce3763bc1",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "26fa9ef83e21db4d",
       "llmAt": "2026-11-12T10:05:20.218Z"
     },
     "azure-free": {
-      "hash": "953d3eb73de1bfc5",
+      "hash": "e24a961683c799dc",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "32188b9efecebd30",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "cloudflare-plans": {
-      "hash": "068e49b4cd3c3459",
+      "hash": "e1d15a9dcc933585",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
-      "llmHash": "068e49b4cd3c3459",
-      "llmAt": "2026-11-12T00:05:25.689Z"
+      "at": "2026-11-12T15:37:47.569Z",
+      "llmHash": "e1d15a9dcc933585",
+      "llmAt": "2026-11-12T15:37:47.569Z"
     },
     "namecheap-promo": {
       "hash": null,
       "httpStatus": 403,
       "failed": true,
-      "at": "2026-11-12T14:05:18.293Z"
+      "at": "2026-11-12T15:37:47.569Z"
     },
     "jetbrains-community": {
       "hash": "2c440b6efd27a76f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "2c440b6efd27a76f",
       "llmAt": "2026-11-11T22:05:17.789Z"
     },
     "github-education": {
-      "hash": "533d6acbd7ac3ab2",
+      "hash": "4afe11ed2b92e3f6",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "5f41163e4f829e14",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "figma-pricing": {
-      "hash": "be18a1f708a377ee",
+      "hash": "f113c3bb349b3d35",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "f788ab6008cc217b",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "cursor-pricing": {
-      "hash": "dc6c7b7e815a0bef",
+      "hash": "67b51b699807f3cf",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "dc6c7b7e815a0bef",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "claude-pricing": {
-      "hash": "ab9b0ebc922d1322",
+      "hash": "2881aaa1dc438963",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "5d48f1290a3f19eb",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "gemini-students": {
-      "hash": "e8b85f5d388a2ca2",
+      "hash": "c67eab827f6db41f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "4c4291a4d9f9b3fb",
       "llmAt": "2026-11-12T12:05:17.201Z"
     },
     "elevenlabs-pricing": {
-      "hash": "9c8e0288fb84853c",
+      "hash": "14bf909d8ce86102",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "9c8e0288fb84853c",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
@@ -180,55 +180,55 @@
       "hash": "8527e73f246a9e23",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "8527e73f246a9e23",
       "llmAt": "2026-11-12T01:01:52.506Z"
     },
     "v0-pricing": {
-      "hash": "d4518e3ee62d7aae",
+      "hash": "13301ec34e62ed99",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "d4518e3ee62d7aae",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "bitget-announce": {
-      "hash": "aa3d554ddb322d66",
+      "hash": "83ee7452047164ba",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "aa3d554ddb322d66",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "kucoin-announce": {
-      "hash": "f9d3ad05265a9900",
+      "hash": "669cfb32c04c929b",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "f9d3ad05265a9900",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "gate-announce": {
-      "hash": "1c4cff73e661e815",
+      "hash": "6be472e26e135254",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "1c4cff73e661e815",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "bitopro-announce": {
-      "hash": "a27e61cc76cf88a8",
+      "hash": "e24c5664ab76dca8",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "a27e61cc76cf88a8",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
     "kraken-blog": {
-      "hash": "33b6d0e31bcde168",
+      "hash": "2783c4a43cd83445",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "33b6d0e31bcde168",
       "llmAt": "2026-11-12T14:05:18.293Z"
     },
@@ -236,7 +236,7 @@
       "hash": "288189269b3ca9d5",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "288189269b3ca9d5",
       "llmAt": "2026-11-11T09:00:36.554Z"
     },
@@ -244,31 +244,31 @@
       "hash": "2dcd19296e36502c",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
-      "llmHash": "f1421c7f1a7474c5",
-      "llmAt": "2026-11-11T09:00:36.554Z"
+      "at": "2026-11-12T15:37:47.569Z",
+      "llmHash": "2dcd19296e36502c",
+      "llmAt": "2026-11-12T15:37:47.569Z"
     },
     "airwallex-home": {
-      "hash": "0ee8c3dcb5e980dd",
+      "hash": "7cec268920b7e0dd",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
-      "llmHash": "345876e12ef6827d",
-      "llmAt": "2026-11-12T01:01:52.506Z"
+      "at": "2026-11-12T15:37:47.569Z",
+      "llmHash": "7cec268920b7e0dd",
+      "llmAt": "2026-11-12T15:37:47.569Z"
     },
     "esun-card-offers": {
       "hash": "666c2b56e2620152",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "666c2b56e2620152",
       "llmAt": "2026-11-11T16:05:19.415Z"
     },
     "digitalocean-pricing": {
-      "hash": "5a3c5160b6ffb801",
+      "hash": "1fe439c5fe66340e",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "5f4a1d57bb40f9ab",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
@@ -279,82 +279,82 @@
       "at": "2026-11-10T23:56:01.864Z"
     },
     "racknerd-specials": {
-      "hash": "19b1f6df4655f888",
+      "hash": "0735eecb41ad3ad9",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "217fe3fc4061abeb",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
     "aws-startups-credits": {
-      "hash": "38d086f306657c7c",
+      "hash": "e65248b5edbe959d",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "fb8a7843db536a61",
       "llmAt": "2026-11-12T06:05:17.219Z"
     },
     "cloudflare-startups": {
-      "hash": "aeed875f08ca0535",
+      "hash": "6ef77be95585186f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "543317335f434ed3",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
     "supabase-pricing": {
-      "hash": "da2f8d19f5bb796d",
+      "hash": "0b91edff38600c96",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "0d43c0f924bf3ad2",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
     "neon-pricing": {
-      "hash": "e988102ac3216349",
+      "hash": "e332d207457f17af",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "ca89a3443c0185b8",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
     "porkbun-domains": {
-      "hash": "158524b7ed33a532",
+      "hash": "de71da082697070f",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "cb45ee599df70032",
       "llmAt": "2026-11-12T04:05:19.610Z"
     },
     "epic-free-games": {
-      "hash": "6d7a4a591257cc6c",
+      "hash": "076523f7bd47762e",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "6d7a4a591257cc6c",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "gog-free-games": {
-      "hash": "12a80182ea391d6e",
+      "hash": "4dd3d87594d50c49",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "a9495df7d5b60f04",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "steam-specials": {
-      "hash": "34efea378dd0026c",
+      "hash": "21c8b8c273c2c56b",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "f3f6c24f2f031de8",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "humble-bundle": {
-      "hash": "54b6268ed2b39b87",
+      "hash": "83c0662d5fbee0e0",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "836821d71856f805",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
@@ -362,33 +362,31 @@
       "hash": "f31413863606419d",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "f31413863606419d",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "setapp-pricing": {
-      "hash": "793c1884473247dc",
+      "hash": "e93785a72bdeaf81",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "957f8019770f1254",
       "llmAt": "2026-11-12T08:05:17.805Z"
     },
     "notion-pricing": {
-      "hash": "fdfe25fa4a7be88a",
+      "hash": "d81c7a65f9cf9b53",
       "httpStatus": 200,
       "failed": false,
-      "at": "2026-11-12T14:05:18.293Z",
+      "at": "2026-11-12T15:37:47.569Z",
       "llmHash": "b4aebe11d9928a3f",
       "llmAt": "2026-11-12T12:05:17.201Z"
     }
   },
-  "lastRun": "2026-11-12T14:05:18.293Z",
+  "lastRun": "2026-11-12T15:37:47.569Z",
   "note": "由 scripts/scan.mjs 維護，請勿手改",
   "llmBacklog": [
-    "binance-announce",
-    "za-bank-promo",
-    "airwallex-home"
+    "binance-announce"
   ],
   "notifiedEnding": [
     "epic-free-games-20261112-1"

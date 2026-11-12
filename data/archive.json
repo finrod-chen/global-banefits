@@ -395,5 +395,172 @@
     },
     "archivedAt": "2026-11-11T16:05:19.415Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261112-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 新戶限時優惠",
+    "category": "ai",
+    "summary": "30,000 credits 僅需 $1（原本為 $22 方案等級額度），限時活動",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-12T14:06:02.415Z",
+    "lastVerified": "2026-11-12",
+    "risks": "限時活動，逾期後價格可能恢復原價",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示限時優惠，提供 $1 購買 30,000 credits 的限時方案，屬於新戶或限時折扣性質。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends September 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 32,
+      "basis": "ai-estimate",
+      "usd": 1,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；因為有明確的優惠金額（$1 購買 30,000 credits），不需要進行價值估算，amountUSD 已明確。",
+      "confidence": "low"
+    },
+    "archivedAt": "2026-11-12T15:37:47.569Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261112-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Atlassian Williams F1 見面會促銷",
+    "category": "crypto",
+    "summary": "使用代碼 AUSTIN 註冊，交易量達 $1 以上，有機會在美國大獎賽期間親眼見到 Atlassian Williams F1 車手",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 AUSTIN 註冊，交易至少 $1 的成交量",
+    "regions": [
+      "美國（COTA 舉辦地）"
+    ],
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "使用代碼 AUSTIN 註冊",
+      "交易至少 $1 的成交量"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-12T14:05:18.293Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動透過註冊代碼與特定交易門檻提供實體見面機會，屬於限時新戶或用戶獎勵促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 4,
+        "total": 4
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "this October",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "at Circuit of the Americas (COTA)",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "以參與F1大獎賽門票及與車手見面機會的市場價值保守估算，無直接現金返现。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-12T15:37:47.569Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261112-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎活動",
+    "category": "crypto",
+    "summary": "在 10 月交易，交易量越高入場券越多，一位獲獎者贏得 1,000 SOL",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 10 月進行交易，每交易 1 美元獲得一個入場資格",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "報名活動",
+      "在 10 月進行交易"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-12T14:07:54.713Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "archivedAt": "2026-11-12T15:37:47.569Z",
+    "archiveReason": "endDate passed"
   }
 ]

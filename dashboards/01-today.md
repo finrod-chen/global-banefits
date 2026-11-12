@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T14:05:18.293Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T15:37:47.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,23 +41,7 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 贏取 100 萬港元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 最高 11% 回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [ZA Bank Shopping Buy 1 Get 1 Free](https://bank.za.group/en/promotions) | 海外銀行/卡 | 購物買一送一 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典回饋活動](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare SASE 免費團隊方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元，長期免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求 | 約 TWD 2,190（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 記憶體 25 GiB-小時、CPU 375 vCPU-分鐘、磁碟 200 GB-小時、網路出站 1 TB（NA/EU） | 約 TWD 560（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次請求、每天 13,000 GB-秒、每天 50M SQL 讀取、每天 100K SQL 寫入、5 GB 儲存資料、1 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 分鐘、3 個並行瀏覽器 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求、每次 10 毫秒 CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存、每月 100 萬次 Class A 操作、每月 1000 萬次 Class B 操作 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 100,000 次讀取請求、每天 1,000 次寫入/刪除/列出請求 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存、每天 500 萬行讀取、每天 100,000 行寫入 | 約 TWD 240（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次操作 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 個資料點寫入、每天 10,000 個讀取查詢 | 約 TWD 12,268（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，期限為 90 天。若未用完額度，過期後剩餘部分無法使用。扣款發生在額度用盡或過期後。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（free control plane）及免費頻寬配額（free bandwidth allow | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 平台基礎設施免費資源](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立 3 個靜態網站；資料中心內及跨 VPC 的資料傳輸免費；VPC 入站（Ingress）資料傳輸免費；未綁定 Droplet 的預留 | 約 TWD 1,275（AI 估） | 長期活動 | AI 預審通過 |
@@ -84,11 +68,10 @@
 | [Figma Starter 免費方案 150 AI 積分/天](https://www.figma.com/pricing/) | 軟體/數位服務 | 每天可獲得 150 個 AI 積分，每月上限 500 個 AI 積分 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Figma Professional 月繳方案 3,000 AI 積分/月](https://www.figma.com/pricing/) | 軟體/數位服務 | 全功能座位 (Full seat) 每月可獲得 3,000 個 AI 積分 | 約 TWD 16（AI 估） | 長期活動 | 待核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [ElevenLabs 新戶限時優惠](https://elevenlabs.io/pricing) | AI 工具 | 30,000 credits 僅需 $1（原本為 $22 方案等級額度），限時活動 | 約 TWD 32（AI 估） | 2024-09-30 | 待核實 |
 | [KuCoin Matrix (MTX) 上市活動贈送](https://www.kucoin.com/announcement) | Crypto | 參與 Matrix (MTX) 上市活動，總計贈送 70,000 MTX。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分配 $20,000 ANTHROPICX | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 金銀油等商品交易半價佣金促銷](https://blog.kraken.com/) | Crypto | 銀、WTI 油、布蘭特油、銅、天然氣與黃金現在可在 Kraken Prop 交易，所有非加密貨幣市場的佣金降為每邊 2bps（半價） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Futures USDG $5,000,000 挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產與加密期貨，幫助解鎖高達 $5,000,000 USDG 的獎勵池（一個排行榜，三個倍數） | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO OURAx and MOONSHOTx 挑戰](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Atlassian Williams F1 見面會促銷](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 $1 以上，有機會在美國大獎賽期間親眼見到 Atlassian Williams F1 車手 | 約 TWD 10,000（AI 估） | 2026-10-31 | 待核實 |
-| [Kraken 萬聖節抽獎活動](https://blog.kraken.com/) | Crypto | 在 10 月交易，交易量越高入場券越多，一位獲獎者贏得 1,000 SOL | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [Cloudflare Workers & 儲存產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供多項產品的免費額度，包括：Workers 免費 100,000 請求/天、10 ms/請求 CPU 時間；Containers 免費 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用（$0 forever），包含社群論壇與 Discord 支援、最多 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

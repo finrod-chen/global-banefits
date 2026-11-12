@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T14:05:18.293Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T15:37:47.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,19 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare SASE 免費團隊方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 0 美元，長期免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求 | 約 TWD 2,190（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 記憶體 25 GiB-小時、CPU 375 vCPU-分鐘、磁碟 200 GB-小時、網路出站 1 TB（NA/EU） | 約 TWD 560（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次請求、每天 13,000 GB-秒、每天 50M SQL 讀取、每天 100K SQL 寫入、5 GB 儲存資料、1 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 分鐘、3 個並行瀏覽器 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求、每次 10 毫秒 CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存、每月 100 萬次 Class A 操作、每月 1000 萬次 Class B 操作 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 100,000 次讀取請求、每天 1,000 次寫入/刪除/列出請求 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存、每天 500 萬行讀取、每天 100,000 行寫入 | 約 TWD 240（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次操作 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 個資料點寫入、每天 10,000 個讀取查詢 | 約 TWD 12,268（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，期限為 90 天。若未用完額度，過期後剩餘部分無法使用。扣款發生在額度用盡或過期後。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（free control plane）及免費頻寬配額（free bandwidth allow | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 平台基礎設施免費資源](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立 3 個靜態網站；資料中心內及跨 VPC 的資料傳輸免費；VPC 入站（Ingress）資料傳輸免費；未綁定 Droplet 的預留 | 約 TWD 1,275（AI 估） | 長期活動 | AI 預審通過 |
@@ -38,3 +25,5 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 0 美元，無時間限制且不需要信用卡。每專案每月 100 CU-hrs 計算量、1 GB 儲存空間、5 GB 物件儲存、100 個專案、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 10 萬美元的額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | AWS Activate Credits 提供根據新創公司融資階段的促銷額度。自我資金（Self-funded）可獲得最高 5,000 美元 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers & 儲存產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供多項產品的免費額度，包括：Workers 免費 100,000 請求/天、10 ms/請求 CPU 時間；Containers 免費 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用（$0 forever），包含社群論壇與 Discord 支援、最多 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
