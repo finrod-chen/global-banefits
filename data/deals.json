@@ -2041,259 +2041,6 @@
     }
   },
   {
-    "id": "epic-free-games-20261111-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲《Idle Champions of the Forgotten Realms》",
-    "category": "software",
-    "summary": "免費獲得《Idle Champions of the Forgotten Realms》遊戲，該遊戲為一款經「龍與地下城」授權的策略管理遊戲。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-05",
-    "endDate": "2026-11-12",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-11T18:05:45.109Z",
-    "lastVerified": "2026-11-11",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-11T18:05:18.915Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "遊戲標價為0且分類包含freegames，屬於限時免費領取活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "《Idle Champions》是經「龍與地下城」授權的策略管理遊戲，將小說、戰役和節目中的經典角色集結在一場史詩冒險中。",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "2026-11-12T16:00:00.000Z",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gog-free-games-20261111-1",
-    "sourceId": "gog-free-games",
-    "name": "GOG 免費遊戲",
-    "category": "software",
-    "summary": "提供多款標價為 0 元的遊戲，可免費下載與擁有。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "瀏覽 GOG 商店的免費遊戲分類"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-11T18:06:03.925Z",
-    "lastVerified": "2026-11-11",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-11T18:05:18.915Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供標價為 0 元（FREE）的遊戲可供擁有，屬於免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "OWNED -{{ gamesProduct.price.discountPercentage }}% FREE $",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gog-free-games-20261111-2",
-    "sourceId": "gog-free-games",
-    "name": "GOG Welcome Offer",
-    "category": "software",
-    "summary": "新用戶限時歡迎優惠，包含特定遊戲的折扣交易。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊頁面中的 'Browse the deals' 連結查看具體折扣內容"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-11T18:06:03.925Z",
-    "lastVerified": "2026-11-11",
-    "risks": "優惠為限時（limited-time），可能隨時結束。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-11T18:05:18.915Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面文字僅提及歡迎優惠與限時交易，未明確說明該優惠適用於新用戶，也缺乏具體的遊戲項目或折扣細節。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Don’t miss your Welcome Offer!",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261111-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 免費試用",
-    "category": "software",
-    "summary": "提供 7 天免費試用期",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇任一方案（Mac、Mac + iOS 或 Power User）",
-      "點擊「Start 7-day free trial」"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-11T18:07:12.299Z",
-    "lastVerified": "2026-11-11",
-    "risks": "無自動續約警示",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-11T20:05:18.680Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供「Start 7-day free trial」的明確文字，屬於免費試用期的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "anthropic-pricing-20261111-1",
-    "sourceId": "anthropic-pricing",
-    "name": "Claude Pro 年繳優惠",
-    "category": "ai",
-    "summary": "年繳每個月 $17（總計 $200 預付），月繳為 $20。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.anthropic.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-11T18:07:47.770Z",
-    "lastVerified": "2026-11-11",
-    "risks": "年繳需預付 $200",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-11T20:05:18.680Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "此為持續提供的常態年繳定價方案，而非限時或一次性折扣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Per month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "ai-estimate",
-      "usd": 10,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；由於是常態定價，年繳與月繳的每月價差 ($3) 乘以 12 個月為 $36，但這是持續的訂閱成本差異而非一次性贈送的金額。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "notion-pricing-20261111-1",
     "sourceId": "notion-pricing",
     "name": "Notion 免費方案",
@@ -4493,6 +4240,214 @@
       "basis": "explicit-amount",
       "usd": 200000,
       "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "epic-free-games-20261112-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic Games 每週免費遊戲",
+    "category": "software",
+    "summary": "指定遊戲可以免費領取，例如《Idle Champions of the Forgotten Realms》的促銷期為2026-11-05至2026-11-12，折扣比例為0%（意指免費）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-05",
+    "endDate": "2026-11-12",
+    "ongoing": false,
+    "steps": [
+      "在促銷期間內前往Epic Games商店",
+      "點擊領取指定的免費遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-12T08:06:00.847Z",
+    "lastVerified": "2026-11-12",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "reviewAttempts": 1
+  },
+  {
+    "id": "humble-bundle-20261112-1",
+    "sourceId": "humble-bundle",
+    "name": "Humble Choice 會員方案與商店折扣",
+    "category": "software",
+    "summary": "Humble Choice 月費 $14.99 美元；年繳方案每月低於 $13 美元；會員在商店中可節省最多 20%（含熱門新發行遊戲）；5% 的會員費支持慈善。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Humble Choice 方案（月費或年繳）",
+      "訂閱會員",
+      "在商店購物時享受最多 20% 折扣"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-12T08:06:55.699Z",
+    "lastVerified": "2026-11-12",
+    "risks": "訂閱制，可隨時跳過；年繳方案可能涉及自動續約條款，頁面未明確說明。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T08:05:17.805Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "內容描述常態的訂閱服務月費與年繳價格結構，而非限時免費或一次性折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get great games every month with Humble Choice for only   $14.99",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5250,
+      "basis": "ai-estimate",
+      "note": "依據頁面標註的年繳方案「每月低於 $13」，保守估算為 13 美元乘以 12 個月共 156 美元，依匯率 1 美元兌 34 台幣換算約 5304 台幣，四捨五入取整數估算。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "setapp-pricing-20261112-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 7天免費試用",
+    "category": "software",
+    "summary": "提供 7 天免費試用，期間內含 1,000 AI 積分（Mac 與 Mac + iOS 方案）或 2,000 AI 積分（Power User 方案）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇訂閱方案（Mac、Mac + iOS 或 Power User）",
+      "點擊「Start 7-day free trial」開始試用"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-12T08:07:32.155Z",
+    "lastVerified": "2026-11-12",
+    "risks": "試用結束後可能轉為付費訂閱，需留意取消時限以避免費用；頁面標示可隨時取消（Cancel anytime）。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T08:05:17.805Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供了多個方案的7天免費試用，並在試用期間贈予不同數量的AI積分。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "setapp-pricing-20261112-2",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 年繳折扣",
+    "category": "software",
+    "summary": "年繳方案最多可節省 40% 費用（Save up to 40% yearly）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳訂閱方式"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-12T08:07:32.155Z",
+    "lastVerified": "2026-11-12",
+    "risks": "一次性繳費較高的預付金流支出。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-12T08:05:17.805Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示「Save up to 40% yearly」，為常態性之年繳方案價格優於月繳的折扣說明，而非特定時間段之限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "Save up to 40% yearly",
       "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
       "confidence": "high"
     }
