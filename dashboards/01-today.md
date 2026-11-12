@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-12T20:05:17.540Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-12T22:05:18.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,10 +41,7 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Epic Games 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 指定遊戲可以免費領取，例如《Idle Champions of the Forgotten Realms》的促銷期為2026-11-05至2 | 免費（價值視使用而定） | 2026-11-12 | AI 預審通過 |
 | [Humble Choice 會員方案與商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 月費 $14.99 美元；年繳方案每月低於 $13 美元；會員在商店中可節省最多 20%（含熱門新發行遊戲）；5 | 約 TWD 5,250（AI 估） | 長期活動 | 待核實 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，期間內含 1,000 AI 積分（Mac 與 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 年繳方案最多可節省 40% 費用（Save up to 40% yearly）。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可申請 GitHub Copilot Student plan（頁面僅提及名稱與資格，未列出該學生方案的具體免費額度或定價數字） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開立免費帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 發送超過 20,000 英鎊等值金額時，將折扣其費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -73,3 +70,6 @@
 | [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供高達 $100,000 的額度（Credits）給早期新創企業，加速產品發布。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護中的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS 優惠代幣。針對自籌資金的新創提供最高 $5,000 USD 代幣（起始 $1,000 USD | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（免費遊戲），可免費領取。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GOG 歡迎優惠（Welcome Offer）](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 針對新用戶或特定用戶提供的限時折扣優惠，標題為「Don’t miss your Welcome Offer! Start your game | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用所有方案（Mac、Mac + iOS、Power User）。Mac與Mac+iOS方案含1,000 AI點數，Power  | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
