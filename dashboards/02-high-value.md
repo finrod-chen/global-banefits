@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T06:05:16.843Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T07:21:41.751Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,7 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS Activate 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS 優惠代幣。針對自籌資金的新創提供最高 $5,000 USD 代幣（起始 $1,000 USD | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（免費遊戲），可免費領取。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [GOG 歡迎優惠（Welcome Offer）](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 針對新用戶或特定用戶提供的限時折扣優惠，標題為「Don’t miss your Welcome Offer! Start your game | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用所有方案（Mac、Mac + iOS、Power User）。Mac與Mac+iOS方案含1,000 AI點數，Power  | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
@@ -74,12 +73,12 @@
 | [Kraken 大宗商品佣金優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、原油等大宗商品在 Kraken Prop 上現已上线，所有非加密貨幣市場的佣金降至每邊 2bps（包括現有帳戶）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 通過交易黃金、現實世界資產（RWA）和加密期貨，解鎖最高 5,000,000 美元 USDG 的獎勵池。單排行榜，三個倍數。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | 待核實 |
 | [Kraken Pre-IPO 挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約（Perps），瓜分 10,000 USDG 獎金。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費信用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費信用額度，有效期為 90 天。在此期間內消費，若總金額低於 $5，卡片不會被扣款；若超過 $5，則僅扣除超出部分。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 免費信用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費信用額度，有效期為 90 天。在此期間內消費，若總金額低於 $5，卡片不會被扣款；若超過 $5，則僅扣除超出部分。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 使用 Kubernetes 服務時，控制平面免費，並包含免費頻寬額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費静态網站與 DNS](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立 3 個靜態網站；免費 DNS 管理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費使用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds 的計算時間，函式調用本身不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費使用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds 的計算時間，函式調用本身不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費雲端防火牆與 VPC](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費雲端防火牆；免費建立無限量的 VPC（虛擬私人網路）；VPC 內的資料傳輸（Ingress）免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime Monitoring 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime 檢查。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd 15%  dedicated server 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可獲得所有 dedicated server 產品 15% 的終身折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -90,3 +89,7 @@
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 10 萬美元的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開放原始碼計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開放原始碼專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable 專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號或信用卡即可立即獲得 Postgres 專案。若未在 72 小時內聲明至 Neon 帳號，專案將限制在 100 MB 儲存空間和 1 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders Self-funded Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 5,000 USD 的 AWS Activate Credits，起始提供 1,000 USD，部分合格參與者可能符合額外信用額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 200,000 USD 的 AWS Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS Credits，針對準備擴展規模的 AI 新創公司。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動信用額度，幫助新創公司將提示轉換為代碼。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

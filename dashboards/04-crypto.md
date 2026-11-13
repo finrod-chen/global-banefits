@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T06:05:16.843Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T07:21:41.751Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,4 +25,4 @@
 | [Kraken 大宗商品佣金優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、原油等大宗商品在 Kraken Prop 上現已上线，所有非加密貨幣市場的佣金降至每邊 2bps（包括現有帳戶）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 通過交易黃金、現實世界資產（RWA）和加密期貨，解鎖最高 5,000,000 美元 USDG 的獎勵池。單排行榜，三個倍數。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | 待核實 |
 | [Kraken Pre-IPO 挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約（Perps），瓜分 10,000 USDG 獎金。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |

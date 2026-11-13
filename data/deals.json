@@ -1888,71 +1888,6 @@
     }
   },
   {
-    "id": "aws-startups-credits-20261112-1",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Activate 新創額度",
-    "category": "vps-cloud",
-    "summary": "提供最高 $200,000 USD 的 AWS 優惠代幣。針對自籌資金的新創提供最高 $5,000 USD 代幣（起始 $1,000 USD，部分合格者最高可至 $5,000 USD）；針對接受風險投資或加速器支援的 Pre-Series B 新創提供最高 $200,000 USD 代幣；針對準備擴充規模的 AI 新創提供 $200,000+ USD 代幣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "成立於過去 10 年內,AWS 帳戶必須在付費方案（Paid Tier Plan）,首次申請 Activate 代幣，或請求比之前接收更多的代幣,自籌資金者可直接申請 Activate Founders,受 VC 或加速器支援者需具備 Activate Provider（如加速器、天使投資人、風投）的組織 ID（Org ID）,AI 新創額外代幣為邀請制（Invite only），需透過客戶經理聯繫",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用專業電子郵件建立或登入 AWS Builder ID 並完成個人檔案驗證",
-      "選擇代幣等級：自籌資金者選擇 Activate Founders；受支援者確認其投資方是否為 Activate Provider 並使用其 Org ID 申請 Activate Portfolio",
-      "提供產品、資金階段和公司檔案等詳細資訊以確認資格",
-      "建立或連結 AWS 帳戶至 Builder ID 並提交申請",
-      "在 5 至 10 個工作天內收到回覆"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-12T18:05:45.072Z",
-    "lastVerified": "2026-11-12",
-    "risks": "所有 AWS Activate 代幣均受 AWS 推廣代幣條款與細則約束",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T18:05:17.704Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供新創公司最高 20 萬美元的金額代幣。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400000,
-      "basis": "explicit-amount",
-      "usd": 200000,
-      "quote": "up to $200,000",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "gog-free-games-20261112-1",
     "sourceId": "gog-free-games",
     "name": "GOG 免費遊戲",
@@ -3756,7 +3691,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
     "lastVerified": "2026-11-13",
     "risks": "名額有限，並非所有符合條件者都能獲選。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個結合註冊代碼與交易量門檻的抽獎/體驗活動，屬於限時促銷或新戶/用戶激勵。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Meet an Atlassian Williams F1 Team driver at the United States GP\nSign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Circuit of the Americas (COTA)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "頁面未明確列出貨幣價值，此為賽道見面會與門票的保守估算價值，非直接現金獎勵。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-1",
@@ -3786,7 +3757,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "信用額度有效期為 90 天，過期後剩餘額度無法使用。添加卡片時可能產生臨時預授權扣款記錄（金額立即取消）。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及特定金額的免費信用額度及有效期，屬於新戶獎勵或免費額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "For example, if you received a $5 credit for 90 days, then that $5 credit is automatically applied to your account. If you spend $3 in that timeframe, your card will not be charged. If you spend $10, the $5 credit will be fully utilized, an",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Pre-authorization charge: When you add a card, we may send a preauthorization request to the issuing bank. This is to verify that the card being added has been issued by the bank and that they will authorize any charges in future. These tem",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "$5 free credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-2",
@@ -3814,7 +3818,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 DigitalOcean Kubernetes 的常態定價模型，描述其包含的免費控制平面與頻寬額度，並非限時優惠或新戶獨享獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Simple, managed Kubernetes built for scale\nFree control plane, free bandwidth allowance, and more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Starting at\n$12 /month Simple, managed Kubernetes",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-3",
@@ -3842,7 +3873,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示提供免費靜態網站與免費 DNS 管理，屬於免費額度與福利。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nFree DNS management",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-4",
@@ -3870,7 +3923,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確說明每月包含免費額度且函式調用不收取額外費用，屬於免費使用額度（Free Allowance）。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-5",
@@ -3898,7 +3971,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標註該容器註冊表服務為免費（Free），屬於免費額度或方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free container registry with 1 repository and 500 MiB storage",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-6",
@@ -3926,7 +4019,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的為平台包含在內的一般付費方案與定價，非限時或特定群體專屬的優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free cloud firewalls",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-7",
@@ -3954,7 +4069,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T06:06:23.902Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T07:21:41.751Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是標準服務方案中包含的基本功能額度，而非獨立的限時優惠或新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One Uptime Check/month included with every account",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261113-1",
@@ -4182,6 +4319,124 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T06:07:44.036Z",
     "lastVerified": "2026-11-13",
     "risks": "若未在 72 小時內聲明，專案資源將受限。",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261113-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Founders Self-funded Credits",
+    "category": "vps-cloud",
+    "summary": "最高可獲 5,000 USD 的 AWS Activate Credits，起始提供 1,000 USD，部分合格參與者可能符合額外信用額度資格。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須為自資金（bootstrapped）或自資（self-funded）的新創公司；符合 AWS Activate 資格：Pre-series B、成立於最近 10 年內、AWS 帳戶為付費層級方案（Paid Tier Plan）、且為新用戶或請求的額度超過先前收到的額度。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵件創建或登入 AWS Builder ID",
+      "選擇 Self-funded 層級並直接申請",
+      "填寫產品、融資階段和公司檔案細節以確認資格",
+      "連結 AWS 帳戶並提交申請"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T07:22:09.026Z",
+    "lastVerified": "2026-11-13",
+    "risks": "所有 AWS Activate Credits 均以 USD 計價，並受 AWS 促銷信用條款與條件約束。",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261113-2",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Portfolio Pre-Series B Credits",
+    "category": "vps-cloud",
+    "summary": "最高可獲 200,000 USD 的 AWS Activate Credits。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須為 Pre-series B 的新創公司；必須擁有來自 Activate Provider（如加速器、天使投資人、風險資本公司）的組織 ID（Org ID）；符合 AWS Activate 資格：成立於最近 10 年內、AWS 帳戶為付費層級方案、且為新用戶或請求的額度超過先前收到的額度。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "確認 VC 或加速器是否為 Activate Provider",
+      "使用 Activate Provider 的 Org ID 申請 Activate Portfolio 層級",
+      "填寫產品、融資階段和公司檔案細節以確認資格",
+      "連結 AWS 帳戶並提交申請"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T07:22:09.026Z",
+    "lastVerified": "2026-11-13",
+    "risks": "所有 AWS Activate Credits 均以 USD 計價，並受 AWS 促銷信用條款與條件約束。",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261113-3",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Credits for AI Startups",
+    "category": "vps-cloud",
+    "summary": "提供 200,000 USD 以上的 AWS Credits，針對準備擴展規模的 AI 新創公司。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "僅限邀請制（Invite only）；必須為 AI 新創公司；必須是準備在 Activate Portfolio 之後擴展規模的公司；需與客戶經理（Account Manager）溝通。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "與客戶經理聯繫以評估資格和申請"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T07:22:09.026Z",
+    "lastVerified": "2026-11-13",
+    "risks": "所有 AWS Activate Credits 均以 USD 計價，並受 AWS 促銷信用條款與條件約束。",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261113-4",
+    "sourceId": "aws-startups-credits",
+    "name": "Kiro Startup Credits",
+    "category": "vps-cloud",
+    "summary": "提供 Kiro 開發環境的啟動信用額度，幫助新創公司將提示轉換為代碼。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "適用於沒有目前 Activate Credits 的合格新創公司。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "申請 Kiro Startup Credits"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T07:22:09.026Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]
