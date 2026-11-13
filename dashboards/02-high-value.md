@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T07:21:41.751Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T08:05:17.937Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -82,13 +82,13 @@
 | [DigitalOcean 免費雲端防火牆與 VPC](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費雲端防火牆；免費建立無限量的 VPC（虛擬私人網路）；VPC 內的資料傳輸（Ingress）免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime Monitoring 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime 檢查。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd 15%  dedicated server 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可獲得所有 dedicated server 產品 15% 的終身折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 通過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月度活躍用戶 (MAU)、500 MB 資料庫大小、Shared CPU • 500 M | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案 Compute 積分獎勵](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 compute 積分，可覆蓋一個 Micro 實例（1 GB RA | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，無須信用卡。每專案每月 100 CU-hrs，每專案 1 GB 儲存空間，最多 100 個專案，5 GB 物件儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 10 萬美元的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 通過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月度活躍用戶 (MAU)、500 MB 資料庫大小、Shared CPU • 500 M | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案 Compute 積分獎勵](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 compute 積分，可覆蓋一個 Micro 實例（1 GB RA | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，無須信用卡。每專案每月 100 CU-hrs，每專案 1 GB 儲存空間，最多 100 個專案，5 GB 物件儲存空間 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 10 萬美元的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開放原始碼計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開放原始碼專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號或信用卡即可立即獲得 Postgres 專案。若未在 72 小時內聲明至 Neon 帳號，專案將限制在 100 MB 儲存空間和 1 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable 專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號或信用卡即可立即獲得 Postgres 專案。若未在 72 小時內聲明至 Neon 帳號，專案將限制在 100 MB 儲存空間和 1 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Founders Self-funded Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 5,000 USD 的 AWS Activate Credits，起始提供 1,000 USD，部分合格參與者可能符合額外信用額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 200,000 USD 的 AWS Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS Credits，針對準備擴展規模的 AI 新創公司。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
