@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T12:05:16.795Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T14:05:17.344Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,19 +24,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（免費遊戲），可免費領取。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GOG 歡迎優惠（Welcome Offer）](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 針對新用戶或特定用戶提供的限時折扣優惠，標題為「Don’t miss your Welcome Offer! Start your game | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用所有方案（Mac、Mac + iOS、Power User）。Mac與Mac+iOS方案含1,000 AI點數，Power  | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Namecheap 免費域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級域名註冊免費；1 年 SSL 憑證免費。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
-| [Name.com 免費域名](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種域名後綴（如 .live, .studio, .software, .app, .dev 等）的免費域名註冊。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Microsoft Azure 免費雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 項 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 積分。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Microsoft Azure 13-17 歲學生專屬免費服務](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 Azure App Services, Azure Functions, Notification Hubs, MySQL dat | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [.TECH 免費域名](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 域名免費註冊 1 年。 | 約 TWD 350（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 在讀學生期間免費使用 GitHub Pro。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
-| [DataCamp 3 個月免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Microsoft 365 免費或折扣生產力應用](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣取得含 AI 功能的生產力應用（Word, Excel, PowerPoint 等）、1TB 雲端儲存空間及進階安全功能。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education plan（含 Plus plan 所有功能、增加共享與協作能力、更長的頁面歷史記錄）並額外獲得 AI | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生版](https://education.github.com/pack) | 軟體/數位服務 | 包含無限次程式碼補全、GitHub AI Credits 額度，以及有限制的聊天與智能體使用（僅限自動模型選擇）。 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供免費的 Network & CDN 方案，每月 $0。包含無限量的 DDoS 防護、CDN、通用 SSL 憑證、免費的 managed  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供 SASE 團隊的免費方案，$0，可永久使用。適用於少於 50 名使用者的小團隊。支援社群論壇與 Discord 協助。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -77,3 +64,7 @@
 | [Google AI Ultra 方案每月 Google Cloud 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 40 美元的 Google Cloud 積分，來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [OKX 2026年終獎勵活動](https://www.okx.com/help/section/announcements-latest-announcements) | Crypto | 發布了一則標題為「2026 Year-End Gift Announcement」的公告，推測提供年終禮物或獎勵，但頁面列表中未包含具體數字 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Steam 遊戲特價](https://store.steampowered.com/specials) | 軟體/數位服務 | 瀏覽 Steam 上的折扣產品與限時特惠活動。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 每月可獲得精選 PC 遊戲，會員在商店購物最高可享 8 折（節省 20%）。年繳方案每月低於 13 美元，隨時可取消。 | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
+| [Humble Bundle 免費遊戲包 (Last Chance)](https://www.humblebundle.com/) | 軟體/數位服務 | 「Create & Elevate: Amazing Art Tools from Corel」等遊戲或軟體組合提供「想付多少就付多少」（P | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用期，試用期間可依方案享有 1,000 或 2,000 AI 積分。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
