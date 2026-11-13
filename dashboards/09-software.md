@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T00:05:21.880Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T02:05:17.649Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -17,6 +17,6 @@
 | [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 在讀學生期間免費使用 GitHub Pro。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DataCamp 3 個月免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Microsoft 365 免費或折扣生產力應用](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣取得含 AI 功能的生產力應用（Word, Excel, PowerPoint 等）、1TB 雲端儲存空間及進階安全功能。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education plan（含 Plus plan 所有功能、增加共享與協作能力、更長的頁面歷史記錄）並額外獲得 AI | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生版](https://education.github.com/pack) | 軟體/數位服務 | 包含無限次程式碼補全、GitHub AI Credits 額度，以及有限制的聊天與智能體使用（僅限自動模型選擇）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education plan（含 Plus plan 所有功能、增加共享與協作能力、更長的頁面歷史記錄）並額外獲得 AI | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 學生版](https://education.github.com/pack) | 軟體/數位服務 | 包含無限次程式碼補全、GitHub AI Credits 額度，以及有限制的聊天與智能體使用（僅限自動模型選擇）。 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

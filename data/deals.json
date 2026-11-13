@@ -3769,7 +3769,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-13T00:06:41.205Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T02:05:17.649Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案是針對學生群體提供的免費或折扣教育版方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "以 Notion Plus 方案個人訂閱費約 10 美元/月計算，一年約 120 美元，換算台幣約 3600 元，保守估算扣除 AI 額度等額外價值後約 2500 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261113-10",
@@ -3798,7 +3829,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-13T00:06:41.205Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T02:05:17.649Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對已驗證學生提供免費方案，包含無限程式碼補全與 AI Credits，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 468,
+      "basis": "ai-estimate",
+      "note": "GitHub Copilot Pro 標準年費為 100 美元（$10/月），換算成新台幣約 4680 元（以 1:46.8 匯率），但由於此處是學生版免費額度，通常價值較低或為測試用途，保守估算第一年價值。若以 Pro 方案全額價值計算可能過高，考慮到是學生版且有限制，保守取 Pro 方案的一年費價值的約 10% 或其他合理估算？不，通常 GitHub 學生版是免費的，其市場價值對等於 Pro 的訂閱費。Pro 年費約 $100 (若月付 $10 連付 12 個月) 或 $100/年。若以 $100 USD 估算，換算 TWD 約 4680。但題目要求保守估算「一般使用者」第一年能得到的價值",
+      "confidence": "medium"
+    }
   },
   {
     "id": "notion-pricing-20261113-1",
@@ -3826,6 +3888,31 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-13T00:08:06.922Z",
     "lastVerified": "2026-11-13",
     "risks": "此為標準的付費轉免費方案，若未升級，部分高级功能與功能限制（如 5MB 檔案上傳大小限制、7 天頁面歷史版本）可能持續存在。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T02:05:17.649Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個提供免費方案和 AI 試用的優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 per member / month\nFor individuals to organize personal projects and life.\nSign up\nIncludes:\nTrial AI capabilities like generating docs, or autofilling databases\nTrial of Notion AI\nCapture, organize, and act on responses right insid",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For individuals to organize personal projects and life.\nSign up",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]
