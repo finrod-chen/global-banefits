@@ -562,5 +562,111 @@
     "status": "expired",
     "archivedAt": "2026-11-12T15:37:47.569Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261113-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 30,000 點數限時優惠",
+    "category": "ai",
+    "summary": "以 1 美元獲得 30,000 點數（30,000 credits），通常為新訂閱或特定推廣活動。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "無明確隱藏條件提及，但需完成訂閱流程。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁",
+      "選擇訂閱方案並確認 1 美元價格",
+      "完成支付"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-13T04:06:17.646Z",
+    "lastVerified": "2026-11-13",
+    "risks": "限時優惠，逾期恢復標準定價,訂閱後可能自動續約標準價格",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-13T04:05:22.859Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供限時 $1 購買 30,000 點數的新手/推廣方案，並明確標註結束日期。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends in 0d 00h 00m 00s",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 960000,
+      "basis": "explicit-amount",
+      "usd": 30000,
+      "quote": "30,000 credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-13T06:05:16.843Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261113-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎",
+    "category": "crypto",
+    "summary": "在 10 月進行交易，贏取 1,000 SOL。每產生 1 美元的交易量獲得一次抽獎機會。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 10 月期間進行正常交易，交易量換取抽獎入場券。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "登記抽獎",
+      "在 10 月進行交易",
+      "每 1 美元交易量獲得一次入場券",
+      "等待開獎"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
+    "lastVerified": "2026-11-13",
+    "risks": "中獎機率極低，僅有一名獲勝者。",
+    "status": "expired",
+    "archivedAt": "2026-11-13T06:05:16.843Z",
+    "archiveReason": "endDate passed"
   }
 ]
