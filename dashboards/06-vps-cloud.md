@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T20:04:24.411Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T22:05:17.299Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,10 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [AWS Activate Founders Self-funded Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 5,000 USD 的 AWS Activate Credits，起始提供 1,000 USD，部分合格參與者可能符合額外信用額度 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 200,000 USD 的 AWS Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS Credits，針對準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動信用額度，幫助新創公司將提示轉換為代碼。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0。包含不限量的 DDoS 防護、CDN、Universal SSL 憑證、免費 Managed Ruleset、WAF、Lossl | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費，適用於 50 人以下團隊或企業證明概念測試。包含 24 小時標準日誌保留、社群論壇與 Discord 支援。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費包含每日 100,000 次請求、每請求 10ms CPU 時間。超過部分依用量計費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -34,3 +30,11 @@
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供新創企業最高 $100k 的信用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源項目提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable Neon](https://neon.com/pricing) | VPS/雲服務 | 提供即時 Postgres 項目，無需帳戶且無需信用卡。若在 72 小時內領取到 Neon 帳戶則可保留；未領取的項目限 100 MB 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費網址轉寄](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費網址轉寄服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域首年促銷價](https://porkbun.com/products/domains) | VPS/雲服務 | 多種 TLD 提供首年促銷價格，例如 .cloud $3.88、.xyz $1.29、.blog $2.06、.tech $6.99、.ll | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits - Activate Founders](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最多 $5,000 USD 的 AWS 代幣，起始額度為 $1,000 USD，特定參與者有資格獲得額外的代幣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits - Activate Portfolio](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最多 $200,000 USD 的 AWS 代幣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000 USD 或以上的 AWS 代幣，面向準備規模化（scale）的 AI 新創企業。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 代幣，可用於將提示轉換為工作代碼、結構化設計與實現任務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

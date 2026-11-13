@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T20:04:24.411Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T22:05:17.299Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -21,5 +21,5 @@
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 參與 Kraken Pro 上的 Anthropic 價格敞口交易競賽，競爭總額 20,000 美元的 ANTHROPICX 獎池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodions Half Commission](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 交易黃金、白銀、原油、銅和天然氣等大宗商品，每手佣金降至 2 个基点（2bps）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 參與 Kraken 期貨交易競賽，總獎池最高 5,000,000 美元 USDG。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO Perps Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，競爭 10,000 美元 USDG 獎池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Pre-IPO Perps Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，競爭 10,000 美元 USDG 獎池。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Atlassian Williams F1 Team Meet & Greet](https://blog.kraken.com/) | Crypto | 註冊並交易，有機會在美國 F1 大獎賽現場與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
