@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T10:05:18.105Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T12:05:16.795Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,8 +27,6 @@
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（免費遊戲），可免費領取。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [GOG 歡迎優惠（Welcome Offer）](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 針對新用戶或特定用戶提供的限時折扣優惠，標題為「Don’t miss your Welcome Offer! Start your game | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用所有方案（Mac、Mac + iOS、Power User）。Mac與Mac+iOS方案含1,000 AI點數，Power  | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Wise 免費帳戶開設](https://wise.com/) | 海外銀行/卡 | 免費開設 Wise 帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款費率折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP（或等值貨幣）時，將對費率進行折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Namecheap 免費域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級域名註冊免費；1 年 SSL 憑證免費。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
 | [Name.com 免費域名](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種域名後綴（如 .live, .studio, .software, .app, .dev 等）的免費域名註冊。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Microsoft Azure 免費雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 項 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 積分。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
@@ -75,3 +73,7 @@
 | [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高可獲 200,000 USD 的 AWS Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS Credits，針對準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動信用額度，幫助新創公司將提示轉換為代碼。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 方案每月 Google Cloud 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 10 美元的 Google Cloud 積分，來自 Google Developer Prog | 約 TWD 3,720（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案每月 Google Cloud 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 40 美元的 Google Cloud 積分，來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [OKX 2026年終獎勵活動](https://www.okx.com/help/section/announcements-latest-announcements) | Crypto | 發布了一則標題為「2026 Year-End Gift Announcement」的公告，推測提供年終禮物或獎勵，但頁面列表中未包含具體數字 | 免費（價值視使用而定） | 長期活動 | 待核實 |
