@@ -668,5 +668,37 @@
     "status": "expired",
     "archivedAt": "2026-11-13T06:05:16.843Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261113-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Halloween Sweepstakes",
+    "category": "crypto",
+    "summary": "在十月交易，每次交易量都可獲得一次抽獎機會，一位獲勝者將贏取 1,000 個 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需註冊加入活動,在十月期間進行交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "註冊加入萬聖節抽獎活動",
+      "在十月期間進行交易（每美元交易量獲得一次抽獎資格）",
+      "等待抽獎結果以贏取 1,000 SOL"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "抽獎性質，非保證獲得,獎勵以 SOL 幣種發放",
+    "status": "expired",
+    "archivedAt": "2026-11-13T20:04:24.411Z",
+    "archiveReason": "endDate passed"
   }
 ]
