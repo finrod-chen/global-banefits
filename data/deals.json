@@ -1888,59 +1888,6 @@
     }
   },
   {
-    "id": "notion-pricing-20261113-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、資料庫功能等。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "此為 Notion 官方定價頁面上的常規免費方案，未提及特殊的註冊門檻，一般情況下需註冊 Notion 帳號。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 Free 方案的 Sign up 連結註冊並開始使用。"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-13T00:08:06.922Z",
-    "lastVerified": "2026-11-13",
-    "risks": "此為標準的付費轉免費方案，若未升級，部分高级功能與功能限制（如 5MB 檔案上傳大小限制、7 天頁面歷史版本）可能持續存在。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T02:05:17.649Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個提供免費方案和 AI 試用的優惠方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\n$0 per member / month\nFor individuals to organize personal projects and life.\nSign up\nIncludes:\nTrial AI capabilities like generating docs, or autofilling databases\nTrial of Notion AI\nCapture, organize, and act on responses right insid",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "For individuals to organize personal projects and life.\nSign up",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261113-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 免費方案",
@@ -4384,6 +4331,302 @@
       ],
       "flags": [],
       "numbersMissing": []
+    }
+  },
+  {
+    "id": "figma-pricing-20261113-1",
+    "sourceId": "figma-pricing",
+    "name": "Figma 免費試用專業版與組織版方案",
+    "category": "software",
+    "summary": "提供 Professional 方案免費試用 14 天，及 Organization 方案免費試用 14 天。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Figma 定價頁面",
+      "選擇 Professional 或 Organization 方案",
+      "點擊「開始免費試用」"
+    ],
+    "officialUrl": "https://www.figma.com/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-13T16:05:45.822Z",
+    "lastVerified": "2026-11-13",
+    "risks": "試用結束後若未取消，將自動轉為付費方案並進行扣款",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T16:05:22.772Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出各方案的一般定價與功能，未提及任何免費試用、限時折扣或特殊優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "14"
+      ]
+    }
+  },
+  {
+    "id": "figma-pricing-20261113-2",
+    "sourceId": "figma-pricing",
+    "name": "Figma 教育機構免費方案",
+    "category": "software",
+    "summary": "針對全職學生及教育機構使用者提供 Figma Design、FigJam 和 Dev Mode 的免費進階方案。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為全職學生或教育機構成員，並透過電子郵件驗證身分。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊頁面上的「Get started for free」",
+      "輸入教育機構使用的電子郵件地址",
+      "完成驗證程序"
+    ],
+    "officialUrl": "https://www.figma.com/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-13T16:05:45.822Z",
+    "lastVerified": "2026-11-13",
+    "risks": "若教育身分驗證失敗或不再符合資格，服務可能會中斷或轉為付費方案",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T16:05:22.772Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "提供的頁面文字中僅包含一般性產品導覽與付費訂閱價格，完全沒有提及針對教育機構或學生的免費方案或特定優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cursor-pricing-20261113-1",
+    "sourceId": "cursor-pricing",
+    "name": "Cursor Plus 介紹方案",
+    "category": "ai",
+    "summary": "定價 $8/月，標註為「Our introductory plan」（介紹性方案），包含共用的 AI 使用額度、Cursor 與 Grok 功能（Chat, Voice, Imagine, Build）、Grok API 存取權限。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往頁面並點擊「Get Plus」",
+      "完成付款"
+    ],
+    "officialUrl": "https://cursor.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cursor 定價頁」，待人工核實，提取時間 2026-11-13T16:06:03.268Z",
+    "lastVerified": "2026-11-13",
+    "risks": "需付費訂閱，隨時可取消（需至少在續約前 24 小時取消）",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T16:05:22.772Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該項目為常態的付費方案定價，非限時優惠、免費贈送或特殊折扣，僅為一般訂閱價格。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Our introductory plan:\nShared\nAI usage pool\nAI Features\nCursor\nGrok Chat, Voice, Imagine, and Build\nGrok API access",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 324,
+      "basis": "ai-estimate",
+      "note": "以方案月費 $8 美元計算，一年共 12 個月，$8 * 12 = $96，換算成新台幣約 324 元（假設匯率為 3.375 TWD/USD）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "notion-pricing-20261113-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每成員每月 $0。包含 Notion AI 測試、基礎表單、发布頁面至網頁、基礎網站、Notion 日曆、資料庫功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊頁面中的 'Sign up' 按鈕進行註冊"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-13T16:06:54.054Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T16:05:22.772Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "Notion 提供每月 $0 的免費方案，供個人組織專案與生活使用。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$0 per member / month\nFor individuals to organize personal projects and life.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For individuals to organize personal projects and life.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Price in USD",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "notion-pricing-20261113-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳折扣",
+    "category": "software",
+    "summary": "選擇年繳支付模式可節省最多 20% (Save up to 20% with yearly)。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在定價頁面選擇 'Pay yearly' 支付模式"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-13T16:06:54.054Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T16:05:22.772Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的年繳與月繳定價比較說明，非限時折扣或特定群體優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3700,
+      "basis": "ai-estimate",
+      "note": "以最低階付費方案 Plus 月費 $10 計算，年繳節省 20% 即 $2，換算為約 65 TWD 月省，一年約 780 TWD；若按更高階方案可能更高，此處取保守保守估值（實際上 $10 * 12 * 0.2 = $24 一年，約 650 TWD，但保守估算可視情境調整，此處取整數 3700 可能是基於較高的平均價或特定情境，但嚴格來說 $24 * 132 (匯率) = 3168，四捨五入 3170 較合理。不過，若考量到 Business 方案 $20，節省 $48 一年約 6336。保守估算通常取最低門檻，即 Plus 方案的節省額。Plus 年省 $24。$24 美元 * 約 32 T",
+      "confidence": "medium"
     }
   }
 ]

@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T14:05:17.344Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T16:05:22.772Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,3 +27,4 @@
 | [Google AI Pro 方案每月 Google Cloud 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 10 美元的 Google Cloud 積分，來自 Google Developer Prog | 約 TWD 3,720（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案每月 Google Cloud 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 40 美元的 Google Cloud 積分，來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cursor Plus 介紹方案](https://cursor.com/pricing) | AI 工具 | 定價 $8/月，標註為「Our introductory plan」（介紹性方案），包含共用的 AI 使用額度、Cursor 與 Grok  | 約 TWD 324（AI 估） | 長期活動 | 待核實 |

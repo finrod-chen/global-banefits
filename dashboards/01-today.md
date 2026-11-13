@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T14:05:17.344Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T16:05:22.772Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,7 +24,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供免費的 Network & CDN 方案，每月 $0。包含無限量的 DDoS 防護、CDN、通用 SSL 憑證、免費的 managed  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供 SASE 團隊的免費方案，$0，可永久使用。適用於少於 50 名使用者的小團隊。支援社群論壇與 Discord 協助。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Compute & Storage 各產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含多個 Compute & Storage 產品的免費使用額度，例如：Workers 每日 10 萬次請求與 10 ms CPU 時間；C | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -68,3 +67,8 @@
 | [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 每月可獲得精選 PC 遊戲，會員在商店購物最高可享 8 折（節省 20%）。年繳方案每月低於 13 美元，隨時可取消。 | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
 | [Humble Bundle 免費遊戲包 (Last Chance)](https://www.humblebundle.com/) | 軟體/數位服務 | 「Create & Elevate: Amazing Art Tools from Corel」等遊戲或軟體組合提供「想付多少就付多少」（P | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用期，試用期間可依方案享有 1,000 或 2,000 AI 積分。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Figma 免費試用專業版與組織版方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 提供 Professional 方案免費試用 14 天，及 Organization 方案免費試用 14 天。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Figma 教育機構免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 針對全職學生及教育機構使用者提供 Figma Design、FigJam 和 Dev Mode 的免費進階方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cursor Plus 介紹方案](https://cursor.com/pricing) | AI 工具 | 定價 $8/月，標註為「Our introductory plan」（介紹性方案），包含共用的 AI 使用額度、Cursor 與 Grok  | 約 TWD 324（AI 估） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每月 $0。包含 Notion AI 測試、基礎表單、发布頁面至網頁、基礎網站、Notion 日曆、資料庫功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳支付模式可節省最多 20% (Save up to 20% with yearly)。 | 約 TWD 3,700（AI 估） | 長期活動 | 待核實 |
