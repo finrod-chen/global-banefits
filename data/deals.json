@@ -1888,930 +1888,6 @@
     }
   },
   {
-    "id": "cloudflare-plans-20261113-1",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare 免費方案",
-    "category": "vps-cloud",
-    "summary": "提供免費的 Network & CDN 方案，每月 $0。包含無限量的 DDoS 防護、CDN、通用 SSL 憑證、免費的 managed ruleset、WAF 及 SSO 支援。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 網站",
-      "點選免費方案的 'Get started' 按鈕開始建立帳號"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T04:05:57.609Z",
-    "lastVerified": "2026-11-13",
-    "risks": "此方案旨在用於個人或愛好者專案，而非關鍵性的商業業務。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供明確標示為 $0 的免費方案，屬於免費額度/方案類型。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261113-2",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare SASE 免費方案",
-    "category": "vps-cloud",
-    "summary": "提供 SASE 團隊的免費方案，$0，可永久使用。適用於少於 50 名使用者的小團隊。支援社群論壇與 Discord 協助。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare SASE 方案頁",
-      "選擇免費方案並按下 'Get started'"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T04:05:57.609Z",
-    "lastVerified": "2026-11-13",
-    "risks": "此方案的服務等級僅提供社群論壇與 Discord 支援，且標準日誌保留期限僅為 24 小時。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供 $0 且永久使用的免費方案，符合免費方案的定義。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\nTeams under 50 users or enterprise proof-of-concept tests.\n$0\nforever",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261113-3",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Compute & Storage 各產品免費額度",
-    "category": "vps-cloud",
-    "summary": "包含多個 Compute & Storage 產品的免費使用額度，例如：Workers 每日 10 萬次請求與 10 ms CPU 時間；Containers 包含 25 GiB-hrs 記憶體與 375 vCPU-mins；R2 包含 10 GB 儲存空間；Workers KV 包含 1 GB 儲存空間與每日 10 萬次讀取請求；D1 包含 5 GB 儲存空間；Hyperdrive 每日 10 萬次查詢（且付費階層亦標為 Free）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需註冊 Cloudflare 帳號。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Cloudflare 帳號",
-      "在儀表板中設定並使用對應的 Compute & Storage 服務"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T04:05:57.609Z",
-    "lastVerified": "2026-11-13",
-    "risks": "若使用量超過免費額度，將開始按照付費方案價格收費。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出了多個 Compute & Storage 產品的免費額度，符合免費方案的定義。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Requests\n100k / day\n$0.30 / million requests\nCPU Time\n10 ms / request\n$0.02 / million CPU ms",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261113-1",
-    "sourceId": "kucoin-announce",
-    "name": "KuPay Genesis 首張通行證 (First Pass)",
-    "category": "crypto",
-    "summary": "獲得 KuPay Genesis 首張通行證 (First Pass)，可在跨 3 個洲的線上消費中使用加密貨幣如現金般支付。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須是 KuCoin Pay 的使用者；活動面向亞洲、拉丁美洲和非洲地區。",
-    "regions": [
-      "Asia",
-      "Latin America",
-      "Africa"
-    ],
-    "startDate": "2026-11-13",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "等待 KuCoin Pay 發布 KuPay Genesis 活動",
-      "認領 (Claim) 你的 First Pass",
-      "在支援的地區使用加密貨幣進行消費"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-13T04:07:12.686Z",
-    "lastVerified": "2026-11-13",
-    "risks": "此為特定地區的上車項目 (Onboarding initiative)，非全球通用；需確認所在地區是否被支援。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為針對新用戶的導向激勵方案，提供首張通行證及跨洲使用加密貨幣的權益。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "elcome to KuPay Genesis, the flagship onboarding initiative by KuCoin Pay. Designed to empower users across Asia, Latin America, and Africa, KuPay Genesis bridges local real-world commerce with seamless crypto payments.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "KuPay Genesis: Claim Your First Pass & Spend Crypto Like Cash Across 3 Continents!",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Asia, Latin America, and Africa",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261113-1",
-    "sourceId": "gate-announce",
-    "name": "Gate Sign-up Rewards",
-    "category": "crypto",
-    "summary": "註冊即可領取 10,000+ USDT 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "註冊新戶即可領取獎勵，屬於新戶優惠或空投類型。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "Sign up to claim 10,000+ USDT rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261113-2",
-    "sourceId": "gate-announce",
-    "name": "Gate Idle Earn & Simple Earn Limited-Time Event",
-    "category": "crypto",
-    "summary": "限時活動第三階段：USDT 最高可享有 9% 年化利率 (APR)",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示為限時活動並提供高於常態的年化利率補貼。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 12000,
-      "basis": "ai-estimate",
-      "note": "假設用戶投入 1,000 美元 USDT，依頁面最高 9% APR 計算一年收益約 90 美元，以 1 美元兌 133 台幣換算約 11,970 台幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "gate-announce-20261113-3",
-    "sourceId": "gate-announce",
-    "name": "Gate Event Contracts Trading Competition",
-    "category": "crypto",
-    "summary": "交易指定股票事件合約，參與分潤 50,000 USDT 獎金池",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T04:05:22.859Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目屬於交易競賽與分潤獎金池的活動，符合限時折扣或獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600000,
-      "basis": "explicit-amount",
-      "usd": 50000,
-      "quote": "50,000 USDT Prize Pool",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261113-4",
-    "sourceId": "gate-announce",
-    "name": "Gate CFD Trading Voucher & Rewards",
-    "category": "crypto",
-    "summary": "領取 200 USDx 交易券及最高 686 USDT 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面內容僅包含一般的產品列表與新聞公告列表，並未提供「200 USDx 交易券及最高 686 USDT 獎勵」的具體詳細說明、條款或活動規則，因此無法確認其性質與真實性。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "numbers-missing",
-        "quote-missing"
-      ],
-      "numbersMissing": [
-        "686"
-      ]
-    }
-  },
-  {
-    "id": "gate-announce-20261113-5",
-    "sourceId": "gate-announce",
-    "name": "Gate Square Anthropic IPO Challenge",
-    "category": "crypto",
-    "summary": "分享訂閱內容，贏得 150 USDT 的 Anthropic (ANT) 股份",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面內容提及多項新戶獎勵、空投及活動獎金，屬於新戶獎勵或空投積分類型，而非常態定價。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "150"
-      ]
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "Sign up to claim 10,000+ USDT rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261113-6",
-    "sourceId": "gate-announce",
-    "name": "Gate Convert New User Airdrop",
-    "category": "crypto",
-    "summary": "新用戶空投：獲得 2 美元 WLFI，並賺取每日獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "新用戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-13T04:07:35.340Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面內容僅為產品導覽與公告列表，未具體說明該空投方案的內容、資格或時間。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Black Friday 存款與交易獎勵",
-    "category": "crypto",
-    "summary": "最高可獲得 $100 的 BTC 獎勵。通過四个疊加里程碑（stacked milestones）交易來獲得獎勵。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "登記活動，存入 1,000 美元法幣，並完成指定的四個交易里程碑。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-12",
-    "endDate": "2026-12-01",
-    "ongoing": false,
-    "steps": [
-      "登記活動",
-      "存入 1,000 美元法幣",
-      "透過交易完成四個疊加里程碑"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "活動期間有限，逾期未完成可能失去資格。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供限時存款與交易獎勵，符合新戶獎勵或額度獎勵定義",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "November 12 to December 1",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "Get up to $100 in BTC",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-2",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Anthropic Pre-IPO 挑戰賽",
-    "category": "crypto",
-    "summary": "參與 Kraken Pro 上的 Anthropic 價格敞口交易，最高可使用 10 倍槓桿。根據交易量排名，可瓜分 20,000 美元的 ANTHROPICX 獎金池。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "在 Kraken Pro 上交易 Anthropic 價格敞口，交易量決定排名。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-11",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 交易 Anthropic 價格敞口（可用最高 10x 槓桿）",
-      "根據交易量排名",
-      "領取獎金池份额"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "使用槓桿交易存在高風險，可能導致資金損失。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供奖金池供用户根据交易量排名瓜分，属于限时奖励活动。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 640000,
-      "basis": "explicit-amount",
-      "usd": 20000,
-      "quote": "compete for $20,000 in ANTHROPICX on Kraken Pro",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-3",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 大宗商品佣金優惠",
-    "category": "crypto",
-    "summary": "黃金、白銀、原油等大宗商品在 Kraken Prop 上現已上线，所有非加密貨幣市場的佣金降至每邊 2bps（包括現有帳戶）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "適用於持有 Kraken Prop 帳戶的用戶。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-29",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Prop 交易白銀、WTI 原油、布倫特原油、銅、天然氣或黃金"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "佣金結構變更，需確認當前帳戶類型是否符合低佣金標準。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個針對特定時間發布的佣金折扣活動（佣金减半至2bps），屬於限時優惠性質。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission\nSilver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Kraken Prop",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-4",
-    "sourceId": "kraken-blog",
-    "name": "Kraken USDG 期貨挑戰賽",
-    "category": "crypto",
-    "summary": "通過交易黃金、現實世界資產（RWA）和加密期貨，解鎖最高 5,000,000 美元 USDG 的獎勵池。單排行榜，三個倍數。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "在指定期間內進行交易活動。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-12",
-    "endDate": "2026-12-10",
-    "ongoing": false,
-    "steps": [
-      "交易黃金、現實世界資產和加密期貨",
-      "累積交易量以解鎖獎勵池"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "獎勵解鎖條件可能需要達到特定交易量門檻。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為限時交易挑戰賽，提供高額獎勵池，屬於促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "endDate",
-          "quote": "October 12 to December 10, 2026",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000000,
-      "basis": "explicit-amount",
-      "usd": 5000000,
-      "quote": "up to $5,000,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-5",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Pre-IPO 挑戰賽 (OURAx & MOONSHOTx)",
-    "category": "crypto",
-    "summary": "交易 OURAx 和 MOONSHOTx 永續合約（Perps），瓜分 10,000 USDG 獎金。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "登記後，在 Kraken Pro 上交易 OURAx 和 MOONSHOTx 永續合約，可使用最高 10 倍槓桿，交易量決定排名。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-06",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登記活動",
-      "在 Kraken Pro 交易 OURAx 和 MOONSHOTx Perps（最高 10x 槓桿）",
-      "根據交易量排名領取獎金"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "使用槓桿交易存在高風險，可能導致資金損失。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T06:05:16.843Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面內容為限時交易挑戰賽，參與者依交易量瓜分獎金池，屬於新戶或特定活動獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "$10,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261113-6",
-    "sourceId": "kraken-blog",
-    "name": "Kraken F1 美國大賽門票活動",
-    "category": "crypto",
-    "summary": "使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見面。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "使用促銷代碼 AUSTIN 註冊，並產生至少 1 美元的交易量。",
-    "regions": [
-      "美國 (COTA)"
-    ],
-    "startDate": "2026-10-05",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用代碼 AUSTIN 註冊",
-      "進行至少 1 美元的交易量",
-      "參加抽獎或獲選者見面"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T04:08:21.632Z",
-    "lastVerified": "2026-11-13",
-    "risks": "名額有限，並非所有符合條件者都能獲選。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T07:21:41.751Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個結合註冊代碼與交易量門檻的抽獎/體驗活動，屬於限時促銷或新戶/用戶激勵。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Meet an Atlassian Williams F1 Team driver at the United States GP\nSign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Circuit of the Americas (COTA)",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "頁面未明確列出貨幣價值，此為賽道見面會與門票的保守估算價值，非直接現金獎勵。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "digitalocean-pricing-20261113-1",
     "sourceId": "digitalocean-pricing",
     "name": "DigitalOcean 免費信用額度",
@@ -4628,5 +3704,761 @@
       "note": "以最低階付費方案 Plus 月費 $10 計算，年繳節省 20% 即 $2，換算為約 65 TWD 月省，一年約 780 TWD；若按更高階方案可能更高，此處取保守保守估值（實際上 $10 * 12 * 0.2 = $24 一年，約 650 TWD，但保守估算可視情境調整，此處取整數 3700 可能是基於較高的平均價或特定情境，但嚴格來說 $24 * 132 (匯率) = 3168，四捨五入 3170 較合理。不過，若考量到 Business 方案 $20，節省 $48 一年約 6336。保守估算通常取最低門檻，即 Plus 方案的節省額。Plus 年省 $24。$24 美元 * 約 32 T",
       "confidence": "medium"
     }
+  },
+  {
+    "id": "cloudflare-plans-20261113-1",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0。包含不限量的 DDoS 防護、CDN、Universal SSL 憑證、免費 Managed Ruleset、WAF、Lossless Image Optimization、Accelerated Mobile Pages (AMP)。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Cloudflare 方案頁",
+      "選擇 Free 方案並開始使用"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面主要展示產品定價結構，包含常態的免費額度（Free tier）與付費方案比較，並非特指的限時促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Lossless Image Optimization\n—\nLossless Image Optimization\nFree —",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-2",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Zero Trust 免費方案",
+    "category": "vps-cloud",
+    "summary": "永久免費，適用於 50 人以下團隊或企業證明概念測試。包含 24 小時標準日誌保留、社群論壇與 Discord 支援。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "團隊用戶數需少於 50 人，或為企業證明概念測試",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Cloudflare 方案頁",
+      "選擇 Zero Trust Free 方案並開始使用"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供永久免費的 Zero Trust 方案，屬於免費方案類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.\n$0\nforever\nGet started",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-3",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Workers 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每日 100,000 次請求、每請求 10ms CPU 時間。超過部分依用量計費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Workers 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目描述了產品中免費包含的額度（Free tier），屬於免費方案或額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests\n100k / day\n$0.30 / million requests\nCPU Time\n10 ms / request\n$0.02 / million CPU ms",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-4",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Containers 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每月 25 GiB-小時記憶體、375 vCPU-分鐘 CPU、200 GB-小時磁碟空間、1 TB 網路出口流量 (NA/EU)。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Containers 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出免費方案（Free）中包含明確的用量額度，屬於免費額度型推廣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 TB included",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "保守估算：若全數使用免費額度（記憶體25GiB-hr、CPU 375 vCPU-min、磁碟200GB-hr、網路1TB），對應付費價格約為 $0.0000025/GiB-s × 90000s + $0.00002/vCPU-s × 22500s + $0.00000007/GB-s × 720000s + $0.025/GB × 1000GB ≈ 0.225 + 0.45 + 0.504 + 25 ≈ $26.18，換算新台幣約 800 元，取整保守估算為 1000 元。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-5",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Durable Objects 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取列、每日 100K SQL 寫入列、5 GB SQL 儲存空間、1 GB KV 儲存空間。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Durable Objects 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的 Free 額度是 Durable Objects 等產品的常態基礎計費方案的一部分，並非有時限的促銷活動或新戶專屬獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests\nFree 100,000 requests / day\nDuration\nFree 13,000 GB-s / day\nSQL Rows Read\nFree 50M / day\nSQL Rows Written\nFree 100K / day\nSQL Stored Data\nFree 5 GB\nStored Data (KV Storage Backend)\nFree 1 GB",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5310,
+      "basis": "ai-estimate",
+      "note": "保守假設使用 1 個 Durable Object，每日使用 100,000 次請求、5,000 GB-s 持續時間，超過免費額度的部分約為 $0.05 至 $1 之間，加上 5GB 儲存空間與 1GB KV 儲值的帳單價值，推算第一年價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-6",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Browser Rendering 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每日 10 分鐘瀏覽器時間、3 個並行瀏覽器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Browser Rendering 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示了免費方案包含每日10分鐘瀏覽器時間和3個並行瀏覽器的免費額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Browser Hours\nFree 10 min / day\nConcurrent Browsers\nFree 3 browsers",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2880,
+      "basis": "ai-estimate",
+      "note": "保守估算，假設每天使用最大免費額度（10分鐘），一年365天，總共3650分鐘。免費瀏覽器時間的價格為每小時$0.09，免費並行瀏覽器為3個，價格為$2.00/瀏覽器/小時。估算：(365 * 10 / 60 * 0.09) + (365 * 10 / 60 * 3 * 2.00) = 54.75 + 328.5 = 383.25美元。換算成新台幣（假設1美元=30新台幣），大約11497新台幣。但是這只是極端情況下的最大值，實際上多數使用者可能不會每天都用滿，這裡保守估算為每年約2880新台幣。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-7",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Workflows 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每日 100,000 次請求、每調用 10ms CPU 時間、1 GB 儲存空間。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Workflows 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了 Cloudflare Workflows 免費方案包含的特定資源額度，屬於免費方案額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workflows\nOrchestrate complex multi-step processes\nComponent\nFree\nPaid\nRequests\n100k / day\n$0.30 / million requests\nCPU Time\n10 ms / invocation\n$0.02 / million CPU ms\nStorage\n1 GB\n$0.20 / GB-month",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 56,
+      "basis": "ai-estimate",
+      "note": "將免費額度換算為付費標準：100,000 requests * ($0.30/1M) = $0.03；(100,000 requests * 10ms) * ($0.02/1M ms) = $0.02；1 GB * $0.20 = $0.20。月總值約 $0.25。一年為 $3.00。換算新台幣約 $56 (3.0 * 12 * 1.55 ≈ 55.8) 或僅計入明確標示的儲存量與請求量基礎估算，保守取整數約 56 元（若按純儲存量估算較低，但綜合請求與計算資源，一年價值約3美元，約56台幣。若僅看固定費用的儲存空間部分為2.4美元，約37台幣。這裡取綜合資源的一年總值約3.05美元，換算約4",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-8",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare R2 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含每月 10 GB 標準儲存空間、每月 100 萬次標準 A 類操作、每月 1,000 萬次標準 B 類操作。無出口流量費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 R2 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-13T18:05:19.471Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的是 Cloudflare 產品的一般付費定價與免費額度基準，屬於常態定價模式而非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Storage\n10 GB-month\n$0.015 / GB-month\nStandard Class A operations\n1 million\n$4.50 / million requests\nStandard Class B operations\n10 million\n$0.36 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 279,
+      "basis": "ai-estimate",
+      "note": "假設第一年完全用完免費額度（120 GB-month, 12 million Class A, 120 million Class B），依頁面付費價格估算價值約 $12+$54+$43.2=$109.2，換算成新台幣約 3,276；但若考量一般使用者未必用完，保守估算為免費價值的一部分，約 279 元（取 1/12 或依常態使用量保守估計，這裡取一個保守的年度價值估算，或者更準確地，免費額度本身是定價的一部分，若視為「免費獲得的價值」，其市場價值為付費價格。10GB-month * 12 = 120GB. 120 * $0.015 = $1.8. 1 million * 12 = 12 mi",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261113-9",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Workers KV 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費包含 1 GB 儲存空間、每日 100,000 次讀取請求、每日 1,000 次寫入、刪除或列出請求。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 Cloudflare 帳戶",
+      "使用 Workers KV 服務並監控用量"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-13T18:05:49.908Z",
+    "lastVerified": "2026-11-13",
+    "risks": "超過免費額度後將開始計費",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261113-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Earn Friday Week 138",
+    "category": "crypto",
+    "summary": "透過 USDT、SOL、NEAR 賺取最高 6% APR 的獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-13T18:06:57.394Z",
+    "lastVerified": "2026-11-13",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261113-2",
+    "sourceId": "kucoin-announce",
+    "name": "KuPay Genesis 首次通行證",
+    "category": "crypto",
+    "summary": "領取首次通行證（First Pass），並在亞洲、拉丁美洲和非洲的 3 個大洲以類似現金的方式消費加密貨幣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "Asia",
+      "Latin America",
+      "Africa"
+    ],
+    "startDate": "2026-11-13",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-13T18:06:57.394Z",
+    "lastVerified": "2026-11-13",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "bitopro-announce-20261113-1",
+    "sourceId": "bitopro-announce",
+    "name": "BitoPro 推薦獎勵",
+    "category": "crypto",
+    "summary": "頁面提供推薦獎勵的連結與功能，但未明確說明具體的返現比例或獎勵機制。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「推薦獎勵」功能"
+    ],
+    "officialUrl": "https://www.bitopro.com/ns/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「BitoPro 幣託公告（台灣）」，待人工核實，提取時間 2026-11-13T18:07:31.024Z",
+    "lastVerified": "2026-11-13",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Black Friday Deposit & Trade Bonus",
+    "category": "crypto",
+    "summary": "透過完成四個階層目標，最高可獲得 100 美元的 BTC 獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需存入 1,000 美元的法定貨幣,需在活動期間內完成交易里程碑",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-12",
+    "endDate": "2026-12-01",
+    "ongoing": false,
+    "steps": [
+      "註冊加入活動",
+      "存入 1,000 美元法定貨幣",
+      "交易以達成四個階層目標"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "加密貨幣投資具有高度風險，不保證獲利,獎勵以 BTC 形式發放",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Anthropic Pre-IPO Challenge",
+    "category": "crypto",
+    "summary": "參與 Kraken Pro 上的 Anthropic 價格敞口交易競賽，競爭總額 20,000 美元的 ANTHROPICX 獎池。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 Kraken Pro 帳戶中交易,以交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 Anthropic 價格敞口（可使用最高 10 倍槓桿）",
+      "累積交易量以獲得排名",
+      "根據排名領取獎池份額"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "使用槓桿交易可能導致損失超過初始存入資金,高風險投資，不受政府補償保護",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Prop Commodions Half Commission",
+    "category": "crypto",
+    "summary": "在 Kraken Prop 交易黃金、白銀、原油、銅和天然氣等大宗商品，每手佣金降至 2 个基点（2bps）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 Kraken Prop 帳戶中交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-29",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Prop 帳戶中進行非加密貨幣市場交易",
+      "享受 2bps/邊 的優惠佣金"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "衍生品交易具有高风险",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken USDG Futures Challenge",
+    "category": "crypto",
+    "summary": "參與 Kraken 期貨交易競賽，總獎池最高 5,000,000 美元 USDG。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需交易黃金、實際世界資產或加密貨幣期貨,以交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "在活動期間內交易指定資產類別",
+      "累積交易量以在排行榜上競爭",
+      "根據排名領取 USDG 獎勵"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "期貨交易具有高風險,獎勵以 USDG 穩定幣形式發放",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pre-IPO Perps Challenge",
+    "category": "crypto",
+    "summary": "交易 OURAx 和 MOONSHOTx 永續合約，競爭 10,000 美元 USDG 獎池。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 Kraken Pro 帳戶中交易,可使用最高 10 倍槓桿,以交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊加入活動",
+      "在 Kraken Pro 交易 OURAx 和 MOONSHOTx 永續合約",
+      "根據交易量排名領取獎勵"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "永續合約交易具有極高風險,槓桿交易可能導致資金大幅損失",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Atlassian Williams F1 Team Meet & Greet",
+    "category": "crypto",
+    "summary": "註冊並交易，有機會在美國 F1 大獎賽現場與 Atlassian Williams F1 車手見面。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 AUSTIN 註冊,交易量需達 1 美元或更多",
+    "regions": [
+      "United States"
+    ],
+    "startDate": "2026-10-05",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用代碼 AUSTIN 註冊 Kraken 帳戶",
+      "交易 1 美元或以上的交易量",
+      "進入抽獎池，有機會贏取 F1 見面會資格"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "抽獎性質，非保證獲得,活動限美國地區",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261113-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Halloween Sweepstakes",
+    "category": "crypto",
+    "summary": "在十月交易，每次交易量都可獲得一次抽獎機會，一位獲勝者將贏取 1,000 個 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需註冊加入活動,在十月期間進行交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "註冊加入萬聖節抽獎活動",
+      "在十月期間進行交易（每美元交易量獲得一次抽獎資格）",
+      "等待抽獎結果以贏取 1,000 SOL"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-13T18:07:53.447Z",
+    "lastVerified": "2026-11-13",
+    "risks": "抽獎性質，非保證獲得,獎勵以 SOL 幣種發放",
+    "status": "pending"
   }
 ]
