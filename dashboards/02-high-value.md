@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T02:05:17.649Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T04:05:22.859Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,13 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin Matrix (MTX) 上市活動贈送](https://www.kucoin.com/announcement) | Crypto | 參與 Matrix (MTX) 上市活動，總計贈送 70,000 MTX。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分配 $20,000 ANTHROPICX | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 金銀油等商品交易半價佣金促銷](https://blog.kraken.com/) | Crypto | 銀、WTI 油、布蘭特油、銅、天然氣與黃金現在可在 Kraken Prop 交易，所有非加密貨幣市場的佣金降為每邊 2bps（半價） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Futures USDG $5,000,000 挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產與加密期貨，幫助解鎖高達 $5,000,000 USDG 的獎勵池（一個排行榜，三個倍數） | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO OURAx and MOONSHOTx 挑戰](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers & 儲存產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供多項產品的免費額度，包括：Workers 免費 100,000 請求/天、10 ms/請求 CPU 時間；Containers 免費 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用（$0 forever），包含社群論壇與 Discord 支援、最多 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 10,478（AI 估） | 2026-11-30 | 待核實 |
 | [玉山信用卡 繳地價稅優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -78,3 +71,21 @@
 | [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education plan（含 Plus plan 所有功能、增加共享與協作能力、更長的頁面歷史記錄）並額外獲得 AI | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生版](https://education.github.com/pack) | 軟體/數位服務 | 包含無限次程式碼補全、GitHub AI Credits 額度，以及有限制的聊天與智能體使用（僅限自動模型選擇）。 | 約 TWD 468（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每位成員 $0，可組織個人專案和生活，包含 Notion AI 的試用體驗、基礎表單功能、公開發布至網路、基礎網站、Notion 日曆、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供免費的 Network & CDN 方案，每月 $0。包含無限量的 DDoS 防護、CDN、通用 SSL 憑證、免費的 managed  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供 SASE 團隊的免費方案，$0，可永久使用。適用於少於 50 名使用者的小團隊。支援社群論壇與 Discord 協助。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Compute & Storage 各產品免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含多個 Compute & Storage 產品的免費使用額度，例如：Workers 每日 10 萬次請求與 10 ms CPU 時間；C | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 30,000 點數限時優惠](https://elevenlabs.io/pricing) | AI 工具 | 以 1 美元獲得 30,000 點數（30,000 credits），通常為新訂閱或特定推廣活動。 | 約 TWD 960,000（AI 估） | 2024-09-30 | 待核實 |
+| [KuPay Genesis 首張通行證 (First Pass)](https://www.kucoin.com/announcement) | Crypto | 獲得 KuPay Genesis 首張通行證 (First Pass)，可在跨 3 個洲的線上消費中使用加密貨幣如現金般支付。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate Sign-up Rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | 限時活動第三階段：USDT 最高可享有 9% 年化利率 (APR) | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Event Contracts Trading Competition](https://www.gate.com/announcements) | Crypto | 交易指定股票事件合約，參與分潤 50,000 USDT 獎金池 | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate CFD Trading Voucher & Rewards](https://www.gate.com/announcements) | Crypto | 領取 200 USDx 交易券及最高 686 USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Square Anthropic IPO Challenge](https://www.gate.com/announcements) | Crypto | 分享訂閱內容，贏得 150 USDT 的 Anthropic (ANT) 股份 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Convert New User Airdrop](https://www.gate.com/announcements) | Crypto | 新用戶空投：獲得 2 美元 WLFI，並賺取每日獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Black Friday 存款與交易獎勵](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 的 BTC 獎勵。通過四个疊加里程碑（stacked milestones）交易來獲得獎勵。 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 參與 Kraken Pro 上的 Anthropic 價格敞口交易，最高可使用 10 倍槓桿。根據交易量排名，可瓜分 20,000 美元的  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 大宗商品佣金優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、原油等大宗商品在 Kraken Prop 上現已上线，所有非加密貨幣市場的佣金降至每邊 2bps（包括現有帳戶）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 通過交易黃金、現實世界資產（RWA）和加密期貨，解鎖最高 5,000,000 美元 USDG 的獎勵池。單排行榜，三個倍數。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken Pre-IPO 挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約（Perps），瓜分 10,000 USDG 獎金。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 萬聖節抽獎](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL。每產生 1 美元的交易量獲得一次抽獎機會。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |

@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-13T02:05:17.649Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-13T04:05:22.859Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,8 +13,17 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [KuCoin Matrix (MTX) 上市活動贈送](https://www.kucoin.com/announcement) | Crypto | 參與 Matrix (MTX) 上市活動，總計贈送 70,000 MTX。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分配 $20,000 ANTHROPICX | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 金銀油等商品交易半價佣金促銷](https://blog.kraken.com/) | Crypto | 銀、WTI 油、布蘭特油、銅、天然氣與黃金現在可在 Kraken Prop 交易，所有非加密貨幣市場的佣金降為每邊 2bps（半價） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Futures USDG $5,000,000 挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產與加密期貨，幫助解鎖高達 $5,000,000 USDG 的獎勵池（一個排行榜，三個倍數） | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO OURAx and MOONSHOTx 挑戰](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），交易量決定排名，分配 $10,000 USDG | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [KuPay Genesis 首張通行證 (First Pass)](https://www.kucoin.com/announcement) | Crypto | 獲得 KuPay Genesis 首張通行證 (First Pass)，可在跨 3 個洲的線上消費中使用加密貨幣如現金般支付。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate Sign-up Rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | 限時活動第三階段：USDT 最高可享有 9% 年化利率 (APR) | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Event Contracts Trading Competition](https://www.gate.com/announcements) | Crypto | 交易指定股票事件合約，參與分潤 50,000 USDT 獎金池 | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate CFD Trading Voucher & Rewards](https://www.gate.com/announcements) | Crypto | 領取 200 USDx 交易券及最高 686 USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Square Anthropic IPO Challenge](https://www.gate.com/announcements) | Crypto | 分享訂閱內容，贏得 150 USDT 的 Anthropic (ANT) 股份 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Convert New User Airdrop](https://www.gate.com/announcements) | Crypto | 新用戶空投：獲得 2 美元 WLFI，並賺取每日獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Black Friday 存款與交易獎勵](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 的 BTC 獎勵。通過四个疊加里程碑（stacked milestones）交易來獲得獎勵。 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 參與 Kraken Pro 上的 Anthropic 價格敞口交易，最高可使用 10 倍槓桿。根據交易量排名，可瓜分 20,000 美元的  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 大宗商品佣金優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、原油等大宗商品在 Kraken Prop 上現已上线，所有非加密貨幣市場的佣金降至每邊 2bps（包括現有帳戶）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 通過交易黃金、現實世界資產（RWA）和加密期貨，解鎖最高 5,000,000 美元 USDG 的獎勵池。單排行榜，三個倍數。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken Pre-IPO 挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約（Perps），瓜分 10,000 USDG 獎金。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 美國大賽門票活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元的交易量，有機會在 COTA 賽道與 Atlassian Williams F1 車隊車手見 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 萬聖節抽獎](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL。每產生 1 美元的交易量獲得一次抽獎機會。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
