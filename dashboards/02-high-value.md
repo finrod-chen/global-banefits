@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T12:05:16.720Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T14:05:15.263Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -83,10 +83,18 @@
 | [玉山信用卡綁定全支付優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
 | [Trip.com訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費額度與平台福利](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供多項免費服務額度，包括：每月90,000 GiB-seconds的Functions使用量；Kubernetes免費控制平面與頻寬額度； | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費方案：1GB RAM 年費 $21.99、2GB RAM 年費 $35.99、4GB RAM 年費 $59.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專用伺服器促銷碼優惠](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可享所有專用伺服器（Dedicated Servers）永久 15% 折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0，包含 100 個專案、每個專案 100 CU-hrs 月度運算、1 GB 儲存空間、無限制團隊成員、5 GB Object St | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 早期創新型新創企業計劃](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 $100k 的額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源專案贊助計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費方案：1GB RAM 年費 $21.99、2GB RAM 年費 $35.99、4GB RAM 年費 $59.9 | 約 TWD 900（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd 專用伺服器促銷碼優惠](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可享所有專用伺服器（Dedicated Servers）永久 15% 折扣 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0，包含 100 個專案、每個專案 100 CU-hrs 月度運算、1 GB 儲存空間、無限制團隊成員、5 GB Object St | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 早期創新型新創企業計劃](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 $100k 的額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源專案贊助計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Claimable Neon 體驗](https://neon.com/pricing) | VPS/雲服務 | 提供即時的 Postgres 專案，無需帳戶且無需信用卡。未綁定至 Neon 帳戶的專案限制為 100 MB 儲存空間和 1 GB 網路傳輸 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元 AWS 推廣信用額度。針對自資新創（Activate Founders）提供最高 5,000 美元（ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元 AWS 推廣信用額度。針對自資新創（Activate Founders）提供最高 5,000 美元（ | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 學生組合優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 升級至 Google AI Pro 並搭配 YouTube Premium（含無廣告影片與音樂），每月仅需 $8.99（若分開購買總計 $3 | 約 TWD 864（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 開發者回饋優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可每月獲得 $10 的 Google Cloud 信用額度（來自 Google Developer Pro | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 開發者回饋優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可每月獲得 $40 的 Google Cloud 信用額度（來自 Google Developer P | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示），提供 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示）， | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可取得 GitHub Copilot 學生方案之存取權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯出超過 20,000 GBP 或其等值貨幣時，將降低手續費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 3.47% 變動利率存款回報](https://wise.com/) | 海外銀行/卡 | 透過選入 Wise Assets，日常餘額可賺取 3.47% 的變動利率回報（基於 2026/10/11 前 7 天表現）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
