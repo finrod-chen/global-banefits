@@ -2074,68 +2074,6 @@
     }
   },
   {
-    "id": "notion-pricing-20261114-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳 9 折優惠",
-    "category": "software",
-    "summary": "選擇年繳付款方式可節省最高 20% 的費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇年繳付款模式。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進入 Notion 定價頁",
-      "將付款模式從「Pay monthly」切換為「Pay yearly」"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-14T06:06:51.038Z",
-    "lastVerified": "2026-11-14",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-14T06:05:16.871Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Notion 常態性的年繳比月繳便宜的優惠機制，並非限時或針對特定群體的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly Price in USD",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Select payment mode:\nPay monthly\nPay yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2950,
-      "basis": "ai-estimate",
-      "note": "假設使用者使用最低階的 Plus 方案 ($10/月)，月繳全年費用為 $120，年繳最高折 20% 則為 $96，節省 $24，換算成新台幣約為 $24 * 125 = 3000 元，取整數 2950 元。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261114-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 免費方案 (Free Plan)",
@@ -5011,7 +4949,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費域名註冊給學生，屬於免費方案或額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": "一般商業域名註冊費用約在 10-20 美元/年，保守估算一年價值約 500 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-3",
@@ -5039,7 +5008,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案為針對 18 歲以上學生的特定優惠，包含雲端服務存取權與 $100 額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit. For students aged 18+.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261114-4",
@@ -5067,7 +5069,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費域名註冊，屬於免費方案或額度類別的學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": ".TECH 域名市價約 15-25 美元，保守取低值約 15 美元換算成新台幣約 500 元，但考慮到這是「標準」域名且為學生權益，可能包含續費或較低價值的單一註冊年，此處保守估算一年價值。修正：.TECH 域名價格波動較大，一般約 $20-$50 USD。保守估算 $10-$15 USD 比較安全，或者依據常見域名成本。讓我們重新評估：一般 .TECH 域名註冊費約 $20-$30。保守取 $15 USD ≈ 500 TWD 可能偏低。取 $30 USD ≈ 1000 TWD 較合理。若無明確金額，保守估算一般使用者第一年價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-5",
@@ -5095,7 +5128,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對學生提供的免費方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4320,
+      "basis": "ai-estimate",
+      "note": "依據 GitHub Pro 一般訂閱費用約 36 美元/月，保守估算一年 12 個月的價值約 432 美元，換算成新台幣約 4320 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-6",
@@ -5123,7 +5187,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項針對 GitHub 驗證學生的免費試用方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "sign up for a DataCamp subscription with your GitHub student account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261114-7",
@@ -5151,7 +5240,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面指出學生可獲得免費或折扣價位的Microsoft 365服務，包含AI功能與儲存空間，屬於針對特定群體的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up today to unlock all your benefits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6000,
+      "basis": "ai-estimate",
+      "note": "假設學生選擇付費方案而非免費方案，以Microsoft 365個人版年費約$49.99美元為基礎，換算成新台幣約6000元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-8",
@@ -5179,7 +5299,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "GitHub 學生包內的夥伴提供免費或教育方案權益，屬於學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1800,
+      "basis": "ai-estimate",
+      "note": "Notion Plus 方案定價約 $10 USD/月，按學生一年 12 個月計算為 $120 USD，換算約 3700 TWD，但考慮到僅限學生且可能無償使用，保守估算給予部分價值或直接依常見 Notion 教育版免費額度估值（Notion Education 通常為免費給機構，個人學生可能含部分 Plus 功能），此處按一年 Plus 方案價值之保守比例估算。若嚴格按「免費」則價值應為該方案的市價。取 1800 TWD 為保守估值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-9",
@@ -5207,7 +5360,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-14T16:06:21.447Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T18:05:17.853Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個為經驗證學生提供的特別優惠方案，包含無限程式碼補全與AI額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "verified students",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "估算依據一般開發者每月使用 AI 輔助程式工具的價值（約 1000 美元/年），保守換算為新台幣 10,000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261114-10",
@@ -5410,6 +5594,92 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-14T16:07:31.780Z",
     "lastVerified": "2026-11-14",
     "risks": "試用結束後可能自動轉為付費訂閱，需注意隨時取消以免扣款",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261114-1",
+    "sourceId": "humble-bundle",
+    "name": "Humble Choice 年度方案",
+    "category": "software",
+    "summary": "年繳方案每月低於 13 USD",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Humble Choice 年度方案"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-14T18:05:46.614Z",
+    "lastVerified": "2026-11-14",
+    "risks": "訂閱服務可能涉及自動續約，需注意取消期限",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261114-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude 年繳 Pro 方案限時折扣",
+    "category": "ai",
+    "summary": "Pro 方案若選擇年繳，每月費用為 $17（總計 $200），低於月繳的 $20。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳訂閱方式",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Claude 官方定價頁選擇 Pro 方案",
+      "選擇年繳訂閱選項"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-14T18:06:03.801Z",
+    "lastVerified": "2026-11-14",
+    "risks": "年繳需一次性預付 $200 的訂閱費用",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261114-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每會員每月 $0，包含 Notion AI 有限試用品、基本表單、Notion 日曆、資料庫等功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Notion 官網",
+      "點選 Free 方案的 Sign up 按鈕"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-14T18:06:39.864Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

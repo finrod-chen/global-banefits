@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T16:05:18.973Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T18:05:17.853Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示），提供 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示）， | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可取得 GitHub Copilot 學生方案之存取權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Claude 年繳 Pro 方案限時折扣](https://claude.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月費用為 $17（總計 $200），低於月繳的 $20。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
