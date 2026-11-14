@@ -4218,7 +4218,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案屬於針對特定族群（開源專案）提供的贊助與資源支持性質的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open Source Program Open source projects\nSponsorship for the open source you maintain.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261113-4",
@@ -4247,7 +4272,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
     "lastVerified": "2026-11-13",
     "risks": "若未在 72 小時內領取至帳戶，項目將被限制為 100 MB 儲存空間和 1 GB 網路傳輸量。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "Claimable Neon 提供無帳戶、無信用卡的即時體驗額度，屬於新戶或體驗型的免費試用/額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Can I try Neon without signing up?\nYes. Claimable Neon gives you, or an AI agent working for you, an instant Postgres project with no account and no credit card. Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are ",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are capped at 100 MB of storage and 1 GB of network transfer.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261113-1",
@@ -4276,7 +4326,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-13T22:05:51.510Z",
     "lastVerified": "2026-11-13",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目標示為免費提供的服務，屬於免費方案類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free WHOIS Privacy",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "估算依據是市售第三方WHOIS隱私保護服務的訂閱費，一般使用者若選擇其他需付費的供應商，每年價值約在10至30美元，換算新臺幣約300元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261113-2",
@@ -4304,7 +4380,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-13T22:05:51.510Z",
     "lastVerified": "2026-11-13",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面將此服務標記為免費，屬於免費方案或額度類型的推廣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261113-3",
@@ -4333,7 +4429,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-13T22:05:51.510Z",
     "lastVerified": "2026-11-13",
     "risks": "",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的「Free URL Forwarding」屬於常態附贈服務，非限時優惠或免費試用活動",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free URL Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261113-4",
@@ -4363,7 +4481,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-13T22:05:51.510Z",
     "lastVerified": "2026-11-13",
     "risks": "次年續約價格將恢復常規價格,價格可能隨時變動",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示多種 TLD 提供「first year sale」價格，明顯低於其「regular price」，屬於限時折扣或促銷方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".cloud\n3.88 first year sale\n$21.11 regular price\n.inc\n257.98 first year sale\n$2,060.25 regular price\n.xyz\n1.29 first year sale\n$14.21 regular price",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Prices shown are for non-premium single year registrations, renewals and transfers.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 124,
+      "basis": "explicit-amount",
+      "usd": 3.88,
+      "quote": ".cloud\n3.88 first year sale",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261113-1",
@@ -4394,7 +4545,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T22:06:11.222Z",
     "lastVerified": "2026-11-13",
     "risks": "所有 AWS Activate Credits 以 USD 計價，並受 AWS 促銷代幣條款與條件約束。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目屬於針對特定新創階段（自資）的推廣代幣額度（AWS Activate Credits），屬於額外的獎勵或代幣方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits\n*Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Apply directly if you’re bootstrapped or self-funded",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261113-2",
@@ -4425,7 +4609,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T22:06:11.222Z",
     "lastVerified": "2026-11-13",
     "risks": "所有 AWS Activate Credits 以 USD 計價，並受 AWS 促銷代幣條款與條件約束。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T02:05:17.038Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定創業公司階段的促銷代金券額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261113-3",
