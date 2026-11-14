@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T10:05:16.494Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T12:05:16.720Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,4 +27,4 @@
 | [Kraken Prop 商品佣金折扣](https://blog.kraken.com/) | Crypto | 金、銀、原油等非加密貨幣市場佣金降至 2bps 單邊（原來的半價），包括銀、WTI 原油、布蘭特原油、銅及天然氣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，累積交易量以解鎖最高 5,000,000 USDG 獎勵池，活動期間為 10 月 12 日至 12 月 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO 永續期權挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續期權 (Perps)，最高 10 倍槓桿，分享 10,000 USDG 獎勵池，交易量決定排名 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken F1 車手見面會抽獎活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達到 1 美元或以上，即可獲得參加美國 GP 並見 Atlassian Williams F1 團隊車手 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 車手見面會抽獎活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達到 1 美元或以上，即可獲得參加美國 GP 並見 Atlassian Williams F1 團隊車手 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
