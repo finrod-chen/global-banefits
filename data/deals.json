@@ -1888,224 +1888,6 @@
     }
   },
   {
-    "id": "steam-specials-20261113-1",
-    "sourceId": "steam-specials",
-    "name": "Steam 遊戲特價",
-    "category": "software",
-    "summary": "瀏覽 Steam 上的折扣產品與限時特惠活動。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "造訪 Steam 特價頁面",
-      "選擇 desired 遊戲或軟體並購買以享受折扣"
-    ],
-    "officialUrl": "https://store.steampowered.com/specials",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Steam 特價頁」，待人工核實，提取時間 2026-11-13T14:06:16.492Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T14:05:17.344Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面專門展示「Discounts & Events」與「WEEKEND DEAL」等限時折扣資訊，屬於特惠活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Browse discounted products on Steam!",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "humble-bundle-20261113-1",
-    "sourceId": "humble-bundle",
-    "name": "Humble Choice 年繳方案",
-    "category": "software",
-    "summary": "每月可獲得精選 PC 遊戲，會員在商店購物最高可享 8 折（節省 20%）。年繳方案每月低於 13 美元，隨時可取消。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "訂閱 Humble Choice 年繳方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進入 Humble Bundle 官網",
-      "選擇 Humble Choice 年繳方案進行訂閱"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-13T14:06:35.124Z",
-    "lastVerified": "2026-11-13",
-    "risks": "年繳方案需預付一年費用,訂閱服務可能隨時取消或變更政策",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T14:05:17.344Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面描述的是 Humble Choice 年繳方案的訂閱定價與常態權益，屬於一般付費方案。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get a curated mix of PC games every month",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Pay less than $13 USD per month with an annual plan and skip anytime",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 416,
-      "basis": "explicit-amount",
-      "usd": 13,
-      "quote": "Pay less than $13 USD per month with an annual plan",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261113-2",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 免費遊戲包 (Last Chance)",
-    "category": "software",
-    "summary": "「Create & Elevate: Amazing Art Tools from Corel」等遊戲或軟體組合提供「想付多少就付多少」（Pay What You Want）模式，通常包含 0 美元選項可免費獲得部分內容。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "登入 Humble Bundle 帳號",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進入特定 Bundle 頁面",
-      "選擇 0 美元（或最低金額）並完成購買流程以獲取遊戲"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-13T14:06:35.124Z",
-    "lastVerified": "2026-11-13",
-    "risks": "0 美元選項可能隨時下架或改變條件,部分內容可能需要額外付費解鎖",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T14:05:17.344Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "包含 Pay What You Want 模式，允許用戶付費 $0 獲得部分內容，屬於免費額度與限時折扣的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Painter 2023, PaintShop Pro 2023, Bold Strokes, Chunky Paint, Creepers, and more! Pay What You Want Create & Elevate: Amazing Art Tools from Corel LAST CHANCE",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261113-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 7天免費試用",
-    "category": "software",
-    "summary": "提供 7 天免費試用期，試用期間可依方案享有 1,000 或 2,000 AI 積分。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Setapp 訂閱方案（Mac、Mac + iOS 或 Power User）",
-      "點擊「Start 7-day free trial」"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-13T14:06:52.641Z",
-    "lastVerified": "2026-11-13",
-    "risks": "頁面標示為訂閱制（billed monthly），通常結束後會轉為付費，需注意自動扣款或取消時限。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T14:05:17.344Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供 7 天免費試用期，屬於免費試用推廣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial 1,000 AI credits",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "figma-pricing-20261113-1",
     "sourceId": "figma-pricing",
     "name": "Figma 免費試用專業版與組織版方案",
@@ -4670,7 +4452,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T22:06:11.222Z",
     "lastVerified": "2026-11-13",
     "risks": "所有 AWS Activate Credits 以 USD 計價，並受 AWS 促銷代幣條款與條件約束。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題明確標示為 Credits（代幣/額度）且標示為促銷性質（promotional credits）。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio\n$200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio\n... Talk with your Account Manager",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261113-4",
@@ -4698,6 +4515,310 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-13T22:06:11.222Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面描述 Kiro Startup Credits 為推廣額度，允許新創企業從提示轉化為代碼，屬於額度/空投積分類優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Turn prompts into working code, structured designs, and implementation tasks with an agentic development environment built on frontier models. Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gog-free-games-20261114-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 免費遊戲",
+    "category": "software",
+    "summary": "提供免費遊玩或免費領取的手遊、PC遊戲，無需購買即可擁有。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 GOG 商店",
+      "選擇標價為 0 或 Free 的遊戲",
+      "點擊 Free 按鈕加入願望清單或直接購買（價格為 0）"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-14T04:06:29.352Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅為商店列表，未顯示具體的免費遊戲標題或明確的促銷方案",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "steam-specials-20261114-1",
+    "sourceId": "steam-specials",
+    "name": "Steam 免費週末 (App ID: 2605790)",
+    "category": "software",
+    "summary": "Steam 上特定應用程式（App ID 2605790）提供免費週末體驗。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2026-11-16",
+    "ongoing": false,
+    "steps": [
+      "瀏覽 Steam 商店",
+      "搜尋或點擊該應用程式連結"
+    ],
+    "officialUrl": "https://store.steampowered.com/app/2605790",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Steam 特價頁」，待人工核實，提取時間 2026-11-14T04:06:46.944Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面資料顯示為特定遊戲的「Free Weekend」（免費週末）活動，屬於限時免費體驗方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"title\":\"Free Weekend\"",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "\"end_date\":1794852000",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": "假設該遊戲全價約 $10–$20 美元，免費週末提供極限的试玩價值，保守估算其體驗價值約合 500 新台幣。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "steam-specials-20261114-2",
+    "sourceId": "steam-specials",
+    "name": "Steam 免費週末 (App ID: 949230)",
+    "category": "software",
+    "summary": "Steam 上特定應用程式（App ID 949230）提供免費週末體驗。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2026-11-16",
+    "ongoing": false,
+    "steps": [
+      "瀏覽 Steam 商店",
+      "搜尋或點擊該應用程式連結"
+    ],
+    "officialUrl": "https://store.steampowered.com/app/949230",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Steam 特價頁」，待人工核實，提取時間 2026-11-14T04:06:46.944Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示特定應用程式提供「Free Weekend」（免費週末），屬於免費試玩方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"url\":\"https:\\/\\/store.steampowered.com\\/app\\/949230\",\"image_url\":\"https:\\/\\/shared.akamai.steamstatic.com\\/store_item_assets\\/steam\\/spotlights\\/af6f278f03f0a63108561066\\/6bbbd5f0ced0c589ebfefa8e787cab4b043d5008\\/vertical_capsule_english.j",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "1794852000",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "setapp-pricing-20261114-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 7天免費試用",
+    "category": "software",
+    "summary": "所有訂閱方案（Mac、Mac + iOS、Power User）提供7天免費試用，並包含AI點數（Mac方案1000點，Mac + iOS方案1000點，Power User方案2000點）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "頁面提及「Secure payment encryption」及「Cancel anytime」，暗示需要支付資訊以啟動試用，但頁面未明確列出具體綁卡條款。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇訂閱方案（Mac、Mac + iOS 或 Power User）",
+      "點擊「Start 7-day free trial」"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-14T04:07:21.301Z",
+    "lastVerified": "2026-11-14",
+    "risks": "頁面標示「Cancel anytime」與「Secure payment encryption」，通常意味著免費試用結束後可能自動轉為付費訂閱，除非在到期前取消。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供多個方案 7 天免費試用，並贈送指定數量的 AI 點數。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1650,
+      "basis": "ai-estimate",
+      "note": "以最低方案 Mac 每月 $14.99 估算，7 天價值約為 1/4 個月，折成新台幣約 165 元；但 AI 點數價值未公開，故保守估算。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "setapp-pricing-20261114-2",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 年繳節省促銷",
+    "category": "software",
+    "summary": "訂閱年度方案可節省最多40%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年度訂閱方案"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-14T04:07:21.301Z",
+    "lastVerified": "2026-11-14",
+    "risks": "年繳需一次性支付全年費用。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T04:05:18.201Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示的是常態的年繳價格比月繳便宜的方案比較，而非限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   }
 ]
