@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T04:05:18.201Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T06:05:16.871Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,11 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Figma 免費試用專業版與組織版方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 提供 Professional 方案免費試用 14 天，及 Organization 方案免費試用 14 天。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Figma 教育機構免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 針對全職學生及教育機構使用者提供 Figma Design、FigJam 和 Dev Mode 的免費進階方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cursor Plus 介紹方案](https://cursor.com/pricing) | AI 工具 | 定價 $8/月，標註為「Our introductory plan」（介紹性方案），包含共用的 AI 使用額度、Cursor 與 Grok  | 約 TWD 324（AI 估） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每月 $0。包含 Notion AI 測試、基礎表單、发布頁面至網頁、基礎網站、Notion 日曆、資料庫功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳支付模式可節省最多 20% (Save up to 20% with yearly)。 | 約 TWD 3,700（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0。包含不限量的 DDoS 防護、CDN、Universal SSL 憑證、免費 Managed Ruleset、WAF、Lossl | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費，適用於 50 人以下團隊或企業證明概念測試。包含 24 小時標準日誌保留、社群論壇與 Discord 支援。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費包含每日 100,000 次請求、每請求 10ms CPU 時間。超過部分依用量計費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -94,3 +89,5 @@
 | [Steam 免費週末 (App ID: 949230)](https://store.steampowered.com/app/949230) | 軟體/數位服務 | Steam 上特定應用程式（App ID 949230）提供免費週末體驗。 | 免費（價值視使用而定） | 2026-11-16 | AI 預審通過 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）提供7天免費試用，並包含AI點數（Mac方案1000點，Mac + iOS方 | 約 TWD 1,650（AI 估） | 長期活動 | 待核實 |
 | [Setapp 年繳節省促銷](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱年度方案可節省最多40%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Figma 年繳方案 AI 額度升級活動](https://www.figma.com/pricing/) | 軟體/數位服務 | 訂閱 Professional、Organization 或 Enterprise 的年繳方案，可獲得比月繳方案更多的 AI 額度。Prof | 約 TWD 112,000（AI 估） | 長期活動 | 待核實 |
+| [Notion 年繳 9 折優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 的費用。 | 約 TWD 2,950（AI 估） | 長期活動 | 待核實 |
