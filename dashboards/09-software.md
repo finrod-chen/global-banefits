@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T18:30:31.450Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T20:05:18.147Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,4 +24,4 @@
 | [Steam 週末特價活動](https://store.steampowered.com/app/2062430) | 軟體/數位服務 | 特定遊戲提供週末限時折扣（Weekend Deal）。 | 免費（價值視使用而定） | 2026-11-25 | 待核實 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用後可隨時取消。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
 | [Humble Choice 年度方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月低於 13 USD | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 有限試用品、基本表單、Notion 日曆、資料庫等功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 有限試用品、基本表單、Notion 日曆、資料庫等功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

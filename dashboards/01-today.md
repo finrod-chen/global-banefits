@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T18:30:31.450Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T20:05:18.147Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -8,31 +8,6 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 每月活躍使用者、500 MB 資料庫容量、共享 CPU 與 500 MB RAM、5 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度回饋](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 Compute 額度，可覆蓋一個 Micro 實例（$10/月）或 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Figma 年繳方案 AI 額度升級活動](https://www.figma.com/pricing/) | 軟體/數位服務 | 訂閱 Professional、Organization 或 Enterprise 的年繳方案，可獲得比月繳方案更多的 AI 額度。Prof | 約 TWD 112,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供 $0/月 的方案，包含無限 DDoS 保護、Universal SSL 憑證、CDN 等核心功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供 $0 永久使用方案，限 50 名使用者以內之團隊，或企業證明概念測試。包含社群論壇與 Discord 支援。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每 10 萬次請求/日 免費；每 10ms CPU 時間/請求 免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站（NA/EU）。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每 10 萬次請求/日 免費；每 13,000 GB-s/日 免費；SQL 讀取 5,000 萬行/日 免費；SQL 寫入 10 萬行/日  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作。 | 約 TWD 15,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存空間、每 10 萬次讀取請求/日 免費、每 1,000 次寫入/刪除/列出請求/日 免費。 | 約 TWD 8,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每 500 萬次讀取行/日 免費、每 10 萬次寫入行/日 免費。 | 約 TWD 17,100（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每 10,000 次操作/日 免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | Plus 方案月費由 $90 降至 $30 /user/month，且每用戶含 $30 月度額度與 $2 每日登入免費額度 | 約 TWD 960（AI 估） | 長期活動 | 待核實 |
-| [KuCoin Earn Friday Week 138](https://www.kucoin.com/announcement) | Crypto | 存款 USDT、SOL 或 NEAR 可獲得最高 6% 的年化收益率 (APR)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuPay Genesis 新用戶首張通行證](https://www.kucoin.com/announcement) | Crypto | KuCoin Pay 的新用戶入會方案，提供首張通行證 (First Pass)，允許用戶在亞洲、拉丁美洲和非洲三個洲使用加密貨幣進行類現金 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 新用戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取價值 10,000+ USDT 的獎勵。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 事件合約股票交易獎金池活動](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票事件合約，可瓜分 50,000 USDT 獎金池。 | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Idle Earn × Simple Earn 限時活動](https://www.gate.com/announcements) | Crypto | 限時第三階段活動，USDT 最高可賺取 9% 年化收益率 (APR)。 | 約 TWD 124（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Weekend Power Station 活動](https://www.gate.com/announcements) | Crypto | 註冊可領取 0.5 枚 SPCXG，交易可再賺取 1 枚 SPCXG。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate Master Grid Bots 新用戶活動](https://www.gate.com/announcements) | Crypto | 新機器人用戶零成本學習掌握網格式交易機器人（Master Grid Bots）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate Swap 7 日競技場活動](https://www.gate.com/announcements) | Crypto | 第四週 (W4) 活動，參與者可瓜分 1,000 USDT。 | 約 TWD 32,000（AI 估） | 長期活動 | 待核實 |
-| [Gate Convert 交易簽到活動](https://www.gate.com/announcements) | Crypto | 每日進行 Convert 交易可領取 20 USDT，並有機會贏取額外 10 GT。 | 約 TWD 5,700（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Black Friday 存款與交易獎勵](https://blog.kraken.com/) | Crypto | 最高獲得 100 美元比特幣 (BTC)，需在 11 月 12 日至 12 月 1 日期間報名、存入 1,000 美元法幣，並透過四個階梯式 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格權杖 (ANTHROPICX)，最高可獲得 20,000 美元獎勵池分配，交易量排名 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 商品佣金折扣](https://blog.kraken.com/) | Crypto | 金、銀、原油等非加密貨幣市場佣金降至 2bps 單邊（原來的半價），包括銀、WTI 原油、布蘭特原油、銅及天然氣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，累積交易量以解鎖最高 5,000,000 USDG 獎勵池，活動期間為 10 月 12 日至 12 月 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO 永續期權挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續期權 (Perps)，最高 10 倍槓桿，分享 10,000 USDG 獎勵池，交易量決定排名 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken F1 車手見面會抽獎活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達到 1 美元或以上，即可獲得參加美國 GP 並見 Atlassian Williams F1 團隊車手 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山雙11購物盛典回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
 | [玉山信用卡繳地價稅優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山環球賞啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -72,5 +47,25 @@
 | [Steam 週末特價活動](https://store.steampowered.com/app/2062430) | 軟體/數位服務 | 特定遊戲提供週末限時折扣（Weekend Deal）。 | 免費（價值視使用而定） | 2026-11-25 | 待核實 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用後可隨時取消。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
 | [Humble Choice 年度方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月低於 13 USD | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
-| [Claude 年繳 Pro 方案限時折扣](https://claude.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月費用為 $17（總計 $200），低於月繳的 $20。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 有限試用品、基本表單、Notion 日曆、資料庫等功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude 年繳 Pro 方案限時折扣](https://claude.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月費用為 $17（總計 $200），低於月繳的 $20。 | 約 TWD 1,530（AI 估） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 有限試用品、基本表單、Notion 日曆、資料庫等功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用，包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求，每次 10 毫秒 CPU 時間。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-小時記憶體、375 vCPU-分鐘 CPU、200 GB-小時磁碟空間及 1 TB 網絡輸出流量（北美/歐洲）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作。無出口流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 30,000 credits 限時 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 訂閱可獲得 30,000 credits，價格僅為 $1 | 約 TWD 32（AI 估） | 2024-09-30 | 待核實 |
+| [ElevenLabs 免費方案 (Free Plan)](https://elevenlabs.io/pricing) | AI 工具 | 每月 $0，包含 10k credits，可建立 3 個 Studio 專案 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
+| [KuCoin Earn Friday Week 138 理財活動](https://www.kucoin.com/announcement) | Crypto | 透過 USDT、SOL、NEAR 進行理財，最高可獲得 6% 的年收益率 (APR)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Idle Earn × Simple Earn 限時活動第三階段](https://www.gate.com/announcements) | Crypto | 在 USDT 上賺取最高 9% 的 APR | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Event Contracts 股票活動](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票，分享 50,000 USDT 獎金池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Weekend Power Station 週末活動](https://www.gate.com/announcements) | Crypto | 註冊即可領取 0.5 SPCXG，交易可再賺取 1 SPCXG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Master Grid Bots 新手活動](https://www.gate.com/announcements) | Crypto | 零成本掌握網格機器人，僅限新機器人用戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Swap 7天競技場](https://www.gate.com/announcements) | Crypto | 分享 1,000 USDT 獎金池 (W4) | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Convert 交易打卡活動](https://www.gate.com/announcements) | Crypto | 每日進行 Convert 交易可領取 20 USDT，並贏取額外 10 GT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可得 100 美元 BTC 獎勵。需存款 1,000 美元法定貨幣並透過四個疊加里程碑進行交易。 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 爭奪 20,000 美元 ANTHROPICX 獎池。交易 Anthropic 價格敞口，最高 10 倍槓桿，依交易量排名分配獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Prop Commissions Discount](https://blog.kraken.com/) | Crypto | 非加密貨幣市場佣金減半至每邊 2 個基本點（2bps），包含已持有帳戶。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 爭奪最高 5,000,000 美元 USDG 獎勵池。交易黃金、現實世界資產及加密貨幣期貨。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken Pre-IPO Perps Challenge](https://blog.kraken.com/) | Crypto | 爭奪 10,000 美元 USDG 獎勵。交易 OURAx 和 MOONSHOTx 永續期貨，最高 10 倍槓桿，依交易量決定排名。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken F1 Team Promotion](https://blog.kraken.com/) | Crypto | 有机会在奥斯汀大奖赛面见 Atlassian Williams F1 车队车手。使用代码 AUSTIN 註冊並交易至少 1 美元交易量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月份交易即可贏取 1,000 枚 SOL。每交易 1 美元交易量獲得一次參加資格，一位獲獎者拿走全部 1,000 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
