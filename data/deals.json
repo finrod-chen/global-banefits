@@ -3806,7 +3806,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定用戶群體（新用戶）提供零成本的教學或體驗機會，屬於新戶獎勵或免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Master Grid Bots in 1 Minute 18, Zero Cost, New Bot Users Only",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Master Grid Bots in 1 Minute 18, Zero Cost, New Bot Users Only",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261114-6",
@@ -3835,7 +3860,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供參與者瓜分總計 1,000 USDT 的獎勵池，屬於限時獎勵活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Swap 7-day Arena: Share 1,000 USDT (W4)",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 32000,
+      "basis": "explicit-amount",
+      "usd": 1000,
+      "quote": "Swap 7-day Arena: Share 1,000 USDT (W4)",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261114-7",
@@ -3865,7 +3925,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為一項簽到與交易促銷活動，用戶可透過完成指定任務領取現金與代幣獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Convert Trading Check-In: Convert Daily to Claim 20 USDT and Win an Extra 10 GT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Convert Trading Check-In: Convert Daily to Claim 20 USDT and Win an Extra 10 GT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5700,
+      "basis": "ai-estimate",
+      "note": "依據頁面提及的20 USDT獎勵估算，假設約1:30匯率，約合新台幣600元，加上10 GT的價值（假設約50美元/枚），總計約合新台幣5700元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "kraken-blog-20261114-1",
@@ -3895,7 +3986,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但參與條件包含存入資金及達成交易量",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時的新戶存款與交易獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus\nEnroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "November 12 to December 1.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "Get up to $100 in BTC",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261114-2",
@@ -3925,7 +4054,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但涉及使用槓桿交易，可能產生虧損",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個基於交易量的競賽，提供獎金池作為獎勵，屬於新戶或活動獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "compete for $20,000 in ANTHROPICX on Kraken Pro",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261114-3",
@@ -3954,7 +4116,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但涉及交易費用結構變更",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "該項目描述為常態化的商品市場交易功能上線及定價（佣金）調整，而非具有明確期限的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261114-4",
@@ -3984,7 +4174,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但涉及期貨交易，可能產生虧損",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動要求累積交易量以爭奪獎勵池，屬於限時交易激勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The $5,000,000 USDG Kraken Futures Challenge: one leaderboard, three multipliers\nTrade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "from October 12 to December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "The $5,000,000 USDG Kraken Futures Challenge: one leaderboard, three multipliers",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261114-5",
@@ -4014,7 +4242,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但涉及使用槓桿交易，可能產生虧損",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T10:05:16.494Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項具有競賽性質的限時活動，要求用戶報名並透過交易量排名以獲得獎勵池的分配，屬於典型的激勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "a share of $10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261114-6",
