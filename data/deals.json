@@ -1888,245 +1888,6 @@
     }
   },
   {
-    "id": "gemini-plans-20261113-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 方案每月 Google Cloud 積分",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 可獲得每月 10 美元的 Google Cloud 積分，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Pro 方案。",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-13T12:05:59.298Z",
-    "lastVerified": "2026-11-13",
-    "risks": "訂閱即同意條款，隨時可取消；積分價值為每月 10 美元。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T12:05:16.795Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該優惠為 Google AI Pro 方案的常態訂閱權益，並非限時折扣或專屬試用活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Includes Gemini 4 Argon\nGoogle AI Pro",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3720,
-      "basis": "ai-estimate",
-      "note": "每月 10 美元之 Google Cloud 積分，一年共 120 美元；以 1 美元約 31 新臺幣保守換算。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "gemini-plans-20261113-2",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 方案每月 Google Cloud 積分",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 可獲得每月 40 美元的 Google Cloud 積分，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Ultra 方案。",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-13T12:05:59.298Z",
-    "lastVerified": "2026-11-13",
-    "risks": "訂閱即同意條款，隨時可取消；積分價值為每月 40 美元。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T12:05:16.795Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該優惠是訂閱 Google AI Ultra 付費方案後隨附的每月 Cloud 積分，屬於一般付費方案的常態福利，並非免費方案或限時折扣。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Google AI Ultra\nFrom   /mo\nStarting at 20 TB of storage\nAccelerate your workflows with 5x higher usage limits in Gemini than the AI Pro plan",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Google AI Ultra is available in more than 150 countries — see full list of countries .",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1280,
-      "basis": "explicit-amount",
-      "usd": 40,
-      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "copilot-plans-20261113-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生方案",
-    "category": "ai",
-    "summary": "經驗證的學生可存取 GitHub Copilot 學生方案。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "須為經驗證的學生",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "完成學生身分驗證",
-      "存取 GitHub Copilot 學生方案"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-13T12:06:32.972Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T12:05:16.795Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確指出經驗證的學生可存取特定的學生方案，屬於學生優惠類別。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "okx-announce-20261113-1",
-    "sourceId": "okx-announce",
-    "name": "OKX 2026年終獎勵活動",
-    "category": "crypto",
-    "summary": "發布了一則標題為「2026 Year-End Gift Announcement」的公告，推測提供年終禮物或獎勵，但頁面列表中未包含具體數字、內容或條件說明。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-02",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊公告標題「2026 Year-End Gift Announcement」以查看完整活動內容。"
-    ],
-    "officialUrl": "https://www.okx.com/help/section/announcements-latest-announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OKX 官方公告」，待人工核實，提取時間 2026-11-13T12:06:50.385Z",
-    "lastVerified": "2026-11-13",
-    "risks": "公告標題僅提供活動存在資訊，具體參與資格與獎勵發放細節需在原文中確認，目前未見扣款或續約條款。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T12:05:16.795Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "僅有標題提及Year-End Gift，缺乏具體內容、金額或條件，無法確定是否為可領取的獎勵或優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "2026 Year-End Gift Announcement",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "steam-specials-20261113-1",
     "sourceId": "steam-specials",
     "name": "Steam 遊戲特價",
@@ -3987,7 +3748,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T20:05:23.328Z",
     "lastVerified": "2026-11-13",
     "risks": "90 天額度過期後，若帳戶內仍有剩餘額度但未使用完畢，剩餘部分將無法再使用；額度用盡後會自動開始從帳戶綁定的付款方式扣款。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給新用戶的$5免費額度，屬於新戶獎勵或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "For example, if you received a $5 credit for 90 days, then that $5 credit is automatically applied to your account. If you spend $3 in that timeframe, your card will not be charged. If you spend $10, the $5 credit will be fully utilized, an",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Your card will be charged only after you have utilized the free credits or after the credit expiration period.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 165,
+      "basis": "ai-estimate",
+      "note": "依據美國$5計算，使用匯率33元換算成新臺幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261113-2",
@@ -4015,7 +3807,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T20:05:23.328Z",
     "lastVerified": "2026-11-13",
     "risks": "超出免費資料傳輸配額後，公共網路 Egress 超額費率為每 GiB $0.01，VPC 之間 Egress 超額費率為每 GiB $0.01。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了大量無需額外付費即可使用的基礎功能、免費流量與計算資源額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost\nPublic Internet Egress Overage Data transfer is $0",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 16000,
+      "basis": "explicit-amount",
+      "usd": 500,
+      "quote": "500 GiB / mo",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "racknerd-specials-20261113-1",
@@ -4044,7 +3864,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-13T20:05:41.493Z",
     "lastVerified": "2026-11-13",
     "risks": "此優惠僅適用於專屬伺服器，不適用於 VPS 或虛擬主機",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供特定促銷代碼以獲取專有伺服器的長期折扣，屬於促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "using promo code: 15OFFDEDI",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "85"
+      ]
+    }
   },
   {
     "id": "racknerd-specials-20261113-2",
@@ -4073,7 +3922,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-13T20:05:41.493Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 RackNerd VPS 的常態年繳定價列表，提供多種規格選擇與對應的價格，並未特別標註為限定的促銷活動或包含任何免費額度。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 GB KVM VPS\n$ 21.99 /year\n1 vCPU Core\n20 GB SSD Storage\n1 GB RAM\n3 TB Monthly Transfer\n1Gbps Network Port\nFull Root Access\n1 IPv4 Address\nKVM/ctrl Panel\nDeploy in Multiple Locations\nOrder now",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Instant setup\nYour VPS is provisioned right after payment, so you can get online in minutes.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 455,
+      "basis": "ai-estimate",
+      "note": "保守估算，若使用者選擇最低規格的 1GB VPS，其年繳定價為 $21.99，依照 1 美元約匯率 20.7 新台幣計算。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "supabase-pricing-20261113-1",
@@ -4102,7 +3984,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-13T20:06:16.771Z",
     "lastVerified": "2026-11-13",
     "risks": "免費專案若超過 1 週未使用將自動暫停；同時活躍專案數量上限為 2 個。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為標示為 $0 的免費方案，包含特定功能額度，符合免費額度定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\nPerfect for passion projects & simple websites.\nStart for Free $ 0\n/ month\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file stora",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261113-2",
@@ -4131,7 +4040,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-13T20:06:16.771Z",
     "lastVerified": "2026-11-13",
     "risks": "此為付費方案內含的常規額度，非額外獎勵；若超過 $10 額度，需額外付費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是標準付費方案中附帶的月度計算資源額度，屬於定價結構的一部分，而非限時或特定群體的優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "Paid plans include $10/mo in compute credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "neon-pricing-20261113-1",
@@ -4160,7 +4104,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
     "lastVerified": "2026-11-13",
     "risks": "若專案當月用完 100 CU-hours 或 5 GB 網路傳輸量，計算資源將懸置至下一個計費週期。若超過 1 GB Postgres 儲存空間或總共 20 GB，增加存儲的操作會失敗。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供免費方案，包含固定的免費額度（專案數、計算時數、儲存空間等），屬於免費額度優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and learn free with no time limits and no credit card required. ... Lakebase Postgres 100 projects 100 CU-hrs monthly per project 1 GB of storage per project Sizes up to 2 CU (8 GB RAM) Unlimited team members ... 5 GB of Object Storag",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者利用免費的 Object Storage (5GB)、計算單元 (每月100 CU-hrs) 及後端功能，保守估算其市場價值約為每月 400-500 美元，一年約 5,000 美元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261113-2",
@@ -4188,7 +4165,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
     "lastVerified": "2026-11-13",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T00:05:18.917Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為專門針對特定對象（新創企業）提供的信用額度回饋計畫，屬於限時或條件式的獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261113-3",
