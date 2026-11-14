@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T20:05:18.147Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T22:05:18.617Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,5 +31,4 @@
 | [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示）， | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可取得 GitHub Copilot 學生方案之存取權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Claude 年繳 Pro 方案限時折扣](https://claude.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月費用為 $17（總計 $200），低於月繳的 $20。 | 約 TWD 1,530（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs 30,000 credits 限時 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 訂閱可獲得 30,000 credits，價格僅為 $1 | 約 TWD 32（AI 估） | 2024-09-30 | 待核實 |
 | [ElevenLabs 免費方案 (Free Plan)](https://elevenlabs.io/pricing) | AI 工具 | 每月 $0，包含 10k credits，可建立 3 個 Studio 專案 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |

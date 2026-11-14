@@ -700,5 +700,102 @@
     "status": "expired",
     "archivedAt": "2026-11-13T20:04:24.411Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261114-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 30,000 credits 限時 $1 優惠",
+    "category": "ai",
+    "summary": "訂閱可獲得 30,000 credits，價格僅為 $1",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "點擊 Subscribe 按鈕"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-14T20:05:59.750Z",
+    "lastVerified": "2026-11-14",
+    "risks": "優惠有期限，過期後恢復常態價格",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-14T20:05:18.147Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示「限時 $1 優惠」，屬於限時折扣與新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30,000 credits for $1 Start with 30,000 credits for only $1. Ends September 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 32,
+      "basis": "explicit-amount",
+      "usd": 1,
+      "quote": "Start with 30,000 credits for only $1.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-14T22:05:18.617Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261114-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Halloween Sweepstakes",
+    "category": "crypto",
+    "summary": "在 10 月份交易即可贏取 1,000 枚 SOL。每交易 1 美元交易量獲得一次參加資格，一位獲獎者拿走全部 1,000 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 2026 年 10 月期間交易；每 1 美元交易量換取一次資格。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "註冊活動",
+      "在 10 月進行交易",
+      "依交易量累積參加資格"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T20:07:46.343Z",
+    "lastVerified": "2026-11-14",
+    "risks": "僅一名獲獎者；需持續交易以累積資格",
+    "status": "expired",
+    "archivedAt": "2026-11-14T22:05:18.617Z",
+    "archiveReason": "endDate passed"
   }
 ]
