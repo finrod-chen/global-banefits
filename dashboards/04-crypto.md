@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T07:03:56.623Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-14T08:05:17.528Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -15,10 +15,10 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [KuCoin Earn Friday Week 138](https://www.kucoin.com/announcement) | Crypto | 存款 USDT、SOL 或 NEAR 可獲得最高 6% 的年化收益率 (APR)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [KuPay Genesis 新用戶首張通行證](https://www.kucoin.com/announcement) | Crypto | KuCoin Pay 的新用戶入會方案，提供首張通行證 (First Pass)，允許用戶在亞洲、拉丁美洲和非洲三個洲使用加密貨幣進行類現金 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 新用戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取價值 10,000+ USDT 的獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 事件合約股票交易獎金池活動](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票事件合約，可瓜分 50,000 USDT 獎金池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Idle Earn × Simple Earn 限時活動](https://www.gate.com/announcements) | Crypto | 限時第三階段活動，USDT 最高可賺取 9% 年化收益率 (APR)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Weekend Power Station 活動](https://www.gate.com/announcements) | Crypto | 註冊可領取 0.5 枚 SPCXG，交易可再賺取 1 枚 SPCXG。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 新用戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取價值 10,000+ USDT 的獎勵。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate 事件合約股票交易獎金池活動](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票事件合約，可瓜分 50,000 USDT 獎金池。 | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Idle Earn × Simple Earn 限時活動](https://www.gate.com/announcements) | Crypto | 限時第三階段活動，USDT 最高可賺取 9% 年化收益率 (APR)。 | 約 TWD 124（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Weekend Power Station 活動](https://www.gate.com/announcements) | Crypto | 註冊可領取 0.5 枚 SPCXG，交易可再賺取 1 枚 SPCXG。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate Master Grid Bots 新用戶活動](https://www.gate.com/announcements) | Crypto | 新機器人用戶零成本學習掌握網格式交易機器人（Master Grid Bots）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Swap 7 日競技場活動](https://www.gate.com/announcements) | Crypto | 第四週 (W4) 活動，參與者可瓜分 1,000 USDT。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Convert 交易簽到活動](https://www.gate.com/announcements) | Crypto | 每日進行 Convert 交易可領取 20 USDT，並有機會贏取額外 10 GT。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

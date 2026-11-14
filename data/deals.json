@@ -1888,541 +1888,6 @@
     }
   },
   {
-    "id": "esun-card-offers-20261113-1",
-    "sourceId": "esun-card-offers",
-    "name": "玉山雙11購物盛典",
-    "category": "banking",
-    "summary": "最高享9,800元回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-01",
-    "endDate": "2026-11-30",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠為特定時間（11月）的限時購物回饋活動，屬於限時折扣或新戶/活動獎勵類型。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山雙11購物盛典，最高享9,800元回饋",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "2026/11/30",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 10032,
-      "basis": "ai-estimate",
-      "usd": 313.51,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261113-2",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳地價稅",
-    "category": "banking",
-    "summary": "最高享0.2%玉山e point回饋或3期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供回饋與零利率分期，屬於特定優惠方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "最高享0.2%玉山e point回饋或3期0利率",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261113-3",
-    "sourceId": "esun-card-offers",
-    "name": "玉山環球賞",
-    "category": "banking",
-    "summary": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠為指定卡種（萬事達卡）的啟用優惠，並提供高額現金回饋，屬於新戶或啟用獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261113-4",
-    "sourceId": "esun-card-offers",
-    "name": "繳學費 就愛刷玉山信用卡",
-    "category": "banking",
-    "summary": "滿額登錄享最高6期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供0利率分期屬於限時或特定活動的優惠方案，非一般定價。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "滿額登錄享最高6期0利率！",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261113-5",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡綁定全支付",
-    "category": "banking",
-    "summary": "繳稅費享3%全點回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠提供繳稅費的回饋方案，屬於付費後的額外回饋或獎勵機制。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "繳稅費享3%全點回饋",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261113-6",
-    "sourceId": "esun-card-offers",
-    "name": "Trip.com 訂房折扣",
-    "category": "banking",
-    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-13T20:05:04.740Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-13T22:05:17.299Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供特定卡種的訂房折扣優惠，屬於限時或條件式折扣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1500,
-      "basis": "ai-estimate",
-      "note": "假設使用者每年在日本或透過Visa訂房消費約18,750元（15000/0.8），取得8%或14%的折扣回饋約為1500元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "digitalocean-pricing-20261113-1",
-    "sourceId": "digitalocean-pricing",
-    "name": "DigitalOcean 新用戶 $5 免費額度",
-    "category": "vps-cloud",
-    "summary": "提供 $5 的免費額度，有效期為 90 天。若消費金額低於額度，則不會被扣款；若消費超過額度，僅需支付超出部分。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需綁定信用卡或符合的付款方式；額度為 90 天後過期。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 DigitalOcean 帳戶",
-      "添加付款方式（信用卡、PayPal 等）",
-      "使用 $5 額度建立資源"
-    ],
-    "officialUrl": "https://www.digitalocean.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T20:05:23.328Z",
-    "lastVerified": "2026-11-13",
-    "risks": "90 天額度過期後，若帳戶內仍有剩餘額度但未使用完畢，剩餘部分將無法再使用；額度用盡後會自動開始從帳戶綁定的付款方式扣款。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供給新用戶的$5免費額度，屬於新戶獎勵或額度。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "For example, if you received a $5 credit for 90 days, then that $5 credit is automatically applied to your account. If you spend $3 in that timeframe, your card will not be charged. If you spend $10, the $5 credit will be fully utilized, an",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Your card will be charged only after you have utilized the free credits or after the credit expiration period.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 165,
-      "basis": "ai-estimate",
-      "note": "依據美國$5計算，使用匯率33元換算成新臺幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "digitalocean-pricing-20261113-2",
-    "sourceId": "digitalocean-pricing",
-    "name": "DigitalOcean 免費平台功能與額度",
-    "category": "vps-cloud",
-    "summary": "包含以下免費功能與額度：建立 3 個靜態網站免費；數據中心內跨 VPC 資料傳輸免費；Ingress 資料傳輸免費；免費建立不限數量的 VPC；Droplet 每月包含免費出站資料傳輸 500 GiB；免費 DNS 管理；免費容器暫存庫（1 個倉庫與 500 MiB 儲存空間）；免費雲端防火牆；每月免費使用 90,000 GiB-seconds 的 Functions 計算資源。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 DigitalOcean 帳戶"
-    ],
-    "officialUrl": "https://www.digitalocean.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-13T20:05:23.328Z",
-    "lastVerified": "2026-11-13",
-    "risks": "超出免費資料傳輸配額後，公共網路 Egress 超額費率為每 GiB $0.01，VPC 之間 Egress 超額費率為每 GiB $0.01。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出了大量無需額外付費即可使用的基礎功能、免費流量與計算資源額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost\nPublic Internet Egress Overage Data transfer is $0",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 16000,
-      "basis": "explicit-amount",
-      "usd": 500,
-      "quote": "500 GiB / mo",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261113-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd 專屬伺服器促銷代碼 15OFFDEDI",
-    "category": "vps-cloud",
-    "summary": "使用促銷代碼 15OFFDEDI 可享所有專屬伺服器（Dedicated Servers）終身 85 折（15% off for life）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須在結帳時輸入促銷代碼 15OFFDEDI",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 RackNerd 專屬伺服器方案",
-      "在結帳流程中輸入促銷代碼 15OFFDEDI"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-13T20:05:41.493Z",
-    "lastVerified": "2026-11-13",
-    "risks": "此優惠僅適用於專屬伺服器，不適用於 VPS 或虛擬主機",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供特定促銷代碼以獲取專有伺服器的長期折扣，屬於促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "using promo code: 15OFFDEDI",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "85"
-      ]
-    }
-  },
-  {
-    "id": "racknerd-specials-20261113-2",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd VPS 特價方案",
-    "category": "vps-cloud",
-    "summary": "提供多款 KVM VPS 年繳特價，包括 1GB $21.99/年、2GB $35.99/年、4GB $59.99/年、6GB $89.99/年、8GB $119.99/年，皆含完整 Root 權限與 1Gbps 網路埠。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需付費訂閱年繳方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇想要的 VPS 規格",
-      "點擊 Order now 進行訂購"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-13T20:05:41.493Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 RackNerd VPS 的常態年繳定價列表，提供多種規格選擇與對應的價格，並未特別標註為限定的促銷活動或包含任何免費額度。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 GB KVM VPS\n$ 21.99 /year\n1 vCPU Core\n20 GB SSD Storage\n1 GB RAM\n3 TB Monthly Transfer\n1Gbps Network Port\nFull Root Access\n1 IPv4 Address\nKVM/ctrl Panel\nDeploy in Multiple Locations\nOrder now",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Instant setup\nYour VPS is provisioned right after payment, so you can get online in minutes.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 455,
-      "basis": "ai-estimate",
-      "note": "保守估算，若使用者選擇最低規格的 1GB VPS，其年繳定價為 $21.99，依照 1 美元約匯率 20.7 新台幣計算。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "supabase-pricing-20261113-1",
     "sourceId": "supabase-pricing",
     "name": "Supabase 免費方案",
@@ -2540,228 +2005,6 @@
       "quote": "Paid plans include $10/mo in compute credits",
       "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
       "confidence": "high"
-    }
-  },
-  {
-    "id": "neon-pricing-20261113-1",
-    "sourceId": "neon-pricing",
-    "name": "Neon 免費方案",
-    "category": "vps-cloud",
-    "summary": "免費方案，無需時間限制與信用卡。包含：100 個專案、每個專案每月 100 CU-hrs、每個專案 1 GB 儲存空間、最大 2 CU (8 GB RAM)、無限制團隊成員、5 GB Object Storage、Realtime (Beta) 等。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "不需要信用卡。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Neon 定價頁面",
-      "點擊 'Try Neon' 或 'Get started for free'"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
-    "lastVerified": "2026-11-13",
-    "risks": "若專案當月用完 100 CU-hours 或 5 GB 網路傳輸量，計算資源將懸置至下一個計費週期。若超過 1 GB Postgres 儲存空間或總共 20 GB，增加存儲的操作會失敗。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供免費方案，包含固定的免費額度（專案數、計算時數、儲存空間等），屬於免費額度優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Build and learn free with no time limits and no credit card required. ... Lakebase Postgres 100 projects 100 CU-hrs monthly per project 1 GB of storage per project Sizes up to 2 CU (8 GB RAM) Unlimited team members ... 5 GB of Object Storag",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "no credit card required",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 50000,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者利用免費的 Object Storage (5GB)、計算單元 (每月100 CU-hrs) 及後端功能，保守估算其市場價值約為每月 400-500 美元，一年約 5,000 美元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "neon-pricing-20261113-2",
-    "sourceId": "neon-pricing",
-    "name": "Neon 新創企業計畫 (Startup Program)",
-    "category": "vps-cloud",
-    "summary": "提供新創企業最高 $100k 的信用額度 (credits)。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須是早期階段的新創企業 (Early-stage startups)。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 'Learn more about Early-stage startups' 了解更多資訊並申請"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-14T00:05:18.917Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目為專門針對特定對象（新創企業）提供的信用額度回饋計畫，屬於限時或條件式的獎勵活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Launch faster with up to $100k in credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Early-stage startups",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "neon-pricing-20261113-3",
-    "sourceId": "neon-pricing",
-    "name": "Neon 開源計畫 (Open Source Program)",
-    "category": "vps-cloud",
-    "summary": "為維護的開源項目提供贊助 (Sponsorship)。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須是開源項目。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 'Learn more about Open source projects' 了解更多資訊並申請"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
-    "lastVerified": "2026-11-13",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-14T02:05:17.038Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該方案屬於針對特定族群（開源專案）提供的贊助與資源支持性質的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Open Source Program Open source projects\nSponsorship for the open source you maintain.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Open source projects",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "neon-pricing-20261113-4",
-    "sourceId": "neon-pricing",
-    "name": "Neon Claimable Neon",
-    "category": "vps-cloud",
-    "summary": "提供即時 Postgres 項目，無需帳戶且無需信用卡。若在 72 小時內領取到 Neon 帳戶則可保留；未領取的項目限 100 MB 儲存空間和 1 GB 網路傳輸量。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "無帳戶與信用卡即可開始。需在 72 小時內將項目領取到 Neon 帳戶以保留。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用 Claimable Neon 功能獲取即時 Postgres 項目",
-      "在 72 小時內將項目領取至 Neon 帳戶"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-13T20:06:35.744Z",
-    "lastVerified": "2026-11-13",
-    "risks": "若未在 72 小時內領取至帳戶，項目將被限制為 100 MB 儲存空間和 1 GB 網路傳輸量。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-14T02:05:17.038Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "Claimable Neon 提供無帳戶、無信用卡的即時體驗額度，屬於新戶或體驗型的免費試用/額度優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Can I try Neon without signing up?\nYes. Claimable Neon gives you, or an AI agent working for you, an instant Postgres project with no account and no credit card. Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are ",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are capped at 100 MB of storage and 1 GB of network transfer.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
     }
   },
   {
@@ -4106,7 +3349,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-14T07:04:26.976Z",
     "lastVerified": "2026-11-14",
     "risks": "超過免費額度後將按使用量付費（$0.40 / 百萬次操作）。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出常態的免費額度與付費標準，屬於一般定價結構而非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations\nFree 10,000 operations/day included\nPaid $0.40 / million operations",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "v0-pricing-20261114-1",
@@ -4135,7 +3400,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-14T07:05:01.133Z",
     "lastVerified": "2026-11-14",
     "risks": "訂閱服務通常涉及自動續約，需留意取消條款與帳單週期",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示「Popular」且列出常態定價結構，無限時折扣或特殊活動標識，屬一般付費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$30 $ 90 /user/month\nEverything from Free\nAccess to all models\n$30 of included monthly credits per user\n$2 of free daily credits on login per user",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 960,
+      "basis": "explicit-amount",
+      "usd": 30,
+      "quote": "$30 $ 90 /user/month",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kucoin-announce-20261114-1",
@@ -4164,7 +3459,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-14T07:05:36.252Z",
     "lastVerified": "2026-11-14",
     "risks": "年化收益率會隨市場情況變動，可能低於標示的最高 6%",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "該項為投資理財產品（Earn）提供的年化收益率（APR），屬於常態金融服務定價機制，而非新戶獎勵、限時折扣或免費額度促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn Friday Week 138: Earn up to 6% APR with USDT, SOL, NEAR",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kucoin-announce-20261114-2",
@@ -4196,7 +3513,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-14T07:05:36.252Z",
     "lastVerified": "2026-11-14",
     "risks": "僅限特定地區使用 (亞洲、拉丁美洲、非洲)",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對新用戶（onboarding）的首次入會獎勵方案（Claim Your First Pass）。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "KuPay Genesis: Claim Your First Pass & Spend Crypto Like Cash Across 3 Continents!",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "elcome to KuPay Genesis, the flagship onboarding initiative by KuCoin Pay.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Desgined to empower users across Asia, Latin America, and Africa, KuPay Genesis bridges local real-world commerce with seamless crypto payments.",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261114-1",
@@ -4225,7 +3574,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面公告明確指出註冊即可領取大額USDT獎勵，符合新戶獎勵的促銷性質。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "Sign up to claim 10,000+ USDT rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261114-2",
@@ -4254,7 +3631,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "透過交易指定產品以瓜分獎金池，屬於限時活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade to Share a 50,000 USDT Prize Pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1600000,
+      "basis": "explicit-amount",
+      "usd": 50000,
+      "quote": "50,000 USDT Prize Pool",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261114-3",
@@ -4283,7 +3693,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為「Limited-Time Event」（限時活動），並提供高於常態的特定年化收益率（APR），符合限時優惠與促銷性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Idle Earn\nTrade & earn at the same time\nSimple Earn\nEarn interest with idle tokens",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 124,
+      "basis": "ai-estimate",
+      "note": "假設保守的一般使用者持有 100 美元（約 3000 新台幣）的 USDT 參與一年。依據頁面所述最高 9% APR，計算出約 9 美元收益，換算成新台幣約 124 元（1 USD = 13.78 TWD 估算）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gate-announce-20261114-4",
@@ -4312,7 +3753,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-14T07:05:55.676Z",
     "lastVerified": "2026-11-14",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-14T08:05:17.528Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示為註冊即可領取代幣獎勵並透過交易獲得額外獎勵的活動，屬於新戶或限時推廣性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Weekend Power Station: Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Weekend Power Station: Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261114-5",
@@ -4578,6 +4044,382 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-14T07:06:34.735Z",
     "lastVerified": "2026-11-14",
     "risks": "未明確寫出特定扣款風險，但需要進行交易以獲得資格",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-1",
+    "sourceId": "esun-card-offers",
+    "name": "玉山雙11購物盛典回饋",
+    "category": "banking",
+    "summary": "最高享9,800元回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-30",
+    "ongoing": false,
+    "steps": [
+      "活動期間內使用玉山信用卡消費",
+      "登錄活動"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-2",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡繳地價稅優惠",
+    "category": "banking",
+    "summary": "最高享0.2%玉山e point回饋或3期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用玉山信用卡繳交地價稅"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-3",
+    "sourceId": "esun-card-offers",
+    "name": "玉山環球賞啟用優惠",
+    "category": "banking",
+    "summary": "玉山指定萬事達卡啟用最高20%現金回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為玉山指定萬事達卡持卡人並完成啟用",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "啟用玉山指定萬事達卡"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-4",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡繳學費優惠",
+    "category": "banking",
+    "summary": "滿額登錄享最高6期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需繳學費滿額並進行活動登錄",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用玉山信用卡繳交學費",
+      "達到滿額門檻",
+      "進行活動登錄"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-5",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡綁定全支付優惠",
+    "category": "banking",
+    "summary": "繳稅費享3%全點回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需將玉山信用卡綁定全支付",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "綁定玉山信用卡至全支付",
+      "使用全支付繳交稅費"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261114-6",
+    "sourceId": "esun-card-offers",
+    "name": "Trip.com訂房折扣",
+    "category": "banking",
+    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用玉山JCB卡或玉山Visa卡",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用玉山JCB卡預訂日本飯店",
+      "或使用玉山Visa卡預訂飯店"
+    ],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-14T08:06:02.870Z",
+    "lastVerified": "2026-11-14",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261114-1",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 免費額度與平台福利",
+    "category": "vps-cloud",
+    "summary": "提供多項免費服務額度，包括：每月90,000 GiB-seconds的Functions使用量；Kubernetes免費控制平面與頻寬額度；Droplets包含每月500 GiB的免費出站流量；3個免費靜態網站；免費DNS管理、雲端防火牆、預設IP（指派給Droplet時）；Container Registry包含1個 repository 及 500 MiB 儲存空間；VPC內數據傳輸與Ingress免費；每月25個 secret-month 當量及 100K 次成功檢索請求的Secrets Manager額度；每月1次Uptime Check。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "無明確額外參與條件，為帳戶內建功能或免費額度",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 DigitalOcean 帳戶",
+      "使用相關產品（如 Functions, Kubernetes, Droplets, Spaces, etc.）"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-14T08:06:21.027Z",
+    "lastVerified": "2026-11-14",
+    "risks": "超出免費額度或頻寬限制後，將依標準付費方案計價（如出站流量超額費率為 $0.01/GiB）",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261114-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 特價 VPS",
+    "category": "vps-cloud",
+    "summary": "提供多款 KVM VPS 年費方案：1GB RAM 年費 $21.99、2GB RAM 年費 $35.99、4GB RAM 年費 $59.99、6GB RAM 年費 $89.99、8GB RAM 年費 $119.99。包含 1Gbps 網路端口及不同容量 SSD 存儲。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "頁面標示為 WHILE AVAILABLE（庫存充足時有效），需支付年費訂購",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇所需的 VPS 規格",
+      "支付年費費用",
+      "即可部署 VPS"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-14T08:06:39.202Z",
+    "lastVerified": "2026-11-14",
+    "risks": "標示為 WHILE AVAILABLE，售完即止；需支付年費",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261114-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 專用伺服器促銷碼優惠",
+    "category": "vps-cloud",
+    "summary": "使用促銷代碼 15OFFDEDI 可享所有專用伺服器（Dedicated Servers）永久 15% 折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在訂購時輸入促銷代碼 15OFFDEDI",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇專用伺服器方案",
+      "在結帳時輸入促銷代碼 15OFFDEDI",
+      "完成支付"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-14T08:06:39.202Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261114-1",
+    "sourceId": "neon-pricing",
+    "name": "Neon 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0，包含 100 個專案、每個專案 100 CU-hrs 月度運算、1 GB 儲存空間、無限制團隊成員、5 GB Object Storage 及 1M invocations Functions。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "免信用卡、無時間限制",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Neon 定價頁",
+      "點擊 Free 方案的 'Try Neon' 按鈕註冊"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-14T08:07:15.247Z",
+    "lastVerified": "2026-11-14",
+    "risks": "若專案使用超過每月 100 CU-hours 或 5 GB 網路傳輸量，運算將被暫停直至下一個帳單週期；若 Postgres 儲存空間超過 1 GB 或總計超過 20 GB，增加儲存空間的操作將失敗。",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261114-2",
+    "sourceId": "neon-pricing",
+    "name": "Neon 早期創新型新創企業計劃",
+    "category": "vps-cloud",
+    "summary": "為早期新創企業提供最高 $100k 的額度（credits）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Learn more about Early-stage startups' 連結申請"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-14T08:07:15.247Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261114-3",
+    "sourceId": "neon-pricing",
+    "name": "Neon 開源專案贊助計劃",
+    "category": "vps-cloud",
+    "summary": "為您維護的開源專案提供贊助（Sponsorship）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Learn more about Open source projects' 連結申請"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-14T08:07:15.247Z",
+    "lastVerified": "2026-11-14",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261114-4",
+    "sourceId": "neon-pricing",
+    "name": "Neon Claimable Neon 體驗",
+    "category": "vps-cloud",
+    "summary": "提供即時的 Postgres 專案，無需帳戶且無需信用卡。未綁定至 Neon 帳戶的專案限制為 100 MB 儲存空間和 1 GB 網路傳輸。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 72 小時內綁定至 Neon 帳戶才能保留",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Claimable Neon 功能獲取專案",
+      "在 72 小時內將其註冊到 Neon 帳戶"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-14T08:07:15.247Z",
+    "lastVerified": "2026-11-14",
+    "risks": "若未在 72 小時內綁定帳戶，專案將受限於 100 MB 儲存空間和 1 GB 網路傳輸。",
     "status": "pending"
   }
 ]
