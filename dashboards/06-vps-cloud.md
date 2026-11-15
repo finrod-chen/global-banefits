@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-14T22:45:47.170Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T00:05:17.121Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,15 +13,14 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 每月活躍使用者、500 MB 資料庫容量、共享 CPU 與 500 MB RAM、5 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度回饋](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 Compute 額度，可覆蓋一個 Micro 實例（$10/月）或 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元 AWS 推廣信用額度。針對自資新創（Activate Founders）提供最高 5,000 美元（ | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 人以下團隊或企業概念驗證可永久免費使用，包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求，每次 10 毫秒 CPU 時間。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-小時記憶體、375 vCPU-分鐘 CPU、200 GB-小時磁碟空間及 1 TB 網絡輸出流量（北美/歐洲）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作。無出口流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 新戶獲得 $5 的免費額度，有效期為 90 天。在額度用盡或過期前，信用卡不會被扣款；若消費超過額度，僅扣除超出部分。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（control plane）以及免費的頻寬配額（free bandwidth allowanc | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 新戶獲得 $5 的免費額度，有效期為 90 天。在額度用盡或過期前，信用卡不會被扣款；若消費超過額度，僅扣除超出部分。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（control plane）以及免費的頻寬配額（free bandwidth allowanc | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean VPC 免費內網流量與建立](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立無限 VPC 不收取額外費用；VPC 內的進入流量（Ingress data transfer）免費；同數據中心內的 VPC Peeri | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 靜態網站免費部署](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個靜態網站（static sites）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 靜態網站免費部署](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個靜態網站（static sites）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費保留 IP 與 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 指派給 Droplet 的保留 IP（Reserved IPs）免費；提供免費的 DNS 管理功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 容器註冊表免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表（Container Registry）包含 1 個儲存庫與 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Functions 免費執行額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月包含 90,000 GiB-seconds 的免費使用量；函數調用（function invocations）不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -33,3 +32,7 @@
 | [Neon 新創企業優惠 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (up to $100k) 的額度 (credits)，以加速產品推出。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable Postgres 專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號即可立即獲得一個 Postgres 專案，無需信用卡。未聲領的專案上限為 100 MB 儲存空間和 1 GB 網路傳輸。聲領後需在  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders Self-funded 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 激活信用額度（Activate Credits），起始額度為 1,000 USD，部分合資格參與者 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Portfolio Pre-Series B 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 激活信用額度（Activate Credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS 信用額度，專為準備擴展規模的 AI 創新的公司提供額外額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 啟動信用額度，可用於 agentic 開發環境，幫助將提示轉換為可運行的代碼和結構化設計。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
