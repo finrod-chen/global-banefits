@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-15T16:05:17.714Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T18:05:17.921Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -44,13 +44,6 @@
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 每月活躍使用者、500 MB 資料庫容量、共享 CPU 與 500 MB RAM、5 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度回饋](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 Compute 額度，可覆蓋一個 Micro 實例（$10/月）或 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（Free） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 迎新優惠 (Welcome Offer)](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供限時特價 deal，頁面顯示「Start your game collection with these special limited | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [GOG Loyalty 忠誠度金幣](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 會員帳戶顯示「{{ account.loyaltyCoinsDaysRemaining }} day(s) until your next  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Steam WEEKEND DEAL](https://store.steampowered.com/specials) | 軟體/數位服務 | 週末特價活動，提供軟體類遊戲的限時折扣。 | 免費（價值視使用而定） | 2026-11-17 | AI 預審通過 |
-| [Steam COH Franchise Sale 2026](https://store.steampowered.com/specials) | 軟體/數位服務 | Call of Duty 系列作品專場促銷活動，提供限時折扣。 | 免費（價值視使用而定） | 2026-11-17 | 待核實 |
-| [Steam Weeklong Deals](https://store.steampowered.com/specials) | 軟體/數位服務 | 長期特價活動，持續展示多款遊戲與軟體的折扣情報。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用期，適用方案包括 Mac 方案（含 1,000 AI 積分）、Mac + iOS 方案（含 1,000 AI 積分）以及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Humble Bundle 軟體 Bundle (Painter 2023 等)](https://www.humblebundle.com/) | 軟體/數位服務 | 付費即可獲得 Painter 2023, PaintShop Pro 2023 等 24 項軟體，總價值 $1,268.00。此為 'Pay | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Bundle 微軟認證 Azure 書籍 Bundle](https://www.humblebundle.com/) | 軟體/數位服務 | 付費即可獲得 MC Microsoft Certified Azure Fundamentals Study Guide: Exam AZ- | 約 TWD 31,680（AI 估） | 長期活動 | AI 預審通過 |
 | [Humble Bundle 非洲未來主義書籍 Bundle](https://www.humblebundle.com/) | 軟體/數位服務 | 付費即可獲得 THE BOOK OF PHOENIX 等 13 本書，總價值 $179.00。 | 約 TWD 5,728（AI 估） | 長期活動 | AI 預審通過 |
@@ -92,3 +85,13 @@
 | [Wise Assets 存款收益活動](https://wise.com/) | 海外銀行/卡 |  opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3. | 約 TWD 3,650（AI 估） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,971（AI 估） | 2026-11-30 | 待核實 |
 | [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 學生免費網域與 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 網域註冊免費；1 年 SSL 憑證免費 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
+| [Name.com 學生免費網域](https://education.github.com/pack) | 軟體/數位服務 | 免費使用精選網域（包含 .live, .studio, .software, .app, .dev 等超過 25 種後綴）建立專案 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 學生免費資源與信用額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上 Microsoft Azure 雲端服務，以及 $100 的 Azure 信用額度 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費 1 年 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Pro 學生免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間免費使用 GitHub Pro | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 透過 GitHub 學生帳戶註冊 DataCamp 訂閱，可享 3 個月免費 access | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft 365 學生免費或折扣方案](https://education.github.com/pack) | 軟體/數位服務 | 學生可免費或享折扣使用 Microsoft 365（含 AI Copilot、1TB 雲端儲存空間及進階安全性） | 約 TWD 15,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion Education 學生方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（含 Plus 方案所有功能、增強分享與協作功能、更長頁面歷史記錄）及額外 AI 回應 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Student 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 提供無限制代碼補全建議、GitHub AI 額度、有限的聊天與 Agent 使用（僅限自動模型選擇） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，並額外贈送1,000或2,000個AI點數（視方案而定） | 免費（價值視使用而定） | 長期活動 | 待核實 |
