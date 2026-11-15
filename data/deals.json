@@ -5042,7 +5042,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個有總價值標示且通常附有限時倒數的「Pay What You Want」Bundle，屬於特定活動或限時優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get THE BOOK OF PHOENIX, NOOR, BINTI: COMPLETE TRILOGY, SHADOW SPEAKER, and more!\n13 Books • $179.00 Value",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5728,
+      "basis": "explicit-amount",
+      "usd": 179,
+      "quote": "$179.00 Value",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "humble-bundle-20261115-4",
@@ -5072,7 +5100,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示為 'Pay What You Want'，屬於一般常態的付費授權方案，而非限時免費或特定折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get Advanced Smart Home Automation Solutions with Home Assistant, and more! 18 Books • $722.00 Value Humble Tech Book Bundle: Robotics & Automation Engineering Mastery Bundle by Packt 00:00:00:00 Pay What You Want",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 23104,
+      "basis": "explicit-amount",
+      "usd": 722,
+      "quote": "$722.00 Value",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "humble-bundle-20261115-5",
@@ -5102,7 +5160,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該優惠屬於 Pay What You Want（自定價格）的常態付費專案，並無限時免費或特殊折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get Unreal Engine 5 Performance Optimization Cookbook, and more!\n17 Books • $733.00 Value\nHumble Tech Book Bundle: Unreal Engine 5 and C++ Power Bundle by Packt",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 23456,
+      "basis": "explicit-amount",
+      "usd": 733,
+      "quote": "$733.00 Value",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "humble-bundle-20261115-6",
@@ -5132,7 +5220,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面標示為 Pay What You Want 且沒有明確的免費額度、折扣比例或限時免費標籤，僅列出總價值與物品數量。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get Atlantis, SteamPunk, Art Nouveau, Restaurants, Art Deco, Atlantis Materials, and more!\n12 Items • $1,025.00 Value",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261115-7",
@@ -5162,7 +5272,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示該桌遊 Bundle 為 'Pay What You Want' 模式並附有倒數計時器，屬於限時優惠活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get Clue/Cluedo, Clue/Cluedo: Noir Mansion Expansion, and more!\n18 Items • $283.00 Value",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9056,
+      "basis": "ai-estimate",
+      "usd": 283,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確列出總價值為 $283.00，此為該優惠組合的標示價值。",
+      "confidence": "low"
+    }
   },
   {
     "id": "humble-bundle-20261115-8",
@@ -5192,7 +5329,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
     "lastVerified": "2026-11-15",
     "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示此 Bundle 為 \"Pay What You Want\"（出價購買/慈善募資模式），而非標準固定定價的遊戲，屬於 Humble Bundle 典型的限時/不定時促銷方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get No-Sew Mini Amigurumi, Crochet World of Creepy Creatures and Cryptids, and more!\n29 Books • $346.00 Value\nHumble Craft Book Bundle: Cute, Quirky, Goth, and Spooky: Crochet and Amigurumi by Page Street",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10638,
+      "basis": "ai-estimate",
+      "note": "依頁面標示的總價值 $346.00 USD 換算，以 30.75 之匯率估算約為新台幣 10,638 元，代表此書包對使用者的潛在價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "notion-pricing-20261115-1",
@@ -5221,7 +5384,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T06:06:38.676Z",
     "lastVerified": "2026-11-15",
     "risks": "檔案上傳限制為 5MB,頁面歷史記錄僅保留 7 天,外部訪客限制為 10 人,Notion AI 功能僅為有限試用（Limited Trial）",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "Notion 的 Free 方案是持續免費的定價階級（$0/月），並包含 AI 功能的基本試用額度，屬於常態性的基本產品定價，而非有限期限或特定對象的限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Essentials for staying organized.\nFree\n$0 per member / month\nFor individuals to organize personal projects and life.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261115-2",
@@ -5249,7 +5434,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T06:06:38.676Z",
     "lastVerified": "2026-11-15",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T07:14:07.904Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示常態的年繳價格選項並標示可節省最多20%費用，屬於一般定價機制。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261115-3",
