@@ -2008,614 +2008,6 @@
     }
   },
   {
-    "id": "humble-bundle-20261115-1",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 軟體 Bundle (Painter 2023 等)",
-    "category": "software",
-    "summary": "付費即可獲得 Painter 2023, PaintShop Pro 2023 等 24 項軟體，總價值 $1,268.00。此為 'Pay What You Want' 模式，通常包含最低價格與平均價格，頁面未顯示具體最低金額。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "選擇 Software 類別下的相關 Bundle",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "若選擇 'Pay What You Want' 的最高價格或特定層級，可能需支付較高額費用；部分高階層級可能需要輸入信用卡資訊以確保最低付款額。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T06:05:18.111Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "此為「Pay What You Want」軟體 Bundle，屬於常態付費方案，雖有價值標示但未提供明確的限時免費或固定折扣價格。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Painter 2023, PaintShop Pro 2023, Bold Strokes, Chunky Paint, Creepers, and more!\n24 Items • $1,268.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-2",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 微軟認證 Azure 書籍 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 MC Microsoft Certified Azure Fundamentals Study Guide: Exam AZ-900 等 20 本書，總價值 $990.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Humble Tech Book Bundle: Certifications and Security for Cloud and DevOps by Wiley",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T06:05:18.111Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示「Pay What You Want」並顯示限時倒數「LAST CHANCE 00:00:00:00」，屬於限時優惠活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get MC Microsoft Certified Azure Fundamentals Study Guide: Exam AZ-900, and more!\n20 Books • $990.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 31680,
-      "basis": "explicit-amount",
-      "usd": 990,
-      "quote": "$990.00 Value",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-3",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 非洲未來主義書籍 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 THE BOOK OF PHOENIX 等 13 本書，總價值 $179.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 African Futurism: Nnedi Okorafor, Wole Talabi, and Adam Oyebanji by DAW Books",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個有總價值標示且通常附有限時倒數的「Pay What You Want」Bundle，屬於特定活動或限時優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get THE BOOK OF PHOENIX, NOOR, BINTI: COMPLETE TRILOGY, SHADOW SPEAKER, and more!\n13 Books • $179.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5728,
-      "basis": "explicit-amount",
-      "usd": 179,
-      "quote": "$179.00 Value",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-4",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 機器人與自動化工程書籍 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 Advanced Smart Home Automation Solutions with Home Assistant 等 18 本書，總價值 $722.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Humble Tech Book Bundle: Robotics & Automation Engineering Mastery Bundle by Packt",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面標示為 'Pay What You Want'，屬於一般常態的付費授權方案，而非限時免費或特定折扣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Advanced Smart Home Automation Solutions with Home Assistant, and more! 18 Books • $722.00 Value Humble Tech Book Bundle: Robotics & Automation Engineering Mastery Bundle by Packt 00:00:00:00 Pay What You Want",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 23104,
-      "basis": "explicit-amount",
-      "usd": 722,
-      "quote": "$722.00 Value",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-5",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle Unreal Engine 5 書籍 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 Unreal Engine 5 Performance Optimization Cookbook 等 17 本書，總價值 $733.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Humble Tech Book Bundle: Unreal Engine 5 and C++ Power Bundle by Packt",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該優惠屬於 Pay What You Want（自定價格）的常態付費專案，並無限時免費或特殊折扣。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Unreal Engine 5 Performance Optimization Cookbook, and more!\n17 Books • $733.00 Value\nHumble Tech Book Bundle: Unreal Engine 5 and C++ Power Bundle by Packt",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 23456,
-      "basis": "explicit-amount",
-      "usd": 733,
-      "quote": "$733.00 Value",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-6",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 環境素材包 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 Atlantis, SteamPunk 等 12 項素材，總價值 $1,025.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Timeless Worlds - Environment Packs",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面標示為 Pay What You Want 且沒有明確的免費額度、折扣比例或限時免費標籤，僅列出總價值與物品數量。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Atlantis, SteamPunk, Art Nouveau, Restaurants, Art Deco, Atlantis Materials, and more!\n12 Items • $1,025.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-7",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 桌遊 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 Clue/Cluedo 等 18 項桌遊，總價值 $283.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Marmalade Game Studio: Ultimate Digital Game Night",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示該桌遊 Bundle 為 'Pay What You Want' 模式並附有倒數計時器，屬於限時優惠活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get Clue/Cluedo, Clue/Cluedo: Noir Mansion Expansion, and more!\n18 Items • $283.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 9056,
-      "basis": "ai-estimate",
-      "usd": 283,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確列出總價值為 $283.00，此為該優惠組合的標示價值。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "humble-bundle-20261115-8",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle 鉤織書籍 Bundle",
-    "category": "software",
-    "summary": "付費即可獲得 No-Sew Mini Amigurumi 等 29 本書，總價值 $346.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Humble Bundle 官網",
-      "找到 Humble Craft Book Bundle: Cute, Quirky, Goth, and Spooky: Crochet and Amigurumi by Page Street",
-      "輸入願意支付的價格並完成結帳"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-15T06:06:20.251Z",
-    "lastVerified": "2026-11-15",
-    "risks": "同 Pay What You Want 機制，需自定價格。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示此 Bundle 為 \"Pay What You Want\"（出價購買/慈善募資模式），而非標準固定定價的遊戲，屬於 Humble Bundle 典型的限時/不定時促銷方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get No-Sew Mini Amigurumi, Crochet World of Creepy Creatures and Cryptids, and more!\n29 Books • $346.00 Value\nHumble Craft Book Bundle: Cute, Quirky, Goth, and Spooky: Crochet and Amigurumi by Page Street",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 10638,
-      "basis": "ai-estimate",
-      "note": "依頁面標示的總價值 $346.00 USD 換算，以 30.75 之匯率估算約為新台幣 10,638 元，代表此書包對使用者的潛在價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "提供免費的 Essentials 方案，費用為 $0 每成員/月。包含 Notion AI 的試用（生成文件、自動填充資料庫）、基本表單、發布到網頁、Notion Calendar、資料庫、以及 5MB 的檔案上傳限制。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Notion 定價頁面",
-      "選擇 Free 方案並點擊 Sign up"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T06:06:38.676Z",
-    "lastVerified": "2026-11-15",
-    "risks": "檔案上傳限制為 5MB,頁面歷史記錄僅保留 7 天,外部訪客限制為 10 人,Notion AI 功能僅為有限試用（Limited Trial）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "Notion 的 Free 方案是持續免費的定價階級（$0/月），並包含 AI 功能的基本試用額度，屬於常態性的基本產品定價，而非有限期限或特定對象的限時促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Essentials for staying organized.\nFree\n$0 per member / month\nFor individuals to organize personal projects and life.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳節省促銷",
-    "category": "software",
-    "summary": "選擇按年支付（Pay yearly）可節省最多 20% 的费用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在定價頁面選擇 Pay yearly 模式"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T06:06:38.676Z",
-    "lastVerified": "2026-11-15",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T07:14:07.904Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面顯示常態的年繳價格選項並標示可節省最多20%費用，屬於一般定價機制。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-3",
-    "sourceId": "notion-pricing",
-    "name": "Notion Custom Agents 免費試用",
-    "category": "software",
-    "summary": "AI agents 可自主處理重複性任務。提供免費試用（Free to try），之後需付費，費率為每 1,000 個 Notion 額度 $10。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需要 Notion 額度（Notion credits）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Notion 中啟用 Custom Agents 功能",
-      "使用免費額度進行試用"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T06:06:38.676Z",
-    "lastVerified": "2026-11-15",
-    "risks": "試用結束後需購買 Notion 額度方可繼續使用",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T08:05:17.867Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示該功能為「Free to try」（免費試用），屬於提供免費體驗或額度的促銷類型，而非單純的常態付費功能。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Requires Notion credits",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261115-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Zero Trust Free 方案",
@@ -4904,7 +4296,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-15T18:06:22.012Z",
     "lastVerified": "2026-11-15",
     "risks": "學生身分失效後需轉為付費方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供針對學生的免費訪問權益，屬於教育機構或特定群體的优惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 19000,
+      "basis": "ai-estimate",
+      "note": "GitHub Copilot Pro 訂閱費為每月 10 美元，一年約 120 美元，換算成新台幣約 3600-3800 元；加上 AI 額度與其他功能，保守估算總價值約 19000 元（考慮到包含的 AI credits 可能有額外價值，且 Copilot 本身市場價值較高，此估值相對保守）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261115-1",
@@ -4934,6 +4357,237 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-15T18:07:13.082Z",
     "lastVerified": "2026-11-15",
     "risks": "免費試用結束後將自動轉為付費訂閱，需留意取消時間以免扣款",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供新訂閱用戶7天的免費試用期，並依不同方案贈送不同數量的AI點數。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial 1,000 AI credits\nSupercharge your beloved Mac with awesome apps.\nFor 1 Mac\nPopular choice\nMac + iOS\n$ 18.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits\nIf you do everything on your Mac, iPhone a",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Mac\n$ 14.99 / mo\nMac + iOS\n$ 18.99 / mo\nPower User\n$ 22.99 / mo",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "claude-pricing-20261115-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude Pro 年繳優惠",
+    "category": "ai",
+    "summary": "訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Pro 方案",
+      "選擇年繳付費方式"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-15T19:08:26.911Z",
+    "lastVerified": "2026-11-15",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面展示的是 Claude Pro 方案的一般定價結構，說明年繳價格（$17/月，預付 $200）低於月繳價格（$20/月）。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$17\nPer month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 128,
+      "basis": "ai-estimate",
+      "usd": 4,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確寫出了年繳每月費用為 $17 以及預付總額 $200，因此無需進行保守估算。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "notion-pricing-20261115-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳節省方案",
+    "category": "software",
+    "summary": "選擇年度付款模式，最多可節省 20% 費用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在定價頁面選擇「Pay yearly」（年度付款）模式。"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
+    "lastVerified": "2026-11-15",
+    "risks": "需預付一年費用，通常較難退費。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標註「Save up to 20% with yearly」，屬於常態的年度付款折價機制，而非限時活動或特殊優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "notion-pricing-20261115-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每人每月 $0，適用於個人整理專案與生活，包含 Notion AI 試用量、基本表單、資料庫、日曆及文件上傳（限 5MB）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Sign up」註冊帳戶即可使用免費方案。"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
+    "lastVerified": "2026-11-15",
+    "risks": "免費方案有功能限制（如外部訪客上限 10 人、頁歷保留 7 天等），超過需升級。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "免費方案提供基本功能及 AI 試用，符合免費方案或額度的定義",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "For individuals to organize personal projects and life.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "notion-pricing-20261115-3",
+    "sourceId": "notion-pricing",
+    "name": "Notion Custom Agents 免費試用",
+    "category": "software",
+    "summary": "AI 代理（Agents）可免費試用，之後費用為每 1,000 點 Notion credits 10 美元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在支援 AI Agents 的方案中啟用該功能進行試用。"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
+    "lastVerified": "2026-11-15",
+    "risks": "試用結束後將開始計費，需確保有足夠的 Notion credits 或付費額度。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-15T19:07:58.885Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該功能提供免費試用機制，屬於試用型推廣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn't have to. Free to try, then $10 per 1,000 credits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]

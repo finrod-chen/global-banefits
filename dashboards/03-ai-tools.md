@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-15T18:05:17.921Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T19:07:58.885Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,3 +31,4 @@
 | [Google AI Ultra 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。 | 約 TWD 128（AI 估） | 長期活動 | 待核實 |
