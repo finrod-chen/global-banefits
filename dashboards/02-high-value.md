@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-15T14:05:17.717Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T16:05:17.714Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -44,12 +44,6 @@
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 每月活躍使用者、500 MB 資料庫容量、共享 CPU 與 500 MB RAM、5 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度回饋](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 Compute 額度，可覆蓋一個 Micro 實例（$10/月）或 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,616（AI 估） | 2026-11-30 | AI 預審通過 |
-| [玉山信用卡 繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 約 TWD 2,400（AI 估） | 長期活動 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山信用卡 繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（Free） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 迎新優惠 (Welcome Offer)](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供限時特價 deal，頁面顯示「Start your game collection with these special limited | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GOG Loyalty 忠誠度金幣](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 會員帳戶顯示「{{ account.loyaltyCoinsDaysRemaining }} day(s) until your next  | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -93,6 +87,8 @@
 | [Google AI Ultra 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，無隱藏費用，快速開戶。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等額外幣時，Wise 將折扣其費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise Assets 存款收益活動](https://wise.com/) | 海外銀行/卡 |  opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3. | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，無隱藏費用，快速開戶。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等額外幣時，Wise 將折扣其費用。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
+| [Wise Assets 存款收益活動](https://wise.com/) | 海外銀行/卡 |  opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3. | 約 TWD 3,650（AI 估） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,971（AI 估） | 2026-11-30 | 待核實 |
+| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
