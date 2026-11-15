@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-15T12:05:22.039Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T14:05:17.717Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -50,7 +50,6 @@
 | [玉山信用卡 繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 驗證過的學生可以存取 GitHub Copilot 學生方案，免付費使用 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲（Free） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 迎新優惠 (Welcome Offer)](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供限時特價 deal，頁面顯示「Start your game collection with these special limited | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GOG Loyalty 忠誠度金幣](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 會員帳戶顯示「{{ account.loyaltyCoinsDaysRemaining }} day(s) until your next  | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -84,6 +83,16 @@
 | [Kraken Atlassian Williams F1 Team Driver Meeting](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易 1 美元或更多交易量，有機會在 Circuit of the Americas (COTA) 與 Atl | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期至 90 天。若額度用完或過期前未用完，超出部分才会计费。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS 信用額度。自籌資金（Activate Founders）最高 $5,000 USD（起始 $ | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（Startup Credits），用於加速開發，之後可擴展至 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目、每個項目每月 100 CU-小時、每個項目 1 GB 儲存空間、最多 2 CU (8 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期階段的新創企業，提供最高 10 萬美元的額度（credits）以加速開發與部署。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（Startup Credits），用於加速開發，之後可擴展至 Activate Credits。 | 約 TWD 15,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目、每個項目每月 100 CU-小時、每個項目 1 GB 儲存空間、最多 2 CU (8 GB  | 約 TWD 100,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期階段的新創企業，提供最高 10 萬美元的額度（credits）以加速開發與部署。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Claude Pro 年繳方案](https://www.anthropic.com/pricing) | AI 工具 | 年繳每月 $17（總計 $200 於簽約時一次繳費），比月繳 $20 便宜。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Max 方案 API 額度贈送](https://www.anthropic.com/pricing) | AI 工具 | 訂閱每月 $100 的 Max 方案，可獲每月 $100 API 額度，用於在 Claude Platform 上建置。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra 方案 API 額度贈送](https://www.anthropic.com/pricing) | AI 工具 | 訂閱每月 $200 的 Ultra 方案，可獲每月 $200 API 額度（較 Max 的 $100 加倍）。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 信貸額度，來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Ultra 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，無隱藏費用，快速開戶。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等額外幣時，Wise 將折扣其費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 存款收益活動](https://wise.com/) | 海外銀行/卡 |  opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3. | 免費（價值視使用而定） | 長期活動 | 待核實 |
