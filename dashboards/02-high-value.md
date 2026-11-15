@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-15T00:05:17.121Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-15T02:05:17.536Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -45,14 +45,6 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 每月活躍使用者、500 MB 資料庫容量、共享 CPU 與 500 MB RAM、5 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度回饋](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 付費方案每月包含 $10 的 Compute 額度，可覆蓋一個 Micro 實例（$10/月）或 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Figma 年繳方案 AI 額度升級活動](https://www.figma.com/pricing/) | 軟體/數位服務 | 訂閱 Professional、Organization 或 Enterprise 的年繳方案，可獲得比月繳方案更多的 AI 額度。Prof | 約 TWD 112,000（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 學生組合優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 升級至 Google AI Pro 並搭配 YouTube Premium（含無廣告影片與音樂），每月仅需 $8.99（若分開購買總計 $3 | 約 TWD 864（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 開發者回饋優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可每月獲得 $10 的 Google Cloud 信用額度（來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 開發者回饋優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可每月獲得 $40 的 Google Cloud 信用額度（來自 Google Developer P | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示），提供 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 即包含 Google Health Premium（頁面標註其價值為 /月，具體金額被遮擋或未顯示）， | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可取得 GitHub Copilot 學生方案之存取權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯出超過 20,000 GBP 或其等值貨幣時，將降低手續費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise Assets 3.47% 變動利率存款回報](https://wise.com/) | 海外銀行/卡 | 透過選入 Wise Assets，日常餘額可賺取 3.47% 的變動利率回報（基於 2026/10/11 前 7 天表現）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Namecheap 免費 1 年 .me 域名與 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me TLD 域名註冊免費；1 年 SSL 憑證免費 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
 | [Name.com 免費域名](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種域名後綴（如 .live, .studio, .software, .app, .dev）的免費專案域名 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Microsoft Azure 雲端服務與 $100 額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 微軟 Azure 雲端服務，並提供 $100 Azure 額度 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
@@ -101,17 +93,18 @@
 | [DigitalOcean VPC 免費內網流量與建立](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立無限 VPC 不收取額外費用；VPC 內的進入流量（Ingress data transfer）免費；同數據中心內的 VPC Peeri | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 靜態網站免費部署](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個靜態網站（static sites）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費保留 IP 與 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 指派給 Droplet 的保留 IP（Reserved IPs）免費；提供免費的 DNS 管理功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 容器註冊表免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表（Container Registry）包含 1 個儲存庫與 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費執行額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月包含 90,000 GiB-seconds 的免費使用量；函數調用（function invocations）不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 數據中心內頻寬免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費的出站數據傳輸（outbound data transfer），起訖為每月 500 GiB；同數據中心內及跨 VP | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 容器註冊表免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表（Container Registry）包含 1 個儲存庫與 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Functions 免費執行額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月包含 90,000 GiB-seconds 的免費使用量；函數調用（function invocations）不收取額外費用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 數據中心內頻寬免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費的出站數據傳輸（outbound data transfer），起訖為每月 500 GiB；同數據中心內及跨 VP | 約 TWD 2,600（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 雲防火牆與監控免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費的雲防火牆（Cloud firewalls）；監控 Droplet 效能並提供免費警報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專用伺服器 15% 永久折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI，可在所有專用伺服器（dedicated servers）上享受 15% 的永久折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 主機控管面板時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無時間限制，無需信用卡。包含：100 個專案、每個專案每月 100 CU-hours 計算資源、每個專案 1 GB 儲存空間、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業優惠 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (up to $100k) 的額度 (credits)，以加速產品推出。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 專用伺服器 15% 永久折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI，可在所有專用伺服器（dedicated servers）上享受 15% 的永久折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 主機控管面板時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無時間限制，無需信用卡。包含：100 個專案、每個專案每月 100 CU-hours 計算資源、每個專案 1 GB 儲存空間、 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業優惠 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (up to $100k) 的額度 (credits)，以加速產品推出。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案贊助 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable Postgres 專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號即可立即獲得一個 Postgres 專案，無需信用卡。未聲領的專案上限為 100 MB 儲存空間和 1 GB 網路傳輸。聲領後需在  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Founders Self-funded 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 激活信用額度（Activate Credits），起始額度為 1,000 USD，部分合資格參與者 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Portfolio Pre-Series B 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 激活信用額度（Activate Credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS 信用額度，專為準備擴展規模的 AI 創新的公司提供額外額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 啟動信用額度，可用於 agentic 開發環境，幫助將提示轉換為可運行的代碼和結構化設計。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 驗證過的學生可以存取 GitHub Copilot 學生方案，免付費使用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
