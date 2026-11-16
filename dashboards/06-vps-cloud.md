@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T16:05:19.349Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T18:05:19.901Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -14,10 +14,10 @@
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費靜態網站方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可免費使用 90,000 GiB-seconds，且函式調用不另收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可免費使用 90,000 GiB-seconds，且函式調用不另收費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費出站流量配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站資料傳輸，每月起訖 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 DNS 管理與容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 DNS 管理；免費容器註冊表，包含 1 個儲存庫和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費雲端防火牆與監控警報](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費雲端防火牆；可收集指標、監控 Droplet 效能，並在問題發生時獲得免費警報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -35,3 +35,7 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個專案，每個專案每月 100 CU-hours 運算額度、1 GB 儲存空間、最大 2 CU 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最多 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域（如 .cloud, .xyz, .tech 等）享有首年銷售價格，例如 .cloud 首年 $3.88、.xyz 首年 $1.29 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

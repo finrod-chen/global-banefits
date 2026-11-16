@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T16:05:19.349Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T18:05:19.901Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,16 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可在 Google Colab 中每月獲得 200 個運算單位 (compute units)，用於更 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可在 Google Colab 中每月獲得 2,000 個運算單位 (compute units) | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款費率折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將調低費率（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise Assets 投資理財收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 中獲得即時存取收益。當前 GBP 的可變利率為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立帳戶服務，並強調節省海外費用及無隱藏費率。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山雙11購物盛典回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 10,095（AI 估） | 2026-11-30 | AI 預審通過 |
 | [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 約 TWD 100（AI 估） | 長期活動 | 待核實 |
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
@@ -81,13 +71,13 @@
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [KuMining Black Friday](https://www.kucoin.com/announcement) | Crypto | 最高可獲得 72 USDT 獎勵，賺取專屬獎勵，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品。 | 約 TWD 2,304（AI 估） | 長期活動 | AI 預審通過 |
-| [KuCoin PROOF: Tis the Season](https://www.kucoin.com/announcement) | Crypto | 有機會分得 550,000 USDT 獎勵池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 獎勵並解鎖 Tomorrowland 專屬獎品。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [KuCoin PROOF: Tis the Season](https://www.kucoin.com/announcement) | Crypto | 有機會分得 550,000 USDT 獎勵池。 | 約 TWD 17,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 獎勵並解鎖 Tomorrowland 專屬獎品。 | 約 TWD 4,800,000（AI 估） | 長期活動 | 待核實 |
 | [Earn Friday Week 138](https://www.kucoin.com/announcement) | Crypto | 使用 USDT、SOL、NEAR 可賺取最高 6% 的 APR。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費靜態網站方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可免費使用 90,000 GiB-seconds，且函式調用不另收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可免費使用 90,000 GiB-seconds，且函式調用不另收費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費出站流量配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站資料傳輸，每月起訖 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 DNS 管理與容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 DNS 管理；免費容器註冊表，包含 1 個儲存庫和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費雲端防火牆與監控警報](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費雲端防火牆；可收集指標、監控 Droplet 效能，並在問題發生時獲得免費警報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -105,3 +95,11 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個專案，每個專案每月 100 CU-hours 運算額度、1 GB 儲存空間、最大 2 CU 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最多 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域（如 .cloud, .xyz, .tech 等）享有首年銷售價格，例如 .cloud 首年 $3.88、.xyz 首年 $1.29 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer P | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
