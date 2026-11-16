@@ -4548,7 +4548,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面提到大額匯款會調低費率，但未明確標示為限時折扣或特定優惠活動，屬於常態定價機制調整",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise: The international account | Money without borders | Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261116-2",
@@ -4577,7 +4609,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
     "lastVerified": "2026-11-16",
     "risks": "若政府違約或利率為負，貨幣價值可能下降。當前利率不保證未來表現，可變利率基於截至 2026/10/11 的 7 天績效，且可能需課稅。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "提供的是常態的存款變額利率收益（3.47%），而非限時優惠或新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn a return on your everyday balance by opting in to Wise Assets. 1 Find out more\nOffered by Wise Assets UK\nMoney can decrease in value if governments default or interest rates go negative. Current rates do not guarantee future performanc",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "by opting in to Wise Assets",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261116-3",
@@ -4605,7 +4664,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費開戶作為吸引新用戶的手段。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261116-1",
@@ -4631,7 +4710,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T06:05:43.752Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個具時間限制的特定促銷活動（雙11購物盛典）。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "最高享9,800元回饋",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "活動期間：2026/11/1~2026/11/30",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10095,
+      "basis": "ai-estimate",
+      "usd": 315.46,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
+      "confidence": "low"
+    }
   },
   {
     "id": "esun-card-offers-20261116-2",
@@ -4657,7 +4768,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T06:05:43.752Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出繳稅回饋與分期選項，未明確說明是否為限時優惠或特定新戶獎勵，屬於一般信用卡服務功能。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "最高享0.2%玉山e point回饋或3期0利率",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 100,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者每年地價稅約為50,000元，以0.2%回饋計算約為100元；或若使用3期0利率，利息節省視稅額而定，保守估算現金回饋價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "esun-card-offers-20261116-3",
@@ -4683,7 +4822,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T06:05:43.752Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為特定信用卡啟用時的限時現金回饋優惠，屬於新戶獎勵或促銷方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "保守估算使用者在啟用後的首月或首季內，透過該卡消費約2.5萬元（假設消費10,000-25,000元，以最高20%回饋計算，實際能拿到的金額約為2,000至5,000元不等，取保守且合理的估算值5,000元），所獲得的現金回饋價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "esun-card-offers-20261116-4",
@@ -4709,7 +4881,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T06:05:43.752Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供最高6期0利率的分期付款優惠，屬於常見的消費促銷方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "滿額登錄享最高6期0利率！",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "滿額登錄",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261116-5",
@@ -4735,7 +4934,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T06:05:43.752Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T10:05:18.349Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對綁定全支付繳稅費提供特定回饋率，屬於促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山信用卡綁定全支付\n繳稅費享3%全點回饋",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "玉山信用卡綁定全支付",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261116-6",
@@ -5254,6 +5478,63 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T07:21:05.092Z",
     "lastVerified": "2026-11-16",
     "risks": "需進行年繳付費",
+    "status": "pending"
+  },
+  {
+    "id": "figma-pricing-20261116-1",
+    "sourceId": "figma-pricing",
+    "name": "Figma 年繳方案優惠",
+    "category": "software",
+    "summary": "年繳方案提供每月 AI 積分優惠：Full seat 每月 3,500 AI 積分、Dev seat 每月 500 AI 積分、Collab seat 每月 500 AI 積分；價格為 Full seat $55/mo、Dev seat $25/mo、Collab seat $5/mo。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Professional 或 Organization 方案",
+      "選擇年繳 (Annual) 計費週期"
+    ],
+    "officialUrl": "https://www.figma.com/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-16T10:05:43.125Z",
+    "lastVerified": "2026-11-16",
+    "risks": "年繳預付費用",
+    "status": "pending"
+  },
+  {
+    "id": "figma-pricing-20261116-2",
+    "sourceId": "figma-pricing",
+    "name": "Figma Enterprise 方案 AI 積分贈送",
+    "category": "software",
+    "summary": "Enterprise 方案年繳用戶可获得每月 AI 積分：Full seat 每月 4,250 AI 積分、Dev seat 每月 500 AI 積分、Collab seat 每月 500 AI 積分；價格為 Full seat $90/mo、Dev seat $35/mo、Collab seat $5/mo。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "聯繫銷售人員 (Contact sales)"
+    ],
+    "officialUrl": "https://www.figma.com/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-16T10:05:43.125Z",
+    "lastVerified": "2026-11-16",
+    "risks": "年繳預付費用，需經銷售流程購買",
     "status": "pending"
   }
 ]
