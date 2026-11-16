@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T14:05:21.002Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T16:05:19.349Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,4 +31,3 @@
 | [Google AI Pro 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [ElevenLabs 限時促銷：30,000 點額度 $1](https://elevenlabs.io/pricing) | AI 工具 | 以 1 美元的價格獲得 30,000 點額度。 | 免費（價值視使用而定） | 2024-09-30 | 待核實 |

@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T14:05:21.002Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T16:05:19.349Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -21,7 +21,7 @@
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用期，試用結束後按對應方案月費（$14.99、$18.9 | 約 TWD 156（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 1,000 AI 積分活動](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Mac 或 Mac + iOS 方案的新用戶可獲得 1,000 點 AI 積分；訂閱 Power User 方案可獲得 2,000 點 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 年繳節省 40% 活動](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳訂閱方案最高可節省 40% 費用。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每個月 $0。包含個人組織專案與生活管理功能，以及 Notion AI 的試用功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳節省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每個月 $0。包含個人組織專案與生活管理功能，以及 Notion AI 的試用功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳節省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式，最高可節省 20% 費用。 | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Figma 年繳方案優惠](https://www.figma.com/pricing/) | 軟體/數位服務 | 年繳方案提供每月 AI 積分優惠：Full seat 每月 3,500 AI 積分、Dev seat 每月 500 AI 積分、Collab | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Figma Enterprise 方案 AI 積分贈送](https://www.figma.com/pricing/) | 軟體/數位服務 | Enterprise 方案年繳用戶可获得每月 AI 積分：Full seat 每月 4,250 AI 積分、Dev seat 每月 500  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Figma Enterprise 方案 AI 積分贈送](https://www.figma.com/pricing/) | 軟體/數位服務 | Enterprise 方案年繳用戶可获得每月 AI 積分：Full seat 每月 4,250 AI 積分、Dev seat 每月 500  | 約 TWD 6,500（AI 估） | 長期活動 | 待核實 |

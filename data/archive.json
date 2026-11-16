@@ -895,5 +895,36 @@
     "status": "expired",
     "archivedAt": "2026-11-15T12:05:22.039Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261116-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 限時促銷：30,000 點額度 $1",
+    "category": "ai",
+    "summary": "以 1 美元的價格獲得 30,000 點額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁面",
+      "點擊「Subscribe」訂閱該促銷方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-16T14:06:39.824Z",
+    "lastVerified": "2026-11-16",
+    "risks": "促銷於 9 月 30 日結束",
+    "status": "expired",
+    "archivedAt": "2026-11-16T16:05:19.349Z",
+    "archiveReason": "endDate passed"
   }
 ]
