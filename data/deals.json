@@ -4083,7 +4083,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-16T02:07:19.870Z",
     "lastVerified": "2026-11-16",
     "risks": "若未在 72 小時內連結到帳戶，專案將受到嚴格限制（100 MB 儲存、1 GB 傳輸）",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "這是產品功能（Claimable Neon）而非限時的行銷優惠或推廣活動",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Claimable Neon gives you, or an AI agent working for you, an instant Postgres project with no account and no credit card. Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are capped at 100 MB of storage and 1 GB of ",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no account and no credit card",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261116-1",
@@ -4112,7 +4139,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "取消訂閱後回饋停止；代金券適用於 Google Cloud 服務",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為訂閱付費方案中包含的每月雲端代金券福利，屬於方案內贈額/獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Includes Gemini 4 Argon\nGoogle AI Pro",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gemini-plans-20261116-2",
@@ -4141,7 +4201,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "取消訂閱後回饋停止；代金券適用於 Google Cloud 服務",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該 $40 回饋是訂閱 Google AI Ultra 付費方案的常態福利，而非限時折扣、新戶獎勵或免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Cloud storage starting at 20 TB across Gmail, Drive, and Photos.\nFamily sharing with up to five others.\nPlus other AI benefits across Google products.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gemini-plans-20261116-3",
@@ -4170,7 +4265,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "運算單位每月重置，未用完部分可能不保留",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態付費方案中的一部分權益，描述訂閱該方案後可獲得的每月運算額度，非免費或限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get expanded access to powerful accelerators and longer runtimes in Google Colab with 200 compute units per month.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Includes Gemini 4 Argon Google AI Pro /mo 5 TB storage",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261116-4",
@@ -4199,7 +4321,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "運算單位每月重置，未用完部分可能不保留",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是訂閱常態付費方案（Google AI Ultra）後，包含在方案內部的功能與配額，並非免費試用或限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get higher access to powerful accelerators and longer runtimes in Google Colab with 2,000 compute units per month.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Subscribe to Google AI Ultra",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261116-5",
@@ -4228,7 +4378,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "需使用特定硬體設備；訂閱取消後權益終止",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Google AI Pro 付費訂閱方案中標註為「包含 (included)」的常態權益，而非獨立的免費活動、限時折扣或新戶專屬獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261116-6",
@@ -4257,7 +4434,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
     "lastVerified": "2026-11-16",
     "risks": "需使用特定硬體設備；訂閱取消後權益終止",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠為包含在高級方案內，免費提供的附加產品。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "eligible device required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 12000,
+      "basis": "ai-estimate",
+      "note": "假設 Google Health Premium 每個月價值約 $3 USD，保守估算其一年價值約 $36 USD，依 NT$335/$ 換算。",
+      "confidence": "low"
+    }
   },
   {
     "id": "copilot-plans-20261116-1",
@@ -4287,7 +4495,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-16T04:06:18.648Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T08:05:16.109Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及經核實學生可免費存取特定的 GitHub Copilot Student 方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261116-1",

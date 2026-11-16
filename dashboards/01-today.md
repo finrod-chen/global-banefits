@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T07:19:51.217Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T08:05:16.109Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -44,13 +44,13 @@
 | [Neon 新創企業计划 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無帳戶快速體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶和信用卡即可立即獲取一個 Postgres 專案。未連結到正式帳戶的專案，儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [Google AI Pro 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可在 Google Colab 中每月獲得 200 個運算單位 (compute units)，用於更 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可在 Google Colab 中每月獲得 2,000 個運算單位 (compute units) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Pro 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 大額匯款費率折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將調低費率（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 投資理財收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 中獲得即時存取收益。當前 GBP 的可變利率為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立帳戶服務，並強調節省海外費用及無隱藏費率。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
