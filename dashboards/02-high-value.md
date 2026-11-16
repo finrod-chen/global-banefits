@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T22:05:16.822Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T22:32:43.347Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,8 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Figma 年繳方案優惠](https://www.figma.com/pricing/) | 軟體/數位服務 | 年繳方案提供每月 AI 積分優惠：Full seat 每月 3,500 AI 積分、Dev seat 每月 500 AI 積分、Collab | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Figma Enterprise 方案 AI 積分贈送](https://www.figma.com/pricing/) | 軟體/數位服務 | Enterprise 方案年繳用戶可获得每月 AI 積分：Full seat 每月 4,250 AI 積分、Dev seat 每月 500  | 約 TWD 6,500（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -72,14 +70,14 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個專案，每個專案每月 100 CU-hours 運算額度、1 GB 儲存空間、最大 2 CU 運算規 | 約 TWD 2,100（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最多 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域（如 .cloud, .xyz, .tech 等）享有首年銷售價格，例如 .cloud 首年 $3.88、.xyz 首年 $1.29 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer P | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 1年 .me 網域免費註冊](https://education.github.com/pack) | 軟體/數位服務 | 1 year domain name registration on the .me TLD. | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域（如 .cloud, .xyz, .tech 等）享有首年銷售價格，例如 .cloud 首年 $3.88、.xyz 首年 $1.29 | 約 TWD 50（AI 估） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
+| [Namecheap 1年 .me 網域免費註冊](https://education.github.com/pack) | 軟體/數位服務 | 1 year domain name registration on the .me TLD. | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Namecheap 1年免費 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 SSL certificate free for 1 year. | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | Build your project on a select free domain with over 25 domain extensi | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Microsoft Azure 免費雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | Free access to 25+ Microsoft Azure cloud services plus $100 in Azure c | 免費（價值視使用而定） | 長期活動 | 待核實 |

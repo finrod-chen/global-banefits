@@ -1888,114 +1888,6 @@
     }
   },
   {
-    "id": "figma-pricing-20261116-1",
-    "sourceId": "figma-pricing",
-    "name": "Figma 年繳方案優惠",
-    "category": "software",
-    "summary": "年繳方案提供每月 AI 積分優惠：Full seat 每月 3,500 AI 積分、Dev seat 每月 500 AI 積分、Collab seat 每月 500 AI 積分；價格為 Full seat $55/mo、Dev seat $25/mo、Collab seat $5/mo。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Professional 或 Organization 方案",
-      "選擇年繳 (Annual) 計費週期"
-    ],
-    "officialUrl": "https://www.figma.com/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-16T10:05:43.125Z",
-    "lastVerified": "2026-11-16",
-    "risks": "年繳預付費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T16:05:19.349Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面內容列出了 Organization 年繳方案各席位的常態價格與包含的 AI 積分額度，屬於一般付費方案定價，而非限時優惠或折扣。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "figma-pricing-20261116-2",
-    "sourceId": "figma-pricing",
-    "name": "Figma Enterprise 方案 AI 積分贈送",
-    "category": "software",
-    "summary": "Enterprise 方案年繳用戶可获得每月 AI 積分：Full seat 每月 4,250 AI 積分、Dev seat 每月 500 AI 積分、Collab seat 每月 500 AI 積分；價格為 Full seat $90/mo、Dev seat $35/mo、Collab seat $5/mo。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "聯繫銷售人員 (Contact sales)"
-    ],
-    "officialUrl": "https://www.figma.com/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-16T10:05:43.125Z",
-    "lastVerified": "2026-11-16",
-    "risks": "年繳預付費用，需經銷售流程購買",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T16:05:19.349Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Figma 標準企業方案的定價與隨附 AI 積分，並非限時優惠或額外贈送活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Full seat\n$90 /mo\n+ 4,250 AI credits/mo\nDev seat\n$35 /mo\n+ 500 AI credits/mo\nCollab seat\n$5 /mo\n+ 500 AI credits/mo",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6500,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者主要使用的是 Full seat，將月費 $90 換算為台幣約 $650（USD 1 = TWD 7.2 假設），一年 12 個月總計約 $7800 台幣；但題目要求估算「價值」，若僅考慮 AI 積分的市場價值難以確切量化，通常定價本身即反映價值。此處保守估算以 Full seat 的年繳費用換算台幣價值，即 90 * 12 * 6 (匯率預估) = 6480，取整數 6500。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261116-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Free 方案",
@@ -3565,7 +3457,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
     "lastVerified": "2026-11-16",
     "risks": "部分網域僅首年優惠，續約價格為全價（如 .cloud 續約 $21.11, .xyz 續約 $14.21）",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示特定網域享有「first year sale」（首年特惠價），並列出遠低於平常價格的優惠價格，屬於限時折扣性質。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".cloud\n3.88 first year sale\n$21.11 regular price\n.xyz\n1.29 first year sale\n$14.21 regular price\n.tech\n6.99 first year sale\n$50.98 regular price",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50,
+      "basis": "ai-estimate",
+      "note": "以頁面標示的最低首年優惠價 .xyz 為 $1.29，保守估算約 1 美元，依當前匯率（約 30 NTD/USD）換算約 30-50 新台幣，故取保守整數 50。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261116-2",
@@ -3594,7 +3514,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該服務標示為免費提供，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free WHOIS Privacy",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261116-3",
@@ -3622,7 +3562,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該服務為完全免費提供的SSL憑證，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261116-4",
@@ -3650,7 +3610,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示「Free」（免費）的郵件轉發功能，屬於免費服務額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Email Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "估算依據為一般商業或個人郵件轉發服務的年費約莫在100至250美元之間，保守估算取其低值或依市場常見定價換算成新台幣約3000。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "epic-free-games-20261116-1",
@@ -3680,7 +3666,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-16T18:06:05.774Z",
     "lastVerified": "2026-11-16",
     "risks": "需註冊並登入 Epic 帳號，遊戲綁定帳號，部分地區可能因版權限制無法領取",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面路徑包含 freeGamesPromotions，且遊戲分類路徑為 \"freegames\"，屬於每週免費遊戲領取活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 885,
+      "basis": "ai-estimate",
+      "note": "保守估算為頁面上列出的三款遊戲原價總和：Them's Fightin' Herds NT$289 + Model Builder: Complete Edition NT$318 + Eternal Threads NT$278 = NT$885。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gemini-plans-20261116-1",
@@ -3709,7 +3728,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T18:06:23.095Z",
     "lastVerified": "2026-11-16",
     "risks": "需付費訂閱 Google AI Pro 方案方可獲得",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該福利是包含在付費方案 Google AI Pro 標準權益中的一項常態性價值，並非限時或特定對象的專屬優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gemini-plans-20261116-2",
@@ -3738,7 +3787,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T18:06:23.095Z",
     "lastVerified": "2026-11-16",
     "risks": "需付費訂閱 Google AI Ultra 方案方可獲得",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠屬於訂閱特定高階方案（Ultra）時額外贈送的雲服務額度獎勵，符合「額度」或「新戶/訂閱獎勵」的性質。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261116-1",
@@ -3767,7 +3844,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
     "lastVerified": "2026-11-16",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T22:32:43.347Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定學生群體提供一年的免費網域註冊權益。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 year domain name registration on the .me TLD.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": "保守估算一個標準 .me 網域註冊一年的市價約為 30-50 美元（約 1000-1500 元台幣），取保守整數值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261116-2",
