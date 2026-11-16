@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T12:05:19.139Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T14:05:21.002Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,15 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，$0/月，包含：Fast, Easy-to-use DNS、Unmetered DDoS Protection、CDN、Unive | 約 TWD 240（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare 免費試用（SASE / Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | SASE / Zero Trust 免費方案：$0 forever，適用於 50 人以下團隊或企業概念驗證測試。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 免費額度：每日 100k 請求、每請求 10 ms CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 免費額度：25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟、1 TB 網路出 | 約 TWD 900（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 免費額度：每日 100,000 請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取列、 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Browser Rendering 免費額度：每日 10 分鐘瀏覽器使用、3 個並行瀏覽器。 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workflows 免費額度：每日 100k 請求、每 invocation 10 ms CPU 時間、1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 免費額度：10 GB-month 標準儲存空間、1 million 標準 A 類操作、10 million 標準 B 類操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 免費額度：1 GB 儲存空間、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）、免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
@@ -40,3 +31,6 @@
 | [Neon 新創企業计划 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無帳戶快速體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶和信用卡即可立即獲取一個 Postgres 專案。未連結到正式帳戶的專案，儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |

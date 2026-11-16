@@ -1888,1107 +1888,6 @@
     }
   },
   {
-    "id": "cloudflare-plans-20261116-1",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Free 方案",
-    "category": "vps-cloud",
-    "summary": "免費方案，$0/月，包含：Fast, Easy-to-use DNS、Unmetered DDoS Protection、CDN、Universal SSL Certificate、Free Managed Ruleset、Web Application Firewall (WAF) 等核心功能。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "選擇 Free 方案並點擊 Get started"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供每月 $0 的免費方案，屬於免費方案或額度類型的優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Fast, Easy-to-use DNS\nUnmetered DDoS Protection\nCDN\nUniversal SSL Certificate\nFree Managed Ruleset\nWeb Application Firewall (WAF)",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 240,
-      "basis": "ai-estimate",
-      "note": "保守估算該免費方案提供的 CDN 與安全服務價值相當於 Pro 方案月費（$20）的 12 個月總額。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-2",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare 免費試用（SASE / Zero Trust）",
-    "category": "vps-cloud",
-    "summary": "SASE / Zero Trust 免費方案：$0 forever，適用於 50 人以下團隊或企業概念驗證測試。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "團隊人數不超過 50 人，或企業概念驗證測試",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "選擇 SASE / Zero Trust 的 Free 方案並點擊 Get started"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供了一個標示為 \"$0 forever\" 的方案，明確標示為永久免費且無使用期限限制，屬於免費方案類型。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Teams under 50 users or enterprise proof-of-concept tests.\n$0\nforever\nGet started",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Teams under 50 users or enterprise proof-of-concept tests.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-3",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Workers 免費額度",
-    "category": "vps-cloud",
-    "summary": "Workers 免費額度：每日 100k 請求、每請求 10 ms CPU 時間。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Workers 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出了 Workers 服務的免費額度（Free tier），屬於免費方案或額度。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free 100k / day\nFree 10 ms / request",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-4",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Containers 免費額度",
-    "category": "vps-cloud",
-    "summary": "Containers 免費額度：25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟、1 TB 網路出口（NA/EU）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Containers 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是Cloudflare Containers產品中標註為「included」的免費額度，屬於一般服務定價的一部分，而非限時優惠或促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Memory\n25 GiB-hrs included\n$0.0000025 / GiB-second\nCPU\n375 vCPU-min included\n$0.000020 / vCPU-second\nDisk\n200 GB-hrs included\n$0.00000007 / GB-second\nNetwork Egress (NA/EU)\n1 TB included\n$0.025 / GB",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 900,
-      "basis": "ai-estimate",
-      "note": "保守估算這些免費額度（記憶體、CPU、磁碟、網路出口）若單獨購買，每月價值約10美元，一年約120美元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-5",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Durable Objects 免費額度",
-    "category": "vps-cloud",
-    "summary": "Durable Objects 免費額度：每日 100,000 請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取列、每日 100K SQL 寫入列、5 GB SQL 儲存空間、1 GB KV 儲存空間。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Durable Objects 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目列出了 Durable Objects 服務的具體免費用量額度（每日請求數、持續時間等），屬於免費方案或額度。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Requests 100,000 requests / day Paid $0.15 / million requests Duration Free 13,000 GB-s / day Paid $12.50 / million GB-s SQL Rows Read Free 50M / day Paid $0.001 / million rows SQL Rows Written Free 100K / day Paid $1.00 / million rows SQL ",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "假設使用者每日使用滿免費額度：100,000請求約值$15，13,000 GB-s約值$162.5，SQL讀寫及儲存約值$1.2，每日總值約$178.7，一年約$65,425，但通常免費額度僅供測試，保守估算實際經常性價值較低，此處取相對保守值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-6",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Browser Rendering 免費額度",
-    "category": "vps-cloud",
-    "summary": "Browser Rendering 免費額度：每日 10 分鐘瀏覽器使用、3 個並行瀏覽器。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Browser Rendering 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出 Browser Rendering 產品包含免費額度（10 min/day 和 3 browsers），屬於常態性的免費方案額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Browser Hours\nFree 10 min / day\nPaid $0.09 / hour\nConcurrent Browsers\nFree 3 browsers\nPaid $2.00 / browser",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1200,
-      "basis": "ai-estimate",
-      "note": "假設使用者僅使用免費額度內的多餘部分價值較低，若需付費，10分鐘/天約0.15小時/月，依$0.09/小時計算，一年約$2.16 USD，約TWD 70；3個並行瀏覽器若超出免費額度，$2/瀏覽器，假設需要2個額外並行瀏覽器（超出3個免費額度的部分），$4/月，一年約$48 USD，約TWD 1500。保守估算，若僅計算Browser Hours的付費價值，約TWD 1200。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-7",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Workflows 免費額度",
-    "category": "vps-cloud",
-    "summary": "Workflows 免費額度：每日 100k 請求、每 invocation 10 ms CPU 時間、1 GB 儲存空間。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Workflows 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出了 Workflows 產品的免費額度，包括每日請求數、CPU 時間和儲存空間。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Requests\nFree 100k / day\nCPU Time\nFree 10 ms / invocation\nStorage\nFree 1 GB",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-8",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare R2 免費額度",
-    "category": "vps-cloud",
-    "summary": "R2 免費額度：10 GB-month 標準儲存空間、1 million 標準 A 類操作、10 million 標準 B 類操作。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 R2 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T00:05:23.992Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面列出的是常態付費方案的免費額度部分，而非限時優惠或新戶專屬獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Standard Storage\n10 GB-month",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "cloudflare-plans-20261116-9",
-    "sourceId": "cloudflare-plans",
-    "name": "Cloudflare Workers KV 免費額度",
-    "category": "vps-cloud",
-    "summary": "Workers KV 免費額度：1 GB 儲存空間、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Cloudflare 官方網站 https://www.cloudflare.com/plans/",
-      "使用 Workers KV 服務並保持在免費額度內"
-    ],
-    "officialUrl": "https://www.cloudflare.com/plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T00:05:50.175Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面列出的免費額度（1GB、100k讀取、1k寫入）屬於Workers KV常態定價模型中的Free分層，非限時優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Stored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261116-1",
-    "sourceId": "kucoin-announce",
-    "name": "KuCoin VIP Premier+ 'Tis The Season VIP Carnival",
-    "category": "crypto",
-    "summary": "分享 150,000 USDT 的獎勵並解鎖 Tomorrowland 專屬獎品",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "參與活動",
-      "領取獎勵"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T00:06:57.960Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動明確提供 USDT 獎勵與專屬獎品，屬於限時或特定條件的促銷方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Share 150,000 USDT in Rewards & Unlock Exclusive Tomorrowland Prizes!",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 4800000,
-      "basis": "explicit-amount",
-      "usd": 150000,
-      "quote": "Share 150,000 USDT in Rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kucoin-announce-20261116-2",
-    "sourceId": "kucoin-announce",
-    "name": "Earn Friday Week 138",
-    "category": "crypto",
-    "summary": "使用 USDT、SOL、NEAR 最高可賺取 6% 年化收益",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-13",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "持有或轉換 USDT、SOL 或 NEAR",
-      "參與 Earn Friday 活動"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T00:06:57.960Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "此為定期存款或生息活動，非特定優惠方案或定價折扣。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn Friday Week 138: Earn up to 6% APR with USDT, SOL, NEAR",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261116-3",
-    "sourceId": "kucoin-announce",
-    "name": "KuPay Genesis",
-    "category": "crypto",
-    "summary": "領取首次通行證，並在亞洲、拉丁美洲和非洲使用加密貨幣消費",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "亞洲",
-      "拉丁美洲",
-      "非洲"
-    ],
-    "startDate": "2026-11-13",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或啟用 KuPay",
-      "領取首次通行證 (First Pass)"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T00:06:57.960Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面描述為新戶引導活動且提及「領取首次通行證」，但未明確標示獎勵額度、折扣或限時免費性質，難以歸類為特定優惠類型。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "elcome to KuPay Genesis, the flagship onboarding initiative by KuCoin Pay. Designed to empower users across Asia, Latin America, and Africa, KuPay Genesis bridges local real-world commerce with seamless crypto payments.",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Across 3 Continents!",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261116-1",
-    "sourceId": "gate-announce",
-    "name": "Gate Sign up Rewards",
-    "category": "crypto",
-    "summary": "Sign up to claim 10,000+ USDT rewards",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Sign up"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "註冊即可領取獎勵，屬於新戶獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "10,000+ USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261116-2",
-    "sourceId": "gate-announce",
-    "name": "Gate Event Contracts 50,000 USDT Prize Pool",
-    "category": "crypto",
-    "summary": "Trade 10 popular stocks to share a 50,000 USDT prize pool",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Must trade popular stocks added to Event Contracts",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Trade the specified popular stocks"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "活動提供 50,000 USDT 獎金池作為獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600000,
-      "basis": "explicit-amount",
-      "usd": 50000,
-      "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261116-3",
-    "sourceId": "gate-announce",
-    "name": "Gate Idle Earn & Simple Earn Limited-Time Event",
-    "category": "crypto",
-    "summary": "Earn up to 9% APR on USDT (Phase 3)",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Participate in Idle Earn or Simple Earn",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Use Idle Earn or Simple Earn with USDT"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T02:05:17.890Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動明確標示為限時優惠（Limited-Time Event），提供高於一般的 9% APR 報酬。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Participate in activities to earn rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 77,
-      "basis": "ai-estimate",
-      "note": "保守假設參與者投入 100 USDT，依 9% 年利率計算全年約 9 USDT，換算成新台幣約 77 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "gate-announce-20261116-4",
-    "sourceId": "gate-announce",
-    "name": "Gate Live Rising Star Selection Weekly Gifts",
-    "category": "crypto",
-    "summary": "Unlock exclusive gifts every week",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Participate in Gate Live Rising Star Selection"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T04:05:17.767Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供每週獨有的禮物獎勵，屬於用戶獎勵或空投積分類型的促銷活動",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlock Exclusive Gifts Every Week",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261116-5",
-    "sourceId": "gate-announce",
-    "name": "Gate Weekend Power Station",
-    "category": "crypto",
-    "summary": "Register to claim 0.5 SPCXG, trade to earn another 1 SPCXG",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Must register and trade SPCXG",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Register for the event",
-      "Claim 0.5 SPCXG",
-      "Trade SPCXG to earn additional 1 SPCXG"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T04:05:17.767Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個活動，用戶需要註冊並交易以獲取特定代幣獎勵（SPCXG）。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Weekend Power Station: Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261116-6",
-    "sourceId": "gate-announce",
-    "name": "Gate Grid Bots New User Promotion",
-    "category": "crypto",
-    "summary": "Master Grid Bots in 1 minute 18 seconds, zero cost, for new bot users only",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Must be a new bot user",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Learn to use Grid Bots"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T04:05:17.767Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅提及教學活動與零成本，未明確說明提供免費方案、額度、試用或新戶獎勵等實質優惠內容。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Master Grid Bots in 1 Minute 18, Zero Cost, New Bot Users Only",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "New Bot Users Only",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261116-7",
-    "sourceId": "gate-announce",
-    "name": "Gate Swap 7-day Arena",
-    "category": "crypto",
-    "summary": "Share 1,000 USDT prize pool (Week 4)",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Participate in the Swap Arena for the week",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Participate in the Swap Arena event"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T04:05:17.767Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面中未提供具體的活動名稱或相關內容，導致無法判斷。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "numbers-missing",
-        "quote-missing"
-      ],
-      "numbersMissing": [
-        "1000"
-      ]
-    }
-  },
-  {
-    "id": "gate-announce-20261116-8",
-    "sourceId": "gate-announce",
-    "name": "Gate Convert Trading Check-In",
-    "category": "crypto",
-    "summary": "Convert daily to claim 20 USDT and win an extra 10 GT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "Must perform daily conversions",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "Check in by converting daily"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T04:05:17.767Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面內容顯示 Convert 交易費用為 0，屬於常態的免手續費服務定價，並非限時的免費額度或新戶專屬現金獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Convert & Auto-Invest 0 Fee\nTrade any size with no fees and no slippage",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade any size",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "20"
-      ]
-    }
-  },
-  {
     "id": "digitalocean-pricing-20261116-1",
     "sourceId": "digitalocean-pricing",
     "name": "DigitalOcean $5 免費額度",
@@ -5456,7 +4355,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T06:06:39.242Z",
     "lastVerified": "2026-11-16",
     "risks": "額度用盡後使用付費服務將產生費用，需注意資源管理",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費雲端服務存取權及 100 美元的額度，屬於明確的優惠獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+. \nTags\nCloud\nVirtual Events\nGet help at\nMicrosoft Azure support",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261116-9",
@@ -5485,7 +4417,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T06:06:39.242Z",
     "lastVerified": "2026-11-16",
     "risks": "3 個月後需付費續約或取消，避免自動扣款",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生三個月免費的互動式會員權限。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Learn Backend Development, DevOps, and Data Analysis with 3 months of free access to Boot.dev’s complete interactive membership.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "假設Boot.dev月費約$10 USD，三個月約$30 USD，但保守估算為$15 USD以反映可能僅部分功能可用或保守估值需求（註：題目要求保守估算，通常開發者工具保守估值較低，此處取$5-15 USD區間，1500 TWD約等於$40 USD偏樂觀，若保守應更低，但通常免費會員價值估$50 USD左右，這裡取整數估算值，若無明確金額，保守估算一般工具約$20 USD，換算約600-700 TWD，取整數500或1000。鑑於未提供Boot.dev定價，依一般線上課程訂閱費$20-30/月，3個月約$60-90 USD，保守估算取$15 USD約480 TWD，取整數500。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gog-free-games-20261116-1",
@@ -5514,7 +4477,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-16T06:06:56.338Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅為遊戲商店的篩選頁面，未顯示具體的免費遊戲項目或促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "GOG.com is a digital distribution platform – an online store with a curated selection of games, an optional gaming client giving you freedom of choice, and a vivid community of gamers.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "steam-specials-20261116-1",
@@ -5543,7 +4528,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Steam 特價頁」，待人工核實，提取時間 2026-11-16T06:07:14.190Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題與副標題顯示為折扣與活動瀏覽頁面，符合「限時折扣」定義。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "3375"
+      ]
+    }
   },
   {
     "id": "steam-specials-20261116-2",
@@ -5571,7 +4581,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Steam 特價頁」，待人工核實，提取時間 2026-11-16T06:07:14.190Z",
     "lastVerified": "2026-11-16",
     "risks": "活動有明確結束時間，需在截止日期前完成購買。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示了特定活動標題 'FRANCHISE SALE' 並標註了活動結束時間，屬於限時折扣活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "FRANCHISE SALE",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261116-1",
@@ -5601,7 +4631,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-16T06:07:33.538Z",
     "lastVerified": "2026-11-16",
     "risks": "免費試用結束後將自動開始付費訂閱，需留意取消時間以免產生費用,年繳方案宣稱最高節省 40%，但頁面僅顯示月繳價格，年繳折扣細節需進一步確認",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供所有方案的 7 天免費試用期，符合試用性質。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 156,
+      "basis": "ai-estimate",
+      "note": "保守假設使用者選用最低價方案 Mac ($14.99)，扣除 7 天費用約 $3.51，第一年總費用約 $177.7，但此處估算的是免費試用期本身的價值，約為 7 天對應的訂閱價值 $3.51 美元，換算台幣約 156 元 (以匯率 44.5 估算)。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261116-2",
@@ -5631,7 +4687,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-16T06:07:33.538Z",
     "lastVerified": "2026-11-16",
     "risks": "AI 積分依附於訂閱狀態，若取消訂閱可能導致積分失效或無法使用（頁面未明確說明積分有效期或取消後的狀況）",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示訂閱特定方案可獲得 AI 積分額度，屬於新戶或訂閱獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1,000 AI credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Start 7-day free trial 1,000 AI credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261116-3",
@@ -5660,7 +4741,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-16T06:07:33.538Z",
     "lastVerified": "2026-11-16",
     "risks": "年繳為一次性支付全年費用，需注意資金規劃,具體年繳價格頁面未直接顯示，僅標示節省比例",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T14:05:21.002Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示的年繳折扣屬於常態性的定價機制（常態的年繳比月繳便宜），而非限時或特殊的新戶優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "Save up to 40% yearly",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "notion-pricing-20261116-1",
@@ -5774,6 +4891,217 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Figma 定價頁」，待人工核實，提取時間 2026-11-16T10:05:43.125Z",
     "lastVerified": "2026-11-16",
     "risks": "年繳預付費用，需經銷售流程購買",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261116-1",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Free 方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應用防火牆 (WAF)、無損影像最佳化、加速行動頁面 (AMP)、單一登入 (SSO) 支援、基於角色的帳戶控制。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T14:06:05.428Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261116-2",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare SASE / Zero Trust Free 方案",
+    "category": "vps-cloud",
+    "summary": "永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保留時間、核心安全性與進階安全性功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "50 人以下團隊或企業概念驗證測試",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T14:06:05.428Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261116-3",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Compute & Storage 免費額度",
+    "category": "vps-cloud",
+    "summary": "多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每天 100,000 請求、13,000 GB-s 持續時間、50M SQL 讀取行、100K SQL 寫入行、5 GB SQL 儲存資料、1 GB KV 儲存資料；Browser Rendering 每天 10 分鐘瀏覽器時數與 3 個並行瀏覽器；Workflows 每天 100k 請求、10ms/調用 CPU 時間、1 GB 儲存；R2 每月 10 GB 標準儲存、100 萬次 Class A 操作、1000 萬次 Class B 操作；Workers KV 1 GB 儲存、每天 100,000 次讀取請求、每天 1,000 次寫入/刪除/列出請求；D1 5 GB 總儲存、每天 500 萬行讀取、每天 100,000 行寫入；Queues 每天 10,000 次標準操作；Hyperdrive 每天 100,000 次查詢；Workers Analytics Engine 每天 100,000 個資料點寫入、每天 10,000 次讀取查詢。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-16T14:06:05.428Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261116-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 限時促銷：30,000 點額度 $1",
+    "category": "ai",
+    "summary": "以 1 美元的價格獲得 30,000 點額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁面",
+      "點擊「Subscribe」訂閱該促銷方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-16T14:06:39.824Z",
+    "lastVerified": "2026-11-16",
+    "risks": "促銷於 9 月 30 日結束",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261116-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuMining Black Friday",
+    "category": "crypto",
+    "summary": "最高可獲得 72 USDT 獎勵，賺取專屬獎勵，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T14:07:31.217Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261116-2",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin PROOF: Tis the Season",
+    "category": "crypto",
+    "summary": "有機會分得 550,000 USDT 獎勵池。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T14:07:31.217Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261116-3",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin VIP Premier+: 'Tis The Season VIP Carnival",
+    "category": "crypto",
+    "summary": "分享 150,000 USDT 獎勵並解鎖 Tomorrowland 專屬獎品。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "VIP Premier+ 會員資格（推測，頁面未明確說明參與門檻）",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T14:07:31.217Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261116-4",
+    "sourceId": "kucoin-announce",
+    "name": "Earn Friday Week 138",
+    "category": "crypto",
+    "summary": "使用 USDT、SOL、NEAR 可賺取最高 6% 的 APR。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-16T14:07:31.217Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]
