@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T06:05:19.367Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -23,14 +23,14 @@
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）、免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供 DNS 管理服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費雲防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供雲端防火牆功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds，且函數調用無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費雲防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供雲端防火牆功能。 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds，且函數調用無額外費用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起始額度為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T06:05:19.367Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,18 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,971（AI 估） | 2026-11-30 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 學生免費網域與 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 網域註冊免費；1 年 SSL 憑證免費 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Name.com 學生免費網域](https://education.github.com/pack) | 軟體/數位服務 | 免費使用精選網域（包含 .live, .studio, .software, .app, .dev 等超過 25 種後綴）建立專案 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Microsoft Azure 學生免費資源與信用額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上 Microsoft Azure 雲端服務，以及 $100 的 Azure 信用額度 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費 1 年 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Pro 學生免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間免費使用 GitHub Pro | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 透過 GitHub 學生帳戶註冊 DataCamp 訂閱，可享 3 個月免費 access | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Microsoft 365 學生免費或折扣方案](https://education.github.com/pack) | 軟體/數位服務 | 學生可免費或享折扣使用 Microsoft 365（含 AI Copilot、1TB 雲端儲存空間及進階安全性） | 約 TWD 15,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion Education 學生方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（含 Plus 方案所有功能、增強分享與協作功能、更長頁面歷史記錄）及額外 AI 回應 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Student 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 提供無限制代碼補全建議、GitHub AI 額度、有限的聊天與 Agent 使用（僅限自動模型選擇） | 約 TWD 19,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，並額外贈送1,000或2,000個AI點數（視方案而定） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。 | 約 TWD 128（AI 估） | 長期活動 | 待核實 |
 | [Notion 年繳節省方案](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年度付款模式，最多可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，適用於個人整理專案與生活，包含 Notion AI 試用量、基本表單、資料庫、日曆及文件上傳（限 5MB）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -81,14 +69,14 @@
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）、免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供 DNS 管理服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費雲防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供雲端防火牆功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds，且函數調用無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費雲防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供雲端防火牆功能。 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds，且函數調用無額外費用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起始額度為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -108,3 +96,24 @@
 | [Wise 大額匯款費率折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將調低費率（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 投資理財收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 中獲得即時存取收益。當前 GBP 的可變利率為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立帳戶服務，並強調節省海外費用及無隱藏費率。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [繳學費滿額登錄分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Trip.com 玉山JCB/Visa訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Heroku 學生免費額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 DataCamp 訂閱服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [JetBrains 學生訂閱](https://education.github.com/pack) | 軟體/數位服務 | 免費訂閱專業版 IDE（如 IntelliJ IDEA, PyCharm），需每年更新 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [1Password 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 2 年，包含 1Password Developer Tools | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Termius Pro 免費存取](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用所有 Termius Pro 和 Team 功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Datadog Pro 帳戶免費期](https://education.github.com/pack) | 軟體/數位服務 | Pro 帳戶（含 10 台伺服器）免費使用 2 年 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 免費域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊 1 年免費，以及 1 年 SSL 憑證免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Microsoft Azure 學生云服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Azure 雲端服務，另提供 100 美元 Azure 額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 Boot.dev 完整互動式會員權限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲，玩家可免費下載與擁有（DRM-free）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Steam 週長特惠](https://store.steampowered.com/search/?filter=weeklongdeals) | 軟體/數位服務 | 每週一推出新的特惠活動，目前列出 3375 個優惠商品。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Steam 特許商品銷售](https://store.steampowered.com/sale/COHFranchiseSale2026) | 軟體/數位服務 | 標榜為「FRANCHISE SALE」的特許商品銷售活動，頁面顯示有特定結束時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用期，試用結束後按對應方案月費（$14.99、$18.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 1,000 AI 積分活動](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Mac 或 Mac + iOS 方案的新用戶可獲得 1,000 點 AI 積分；訂閱 Power User 方案可獲得 2,000 點 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年繳節省 40% 活動](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳訂閱方案最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
