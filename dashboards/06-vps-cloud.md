@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T02:05:17.890Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,9 +20,9 @@
 | [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workflows 免費額度：每日 100k 請求、每 invocation 10 ms CPU 時間、1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 免費額度：10 GB-month 標準儲存空間、1 million 標準 A 類操作、10 million 標準 B 類操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 免費額度：1 GB 儲存空間、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）、免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供 DNS 管理服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

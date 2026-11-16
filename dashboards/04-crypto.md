@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T02:05:17.890Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -19,8 +19,8 @@
 | [Gate Sign up Rewards](https://www.gate.com/announcements) | Crypto | Sign up to claim 10,000+ USDT rewards | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 50,000 USDT Prize Pool](https://www.gate.com/announcements) | Crypto | Trade 10 popular stocks to share a 50,000 USDT prize pool | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | Earn up to 9% APR on USDT (Phase 3) | 約 TWD 77（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Live Rising Star Selection Weekly Gifts](https://www.gate.com/announcements) | Crypto | Unlock exclusive gifts every week | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Weekend Power Station](https://www.gate.com/announcements) | Crypto | Register to claim 0.5 SPCXG, trade to earn another 1 SPCXG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Live Rising Star Selection Weekly Gifts](https://www.gate.com/announcements) | Crypto | Unlock exclusive gifts every week | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate Weekend Power Station](https://www.gate.com/announcements) | Crypto | Register to claim 0.5 SPCXG, trade to earn another 1 SPCXG | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate Grid Bots New User Promotion](https://www.gate.com/announcements) | Crypto | Master Grid Bots in 1 minute 18 seconds, zero cost, for new bot users  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Swap 7-day Arena](https://www.gate.com/announcements) | Crypto | Share 1,000 USDT prize pool (Week 4) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Convert Trading Check-In](https://www.gate.com/announcements) | Crypto | Convert daily to claim 20 USDT and win an extra 10 GT | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T02:05:17.890Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,13 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 信貸額度，來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Ultra 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，無隱藏費用，快速開戶。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等額外幣時，Wise 將折扣其費用。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
-| [Wise Assets 存款收益活動](https://wise.com/) | 海外銀行/卡 |  opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3. | 約 TWD 3,650（AI 估） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,971（AI 估） | 2026-11-30 | 待核實 |
 | [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Namecheap 學生免費網域與 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 網域註冊免費；1 年 SSL 憑證免費 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
@@ -80,14 +73,14 @@
 | [Gate Sign up Rewards](https://www.gate.com/announcements) | Crypto | Sign up to claim 10,000+ USDT rewards | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 50,000 USDT Prize Pool](https://www.gate.com/announcements) | Crypto | Trade 10 popular stocks to share a 50,000 USDT prize pool | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | Earn up to 9% APR on USDT (Phase 3) | 約 TWD 77（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Live Rising Star Selection Weekly Gifts](https://www.gate.com/announcements) | Crypto | Unlock exclusive gifts every week | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Weekend Power Station](https://www.gate.com/announcements) | Crypto | Register to claim 0.5 SPCXG, trade to earn another 1 SPCXG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Live Rising Star Selection Weekly Gifts](https://www.gate.com/announcements) | Crypto | Unlock exclusive gifts every week | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate Weekend Power Station](https://www.gate.com/announcements) | Crypto | Register to claim 0.5 SPCXG, trade to earn another 1 SPCXG | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate Grid Bots New User Promotion](https://www.gate.com/announcements) | Crypto | Master Grid Bots in 1 minute 18 seconds, zero cost, for new bot users  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Swap 7-day Arena](https://www.gate.com/announcements) | Crypto | Share 1,000 USDT prize pool (Week 4) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Convert Trading Check-In](https://www.gate.com/announcements) | Crypto | Convert daily to claim 20 USDT and win an extra 10 GT | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，有效期為 90 天。在額度用完或過期前，不會向您的卡收費。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）、免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費靜態網站](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費 VPC 與 ingress 數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 創建不限數量的 VPC 無需額外費用；數據中心內及跨 VPC 的數據傳輸免費；Ingress（進入）數據傳輸免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費提供 DNS 管理服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -105,3 +98,13 @@
 | [Neon 新創企業计划 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 無帳戶快速體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶和信用卡即可立即獲取一個 Postgres 專案。未連結到正式帳戶的專案，儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可在 Google Colab 中每月獲得 200 個運算單位 (compute units)，用於更 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可在 Google Colab 中每月獲得 2,000 個運算單位 (compute units) | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款費率折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將調低費率（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 投資理財收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 中獲得即時存取收益。當前 GBP 的可變利率為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立帳戶服務，並強調節省海外費用及無隱藏費率。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

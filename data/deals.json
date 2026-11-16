@@ -1888,436 +1888,6 @@
     }
   },
   {
-    "id": "gemini-plans-20261115-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 每月 Google Cloud 回饋",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 信貸額度，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Pro 方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案",
-      "透過 Google Developer Program 使用每月 $10 的 Google Cloud 信貸"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-15T14:06:00.141Z",
-    "lastVerified": "2026-11-15",
-    "risks": "信貸額度限制在每月 $10，未使用的額度可能失效。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T14:05:17.717Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠為訂閱特定方案（Google AI Pro）後獲得的每月固定雲端額度回饋。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Includes Gemini 4 Argon\nGoogle AI Pro",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gemini-plans-20261115-2",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 每月 Google Cloud 回饋",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Ultra 方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案",
-      "透過 Google Developer Program 使用每月 $40 的 Google Cloud 信貸"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-15T14:06:00.141Z",
-    "lastVerified": "2026-11-15",
-    "risks": "信貸額度限制在每月 $40，未使用的額度可能失效。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T14:05:17.717Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該金額屬於訂閱特定高阶方案所附贈的額度，並非獨立的現金優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Google AI Ultra",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1280,
-      "basis": "explicit-amount",
-      "usd": 40,
-      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gemini-plans-20261115-3",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 贈送 Google Health Premium",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符號），提供由 Gemini 建構的健康教練功能。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Pro 方案；需要相容的裝置。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案",
-      "使用相容裝置存取 Google Health Premium"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-15T14:06:00.141Z",
-    "lastVerified": "2026-11-15",
-    "risks": "需要特定相容裝置才能使用。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T16:05:17.714Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是付費方案中附帶的價值權益，而非獨立的免費促銷或限時優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "requires a Google AI Pro subscription and an eligible device",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gemini-plans-20261115-4",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 贈送 Google Health Premium",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符號），提供由 Gemini 建構的健康教練功能。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Ultra 方案；需要相容的裝置。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案",
-      "使用相容裝置存取 Google Health Premium"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-15T14:06:00.141Z",
-    "lastVerified": "2026-11-15",
-    "risks": "需要特定相容裝置才能使用。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T16:05:17.714Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "Google Health Premium 是作為 Google AI Ultra 付費方案（From /mo）的附加權益，並非獨立的免費優惠或折扣。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261115-1",
-    "sourceId": "wise-home",
-    "name": "Wise 免費帳戶開戶",
-    "category": "banking",
-    "summary": "開放免費帳戶，無隱藏費用，快速開戶。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "United Kingdom"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 'Open a free account' 或 'Sign up' 連結",
-      "填寫個人資料並完成身分驗證"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-15T14:07:08.412Z",
-    "lastVerified": "2026-11-15",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T16:05:17.714Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示可免費開戶且強調無隱藏費用，符合免費方案或新戶獎勵類型。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The international account that saves you money",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "United Kingdom",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3000,
-      "basis": "ai-estimate",
-      "note": "主要價值在於節省匯率差價與手續費，保守估算一般使用者一年節省約 10-15 美元匯兌成本，換算成新台幣約 300-450 元，加上可能賺取的 3.47% 資產報酬，保守估算總價值約 3000 元（考慮匯兌頻率不高的情況）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "wise-home-20261115-2",
-    "sourceId": "wise-home",
-    "name": "Wise 高額匯款費用折扣",
-    "category": "banking",
-    "summary": "匯款金額超過 20,000 GBP 或等額外幣時，Wise 將折扣其費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "單筆匯款金額需超過 20,000 GBP 或等額外幣",
-    "regions": [
-      "United Kingdom"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "發起金額超過 20,000 GBP 的匯款"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-15T14:07:08.412Z",
-    "lastVerified": "2026-11-15",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T16:05:17.714Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅提及高額匯款會折扣費用，但未提供具體折扣比例或固定金額，無法判定為標準的限時折扣或固定額度。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Wise United Kingdom",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1500,
-      "basis": "ai-estimate",
-      "note": "保守估算一般使用者進行一筆超過20,000 GBP匯款時，相比標準費率可能節省約50-100美元的手續費，換算成新台幣約為1,500-3,000元，取中間偏保守值。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "wise-home-20261115-3",
-    "sourceId": "wise-home",
-    "name": "Wise Assets 存款收益活動",
-    "category": "banking",
-    "summary": " opting in to Wise Assets 可在 GBP、EUR 和 USD 貨幣上賺取即期存取收益，目前 GBP 變動利率為 3.47%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇加入 (Opt in) Wise Assets 服務",
-    "regions": [
-      "United Kingdom"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟帳戶",
-      "選擇加入 Wise Assets 功能"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-15T14:07:08.412Z",
-    "lastVerified": "2026-11-15",
-    "risks": "貨幣價值可能因政府違約或負利率而下降；目前利率不保證未來表現；可能涉及稅務。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T16:05:17.714Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是一個常態的計息產品（Wise Assets），提供變動利率收益，並非限時優惠或一次性獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Opt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Opt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Offered by Wise Assets UK",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3650,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者在 GBP 帳戶中存入 1,000 英鎊，按照 3.47% 的年化收益計算，約可獲得 34.7 英鎊，換算成新台幣約為 13,234 元（按 1 GBP = 381 TWD 估算）。此處取保守或一般性估算，若金額未指定，此估值可能偏離實際，但基於一般存款規模。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "esun-card-offers-20261115-1",
     "sourceId": "esun-card-offers",
     "name": "玉山雙11購物盛典",
@@ -4072,7 +3642,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供每週獨有的禮物獎勵，屬於用戶獎勵或空投積分類型的促銷活動",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Exclusive Gifts Every Week",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261116-5",
@@ -4102,7 +3692,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個活動，用戶需要註冊並交易以獲取特定代幣獎勵（SPCXG）。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Weekend Power Station: Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Register to Claim 0.5 SPCXG, Trade to Earn Another 1 SPCXG",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261116-6",
@@ -4130,7 +3745,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅提及教學活動與零成本，未明確說明提供免費方案、額度、試用或新戶獎勵等實質優惠內容。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Master Grid Bots in 1 Minute 18, Zero Cost, New Bot Users Only",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "New Bot Users Only",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261116-7",
@@ -4158,7 +3800,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面中未提供具體的活動名稱或相關內容，導致無法判斷。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "1000"
+      ]
+    }
   },
   {
     "id": "gate-announce-20261116-8",
@@ -4186,7 +3859,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-16T00:07:16.701Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面內容顯示 Convert 交易費用為 0，屬於常態的免手續費服務定價，並非限時的免費額度或新戶專屬現金獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Convert & Auto-Invest 0 Fee\nTrade any size with no fees and no slippage",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade any size",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "20"
+      ]
+    }
   },
   {
     "id": "digitalocean-pricing-20261116-1",
@@ -4216,7 +3919,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-16T02:06:04.292Z",
     "lastVerified": "2026-11-16",
     "risks": "若未及時銷毀資源，額度過期後將自動開始扣款；免費額度過期後剩餘部分將失效。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及新帳戶可獲得 $5 的免費額度，屬於新戶獎勵或試用金。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "How does the $5 free credit work? Your card will be charged only after you have utilized the free credits or after the credit expiration period. For example, if you received a $5 credit for 90 days, then that $5 credit is automatically appl",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "$5 credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "digitalocean-pricing-20261116-2",
@@ -4245,7 +3983,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-16T02:06:04.292Z",
     "lastVerified": "2026-11-16",
     "risks": "超出免費頻寬額度後將按標準定價收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一般 Kubernetes 服務的訂閱定價說明，強調方案內含的功能特色，而非針對新戶或限時的優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free control plane, free bandwidth allowance, and more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261116-3",
@@ -4274,7 +4040,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-16T02:06:04.292Z",
     "lastVerified": "2026-11-16",
     "risks": "null",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T04:05:17.767Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費建立和部署靜態網站的數量額度",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "假設每個月1個$2的靜態託管服務，一年3個月價值$6，或保守估算三個基礎網站的託管費",
+      "confidence": "low"
+    }
   },
   {
     "id": "digitalocean-pricing-20261116-4",
@@ -4772,6 +4564,295 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-16T02:07:19.870Z",
     "lastVerified": "2026-11-16",
     "risks": "若未在 72 小時內連結到帳戶，專案將受到嚴格限制（100 MB 儲存、1 GB 傳輸）",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-1",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案 Google Cloud 回饋",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google Developer Program。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案",
+      "透過 Google Developer Program 自動獲得每月 $10 Google Cloud 代金券"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "取消訂閱後回饋停止；代金券適用於 Google Cloud 服務",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-2",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案 Google Cloud 回饋",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google Developer Program。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案",
+      "透過 Google Developer Program 自動獲得每月 $40 Google Cloud 代金券"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "取消訂閱後回饋停止；代金券適用於 Google Cloud 服務",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-3",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案 Colab 運算資源",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案可在 Google Colab 中每月獲得 200 個運算單位 (compute units)，用於更長的執行時間與強大加速器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案",
+      "在 Google Colab 中自動解鎖每月 200 個運算單位"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "運算單位每月重置，未用完部分可能不保留",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-4",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案 Colab 運算資源",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案可在 Google Colab 中每月獲得 2,000 個運算單位 (compute units)，用於更長的執行時間與強大加速器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案",
+      "在 Google Colab 中自動解鎖每月 2,000 個運算單位"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "運算單位每月重置，未用完部分可能不保留",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-5",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案 Google Health Premium 權益",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅標示為包含的價值），提供與 Gemini 整合的健康教練功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案；需要符合資格的設備 (eligible device required)",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案",
+      "自動解鎖 Google Health Premium 權益"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "需使用特定硬體設備；訂閱取消後權益終止",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261116-6",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案 Google Health Premium 權益",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅標示為包含的價值），提供與 Gemini 整合的健康教練功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案；需要符合資格的設備 (eligible device required)",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案",
+      "自動解鎖 Google Health Premium 權益"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T04:05:44.933Z",
+    "lastVerified": "2026-11-16",
+    "risks": "需使用特定硬體設備；訂閱取消後權益終止",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261116-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生優惠",
+    "category": "ai",
+    "summary": "經核實之學生可訪問 GitHub Copilot Student 方案",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須為經核實的學生身份",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 GitHub 官方頁面",
+      "驗證學生身份",
+      "存取 GitHub Copilot Student 方案"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-16T04:06:18.648Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261116-1",
+    "sourceId": "wise-home",
+    "name": "Wise 大額匯款費率折扣",
+    "category": "banking",
+    "summary": "匯款超過 20,000 GBP 或等額貨幣時，Wise 將調低費率（discount our fee）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "單筆匯款金額需超過 20,000 GBP 或等值金額。",
+    "regions": [
+      "UK"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行金額超過 20,000 GBP 或等值的匯款交易。"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261116-2",
+    "sourceId": "wise-home",
+    "name": "Wise Assets 投資理財收益",
+    "category": "banking",
+    "summary": "選擇加入 Wise Assets 可在 GBP、EUR 和 USD 中獲得即時存取收益。當前 GBP 的可變利率為 3.47%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選取加入 Wise Assets 功能。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開立 Wise 帳戶。",
+      "選擇加入 Wise Assets 以賺取收益。"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
+    "lastVerified": "2026-11-16",
+    "risks": "若政府違約或利率為負，貨幣價值可能下降。當前利率不保證未來表現，可變利率基於截至 2026/10/11 的 7 天績效，且可能需課稅。",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261116-3",
+    "sourceId": "wise-home",
+    "name": "Wise 免費開戶",
+    "category": "banking",
+    "summary": "提供免費開立帳戶服務，並強調節省海外費用及無隱藏費率。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Open a free account」開立帳戶。"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-16T04:06:55.044Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

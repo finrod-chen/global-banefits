@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T02:05:17.890Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T04:05:17.767Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,8 +24,11 @@
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 信貸額度，來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Ultra 每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 信貸額度，來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價值符 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案即包含 Google Health Premium，價值每月 /mo（頁面未標示具體數值，僅顯示價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。 | 約 TWD 128（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可在 Google Colab 中每月獲得 200 個運算單位 (compute units)，用於更 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Colab 運算資源](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可在 Google Colab 中每月獲得 2,000 個運算單位 (compute units) | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額，僅 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案 Google Health Premium 權益](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可免費獲得 Google Health Premium 方案，價值每月 /mo（頁面未顯示具體金額 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可訪問 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
