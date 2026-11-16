@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T10:05:18.349Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T12:05:19.139Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -97,14 +97,14 @@
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
 | [繳學費滿額登錄分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Trip.com 玉山JCB/Visa訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Heroku 學生免費額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 DataCamp 訂閱服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [JetBrains 學生訂閱](https://education.github.com/pack) | 軟體/數位服務 | 免費訂閱專業版 IDE（如 IntelliJ IDEA, PyCharm），需每年更新 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [1Password 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 2 年，包含 1Password Developer Tools | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Termius Pro 免費存取](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用所有 Termius Pro 和 Team 功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Datadog Pro 帳戶免費期](https://education.github.com/pack) | 軟體/數位服務 | Pro 帳戶（含 10 台伺服器）免費使用 2 年 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 免費域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊 1 年免費，以及 1 年 SSL 憑證免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Trip.com 玉山JCB/Visa訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Heroku 學生免費額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元額度，持續 24 個月 | 約 TWD 9,984（AI 估） | 長期活動 | 待核實 |
+| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 DataCamp 訂閱服務 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [JetBrains 學生訂閱](https://education.github.com/pack) | 軟體/數位服務 | 免費訂閱專業版 IDE（如 IntelliJ IDEA, PyCharm），需每年更新 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
+| [1Password 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 2 年，包含 1Password Developer Tools | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Termius Pro 免費存取](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用所有 Termius Pro 和 Team 功能 | 約 TWD 2,100（AI 估） | 長期活動 | AI 預審通過 |
+| [Datadog Pro 帳戶免費期](https://education.github.com/pack) | 軟體/數位服務 | Pro 帳戶（含 10 台伺服器）免費使用 2 年 | 約 TWD 27,570（AI 估） | 長期活動 | AI 預審通過 |
+| [Namecheap 免費域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊 1 年免費，以及 1 年 SSL 憑證免費 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Microsoft Azure 學生云服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Azure 雲端服務，另提供 100 美元 Azure 額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 Boot.dev 完整互動式會員權限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格為 0 的遊戲，玩家可免費下載與擁有（DRM-free）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
