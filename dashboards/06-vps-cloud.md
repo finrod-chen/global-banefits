@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T06:05:19.367Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T07:19:51.217Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,12 +31,12 @@
 | [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起始額度為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（具體數額頁面未列明），可成長為 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含 50,000 名每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。每專案每月包含 100 CU-hours、1 GB Postgres 儲存空間、5 GB Object Storage | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（具體數額頁面未列明），可成長為 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含 50,000 名每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。每專案每月包含 100 CU-hours、1 GB Postgres 儲存空間、5 GB Object Storage | 約 TWD 1,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業计划 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無帳戶快速體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶和信用卡即可立即獲取一個 Postgres 專案。未連結到正式帳戶的專案，儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需 | 免費（價值視使用而定） | 長期活動 | 待核實 |

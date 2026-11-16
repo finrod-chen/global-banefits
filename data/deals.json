@@ -1888,210 +1888,6 @@
     }
   },
   {
-    "id": "claude-pricing-20261115-1",
-    "sourceId": "claude-pricing",
-    "name": "Claude Pro 年繳優惠",
-    "category": "ai",
-    "summary": "訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro 方案",
-      "選擇年繳付費方式"
-    ],
-    "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-15T19:08:26.911Z",
-    "lastVerified": "2026-11-15",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T19:07:58.885Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面展示的是 Claude Pro 方案的一般定價結構，說明年繳價格（$17/月，預付 $200）低於月繳價格（$20/月）。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$17\nPer month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 128,
-      "basis": "ai-estimate",
-      "usd": 4,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確寫出了年繳每月費用為 $17 以及預付總額 $200，因此無需進行保守估算。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳節省方案",
-    "category": "software",
-    "summary": "選擇年度付款模式，最多可節省 20% 費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在定價頁面選擇「Pay yearly」（年度付款）模式。"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
-    "lastVerified": "2026-11-15",
-    "risks": "需預付一年費用，通常較難退費。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-15T19:07:58.885Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面標註「Save up to 20% with yearly」，屬於常態的年度付款折價機制，而非限時活動或特殊優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "每人每月 $0，適用於個人整理專案與生活，包含 Notion AI 試用量、基本表單、資料庫、日曆及文件上傳（限 5MB）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Sign up」註冊帳戶即可使用免費方案。"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
-    "lastVerified": "2026-11-15",
-    "risks": "免費方案有功能限制（如外部訪客上限 10 人、頁歷保留 7 天等），超過需升級。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T19:07:58.885Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "免費方案提供基本功能及 AI 試用，符合免費方案或額度的定義",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "For individuals to organize personal projects and life.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261115-3",
-    "sourceId": "notion-pricing",
-    "name": "Notion Custom Agents 免費試用",
-    "category": "software",
-    "summary": "AI 代理（Agents）可免費試用，之後費用為每 1,000 點 Notion credits 10 美元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在支援 AI Agents 的方案中啟用該功能進行試用。"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-15T19:09:18.581Z",
-    "lastVerified": "2026-11-15",
-    "risks": "試用結束後將開始計費，需確保有足夠的 Notion credits 或付費額度。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-15T19:07:58.885Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該功能提供免費試用機制，屬於試用型推廣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn't have to. Free to try, then $10 per 1,000 credits.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261116-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Free 方案",
@@ -3824,7 +3620,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-16T02:06:41.595Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為針對特定對象的新創企業提供的促銷額度（Promotional Credits）。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits\n*Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261116-2",
@@ -3856,7 +3685,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-16T02:06:41.595Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "AWS 提供給符合資格新創企業的行銷促銷額度（Promotional Credits），非一般定價。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261116-3",
@@ -3884,7 +3746,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-16T02:06:41.595Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠提供特定額度的免費雲端資源額度，屬於推廣性質的新創企業獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261116-4",
@@ -3912,7 +3807,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-16T02:06:41.595Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定開發環境（Kiro）的啟動額度並可轉換為 AWS Activate Credits，屬於新創企業專屬的促銷方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261116-1",
@@ -3941,7 +3861,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-16T02:07:00.435Z",
     "lastVerified": "2026-11-16",
     "risks": "專案在 1 週未活動後會被暫停,最多只能維持 2 個主動專案,社群支援僅限免費方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了免費方案（Free Plan）及其包含的資源額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Automatic backups\nNot included in free\nPoint in time recovery\nNot included in free",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261116-1",
@@ -3971,7 +3911,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-16T02:07:19.870Z",
     "lastVerified": "2026-11-16",
     "risks": "超出免費額度（如每月 100 CU-hours 或 1 GB 儲存）後，計算服務將暫停直至下一個計費週期，或需升級至付費方案才能繼續使用。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供永久免費方案，包含特定資源額度且無需信用卡，符合免費方案/額度定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and learn free with no time limits and no credit card required.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1400,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者使用免費額度：100 CU-hrs計算成本（依Launch費率$0.106計算約$10.6）與1GB儲存空間成本（$0.35），約$11，換算台幣約$350。因包含多項後端服務與100專案限制，且實際價值依使用量而異，保守估算一般使用者第一年可能使用的基礎資源價值。若按Scale費率估算會更高，但免費方案通常對應基礎使用。此處估算較為保守，主要基於其提供的計算與儲存空間市場價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261116-2",
@@ -4000,7 +3971,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-16T02:07:19.870Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定族群（新創企業）提供最高10萬美元的額度補貼，屬於優惠或獎勵性質。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   },
   {
     "id": "neon-pricing-20261116-3",
@@ -4029,7 +4029,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-16T02:07:19.870Z",
     "lastVerified": "2026-11-16",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-16T07:19:51.217Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該計劃提供贊助（Sponsorship），屬於新戶獎勵或空投積分類型的免費資源支援。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sponsorship for the open source you maintain.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261116-4",
@@ -4939,6 +4964,63 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-16T06:07:33.538Z",
     "lastVerified": "2026-11-16",
     "risks": "年繳為一次性支付全年費用，需注意資金規劃,具體年繳價格頁面未直接顯示，僅標示節省比例",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261116-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每成員每個月 $0。包含個人組織專案與生活管理功能，以及 Notion AI 的試用功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Sign up' 或 'Get Notion free' 註冊帳號"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T07:21:05.092Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261116-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳節省 20%",
+    "category": "software",
+    "summary": "選擇年繳付款方式，最高可節省 20% 費用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇 'Pay yearly' 付款方式",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在定價頁切換至 'Pay yearly' 模式",
+      "選擇付費方案並完成訂閱"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T07:21:05.092Z",
+    "lastVerified": "2026-11-16",
+    "risks": "需進行年繳付費",
     "status": "pending"
   }
 ]

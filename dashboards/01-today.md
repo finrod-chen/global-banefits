@@ -1,13 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T06:05:19.367Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T07:19:51.217Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 訂閱 Claude Pro 年繳方案每月 $17（月繳為 $20），年繳總額 $200 預付。 | 約 TWD 128（AI 估） | 長期活動 | 待核實 |
-| [Notion 年繳節省方案](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年度付款模式，最多可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，適用於個人整理專案與生活，包含 Notion AI 試用量、基本表單、資料庫、日曆及文件上傳（限 5MB）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理（Agents）可免費試用，之後費用為每 1,000 點 Notion credits 10 美元。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，$0/月，包含：Fast, Easy-to-use DNS、Unmetered DDoS Protection、CDN、Unive | 約 TWD 240（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 免費試用（SASE / Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | SASE / Zero Trust 免費方案：$0 forever，適用於 50 人以下團隊或企業概念驗證測試。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 免費額度：每日 100k 請求、每請求 10 ms CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -39,14 +35,14 @@
 | [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起始額度為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd 專有伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠代碼 15OFFDEDI 可享所有專有伺服器 (dedicated servers) 15% 終身折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板一鍵安裝 AdminBolt 主機控台，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（具體數額頁面未列明），可成長為 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含 50,000 名每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。每專案每月包含 100 CU-hours、1 GB Postgres 儲存空間、5 GB Object Storage | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自籌資金的新創企業可獲得最高 5,000 美元 AWS 額度；起始額度為 1,000 美元，部分經選定的參與者符合資格可獲得額外額度以達到  | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 獲 VC、加速器或天使投資者背書的新創企業可獲得最高 200,000 美元 AWS 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS AI Startups Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對準備擴大規模的 AI 新創企業提供 200,000 美元以上的 AWS 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的啟動額度（具體數額頁面未列明），可成長為 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含 50,000 名每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。每專案每月包含 100 CU-hours、1 GB Postgres 儲存空間、5 GB Object Storage | 約 TWD 1,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業计划 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供早期階段新創企業最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無帳戶快速體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶和信用卡即可立即獲取一個 Postgres 專案。未連結到正式帳戶的專案，儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Pro 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 $10 的 Google Cloud 代金券 (credits)，來自 Google De | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 $40 的 Google Cloud 代金券 (credits)，來自 Google  | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -79,3 +75,5 @@
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用期，試用結束後按對應方案月費（$14.99、$18.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 1,000 AI 積分活動](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Mac 或 Mac + iOS 方案的新用戶可獲得 1,000 點 AI 積分；訂閱 Power User 方案可獲得 2,000 點 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳節省 40% 活動](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳訂閱方案最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每個月 $0。包含個人組織專案與生活管理功能，以及 Notion AI 的試用功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳節省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,14 +1,11 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T06:05:19.367Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T07:19:51.217Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Notion 年繳節省方案](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年度付款模式，最多可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，適用於個人整理專案與生活，包含 Notion AI 試用量、基本表單、資料庫、日曆及文件上傳（限 5MB）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理（Agents）可免費試用，之後費用為每 1,000 點 Notion credits 10 美元。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Heroku 學生免費額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 3 個月免費存取 DataCamp 訂閱服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [JetBrains 學生訂閱](https://education.github.com/pack) | 軟體/數位服務 | 免費訂閱專業版 IDE（如 IntelliJ IDEA, PyCharm），需每年更新 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -24,3 +21,5 @@
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用期，試用結束後按對應方案月費（$14.99、$18.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 1,000 AI 積分活動](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Mac 或 Mac + iOS 方案的新用戶可獲得 1,000 點 AI 積分；訂閱 Power User 方案可獲得 2,000 點 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳節省 40% 活動](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳訂閱方案最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每成員每個月 $0。包含個人組織專案與生活管理功能，以及 Notion AI 的試用功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳節省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
