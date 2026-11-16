@@ -926,5 +926,35 @@
     "status": "expired",
     "archivedAt": "2026-11-16T16:05:19.349Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "copilot-plans-20261116-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Fusion 限時折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用量享 30% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-11-30",
+    "ongoing": false,
+    "steps": [
+      "點擊頁面上的「Learn more」連結或升級/使用 Copilot 方案"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-16T18:06:57.484Z",
+    "lastVerified": "2026-11-16",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "archivedAt": "2026-11-16T20:05:19.174Z",
+    "archiveReason": "endDate passed"
   }
 ]

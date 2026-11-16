@@ -1,6 +1,6 @@
 # H. 已結束活動檔案
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T18:05:19.901Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-16T20:05:19.174Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 歸檔原因 | 歸檔時間 |
 |---|---|---|---|
@@ -21,3 +21,4 @@
 | [ElevenLabs 限時促銷：$1 換 30,000 點](https://elevenlabs.io/pricing) | AI 工具 | endDate passed | 2026-11-15T12:05:22.039Z |
 | [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | endDate passed | 2026-11-15T12:05:22.039Z |
 | [ElevenLabs 限時促銷：30,000 點額度 $1](https://elevenlabs.io/pricing) | AI 工具 | endDate passed | 2026-11-16T16:05:19.349Z |
+| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | endDate passed | 2026-11-16T20:05:19.174Z |
