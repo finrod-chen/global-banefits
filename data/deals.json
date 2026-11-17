@@ -3807,7 +3807,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "畢業或不再符合學生身分時，訂閱將自動轉為付費或失去存取權限",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為提供給學生的免費訂閱權益。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2900,
+      "basis": "ai-estimate",
+      "note": "GitHub Pro 的常態年費約為 88 美元，換算為新台幣約 2900 元，且學生可免費使用。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-2",
@@ -3836,7 +3869,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "僅限 18 歲以上",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供學生免費存取雲端服務及代金券，屬於典型的學生優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261117-3",
@@ -3865,7 +3931,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "免費期限結束後需付費續約",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出學生可申請的免費網域與 SSL 憑證優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Offer #1\n1 year domain name registration on the .me TLD.\nTags\nVirtual Events\nOffer #2\n1 SSL certificate free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "假設 .me 網域一年價值約 500-800 元，SSL 憑證一年價值約 1000-2000 元，保守估算總價值約 1500 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-4",
@@ -3894,7 +3991,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "網域到期後需付費續約",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費網域屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "一般商用網域年度價格約10-20美元，保守估算一年價值約1500元新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-5",
@@ -3923,7 +4051,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "免費期限結束後需付費續約",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生免費網域註冊的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": ".TECH 網域一般市價約 $10-15 USD/年，保守估算約 300-450 TWD，取 300。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-6",
@@ -3952,7 +4111,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "畢業後可能失去免費存取權限",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對學生提供免費或折扣價生產力軟體及1TB雲端儲存空間的專屬優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "以微軟生產力軟體年費與1TB雲端儲存空間市價保守估算，第一年價值約10000台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-7",
@@ -3982,7 +4172,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "免費期滿後訂閱將自動轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定條件下免費的試用存取權。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "when you sign up for a DataCamp subscription with your GitHub student account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1900,
+      "basis": "ai-estimate",
+      "note": "假設 DataCamp 每月訂閱約 15 美元，3個月免費價值約 45 美元，換算成新台幣約 1900 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-8",
@@ -4011,7 +4232,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "畢業後可能失去存取權限",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T12:05:17.365Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列於 GitHub 學生開發者套件（Student Developer Pack）中，屬於提供學生免費方案的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1800,
+      "basis": "ai-estimate",
+      "note": "Notion 個人版年費約 96 美元（約 3000 新台幣），教育版包含 Plus 功能，保守估算約 8 折價值，約 1800 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-9",

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T10:05:18.790Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T12:05:17.365Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -75,14 +75,14 @@
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 存款利息收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 服務，可在 GBP、EUR 和 USD 貨幣中賺取 3.47% 的可變年利率（基於 2026 年 10 月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費帳戶開通](https://wise.com/) | 海外銀行/卡 | 提供免費開戶功能，用戶可在幾分鐘內開通帳戶 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub 免費 Pro 訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間可免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft Azure 雲端服務與代金券](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域副後綴（如 .live, .studio, .software, .app, .dev）的免費專案網域。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費使用 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft 365 生產力軟體與儲存空間](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用內建 AI 助手 Copilot 的生產力應用程式、1TB 雲端儲存空間及進階資料安全功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號註冊 DataCamp 訂閱時，可享 3 個月免費存取權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub 免費 Pro 訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間可免費使用 GitHub Pro。 | 約 TWD 2,900（AI 估） | 長期活動 | 待核實 |
+| [Microsoft Azure 雲端服務與代金券](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域副後綴（如 .live, .studio, .software, .app, .dev）的免費專案網域。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費使用 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft 365 生產力軟體與儲存空間](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用內建 AI 助手 Copilot 的生產力應用程式、1TB 雲端儲存空間及進階資料安全功能。 | 約 TWD 10,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DataCamp 免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號註冊 DataCamp 訂閱時，可享 3 個月免費存取權。 | 約 TWD 1,900（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Heroku 雲端代金券](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元的美國雲端代金券，期限為 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
