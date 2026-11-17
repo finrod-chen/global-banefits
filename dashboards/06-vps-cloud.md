@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T16:05:18.722Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T18:05:17.046Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,5 +29,5 @@
 | [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時數及 3 個並行瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100k 請求、10 ms/調用 CPU 時間及 1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存、100 萬次 Class A 操作及 1,000 萬次 Class B 操作。 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存數據、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列出請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存數據、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列出請求。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |

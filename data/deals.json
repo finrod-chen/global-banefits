@@ -4425,7 +4425,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-17T16:06:18.192Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供明確的每月免費額度（Stored Data 1 GB, Read Requests 100,000/day, Write/Delete/List 1,000/day）。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workers KV\nLightning-fast key-value storage\nComponent\nFree\nPaid\nStored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261117-10",
@@ -4454,35 +4474,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-17T16:06:18.192Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "elevenlabs-pricing-20261117-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs Black Friday 限時折扣",
-    "category": "ai",
-    "summary": "最高可享 55% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此草稿描述的是Cloudflare D1資料庫產品中針對免費方案用戶的固定免費使用額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free 5 GB (total) Paid $0.75 / GB-month Rows Read Free 5 million / day Paid $0.001 / million rows Rows Written Free 100,000 / day Paid $1.00 / million rows",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
     },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-12-01",
-    "ongoing": false,
-    "steps": [
-      "點擊頁面上的 'Get the offer' 按鈕"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-17T16:06:51.890Z",
-    "lastVerified": "2026-11-17",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 10000,
+      "basis": "ai-estimate",
+      "note": "保守估算：D1的5GB儲存空間和讀寫額度若全部耗盡，其對應的付費方案價值約為$36.50/年（$0.75/GB*5GB*12個月 + 5M*12*0.001M + 100K*12*1.00M），換算成新台幣約10,000元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "v0-pricing-20261117-1",
@@ -4511,7 +4533,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-17T16:07:09.217Z",
     "lastVerified": "2026-11-17",
     "risks": "需持續維持 Plus 或 Business 訂閱狀態方能享有每日額度",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該權益為訂閱付費方案後隨方案附贈的每日固定免費額度，屬於訂閱制中的常態免費額度權益。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$2 of free daily credits on login per user",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "$2 of free daily credits on login per user",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 64,
+      "basis": "explicit-amount",
+      "usd": 2,
+      "quote": "$2 of free daily credits on login per user",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261117-1",
@@ -4537,7 +4592,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-17T16:08:02.899Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示註冊即可領取大量獎勵，屬於新戶獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "10,000+ USDT rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261117-2",
@@ -4563,7 +4646,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-17T16:08:02.899Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為交易競賽，提供特定總額的 USDT 獎池供交易者瓜分，屬於限時獎勵/競賽活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261117-3",
@@ -4589,7 +4692,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-17T16:08:02.899Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為限時活動且提供高達9% APR的年化收益，屬於限時優惠或獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261117-4",
@@ -4615,7 +4738,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-17T16:08:02.899Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為限時活動，提供排行榜獎勵池與空投性質的XAUT獎勵，屬於典型的促銷與用戶激勵方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2560000,
+      "basis": "explicit-amount",
+      "usd": 80000,
+      "quote": "Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261117-5",
@@ -4641,7 +4792,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-17T16:08:02.899Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T18:05:17.046Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目屬於交易所舉辦的特定活動，透過交易與抽獎提供獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate ETF Treasure Hunt Edition 10: Up to 88 USDT per Draw & Trade for up to 900 USDT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 31616,
+      "basis": "ai-estimate",
+      "usd": 988,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確寫出了獎勵的區間與極限金額，因此不需進行估算。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gate-announce-20261117-6",
