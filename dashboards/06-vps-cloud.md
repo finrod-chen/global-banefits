@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T08:31:31.745Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T10:05:18.790Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,5 +29,5 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 月活躍使用者、500 MB 資料庫大小、5 GB 離站流量、5 GB 快取離站流量、1 GB 檔案儲存、無限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目，每個項目每月 100 CU-hrs 計算資源、1 GB 儲存空間、最大 2 CU (8 GB | 約 TWD 1,300（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的信憑代金券 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

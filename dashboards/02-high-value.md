@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T08:31:31.745Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T10:05:18.790Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,12 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 頁面篩選價格範圍為 0 美元（priceRange=0,0），顯示免費遊戲項目。頁面包含動態模板「OWNED -{{ gamesProduc | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 「Don’t miss your Welcome Offer! Start your game collection with these  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2 | 約 TWD 515（AI 估） | 長期活動 | 待核實 |
-| [Notion 年繳方案省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。 | 約 TWD 3,070（AI 估） | 長期活動 | 待核實 |
-| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理可自主處理重複性工作，免費試用（Free to try），之後每 1,000 個 Notion 積分收取 10 美元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Free 方案](https://www.notion.com/pricing) | 軟體/數位服務 | 免費方案，每位成員每月 0 美元，適合個人整理專案與生活。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Network & CDN Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含無限量 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集及 Web 應用防火牆（WAF） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | $0 永久免費，適用於 50 人以下團隊或企業概念驗證測試，包含最多 24 小時標準日誌保存及社群論壇支持 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次請求 10ms CPU 時間 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
@@ -65,9 +59,9 @@
 | [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 最高可得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日，需註冊、存入 1,000 美元法幣，並透過四個階段的交易 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
 | [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 競爭總價值 20,000 美元的 ANTHROPICX 獎品池。在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken 貴金屬與商品半價手續費活動](https://blog.kraken.com/) | Crypto | Kraken Prop 上的黃金、白銀、原油（WTI、Brent）、銅及天然氣現貨交易，非加密貨幣市場的手續費降至每邊 2bps（原價的一半 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken 500 萬 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，有助於解鎖總價值最高 5,000,000 USDG 的獎勵池。活動期間為 10 月 12 日至 12  | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
-| [Kraken 預 IPO 挑戰賽：OurAx 與 Moonshotx 永續合約](https://blog.kraken.com/) | Crypto | 交易 OurAx 和 Moonshotx 永續合約（最高 10 倍槓桿），總共 10,000 USDG 獎金。依交易量決定排名。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 美國 GP 粉絲見面會活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，有機會於 10 月在 Circuit of the Americas (COTA)  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 500 萬 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，有助於解鎖總價值最高 5,000,000 USDG 的獎勵池。活動期間為 10 月 12 日至 12  | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
+| [Kraken 預 IPO 挑戰賽：OurAx 與 Moonshotx 永續合約](https://blog.kraken.com/) | Crypto | 交易 OurAx 和 Moonshotx 永續合約（最高 10 倍槓桿），總共 10,000 USDG 獎金。依交易量決定排名。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 美國 GP 粉絲見面會活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，有機會於 10 月在 Circuit of the Americas (COTA)  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，期限為 90 天。只要未使用完額度或期限未過，卡號不會被扣款。若消費金額超過 $5，僅扣除超過部分。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 美元 AWS Activate Credits。起始提供 1,000 美元，部分合資者可能符合額外額度資質，總額可達  | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio Pre-Series B 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元 AWS Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -76,11 +70,11 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 月活躍使用者、500 MB 資料庫大小、5 GB 離站流量、5 GB 快取離站流量、1 GB 檔案儲存、無限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目，每個項目每月 100 CU-hrs 計算資源、1 GB 儲存空間、最大 2 CU (8 GB | 約 TWD 1,300（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的信憑代金券 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 存款利息收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 服務，可在 GBP、EUR 和 USD 貨幣中賺取 3.47% 的可變年利率（基於 2026 年 10 月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶開通](https://wise.com/) | 海外銀行/卡 | 提供免費開戶功能，用戶可在幾分鐘內開通帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶開通](https://wise.com/) | 海外銀行/卡 | 提供免費開戶功能，用戶可在幾分鐘內開通帳戶 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub 免費 Pro 訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間可免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Microsoft Azure 雲端服務與代金券](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -91,3 +85,5 @@
 | [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Heroku 雲端代金券](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元的美國雲端代金券，期限為 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最多40%的费用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

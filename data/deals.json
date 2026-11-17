@@ -1951,325 +1951,6 @@
     }
   },
   {
-    "id": "gog-free-games-20261116-1",
-    "sourceId": "gog-free-games",
-    "name": "GOG 免費遊戲",
-    "category": "software",
-    "summary": "頁面篩選價格範圍為 0 美元（priceRange=0,0），顯示免費遊戲項目。頁面包含動態模板「OWNED -{{ gamesProduct.price.discountPercentage }}% FREE $」，具體折扣數字未顯示。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進入 GOG 網站",
-      "瀏覽價格範圍為 0 美元的遊戲清單"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-16T22:06:03.287Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面內容多為未渲染的動態模板變數與通用導覽選單，並未顯示任何具體的免費遊戲標題、折扣百分比或活動細節，無法確認實質優惠內容。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "OWNED -{{ gamesProduct.price.discountPercentage }}% FREE $",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gog-free-games-20261116-2",
-    "sourceId": "gog-free-games",
-    "name": "GOG 歡迎優惠",
-    "category": "software",
-    "summary": "「Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!」提供限時特別交易，頁面顯示動態折扣百分比與價格模板，具體數字未顯示。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "瀏覽歡迎優惠頁面"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-16T22:06:03.287Z",
-    "lastVerified": "2026-11-16",
-    "risks": "限時活動，可能隨時結束",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面包含「Welcome Offer」與「special limited-time deals」等關鍵字，屬於新用戶獎勵或限時優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261116-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 7 天免費試用",
-    "category": "software",
-    "summary": "提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2,000 AI 點數。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Setapp 方案",
-      "點擊「Start 7-day free trial」",
-      "完成註冊與支付資訊設定"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-16T22:06:38.112Z",
-    "lastVerified": "2026-11-16",
-    "risks": "免費試用結束後會自動轉為付費訂閱（每月 $14.99、$18.99 或 $22.99 起），若未及時取消將被扣款。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供 7 天免費試用期",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial 1,000 AI credits Start 7-day free trial 1,000 AI credits Start 7-day free trial 2,000 AI credits",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 515,
-      "basis": "ai-estimate",
-      "note": "根據頁面標示的 Mac 方案月費 $14.99，將 7 天的試用價值換算成新台幣（約 $515）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261116-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳方案省 20%",
-    "category": "software",
-    "summary": "選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選定付費方案（Plus, Business, Enterprise）",
-      "切換付款方式為「Pay yearly」"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T22:07:49.423Z",
-    "lastVerified": "2026-11-16",
-    "risks": "年繳通常需一次性支付全年費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面描述的是年繳相對於月繳常態可節省最高20%的價格結構，而非限時折扣或特殊優惠活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3070,
-      "basis": "ai-estimate",
-      "note": "假設使用者升級至Plus方案（$10/月），年繳節省20%相當於 $24，換算新台幣約3070元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261116-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion Custom Agents 免費試用",
-    "category": "software",
-    "summary": "AI 代理可自主處理重複性工作，免費試用（Free to try），之後每 1,000 個 Notion 積分收取 10 美元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需要 Notion 積分（Notion credits）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "啟用 Notion 積分功能",
-      "配置並使用 Custom Agents"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T22:07:49.423Z",
-    "lastVerified": "2026-11-16",
-    "risks": "試用結束後需購買積分，每 1,000 積分售價 10 美元",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面列出的是常態定價與付費項目說明，免費試用僅為該項目的使用模式，非獨立的限時優惠活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Requires Notion credits",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261116-3",
-    "sourceId": "notion-pricing",
-    "name": "Notion Free 方案",
-    "category": "software",
-    "summary": "免費方案，每位成員每月 0 美元，適合個人整理專案與生活。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Notion 帳戶",
-      "選擇 Free 方案"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-16T22:07:49.423Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該頁面介紹的是免費方案（Free 方案），屬於免費額度或服務的推廣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free $0 per member / month For individuals to organize personal projects and life.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261117-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Network & CDN Free 方案",
@@ -3186,7 +2867,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個具有特定時間區間（10月12日至12月10日）且需透過特定交易行為參與以爭奪獎勵池的限時活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The $5,000,000 USDG Kraken Futures Challenge: one leaderboard, three multipliers",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261117-5",
@@ -3216,7 +2927,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供獎金池與交易排名獎勵的限時挑戰活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261117-6",
@@ -3246,7 +2990,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個結合註冊代碼與最低交易門檻的限時抽獎/見面會活動，屬於促銷性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Meet an Atlassian Williams F1 Team driver at the United States GP\nSign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261117-1",
@@ -3751,7 +3520,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對特定群體（開源專案）的特殊贊助專案，屬於非一般定價的額外優惠/支持方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sponsorship for the open source you maintain.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261117-4",
@@ -3780,7 +3574,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "若 72 小時內未申報，專案將受到儲存空間與網路傳輸限制。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供無帳戶、無信用卡的體驗專案，屬於試用性質的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Claimable Neon gives you, or an AI agent working for you, an instant Postgres project with no account and no credit card. Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are capped at 100 MB of storage and 1 GB of ",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261117-1",
@@ -3810,7 +3624,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及特定金額門檻下的費用折扣機制",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent?",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "en en",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261117-2",
@@ -3840,7 +3686,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
     "lastVerified": "2026-11-17",
     "risks": "貨幣價值可能因政府違約或負利率而減損,目前利率不保證未來表現,可能需繳納稅款",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的存款利率產品，提供可變年利率收益，非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Opt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1 Find out more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Opt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1 Find out more",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Offered by Wise Assets UK",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261117-3",
@@ -3869,7 +3747,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T10:05:18.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供開立免費帳戶的行銷號召，符合免費方案或新戶優惠的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open an account in minutes Send money now",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 200,
+      "basis": "ai-estimate",
+      "note": "開戶本身無成本，保守估算一年省下的少量跨境匯款手續費或匯率差價。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-1",
@@ -4160,6 +4069,63 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "代金券期滿後服務將變為付費",
+    "status": "pending"
+  },
+  {
+    "id": "setapp-pricing-20261117-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 7日免費試用",
+    "category": "software",
+    "summary": "所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇任一套案（Mac, Mac + iOS, 或 Power User）",
+      "點擊「Start 7-day free trial」"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
+    "lastVerified": "2026-11-17",
+    "risks": "試用結束後可能自動轉為付費訂閱，請留意取消期限與扣款機制。",
+    "status": "pending"
+  },
+  {
+    "id": "setapp-pricing-20261117-2",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 年繳折扣",
+    "category": "software",
+    "summary": "選擇年繳方案可節省最多40%的费用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳訂閱方案"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
+    "lastVerified": "2026-11-17",
+    "risks": "null",
     "status": "pending"
   }
 ]
