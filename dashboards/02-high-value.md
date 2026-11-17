@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-16T22:32:43.347Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T00:05:19.483Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -78,14 +78,14 @@
 | [Google AI Pro 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
 | [Namecheap 1年 .me 網域免費註冊](https://education.github.com/pack) | 軟體/數位服務 | 1 year domain name registration on the .me TLD. | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Namecheap 1年免費 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 SSL certificate free for 1 year. | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | Build your project on a select free domain with over 25 domain extensi | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft Azure 免費雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | Free access to 25+ Microsoft Azure cloud services plus $100 in Azure c | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [.TECH 1年免費網域](https://education.github.com/pack) | 軟體/數位服務 | One standard .TECH domain free for 1 year. | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | Free GitHub Pro while you are a student. | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft 365 免費或折扣方案](https://education.github.com/pack) | 軟體/數位服務 | Students can now get free or discounted access to our powerful product | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 3個月免費訪問](https://education.github.com/pack) | 軟體/數位服務 | DataCamp has partnered with GitHub Education to offer three months of  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | Everything in the Notion Education plan with additional AI responses.  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 1年免費 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 SSL certificate free for 1 year. | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | Build your project on a select free domain with over 25 domain extensi | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 免費雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | Free access to 25+ Microsoft Azure cloud services plus $100 in Azure c | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 1年免費網域](https://education.github.com/pack) | 軟體/數位服務 | One standard .TECH domain free for 1 year. | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | Free GitHub Pro while you are a student. | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft 365 免費或折扣方案](https://education.github.com/pack) | 軟體/數位服務 | Students can now get free or discounted access to our powerful product | 約 TWD 12,000（AI 估） | 長期活動 | 待核實 |
+| [DataCamp 3個月免費訪問](https://education.github.com/pack) | 軟體/數位服務 | DataCamp has partnered with GitHub Education to offer three months of  | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | Everything in the Notion Education plan with additional AI responses.  | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot Student 方案](https://education.github.com/pack) | 軟體/數位服務 | GitHub Copilot Student is available to verified students. The plan inc | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | Enjoy a credit of $13 USD per month for 24 months. | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
