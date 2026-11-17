@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T20:05:17.170Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T21:22:02.099Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,13 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目，每個項目每月 100 CU-hrs 計算資源、1 GB 儲存空間、最大 2 CU (8 GB | 約 TWD 1,300（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的信憑代金券 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise Assets 存款利息收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 服務，可在 GBP、EUR 和 USD 貨幣中賺取 3.47% 的可變年利率（基於 2026 年 10 月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶開通](https://wise.com/) | 海外銀行/卡 | 提供免費開戶功能，用戶可在幾分鐘內開通帳戶 | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub 免費 Pro 訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間可免費使用 GitHub Pro。 | 約 TWD 2,900（AI 估） | 長期活動 | 待核實 |
 | [Microsoft Azure 雲端服務與代金券](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
 | [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
@@ -86,15 +79,13 @@
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口（ANTHROPICX），爭奪 $20,000 的獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodities Half Commission](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 上交易黃金、白銀、石油及其他大宗商品，每邊手續費降至 2bps（原有非加密貨幣市場手續費）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產和加密期貨，解鎖最高 $5,000,000 USDG 的獎勵池。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
-| [Kraken OURAx and MOONSHOTx Perps Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分得 $10,000 USDG。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Atlassian Williams F1 Team Driver Meet](https://blog.kraken.com/) | Crypto | 有機會在 Circuit of the Americas (COTA) 與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
-| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月交易，贏得 1,000 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月 90,000 GiB-秒數免費，function invocations 沒有額外費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Droplets 免費出站流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起價 500 GiB/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費 Static Sites](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個 static sites | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken OURAx and MOONSHOTx Perps Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分得 $10,000 USDG。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月 90,000 GiB-秒數免費，function invocations 沒有額外費用 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Droplets 免費出站流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起價 500 GiB/月 | 約 TWD 4,782（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 Static Sites](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個 static sites | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean VPC 免費建立](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立無限個 VPC，ingress 數據傳輸免費，同資料中心內的 VPC 互連免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 DNS 管理功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費 Container Registry](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Container Registry，包含 1 個 repository 和 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 DNS 管理功能 | 約 TWD 2,400（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 Container Registry](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Container Registry，包含 1 個 repository 和 500 MiB 儲存空間 | 約 TWD 3,600（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 Cloud Firewalls](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Cloud Firewalls | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，bandwidth allowance 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -107,3 +98,8 @@
 | [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 使用量限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 高額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（GBP）或等值外匯時，Wise 將對手續費進行折扣（We'll discount our fee） | 免費（價值視使用而定） | 長期活動 | 待核實 |

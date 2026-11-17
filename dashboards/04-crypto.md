@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T20:05:17.170Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T21:22:02.099Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,6 +26,4 @@
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口（ANTHROPICX），爭奪 $20,000 的獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodities Half Commission](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 上交易黃金、白銀、石油及其他大宗商品，每邊手續費降至 2bps（原有非加密貨幣市場手續費）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產和加密期貨，解鎖最高 $5,000,000 USDG 的獎勵池。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
-| [Kraken OURAx and MOONSHOTx Perps Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分得 $10,000 USDG。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Atlassian Williams F1 Team Driver Meet](https://blog.kraken.com/) | Crypto | 有機會在 Circuit of the Americas (COTA) 與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
-| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月交易，贏得 1,000 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [Kraken OURAx and MOONSHOTx Perps Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分得 $10,000 USDG。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
