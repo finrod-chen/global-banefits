@@ -1888,215 +1888,6 @@
     }
   },
   {
-    "id": "porkbun-domains-20261116-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域 Black Friday 促銷",
-    "category": "vps-cloud",
-    "summary": "特定網域（如 .cloud, .xyz, .tech 等）享有首年銷售價格，例如 .cloud 首年 $3.88、.xyz 首年 $1.29、.tech 首年 $6.99，相較於平常價格大幅降低。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 網站搜尋網域",
-      "選擇標示有 '1st Yr Sale' 或 'Black Friday' 的網域",
-      "加入購物車並完成結帳"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
-    "lastVerified": "2026-11-16",
-    "risks": "部分網域僅首年優惠，續約價格為全價（如 .cloud 續約 $21.11, .xyz 續約 $14.21）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示特定網域享有「first year sale」（首年特惠價），並列出遠低於平常價格的優惠價格，屬於限時折扣性質。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": ".cloud\n3.88 first year sale\n$21.11 regular price\n.xyz\n1.29 first year sale\n$14.21 regular price\n.tech\n6.99 first year sale\n$50.98 regular price",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 50,
-      "basis": "ai-estimate",
-      "note": "以頁面標示的最低首年優惠價 .xyz 為 $1.29，保守估算約 1 美元，依當前匯率（約 30 NTD/USD）換算約 30-50 新台幣，故取保守整數 50。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "porkbun-domains-20261116-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 WHOIS 隱私保護",
-    "category": "vps-cloud",
-    "summary": "註冊網域時免費提供 WHOIS 隱私保護服務。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Porkbun 網域",
-      "服務自動包含在網域註冊中"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該服務標示為免費提供，屬於免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free WHOIS Privacy",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261116-3",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 SSL 憑證",
-    "category": "vps-cloud",
-    "summary": "提供免費的 SSL 憑證服務。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 平台申請 SSL 憑證"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該服務為完全免費提供的SSL憑證，屬於免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free SSL Certificates",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261116-4",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費郵件轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的電子郵件轉發功能。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 帳戶中設定郵件轉發"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-16T18:05:47.877Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示「Free」（免費）的郵件轉發功能，屬於免費服務額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Email Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3000,
-      "basis": "ai-estimate",
-      "note": "估算依據為一般商業或個人郵件轉發服務的年費約莫在100至250美元之間，保守估算取其低值或依市場常見定價換算成新台幣約3000。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "epic-free-games-20261116-1",
     "sourceId": "epic-free-games",
     "name": "Epic 每週免費遊戲",
@@ -2157,1043 +1948,6 @@
       "basis": "ai-estimate",
       "note": "保守估算為頁面上列出的三款遊戲原價總和：Them's Fightin' Herds NT$289 + Model Builder: Complete Edition NT$318 + Eternal Threads NT$278 = NT$885。",
       "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-1",
-    "sourceId": "github-education",
-    "name": "Namecheap 1年 .me 網域免費註冊",
-    "category": "software",
-    "summary": "1 year domain name registration on the .me TLD.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Namecheap 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對特定學生群體提供一年的免費網域註冊權益。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 year domain name registration on the .me TLD.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up for Student Developer Pack",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 500,
-      "basis": "ai-estimate",
-      "note": "保守估算一個標準 .me 網域註冊一年的市價約為 30-50 美元（約 1000-1500 元台幣），取保守整數值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-2",
-    "sourceId": "github-education",
-    "name": "Namecheap 1年免費 SSL 憑證",
-    "category": "software",
-    "summary": "1 SSL certificate free for 1 year.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Namecheap 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "免費提供 SSL 憑證一年，屬於免費方案或額度。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 SSL certificate free for 1 year.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "GitHub Student Developer Pack",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "github-education-20261116-3",
-    "sourceId": "github-education",
-    "name": "Name.com 免費網域",
-    "category": "software",
-    "summary": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員；帳戶需包含唯一地址，否則系統可能認為是重複請求",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Name.com 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供選擇性免費網域註冊，屬於 GitHub 學生開發者包內的免費額度福利。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 200,
-      "basis": "ai-estimate",
-      "note": "一般免費或低價 TLD（如 .app、.dev）年費約 $10-15，折合新台幣約 300-450 元；若選取較高價 TLD 則價值更高，此處取保守估計值 200 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-4",
-    "sourceId": "github-education",
-    "name": "Microsoft Azure 免費雲端服務與額度",
-    "category": "software",
-    "summary": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "18歲以上學生",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Microsoft Azure 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供免費雲端服務存取權及固定額度的雲端帳戶信用額度。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "For students aged 18+.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "$100 in Azure credit",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "github-education-20261116-5",
-    "sourceId": "github-education",
-    "name": ".TECH 1年免費網域",
-    "category": "software",
-    "summary": "One standard .TECH domain free for 1 year.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 .TECH 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供 .TECH 網域免費註冊一年的優惠，屬於免費額度或試用性質的促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "One standard .TECH domain free for 1 year.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up for Student Developer Pack",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 300,
-      "basis": "ai-estimate",
-      "note": ".TECH 網域市價約每年 $10-15 美元（約 300-450 新台幣），取保守值 300 新台幣估算第一年價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-6",
-    "sourceId": "github-education",
-    "name": "GitHub Pro 免費方案",
-    "category": "software",
-    "summary": "Free GitHub Pro while you are a student.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "學生身分",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "啟用 GitHub Pro"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對學生身分提供的免費軟體授權權益，屬於學生優惠類別。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free GitHub Pro while you are a student.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "while you are a student",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3600,
-      "basis": "ai-estimate",
-      "note": "GitHub Pro 商業定價約每月 39 美元，一年約 468 美元，依保守匯率換算約 14,000 新台幣，但考量學生使用頻率與工具替代性，給予保守估值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-7",
-    "sourceId": "github-education",
-    "name": "Microsoft 365 免費或折扣方案",
-    "category": "software",
-    "summary": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "學生身分",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Microsoft 365 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "學生可獲得免費或折扣的生產力軟體、雲端儲存空間及進階安全性功能，屬於學生優惠方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Students",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 12000,
-      "basis": "ai-estimate",
-      "note": "以 Microsoft 365 教育方案市場價約 1 年 1,000 美元（約 3 萬台幣）扣除免費儲存空間與安全性功能估值，保守估算一般使用者第一年價值約 1.2 萬台幣，因原文僅提供 1TB 儲存空間與進階安全性，未明確提供所有生產力軟體的完整價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-8",
-    "sourceId": "github-education",
-    "name": "DataCamp 3個月免費訪問",
-    "category": "software",
-    "summary": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "使用 GitHub 學生帳戶訂閱 DataCamp",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "使用 GitHub 學生帳戶訂閱 DataCamp"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此優惠提供 DataCamp 訂閱的 3 個月免費訪問，屬於免費額度與學生優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "when you sign up for a DataCamp subscription with your GitHub student account",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2400,
-      "basis": "ai-estimate",
-      "note": "假設 DataCamp 個人訂閱費約為每月 30 美元（或每年 150 美元），3 個月免費訪問的價值約為 30 * 3 = 90 美元，換算成新台幣約為 90 * 32 = 2880 元。這裡保守估算為 2400 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-9",
-    "sourceId": "github-education",
-    "name": "Notion Education 方案",
-    "category": "software",
-    "summary": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Notion 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T00:05:19.483Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是針對學生身分提供的免費或優惠方案，屬於學生優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up for Student Developer Pack",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6000,
-      "basis": "ai-estimate",
-      "note": "Notion Plus/教育版方案每月約 $10-12 USD，一年價值約 $120-144 USD，換算成新臺幣約 4000-5000 元，保守估算為 6000 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-10",
-    "sourceId": "github-education",
-    "name": "GitHub Copilot Student 方案",
-    "category": "software",
-    "summary": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "已驗證學生",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "啟用 GitHub Copilot Student"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對已驗證學生提供的免費方案與 AI 額度，屬於學生優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1000,
-      "basis": "ai-estimate",
-      "note": "Copilot 個人版月費約 $10 USD，學生方案免費使用一年，保守估算第一年價值約 $120 USD，換算為新台幣 1000 元整數（取保守值或依據常態定價換算）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "github-education-20261116-11",
-    "sourceId": "github-education",
-    "name": "Heroku 月度額度",
-    "category": "software",
-    "summary": "Enjoy a credit of $13 USD per month for 24 months.",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "GitHub Student Developer Pack 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "加入 GitHub Student Developer Pack",
-      "申請 Heroku 優惠"
-    ],
-    "officialUrl": "https://education.github.com/pack",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-16T20:08:11.380Z",
-    "lastVerified": "2026-11-16",
-    "risks": "",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供月度額度與多長時間的免費信用額度",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Enjoy a credit of $13 USD per month for 24 months.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 9984,
-      "basis": "ai-estimate",
-      "usd": 312,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-1",
-    "sourceId": "esun-card-offers",
-    "name": "玉山雙11購物盛典回饋",
-    "category": "banking",
-    "summary": "最高享9,800元回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-01",
-    "endDate": "2026-11-30",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠屬於限時活動回饋，且有明確的活動期間限制。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山雙11購物盛典，最高享9,800元回饋",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "活動期間：2026/11/1~2026/11/30",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 9800,
-      "basis": "ai-estimate",
-      "note": "基於頁面標示的最高回饋金額保守估算一般使用者第一年能得到的最大價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-2",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳地價稅優惠",
-    "category": "banking",
-    "summary": "最高享0.2%玉山e point回饋或3期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "繳稅時選擇分期0利率或回饋，屬常態消費方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山信用卡 繳地價稅\n最高享0.2%玉山e point回饋或3期0利率\n了解更多",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-3",
-    "sourceId": "esun-card-offers",
-    "name": "玉山環球賞",
-    "category": "banking",
-    "summary": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "啟用玉山指定萬事達卡",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個針對特定萬事達卡的新用戶啟用獎勵，提供最高20%的現金回饋。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "啟用玉山指定萬事達卡",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-4",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳學費分期優惠",
-    "category": "banking",
-    "summary": "滿額登錄享最高6期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "滿額並登錄活動",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供零利率分期優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "滿額登錄享最高6期0利率！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-5",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡綁定全支付 繳稅費回饋",
-    "category": "banking",
-    "summary": "繳稅費享3%全點回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "綁定全支付",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "透過特定第三方平台（全支付）綁定以享受稅費繳交的回饋優惠，屬於促銷活動性質。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "繳稅費享3%全點回饋",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山信用卡綁定全支付",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-6",
-    "sourceId": "esun-card-offers",
-    "name": "Trip.com 飯店訂房折扣",
-    "category": "banking",
-    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "使用玉山JCB卡或玉山Visa卡",
-    "regions": [
-      "日本"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T02:05:17.058Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供特定卡種的訂房折扣，屬於消費回饋或限時/特定條件優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山JCB卡或玉山Visa卡",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "日本",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3000,
-      "basis": "ai-estimate",
-      "note": "保守估算一般使用者在日本訂房一次花費約10,000~30,000 TWD，依最高14%折扣估算，約可得1,400~4,200 TWD回饋，取中間值保守估計。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261116-7",
-    "sourceId": "esun-card-offers",
-    "name": "保險享12期0利率",
-    "category": "banking",
-    "summary": "相關熱門服務提供保險購置享12期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-16T20:08:46.832Z",
-    "lastVerified": "2026-11-16",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T04:05:16.721Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "零利率分期付款方案屬於限時或特定條件下的優惠，而非常態定價。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "保險享12期0利率",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
     }
   },
   {
@@ -4523,7 +3277,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-17T06:06:42.522Z",
     "lastVerified": "2026-11-17",
     "risks": "額度有效期為 90 天，逾期未使用將失效。消費若超過 $5，多出的部分需由卡號支付。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容明確提供新戶 $5 免費額度，屬於新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Your card will be charged only after you have utilized the free credits or after the credit expiration period. For example, if you received a $5 credit for 90 days, then that $5 credit is automatically applied to your account. If you spend ",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "When you add a card, we may send a temporary pre-authorization request to the issuing bank. This pre-authorization charge is immediately released by DigitalOcean but may take a few days to clear from your card depending on the bank.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "$5 credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261117-1",
@@ -4554,7 +3343,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-17T06:07:18.831Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供給特定新創階段的免費雲端額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits *Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261117-2",
@@ -4585,7 +3407,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-17T06:07:18.831Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供最高額度的無條件雲端資源額度，屬於創新的啟動獎勵與額度方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261117-3",
@@ -4613,7 +3468,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-17T06:07:18.831Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供指定金額的信用額度給特定條件的 AI 新創公司，屬於額度/新創獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio\n$200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261117-4",
@@ -4641,7 +3529,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-17T06:07:18.831Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅提及 Kiro Startup Credits 為進入 Activate 的起點，但未明確標示該優惠本身的具體金額或是否為免費額度，主要聚焦於 Activate Credits 的說明。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261117-1",
@@ -4669,7 +3584,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-17T06:07:36.802Z",
     "lastVerified": "2026-11-17",
     "risks": "免費專案在 1 週無活動後會自動暫停,免費方案限制 2 個活躍專案",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供每月 $0 的免費方案及特定使用額度，屬於免費額度優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "50,000 monthly active users\n500 MB database size\n5 GB egress\n5 GB cached egress\n1 GB file storage\nCommunity support\nFree projects are paused after 1 week of inactivity. Limit of 2 active projects.",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261117-1",
@@ -4697,7 +3639,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "若項目當月用盡 100 CU-hours 或 5 GB 網路傳輸，計算資源將暫停直到下一帳期。,若項目超過 1 GB Postgres 儲存空間或總共超過 20 GB，增加儲存空間的操作會失敗。,AI Gateway 功能需要預付費用（Prepaid credits）並綁定信用卡，但帳戶本身保持免費狀態。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供包含每月免費計算與儲存配額的永久免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and learn free with no time limits and no credit card required.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1300,
+      "basis": "ai-estimate",
+      "note": "以每月100 CU-hrs計算資源（依Launch定價約$10.6）及1GB儲存（$0.35）估算，年度價值約$129，換算成新台幣約$1300。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261117-2",
@@ -4725,7 +3698,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:31:31.745Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為特定對象（早期新創）提供的專屬信用額度（credits）方案，屬於新戶獎勵/專屬額度性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Startup Program Early-stage startups\nLaunch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Startup Program Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261117-3",
@@ -4782,32 +3780,6 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "若 72 小時內未申報，專案將受到儲存空間與網路傳輸限制。",
-    "status": "pending"
-  },
-  {
-    "id": "copilot-plans-20261117-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot Fusion 使用費限時折扣",
-    "category": "ai",
-    "summary": "Copilot Fusion 使用費 30% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-11-30",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-17T08:06:18.638Z",
-    "lastVerified": "2026-11-17",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   },
   {
@@ -4897,6 +3869,297 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-1",
+    "sourceId": "github-education",
+    "name": "GitHub 免費 Pro 訂閱",
+    "category": "software",
+    "summary": "學生在學期間可免費使用 GitHub Pro。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須為在學生",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "畢業或不再符合學生身分時，訂閱將自動轉為付費或失去存取權限",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-2",
+    "sourceId": "github-education",
+    "name": "Microsoft Azure 雲端服務與代金券",
+    "category": "software",
+    "summary": "免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "年滿 18 歲的學生，無需信用卡",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "僅限 18 歲以上",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-3",
+    "sourceId": "github-education",
+    "name": "Namecheap 免費網域與 SSL",
+    "category": "software",
+    "summary": "1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "免費期限結束後需付費續約",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-4",
+    "sourceId": "github-education",
+    "name": "Name.com 免費網域",
+    "category": "software",
+    "summary": "提供超過 25 種網域副後綴（如 .live, .studio, .software, .app, .dev）的免費專案網域。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分，帳號需包含唯一地址以避免被視為重複請求",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "網域到期後需付費續約",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-5",
+    "sourceId": "github-education",
+    "name": ".TECH 免費網域",
+    "category": "software",
+    "summary": "1 個標準 .TECH 網域免費使用 1 年。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "免費期限結束後需付費續約",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-6",
+    "sourceId": "github-education",
+    "name": "Microsoft 365 生產力軟體與儲存空間",
+    "category": "software",
+    "summary": "免費或折扣價使用內建 AI 助手 Copilot 的生產力應用程式、1TB 雲端儲存空間及進階資料安全功能。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "畢業後可能失去免費存取權限",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-7",
+    "sourceId": "github-education",
+    "name": "DataCamp 免費存取權",
+    "category": "software",
+    "summary": "使用 GitHub 學生帳號註冊 DataCamp 訂閱時，可享 3 個月免費存取權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用 GitHub 學生帳號註冊",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack",
+      "使用 GitHub 帳號註冊 DataCamp"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "免費期滿後訂閱將自動轉為付費",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-8",
+    "sourceId": "github-education",
+    "name": "Notion 教育版方案",
+    "category": "software",
+    "summary": "提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "畢業後可能失去存取權限",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-9",
+    "sourceId": "github-education",
+    "name": "GitHub Copilot Student",
+    "category": "software",
+    "summary": "提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "已驗證的學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "畢業或身分失效後服務將停止或轉為付費",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261117-10",
+    "sourceId": "github-education",
+    "name": "Heroku 雲端代金券",
+    "category": "software",
+    "summary": "每月 13 美元的美國雲端代金券，期限為 24 個月。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "學生身分",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "驗證學生身分",
+      "註冊 Student Developer Pack"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
+    "lastVerified": "2026-11-17",
+    "risks": "代金券期滿後服務將變為付費",
     "status": "pending"
   }
 ]
