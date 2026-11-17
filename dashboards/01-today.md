@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T12:05:17.365Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T14:05:19.815Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -45,7 +45,7 @@
 | [Microsoft 365 生產力軟體與儲存空間](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用內建 AI 助手 Copilot 的生產力應用程式、1TB 雲端儲存空間及進階資料安全功能。 | 約 TWD 10,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DataCamp 免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號註冊 DataCamp 訂閱時，可享 3 個月免費存取權。 | 約 TWD 1,900（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Heroku 雲端代金券](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元的美國雲端代金券，期限為 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Heroku 雲端代金券](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元的美國雲端代金券，期限為 24 個月。 | 約 TWD 499（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最多40%的费用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最多40%的费用。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |

@@ -4292,7 +4292,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "畢業或身分失效後服務將停止或轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T14:05:19.815Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該頁面內容列於「GitHub Student Developer Pack」中，提供已驗證學生的免費方案與額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "無明確金額，保守估算 GitHub Copilot 訂閱市場價值及 AI 額度價值，約為每年 3,000 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261117-10",
@@ -4321,7 +4352,41 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-17T08:32:16.066Z",
     "lastVerified": "2026-11-17",
     "risks": "代金券期滿後服務將變為付費",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T14:05:19.815Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供每月固定金額的雲端代金券，屬於新戶獎勵或免費額度方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Enjoy a credit of $13 USD per month for 24 months.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 499,
+      "basis": "ai-estimate",
+      "usd": 15.6,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
+      "confidence": "low"
+    }
   },
   {
     "id": "setapp-pricing-20261117-1",
@@ -4350,7 +4415,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
     "lastVerified": "2026-11-17",
     "risks": "試用結束後可能自動轉為付費訂閱，請留意取消期限與扣款機制。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T14:05:19.815Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供所有訂閱方案7天免費試用，屬於試用類型優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261117-2",
@@ -4378,6 +4475,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
     "lastVerified": "2026-11-17",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T14:05:19.815Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示年繳方案最多可節省 40% 的費用，屬於常態性的年繳與月繳價格差。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "Save up to 40% yearly",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   }
 ]
