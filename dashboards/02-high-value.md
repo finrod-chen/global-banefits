@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T18:05:17.046Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T20:05:17.170Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,21 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [KuMining Black Friday 活動](https://www.kucoin.com/announcement) | Crypto | 解鎖最高可達 72 USDT 的獎勵，賺取獨家獎金，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品 | 約 TWD 2,304（AI 估） | 長期活動 | AI 預審通過 |
-| [KuCoin PROOF: Tis the Season 活動](https://www.kucoin.com/announcement) | Crypto | 分享 550,000 USDT 的獎池 | 約 TWD 17,600,000（AI 估） | 長期活動 | AI 預審通過 |
-| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 的獎勵並解鎖 Tomorrowland 專屬獎品 | 約 TWD 4,800,000（AI 估） | 長期活動 | 待核實 |
-| [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 最高可得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日，需註冊、存入 1,000 美元法幣，並透過四個階段的交易 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
-| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 競爭總價值 20,000 美元的 ANTHROPICX 獎品池。在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 貴金屬與商品半價手續費活動](https://blog.kraken.com/) | Crypto | Kraken Prop 上的黃金、白銀、原油（WTI、Brent）、銅及天然氣現貨交易，非加密貨幣市場的手續費降至每邊 2bps（原價的一半 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken 500 萬 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，有助於解鎖總價值最高 5,000,000 USDG 的獎勵池。活動期間為 10 月 12 日至 12  | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 挑戰賽：OurAx 與 Moonshotx 永續合約](https://blog.kraken.com/) | Crypto | 交易 OurAx 和 Moonshotx 永續合約（最高 10 倍槓桿），總共 10,000 USDG 獎金。依交易量決定排名。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 美國 GP 粉絲見面會活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，有機會於 10 月在 Circuit of the Americas (COTA)  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度，期限為 90 天。只要未使用完額度或期限未過，卡號不會被扣款。若消費金額超過 $5，僅扣除超過部分。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 美元 AWS Activate Credits。起始提供 1,000 美元，部分合資者可能符合額外額度資質，總額可達  | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio Pre-Series B 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元 AWS Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上的 AWS Credits，僅限邀請制，針對準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro Startup Credits 以供使用 Kiro 代理開發環境。頁面未明確標示具體金額，僅說明可從 Kiro Startu | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 月活躍使用者、500 MB 資料庫大小、5 GB 離站流量、5 GB 快取離站流量、1 GB 檔案儲存、無限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含 100 個項目，每個項目每月 100 CU-hrs 計算資源、1 GB 儲存空間、最大 2 CU (8 GB | 約 TWD 1,300（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的信憑代金券 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -93,7 +78,32 @@
 | [Gate Idle Earn × Simple Earn 限時活動第三期](https://www.gate.com/announcements) | Crypto | 限時活動，USDT 最高可享 9% APR 年化收益。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate CFD Gold Arena 第七輪活動](https://www.gate.com/announcements) | Crypto | 兩個排行榜總計瓜分 80,000 USDT，單筆最高可獲 13,000 USDT 的 XAUT 獎勵。 | 約 TWD 2,560,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate ETF Treasure Hunt 第十期](https://www.gate.com/announcements) | Crypto | 每次抽取最高可獲 88 USDT，交易最高可獲 900 USDT。 | 約 TWD 31,616（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 總價值 900,000 USDx 的空投獎勵，最高可獲得價值 2,015 USDT 的 XAUT。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Web3 SCOR Swap 交易比賽](https://www.gate.com/announcements) | Crypto | 參與交易比賽，瓜分 2,000 USDC 獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate ANT(Anthropic) 期貨交易比賽](https://www.gate.com/announcements) | Crypto | 首筆交易獲 3 USDT，總計最高可獲 8,000 USDT 獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Staking 新用戶獎勵第七期](https://www.gate.com/announcements) | Crypto | 新用戶可享 USDT 100% APR 年化收益。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 總價值 900,000 USDx 的空投獎勵，最高可獲得價值 2,015 USDT 的 XAUT。 | 約 TWD 61,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Web3 SCOR Swap 交易比賽](https://www.gate.com/announcements) | Crypto | 參與交易比賽，瓜分 2,000 USDC 獎勵。 | 約 TWD 64,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate ANT(Anthropic) 期貨交易比賽](https://www.gate.com/announcements) | Crypto | 首筆交易獲 3 USDT，總計最高可獲 8,000 USDT 獎勵。 | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Staking 新用戶獎勵第七期](https://www.gate.com/announcements) | Crypto | 新用戶可享 USDT 100% APR 年化收益。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 的 BTC 獎勵。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
+| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口（ANTHROPICX），爭奪 $20,000 的獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Prop Commodities Half Commission](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 上交易黃金、白銀、石油及其他大宗商品，每邊手續費降至 2bps（原有非加密貨幣市場手續費）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產和加密期貨，解鎖最高 $5,000,000 USDG 的獎勵池。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
+| [Kraken OURAx and MOONSHOTx Perps Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分得 $10,000 USDG。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Atlassian Williams F1 Team Driver Meet](https://blog.kraken.com/) | Crypto | 有機會在 Circuit of the Americas (COTA) 與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月交易，贏得 1,000 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月 90,000 GiB-秒數免費，function invocations 沒有額外費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplets 免費出站流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，起價 500 GiB/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 Static Sites](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置與部署 3 個 static sites | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean VPC 免費建立](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立無限個 VPC，ingress 數據傳輸免費，同資料中心內的 VPC 互連免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 DNS 管理](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 DNS 管理功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 Container Registry](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Container Registry，包含 1 個 repository 和 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費 Cloud Firewalls](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Cloud Firewalls | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，bandwidth allowance 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 帳戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 帳戶獲得 $5 免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 獨立伺服器 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可為所有獨立伺服器獲得 15% 永久折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 VPS 年費特價，例如 1GB RAM 方案為 $21.99/年，2GB RAM 方案為 $35.99/年，4GB RAM 方案為 $ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 免費（價值視使用而定） | 長期活動 | 待核實 |
