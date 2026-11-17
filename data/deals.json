@@ -2160,122 +2160,6 @@
     }
   },
   {
-    "id": "gemini-plans-20261116-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 每月 Google Cloud 信用點",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer Program）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案",
-      "加入 Google Developer Program"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T18:06:23.095Z",
-    "lastVerified": "2026-11-16",
-    "risks": "需付費訂閱 Google AI Pro 方案方可獲得",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該福利是包含在付費方案 Google AI Pro 標準權益中的一項常態性價值，並非限時或特定對象的專屬優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gemini-plans-20261116-2",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 每月 Google Cloud 信用點",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer Program）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案",
-      "加入 Google Developer Program"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-16T18:06:23.095Z",
-    "lastVerified": "2026-11-16",
-    "risks": "需付費訂閱 Google AI Ultra 方案方可獲得",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-16T22:32:43.347Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠屬於訂閱特定高階方案（Ultra）時額外贈送的雲服務額度獎勵，符合「額度」或「新戶/訂閱獎勵」的性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1280,
-      "basis": "explicit-amount",
-      "usd": 40,
-      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "github-education-20261116-1",
     "sourceId": "github-education",
     "name": "Namecheap 1年 .me 網域免費註冊",
@@ -4080,7 +3964,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-17T04:06:16.741Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出的「Free」額度（1 GB 儲存、每日請求限制）屬於常態性的免費產品方案（Free tier）。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workers KV\nLightning-fast key-value storage\nComponent\nFree\nPaid\nStored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests\nStored Data\nFree 1 GB\nP",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 211,
+      "basis": "ai-estimate",
+      "usd": 6.6,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面直接提供了免費額度和對應的付費單位價格，可精確計算免費額度在付費計費模式下的貨幣價值。",
+      "confidence": "low"
+    }
   },
   {
     "id": "cloudflare-plans-20261117-10",
@@ -4108,7 +4019,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-17T04:06:16.741Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供明確的免費儲存空間與資料行讀寫額度，屬於常見方案的免費額度 (Free tier/allowance)。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "D1 Serverless SQL that scales horizontally Component Free Paid Storage 5 GB (total) $0.75 / GB-month Rows Read 5 million / day $0.001 / million rows Rows Written 100,000 / day $1.00 / million rows Storage Free 5 GB (total) Paid $0.75 / GB-m",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 390,
+      "basis": "ai-estimate",
+      "note": "保守估算：免費儲存空間 5GB。若全量使用超出免費額度的寫入量 (100,000 行) 與讀取量 (500 萬行)，付費價格分別為 $1.00/百萬行與 $0.001/百萬行。一年 (365 天) 總付費約為 365 ($1.00 + $5.00) = $2190。因多數使用者不會達此極限值，故保守估算其價值約為 $15 (約 390 台幣)。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "kucoin-announce-20261117-1",
@@ -4134,7 +4075,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-17T04:07:42.794Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供固定的獎勵金額上限以及抽獎機會，屬於限時行銷活動或新戶/活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock up to 72 USDT in rewards, earn exclusive bonuses, and get a chance to win an iPhone Duo, 1,000 USDT, Ledger Stax, and more!",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2304,
+      "basis": "explicit-amount",
+      "usd": 72,
+      "quote": "Unlock up to 72 USDT in rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kucoin-announce-20261117-2",
@@ -4160,7 +4129,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-17T04:07:42.794Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容顯示為一個提供高額USDT獎池的特定季節性活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "KuCoin PROOF: Tis the Season — Win Your Share of 550,000 USDT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 17600000,
+      "basis": "explicit-amount",
+      "usd": 550000,
+      "quote": "Win Your Share of 550,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kucoin-announce-20261117-3",
@@ -4186,7 +4183,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-17T04:07:42.794Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及特定季節活動的獎勵池與專屬獎品，屬於限時促銷與新戶/用戶激勵性質。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Share 150,000 USDT in Rewards & Unlock Exclusive Tomorrowland Prizes!",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4800000,
+      "basis": "explicit-amount",
+      "usd": 150000,
+      "quote": "Share 150,000 USDT in Rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261117-1",
@@ -4216,7 +4248,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時的黑五存款與交易獎金活動，符合限時折扣或新戶獎勵的特徵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus\nEnroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 1.",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in BTC",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261117-2",
@@ -4245,7 +4317,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動提供獎品池分獎，屬於限時獎勵競賽",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "rank by volume, and claim your share of the prize pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "$20,000 in ANTHROPICX",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261117-3",
@@ -4273,7 +4378,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-17T06:06:07.965Z",
     "lastVerified": "2026-11-17",
     "risks": "高風險投資，投資時需做好損失所有資金的準備,若出錯，可能不受保護",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-17T08:05:19.666Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿與頁面均提到手續費降低至原價一半，屬於限時折扣優惠",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261117-4",
@@ -4652,6 +4782,121 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T06:07:57.469Z",
     "lastVerified": "2026-11-17",
     "risks": "若 72 小時內未申報，專案將受到儲存空間與網路傳輸限制。",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261117-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Fusion 使用費限時折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用費 30% 折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-17T08:06:18.638Z",
+    "lastVerified": "2026-11-17",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261117-1",
+    "sourceId": "wise-home",
+    "name": "Wise 大額匯款費用折扣",
+    "category": "banking",
+    "summary": "匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將提供費用折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "匯款金額需超過 20,000 GBP 或等值金額",
+    "regions": [
+      "GB"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "登入或註冊 Wise 帳戶",
+      "發起金額超過 20,000 GBP 或等值的匯款",
+      "系統將自動適用費用折扣"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
+    "lastVerified": "2026-11-17",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261117-2",
+    "sourceId": "wise-home",
+    "name": "Wise Assets 存款利息收益",
+    "category": "banking",
+    "summary": "選擇加入 Wise Assets 服務，可在 GBP、EUR 和 USD 貨幣中賺取 3.47% 的可變年利率（基於 2026 年 10 月 11 日的 7 天表現）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇加入 (Opt into) Wise Assets 服務",
+    "regions": [
+      "GB"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或登入 Wise 帳戶",
+      "進入 Wise Assets 頁面",
+      "選擇加入以賺取利息收益"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
+    "lastVerified": "2026-11-17",
+    "risks": "貨幣價值可能因政府違約或負利率而減損,目前利率不保證未來表現,可能需繳納稅款",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261117-3",
+    "sourceId": "wise-home",
+    "name": "Wise 免費帳戶開通",
+    "category": "banking",
+    "summary": "提供免費開戶功能，用戶可在幾分鐘內開通帳戶",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "GB"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊頁面上的 'Open a free account' 或 'Sign up' 按鈕",
+      "按照指示完成帳戶開設流程"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T08:06:54.991Z",
+    "lastVerified": "2026-11-17",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

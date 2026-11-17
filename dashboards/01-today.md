@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T06:05:18.364Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T08:05:19.666Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -9,8 +9,6 @@
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用點（來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 每月 Google Cloud 信用點](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用點（來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | AI 預審通過 |
 | [Namecheap 1年 .me 網域免費註冊](https://education.github.com/pack) | 軟體/數位服務 | 1 year domain name registration on the .me TLD. | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Namecheap 1年免費 SSL 憑證](https://education.github.com/pack) | 軟體/數位服務 | 1 SSL certificate free for 1 year. | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | Build your project on a select free domain with over 25 domain extensi | 約 TWD 200（AI 估） | 長期活動 | AI 預審通過 |
@@ -43,14 +41,14 @@
 | [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器時間、3 個並列瀏覽器 | 約 TWD 4,700（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次調用 10ms CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB-month 標準儲存、100 萬次 Class A 操作、1,000 萬次 Class B 操作 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬行讀取、每日 100,000 行寫入 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuMining Black Friday 活動](https://www.kucoin.com/announcement) | Crypto | 解鎖最高可達 72 USDT 的獎勵，賺取獨家獎金，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuCoin PROOF: Tis the Season 活動](https://www.kucoin.com/announcement) | Crypto | 分享 550,000 USDT 的獎池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 的獎勵並解鎖 Tomorrowland 專屬獎品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 最高可得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日，需註冊、存入 1,000 美元法幣，並透過四個階段的交易 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
-| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 競爭總價值 20,000 美元的 ANTHROPICX 獎品池。在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 貴金屬與商品半價手續費活動](https://blog.kraken.com/) | Crypto | Kraken Prop 上的黃金、白銀、原油（WTI、Brent）、銅及天然氣現貨交易，非加密貨幣市場的手續費降至每邊 2bps（原價的一半 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求 | 約 TWD 211（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬行讀取、每日 100,000 行寫入 | 約 TWD 390（AI 估） | 長期活動 | 待核實 |
+| [KuMining Black Friday 活動](https://www.kucoin.com/announcement) | Crypto | 解鎖最高可達 72 USDT 的獎勵，賺取獨家獎金，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品 | 約 TWD 2,304（AI 估） | 長期活動 | AI 預審通過 |
+| [KuCoin PROOF: Tis the Season 活動](https://www.kucoin.com/announcement) | Crypto | 分享 550,000 USDT 的獎池 | 約 TWD 17,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 的獎勵並解鎖 Tomorrowland 專屬獎品 | 約 TWD 4,800,000（AI 估） | 長期活動 | 待核實 |
+| [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 最高可得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日，需註冊、存入 1,000 美元法幣，並透過四個階段的交易 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 競爭總價值 20,000 美元的 ANTHROPICX 獎品池。在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 貴金屬與商品半價手續費活動](https://blog.kraken.com/) | Crypto | Kraken Prop 上的黃金、白銀、原油（WTI、Brent）、銅及天然氣現貨交易，非加密貨幣市場的手續費降至每邊 2bps（原價的一半 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken 500 萬 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產及加密貨幣期貨，有助於解鎖總價值最高 5,000,000 USDG 的獎勵池。活動期間為 10 月 12 日至 12  | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
 | [Kraken 預 IPO 挑戰賽：OurAx 與 Moonshotx 永續合約](https://blog.kraken.com/) | Crypto | 交易 OurAx 和 Moonshotx 永續合約（最高 10 倍槓桿），總共 10,000 USDG 獎金。依交易量決定排名。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken 美國 GP 粉絲見面會活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，有機會於 10 月在 Circuit of the Americas (COTA)  | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -64,3 +62,7 @@
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的信憑代金券 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 可申請體驗版 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得 Postgres 專案。未申報專案儲存空間上限為 100 MB，網路傳輸上限為 1 GB。需在 72 小時 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 使用費限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用費 30% 折扣 | 免費（價值視使用而定） | 2024-11-30 | 待核實 |
+| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 存款利息收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 服務，可在 GBP、EUR 和 USD 貨幣中賺取 3.47% 的可變年利率（基於 2026 年 10 月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶開通](https://wise.com/) | 海外銀行/卡 | 提供免費開戶功能，用戶可在幾分鐘內開通帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
