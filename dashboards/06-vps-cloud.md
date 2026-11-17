@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T02:05:17.058Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T04:05:16.721Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,9 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費靜態網站方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
@@ -39,3 +36,13 @@
 | [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 註冊網域時免費提供 WHOIS 隱私保護服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Network & CDN Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含無限量 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集及 Web 應用防火牆（WAF） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | $0 永久免費，適用於 50 人以下團隊或企業概念驗證測試，包含最多 24 小時標準日誌保存及社群論壇支持 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次請求 10ms CPU 時間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量（NA/E | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 請求、13,000 GB-s 執行時間、50M SQL 讀取行、100K SQL 寫入行、5 GB SQL 儲存資料、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器時間、3 個並列瀏覽器 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次調用 10ms CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB-month 標準儲存、100 萬次 Class A 操作、1,000 萬次 Class B 操作 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬行讀取、每日 100,000 行寫入 | 免費（價值視使用而定） | 長期活動 | 待核實 |

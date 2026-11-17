@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T02:05:17.058Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T04:05:16.721Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -19,8 +19,8 @@
 | [GitHub Copilot Student 方案](https://education.github.com/pack) | 軟體/數位服務 | GitHub Copilot Student is available to verified students. The plan inc | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | Enjoy a credit of $13 USD per month for 24 months. | 約 TWD 9,984（AI 估） | 長期活動 | 待核實 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 頁面篩選價格範圍為 0 美元（priceRange=0,0），顯示免費遊戲項目。頁面包含動態模板「OWNED -{{ gamesProduc | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 「Don’t miss your Welcome Offer! Start your game collection with these  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳方案省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 「Don’t miss your Welcome Offer! Start your game collection with these  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2 | 約 TWD 515（AI 估） | 長期活動 | 待核實 |
+| [Notion 年繳方案省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。 | 約 TWD 3,070（AI 估） | 長期活動 | 待核實 |
 | [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理可自主處理重複性工作，免費試用（Free to try），之後每 1,000 個 Notion 積分收取 10 美元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Free 方案](https://www.notion.com/pricing) | 軟體/數位服務 | 免費方案，每位成員每月 0 美元，適合個人整理專案與生活。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Free 方案](https://www.notion.com/pricing) | 軟體/數位服務 | 免費方案，每位成員每月 0 美元，適合個人整理專案與生活。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

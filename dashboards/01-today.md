@@ -1,16 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T02:05:17.058Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T04:05:16.721Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，適用於非關鍵性的個人或興趣專案。包含：無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、Web 應 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費 ($0 forever)，適用於 50 人以下團隊或企業概念驗證測試。支援：社群論壇與 Discord、最多 24 小時標準日誌保 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Compute & Storage 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 多項計算與儲存服務提供每月免費額度：Workers 每天 100k 請求與 10ms/請求 CPU 時間；Durable Objects 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuMining Black Friday](https://www.kucoin.com/announcement) | Crypto | 最高可獲得 72 USDT 獎勵，賺取專屬獎勵，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品。 | 約 TWD 2,304（AI 估） | 長期活動 | AI 預審通過 |
-| [KuCoin PROOF: Tis the Season](https://www.kucoin.com/announcement) | Crypto | 有機會分得 550,000 USDT 獎勵池。 | 約 TWD 17,600,000（AI 估） | 長期活動 | AI 預審通過 |
-| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 獎勵並解鎖 Tomorrowland 專屬獎品。 | 約 TWD 4,800,000（AI 估） | 長期活動 | 待核實 |
-| [Earn Friday Week 138](https://www.kucoin.com/announcement) | Crypto | 使用 USDT、SOL、NEAR 可賺取最高 6% 的 APR。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 5 美元免費額度，有效期限為 90 天。若在期限內消費低於額度，卡片將不被扣款；若消費超過額度，僅對超出部分扣款。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費靜態網站方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立和部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 服務提供免費控制平面、免費頻寬配額以及更多免費功能。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
@@ -58,8 +51,22 @@
 | [Trip.com 飯店訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
 | [保險享12期0利率](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 相關熱門服務提供保險購置享12期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 頁面篩選價格範圍為 0 美元（priceRange=0,0），顯示免費遊戲項目。頁面包含動態模板「OWNED -{{ gamesProduc | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 「Don’t miss your Welcome Offer! Start your game collection with these  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳方案省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 「Don’t miss your Welcome Offer! Start your game collection with these  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內可選擇方案。Mac、Mac + iOS 方案提供 1,000 AI 點數，Power User 方案提供 2 | 約 TWD 515（AI 估） | 長期活動 | 待核實 |
+| [Notion 年繳方案省 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳（Pay yearly）付款方式，可節省最高 20% 的費用。 | 約 TWD 3,070（AI 估） | 長期活動 | 待核實 |
 | [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理可自主處理重複性工作，免費試用（Free to try），之後每 1,000 個 Notion 積分收取 10 美元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Free 方案](https://www.notion.com/pricing) | 軟體/數位服務 | 免費方案，每位成員每月 0 美元，適合個人整理專案與生活。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Free 方案](https://www.notion.com/pricing) | 軟體/數位服務 | 免費方案，每位成員每月 0 美元，適合個人整理專案與生活。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Network & CDN Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含無限量 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集及 Web 應用防火牆（WAF） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | $0 永久免費，適用於 50 人以下團隊或企業概念驗證測試，包含最多 24 小時標準日誌保存及社群論壇支持 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次請求 10ms CPU 時間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量（NA/E | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 請求、13,000 GB-s 執行時間、50M SQL 讀取行、100K SQL 寫入行、5 GB SQL 儲存資料、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器時間、3 個並列瀏覽器 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求、每次調用 10ms CPU 時間、1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB-month 標準儲存、100 萬次 Class A 操作、1,000 萬次 Class B 操作 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求、每日 1,000 寫入/刪除/列出請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬行讀取、每日 100,000 行寫入 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 最高可享 55% 折扣 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [KuMining Black Friday 活動](https://www.kucoin.com/announcement) | Crypto | 解鎖最高可達 72 USDT 的獎勵，賺取獨家獎金，並有機會贏取 iPhone Duo、1,000 USDT、Ledger Stax 等獎品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [KuCoin PROOF: Tis the Season 活動](https://www.kucoin.com/announcement) | Crypto | 分享 550,000 USDT 的獎池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [KuCoin VIP Premier+: 'Tis The Season VIP Carnival](https://www.kucoin.com/announcement) | Crypto | 分享 150,000 USDT 的獎勵並解鎖 Tomorrowland 專屬獎品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
