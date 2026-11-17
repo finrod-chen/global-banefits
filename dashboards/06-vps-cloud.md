@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T21:22:02.099Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T22:05:19.756Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,15 +29,19 @@
 | [DigitalOcean 免費 Container Registry](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Container Registry，包含 1 個 repository 和 500 MiB 儲存空間 | 約 TWD 3,600（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 Cloud Firewalls](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Cloud Firewalls | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，bandwidth allowance 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 帳戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 帳戶獲得 $5 免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 獨立伺服器 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可為所有獨立伺服器獲得 15% 永久折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 VPS 年費特價，例如 1GB RAM 方案為 $21.99/年，2GB RAM 方案為 $35.99/年，4GB RAM 方案為 $ | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 帳戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 帳戶獲得 $5 免費額度 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
+| [RackNerd 獨立伺服器 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可為所有獨立伺服器獲得 15% 永久折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 VPS 年費特價，例如 1GB RAM 方案為 $21.99/年，2GB RAM 方案為 $35.99/年，4GB RAM 方案為 $ | 約 TWD 700（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 約 TWD 160,000（AI 估） | 長期活動 | 待核實 |
+| [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
 | [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 1st Yr Sale](https://porkbun.com/products/domains) | VPS/雲服務 | 大量網域后缀提供首年促銷價，例如 .cloud 從 $21.11 降至 $3.88，.xyz 從 $14.21 降至 $1.29，.app  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free WHOIS Privacy](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 WHOIS 隱私保護服務，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

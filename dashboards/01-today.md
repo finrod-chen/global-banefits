@@ -1,20 +1,10 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T21:22:02.099Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T22:05:19.756Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [GitHub 免費 Pro 訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生在學期間可免費使用 GitHub Pro。 | 約 TWD 2,900（AI 估） | 長期活動 | 待核實 |
-| [Microsoft Azure 雲端服務與代金券](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上的 Microsoft Azure 雲端服務，並獲得 100 美元 Azure 代金券。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
-| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me 頂級網域註冊免費；1 張 SSL 憑證免費使用 1 年。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域副後綴（如 .live, .studio, .software, .app, .dev）的免費專案網域。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費使用 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
-| [Microsoft 365 生產力軟體與儲存空間](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用內建 AI 助手 Copilot 的生產力應用程式、1TB 雲端儲存空間及進階資料安全功能。 | 約 TWD 10,000（AI 估） | 長期活動 | AI 預審通過 |
-| [DataCamp 免費存取權](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號註冊 DataCamp 訂閱時，可享 3 個月免費存取權。 | 約 TWD 1,900（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion 教育版方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案的所有功能，包含 AI 回應、更多分享協作功能及較長頁面歷史記錄。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 提供無限量程式碼自動完成功能、GitHub AI 額度，以及有限的聊天與代理使用權限（僅限自動模型選擇）。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Heroku 雲端代金券](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元的美國雲端代金券，期限為 24 個月。 | 約 TWD 499（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最多40%的费用。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 方案頁 Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，月費 $0。包含無限制 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集、Web Application  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -50,18 +40,25 @@
 | [DigitalOcean 免費 Container Registry](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Container Registry，包含 1 個 repository 和 500 MiB 儲存空間 | 約 TWD 3,600（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 免費 Cloud Firewalls](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費 Cloud Firewalls | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，bandwidth allowance 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 帳戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 帳戶獲得 $5 免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 獨立伺服器 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可為所有獨立伺服器獲得 15% 永久折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 VPS 年費特價，例如 1GB RAM 方案為 $21.99/年，2GB RAM 方案為 $35.99/年，4GB RAM 方案為 $ | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Databases 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Databases 提供免費每日備份和自動故障轉移 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 帳戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 帳戶獲得 $5 免費額度 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
+| [RackNerd 獨立伺服器 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用優惠碼 15OFFDEDI 可為所有獨立伺服器獲得 15% 永久折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 VPS 年費特價，例如 1GB RAM 方案為 $21.99/年，2GB RAM 方案為 $35.99/年，4GB RAM 方案為 $ | 約 TWD 700（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 約 TWD 160,000（AI 估） | 長期活動 | 待核實 |
+| [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
 | [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Fusion 使用量限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 高額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（GBP）或等值外匯時，Wise 將對手續費進行折扣（We'll discount our fee） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral Batch 處理 50% 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）可減少 50% 的價格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral 快取輸入 Token 最高 90% 折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取輸入 token 可降低高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 1st Yr Sale](https://porkbun.com/products/domains) | VPS/雲服務 | 大量網域后缀提供首年促銷價，例如 .cloud 從 $21.11 降至 $3.88，.xyz 從 $14.21 降至 $1.29，.app  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free WHOIS Privacy](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 WHOIS 隱私保護服務，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

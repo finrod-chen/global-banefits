@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T21:22:02.099Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-17T22:05:19.756Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,4 +25,5 @@
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [v0 每日登入免費額度](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲得 $2 的免費額度 | 約 TWD 64（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 使用量限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [Mistral Batch 處理 50% 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）可減少 50% 的價格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral 快取輸入 Token 最高 90% 折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取輸入 token 可降低高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
