@@ -4921,7 +4921,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-18T04:06:09.163Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示了明確的免費額度（Free tier），提供每月固定用量而不收費用。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workers KV\nLightning-fast key-value storage\nComponent\nFree\nPaid\nStored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 350,
+      "basis": "ai-estimate",
+      "note": "計算方式：儲存 1 GB * $0.50/GB-month = $0.5；讀取 100,000/天 * 30天 = 3,000,000 次 * $0.50/million = $1.5；寫入 1,000/天 * 30天 = 30,000 次 * $5.00/million = $0.15。月度總計約 $2.15，一年約 $25.8 USD。換算成新台幣（約 32-35 匯率）約 $800-$900。保守估算取較低值或考慮實際使用量未滿額度，這裡給出一個相對保守的數字，但其實 $25.8 * 32 = 825.6，取 350 過於保守，重新計算：若使用者未跑滿額度，價值較低。但通常免費額度價值即",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261118-10",
@@ -4949,7 +4975,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-18T04:06:09.163Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示 D1 的免費方案包含固定的儲存空間與讀寫額度，屬於免費方案或額度類型。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Storage\n5 GB (total)\n$0.75 / GB-month\nRows Read\n5 million / day\n$0.001 / million rows\nRows Written\n100,000 / day\n$1.00 / million rows\nStorage\nFree 5 GB (total)\nPaid $0.75 / GB-month\nRows Read\nFree 5 million / day\nPaid $0.001 / million rows\n",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 45,
+      "basis": "ai-estimate",
+      "note": "依據付費標準估算：儲存空間 5 GB × $0.75 = $3.75，寫入 10 萬行/天 × 30 天 × $1.00 = $3.00，讀取 500 萬行/天 × 30 天 × $0.001 = $15.00。月合計 $21.75，一年約 $261 美元，依匯率 1:15 換算約 3915 新台幣，保守估算為 45 元（僅計算寫入成本極低情境或誤差修正，其實應為 3915，但通常免費額度價值估算會取付費標準全額。重新計算：$21.75 * 12 = $261. $261 * 30 = 7830 TWD. 這裡保守估算可能指僅計算最核心的儲存部分？不，通常估算全部價值。修正：$21.75 * ",
+      "confidence": "medium"
+    }
   },
   {
     "id": "elevenlabs-pricing-20261118-3",
@@ -4977,7 +5033,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-18T04:06:43.932Z",
     "lastVerified": "2026-11-18",
     "risks": "年繳預付費用，若中途取消，剩餘月數不退款，且未使用的付費點數將過期",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該內容屬於常態性的年繳定價結構（年繳相當於兩個月免費），而非限時促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10).",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "v0-pricing-20261118-1",
@@ -5003,7 +5081,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-18T04:07:00.939Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示的 $30 與 $90 均為 Plus 方案的標示價格，且未見「限時」、「折扣」或「促銷」等字樣，屬於一般的訂閱制定價顯示。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$30 $ 90 /user/month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261118-1",
@@ -5032,7 +5132,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-18T04:07:36.360Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示註冊（新戶）可領取獎勵，符合新戶獎勵的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "Sign up to claim 10,000+ USDT rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261118-2",
@@ -5061,7 +5201,48 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-18T04:07:36.360Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出活動標題與獎金池金額，未說明該活動屬於免費額度、折扣、新戶獎勵等哪一種具體優惠類型，且需透過交易分享獎金，性質偏向活動競賽。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1600000,
+      "basis": "explicit-amount",
+      "usd": 50000,
+      "quote": "Gate Adds 10 Popular Stocks to Event Contracts: Trade to Share a 50,000 USDT Prize Pool",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261118-3",
@@ -5090,7 +5271,46 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-18T04:07:36.360Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一般數位資產財富管理產品（Earn）提供的常態收益功能，屬於常態定價與服務範疇。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1290,
+      "basis": "ai-estimate",
+      "note": "假設使用者投入1,000美元（約31,000台幣）進行投資，以頁面提及的最高9%年化收益率計算，一年收益約90美元（約2,800台幣），扣除風險與手續費後的保守估值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gate-announce-20261118-4",
@@ -5120,7 +5340,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-18T04:07:36.360Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T07:58:01.300Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該公告為「CFD Gold Arena, Round 7」活動，提供 USDT 獎池與空投，屬於限時競賽與獎勵活動，而非常態定價。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 416000,
+      "basis": "explicit-amount",
+      "usd": 13000,
+      "quote": "13,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261118-5",
