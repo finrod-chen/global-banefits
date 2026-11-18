@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T12:05:19.988Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T14:05:20.827Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -30,4 +30,4 @@
 | [Claude Ultra 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月獲得 $200 API 點數，可用於 Claude Platform 開發 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs 年繳兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案等於免費使用兩個月，只需支付 10 個月的費用（年繳價格 = 月繳價格 × 10） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | Plus 方案月費從 $90 降至 $30 (每用戶每月)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生教育優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生教育優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |

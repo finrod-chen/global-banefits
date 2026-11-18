@@ -2210,383 +2210,6 @@
     }
   },
   {
-    "id": "porkbun-domains-20261117-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域 1st Yr Sale",
-    "category": "vps-cloud",
-    "summary": "大量網域后缀提供首年促銷價，例如 .cloud 從 $21.11 降至 $3.88，.xyz 從 $14.21 降至 $1.29，.app 從 $14.93 降至 $8.75。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "仅限新注册首年，次年恢复原价",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇網域后缀",
-      "加入購物車",
-      "完成付款"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
-    "lastVerified": "2026-11-17",
-    "risks": "首年後續約價格大幅上升,部分熱門后缀促銷價格極低僅限首年",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T02:05:16.790Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示特定網域后缀為 'first year sale'，且價格顯著低於常規價，屬於限時或推廣性折扣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": ".cloud\n3.88 first year sale\n$21.11 regular price\n.xyz\n1.29 first year sale\n$14.21 regular price\n.app\n8.75 first year sale\n$14.93 regular price",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "All prices are in USD. Prices shown are for non-premium single year registrations, renewals and transfers. Most transfers include a one year domain renewal. All prices include ICANN and any other fees.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261117-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun Free WHOIS Privacy",
-    "category": "vps-cloud",
-    "summary": "免費提供 WHOIS 隱私保護服務，隱藏註冊人個人資訊。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或持有 Porkbun 網域即自動享有"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
-    "lastVerified": "2026-11-17",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-18T02:05:16.790Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出了免費提供的 WHOIS 隱私保護服務，屬於免費額度或功能。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free WHOIS Privacy",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261117-3",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun Free SSL Certificates",
-    "category": "vps-cloud",
-    "summary": "免費提供 SSL 憑證服務。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "透過 Porkbun 購買網域或主機服務後配置"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
-    "lastVerified": "2026-11-17",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-18T02:05:16.790Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出「Free SSL Certificates」屬於免費提供的額外服務，符合免費方案的定義。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free SSL Certificates",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261117-4",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun Free Email Forwarding",
-    "category": "vps-cloud",
-    "summary": "免費提供電子郵件轉發功能。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在網域設置中配置轉發信箱"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
-    "lastVerified": "2026-11-17",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-18T02:05:16.790Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面將「Free Email Forwarding」列為免費提供的功能之一。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Email Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "humble-bundle-20261118-1",
-    "sourceId": "humble-bundle",
-    "name": "Humble Bundle Pay What You Want",
-    "category": "software",
-    "summary": "用戶可自行決定付款金額購買遊戲或軟體組合，頁面標示部分組合的總價值（如 $1,268.00 Value, $990.00 Value 等）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "瀏覽 Humble Bundle 首頁的 Bundles 區塊",
-      "選擇標示為 'Pay What You Want' 的組合",
-      "輸入希望支付的價格"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
-    "lastVerified": "2026-11-18",
-    "risks": "部分組合顯示 'LAST CHANCE' 且計時器為 00:00:00:00，暗示可能有時間限制或已結束，需即時確認",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-18T02:05:16.790Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供「Pay What You Want」機制，讓用戶自行定價購買組合，屬於特殊付費方案或限時/限量的優惠活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Pay What You Want\nGet Painter 2023, PaintShop Pro 2023, Bold Strokes, Chunky Paint, Creepers, and more!\n24 Items • $1,268.00 Value",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 30000,
-      "basis": "ai-estimate",
-      "note": "假設用戶參與標示價值最高的「Humble 15th Anniversary - Survival of the Fittest」或「Create & Elevate: Amazing Art Tools from Corel」等組合，以保守的合理定價（約 $10-$15 USD/組，而非全額 $1,268）估算其市場價值約 $100 USD，換算為新台幣約 30,000 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "humble-bundle-20261118-2",
-    "sourceId": "humble-bundle",
-    "name": "Humble Choice 會員方案",
-    "category": "software",
-    "summary": "每月訂閱費 $14.99，包含每月精選遊戲、商店內最高 20% 折扣、5% 會費用於慈善。年繳方案每月低於 $13 USD。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Humble Choice 會員",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Humble Bundle 帳號",
-      "選擇訂閱 Humble Choice"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
-    "lastVerified": "2026-11-18",
-    "risks": "自動續約,訂閱制需支付費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T04:05:21.770Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該優惠為常態性的訂閱服務定價與年繳折扣，非限時活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get great games every month with Humble Choice for only   $14.99\nEmbark on space shenanigans with your chosen family in The Outer Worlds 2 . Immerse yourself into the complex crime world of Mafia: The Old Country . And more!\nGet a curated m",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Humble Choice membership",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 416,
-      "basis": "explicit-amount",
-      "usd": 13,
-      "quote": "Pay less than $13 USD per month with an annual plan",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "humble-bundle-20261118-3",
-    "sourceId": "humble-bundle",
-    "name": "Humble 15th Anniversary - Survival of the Fittest Bundle",
-    "category": "software",
-    "summary": "購買包含 Palworld、Below Zero 等遊戲的組合，部分利潤支持 Whale and Dolphin Conservation 慈善機構。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "購買該組合",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在頁面找到 'Humble 15th Anniversary - Survival of the Fittest' 區塊",
-      "點擊 'Get the bundle'"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
-    "lastVerified": "2026-11-18",
-    "risks": "付費產品",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T04:05:21.770Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該組合為常態付費產品，提供「Pay What You Want」（隨你付）的定價模式，並非限時免費或折扣優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Survive in any scenario with the all-new Survival of the Fittest Bundle of games! Tame, farm, and fight with your Pals in Palworld , the hottest multiplayer open-world survival crafting game! Or submerge your crafting skills deep into the f",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Get the bundle",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "setapp-pricing-20261118-1",
     "sourceId": "setapp-pricing",
     "name": "Setapp 7 天免費試用",
@@ -2700,117 +2323,6 @@
       "twd": 3000,
       "basis": "ai-estimate",
       "note": "假設使用者選擇最便宜的 Mac 月費方案（$14.99），年繳節省 40% 相當於約 $71.95 美元，保守換算成新台幣約 3000 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261118-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史記錄 7 天。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "造訪 Notion 定價頁",
-      "點擊 Free 方案的 Sign up"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T00:07:30.698Z",
-    "lastVerified": "2026-11-18",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-18T04:05:21.770Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是 Notion 提供的常態免費方案，提供給個人使用者免費使用。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "For individuals to organize personal projects and life.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261118-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳折扣",
-    "category": "software",
-    "summary": "選擇年繳方式支付時，可比月繳最多節省 20%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇年繳支付模式",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Plus 或更高層級方案",
-      "在結帳時選擇 Pay yearly 選項"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T00:07:30.698Z",
-    "lastVerified": "2026-11-18",
-    "risks": "年繳通常需一次性支付全年費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T04:05:21.770Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Notion 常態的訂閱定價機制，年繳相較於月繳的價格優勢，而非限時的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly Price in USD",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Select payment mode:\nPay monthly\nPay yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1512,
-      "basis": "ai-estimate",
-      "note": "保守估算以最低階付費方案 Plus 的年繳差價計算。Plus 月繳為 $10/月（年 $120），年繳節省最多 20% 約 $24，換算成新台幣約 1512 元（匯率 63）。",
       "confidence": "medium"
     }
   },
@@ -5224,7 +4736,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T08:07:41.403Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對特定資格新創公司的促銷額度方案，而非一般常態定價。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio\n$200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Talk with your Account Manager",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-4",
@@ -5252,7 +4797,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T08:07:41.403Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面提到Kiro Startup Credits但沒有具體說明額度、金額或運作機制，無法確定是免費額度還是其他形式。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261118-1",
@@ -5280,7 +4852,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-18T08:08:00.141Z",
     "lastVerified": "2026-11-18",
     "risks": "專案若 1 週未活動會被自動暫停",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為 Supabase 的免費方案（Free Plan），屬於提供永久免費額度（免費層級）的促銷類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage\nCommunity support",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity. Limit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261118-2",
@@ -5308,7 +4905,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-18T08:08:00.141Z",
     "lastVerified": "2026-11-18",
     "risks": "訂閱付費方案可能涉及自動續約，請留意帳單設定",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是付費方案的常態定價機制，包含每月的計算額度，並非限時優惠或新戶專屬折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Paid Plans come with $10 /month in compute credits to cover one Micro instance or offset the cost of any other instance.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3750,
+      "basis": "ai-estimate",
+      "note": "每月$10額度，一年12個月共$120。換算新台幣約$3750（假設匯率約31.25）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "copilot-plans-20261118-2",
@@ -5337,7 +4967,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-18T10:06:15.047Z",
     "lastVerified": "2026-11-18",
     "risks": "失去學生資格後可能無法繼續使用該特定優惠方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及「Verified students」可存取「Student plan」，屬於針對學生群體的特定優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Verified students have access to the GitHub Copilot Student plan. Learn more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Verified students have access to the GitHub Copilot Student plan. Learn more",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "學生方案具體權益未在頁面列出，僅知存在。假設其價值略低於或等同於 Free 方案中的部分進階功能，保守估算其年度價值約新台幣 1000 元，或可能為免費額度加成。",
+      "confidence": "low"
+    }
   },
   {
     "id": "wise-home-20261118-1",
@@ -5367,7 +5028,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-18T10:06:48.823Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一般匯款方案中的價格折扣條件，屬於常態定價策略，而非限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 26000,
+      "basis": "ai-estimate",
+      "note": "基於頁面顯示的匯款金額與費用差額估算，保守估計一般使用者因高額匯款節省的手續費價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261118-1",
@@ -5396,7 +5095,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-18T10:07:41.543Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供永久免費方案，包含特定數量的計算單元、儲存空間及專案數量，無需信用卡即可使用。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0\nBuild and learn free with no time limits and no credit card required.\nTry Neon\nLakebase Postgres\n100 projects\n100 CU-hrs monthly per project\n1 GB of storage per project\nSizes up to 2 CU (8 GB RAM)\nUnlimited team members\nBackend\nMana",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261118-2",
@@ -5424,7 +5148,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-18T10:07:41.543Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T14:05:20.827Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給創新型公司的資金補貼/額度優惠，屬於針對特定受眾的行銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Startup Program Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   },
   {
     "id": "neon-pricing-20261118-3",
@@ -5593,6 +5346,122 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-18T12:06:36.969Z",
     "lastVerified": "2026-11-18",
     "risks": "額度使用完畢後需自費；認證課程可能有時效",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261118-1",
+    "sourceId": "humble-bundle",
+    "name": "Humble Choice 會員訂閱",
+    "category": "software",
+    "summary": "每月訂閱 $14.99 美元。年繳方案每月平均低於 $13 美元。會員在 Humble 商店內消費可享有最高 20% 折扣。每月可獲得精選 PC 遊戲。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "訂閱 Humble Choice 會員",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Humble 官網",
+      "選擇 Humble Choice 方案（月繳或年繳）",
+      "完成付款以啟用會員"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T14:06:59.509Z",
+    "lastVerified": "2026-11-18",
+    "risks": "訂閱為持續性服務，除非取消，否則會自動續約,年繳與月繳價格不同，需注意選擇的方案",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261118-2",
+    "sourceId": "humble-bundle",
+    "name": "Humble Bundle 慈善公益回饋",
+    "category": "software",
+    "summary": "Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittest Bundle）也可支持特定慈善機構（如 Whale and Dolphin Conservation）。自2010年以來，Humble 社區已捐出超過 2.84 億美元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "購買 Humble Choice 訂閱或特定的慈善遊戲包",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇支援特定慈善的 Humble Bundle 或訂閱 Humble Choice",
+      "完成購買，系統將自動將部分金額轉入慈善"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T14:06:59.509Z",
+    "lastVerified": "2026-11-18",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261118-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限制 5 MB、最多 10 位外部訪客、1 個 notion.site 網域。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Sign up」註冊"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T14:07:35.810Z",
+    "lastVerified": "2026-11-18",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261118-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳優惠",
+    "category": "software",
+    "summary": "選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇付費方案",
+      "選擇「Pay yearly」"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T14:07:35.810Z",
+    "lastVerified": "2026-11-18",
+    "risks": "null",
     "status": "pending"
   }
 ]

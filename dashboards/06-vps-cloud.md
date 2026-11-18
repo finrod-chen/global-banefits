@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T12:05:19.988Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T14:05:20.827Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,10 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [Porkbun 網域 1st Yr Sale](https://porkbun.com/products/domains) | VPS/雲服務 | 大量網域后缀提供首年促銷價，例如 .cloud 從 $21.11 降至 $3.88，.xyz 從 $14.21 降至 $1.29，.app  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun Free WHOIS Privacy](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 WHOIS 隱私保護服務，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含不限量的 DNS、DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集（WAF）等核心功能，適用於個人或 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費（$0 forever），適用於 50 人以下團隊或企業概念驗證測試，提供無限制使用者上限下的社群論壇與 Discord 支援，標準 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（100k requests/day），每次請求 CPU 時間 10ms。 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
@@ -38,11 +34,11 @@
 | [RackNerd 專用伺服器 15% 終身折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可獲得所有專用伺服器（dedicated servers）終身 15% 的折扣。 | 約 TWD 7,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 美元 AWS Activate Credits。起始額度為 1,000 美元，特定合格參與者可能獲得額外最高 5,00 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元 AWS Activate Credits，適用於 Pre-Series B 階段。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上 AWS Credits，專為準備擴張的 AI 新創公司設計。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上 AWS Credits，專為準備擴張的 AI 新創公司設計。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro Startup Credits，可轉入或與 Activate Credits 結合使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 名活躍使用者 (MAUs)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro, Team, Enterprise) 每月包含 $10 的 Compute 額度 (Compute Credits)，足 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費使用 Lakebase Postgres，包含 100 個專案、每月每專案 100 CU-hrs、每專案 1 GB 儲存空間、最大 2  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 名活躍使用者 (MAUs)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro, Team, Enterprise) 每月包含 $10 的 Compute 額度 (Compute Credits)，足 | 約 TWD 3,750（AI 估） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費使用 Lakebase Postgres，包含 100 個專案、每月每專案 100 CU-hrs、每專案 1 GB 儲存空間、最大 2  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 創新手計畫](https://neon.com/pricing) | VPS/雲服務 | 早期創新手可獲得最高 100,000 美元額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為所維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | 待核實 |
