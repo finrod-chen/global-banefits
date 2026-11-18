@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T20:05:16.740Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T20:54:57.458Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,11 +13,10 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [infiniFi (INFI) 上市活動 46,000 INFI 回饋](https://www.kucoin.com/announcement) | Crypto | 提供 46,000 INFI 的回饋（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 BTC 的存款與交易獎金，透過四個堆疊里程碑獲得 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken The Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 Anthropic 價格敞口，爭奪總值 $20,000 的 ANTHROPICX 獎池 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop Commodions Discount](https://blog.kraken.com/) | Crypto | 所有非加密貨幣市場手續費降至每邊 2bps，包括已持有的帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken $5,000,000 USDG Kraken Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、現實資產和加密貨幣期貨，解鎖高達 $5,000,000 USDG 的獎勵池，一個排行榜，三倍乘數 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO Challenge: OURAx and MOONSHOTx](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，獲得 $10,000 USDG 的一份 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Meet Atlassian Williams F1 Team Driver](https://blog.kraken.com/) | Crypto | 註冊代碼 AUSTIN，交易 $1 或更多的交易量，有機會在 10 月於 COTA 與 Atlassian Williams F1 車手會面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Halloween sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL，每交易 1 美元交易量獲得一次機會，一名贏家獲得 1,000 SOL | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken 黑色星期五存款與交易獎勵](https://blog.kraken.com/) | Crypto | 註冊後存入 1,000 美元法幣並完成四個疊加里程標記，最高可獲得 100 美元比特幣 (BTC)。 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口 (ANTHROPICX)，按交易量排名，分享 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 商品交易費率折讓](https://blog.kraken.com/) | Crypto | 黃金、白銀、油價等商品在 Kraken Prop 交易費率減半，降至每邊 2 個基點 (2bps)，適用於所有非加密貨幣市場。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、實物資產及加密期貨，協助解鎖最高 5,000,000 USDG 的獎勵池，包含一個排行榜與三個倍數機制。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
+| [Kraken 預 IPO 永續合約挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分享 10,000 USDG 獎勵。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 奧斯汀 F1 車手見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易 1 美元以上交易量，即有機會在美國大獎賽現場與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken 萬聖節抽獎活動](https://blog.kraken.com/) | Crypto | 在 10 月期間進行交易，每 1 美元交易量獲得一個抽獎機會，一名贏家將獲得 1,000 枚 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
