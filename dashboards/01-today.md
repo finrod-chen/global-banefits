@@ -1,31 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T16:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T18:05:25.410Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 約 TWD 2,000（AI 估） | 長期活動 | 待核實 |
-| [Claude Max 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月獲得 $100 API 點數，可用於 Claude Platform 開發 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月獲得 $200 API 點數，可用於 Claude Platform 開發 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含不限量的 DNS、DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集（WAF）等核心功能，適用於個人或 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費（$0 forever），適用於 50 人以下團隊或企業概念驗證測試，提供無限制使用者上限下的社群論壇與 Discord 支援，標準 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（100k requests/day），每次請求 CPU 時間 10ms。 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網路出站流量（北美/ | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求、13,000 GB-s 運行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器運行時間，可同時運行 3 個瀏覽器。 | 約 TWD 1,560（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求，每次調用 CPU 時間 10ms，1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作，無出站流量費。 | 約 TWD 680（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 1 GB 儲存數據、10 萬次讀取請求、1,000 次寫入/刪除/列表請求。 | 約 TWD 350（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 總計 5 GB 儲存空間，每日 500 萬行讀取、10 萬行寫入。 | 約 TWD 45（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs 年繳兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案等於免費使用兩個月，只需支付 10 個月的費用（年繳價格 = 月繳價格 × 10） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | Plus 方案月費從 $90 降至 $30 (每用戶每月)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Sign Up Rewards](https://www.gate.com/announcements) | Crypto | 簽到或註冊領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | 待核實 |
-| [Gate Event Contracts 50,000 USDT Prize Pool](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票以分享 50,000 USDT 獎金池 | 約 TWD 1,600,000（AI 估） | 長期活動 | 待核實 |
-| [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | 有限時間活動第三階段：USDT 最高可達 9% 年化收益率 (APR) | 約 TWD 1,290（AI 估） | 長期活動 | 待核實 |
-| [Gate CFD Gold Arena](https://www.gate.com/announcements) | Crypto | CFD 黃金競技場第七輪：在兩個排行榜上分享 80,000 USDT，最高可獲 13,000 USDT 的 XAUT 獎勵 | 約 TWD 416,000（AI 估） | 長期活動 | 待核實 |
-| [Gate ETF Treasure Hunt](https://www.gate.com/announcements) | Crypto | ETF 尋寶活動第十版：每次抽取最高可獲 88 USDT，並通過交易最高可賺取 900 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate CFD Gold Airdrop](https://www.gate.com/announcements) | Crypto | CFD 黃金空投：價值 900,000 USDx 的獎勵，最高可獲 2,015 USDT 等值的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [infiniFi (INFI) 上市活動 46,000 INFI 回饋](https://www.kucoin.com/announcement) | Crypto | 提供 46,000 INFI 的回饋（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 BTC 的存款與交易獎金，透過四個堆疊里程碑獲得 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken The Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 Anthropic 價格敞口，爭奪總值 $20,000 的 ANTHROPICX 獎池 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -65,9 +43,14 @@
 | [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳方案](https://claude.com/pricing) | AI 工具 | Pro 方案年繳每月 $17（$200 一次性付款），比月繳的 $20 更便宜，包含 Fable（使用額度付費）、Claude Data、S | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳方案](https://claude.com/pricing) | AI 工具 | Pro 方案年繳每月 $17（$200 一次性付款），比月繳的 $20 更便宜，包含 Fable（使用額度付費）、Claude Data、S | 約 TWD 5,700（AI 估） | 長期活動 | 待核實 |
+| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [v0 學生優惠](https://v0.app/students) | AI 工具 | 針對學生的專屬方案或折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山JCB卡 Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 訂日本飯店最高享14%折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山Visa卡 Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |

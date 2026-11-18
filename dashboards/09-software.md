@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T16:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T18:05:25.410Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -14,8 +14,8 @@
 | [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
