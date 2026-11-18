@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T04:05:21.770Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T06:05:18.072Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -36,12 +36,12 @@
 | [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含不限量的 DNS、DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集（WAF）等核心功能，適用於個人或 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費（$0 forever），適用於 50 人以下團隊或企業概念驗證測試，提供無限制使用者上限下的社群論壇與 Discord 支援，標準 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（100k requests/day），每次請求 CPU 時間 10ms。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網路出站流量（北美/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費（$0 forever），適用於 50 人以下團隊或企業概念驗證測試，提供無限制使用者上限下的社群論壇與 Discord 支援，標準 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（100k requests/day），每次請求 CPU 時間 10ms。 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網路出站流量（北美/ | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求、13,000 GB-s 運行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器運行時間，可同時運行 3 個瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求，每次調用 CPU 時間 10ms，1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作，無出站流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器運行時間，可同時運行 3 個瀏覽器。 | 約 TWD 1,560（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求，每次調用 CPU 時間 10ms，1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作，無出站流量費。 | 約 TWD 680（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 1 GB 儲存數據、10 萬次讀取請求、1,000 次寫入/刪除/列表請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 總計 5 GB 儲存空間，每日 500 萬行讀取、10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
