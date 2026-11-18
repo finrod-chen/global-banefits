@@ -1951,136 +1951,6 @@
     }
   },
   {
-    "id": "setapp-pricing-20261117-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 7日免費試用",
-    "category": "software",
-    "summary": "所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇任一套案（Mac, Mac + iOS, 或 Power User）",
-      "點擊「Start 7-day free trial」"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
-    "lastVerified": "2026-11-17",
-    "risks": "試用結束後可能自動轉為付費訂閱，請留意取消期限與扣款機制。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T14:05:19.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供所有訂閱方案7天免費試用，屬於試用類型優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261117-2",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 年繳折扣",
-    "category": "software",
-    "summary": "選擇年繳方案可節省最多40%的费用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇年繳訂閱方案"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-17T10:07:27.962Z",
-    "lastVerified": "2026-11-17",
-    "risks": "null",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-17T14:05:19.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面標示年繳方案最多可節省 40% 的費用，屬於常態性的年繳與月繳價格差。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 40% yearly",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1280,
-      "basis": "explicit-amount",
-      "usd": 40,
-      "quote": "Save up to 40% yearly",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261117-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 方案頁 Free 方案",
@@ -4298,7 +4168,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-17T20:07:35.698Z",
     "lastVerified": "2026-11-17",
     "risks": "AWS 促銷額度受促銷條款與條件約束；額度為美元計價；此額度為受邀制。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為促銷額度（Promotional credits）並提供高額雲端資源補貼。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "supabase-pricing-20261117-1",
@@ -4326,7 +4229,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-17T20:07:54.039Z",
     "lastVerified": "2026-11-17",
     "risks": "專案無活動一週後會自動暫停；最多只有 2 個活躍專案。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿描述的是每月 $0 的免費方案，包含特定額度的免費資源，符合優惠或免費方案的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start for Free $ 0 / month Get started with: Unlimited API requests 50,000 monthly active users 500 MB database size Shared CPU • 500 MB RAM 5 GB egress 5 GB cached egress 1 GB file storage Community support",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity. Limit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261117-2",
@@ -4355,7 +4283,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-17T20:07:54.039Z",
     "lastVerified": "2026-11-17",
     "risks": "付費方案涉及每月訂閱費，若未及時取消將持續扣款。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是付費方案內贈送的每月計算額度，屬於額度贈送性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid Plans come with $10 /month in compute credits to cover one Micro instance or offset the cost of any other instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Paid Plans come with $10 /month in compute credits to cover one Micro instance or offset the cost of any other instance.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 /month",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "neon-pricing-20261117-1",
@@ -4384,7 +4345,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T21:22:29.429Z",
     "lastVerified": "2026-11-17",
     "risks": "若項目使用完每月 100 CU-小時或 5 GB 網路傳輸量，運算將暫停至下一計費週期開始,若儲存空間超過 1 GB/項目或總共 20 GB，增加儲存空間的操作將失敗,AI Gateway 在免費方案中需要信用卡與預付金",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容描述的是 Neon 的永久免費方案，包含特定的資源額度與限制，屬於免費方案或額度類別。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "100 projects\n100 CU-hrs monthly per project\n1 GB of storage per project\nSizes up to 2 CU (8 GB RAM)\nUnlimited team members\nBackend\nManaged Better Auth\n5 GB of Object Storage\nFunctions\nAI Gateway\nRealtime (Beta)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261117-2",
@@ -4412,7 +4393,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-17T21:22:29.429Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給特定對象（早期新創）的信用額度（credits），屬於新戶獎勵/額度類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261117-1",
@@ -4440,7 +4446,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T21:23:53.865Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供「開啟免費帳戶」的行動呼籲，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261117-2",
@@ -4468,7 +4494,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-17T21:23:53.865Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對大額匯款提供手續費折扣，屬於特定的促銷優惠機制。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "mistral-pricing-20261117-1",
@@ -4496,7 +4547,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-17T22:06:34.753Z",
     "lastVerified": "2026-11-17",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T00:05:17.154Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面說明 API 計費方式中提及批次處理的常態折扣，屬於一般定價規則而非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "mistral-pricing-20261117-2",
@@ -4694,6 +4778,210 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261118-1",
+    "sourceId": "humble-bundle",
+    "name": "Humble Bundle Pay What You Want",
+    "category": "software",
+    "summary": "用戶可自行決定付款金額購買遊戲或軟體組合，頁面標示部分組合的總價值（如 $1,268.00 Value, $990.00 Value 等）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 Humble Bundle 首頁的 Bundles 區塊",
+      "選擇標示為 'Pay What You Want' 的組合",
+      "輸入希望支付的價格"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
+    "lastVerified": "2026-11-18",
+    "risks": "部分組合顯示 'LAST CHANCE' 且計時器為 00:00:00:00，暗示可能有時間限制或已結束，需即時確認",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261118-2",
+    "sourceId": "humble-bundle",
+    "name": "Humble Choice 會員方案",
+    "category": "software",
+    "summary": "每月訂閱費 $14.99，包含每月精選遊戲、商店內最高 20% 折扣、5% 會費用於慈善。年繳方案每月低於 $13 USD。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Humble Choice 會員",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Humble Bundle 帳號",
+      "選擇訂閱 Humble Choice"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
+    "lastVerified": "2026-11-18",
+    "risks": "自動續約,訂閱制需支付費用",
+    "status": "pending"
+  },
+  {
+    "id": "humble-bundle-20261118-3",
+    "sourceId": "humble-bundle",
+    "name": "Humble 15th Anniversary - Survival of the Fittest Bundle",
+    "category": "software",
+    "summary": "購買包含 Palworld、Below Zero 等遊戲的組合，部分利潤支持 Whale and Dolphin Conservation 慈善機構。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "購買該組合",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在頁面找到 'Humble 15th Anniversary - Survival of the Fittest' 區塊",
+      "點擊 'Get the bundle'"
+    ],
+    "officialUrl": "https://www.humblebundle.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
+    "lastVerified": "2026-11-18",
+    "risks": "付費產品",
+    "status": "pending"
+  },
+  {
+    "id": "setapp-pricing-20261118-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 7 天免費試用",
+    "category": "software",
+    "summary": "可獲得 7 天的免費試用期。所有月付方案（Mac $14.99、Mac + iOS $18.99、Power User $22.99）均包含此免費試用。部分方案標示包含 1,000 或 2,000 的 AI 點數（AI credits）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Setapp 訂閱方案（Mac、Mac + iOS 或 Power User）",
+      "點擊「Start 7-day free trial」按鈕開始試用"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-18T00:07:12.900Z",
+    "lastVerified": "2026-11-18",
+    "risks": "免費試用結束後，預設會轉為付費訂閱方案，除非在試用期間內取消，否則將開始計費。",
+    "status": "pending"
+  },
+  {
+    "id": "setapp-pricing-20261118-2",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 年繳方案最高 40% 折扣",
+    "category": "software",
+    "summary": "選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳選項。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Setapp 定價頁面選擇需要的方案",
+      "選擇年繳（yearly）選項以套用折扣"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-18T00:07:12.900Z",
+    "lastVerified": "2026-11-18",
+    "risks": "需支付一年的訂閱費用。",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261118-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史記錄 7 天。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "造訪 Notion 定價頁",
+      "點擊 Free 方案的 Sign up"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T00:07:30.698Z",
+    "lastVerified": "2026-11-18",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261118-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳折扣",
+    "category": "software",
+    "summary": "選擇年繳方式支付時，可比月繳最多節省 20%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳支付模式",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Plus 或更高層級方案",
+      "在結帳時選擇 Pay yearly 選項"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-18T00:07:30.698Z",
+    "lastVerified": "2026-11-18",
+    "risks": "年繳通常需一次性支付全年費用",
     "status": "pending"
   }
 ]

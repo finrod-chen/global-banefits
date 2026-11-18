@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-17T22:05:19.756Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T00:05:17.154Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,8 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供7天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最多40%的费用。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 方案頁 Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，月費 $0。包含無限制 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集、Web Application  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare SASE Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，永久免費 ($0)。支援社群論壇與 Discord 支援，標準日誌保留時間最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求及每請求 10 ms CPU 時間。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
@@ -85,13 +83,13 @@
 | [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板安裝 AdminBolt 主機板可獲得 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate 創始人額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $5,000 USD 的 AWS Activate 額度；起始為 $1,000 USD，特定參與者可能符合額外額度以達 $5,00 | 約 TWD 160,000（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate 投資組合額度（B 輪前）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 $200,000 USD 的 AWS Activate 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
-| [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 高額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（GBP）或等值外匯時，Wise 將對手續費進行折扣（We'll discount our fee） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS AI 新創額度（僅限受邀）](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 $200,000+ 的 AWS 促銷額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含：無限 API 請求、50,000 月活躍用戶（MAUs）、500 MB 資料庫大小、共享 CPU • 500 MB RAM | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro、Team 及 Enterprise 等付費方案每月包含 $10 的計算額度（Compute Credits），足以抵銷一個 Micr | 約 TWD 320（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 高額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（GBP）或等值外匯時，Wise 將對手續費進行折扣（We'll discount our fee） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Mistral Batch 處理 50% 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）可減少 50% 的價格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral 快取輸入 Token 最高 90% 折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取輸入 token 可降低高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
@@ -100,3 +98,10 @@
 | [Porkbun Free WHOIS Privacy](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 WHOIS 隱私保護服務，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Bundle Pay What You Want](https://www.humblebundle.com/) | 軟體/數位服務 | 用戶可自行決定付款金額購買遊戲或軟體組合，頁面標示部分組合的總價值（如 $1,268.00 Value, $990.00 Value 等）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 會員方案](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱費 $14.99，包含每月精選遊戲、商店內最高 20% 折扣、5% 會費用於慈善。年繳方案每月低於 $13 USD。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble 15th Anniversary - Survival of the Fittest Bundle](https://www.humblebundle.com/) | 軟體/數位服務 | 購買包含 Palworld、Below Zero 等遊戲的組合，部分利潤支持 Whale and Dolphin Conservation  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 可獲得 7 天的免費試用期。所有月付方案（Mac $14.99、Mac + iOS $18.99、Power User $22.99）均包含 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年繳方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳方式支付時，可比月繳最多節省 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
