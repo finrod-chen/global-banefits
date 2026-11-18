@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T08:05:25.333Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T10:05:18.729Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,10 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費方案包含 100 個項目（專案），每個項目每月提供 100 CU-小時、1 GB 儲存空間、最大 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 高額匯款手續費折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（GBP）或等值外匯時，Wise 將對手續費進行折扣（We'll discount our fee） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Mistral Batch 處理 50% 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）可減少 50% 的價格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral 快取輸入 Token 最高 90% 折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取輸入 token 可降低高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
@@ -83,15 +79,14 @@
 | [Gate ETF Treasure Hunt](https://www.gate.com/announcements) | Crypto | ETF 尋寶活動第十版：每次抽取最高可獲 88 USDT，並通過交易最高可賺取 900 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate CFD Gold Airdrop](https://www.gate.com/announcements) | Crypto | CFD 黃金空投：價值 900,000 USDx 的獎勵，最高可獲 2,015 USDT 等值的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [infiniFi (INFI) 上市活動 46,000 INFI 回饋](https://www.kucoin.com/announcement) | Crypto | 提供 46,000 INFI 的回饋（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin Feed 內容挖礦獎勵](https://www.kucoin.com/announcement) | Crypto | 2026年11月2日至11月15日期間在KuCoin Feed上產生的內容挖礦獎勵已結算。 | 免費（價值視使用而定） | 2026-11-15 | 待核實 |
 | [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 BTC 的存款與交易獎金，透過四個堆疊里程碑獲得 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken The Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 Anthropic 價格敞口，爭奪總值 $20,000 的 ANTHROPICX 獎池 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodions Discount](https://blog.kraken.com/) | Crypto | 所有非加密貨幣市場手續費降至每邊 2bps，包括已持有的帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Kraken Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、現實資產和加密貨幣期貨，解鎖高達 $5,000,000 USDG 的獎勵池，一個排行榜，三倍乘數 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO Challenge: OURAx and MOONSHOTx](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，獲得 $10,000 USDG 的一份 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Pre-IPO Challenge: OURAx and MOONSHOTx](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，獲得 $10,000 USDG 的一份 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Meet Atlassian Williams F1 Team Driver](https://blog.kraken.com/) | Crypto | 註冊代碼 AUSTIN，交易 $1 或更多的交易量，有機會在 10 月於 COTA 與 Atlassian Williams F1 車手會面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Halloween sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL，每交易 1 美元交易量獲得一次機會，一名贏家獲得 1,000 SOL | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費信用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費信用額度（$5 free credit）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Halloween sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL，每交易 1 美元交易量獲得一次機會，一名贏家獲得 1,000 SOL | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 免費信用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費信用額度（$5 free credit）。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費的控制平面（free control plane）與免費頻寬配額（free bandwidth allow | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Functions 免費調用量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費調用量，函式調用次數無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費靜態網站託管](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建立並部署 3 個靜態網站。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -108,3 +103,10 @@
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro Startup Credits，可轉入或與 Activate Credits 結合使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 名活躍使用者 (MAUs)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro, Team, Enterprise) 每月包含 $10 的 Compute 額度 (Compute Credits)，足 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 免費（價值視使用而定） | 2024-11-30 | 待核實 |
+| [GitHub Copilot 學生教育優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯出超過 20,000 GBP 或其等值貨幣時，Wise 將折扣其服務費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費使用 Lakebase Postgres，包含 100 個專案、每月每專案 100 CU-hrs、每專案 1 GB 儲存空間、最大 2  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 創新手計畫](https://neon.com/pricing) | VPS/雲服務 | 早期創新手可獲得最高 100,000 美元額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為所維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | 待核實 |

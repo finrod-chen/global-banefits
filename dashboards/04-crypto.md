@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T08:05:25.333Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T10:05:18.729Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,11 +20,10 @@
 | [Gate ETF Treasure Hunt](https://www.gate.com/announcements) | Crypto | ETF 尋寶活動第十版：每次抽取最高可獲 88 USDT，並通過交易最高可賺取 900 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate CFD Gold Airdrop](https://www.gate.com/announcements) | Crypto | CFD 黃金空投：價值 900,000 USDx 的獎勵，最高可獲 2,015 USDT 等值的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [infiniFi (INFI) 上市活動 46,000 INFI 回饋](https://www.kucoin.com/announcement) | Crypto | 提供 46,000 INFI 的回饋（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin Feed 內容挖礦獎勵](https://www.kucoin.com/announcement) | Crypto | 2026年11月2日至11月15日期間在KuCoin Feed上產生的內容挖礦獎勵已結算。 | 免費（價值視使用而定） | 2026-11-15 | 待核實 |
 | [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 BTC 的存款與交易獎金，透過四個堆疊里程碑獲得 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken The Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 Anthropic 價格敞口，爭奪總值 $20,000 的 ANTHROPICX 獎池 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodions Discount](https://blog.kraken.com/) | Crypto | 所有非加密貨幣市場手續費降至每邊 2bps，包括已持有的帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Kraken Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、現實資產和加密貨幣期貨，解鎖高達 $5,000,000 USDG 的獎勵池，一個排行榜，三倍乘數 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken Pre-IPO Challenge: OURAx and MOONSHOTx](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，獲得 $10,000 USDG 的一份 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Pre-IPO Challenge: OURAx and MOONSHOTx](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，獲得 $10,000 USDG 的一份 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Meet Atlassian Williams F1 Team Driver](https://blog.kraken.com/) | Crypto | 註冊代碼 AUSTIN，交易 $1 或更多的交易量，有機會在 10 月於 COTA 與 Atlassian Williams F1 車手會面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Halloween sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL，每交易 1 美元交易量獲得一次機會，一名贏家獲得 1,000 SOL | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Halloween sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月進行交易，贏取 1,000 SOL，每交易 1 美元交易量獲得一次機會，一名贏家獲得 1,000 SOL | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

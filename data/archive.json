@@ -1165,5 +1165,60 @@
     "status": "expired",
     "archivedAt": "2026-11-18T06:05:18.072Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kucoin-announce-20261118-2",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Feed 內容挖礦獎勵",
+    "category": "crypto",
+    "summary": "2026年11月2日至11月15日期間在KuCoin Feed上產生的內容挖礦獎勵已結算。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-02",
+    "endDate": "2026-11-15",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-18T08:05:48.585Z",
+    "lastVerified": "2026-11-18",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-18T08:05:25.333Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "內容挖礦獎勵屬於平台回饋，符合新戶獎勵或額度類型。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Content Mining rewards generated on KuCoin Feed from November 2, 2029 to November 15, 2026 have now been successfully settled.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "The Content Mining rewards generated on KuCoin Feed from November 2, 2029 to November 15, 2026 have now been successfully settled.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "archivedAt": "2026-11-18T10:05:18.729Z",
+    "archiveReason": "endDate passed"
   }
 ]
