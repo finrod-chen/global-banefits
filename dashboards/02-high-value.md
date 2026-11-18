@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T02:05:16.790Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T04:05:21.770Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,26 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare 方案頁 Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，月費 $0。包含無限制 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集、Web Application  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare SASE Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，永久免費 ($0)。支援社群論壇與 Discord 支援，標準日誌保留時間最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求及每請求 10 ms CPU 時間。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量 (NA/ | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB SQL  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時數及 3 個並行瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100k 請求、10 ms/調用 CPU 時間及 1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存、100 萬次 Class A 操作及 1,000 萬次 Class B 操作。 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存數據、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列出請求。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
-| [v0 每日登入免費額度](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲得 $2 的免費額度 | 約 TWD 64（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取超過 10,000 USDT 的獎勵。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Event Contracts 50,000 USDT 獎池活動](https://www.gate.com/announcements) | Crypto | 新增 10 種熱門股票至 Event Contracts，參與交易即可瓜分 50,000 USDT 獎池。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate Idle Earn × Simple Earn 限時活動第三期](https://www.gate.com/announcements) | Crypto | 限時活動，USDT 最高可享 9% APR 年化收益。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate CFD Gold Arena 第七輪活動](https://www.gate.com/announcements) | Crypto | 兩個排行榜總計瓜分 80,000 USDT，單筆最高可獲 13,000 USDT 的 XAUT 獎勵。 | 約 TWD 2,560,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate ETF Treasure Hunt 第十期](https://www.gate.com/announcements) | Crypto | 每次抽取最高可獲 88 USDT，交易最高可獲 900 USDT。 | 約 TWD 31,616（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 總價值 900,000 USDx 的空投獎勵，最高可獲得價值 2,015 USDT 的 XAUT。 | 約 TWD 61,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Web3 SCOR Swap 交易比賽](https://www.gate.com/announcements) | Crypto | 參與交易比賽，瓜分 2,000 USDC 獎勵。 | 約 TWD 64,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate ANT(Anthropic) 期貨交易比賽](https://www.gate.com/announcements) | Crypto | 首筆交易獲 3 USDT，總計最高可獲 8,000 USDT 獎勵。 | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Staking 新用戶獎勵第七期](https://www.gate.com/announcements) | Crypto | 新用戶可享 USDT 100% APR 年化收益。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高可獲得 $100 的 BTC 獎勵。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口（ANTHROPICX），爭奪 $20,000 的獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commodities Half Commission](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 上交易黃金、白銀、石油及其他大宗商品，每邊手續費降至 2bps（原有非加密貨幣市場手續費）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -99,9 +79,30 @@
 | [Porkbun Free SSL Certificates](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun Free Email Forwarding](https://porkbun.com/products/domains) | VPS/雲服務 | 免費提供電子郵件轉發功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Humble Bundle Pay What You Want](https://www.humblebundle.com/) | 軟體/數位服務 | 用戶可自行決定付款金額購買遊戲或軟體組合，頁面標示部分組合的總價值（如 $1,268.00 Value, $990.00 Value 等）。 | 約 TWD 30,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Humble Choice 會員方案](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱費 $14.99，包含每月精選遊戲、商店內最高 20% 折扣、5% 會費用於慈善。年繳方案每月低於 $13 USD。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 會員方案](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱費 $14.99，包含每月精選遊戲、商店內最高 20% 折扣、5% 會費用於慈善。年繳方案每月低於 $13 USD。 | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
 | [Humble 15th Anniversary - Survival of the Fittest Bundle](https://www.humblebundle.com/) | 軟體/數位服務 | 購買包含 Palworld、Below Zero 等遊戲的組合，部分利潤支持 Whale and Dolphin Conservation  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 可獲得 7 天的免費試用期。所有月付方案（Mac $14.99、Mac + iOS $18.99、Power User $22.99）均包含 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 年繳方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳方式支付時，可比月繳最多節省 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 可獲得 7 天的免費試用期。所有月付方案（Mac $14.99、Mac + iOS $18.99、Power User $22.99）均包含 | 約 TWD 1,915（AI 估） | 長期活動 | AI 預審通過 |
+| [Setapp 年繳方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳方式支付時，可比月繳最多節省 20%。 | 約 TWD 1,512（AI 估） | 長期活動 | 待核實 |
+| [Claude Max 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月獲得 $100 API 點數，可用於 Claude Platform 開發 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月獲得 $200 API 點數，可用於 Claude Platform 開發 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含不限量的 DNS、DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集（WAF）等核心功能，適用於個人或 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久免費（$0 forever），適用於 50 人以下團隊或企業概念驗證測試，提供無限制使用者上限下的社群論壇與 Discord 支援，標準 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（100k requests/day），每次請求 CPU 時間 10ms。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網路出站流量（北美/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求、13,000 GB-s 運行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器運行時間，可同時運行 3 個瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求，每次調用 CPU 時間 10ms，1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作，無出站流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 1 GB 儲存數據、10 萬次讀取請求、1,000 次寫入/刪除/列表請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 總計 5 GB 儲存空間，每日 500 萬行讀取、10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
+| [ElevenLabs 年繳兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案等於免費使用兩個月，只需支付 10 個月的費用（年繳價格 = 月繳價格 × 10） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | Plus 方案月費從 $90 降至 $30 (每用戶每月)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Sign Up Rewards](https://www.gate.com/announcements) | Crypto | 簽到或註冊領取 10,000+ USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Event Contracts 50,000 USDT Prize Pool](https://www.gate.com/announcements) | Crypto | 交易 10 種熱門股票以分享 50,000 USDT 獎金池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Idle Earn & Simple Earn Limited-Time Event](https://www.gate.com/announcements) | Crypto | 有限時間活動第三階段：USDT 最高可達 9% 年化收益率 (APR) | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold Arena](https://www.gate.com/announcements) | Crypto | CFD 黃金競技場第七輪：在兩個排行榜上分享 80,000 USDT，最高可獲 13,000 USDT 的 XAUT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate ETF Treasure Hunt](https://www.gate.com/announcements) | Crypto | ETF 尋寶活動第十版：每次抽取最高可獲 88 USDT，並通過交易最高可賺取 900 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold Airdrop](https://www.gate.com/announcements) | Crypto | CFD 黃金空投：價值 900,000 USDx 的獎勵，最高可獲 2,015 USDT 等值的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
