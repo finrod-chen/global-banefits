@@ -4608,7 +4608,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-17T22:06:34.753Z",
     "lastVerified": "2026-11-17",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 API 計費機制中關於快取 token 的常態定價折扣，屬於一般付費方案的定價規則，而非特定时效的行銷優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "cached input tokens reduce input cost by up to 90% for repeated prompts",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261117-1",
@@ -4636,7 +4669,50 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-17T22:06:51.901Z",
     "lastVerified": "2026-11-17",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項限時（雙11）購物活動，提供最高額度的現金回饋。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 4
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山雙11購物盛典，最高享9,800元回饋",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "endDate",
+          "quote": "活動期間：2026/11/1~2026/11/30",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9800,
+      "basis": "ai-estimate",
+      "note": "頁面明確標註最高回饋金額為9,800元，以此作為保守估算的上限價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "esun-card-offers-20261117-2",
@@ -4664,7 +4740,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-17T22:06:51.901Z",
     "lastVerified": "2026-11-17",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個針對特定卡片（指定萬事達卡）啟用時的現金回饋促銷活動，屬於限時或特定條件的優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者該月消費約 10,000 元，最高 20% 現金回饋即為 2,000 元，因未消費門檻故保守取低值估算。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261117-1",
@@ -4694,7 +4808,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
     "lastVerified": "2026-11-17",
     "risks": "首年後續約價格大幅上升,部分熱門后缀促銷價格極低僅限首年",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示特定網域后缀為 'first year sale'，且價格顯著低於常規價，屬於限時或推廣性折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".cloud\n3.88 first year sale\n$21.11 regular price\n.xyz\n1.29 first year sale\n$14.21 regular price\n.app\n8.75 first year sale\n$14.93 regular price",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "All prices are in USD. Prices shown are for non-premium single year registrations, renewals and transfers. Most transfers include a one year domain renewal. All prices include ICANN and any other fees.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261117-2",
@@ -4722,7 +4863,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了免費提供的 WHOIS 隱私保護服務，屬於免費額度或功能。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free WHOIS Privacy",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261117-3",
@@ -4750,7 +4911,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出「Free SSL Certificates」屬於免費提供的額外服務，符合免費方案的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261117-4",
@@ -4778,7 +4959,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-17T22:07:27.696Z",
     "lastVerified": "2026-11-17",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面將「Free Email Forwarding」列為免費提供的功能之一。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Email Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261118-1",
@@ -4808,7 +5009,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-18T00:06:54.839Z",
     "lastVerified": "2026-11-18",
     "risks": "部分組合顯示 'LAST CHANCE' 且計時器為 00:00:00:00，暗示可能有時間限制或已結束，需即時確認",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T02:05:16.790Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供「Pay What You Want」機制，讓用戶自行定價購買組合，屬於特殊付費方案或限時/限量的優惠活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Pay What You Want\nGet Painter 2023, PaintShop Pro 2023, Bold Strokes, Chunky Paint, Creepers, and more!\n24 Items • $1,268.00 Value",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 30000,
+      "basis": "ai-estimate",
+      "note": "假設用戶參與標示價值最高的「Humble 15th Anniversary - Survival of the Fittest」或「Create & Elevate: Amazing Art Tools from Corel」等組合，以保守的合理定價（約 $10-$15 USD/組，而非全額 $1,268）估算其市場價值約 $100 USD，換算為新台幣約 30,000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "humble-bundle-20261118-2",
