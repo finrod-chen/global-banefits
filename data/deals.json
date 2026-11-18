@@ -3723,69 +3723,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261118-7",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 萬聖節抽獎活動",
-    "category": "crypto",
-    "summary": "在 10 月期間進行交易，每 1 美元交易量獲得一個抽獎機會，一名贏家將獲得 1,000 枚 SOL。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 10 月期間進行交易，以交易量換取抽獎資格。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-31",
-    "ongoing": false,
-    "steps": [
-      "註冊活動",
-      "在 10 月期間正常交易",
-      "通過交易量累積抽獎機會"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-18T20:55:43.394Z",
-    "lastVerified": "2026-11-18",
-    "risks": "僅有一名贏家獲得 1,000 SOL，中獎機率依交易量而定。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T20:54:57.458Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為限時舉辦的抽獎促銷，透過交易量換取抽獎機會。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "expired",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "digitalocean-pricing-20261118-1",
     "sourceId": "digitalocean-pricing",
     "name": "DigitalOcean 新戶 $5 免費額度",
@@ -3879,7 +3816,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T20:56:18.310Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題與內容列出了多項免費包含在內的服務額度與功能，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost\nPublic Internet Egress Overage Data transfer is $0",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50000,
+      "basis": "ai-estimate",
+      "note": "估算依據 Droplet 免費輸出資料傳輸 500 GiB/月，按 $0.01/GiB 計算約 $5/月，加上 DNS、Container Registry 等服務，保守估算第一年價值約 NT$50,000。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-3",
@@ -3907,7 +3882,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T20:56:18.310Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的是一般服務定價與包含在常態價格中的標準功能（免費控制平面），而非針對特定對象或時限的促銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Starting at\n$12 /month Simple, managed Kubernetes\nSimple, managed Kubernetes built for scale\nFree control plane, free bandwidth allowance, and more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-4",
@@ -3935,7 +3943,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T20:56:18.310Z",
     "lastVerified": "2026-11-18",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Uptime 方案起始價為 $0/月，並說明每個帳號每月包含一次免費檢查，屬於免費額度/方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One Uptime Check/month included with every account",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261118-1",
@@ -3964,7 +4004,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-18T20:56:35.536Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供專有伺服器終身 15% 折扣，屬於促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-startups-credits-20261118-1",
@@ -3995,7 +4055,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T20:56:54.948Z",
     "lastVerified": "2026-11-18",
     "risks": "需符合 AWS Promotional Credit 條款與條件；回應時間為 5–10 個工作天。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供給新創公司的促銷額度（Credits），屬於專屬獎勵或免費方案性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits *Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Apply directly if you’re bootstrapped or self-funded",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-2",
@@ -4027,7 +4120,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T20:56:54.948Z",
     "lastVerified": "2026-11-18",
     "risks": "需符合 AWS Promotional Credit 條款與條件；回應時間為 5–10 個工作天。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供最高 20 萬美元的云服務額度（Credits）給符合資格的創投，屬於促銷性質的免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-3",
@@ -4055,7 +4181,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T20:56:54.948Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為面向特定合格新創公司的促銷額度（Credits）專案，而非一般付費定價。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ in AWS Credits\nTalk with your Account Manager\nIf you need additional support, contact us",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-4",
@@ -4083,7 +4242,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T20:56:54.948Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T22:05:16.875Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面提及 Kiro 額度為「promotional credits」，但未明確標示為限時、免費試用或特定金額額度，且主要內容指向需透過其他途徑申請的 Activate 額度，性質模糊。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kiro 開發環境的創業額度，無具體金額數字，可用於構建 AI 代理和應用。",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "適用的新創公司且目前沒有現有的 Activate Credits。",
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261118-1",

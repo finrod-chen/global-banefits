@@ -1251,5 +1251,70 @@
     "status": "expired",
     "archivedAt": "2026-11-18T12:05:19.988Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261118-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎活動",
+    "category": "crypto",
+    "summary": "在 10 月期間進行交易，每 1 美元交易量獲得一個抽獎機會，一名贏家將獲得 1,000 枚 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 10 月期間進行交易，以交易量換取抽獎資格。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "註冊活動",
+      "在 10 月期間正常交易",
+      "通過交易量累積抽獎機會"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-18T20:55:43.394Z",
+    "lastVerified": "2026-11-18",
+    "risks": "僅有一名贏家獲得 1,000 SOL，中獎機率依交易量而定。",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-18T20:54:57.458Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為限時舉辦的抽獎促銷，透過交易量換取抽獎機會。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL\nEnroll, then trade the way you normally would. Every dollar in volume traded earns an entry. One winner takes 1,000 SOL.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "archivedAt": "2026-11-18T22:05:16.875Z",
+    "archiveReason": "endDate passed"
   }
 ]

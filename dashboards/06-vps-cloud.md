@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T20:54:57.458Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T22:05:16.875Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -16,13 +16,13 @@
 | [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為所維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度 (free credit) | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean 免費平台功能](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含免費建立 3 個靜態網站、VPC 內部資料傳輸免費、VPC 輸入資料傳輸免費、免費保留 IP (指派給 Droplet 時)、Dropl | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費平台功能](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含免費建立 3 個靜態網站、VPC 內部資料傳輸免費、VPC 輸入資料傳輸免費、免費保留 IP (指派給 Droplet 時)、Dropl | 約 TWD 50,000（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，並提供免費頻寬額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳號每月包含 1 次免費的 Uptime 檢查 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專有伺服器 15%  lifetime 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有專有伺服器（dedicated servers）使用促銷代碼 15OFFDEDI 可享 15% 終身折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Founders 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $5,000 USD 的 Activate Credits，初始獲得 $1,000 USD，特定參與者可能有資格獲得額外額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $200,000 USD 的 Activate Credits。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD 的 AWS Credits，僅限邀請制，面向準備擴展規模的 AI 新創公司。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 專有伺服器 15%  lifetime 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有專有伺服器（dedicated servers）使用促銷代碼 15OFFDEDI 可享 15% 終身折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS Activate Founders 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $5,000 USD 的 Activate Credits，初始獲得 $1,000 USD，特定參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $200,000 USD 的 Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD 的 AWS Credits，僅限邀請制，面向準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro 開發環境的創業額度，無具體金額數字，可用於構建 AI 代理和應用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間及 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算積分 (Compute Credits)](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
