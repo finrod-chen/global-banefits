@@ -4749,7 +4749,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T08:07:04.822Z",
     "lastVerified": "2026-11-18",
     "risks": "超過 500 GiB 後的出站資料傳輸將以 $0.01 / GiB 計價",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "Droplets 方案包含免費的出站資料傳輸配額，符合「免費方案或額度」的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Droplets\nStarting at\n$4 /month Highly-efficient virtual machines",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 850,
+      "basis": "ai-estimate",
+      "note": "根據頁面資訊，Droplets 包含 500 GiB 免費出站頻寬。若無此配額，依 $0.01/GiB 的標準費用計算，500 GiB 價值約 5 美元，換算為新台幣約 170 元。若考慮一般使用者可能消耗超過 500 GiB 的實際價值，保守估算價值約 25 美元，換算為 850 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-7",
@@ -4777,7 +4808,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T08:07:04.822Z",
     "lastVerified": "2026-11-18",
     "risks": "超出免費配額需付費升級方案",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面將免費容器註冊表列為平台權益之一，屬於免費額度/方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free container registry with 1 repository and 500 MiB storage",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-8",
@@ -4805,7 +4863,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T08:07:04.822Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是作為基礎平台功能提供（included at no additional cost），屬於一般常態功能與定價，非獨立的限時優惠或特定額度的促銷方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free cloud firewalls",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-9",
@@ -4833,7 +4919,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T08:07:04.822Z",
     "lastVerified": "2026-11-18",
     "risks": "若 IP 未指派給 Droplet，可能產生未使用的 IP 費用（頁面未明確標示未指派時的計費規則，僅說明指派時免費）",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面將此項列於「Platform benefits」一節下，標註為「included at no additional cost」，屬於服務本身定價結構中的常態免費項目，而非限時促銷或新戶額度。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Reserved IPs when assigned to a Droplet",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free Reserved IPs when assigned to a Droplet",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 200,
+      "basis": "ai-estimate",
+      "note": "保留 IP 在未指派給 Droplet 時通常會產生費用，保守估算每月節省約 1 USD，一年約 12 USD，換算為 200 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261118-10",
@@ -4861,7 +4980,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-18T08:07:04.822Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面將免費 DNS 管理列為平台的一般定價福利（Platform benefits），並未標示為限時優惠或新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free DNS management",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Platform benefits\nAll the capabilities you need to build and scale your apps, included at no additional cost.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261118-1",
@@ -4890,7 +5036,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-18T08:07:22.225Z",
     "lastVerified": "2026-11-18",
     "risks": "此折扣僅適用於專用伺服器，不適用於 VPS 或其他產品類別。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供帶有促銷代碼的限時或長期折扣方案，屬於明確的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "using promo code: 15OFFDEDI",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 7000,
+      "basis": "ai-estimate",
+      "note": "假設使用者租用一年中階專機（約 $300-$400 美元），15% 折扣約等於 45-60 美元，換算成新臺幣約 1,400-1,800 元；但保守估算為一般低階或常見配置的省幅，此處給予保守的整數估值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-1",
@@ -4921,7 +5098,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T08:07:41.403Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供新創公司的免費雲端額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits\n*Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Apply directly if you’re bootstrapped or self-funded",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-2",
@@ -4953,7 +5163,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-18T08:07:41.403Z",
     "lastVerified": "2026-11-18",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-18T12:05:19.988Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠提供最高 20 萬美元的雲端額度 credits，屬於免費方案或額度類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261118-3",
@@ -5065,35 +5308,6 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-18T08:08:00.141Z",
     "lastVerified": "2026-11-18",
     "risks": "訂閱付費方案可能涉及自動續約，請留意帳單設定",
-    "status": "pending"
-  },
-  {
-    "id": "copilot-plans-20261118-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 限時折扣",
-    "category": "ai",
-    "summary": "Copilot Fusion 使用量享有 30% 折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-11-30",
-    "ongoing": false,
-    "steps": [
-      "購買或使用 GitHub Copilot",
-      "在 2024 年 11 月 30 日前使用 Copilot Fusion 以享受折扣"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-18T10:06:15.047Z",
-    "lastVerified": "2026-11-18",
-    "risks": "折扣有期限，結束後恢復原價",
     "status": "pending"
   },
   {
@@ -5267,6 +5481,118 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-18T10:07:41.543Z",
     "lastVerified": "2026-11-18",
     "risks": "若未在 72 小時內 claim，專案將受到 100 MB 儲存與 1 GB 傳輸限制。",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261118-1",
+    "sourceId": "github-education",
+    "name": "Heroku 每月 $13 額度 24 個月",
+    "category": "software",
+    "summary": "享有每月 13 美元的額度，總共 24 個月。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "加入 GitHub Student Developer Pack 領取 Heroku 優惠"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-18T12:06:36.969Z",
+    "lastVerified": "2026-11-18",
+    "risks": "額度按月发放，需注意每月使用上限或自動續約條款（頁面未詳列）",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261118-2",
+    "sourceId": "github-education",
+    "name": "JetBrains 學生免費訂閱",
+    "category": "software",
+    "summary": "學生可享有免費訂閱，每年需更新。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須每年更新",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "加入 GitHub Student Developer Pack 領取 JetBrains 優惠"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-18T12:06:36.969Z",
+    "lastVerified": "2026-11-18",
+    "risks": "訂閱到期需手動更新，若失去學生資格將失效",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261118-3",
+    "sourceId": "github-education",
+    "name": "1Password 免費 2 年",
+    "category": "software",
+    "summary": "免費使用 1Password 及 1Password 開發者工具 2 年。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "加入 GitHub Student Developer Pack 領取 1Password 優惠"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-18T12:06:36.969Z",
+    "lastVerified": "2026-11-18",
+    "risks": "2 年後可能需付費續約",
+    "status": "pending"
+  },
+  {
+    "id": "github-education-20261118-4",
+    "sourceId": "github-education",
+    "name": "MongoDB $50 額度及認證",
+    "category": "software",
+    "summary": "獲得 50 美元的 MongoDB Atlas 額度，以及 MongoDB Compass 和 MongoDB University（含價值 150 美元的免費認證）的使用權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "加入 GitHub Student Developer Pack 領取 MongoDB 優惠"
+    ],
+    "officialUrl": "https://education.github.com/pack",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-18T12:06:36.969Z",
+    "lastVerified": "2026-11-18",
+    "risks": "額度使用完畢後需自費；認證課程可能有時效",
     "status": "pending"
   }
 ]

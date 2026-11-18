@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T10:05:18.729Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T12:05:19.988Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -14,3 +14,7 @@
 | [Setapp 年繳方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，適用於個人整理項目。包含 Notion AI 試用、基本表單、發布到網頁、日曆、資料庫等功能。檔案上傳限制為 5 MB，頁面歷史 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳方式支付時，可比月繳最多節省 20%。 | 約 TWD 1,512（AI 估） | 長期活動 | 待核實 |
+| [Heroku 每月 $13 額度 24 個月](https://education.github.com/pack) | 軟體/數位服務 | 享有每月 13 美元的額度，總共 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生可享有免費訂閱，每年需更新。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [1Password 免費 2 年](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 1Password 及 1Password 開發者工具 2 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [MongoDB $50 額度及認證](https://education.github.com/pack) | 軟體/數位服務 | 獲得 50 美元的 MongoDB Atlas 額度，以及 MongoDB Compass 和 MongoDB University（含價值 | 免費（價值視使用而定） | 長期活動 | 待核實 |
