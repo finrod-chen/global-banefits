@@ -1,19 +1,21 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T14:05:20.827Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T16:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Epic 遊戲庫中的指定遊戲，本頁列出 Them's Fightin' Herds、Model Builder: Complete | 約 TWD 885（AI 估） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 可獲得 7 天的免費試用期。所有月付方案（Mac $14.99、Mac + iOS $18.99、Power User $22.99）均包含 | 約 TWD 1,915（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 年繳方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳方案可節省最高達 40% 的費用（Save up to 40% yearly）。 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
-| [Heroku 每月 $13 額度 24 個月](https://education.github.com/pack) | 軟體/數位服務 | 享有每月 13 美元的額度，總共 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生可享有免費訂閱，每年需更新。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [1Password 免費 2 年](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 1Password 及 1Password 開發者工具 2 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Heroku 每月 $13 額度 24 個月](https://education.github.com/pack) | 軟體/數位服務 | 享有每月 13 美元的額度，總共 24 個月。 | 約 TWD 10,654（AI 估） | 長期活動 | AI 預審通過 |
+| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生可享有免費訂閱，每年需更新。 | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
+| [1Password 免費 2 年](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 1Password 及 1Password 開發者工具 2 年。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
 | [MongoDB $50 額度及認證](https://education.github.com/pack) | 軟體/數位服務 | 獲得 50 美元的 MongoDB Atlas 額度，以及 MongoDB Compass 和 MongoDB University（含價值 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Choice 會員訂閱](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱 $14.99 美元。年繳方案每月平均低於 $13 美元。會員在 Humble 商店內消費可享有最高 20% 折扣。每月可獲得精選  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 會員訂閱](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱 $14.99 美元。年繳方案每月平均低於 $13 美元。會員在 Humble 商店內消費可享有最高 20% 折扣。每月可獲得精選  | 約 TWD 4,500（AI 估） | 長期活動 | 待核實 |
+| [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Them's Fightin' Herds 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

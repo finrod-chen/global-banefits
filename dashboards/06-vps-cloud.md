@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T14:05:20.827Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T16:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,4 +41,4 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費使用 Lakebase Postgres，包含 100 個專案、每月每專案 100 CU-hrs、每專案 1 GB 儲存空間、最大 2  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 創新手計畫](https://neon.com/pricing) | VPS/雲服務 | 早期創新手可獲得最高 100,000 美元額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為所維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

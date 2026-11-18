@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T14:05:20.827Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-18T16:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,10 +24,9 @@
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Mistral Batch 處理 50% 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）可減少 50% 的價格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Mistral 快取輸入 Token 最高 90% 折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取輸入 token 可降低高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Max 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月獲得 $100 API 點數，可用於 Claude Platform 開發 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 方案含 API 點數](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月獲得 $200 API 點數，可用於 Claude Platform 開發 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs 年繳兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案等於免費使用兩個月，只需支付 10 個月的費用（年繳價格 = 月繳價格 × 10） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | Plus 方案月費從 $90 降至 $30 (每用戶每月)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生教育優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Claude Pro 年繳方案](https://claude.com/pricing) | AI 工具 | Pro 方案年繳每月 $17（$200 一次性付款），比月繳的 $20 更便宜，包含 Fable（使用額度付費）、Claude Data、S | 免費（價值視使用而定） | 長期活動 | 待核實 |
