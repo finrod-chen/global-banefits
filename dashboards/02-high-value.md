@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-18T22:05:16.875Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T00:05:18.629Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,12 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生教育優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Wise 高額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯出超過 20,000 GBP 或其等值貨幣時，Wise 將折扣其服務費。 | 約 TWD 26,000（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 免費使用 Lakebase Postgres，包含 100 個專案、每月每專案 100 CU-hrs、每專案 1 GB 儲存空間、最大 2  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 創新手計畫](https://neon.com/pricing) | VPS/雲服務 | 早期創新手可獲得最高 100,000 美元額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為所維護的開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 體驗專案](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可建立即時的 Postgres 專案。若未在 72 小時內claim至 Neon 帳號，儲存空間上限為 100 MB，網路 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Heroku 每月 $13 額度 24 個月](https://education.github.com/pack) | 軟體/數位服務 | 享有每月 13 美元的額度，總共 24 個月。 | 約 TWD 10,654（AI 估） | 長期活動 | AI 預審通過 |
 | [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生可享有免費訂閱，每年需更新。 | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
 | [1Password 免費 2 年](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 1Password 及 1Password 開發者工具 2 年。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
@@ -82,5 +76,11 @@
 | [AWS Activate Portfolio 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $200,000 USD 的 Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD 的 AWS Credits，僅限邀請制，面向準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro 開發環境的創業額度，無具體金額數字，可用於構建 AI 代理和應用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間及 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算積分 (Compute Credits)](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算積分 (Compute Credits)](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例的費用。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 積分（來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 積分（來自 Google Developer P | 約 TWD 15,500（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot 限時折扣 (Copilot Fusion)](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣，期限至 11 月 30 日。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核驗的學生可存取 GitHub Copilot 學生方案 (Student plan)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含100個專案，每個專案每月100 CU-hrs計算資源、1 GB儲存空間、最多2 CU大小、無限團隊成員。後端 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 創新的 Startup Program 優惠](https://neon.com/pricing) | VPS/雲服務 | 早期階段創新的公司可获得最高 $100k 的信用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
