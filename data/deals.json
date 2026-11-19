@@ -1888,964 +1888,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261119-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Black Friday Deposit & Trade Bonus",
-    "category": "crypto",
-    "summary": "最高 $100 的比特幣 (BTC) 存款與交易獎勵，需通過四個堆疊里程碑達成",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "存款 $1,000 法幣，交易並達成四個里程碑",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-12",
-    "endDate": "2026-12-01",
-    "ongoing": false,
-    "steps": [
-      "報名活動",
-      "存款 $1,000 法幣",
-      "交易並通過四個堆疊里程碑"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T10:06:07.855Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T10:05:17.943Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該優惠為特定節日的限時存款與交易獎勵活動，屬於新戶獎勵或限時優惠範疇。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "deposit $1,000 in fiat and trade your way through four stacked milestones",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "November 12 to December 1.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "up to $100 in BTC",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261119-2",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Anthropic Pre-IPO Challenge",
-    "category": "crypto",
-    "summary": "在 Kraken Pro 交易 Anthropic 價格敞口 (ANTHROPICX)，總獎金池 $20,000，按交易量排名分配獎金",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "在 Kraken Pro 交易 ANTHROPICX (最高 10 倍槓桿)，交易量決定排名",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-11",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 交易 ANTHROPICX",
-      "以交易量累積排名"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T10:06:07.855Z",
-    "lastVerified": "2026-11-19",
-    "risks": "使用槓桿交易存在風險",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T10:05:17.943Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個透過交易量排名來分配獎金池的行銷活動，屬於限時獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro\nTrade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 640000,
-      "basis": "explicit-amount",
-      "usd": 20000,
-      "quote": "compete for $20,000 in ANTHROPICX on Kraken Pro",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261119-3",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Prop Commissions Discount",
-    "category": "crypto",
-    "summary": "Kraken Prop 所有非加密貨幣市場 (包括黃金、白銀、油、銅等) 手續費降至每邊 2bps，較一般費率减半",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-29",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用 Kraken Prop 進行非加密貨幣市場交易"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T10:06:07.855Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T10:05:17.943Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "此為常態的定價與手續費調整，非限時優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261119-4",
-    "sourceId": "kraken-blog",
-    "name": "Kraken $5,000,000 USDG Futures Challenge",
-    "category": "crypto",
-    "summary": "交易黃金、真實世界資產 (RWA) 和加密期貨，幫助解鎖最高 $5,000,000 USDG 獎勵池，單榜單三倍倍數",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "交易黃金、真實世界資產和加密期貨",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-12",
-    "endDate": "2026-12-10",
-    "ongoing": false,
-    "steps": [
-      "交易黃金、真實世界資產和加密期貨"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T10:06:07.855Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供獎勵池（reward pool）並設有特定的活動期間，屬於限時促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000000,
-      "basis": "explicit-amount",
-      "usd": 5000000,
-      "quote": "up to $5,000,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261119-5",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Pre-IPO Perps Challenge",
-    "category": "crypto",
-    "summary": "交易 OURAx 和 MOONSHOTx 永續期貨 (Perps)，總獎金池 $10,000 USDG，交易量決定排名",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "報名後在 Kraken Pro 交易 OURAx 和 MOONSHOTx (最高 10 倍槓桿)，交易量決定排名",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-06",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "報名活動",
-      "在 Kraken Pro 交易 OURAx 和 MOONSHOTx 永續期貨"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T10:06:07.855Z",
-    "lastVerified": "2026-11-19",
-    "risks": "使用槓桿交易存在風險",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供獎金池並透過報名及交易量排名分配獎勵，屬於限時促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "$10,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-1",
-    "sourceId": "esun-card-offers",
-    "name": "玉山雙11購物盛典",
-    "category": "banking",
-    "summary": "最高享9,800元回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-01",
-    "endDate": "2026-11-30",
-    "ongoing": false,
-    "steps": [
-      "活動期間使用玉山信用卡消費",
-      "參與回饋活動"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為特定期間內的限時購物回饋優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "最高享9,800元回饋",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "2026/11/30",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 9800,
-      "basis": "ai-estimate",
-      "note": "依據頁面標示的最高回饋金額進行估算。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-2",
-    "sourceId": "esun-card-offers",
-    "name": "玉山環球賞 啟用優惠",
-    "category": "banking",
-    "summary": "指定萬事達卡啟用優惠最高20%現金回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需使用玉山指定萬事達卡並啟用",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "啟用玉山指定萬事達卡"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供新卡啟用時的現金回饋獎勵，屬於新戶獎勵或限時優惠性質。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "頁面僅標明「最高20%現金回饋」但未列出消費門檻或上限金額，故保守估算一般使用者首年消費規模所能獲得的回饋價值。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-3",
-    "sourceId": "esun-card-offers",
-    "name": "Trip.com 玉山卡折扣",
-    "category": "banking",
-    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "JCB卡限訂日本飯店，Visa卡無地區限制",
-    "regions": [
-      "日本",
-      "全球"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山JCB卡預訂日本飯店",
-      "或使用玉山Visa卡預訂飯店"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供特定合作通路與卡片的限時或特定區域折扣回饋。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山JCB卡訂日本飯店最高享14%折扣",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "日本",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "保守估計，使用者每季消費1次約新台幣12,500元的日本飯店，按14%折扣計算約節省1,750元，一年約7,000元；考慮到部分旅客可能使用Visa卡（8%）或消費較少，保守估算為5,000元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-4",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳地價稅優惠",
-    "category": "banking",
-    "summary": "最高享0.2%玉山e point回饋或3期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山信用卡繳交地價稅"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "繳納地價稅屬於常態性消費行為，此優惠為針對該特定消費的回饋或無息分期方案，非限時折扣或一次性額度獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "最高享0.2%玉山e point回饋或3期0利率",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 50,
-      "basis": "ai-estimate",
-      "note": "以一般家庭常見的地價稅金額（假設為 10,000 元）計算，0.2% 回饋僅 20 元；若使用 3 期 0 利率，保守估算可節省約 1 期（約 10% 週期）的資金成本利息約 30 元，合計保守估計約 50 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-5",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳學費優惠",
-    "category": "banking",
-    "summary": "滿額登錄享最高6期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需達滿額條件並進行登錄",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山信用卡繳交學費",
-      "進行滿額登錄"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "此為常態的信用卡分期0利率服務方案，而非限時免費額度或新戶獎勵活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "滿額登錄享最高6期0利率！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "滿額登錄享最高6期0利率！",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261119-6",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡綁定全支付 繳稅費優惠",
-    "category": "banking",
-    "summary": "繳稅費享3%全點回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需綁定全支付",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "綁定全支付",
-      "使用玉山信用卡繳交稅費"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T10:06:43.117Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T12:05:18.580Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "綁定特定支付平台繳稅費可獲得高於常態的3%回饋，屬於限時或特定條件的優惠推廣。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山信用卡綁定全支付\n繳稅費享3%全點回饋",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山信用卡綁定全支付",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "racknerd-specials-20261119-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd 獨立伺服器終身 15% 折扣",
-    "category": "vps-cloud",
-    "summary": "使用促銷代碼 15OFFDEDI 可獲得所有獨立伺服器 (dedicated servers) 終身 15% 折扣 (Save 15% off for life)。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需使用促銷代碼 15OFFDEDI",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂購 RackNerd 獨立伺服器",
-      "結帳時輸入促銷代碼 15OFFDEDI"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-19T10:07:18.655Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供特定促銷代碼以獲得終身折扣，屬於限時或特定條件的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Save 15% off for life on all dedicated servers using promo code: 15OFFDEDI",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5,
-      "basis": "ai-estimate",
-      "usd": 0.15,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；這是百分比折扣而非固定金額，且適用於獨服（價格通常較高且依配置而異），無法在沒有具體機器配置的情況下估算第一年絕對價值，故填 0 表示無固定額度。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261119-2",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd AdminBolt 免費試用",
-    "category": "vps-cloud",
-    "summary": "透過 ctrl 控制面板一鍵安裝 AdminBolt 主機控管面板，享有 30 天免費試用 (30-day free trial)。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需安裝 AdminBolt，系統需求為 2+ vCPU 及 2+ GB RAM，且須安裝在 AlmaLinux 9 上",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進入 VPS 的 ctrl 控制面板",
-      "前往 One-Click Apps 頁面",
-      "選擇並安裝 AdminBolt"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-19T10:07:18.655Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供第三方軟體的 30 天免費試用額度。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Install AdminBolt in one click through ctrl and enjoy a 30-day free trial.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM\nInstalls on AlmaLinux 9",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-startups-credits-20261119-1",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Activate Credits 新創額度",
-    "category": "vps-cloud",
-    "summary": "提供最高 200,000 USD 的 AWS 促銷額度（Credits）給符合條件的新創公司。自我資助的創辦人最高可獲得 5,000 USD（起點為 1,000 USD）；由 VC 或加速器支援的 Pre-Series B 以下新創最高可獲得 200,000 USD；AI 領域新創則可能獲得 200,000 USD 以上的額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "須為 Pre-Series B 階段的資金狀態,成立時間需在 10 年內,AWS 帳戶必須為付費層級（Paid Tier Plan）,必須是新的 Activate Credits 用戶，或申請的額度高於過去已獲得的額度,自我資助者（Activate Founders）須直接申請,受 VC/加速器支援者（Activate Portfolio）須擁有 Activate Provider 的組織 ID（Org ID）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用專業電子郵件建立或登入 AWS Builder ID 並完成個人檔案驗證",
-      "選擇符合的額度等級（自我資助者選 Activate Founders，受支援者選 Activate Portfolio）",
-      "提供產品、資金階段與公司檔案等資訊以確認資格",
-      "建立或連結 AWS 帳戶至 Builder ID 並提交申請",
-      "等待 5 至 10 個工作日的回覆結果"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T10:07:37.135Z",
-    "lastVerified": "2026-11-19",
-    "risks": "額度受 AWS 促銷條款與細則約束（AWS Promotional Credit Terms & Conditions）",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供新創公司最高 200,000 美元的雲端額度（Credits），屬於針對特定對象的促銷或額度獎勵方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400000,
-      "basis": "explicit-amount",
-      "usd": 200000,
-      "quote": "Up to $200,000 USD in Activate Credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "supabase-pricing-20261119-1",
-    "sourceId": "supabase-pricing",
-    "name": "Supabase 免費方案",
-    "category": "vps-cloud",
-    "summary": "每月 $0，包含無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間。免費專案在 1 週未活動後會暫停，限制 2 個活躍專案。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Supabase 帳號",
-      "選擇免費方案開始建立專案"
-    ],
-    "officialUrl": "https://supabase.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-19T10:07:55.104Z",
-    "lastVerified": "2026-11-19",
-    "risks": "免費專案在 1 週未活動後會自動暫停",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是 Supabase 提供的永久免費方案，包含特定的使用額度，屬於免費額度類別。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\nPerfect for passion projects & simple websites.\nStart for Free $ 0\n/ month\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file stora",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "supabase-pricing-20261119-2",
-    "sourceId": "supabase-pricing",
-    "name": "Supabase 付費方案計算額度贈送",
-    "category": "vps-cloud",
-    "summary": "Pro 與 Team 付費方案每月包含 $10 美元的計算額度（compute credits），足以覆蓋一個 Micro 實例（1 GB RAM / 共享計算）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Pro 或 Team 付費方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Supabase Pro 或 Team 方案"
-    ],
-    "officialUrl": "https://supabase.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-19T10:07:55.104Z",
-    "lastVerified": "2026-11-19",
-    "risks": "僅適用於付費方案用戶",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是付費方案（Pro/Team）訂閱費中預設包含的計算額度，屬於常態定價結構，非限時或特定群體的行銷優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Pro\n$ 25 /month",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "Paid plans include $10/mo in compute credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "digitalocean-pricing-20261119-1",
     "sourceId": "digitalocean-pricing",
     "name": "DigitalOcean $5 免費額度",
@@ -4861,5 +3903,741 @@
       "flags": [],
       "numbersMissing": []
     }
+  },
+  {
+    "id": "kraken-blog-20261119-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 黑五存款與交易獎勵",
+    "category": "crypto",
+    "summary": "最多可獲得 $100 的 BTC 獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "報名，存入 $1,000 法幣，並在四個疊加里程碑中進行交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-12",
+    "endDate": "2026-12-01",
+    "ongoing": false,
+    "steps": [
+      "Enroll",
+      "deposit $1,000 in fiat",
+      "trade your way through four stacked milestones"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動提供新戶存款與交易獎勵，屬於限時促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "November 12 to December 1",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in BTC",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Anthropic 預 IPO 挑戰賽",
+    "category": "crypto",
+    "summary": "爭奪 $20,000 的 ANTHROPICX 獎池",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 Kraken Pro 上交易 Anthropic 價格曝光，最高可使用 10 倍槓桿，按交易量排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Trade Anthropic price exposure on Kraken Pro",
+      "rank by volume",
+      "claim your share of the prize pool"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個以交易量為排名依據、提供獎金池的限時競賽活動，屬於行銷推廣性質的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "compete for $20,000 in ANTHROPICX",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Prop 商品半價佣金促銷",
+    "category": "crypto",
+    "summary": "銀、WTI 原油、布蘭特原油、銅和天然氣等商品上線 Kraken Prop，且所有非加密市場（包括現有帳戶）的佣金降至每邊 2bps",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確指出非加密市場佣金降至每邊2bps，並涵蓋現有帳戶，屬於限時或特定活動的價格優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Futures USDG 挑戰賽",
+    "category": "crypto",
+    "summary": "幫助解鎖最多 $5,000,000 的 USDG 獎勵池",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "交易黃金、現實世界資產和加密期貨",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "Trade gold, real-world assets, and crypto futures"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個有限時間的促銷活動，參與者透過交易可解鎖獎勵池。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "$5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 預 IPO 挑戰賽 (OURAx 和 MOONSHOTx)",
+    "category": "crypto",
+    "summary": "獲得 $10,000 USDG 獎池的份額",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 Kraken Pro 上使用最高 10 倍槓桿交易 OURAx 和 MOONSHOTx 永續期貨，交易量決定排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Enroll",
+      "trade the OURAx and MOONSHOTx Perps on Kraken Pro",
+      "Your trading volume decides your rank"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動要求註冊並交易以爭取獎池份額，屬於限時獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "for a share of $10,000 USDG",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 參加 Atlassian Williams F1 車手見面會",
+    "category": "crypto",
+    "summary": "有機會在 10 月的 COTA 與 Atlassian Williams F1 車手面對面見面的抽獎機會",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 AUSTIN 註冊，交易量達到 $1 或更多",
+    "regions": [
+      "United States (COTA)"
+    ],
+    "startDate": "2026-10-05",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Sign up with code AUSTIN",
+      "trade $1 or more in volume"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "透過特定代碼註冊並完成交易量即可參加抽獎，屬於限時活動獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "kraken-blog-20261119-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎活動",
+    "category": "crypto",
+    "summary": "10 月交易並贏取 1,000 SOL",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "報名，並以平常的方式交易。每交易 1 美元的交易量可獲得一次入場權",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "Enroll",
+      "trade in October"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動為限時抽獎，透過交易量兌換獎品，屬於新戶獎勵或限時促銷性質。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1664000,
+      "basis": "ai-estimate",
+      "usd": 52000,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；以 1 SOL 約等值 52 美元計算，1,000 SOL 總價值約 52,000 美元，換算成新台幣約 5,200,000 元。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "esun-card-offers-20261119-1",
+    "sourceId": "esun-card-offers",
+    "name": "玉山雙11購物盛典",
+    "category": "banking",
+    "summary": "最高享9,800元回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠屬於限時折扣與回饋活動，有明確的活動期間（2026/11/1~2026/11/30）。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "最高享9,800元回饋",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "2026/11/30",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9966,
+      "basis": "ai-estimate",
+      "usd": 311.45,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "esun-card-offers-20261119-2",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡 繳地價稅",
+    "category": "banking",
+    "summary": "最高享0.2%玉山e point回饋或3期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261119-3",
+    "sourceId": "esun-card-offers",
+    "name": "玉山環球賞",
+    "category": "banking",
+    "summary": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261119-4",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡 繳學費",
+    "category": "banking",
+    "summary": "滿額登錄享最高6期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261119-5",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡綁定全支付",
+    "category": "banking",
+    "summary": "繳稅費享3%全點回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261119-6",
+    "sourceId": "esun-card-offers",
+    "name": "Trip.com 玉山JCB/Visa卡訂房優惠",
+    "category": "banking",
+    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261119-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Founders 額度",
+    "category": "vps-cloud",
+    "summary": "最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "自籌資金或自資（bootstrapped or self-funded）；未明確寫出綁卡或消費門檻等隱藏條件",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵件建立 AWS Builder ID 或登入現有的 Builder ID",
+      "選擇 Activate Founders 額度層級",
+      "提供有關產品、融資階段和公司简介的詳細資訊以確認資格",
+      "將 AWS 帳戶與 Builder ID 連結並提交申請"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261119-2",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Portfolio 額度",
+    "category": "vps-cloud",
+    "summary": "最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須具有來自 Accelerator、天使投資人、風投等 Activate Provider 的組織 ID（Org ID）；未明確寫出綁卡或消費門檻等隱藏條件",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵件建立 AWS Builder ID 或登入現有的 Builder ID",
+      "確認您的創投或加速器是否為 Activate Provider",
+      "使用 Activate Provider 的 Org ID 申請 Activate Portfolio 額度",
+      "提供有關產品、融資階段和公司简介的詳細資訊以確認資格",
+      "將 AWS 帳戶與 Builder ID 連結並提交申請"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261119-3",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Credits for AI Startups",
+    "category": "vps-cloud",
+    "summary": "200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "邀請制（Invite only）；未明確寫出綁卡或消費門檻等隱藏條件",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "與您的客戶經理聯繫以申請此額度的額外支援"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "supabase-pricing-20261119-1",
+    "sourceId": "supabase-pricing",
+    "name": "Supabase 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB egress、5 GB cached egress、1 GB 檔案儲存空間與 500,000 次 Edge Functions 調用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "免費專案在 1 週無活動後會被暫停，且最多 2 個活動專案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊頁面中的「Start for Free $ 0 / month」"
+    ],
+    "officialUrl": "https://supabase.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-19T22:07:37.538Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
   }
 ]
