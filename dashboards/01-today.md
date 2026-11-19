@@ -1,30 +1,13 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T08:05:21.974Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T10:05:17.943Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
-| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 2,000（AI 估） | 長期活動 | 待核實 |
-| [玉山JCB卡 Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 訂日本飯店最高享14%折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山Visa卡 Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 訂房享8%折扣無上限 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
-| [Kraken 黑色星期五存款與交易獎勵](https://blog.kraken.com/) | Crypto | 註冊後存入 1,000 美元法幣並完成四個疊加里程標記，最高可獲得 100 美元比特幣 (BTC)。 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
-| [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口 (ANTHROPICX)，按交易量排名，分享 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 商品交易費率折讓](https://blog.kraken.com/) | Crypto | 黃金、白銀、油價等商品在 Kraken Prop 交易費率減半，降至每邊 2 個基點 (2bps)，適用於所有非加密貨幣市場。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、實物資產及加密期貨，協助解鎖最高 5,000,000 USDG 的獎勵池，包含一個排行榜與三個倍數機制。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 永續合約挑戰賽 (OURAx & MOONSHOTx)](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，分享 10,000 USDG 獎勵。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 奧斯汀 F1 車手見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易 1 美元以上交易量，即有機會在美國大獎賽現場與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度 (free credit) | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 免費平台功能](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含免費建立 3 個靜態網站、VPC 內部資料傳輸免費、VPC 輸入資料傳輸免費、免費保留 IP (指派給 Droplet 時)、Dropl | 約 TWD 50,000（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，並提供免費頻寬額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳號每月包含 1 次免費的 Uptime 檢查 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 專有伺服器 15%  lifetime 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有專有伺服器（dedicated servers）使用促銷代碼 15OFFDEDI 可享 15% 終身折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS Activate Founders 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $5,000 USD 的 Activate Credits，初始獲得 $1,000 USD，特定參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 $200,000 USD 的 Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD 的 AWS Credits，僅限邀請制，面向準備擴展規模的 AI 新創公司。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro 開發環境的創業額度，無具體金額數字，可用於構建 AI 代理和應用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB 檔案儲存空間及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Supabase 付費方案計算積分 (Compute Credits)](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例的費用。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Pro 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 積分（來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 積分（來自 Google Developer P | 約 TWD 15,500（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核驗的學生可存取 GitHub Copilot 學生方案 (Student plan)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -54,8 +37,26 @@
 | [Gate Idle Earn & Simple Earn Limited-Time Event Phase 3](https://www.gate.com/announcements) | Crypto | USDT 年化收益率最高可達 9% | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 兩個排行榜共享 80,000 USDT 獎勵池，單人最高可獲 13,000 USDT 的 XAUT 獎勵 | 約 TWD 2,560,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate ETF Starter Rewards](https://www.gate.com/announcements) | Crypto | 註冊獲 10 USDT，交易最高可再獲 200 USDT | 約 TWD 6,720（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate gStocks Trading Rewards](https://www.gate.com/announcements) | Crypto | 解鎖多重交易福利，並分享總價值 25,000 USDT 的 MSFTG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate gStocks Trading Rewards](https://www.gate.com/announcements) | Crypto | 解鎖多重交易福利，並分享總價值 25,000 USDT 的 MSFTG | 約 TWD 800,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Stock Trading Championship](https://www.gate.com/announcements) | Crypto | 註冊領oucher，跨三個排行榜競爭以獲得 SPC 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate SOXL, SOXS & QQQ Futures Trading Challenge](https://www.gate.com/announcements) | Crypto | 註冊領 5 USDT，單人最高可獲 240 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 獎勵，另加額外獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 獎勵，另加額外獎勵 | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Futures Points Airdrop #170](https://www.gate.com/announcements) | Crypto | 領取 0.016 MUG 及 100 USDT 空投 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高 $100 的比特幣 (BTC) 存款與交易獎勵，需通過四個堆疊里程碑達成 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
+| [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口 (ANTHROPICX)，總獎金池 $20,000，按交易量排名分配獎金 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Prop Commissions Discount](https://blog.kraken.com/) | Crypto | Kraken Prop 所有非加密貨幣市場 (包括黃金、白銀、油、銅等) 手續費降至每邊 2bps，較一般費率减半 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產 (RWA) 和加密期貨，幫助解鎖最高 $5,000,000 USDG 獎勵池，單榜單三倍倍數 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken Pre-IPO Perps Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續期貨 (Perps)，總獎金池 $10,000 USDG，交易量決定排名 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Atlassian Williams F1 Team Meet & Greet](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易 $1 以上交易量，有機會在美國 F1 大獎賽 (COTA) 見 Atlassian Williams F | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | 在 10 月交易，每美元交易量獲得一個抽獎名額，一名獲勝者贏取 1,000 SOL | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [玉山環球賞 啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Trip.com 玉山卡折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡 繳地價稅優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡 繳學費優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡綁定全支付 繳稅費優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 獨立伺服器終身 15% 折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 使用促銷代碼 15OFFDEDI 可獲得所有獨立伺服器 (dedicated servers) 終身 15% 折扣 (Save 15% of | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 控制面板一鍵安裝 AdminBolt 主機控管面板，享有 30 天免費試用 (30-day free trial)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 促銷額度（Credits）給符合條件的新創公司。自我資助的創辦人最高可獲得 5,000 USD | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB 出 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro 與 Team 付費方案每月包含 $10 美元的計算額度（compute credits），足以覆蓋一個 Micro 實例（1 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
