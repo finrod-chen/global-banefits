@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T10:05:17.943Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T12:05:18.580Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,10 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 的免費額度 (free credit) | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean 免費平台功能](https://www.digitalocean.com/pricing) | VPS/雲服務 | 包含免費建立 3 個靜態網站、VPC 內部資料傳輸免費、VPC 輸入資料傳輸免費、免費保留 IP (指派給 Droplet 時)、Dropl | 約 TWD 50,000（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean Kubernetes 免費控制平面](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 控制平面免費，並提供免費頻寬額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Uptime 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳號每月包含 1 次免費的 Uptime 檢查 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含100個專案，每個專案每月100 CU-hrs計算資源、1 GB儲存空間、最多2 CU大小、無限團隊成員。後端 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 創新的 Startup Program 優惠](https://neon.com/pricing) | VPS/雲服務 | 早期階段創新的公司可获得最高 $100k 的信用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 網路與 CDN 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 DNS、無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集及 WAF。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -33,3 +29,4 @@
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 促銷額度（Credits）給符合條件的新創公司。自我資助的創辦人最高可獲得 5,000 USD | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB 出 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro 與 Team 付費方案每月包含 $10 美元的計算額度（compute credits），足以覆蓋一個 Micro 實例（1 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費額度（頁面 FAQ 片段提及 '$5 free credit'，後續內容被截斷，無法確認完整條件） | 免費（價值視使用而定） | 長期活動 | 待核實 |
