@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T02:05:19.775Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T04:05:24.496Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -46,12 +46,8 @@
 | [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳方案](https://claude.com/pricing) | AI 工具 | Pro 方案年繳每月 $17（$200 一次性付款），比月繳的 $20 更便宜，包含 Fable（使用額度付費）、Claude Data、S | 約 TWD 5,700（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Epic 每週免費遊戲：Them's Fightin' Herds 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [v0 學生優惠](https://v0.app/students) | AI 工具 | 針對學生的專屬方案或折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 2,000（AI 估） | 長期活動 | 待核實 |
@@ -79,3 +75,7 @@
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核驗的學生可存取 GitHub Copilot 學生方案 (Student plan)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含100個專案，每個專案每月100 CU-hrs計算資源、1 GB儲存空間、最多2 CU大小、無限團隊成員。後端 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 創新的 Startup Program 優惠](https://neon.com/pricing) | VPS/雲服務 | 早期階段創新的公司可获得最高 $100k 的信用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Epic 每週免費遊戲 - Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00，現價 TWD 0 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 - Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00，現價 TWD 0 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 - 火之石 – 英雄放置點擊RPG](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《火之石 – 英雄放置點擊RPG》，原價 TWD 0，現價 TWD 0 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 限時歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 新用戶或新建立帳號可獲取限時的特殊折扣優惠（Welcome Offer），頁面顯示有倒數計時，具體折扣比例與金額為動態顯示（以 %、base | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

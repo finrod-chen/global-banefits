@@ -2139,63 +2139,6 @@
     }
   },
   {
-    "id": "claude-pricing-20261118-1",
-    "sourceId": "claude-pricing",
-    "name": "Claude Pro 年繳方案",
-    "category": "ai",
-    "summary": "Pro 方案年繳每月 $17（$200 一次性付款），比月繳的 $20 更便宜，包含 Fable（使用額度付費）、Claude Data、Sheets 和 Whiteboards（beta）、Claude Code、Claude Science、Projects、更多 Claude 模型，以及在 Chrome 和 Microsoft 365 中的 Claude。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro 方案",
-      "選擇年繳選項並支付 $200"
-    ],
-    "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-18T16:05:44.815Z",
-    "lastVerified": "2026-11-18",
-    "risks": "年繳方案需一次性支付 $200，且價格與方案可能因 Anthropic 的意圖而變動，適用稅金未包含在顯示價格中。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T18:05:25.410Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面列出 Pro 方案年繳每月 $17 與月繳每月 $20 的常態定價結構，年繳較月繳便宜，屬於一般付費方案的常態價格差異，非限時或新戶專屬優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Pro\nFor everyday work\n$17\nPer month with annual subscription discount ( $200 billed up front). $20 if billed monthly.\nTry Claude\nEverything in Free, plus:\nMore usage than Free , every 5 hours and every week *\nFable, paid with usage credits ",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5700,
-      "basis": "ai-estimate",
-      "note": "年繳每月 $17 與月繳 $20 的差額為每月 $3，一年總計 $36；以美元換算成新台幣（依保守匯率約 30 計算），約為 1080 元/月，第一年價值約 5700 元（此處估算基於節省的金額，而非方案全值）。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "setapp-pricing-20261118-1",
     "sourceId": "setapp-pricing",
     "name": "Setapp 7-day free trial",
@@ -2295,178 +2238,6 @@
       "basis": "ai-estimate",
       "note": "以試用期內可免費使用數百款應用程式及獲得2,000 AI點數的價值進行保守估算。",
       "confidence": "medium"
-    }
-  },
-  {
-    "id": "epic-free-games-20261118-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Them's Fightin' Herds 免費領取",
-    "category": "software",
-    "summary": "遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2022-12-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic 遊戲商店",
-      "登入帳戶",
-      "點擊領取《Them's Fightin' Herds》"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-18T16:06:54.566Z",
-    "lastVerified": "2026-11-18",
-    "risks": "此優惠僅在指定期間內有效，逾期可能無法領取",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T18:05:25.410Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面資料顯示該遊戲的折後價與原價均為 TWD 289.00，且未標示為目前免費領取狀態，與草稿所述的「免費領取」不符。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "null",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "currencyCode\":\"TWD\"",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261118-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取",
-    "category": "software",
-    "summary": "遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 TWD 0。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-01-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic 遊戲商店",
-      "登入帳戶",
-      "點擊領取《Model Builder: Complete Edition》"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-18T16:06:54.566Z",
-    "lastVerified": "2026-11-18",
-    "risks": "此優惠僅在指定期間內有效，逾期可能無法領取",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T18:05:25.410Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該遊戲被列於「freegames」類別，且目前顯示價格為 0，屬於免費領取方案。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "null",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "null",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261118-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取",
-    "category": "software",
-    "summary": "遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-04-25",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic 遊戲商店",
-      "登入帳戶",
-      "點擊領取《火之石 – 英雄放置點擊RPG》"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-18T16:06:54.566Z",
-    "lastVerified": "2026-11-18",
-    "risks": "此優惠僅在指定期間內有效，逾期可能無法領取",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-18T18:05:25.410Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該遊戲屬於免費遊戲（freegames）類別，顯示價格為0，屬於限時免費領取方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "《Firestone: Online Idle RPG》是一款具有閒置RPG機制的多人玩家奇幻遊戲。收集英雄🧙‍♂️，升級他們的裝備和技能、並派他們進行AFK戰鬥，或使出遞增點擊狂暴、擊敗邪惡的頭目！與公會好友聊天或參與PVP⚔️——一切任你選擇！",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
     }
   },
   {
@@ -4106,6 +3877,240 @@
         {
           "field": "requirements",
           "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "epic-free-games-20261119-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 - Them's Fightin' Herds",
+    "category": "software",
+    "summary": "可免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00，現價 TWD 0",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2022-12-19",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 平台",
+      "登入帳號",
+      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T04:05:24.496Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "遊戲分類的「freegames」類別與頁面名稱顯示此為免費遊戲推廣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "{\"title\":\"Them's Fightin' Herds\",\"id\":\"1f723b00df58467998c4984ca39915ad\",\"namespace\":\"a567c32599bf4d4fb609e424f3691b39\",\"description\":\"Them's Fightin' Herds\",\"effectiveDate\":\"2022-12-19T16:00:00.000Z\",\"offerType\":\"BASE_GAME\",\"expiryDate\":nu",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "locale=zh-Hant&country=TW",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 289,
+      "basis": "ai-estimate",
+      "note": "原價 TWD 289.00 換算為零成本取得的遊戲價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "epic-free-games-20261119-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 - Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "可免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00，現價 TWD 0",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2023-01-16",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 平台",
+      "登入帳號",
+      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T04:05:24.496Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面顯示該遊戲價格為318 TWD且折扣為0，與草稿稱可免費領取的原意不符，且頁面未提及免費領取的規則。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs. Assemble, customize and display your creations, whether you’re a veteran or a novice. Get buildi",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 318,
+      "basis": "ai-estimate",
+      "note": "依據頁面中 fmtPrice.originalPrice 的 318.00 TWD 估算一般定價價值，但因無法確認是否免費，僅列為參考。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "epic-free-games-20261119-3",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 - 火之石 – 英雄放置點擊RPG",
+    "category": "software",
+    "summary": "可免費領取遊戲《火之石 – 英雄放置點擊RPG》，原價 TWD 0，現價 TWD 0",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2023-04-25",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 平台",
+      "登入帳號",
+      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T04:05:24.496Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "遊戲分類中包含 \"freegames\"，且價格顯示為 0 TWD，屬於免費遊戲推廣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "《Firestone: Online Idle RPG》是一款具有閒置RPG機制的多人玩家奇幻遊戲。收集英雄🧙‍♂️，升級他們的裝備和技能、並派他們進行AFK戰鬥，或使出遞增點擊狂暴、擊敗邪惡的頭目！與公會好友聊天或參與PVP⚔️——一切任你選擇！",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gog-free-games-20261119-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 限時歡迎優惠",
+    "category": "software",
+    "summary": "新用戶或新建立帳號可獲取限時的特殊折扣優惠（Welcome Offer），頁面顯示有倒數計時，具體折扣比例與金額為動態顯示（以 %、baseAmount、finalAmount 等變數呈現）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 GOG 官方網站",
+      "建立或登入帳戶",
+      "查看並領取歡迎優惠"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-19T04:07:35.435Z",
+    "lastVerified": "2026-11-19",
+    "risks": "優惠為限時性質，有倒數計時限制，錯過將無法使用",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T04:05:24.496Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提到「Welcome Offer」和「special limited-time deals」，屬於針對新用戶或特定條件的限時折扣優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!",
           "found": true
         }
       ],

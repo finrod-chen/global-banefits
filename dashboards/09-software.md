@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T02:05:19.775Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T04:05:24.496Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -12,6 +12,7 @@
 | [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Epic 每週免費遊戲：Them's Fightin' Herds 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Them's Fightin' Herds》在 Epic 商店提供免費領取，原價 TWD 289.00，折後價 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：Model Builder: Complete Edition 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《Model Builder: Complete Edition》在 Epic 商店提供免費領取，原價 TWD 318.00，折後價 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：火之石 – 英雄放置點擊RPG 免費領取](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 遊戲《火之石 – 英雄放置點擊RPG》在 Epic 商店提供免費領取，顯示價格為 TWD 0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 - Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00，現價 TWD 0 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 - Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00，現價 TWD 0 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 - 火之石 – 英雄放置點擊RPG](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《火之石 – 英雄放置點擊RPG》，原價 TWD 0，現價 TWD 0 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 限時歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 新用戶或新建立帳號可獲取限時的特殊折扣優惠（Welcome Offer），頁面顯示有倒數計時，具體折扣比例與金額為動態顯示（以 %、base | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
