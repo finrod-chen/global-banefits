@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T06:05:23.577Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T07:57:59.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,7 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [v0 學生優惠](https://v0.app/students) | AI 工具 | 針對學生的專屬方案或折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 2,000（AI 估） | 長期活動 | 待核實 |
 | [玉山JCB卡 Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 訂日本飯店最高享14%折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -77,3 +76,24 @@
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每成員 $0，可組織個人專案與生活，包含 Notion AI 試用、基本表單、發布網頁、日曆功能及資料庫。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 約 TWD 15,600（AI 估） | 長期活動 | 待核實 |
 | [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 智能體可自主處理重複性任務，免費試用後，每 1,000 個 Notion 點數收費 $10。 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare 網路與 CDN 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 DNS、無限量 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集及 WAF。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久 $0，適用於 50 名以下用戶團隊或企業概念驗證測試，包含社群論壇與 Discord 支援、24 小時標準日誌保留。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100k 請求及每請求 10 ms CPU 時間。 | 約 TWD 3,919（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路輸出（NA/EU 地區 | 約 TWD 450（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 請求、13,000 GB-s 持續時間、50M SQL 讀取、100K SQL 寫入、5 GB SQL 儲存資料及 1 | 約 TWD 28,125（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器時數及 3 個並列瀏覽器。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存、1 million Class A 操作及 10 million Class B 操作。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求及每日 1,000 寫入/刪除/列表請求。 | 約 TWD 1,100（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 5 million 行讀取及每日 100,000 行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 查詢，且標示為 Free。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Sign up 10,000+ USDT Rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 2026 Annual Gala Star Support & Prize Draw](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎以贏得意外獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Idle Earn & Simple Earn Limited-Time Event Phase 3](https://www.gate.com/announcements) | Crypto | USDT 年化收益率最高可達 9% | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 兩個排行榜共享 80,000 USDT 獎勵池，單人最高可獲 13,000 USDT 的 XAUT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate ETF Starter Rewards](https://www.gate.com/announcements) | Crypto | 註冊獲 10 USDT，交易最高可再獲 200 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate gStocks Trading Rewards](https://www.gate.com/announcements) | Crypto | 解鎖多重交易福利，並分享總價值 25,000 USDT 的 MSFTG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Stock Trading Championship](https://www.gate.com/announcements) | Crypto | 註冊領oucher，跨三個排行榜競爭以獲得 SPC 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate SOXL, SOXS & QQQ Futures Trading Challenge](https://www.gate.com/announcements) | Crypto | 註冊領 5 USDT，單人最高可獲 240 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 獎勵，另加額外獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Futures Points Airdrop #170](https://www.gate.com/announcements) | Crypto | 領取 0.016 MUG 及 100 USDT 空投 | 免費（價值視使用而定） | 長期活動 | 待核實 |
