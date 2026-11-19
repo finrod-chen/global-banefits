@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T00:05:18.629Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T02:05:19.775Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -28,5 +28,4 @@
 | [v0 學生優惠](https://v0.app/students) | AI 工具 | 針對學生的專屬方案或折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 積分（來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 積分（來自 Google Developer P | 約 TWD 15,500（AI 估） | 長期活動 | 待核實 |
-| [GitHub Copilot 限時折扣 (Copilot Fusion)](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣，期限至 11 月 30 日。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核驗的學生可存取 GitHub Copilot 學生方案 (Student plan)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

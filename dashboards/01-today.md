@@ -1,13 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T00:05:18.629Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T02:05:19.775Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Heroku 每月 $13 額度 24 個月](https://education.github.com/pack) | 軟體/數位服務 | 享有每月 13 美元的額度，總共 24 個月。 | 約 TWD 10,654（AI 估） | 長期活動 | AI 預審通過 |
-| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生可享有免費訂閱，每年需更新。 | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
-| [1Password 免費 2 年](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 1Password 及 1Password 開發者工具 2 年。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
-| [MongoDB $50 額度及認證](https://education.github.com/pack) | 軟體/數位服務 | 獲得 50 美元的 MongoDB Atlas 額度，以及 MongoDB Compass 和 MongoDB University（含價值 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Choice 會員訂閱](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱 $14.99 美元。年繳方案每月平均低於 $13 美元。會員在 Humble 商店內消費可享有最高 20% 折扣。每月可獲得精選  | 約 TWD 4,500（AI 估） | 長期活動 | 待核實 |
 | [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -42,7 +38,6 @@
 | [Supabase 付費方案計算積分 (Compute Credits)](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例的費用。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Pro 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 積分（來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 積分優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 積分（來自 Google Developer P | 約 TWD 15,500（AI 估） | 長期活動 | 待核實 |
-| [GitHub Copilot 限時折扣 (Copilot Fusion)](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣，期限至 11 月 30 日。 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核驗的學生可存取 GitHub Copilot 學生方案 (Student plan)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費方案，無需信用卡。包含100個專案，每個專案每月100 CU-hrs計算資源、1 GB儲存空間、最多2 CU大小、無限團隊成員。後端 | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 創新的 Startup Program 優惠](https://neon.com/pricing) | VPS/雲服務 | 早期階段創新的公司可获得最高 $100k 的信用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
