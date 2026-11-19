@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T04:05:24.496Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T06:05:23.577Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,12 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Humble Choice 會員訂閱](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱 $14.99 美元。年繳方案每月平均低於 $13 美元。會員在 Humble 商店內消費可享有最高 20% 折扣。每月可獲得精選  | 約 TWD 4,500（AI 估） | 長期活動 | 待核實 |
-| [Humble Bundle 慈善公益回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 訂閱費的 5% 會用於支持慈善機構。購買 Humble 遊戲包（如 Survival of the Fittes | 約 TWD 420（AI 估） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每會員每月 $0，包含 Notion AI 試用、基本表單、基礎網站、日曆、資料庫（含子任務、依賴關係等）、頁面歷史記錄 7 天、檔案上傳限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳優惠](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費方案（Plus, Business 或 Enterprise）可節省最多 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 1,000 AI credits | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Setapp Power User 7-day free trial](https://setapp.com/pricing) | 軟體/數位服務 | 7-day free trial with 2,000 AI credits | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [v0 學生優惠](https://v0.app/students) | AI 工具 | 針對學生的專屬方案或折扣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
 | [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 2,000（AI 估） | 長期活動 | 待核實 |
@@ -79,3 +73,7 @@
 | [Epic 每週免費遊戲 - Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00，現價 TWD 0 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 - 火之石 – 英雄放置點擊RPG](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《火之石 – 英雄放置點擊RPG》，原價 TWD 0，現價 TWD 0 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GOG 限時歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 新用戶或新建立帳號可獲取限時的特殊折扣優惠（Welcome Offer），頁面顯示有倒數計時，具體折扣比例與金額為動態顯示（以 %、base | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用 Setapp Mac、Mac + iOS 或 Power User 方案。Mac 與 Mac + iOS 方案試用期間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每成員 $0，可組織個人專案與生活，包含 Notion AI 試用、基本表單、發布網頁、日曆功能及資料庫。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 約 TWD 15,600（AI 估） | 長期活動 | 待核實 |
+| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 智能體可自主處理重複性任務，免費試用後，每 1,000 個 Notion 點數收費 $10。 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
