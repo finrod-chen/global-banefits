@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T18:05:19.646Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T20:05:18.985Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,3 +25,7 @@
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經過驗證的學生可存取 GitHub Copilot Student 方案。 | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月 $17（需預先支付 $200），比月繳 $20 便宜。 | 約 TWD 130（AI 估） | 長期活動 | 待核實 |
+| [Claude Max 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）包含每月 $100 的 API 額度，可用於在 Claude Platform 上開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）包含每月 $200 的 API 額度（比 Max 方案的 $100 多）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年度方案可獲得最高 55% 折扣，Creator 年度方案價格為 99 美元。 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
