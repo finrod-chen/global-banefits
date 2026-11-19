@@ -1436,5 +1436,67 @@
     "status": "expired",
     "archivedAt": "2026-11-19T12:05:18.580Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "copilot-plans-20261119-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Fusion 限時折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用費 7 折（30% off），持續至 11 月 30 日。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-11-30",
+    "ongoing": false,
+    "steps": [
+      "訂閱或正在使用 GitHub Copilot Fusion 服務",
+      "在 11 月 30 日前產生帳單或結算時自動適用折扣"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-19T14:06:18.958Z",
+    "lastVerified": "2026-11-19",
+    "risks": "折扣期限截止後將恢復原價",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-19T14:05:17.653Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標明限時折扣 30% off 且有明確截止日期",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30% off Copilot Fusion usage until Nov 30th.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Nov 30th",
+          "found": false
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "archivedAt": "2026-11-19T16:05:19.374Z",
+    "archiveReason": "endDate passed"
   }
 ]
