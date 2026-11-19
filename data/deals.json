@@ -1888,240 +1888,6 @@
     }
   },
   {
-    "id": "epic-free-games-20261119-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 - Them's Fightin' Herds",
-    "category": "software",
-    "summary": "可免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00，現價 TWD 0",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2022-12-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 平台",
-      "登入帳號",
-      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T04:05:24.496Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "遊戲分類的「freegames」類別與頁面名稱顯示此為免費遊戲推廣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "{\"title\":\"Them's Fightin' Herds\",\"id\":\"1f723b00df58467998c4984ca39915ad\",\"namespace\":\"a567c32599bf4d4fb609e424f3691b39\",\"description\":\"Them's Fightin' Herds\",\"effectiveDate\":\"2022-12-19T16:00:00.000Z\",\"offerType\":\"BASE_GAME\",\"expiryDate\":nu",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "locale=zh-Hant&country=TW",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 289,
-      "basis": "ai-estimate",
-      "note": "原價 TWD 289.00 換算為零成本取得的遊戲價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "epic-free-games-20261119-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 - Model Builder: Complete Edition",
-    "category": "software",
-    "summary": "可免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00，現價 TWD 0",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-01-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 平台",
-      "登入帳號",
-      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T04:05:24.496Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面顯示該遊戲價格為318 TWD且折扣為0，與草稿稱可免費領取的原意不符，且頁面未提及免費領取的規則。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs. Assemble, customize and display your creations, whether you’re a veteran or a novice. Get buildi",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 318,
-      "basis": "ai-estimate",
-      "note": "依據頁面中 fmtPrice.originalPrice 的 318.00 TWD 估算一般定價價值，但因無法確認是否免費，僅列為參考。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "epic-free-games-20261119-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 - 火之石 – 英雄放置點擊RPG",
-    "category": "software",
-    "summary": "可免費領取遊戲《火之石 – 英雄放置點擊RPG》，原價 TWD 0，現價 TWD 0",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-04-25",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 平台",
-      "登入帳號",
-      "在遊戲頁面點擊「獲取」或「加入願景清單」以領取遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T04:07:17.973Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T04:05:24.496Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "遊戲分類中包含 \"freegames\"，且價格顯示為 0 TWD，屬於免費遊戲推廣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "《Firestone: Online Idle RPG》是一款具有閒置RPG機制的多人玩家奇幻遊戲。收集英雄🧙‍♂️，升級他們的裝備和技能、並派他們進行AFK戰鬥，或使出遞增點擊狂暴、擊敗邪惡的頭目！與公會好友聊天或參與PVP⚔️——一切任你選擇！",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gog-free-games-20261119-1",
-    "sourceId": "gog-free-games",
-    "name": "GOG 限時歡迎優惠",
-    "category": "software",
-    "summary": "新用戶或新建立帳號可獲取限時的特殊折扣優惠（Welcome Offer），頁面顯示有倒數計時，具體折扣比例與金額為動態顯示（以 %、baseAmount、finalAmount 等變數呈現）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 GOG 官方網站",
-      "建立或登入帳戶",
-      "查看並領取歡迎優惠"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-19T04:07:35.435Z",
-    "lastVerified": "2026-11-19",
-    "risks": "優惠為限時性質，有倒數計時限制，錯過將無法使用",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T04:05:24.496Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提到「Welcome Offer」和「special limited-time deals」，屬於針對新用戶或特定條件的限時折扣優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "setapp-pricing-20261119-1",
     "sourceId": "setapp-pricing",
     "name": "Setapp 7天免費試用",
@@ -5065,7 +4831,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費的網域註冊給學生，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1200,
+      "basis": "ai-estimate",
+      "note": "一般常見網域註冊費約每個月50至100新台幣，一年約600至1200新台幣；此處保守估算一年價值約1200新台幣（假設為較高價之特定後綴或包含基本服務）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-3",
@@ -5093,7 +4897,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供免費雲端服務存取與100美元積分，屬於明確的額度與學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit. For students aged 18+.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261119-4",
@@ -5121,7 +4965,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對學生開發者包提供的免費網域註冊福利。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": ".TECH 網域註冊費通常約為 20-30 美元/年，保守估算約為 500-750 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-5",
@@ -5149,7 +5031,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確指出學生可免費或折扣使用該產品，屬於特定群體的學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4500,
+      "basis": "ai-estimate",
+      "note": "以一般微軟 365 個人版年費約 45 美元估算（保守估計，忽略 1TB 額外儲存價值與 AI 功能溢价）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-6",
@@ -5177,7 +5097,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生身分有效期內的免費軟體訂閱方案，屬於學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "參考市價類似進階版本開發工具（如 Copilot 或 Pro 服務）的個人年費約為 100 美元，換算為新台幣保守約 3000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-7",
@@ -5205,7 +5163,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對學生教育社群提供的免費或折扣方案，屬於學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 12000,
+      "basis": "ai-estimate",
+      "note": "Notion 個人 Plus 版年費約 $96 USD，估算為 3000-5000 TWD；Education 版通常包含更多協作功能，保守估算第一年價值約為個人版兩倍。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-8",
@@ -5233,7 +5229,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對驗證學生提供免費方案與功能額度，屬於學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2400,
+      "basis": "ai-estimate",
+      "note": "GitHub Copilot 訂閱費約 10 USD/月，一年約 120 USD，依匯率約 36000 換算過於樂觀，保守考量免費方案價值有限，估約 80 USD 左右（約 2400 TWD）作為基本工具價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-9",
@@ -5261,7 +5295,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T18:05:19.646Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生使用特定帳戶訂閱時免費三個月的訪問權限，屬於免費試用方案。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2000,
+      "basis": "ai-estimate",
+      "note": "DataCamp 訂閱費通常約每個月 15-20 美元，三個月價值約 45-60 美元，換算成新台幣約 1300-1800 元，保守估算取 2000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261119-10",
@@ -5317,6 +5389,114 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-19T16:06:28.548Z",
     "lastVerified": "2026-11-19",
     "risks": "需每年進行續訂以維持免費資格",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261119-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
+    "category": "software",
+    "summary": "原價 289 新台幣的遊戲 Them's Fightin' Herds 免費獲得",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261119-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "原價 318 新台幣的遊戲 Model Builder: Complete Edition 免費獲得",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261119-3",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Bread and Fred",
+    "category": "software",
+    "summary": "原價 207 新台幣的遊戲 Bread and Fred 免費獲得",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "gog-free-games-20261119-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 免費遊戲",
+    "category": "software",
+    "summary": "提供價格範圍為 0 美元的遊戲清單，讓用戶可以免費領取或購買標記為 Free 的遊戲。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 GOG 商店的遊戲列表頁面",
+      "選擇價格範圍為 0,0 (Free) 以篩選免費遊戲",
+      "點擊「Play for free」或「Buy」並選擇「Free」進行領取"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-19T18:07:45.052Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]
