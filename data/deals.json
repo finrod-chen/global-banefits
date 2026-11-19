@@ -4430,7 +4430,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-19T07:58:42.668Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示「Free」方案下 D1 的免費額度（儲存、讀取、寫入量）。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "5 GB (total)",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261119-10",
@@ -4458,7 +4480,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-19T07:58:42.668Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態付費方案（Queues）中內含的免費額度，並非獨立的限時優惠或行銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations 10,000 operations/day included",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261119-11",
@@ -4486,7 +4530,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-19T07:58:42.668Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該服務在「Free」方案中提供「每日 100,000 查詢」的固定免費額度，符合免費額度定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Queries 100,000 / day Free",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261119-1",
@@ -4514,7 +4578,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T07:59:52.959Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容顯示這是一個需要註冊才能領取獎勵的新戶推廣活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "10,000+ USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261119-2",
@@ -4543,7 +4635,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T07:59:52.959Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "活動涉及支持明星以參與抽獎贏取意外獎勵，屬於不確定性質的抽獎/空投機制，非明確的免費方案或折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate 2026 Annual Gala: Support the Stars of the Year and Enter to Win Surprise Rewards",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261119-3",
@@ -4571,7 +4685,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T07:59:52.959Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為限時活動（Limited-Time Event），且提供高於一般常態的特定年化收益率作為獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261119-4",
@@ -4599,7 +4733,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T07:59:52.959Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為特定輪次的交易競賽活動，提供有限名額的USDT/XAUT獎勵池。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2560000,
+      "basis": "explicit-amount",
+      "usd": 80000,
+      "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261119-5",
@@ -4628,7 +4790,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T07:59:52.959Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T08:05:21.974Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容屬於新戶註冊及交易獎勵活動，提供固定額度的USDT獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate ETF Starter Rewards: Register to Get 10 USDT & Trade for Up to 200 USDT More",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6720,
+      "basis": "ai-estimate",
+      "usd": 210,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面有明確寫出優惠金額，不需估算。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gate-announce-20261119-6",

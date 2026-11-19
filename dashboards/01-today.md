@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T07:57:59.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T08:05:21.974Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -48,12 +48,12 @@
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 讀取請求及每日 1,000 寫入/刪除/列表請求。 | 約 TWD 1,100（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 5 million 行讀取及每日 100,000 行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 查詢，且標示為 Free。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Sign up 10,000+ USDT Rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 查詢，且標示為 Free。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate Sign up 10,000+ USDT Rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate 2026 Annual Gala Star Support & Prize Draw](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎以贏得意外獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Idle Earn & Simple Earn Limited-Time Event Phase 3](https://www.gate.com/announcements) | Crypto | USDT 年化收益率最高可達 9% | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 兩個排行榜共享 80,000 USDT 獎勵池，單人最高可獲 13,000 USDT 的 XAUT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate ETF Starter Rewards](https://www.gate.com/announcements) | Crypto | 註冊獲 10 USDT，交易最高可再獲 200 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Idle Earn & Simple Earn Limited-Time Event Phase 3](https://www.gate.com/announcements) | Crypto | USDT 年化收益率最高可達 9% | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 兩個排行榜共享 80,000 USDT 獎勵池，單人最高可獲 13,000 USDT 的 XAUT 獎勵 | 約 TWD 2,560,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate ETF Starter Rewards](https://www.gate.com/announcements) | Crypto | 註冊獲 10 USDT，交易最高可再獲 200 USDT | 約 TWD 6,720（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate gStocks Trading Rewards](https://www.gate.com/announcements) | Crypto | 解鎖多重交易福利，並分享總價值 25,000 USDT 的 MSFTG | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Stock Trading Championship](https://www.gate.com/announcements) | Crypto | 註冊領oucher，跨三個排行榜競爭以獲得 SPC 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate SOXL, SOXS & QQQ Futures Trading Challenge](https://www.gate.com/announcements) | Crypto | 註冊領 5 USDT，單人最高可獲 240 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
