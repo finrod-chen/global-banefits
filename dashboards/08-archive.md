@@ -1,6 +1,6 @@
 # H. 已結束活動檔案
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T20:05:18.985Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T20:59:46.779Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 歸檔原因 | 歸檔時間 |
 |---|---|---|---|
@@ -36,3 +36,4 @@
 | [Kraken Atlassian Williams F1 Team Meet & Greet](https://blog.kraken.com/) | Crypto | endDate passed | 2026-11-19T12:05:18.580Z |
 | [Kraken Halloween Sweepstakes](https://blog.kraken.com/) | Crypto | endDate passed | 2026-11-19T12:05:18.580Z |
 | [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | endDate passed | 2026-11-19T16:05:19.374Z |
+| [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | endDate passed | 2026-11-19T20:59:46.779Z |

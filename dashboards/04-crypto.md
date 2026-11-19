@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T20:05:18.985Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T20:59:46.779Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -18,5 +18,5 @@
 | [Kraken Prop Commissions Discount](https://blog.kraken.com/) | Crypto | Kraken Prop 所有非加密貨幣市場 (包括黃金、白銀、油、銅等) 手續費降至每邊 2bps，較一般費率减半 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產 (RWA) 和加密期貨，幫助解鎖最高 $5,000,000 USDG 獎勵池，單榜單三倍倍數 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO Perps Challenge](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續期貨 (Perps)，總獎金池 $10,000 USDG，交易量決定排名 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 新用戶註冊獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊後可領取 10,000+ USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 新用戶註冊獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊後可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 新用戶首單獎勵活動](https://www.gate.com/announcements) | Crypto | 參與 Event Contracts 限時交易競賽第 3 輪，新用戶完成首單交易最高可獲獎品（頁面未顯示具體金額） | 免費（價值視使用而定） | 長期活動 | 待核實 |

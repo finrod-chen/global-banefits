@@ -1,13 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T20:05:18.985Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-19T20:59:46.779Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用 Setapp Mac、Mac + iOS 或 Power User 方案。Mac 與 Mac + iOS 方案試用期間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月每成員 $0，可組織個人專案與生活，包含 Notion AI 試用、基本表單、發布網頁、日曆功能及資料庫。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 約 TWD 15,600（AI 估） | 長期活動 | 待核實 |
-| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 智能體可自主處理重複性任務，免費試用後，每 1,000 個 Notion 點數收費 $10。 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
 | [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高 $100 的比特幣 (BTC) 存款與交易獎勵，需通過四個堆疊里程碑達成 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格敞口 (ANTHROPICX)，總獎金池 $20,000，按交易量排名分配獎金 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop Commissions Discount](https://blog.kraken.com/) | Crypto | Kraken Prop 所有非加密貨幣市場 (包括黃金、白銀、油、銅等) 手續費降至每邊 2bps，較一般費率减半 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -50,7 +46,11 @@
 | [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格範圍為 0 美元的遊戲清單，讓用戶可以免費領取或購買標記為 Free 的遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月 $17（需預先支付 $200），比月繳 $20 便宜。 | 約 TWD 130（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）包含每月 $100 的 API 額度，可用於在 Claude Platform 上開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）包含每月 $200 的 API 額度（比 Max 方案的 $100 多）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年度方案可獲得最高 55% 折扣，Creator 年度方案價格為 99 美元。 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
-| [Gate 新用戶註冊獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊後可領取 10,000+ USDT 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Ultra 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）包含每月 $200 的 API 額度（比 Max 方案的 $100 多）。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Gate 新用戶註冊獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊後可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 新用戶首單獎勵活動](https://www.gate.com/announcements) | Crypto | 參與 Event Contracts 限時交易競賽第 3 輪，新用戶完成首單交易最高可獲獎品（頁面未顯示具體金額） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 7 天免費試用。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
+| [Setapp 年度方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度訂閱方案可節省最高 40%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，包含 Notion AI 功能試用品（生成文件、自動填充資料庫）、基本表單、發佈 Notion 頁面到網路、基本網站、Not | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇每年付款可節省最高 20% 費用。 | 約 TWD 3,300（AI 估） | 長期活動 | 待核實 |
+| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理人員可自主處理重複性任務。免費試用，之後每 1,000 個 Notion 積分收費 $10。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

@@ -1888,262 +1888,6 @@
     }
   },
   {
-    "id": "setapp-pricing-20261119-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 7天免費試用",
-    "category": "software",
-    "summary": "提供 7 天免費試用 Setapp Mac、Mac + iOS 或 Power User 方案。Mac 與 Mac + iOS 方案試用期間包含 1,000 點 AI credits，Power User 方案包含 2,000 點 AI credits。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Setapp 方案 (Mac, Mac + iOS, 或 Power User)",
-      "點擊 'Start 7-day free trial' 按鈕"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-19T06:06:06.413Z",
-    "lastVerified": "2026-11-19",
-    "risks": "免費試用結束後可能自動轉為付費訂閱，請注意時限與取消方式。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T06:05:23.577Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提供7天免費試用期及包含AI credits，屬於試用推廣。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial 1,000 AI credits",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261119-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "每月每成員 $0，可組織個人專案與生活，包含 Notion AI 試用、基本表單、發布網頁、日曆功能及資料庫。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Notion 定價頁",
-      "點擊 Free 方案的 Sign up"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T06:06:27.197Z",
-    "lastVerified": "2026-11-19",
-    "risks": "免費方案上傳檔案大小限制為 5 MB，頁面歷史記錄僅保留 7 天",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T06:05:23.577Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是 Notion 提供的免費方案（Free tier），屬於產品定價階層中的免費額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\n$0 per member / month\nFor individuals to organize personal projects and life.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261119-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳折扣",
-    "category": "software",
-    "summary": "選擇年繳付款方式可節省最高 20% 費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "選擇年繳付款模式",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在定價頁選擇 'Pay yearly' 選項"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T06:06:27.197Z",
-    "lastVerified": "2026-11-19",
-    "risks": "需一次性支付全年費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T06:05:23.577Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面顯示年繳可節省最高20%，屬於常態定價結構而非限時促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Select payment mode: Pay monthly Pay yearly",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 15600,
-      "basis": "ai-estimate",
-      "note": "假設單一使用者訂閱 Business 方案，年繳折扣上限 20%，計算方式為 (20美元/月 * 12個月 * 20%折扣) * 26匯率 ≈ 12,480；加上 Plus 方案潛在價值或更高階方案，保守估算約 15,600 新台幣（或依 20*12*0.2*26 = 12480，若取 20*12*0.2 = 48 USD，48*32.5=15600 TWD 為較保守估計值）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261119-3",
-    "sourceId": "notion-pricing",
-    "name": "Notion Custom Agents 免費試用",
-    "category": "software",
-    "summary": "AI 智能體可自主處理重複性任務，免費試用後，每 1,000 個 Notion 點數收費 $10。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需要 Notion 點數",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用支援 Custom Agents 的方案",
-      "試用 AI 智能體功能"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T06:06:27.197Z",
-    "lastVerified": "2026-11-19",
-    "risks": "試用後會產生每 1,000 點數 $10 的費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T06:05:23.577Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示該功能為「Free to try」，屬於免費試用性質。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Requires Notion credits",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者第一年試用並使用少量點數（約等值 $10-20 的額度），依匯率換算並加上便利性溢價。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "kraken-blog-20261119-1",
     "sourceId": "kraken-blog",
     "name": "Kraken Black Friday Deposit & Trade Bonus",
@@ -4696,36 +4440,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-19T20:06:03.577Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "elevenlabs-pricing-20261119-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 黑五促銷",
-    "category": "ai",
-    "summary": "選擇年度方案可獲得最高 55% 折扣，Creator 年度方案價格為 99 美元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的高階付費訂閱方案及其內含的服務額度，而非特定期間的限時優惠或免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200 a month in API credits, up from $100 on Max",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
     },
-    "requirements": "選擇年度方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-12-01",
-    "ongoing": false,
-    "steps": [
-      "選擇年度方案",
-      "完成訂閱"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-19T20:06:37.297Z",
-    "lastVerified": "2026-11-19",
-    "risks": "年度方案會自動續約",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 6400,
+      "basis": "explicit-amount",
+      "usd": 200,
+      "quote": "$200 a month in API credits, up from $100 on Max",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261119-1",
@@ -4753,7 +4498,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T20:07:27.897Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個針對新用戶註冊後可以領取的獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "10,000+ USDT rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261119-2",
@@ -4781,6 +4559,307 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-19T20:07:27.897Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅提及「Event Contracts」產品功能，沒有顯示任何限時競賽、新用戶獎勵或贈獎活動的內容。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Event Contracts New\nPredict price moves and seize opportunities",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "setapp-pricing-20261119-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 7 天免費試用",
+    "category": "software",
+    "summary": "Setapp 提供 7 天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇任何一個 Setapp 方案",
+      "點擊「Start 7-day free trial」"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-19T21:00:31.444Z",
+    "lastVerified": "2026-11-19",
+    "risks": "免費試用結束後可能自動轉為付費訂閱（頁面標示「Cancel anytime」與「billed monthly」，推論有自動續費機制，但未明確寫「自動扣款」，僅依常規商業邏輯提示潛在風險，但依要求不可推測，故僅保留頁面顯示的取消選項資訊)",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容描述的是 Setapp 會員服務提供的 7 天免費試用體驗，屬於新戶或一般用戶的免費試用額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 800,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者選擇最便宜的 Mac 月繳方案，按 $14.99 換算並估算 7 天價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "setapp-pricing-20261119-2",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 年度方案最高 40% 折扣",
+    "category": "software",
+    "summary": "選擇年度訂閱方案可節省最高 40%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳方案而非月繳",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Setapp 定價頁選擇年繳方案"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-19T21:00:31.444Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示年繳方案享有最高40%折扣，屬於常態的年繳比月繳便宜的定價結構。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "notion-pricing-20261119-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "每人每月 $0，包含 Notion AI 功能試用品（生成文件、自動填充資料庫）、基本表單、發佈 Notion 頁面到網路、基本網站、Notion 日曆、資料庫、檔案上傳（每個上限 5 MB）、頁面歷史記錄（7 天）、離線使用（近期與收藏自動下載）、10 位外部訪客、1 個 notion.site 網域。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Notion 帳戶"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T21:00:49.889Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費方案並包含部分高級功能的試用額度，屬於新用戶或一般使用者的免費/試用方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free $0 per member / month",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "notion-pricing-20261119-2",
+    "sourceId": "notion-pricing",
+    "name": "Notion 年繳折扣",
+    "category": "software",
+    "summary": "選擇每年付款可節省最高 20% 費用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳付款模式。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇付費方案 (Plus, Business, Enterprise)"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T21:00:49.889Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的價格結構，年繳比月繳便宜，屬於一般定價機制而非限時特輯。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Select payment mode: Pay monthly Pay yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3300,
+      "basis": "ai-estimate",
+      "note": "假設使用者訂閱 Plus 方案（$10/月），月繳一年 $120，年繳享 20% 折扣約省 $24，換算成新台幣約 330 元；若以 Business 方案（$20/月）計算，省 $48，約 660 元。此處保守取 Plus 方案之值，但考虑到通常企業用 Notion 較多，若以 Business 計，價值更高。這裡保守估算，或可直接填 null 因為金額取決於方案選擇。*更正*：題目要求保守估算一般使用者。一般個人可能選 Plus 或 Free。Plus 月費 $10。年繳省 20% 即 $10 * 12 * 0.2 = $24。$24 * 30 (TWD/USD) = 720 TWD。若選",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "notion-pricing-20261119-3",
+    "sourceId": "notion-pricing",
+    "name": "Notion Custom Agents 免費試用",
+    "category": "software",
+    "summary": "AI 代理人員可自主處理重複性任務。免費試用，之後每 1,000 個 Notion 積分收費 $10。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需要 Notion 積分 (Notion credits)。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱含 Notion 積分或付費方案"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-19T21:00:49.889Z",
+    "lastVerified": "2026-11-19",
+    "risks": "試用後會開始計費，費用為每 1,000 個 Notion 積分 $10。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-19T20:59:46.779Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示「Free to try」，屬於免費試用或額度類型的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Requires Notion credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]
