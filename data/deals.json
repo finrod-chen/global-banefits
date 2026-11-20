@@ -1888,215 +1888,6 @@
     }
   },
   {
-    "id": "epic-free-games-20261119-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
-    "category": "software",
-    "summary": "原價 289 新台幣的遊戲 Them's Fightin' Herds 免費獲得",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T20:05:18.985Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面顯示該遊戲分類於 freegames，但價格欄位顯示原價與售價均為 TWD $289.00 且折扣為 0，並未顯示免費（0 元）狀態。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"title\":\"Them's Fightin' Herds\"...\"price\":{\"totalPrice\":{\"discountPrice\":28900,\"originalPrice\":28900...\"currencyCode\":\"TWD\"...\"fmtPrice\":{\"originalPrice\":\"$289.00\",\"discountPrice\":\"$289.00\"...},\"categories\":[{\"path\":\"freegames\"...}",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261119-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition",
-    "category": "software",
-    "summary": "原價 318 新台幣的遊戲 Model Builder: Complete Edition 免費獲得",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T20:05:18.985Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該遊戲被歸類於免費遊戲中。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "原價 318 新台幣的遊戲 Model Builder: Complete Edition 免費獲得",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 31800,
-      "basis": "ai-estimate",
-      "note": "以遊戲原價 318 新台幣（JSON 中 31800 分，貨幣單位為 2 位小數）估算其獲得價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "epic-free-games-20261119-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Bread and Fred",
-    "category": "software",
-    "summary": "原價 207 新台幣的遊戲 Bread and Fred 免費獲得",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-19T18:07:27.148Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T20:05:18.985Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面內容僅顯示遊戲定價為 20700，且「promotionalOffers」為空，未提供證明該遊戲為「免費獲得」的具體促銷條款或文字。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"discountPrice\":20700,\"originalPrice\":20700",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 207,
-      "basis": "ai-estimate",
-      "note": "保守估算一般使用者第一年能得到的價值（新台幣整數）；假設使用者成功獲得該遊戲，價值等同於遊戲原價。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "gog-free-games-20261119-1",
-    "sourceId": "gog-free-games",
-    "name": "GOG 免費遊戲",
-    "category": "software",
-    "summary": "提供價格範圍為 0 美元的遊戲清單，讓用戶可以免費領取或購買標記為 Free 的遊戲。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 GOG 商店的遊戲列表頁面",
-      "選擇價格範圍為 0,0 (Free) 以篩選免費遊戲",
-      "點擊「Play for free」或「Buy」並選擇「Free」進行領取"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-19T18:07:45.052Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T20:05:18.985Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅顯示一般的遊戲分類瀏覽入口與未渲染的佔位符，沒有具體列出任何免費遊戲、活動或明確的優惠方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "All games for Windows All games for Mac All games for Linux",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "anthropic-pricing-20261119-1",
     "sourceId": "anthropic-pricing",
     "name": "Claude Pro 年繳優惠",
@@ -4740,6 +4531,148 @@
       ],
       "flags": [],
       "numbersMissing": []
+    }
+  },
+  {
+    "id": "epic-free-games-20261120-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
+    "category": "software",
+    "summary": "可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取該遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "reviewAttempts": 1
+  },
+  {
+    "id": "epic-free-games-20261120-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "可免費領取遊戲《Model Builder: Complete Edition》（原價 $318.00 TWD），包含基礎遊戲與所有 DLC",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取該遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T07:47:52.669Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出於「freegames」分類且標註為免費領取，屬於限時或週常免費遊戲優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 318,
+      "basis": "ai-estimate",
+      "note": "頁面明確顯示該遊戲原價為 $318.00 TWD（31800 分），領取該免費遊戲等同獲得此價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "epic-free-games-20261120-3",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Bread and Fred",
+    "category": "software",
+    "summary": "可免費領取遊戲《Bread and Fred》（原價 $207.00 TWD）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取該遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T07:47:52.669Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面顯示該遊戲分類為 freegames，但價格欄位顯示為 $207.00 且無立即免費領取的時間資訊，僅列出 2026-12-10 起 upcoming 的折扣資訊，故無法確定目前是否為免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"title\":\"Bread and Fred\"",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 207,
+      "basis": "ai-estimate",
+      "note": "依據頁面中 Bread and Fred 的 originalPrice 20700 (TWD) 估算其遊戲價值。",
+      "confidence": "low"
     }
   }
 ]

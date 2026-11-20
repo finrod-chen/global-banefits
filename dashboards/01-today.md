@@ -1,13 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T06:05:18.090Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T07:47:52.669Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 原價 289 新台幣的遊戲 Them's Fightin' Herds 免費獲得 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 原價 318 新台幣的遊戲 Model Builder: Complete Edition 免費獲得 | 約 TWD 31,800（AI 估） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 原價 207 新台幣的遊戲 Bread and Fred 免費獲得 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
-| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供價格範圍為 0 美元的遊戲清單，讓用戶可以免費領取或購買標記為 Free 的遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月 $17（需預先支付 $200），比月繳 $20 便宜。 | 約 TWD 130（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）包含每月 $100 的 API 額度，可用於在 Claude Platform 上開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）包含每月 $200 的 API 額度（比 Max 方案的 $100 多）。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
@@ -56,3 +52,6 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》（原價 $318.00 TWD），包含基礎遊戲與所有 DLC | 約 TWD 318（AI 估） | 長期活動 | AI 預審通過 |
+| [Epic 每週免費遊戲：Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Bread and Fred》（原價 $207.00 TWD） | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
