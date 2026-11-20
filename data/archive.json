@@ -1529,5 +1529,75 @@
     "status": "expired",
     "archivedAt": "2026-11-19T20:59:46.779Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261119-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎活動",
+    "category": "crypto",
+    "summary": "10 月交易並贏取 1,000 SOL",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "報名，並以平常的方式交易。每交易 1 美元的交易量可獲得一次入場權",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "Enroll",
+      "trade in October"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
+    "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-19T22:05:18.619Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動為限時抽獎，透過交易量兌換獎品，屬於新戶獎勵或限時促銷性質。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1664000,
+      "basis": "ai-estimate",
+      "usd": 52000,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；以 1 SOL 約等值 52 美元計算，1,000 SOL 總價值約 52,000 美元，換算成新台幣約 5,200,000 元。",
+      "confidence": "low"
+    },
+    "archivedAt": "2026-11-20T00:05:24.969Z",
+    "archiveReason": "endDate passed"
   }
 ]

@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T22:05:18.619Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T00:05:24.969Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,13 +11,24 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費額度（頁面 FAQ 片段提及 '$5 free credit'，後續內容被截斷，無法確認完整條件） | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可透過限時免費試用體驗指定的 Paid plan 服務。試用從啟用服務時開始，任何符合資格的信用額度將自動應用於超出試用限制的用量。 | 約 TWD 45,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 每月免費額度包含：每個專案 100 個 CU-小時、1 GB Postgres 儲存空間、5 GB 物件儲存空間、500 GB 物件儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期階段新創企業最高可获得 100,000 美元的代幣/點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為維護開源專案的項目提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Claimable 體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 無需帳戶、無需信用卡即可立即獲得一個 Postgres 專案體驗。未領取 (Claim) 至 Neon 帳戶的專案限制為 100 MB 儲存 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB egress、5 GB cached egre | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）及免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Managed Database 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Database 方案包含免費每日備份（Free daily backups）及自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費調用量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度，超出部分才計費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 靜態網站免費託管](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置並部署 3 個靜態網站 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean VPC 免費建立與流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立無限數量的 VPC；資料中心內的 VPC 流量及 Ingress 數據傳輸免費；Intra-datacenter VPC peeri | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Reserved IP 免費配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | 當 Reserved IP 分配給 Droplet 時，該 IP 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplet 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplet 方案包含免費出站數據傳輸，額度從每月 500 GiB 起 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean DNS 管理免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費 DNS 管理 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Container Registry 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表包含 1 個 repository 及 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Cloud Firewalls 免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個月每個帳戶包含 25 個 secret-month 等值及 100K 次成功的檢索請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Uptime 免費監控次數](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check | 免費（價值視使用而定） | 長期活動 | 待核實 |

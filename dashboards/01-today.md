@@ -1,10 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-19T22:05:18.619Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T00:05:24.969Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [DigitalOcean $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 $5 免費額度（頁面 FAQ 片段提及 '$5 free credit'，後續內容被截斷，無法確認完整條件） | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經過驗證的學生可存取 GitHub Copilot Student 方案。 | 約 TWD 2,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶（Open a free account） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 英鎊或等值貨幣時，將打折處理其服務費用（We'll discount our fee） | 約 TWD 1,200（AI 估） | 長期活動 | AI 預審通過 |
@@ -44,14 +43,25 @@
 | [Kraken Futures USDG 挑戰賽](https://blog.kraken.com/) | Crypto | 幫助解鎖最多 $5,000,000 的 USDG 獎勵池 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken 預 IPO 挑戰賽 (OURAx 和 MOONSHOTx)](https://blog.kraken.com/) | Crypto | 獲得 $10,000 USDG 獎池的份額 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken 參加 Atlassian Williams F1 車手見面會](https://blog.kraken.com/) | Crypto | 有機會在 10 月的 COTA 與 Atlassian Williams F1 車手面對面見面的抽獎機會 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 萬聖節抽獎活動](https://blog.kraken.com/) | Crypto | 10 月交易並贏取 1,000 SOL | 約 TWD 1,664,000（AI 估） | 2026-10-31 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,966（AI 估） | 2026-11-30 | 待核實 |
-| [玉山信用卡 繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡 繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山信用卡 繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Trip.com 玉山JCB/Visa卡訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
+| [Trip.com 玉山JCB/Visa卡訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 約 TWD 4（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB egress、5 GB cached egre | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）及免費頻寬額度（free bandwidth allowa | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Managed Database 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Database 方案包含免費每日備份（Free daily backups）及自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Functions 免費調用量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度，超出部分才計費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 靜態網站免費託管](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置並部署 3 個靜態網站 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean VPC 免費建立與流量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立無限數量的 VPC；資料中心內的 VPC 流量及 Ingress 數據傳輸免費；Intra-datacenter VPC peeri | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Reserved IP 免費配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | 當 Reserved IP 分配給 Droplet 時，該 IP 免費 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplet 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplet 方案包含免費出站數據傳輸，額度從每月 500 GiB 起 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean DNS 管理免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費 DNS 管理 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Container Registry 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表包含 1 個 repository 及 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Cloud Firewalls 免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個月每個帳戶包含 25 個 secret-month 等值及 100K 次成功的檢索請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Uptime 免費監控次數](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check | 免費（價值視使用而定） | 長期活動 | 待核實 |

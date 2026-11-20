@@ -1888,63 +1888,6 @@
     }
   },
   {
-    "id": "digitalocean-pricing-20261119-1",
-    "sourceId": "digitalocean-pricing",
-    "name": "DigitalOcean $5 免費額度",
-    "category": "vps-cloud",
-    "summary": "提供 $5 免費額度（頁面 FAQ 片段提及 '$5 free credit'，後續內容被截斷，無法確認完整條件）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 DigitalOcean 帳號",
-      "查看帳戶儀表板確認是否獲得 $5 額度"
-    ],
-    "officialUrl": "https://www.digitalocean.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-19T12:05:43.605Z",
-    "lastVerified": "2026-11-19",
-    "risks": "頁面內容截斷，未明確顯示該免費額度的有效期或是否需要綁定信用卡等詳細條件",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-19T14:05:17.653Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提及提供「$5 免費額度」，屬於新戶獎勵或試用金性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "How does the $5 free credit wo",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160,
-      "basis": "explicit-amount",
-      "usd": 5,
-      "quote": "How does the $5 free credit wo",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "copilot-plans-20261119-2",
     "sourceId": "copilot-plans",
     "name": "GitHub Copilot 學生方案",
@@ -4264,74 +4207,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261119-7",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 萬聖節抽獎活動",
-    "category": "crypto",
-    "summary": "10 月交易並贏取 1,000 SOL",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "報名，並以平常的方式交易。每交易 1 美元的交易量可獲得一次入場權",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-01",
-    "endDate": "2026-10-31",
-    "ongoing": false,
-    "steps": [
-      "Enroll",
-      "trade in October"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-19T22:06:10.118Z",
-    "lastVerified": "2026-11-19",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-19T22:05:18.619Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "活動為限時抽獎，透過交易量兌換獎品，屬於新戶獎勵或限時促銷性質。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, then trade the way you normally would. Every dollar in volume traded earns an entry.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Kraken Halloween sweepstakes: trade in October, win 1,000 SOL",
-          "found": true
-        }
-      ],
-      "flags": [
-        "expired"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1664000,
-      "basis": "ai-estimate",
-      "usd": 52000,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；以 1 SOL 約等值 52 美元計算，1,000 SOL 總價值約 52,000 美元，換算成新台幣約 5,200,000 元。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "esun-card-offers-20261119-1",
     "sourceId": "esun-card-offers",
     "name": "玉山雙11購物盛典",
@@ -4415,7 +4290,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供回饋點數或分期免息優惠，屬於促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "最高享0.2%玉山e point回饋或3期0利率",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261119-3",
@@ -4441,7 +4336,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "「啟用優惠」與「現金回饋」屬於新戶獎勵性質的促銷活動，而非常態定價或一般付費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261119-4",
@@ -4467,7 +4382,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出「最高6期0利率」，未說明適用額度、期限或是否限新戶，無法判斷屬於免費方案或一般定價。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "繳學費 就愛刷玉山信用卡\n滿額登錄享最高6期0利率！",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261119-5",
@@ -4493,7 +4430,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "綁定特定支付工具繳稅費可享受額外的百分比積分回饋，屬於促銷方案",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "繳稅費享3%全點回饋",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者每年繳納約100,000新台幣的稅費，以3%全點回饋計算得出，且假設全點回饋價值等同等值新台幣",
+      "confidence": "low"
+    }
   },
   {
     "id": "esun-card-offers-20261119-6",
@@ -4519,7 +4484,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-19T22:06:44.712Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "特定卡種的訂房折扣優惠，屬於促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4,
+      "basis": "ai-estimate",
+      "usd": 0.14,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
+      "confidence": "low"
+    }
   },
   {
     "id": "aws-startups-credits-20261119-1",
@@ -4550,7 +4542,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該頁面提供的是針對特定對象的促銷額度（Promotional Credits），屬於新創激勵方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits *Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Apply directly if you’re bootstrapped or self-funded",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261119-2",
@@ -4582,7 +4607,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供最高 20 萬美元的新創額度，屬於針對特定對象的優惠額度方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Activate Portfolio Pre-Series B\nUp to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "*You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261119-3",
@@ -4610,7 +4668,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-19T22:07:20.156Z",
     "lastVerified": "2026-11-19",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T00:05:24.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對特定資格的 AI 新創企業提供的邀請制雲端額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ in AWS Credits\nTalk with your Account Manager\nIf you need additional support, contact us",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "supabase-pricing-20261119-1",
@@ -4637,6 +4728,342 @@
     "officialUrl": "https://supabase.com/pricing",
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-19T22:07:37.538Z",
     "lastVerified": "2026-11-19",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-1",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Kubernetes 免費控制平面與頻寬額度",
+    "category": "vps-cloud",
+    "summary": "Kubernetes 方案包含免費控制平面（Free control plane）及免費頻寬額度（free bandwidth allowance）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 DigitalOcean Kubernetes 方案"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-2",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Managed Database 免費每日備份",
+    "category": "vps-cloud",
+    "summary": "Managed Database 方案包含免費每日備份（Free daily backups）及自動故障轉移",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 DigitalOcean Managed Database 方案"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-3",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Functions 免費調用量",
+    "category": "vps-cloud",
+    "summary": "每月提供 90,000 GiB-seconds 的免費使用額度，超出部分才計費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Functions 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-4",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 靜態網站免費託管",
+    "category": "vps-cloud",
+    "summary": "免費建置並部署 3 個靜態網站",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean 平台託管靜態網站"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-5",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean VPC 免費建立與流量",
+    "category": "vps-cloud",
+    "summary": "免費建立無限數量的 VPC；資料中心內的 VPC 流量及 Ingress 數據傳輸免費；Intra-datacenter VPC peering 免費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 DigitalOcean 帳戶中建立 VPC"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-6",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Reserved IP 免費配額",
+    "category": "vps-cloud",
+    "summary": "當 Reserved IP 分配給 Droplet 時，該 IP 免費",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "將 Reserved IP 分配至 Droplet"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-7",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Droplet 免費出站頻寬",
+    "category": "vps-cloud",
+    "summary": "Droplet 方案包含免費出站數據傳輸，額度從每月 500 GiB 起",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Droplet 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-8",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean DNS 管理免費服務",
+    "category": "vps-cloud",
+    "summary": "提供免費 DNS 管理",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean DNS 管理功能"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-9",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Container Registry 免費額度",
+    "category": "vps-cloud",
+    "summary": "免費容器註冊表包含 1 個 repository 及 500 MiB 儲存空間",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Container Registry"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-10",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Cloud Firewalls 免費服務",
+    "category": "vps-cloud",
+    "summary": "提供免費雲端防火牆",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "啟用 DigitalOcean 雲端防火牆功能"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-11",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Secrets Manager 免費額度",
+    "category": "vps-cloud",
+    "summary": "每個月每個帳戶包含 25 個 secret-month 等值及 100K 次成功的檢索請求",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Secrets Manager"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261120-12",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Uptime 免費監控次數",
+    "category": "vps-cloud",
+    "summary": "每個帳戶每月包含 1 次 Uptime Check",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 DigitalOcean Uptime Monitoring 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-20T00:06:10.367Z",
+    "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
