@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T04:05:23.805Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T06:05:18.090Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -49,10 +49,10 @@
 | [Google AI Pro 贈送 Google Cloud 每月 $10 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 代幣，來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Cloud 每月 $40 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 代幣，來自 Google Developer P | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 免費開啟 Wise 帳戶（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 大额汇款手续费折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 會折扣其手續費（We'll discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 免費開啟 Wise 帳戶（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 大额汇款手续费折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 會折扣其手續費（We'll discount our fee）。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
 | [Wise Assets GBP 定期存款回報](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可賺取 3.47% 的可變年利率（GBP），提供 GBP、EUR 和 USD 的即時存取回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 提供 $0/月的永久免費方案。包含 100 個項目、每月 100 CU-hrs 計算力（每個項目）、每個項目 1 GB 儲存空間、5 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 提供 $0/月的永久免費方案。包含 100 個項目、每月 100 CU-hrs 計算力（每個項目）、每個項目 1 GB 儲存空間、5 GB  | 約 TWD 3,300（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T04:05:23.805Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T06:05:18.090Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@
 | [DigitalOcean Cloud Firewalls 免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個月每個帳戶包含 25 個 secret-month 等值及 100K 次成功的檢索請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime 免費監控次數](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 提供 $0/月的永久免費方案。包含 100 個項目、每月 100 CU-hrs 計算力（每個項目）、每個項目 1 GB 儲存空間、5 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 提供 $0/月的永久免費方案。包含 100 個項目、每月 100 CU-hrs 計算力（每個項目）、每個項目 1 GB 儲存空間、5 GB  | 約 TWD 3,300（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
