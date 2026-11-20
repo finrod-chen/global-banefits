@@ -1,14 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T08:05:17.192Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T10:05:20.980Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案若選擇年繳，每月 $17（需預先支付 $200），比月繳 $20 便宜。 | 約 TWD 130（AI 估） | 長期活動 | 待核實 |
-| [Claude Max 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）包含每月 $100 的 API 額度，可用於在 Claude Platform 上開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra 方案含 API 額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）包含每月 $200 的 API 額度（比 Max 方案的 $100 多）。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
-| [Gate 新用戶註冊獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊後可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Event Contracts 新用戶首單獎勵活動](https://www.gate.com/announcements) | Crypto | 參與 Event Contracts 限時交易競賽第 3 輪，新用戶完成首單交易最高可獲獎品（頁面未顯示具體金額） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 7 天免費試用。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 年度方案最高 40% 折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度訂閱方案可節省最高 40%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，包含 Notion AI 功能試用品（生成文件、自動填充資料庫）、基本表單、發佈 Notion 頁面到網路、基本網站、Not | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -52,6 +47,18 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》（原價 $318.00 TWD），包含基礎遊戲與所有 DLC | 約 TWD 318（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲：Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Bread and Fred》（原價 $207.00 TWD） | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣（Creator 年費 $99；Pro 新用戶享 55% 折扣，月繳轉年繳享 50% 折扣），活動於 12 | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |
+| [ElevenLabs 首月 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 訂閱 Starter 或 Creator 方案，首月僅需 $1（Starter 之後 $6/月，Creator 之後 $22/月），活動於  | 約 TWD 160（AI 估） | 2024-09-30 | 待核實 |
+| [Gate 新戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Event Contracts 限時交易競賽](https://www.gate.com/announcements) | Crypto | 新用戶首筆交易獎勵，最高可贏取獎勵（具體金額未明示） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 總獎金池，另有額外獎勵 | 約 TWD 1,600,000（AI 估） | 長期活動 | 待核實 |
+| [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 兩個排行榜分享 80,000 USDT 獎金池，最高單筆獎勵 13,000 USDT (XAU) | 約 TWD 2,560,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate ANT CFD 上市活動](https://www.gate.com/announcements) | Crypto | 獲得交易補貼並競爭最高 1,000 USDx 獎勵 | 約 TWD 32,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Weekend Power Station](https://www.gate.com/announcements) | Crypto | 註冊可領取 0.5 NVDAG，交易可再賺取 1 NVDAG | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 回歸用戶免費格線機器人](https://www.gate.com/announcements) | Crypto | 領取 14 個免費熱門格線機器人，回歸用戶享專屬獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Anthropic (ANT) 上市交易挑戰](https://www.gate.com/announcements) | Crypto | 交易股票即可獲得免費 ANT 抽獎資格，中獎率 100% | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate ETF HYPE 獎金獎勵](https://www.gate.com/announcements) | Crypto | 期貨積分用戶、股票交易者及 VIP5+ 用戶可獲得 HYPE 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Swap 7-day Arena](https://www.gate.com/announcements) | Crypto | 分享 1,000 USDT (W5) 獎金 | 免費（價值視使用而定） | 長期活動 | 待核實 |
