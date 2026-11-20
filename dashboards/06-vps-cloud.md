@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T10:05:20.980Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T12:05:17.277Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,10 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 5,000 美元 AWS 額度（自籌資金創新的起步額度為 1,000 美元，部分合格參與者可能符合最高 5,000 美元的額外額度資格 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 200,000 美元 AWS 額度（適用於 Pre-Series B 創新的融資階段） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元或更多 AWS 額度（僅限邀請，適用於準備擴展規模的 AI 創新） | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB egress、5 GB cached egre | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案包含免費控制平面（Free control plane）及免費頻寬額度（free bandwidth allowa | 約 TWD 30,000（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Managed Database 免費每日備份](https://www.digitalocean.com/pricing) | VPS/雲服務 | Managed Database 方案包含免費每日備份（Free daily backups）及自動故障轉移 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Functions 免費調用量](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度，超出部分才計費 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -31,3 +27,10 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Claimable 免費體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號和信用卡即可立即獲得一個 Postgres 專案。若 72 小時內未聲稱到 Neon 帳號，專案將限制為 100 MB 儲存空間和  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 KVM VPS 特價方案，1GB KVM VPS 年費 $15.98、2.5GB KVM VPS 年費 $27.98、4GB KVM  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 13 款一鍵應用程式安裝](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 13 款應用程式一鍵安裝，包括 AdminBolt、OpenClaw、Hermes Agent、n8n、AnythingLLM、Oll | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有 Black Friday 特價 VPS 方案均附贈免費 Clientexec 授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 20 萬美元的 AWS 帳戶信用額度。自我資金創新的新創最高可獲得 5,000 美元信用額度；由 VC 或加速器投資的 Pre-S | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 20 萬美元以上的 AWS 帳戶信用額度，專為準備擴展的 AI 新創設計。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創信用額度，讓符合資格的沒有目前 Activate Credits 的新創可以開始使用 Kiro 開發環境，並可進一步擴展 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 月度活躍用戶、500 MB 資料庫大小、5 GB 出站流量、1 GB 檔案儲存。免費專案在 1 週無活動 | 免費（價值視使用而定） | 長期活動 | 待核實 |

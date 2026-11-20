@@ -1629,5 +1629,149 @@
     "status": "expired",
     "archivedAt": "2026-11-20T04:05:23.805Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261120-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 黑五限時折扣",
+    "category": "ai",
+    "summary": "選擇年繳方案最高可享 55% 折扣（Creator 年費 $99；Pro 新用戶享 55% 折扣，月繳轉年繳享 50% 折扣），活動於 12 月 1 日結束。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "選擇 Creator 或 Pro 年繳方案",
+      "完成訂閱"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-20T10:06:24.633Z",
+    "lastVerified": "2026-11-20",
+    "risks": "限時優惠，逾期恢復原價",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-20T10:05:20.980Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供明確時間限制的黑五限時折扣與特殊促銷定價。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Creator annual costs $99 for the year. Pro newcomers also get the full 55% off, while people already paying monthly for Pro get 50% off if they move to annual billing.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "eligible customers can save up to 55% when they choose an annual plan",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3168,
+      "basis": "explicit-amount",
+      "usd": 99,
+      "quote": "Creator annual costs $99 for the year",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-20T12:05:17.277Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261120-3",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 首月 $1 優惠",
+    "category": "ai",
+    "summary": "訂閱 Starter 或 Creator 方案，首月僅需 $1（Starter 之後 $6/月，Creator 之後 $22/月），活動於 9 月 30 日結束。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "新訂閱者",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-09-30",
+    "ongoing": false,
+    "steps": [
+      "選擇 Starter 或 Creator 方案",
+      "訂閱並支付 $1"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-20T10:06:24.633Z",
+    "lastVerified": "2026-11-20",
+    "risks": "限時優惠，逾期恢復原價",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-20T10:05:20.980Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示「First month for $1」為特定價格優惠且註明結束日期，屬於新戶獎勵或限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Starter\n$1 first month\nThen $6 per month",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Get your first month for only $1",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends September 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "9"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "ai-estimate",
+      "usd": 5,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；無法合理估算，因為頁面主要強調的是 Black Friday 折扣與首月低價活動，且不同方案價差巨大，缺乏單一明確的「第一年總價值」基準。",
+      "confidence": "low"
+    },
+    "archivedAt": "2026-11-20T12:05:17.277Z",
+    "archiveReason": "endDate passed"
   }
 ]

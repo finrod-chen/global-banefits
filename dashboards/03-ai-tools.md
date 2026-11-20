@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T10:05:20.980Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T12:05:17.277Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,5 +27,3 @@
 | [Google AI Pro 贈送 Google Cloud 每月 $10 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 代幣，來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Cloud 每月 $40 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 代幣，來自 Google Developer P | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣（Creator 年費 $99；Pro 新用戶享 55% 折扣，月繳轉年繳享 50% 折扣），活動於 12 | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |
-| [ElevenLabs 首月 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 訂閱 Starter 或 Creator 方案，首月僅需 $1（Starter 之後 $6/月，Creator 之後 $22/月），活動於  | 約 TWD 160（AI 估） | 2024-09-30 | 待核實 |
