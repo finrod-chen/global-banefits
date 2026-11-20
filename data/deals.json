@@ -4837,7 +4837,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T22:05:18.726Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示該功能為免費，屬於免費服務或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free URL Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "epic-free-games-20261120-1",
@@ -4867,7 +4887,30 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T20:06:58.862Z",
     "lastVerified": "2026-11-20",
     "risks": "遊戲需綁定於 Epic Games 帳號，一經領取無法退還",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T22:05:18.726Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面顯示價格未變且無明確免費領取時間表，不符合促銷特徵",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"title\":\"Bread and Fred\"...\"fmtPrice\":{\"originalPrice\":\"$207.00\",\"discountPrice\":\"$207.00\",\"intermediatePrice\":\"$207.00\"}",
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "openai-pricing-20261120-1",
@@ -4896,7 +4939,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
     "lastVerified": "2026-11-20",
     "risks": "免費方案的無限文字聊天受濫用防護限制。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T22:05:18.726Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目標明為「免費方案」（Free），屬於提供常態性免費額度或功能，符合 promotion 定義中的免費方案類別。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 450,
+      "basis": "ai-estimate",
+      "note": "以 Go 方案（未提供金額但功能較強）或 Plus 方案的市場價值為參考；免費方案提供有限的使用額度與基礎模型存取，保守估算其每月等效市場價值約為 150-200 TWD，一年約 1800-2400 TWD，但考慮到限制較多且部分功能（如進階模型）需付費，取較保守且保守估算一般使用者第一年能得到的價值為 450 TWD（約每季 100 TWD 的有效使用價值估算，因大量功能受限）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "openai-pricing-20261120-2",
@@ -4925,6 +4994,28 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T22:05:18.726Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出了特定群體的導覽連結，未提供具體的優惠金額、折扣比例或免費額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Higher Education\nK–12 Teachers",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   }
 ]

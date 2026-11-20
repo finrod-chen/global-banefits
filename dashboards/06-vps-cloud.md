@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T20:45:08.243Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T22:05:18.726Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,4 +25,4 @@
 | [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
