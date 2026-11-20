@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T20:05:19.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T20:45:08.243Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -23,5 +23,6 @@
 | [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192 | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
-| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 13,170（AI 估） | 長期活動 | AI 預審通過 |
+| [OpenAI ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT 高等教育與 K-12 教師方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特 | 免費（價值視使用而定） | 長期活動 | 待核實 |

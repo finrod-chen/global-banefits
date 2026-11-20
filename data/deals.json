@@ -1840,54 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "openai-pricing-20261112-1",
-    "sourceId": "openai-pricing",
-    "name": "ChatGPT 免費方案",
-    "category": "ai",
-    "summary": "提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 ChatGPT Work 桌面端存取。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點選「Get Free」按鈕"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-12T14:05:43.104Z",
-    "lastVerified": "2026-11-12",
-    "risks": "文字聊天與功能使用受到濫用防護機制（abuse guardrails）限制。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-12T14:05:18.293Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此為ChatGPT的免費方案，屬於提供免費服務額度之類型。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "gate-announce-20261120-1",
     "sourceId": "gate-announce",
     "name": "Gate 新戶註冊獎勵",
@@ -4462,7 +4414,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "免費期滿後若未取消可能轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對持有 GitHub 學生帳號的使用者提供的限時免費試用方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "when you sign up for a DataCamp subscription with your GitHub student account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261120-9",
@@ -4490,7 +4467,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供每月固定額度回饋期限兩年，屬於限時額度優惠",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Enjoy a credit of $13 USD per month for 24 months.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9984,
+      "basis": "ai-estimate",
+      "usd": 312,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確給出總價值，無需保守估算",
+      "confidence": "low"
+    }
   },
   {
     "id": "github-education-20261120-10",
@@ -4518,7 +4522,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "需每年重新驗證學生身份",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供學生免費訂閱 JetBrains 產品，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "A free subscription for students, to be renewed annually.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "to be renewed annually",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "JetBrains 標準訂閱費約每月 10-25 美元不等，學生免費一年價值約 120-300 美元，保守估算新台幣 5000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-11",
@@ -4546,7 +4581,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "3 個月後可能轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供學生 3 個月的免費互動會員資格。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Learn Backend Development, DevOps, and Data Analysis with 3 months of free access to Boot.dev’s complete interactive membership.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2400,
+      "basis": "ai-estimate",
+      "note": "Boot.dev 標準訂閱約 $20 美元/月，3 個月約 60 美元；以 1 美元 = 40 新台幣保守估算，約為 2400 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261120-1",
@@ -4576,7 +4637,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
     "lastVerified": "2026-11-20",
     "risks": "首年優惠僅適用第一年，第二年续费將恢復一般價格（例如 .xyz 续费價為 $14.21，.blog 续费價為 $21.11），需注意自動續費成本。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示特定網域擴充名為「first year sale」（首年優惠），價格顯著低於原價，屬於限時折扣或促銷。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Amazing prices, always and forever\n.COM from $11.81\n.NET from $12.52\n.ORG from $7.98\nTrending\nAll Extensions\nThese are some of the hottest extensions around.\n.inc\n257.98 first year sale\n$2,060.25 regular price\n.xyz\n1.29 first year sale\n$14.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 30,
+      "basis": "ai-estimate",
+      "note": "以頁面最低價的 .xyz 首年 $1.29 換算新台幣約 39 元，保守取整估算為 30 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261120-2",
@@ -4604,7 +4691,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿描述的是免費服務，屬於免費額度或功能。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free WHOIS Privacy",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261120-3",
@@ -4632,7 +4739,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示提供免費的 SSL 憑證服務。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261120-4",
@@ -4660,7 +4787,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T20:45:08.243Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面將免費 Email 轉發列為常態的零元功能項目，而非限時或特例性的促銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Email Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261120-5",
@@ -4718,6 +4867,64 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T20:06:58.862Z",
     "lastVerified": "2026-11-20",
     "risks": "遊戲需綁定於 Epic Games 帳號，一經領取無法退還",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261120-1",
+    "sourceId": "openai-pricing",
+    "name": "OpenAI ChatGPT 免費方案",
+    "category": "ai",
+    "summary": "提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 Codex 存取權限，以及有限的桌面版 ChatGPT Work 存取權限。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 ChatGPT 定價頁面",
+      "點擊 'Get Free' 按鈕"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
+    "lastVerified": "2026-11-20",
+    "risks": "免費方案的無限文字聊天受濫用防護限制。",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261120-2",
+    "sourceId": "openai-pricing",
+    "name": "OpenAI ChatGPT 高等教育與 K-12 教師方案",
+    "category": "ai",
+    "summary": "頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特定群體定價類別。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 ChatGPT 定價頁面",
+      "選擇 'Higher Education' 或 'K-12 Teachers' 方案"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T20:05:19.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T20:45:08.243Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,7 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限的文字聊天（受濫用防護機制限制）、有限次數的上傳、圖片生成、語音聊天、深入研究、記憶與上下文、Codex 存取以及 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate 新戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 限時交易競賽](https://www.gate.com/announcements) | Crypto | 新用戶首筆交易獎勵，最高可贏取獎勵（具體金額未明示） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 總獎金池，另有額外獎勵 | 約 TWD 1,600,000（AI 估） | 長期活動 | 待核實 |
@@ -87,13 +86,15 @@
 | [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生身份期間免費使用 GitHub Pro。 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education 方案（包含 Plus 方案功能、增强的分享與協作功能、更長頁面歷史）以及額外 AI 回應。 | 約 TWD 5,400（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼補全、一定額度的 GitHub AI 積分，以及有限制的聊天與代理使用量（僅限自動模型選擇）。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可免費享用 3 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Heroku 每月額度回饋](https://education.github.com/pack) | 軟體/數位服務 | 每月獲得 13 美元額度，期限為 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生免費訂閱，需每年更新資格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | Boot.dev 完整互動會員資格免費 3 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可免費享用 3 個月。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Heroku 每月額度回饋](https://education.github.com/pack) | 軟體/數位服務 | 每月獲得 13 美元額度，期限為 24 個月。 | 約 TWD 9,984（AI 估） | 長期活動 | AI 預審通過 |
+| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生免費訂閱，需每年更新資格。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | Boot.dev 完整互動會員資格免費 3 個月。 | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、 | 約 TWD 30（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic Games Store 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Ed | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT 高等教育與 K-12 教師方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特 | 免費（價值視使用而定） | 長期活動 | 待核實 |
