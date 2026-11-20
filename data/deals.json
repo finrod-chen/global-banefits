@@ -1888,366 +1888,6 @@
     }
   },
   {
-    "id": "gemini-plans-20261120-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 贈送 Google Cloud 每月 $10 積分",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 代幣，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Pro 方案。",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-20T02:05:39.877Z",
-    "lastVerified": "2026-11-20",
-    "risks": "需維持訂閱狀態以繼續獲得積分。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T04:05:23.805Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態付費方案中附帶的開發者福利額度，非限時或特定對象的新戶專屬優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Includes Gemini 4 Neon\nGoogle AI Pro",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "$10 in monthly Google Cloud credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gemini-plans-20261120-2",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 贈送 Google Cloud 每月 $40 積分",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 代幣，來自 Google Developer Program。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Google AI Ultra 方案。",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-20T02:05:39.877Z",
-    "lastVerified": "2026-11-20",
-    "risks": "需維持訂閱狀態以繼續獲得積分。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T04:05:23.805Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "訂閱方案內含額外的雲計算代幣/積分。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "Google AI Ultra is available in more than 150 countries — see full list of countries .",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1280,
-      "basis": "explicit-amount",
-      "usd": 40,
-      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "copilot-plans-20261120-2",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生方案",
-    "category": "ai",
-    "summary": "經核實之學生可存取 GitHub Copilot 學生方案",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須為經核實的學生 (Verified students)",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "完成學生身份核實"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-20T02:06:13.741Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T04:05:23.805Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提到學生可存取特定的學生方案，屬於學生優惠類別。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261120-1",
-    "sourceId": "wise-home",
-    "name": "Wise 免費開戶",
-    "category": "banking",
-    "summary": "免費開啟 Wise 帳戶（Open a free account）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Open a free account」按鈕註冊"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-20T02:06:48.873Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T06:05:18.090Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供「免費開戶」(Open a free account) 屬免費方案或額度，符合 promotion 定義。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Open a free account",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261120-2",
-    "sourceId": "wise-home",
-    "name": "Wise 大额汇款手续费折扣",
-    "category": "banking",
-    "summary": "匯款超過 20,000 GBP 或等額貨幣時，Wise 會折扣其手續費（We'll discount our fee）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "匯款金額需超過 20,000 GBP 或等額貨幣",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "發起超過 20,000 GBP 的匯款交易"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-20T02:06:48.873Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T06:05:18.090Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面提到會折扣手續費，但未明確標示為限時優惠或固定定價方案，屬於依金額觸發的動態費用調整機制。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 10000,
-      "basis": "ai-estimate",
-      "note": "假設一般大額匯款者（>20,000 GBP）每年節省的手續費折扣約為標準費率的一定比例，換算成新台幣約 1 萬元；由於未給出具體折扣比例，僅為保守估算。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "wise-home-20261120-3",
-    "sourceId": "wise-home",
-    "name": "Wise Assets GBP 定期存款回報",
-    "category": "banking",
-    "summary": "選擇加入 Wise Assets 可賺取 3.47% 的可變年利率（GBP），提供 GBP、EUR 和 USD 的即時存取回報。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇加入 Wise Assets 服務；貨幣價值可能因政府違約或負利率而下降；過去績效不代表未來表現；可能涉及稅務。",
-    "regions": [
-      "UK (由 Wise Assets UK 提供)"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Get Wise Assets」",
-      "選擇加入 Wise Assets 並存入 GBP"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-20T02:06:48.873Z",
-    "lastVerified": "2026-11-20",
-    "risks": "貨幣價值可能因政府違約或負利率而下降；當前利率不保證未來績效；變動利率基於 2026/10/11 前 7 天的績效；可能涉及稅務。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T06:05:18.090Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態的可變利率資產服務方案，並非限時優惠或新戶專屬獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn 3.47% variable rate\nEarn a return on your everyday balance by opting in to Wise Assets. 1 Find out more",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Money can decrease in value if governments default or interest rates go negative. Current rates do not guarantee future performance. Variable rate is based on 7 day performance as of 11/10/2026. Taxes may apply.",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Offered by Wise Assets UK",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "neon-pricing-20261120-1",
     "sourceId": "neon-pricing",
     "name": "Neon 免費方案",
@@ -3880,7 +3520,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-20T12:06:39.322Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為 Black Friday 2026 活動，且設有倒數計時，屬於限時特價。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 GB KVM VPS $ 15.98 /year... 2.5 GB KVM VPS $ 27.98 /year... 4 GB KVM VPS Most popular $ 47.98 /year... 6 GB KVM VPS $ 74.98 /year... 8 GB KVM VPS $ 94.98 /year... 1Gbps Network Port... 1 IPv4 Address",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "Complete your order within: 00 Days : 14 Minutes : 13 Seconds",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 48000,
+      "basis": "ai-estimate",
+      "note": "以最受歡迎的 4GB KVM VPS 年費 $47.98 換算，約 1000 元/月，預估一年價值約 48000 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "racknerd-specials-20261120-2",
@@ -3911,7 +3584,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-20T12:06:39.322Z",
     "lastVerified": "2026-11-20",
     "risks": "一鍵安裝會永久刪除伺服器上現有資料（包含作業系統、應用程式與檔案）。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供AdminBolt的30天免費試用資格",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Coolify is ready",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261120-3",
@@ -3939,7 +3637,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-20T12:06:39.322Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "所有方案均標註為 Black Friday 特價，且附贈免費軟體授權，屬於限時促銷中的額外獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Clientexec License",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-startups-credits-20261120-1",
@@ -3970,7 +3688,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
     "lastVerified": "2026-11-20",
     "risks": "額度為美元 (USD) 且受 AWS Promotional Credit Terms & Conditions 約束。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供最高 20 萬美元的信用額度（Credits）給合格的新創公司，屬於免費方案或額度獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "20"
+      ]
+    }
   },
   {
     "id": "aws-startups-credits-20261120-2",
@@ -3998,7 +3745,44 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
     "lastVerified": "2026-11-20",
     "risks": "所有 AWS Activate 額度均為美元且受 AWS Promotional Credit Terms & Conditions 約束。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確列出提供特定金額（$200,000+）的 AWS 帳戶信用額度。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio $200,000+ in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "20"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261120-3",
@@ -4026,7 +3810,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠提供特定的信用額度以協助新創公司進行開發與擴展，屬於新創獎勵方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Available to eligible startups without current Activate Credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261120-1",
@@ -4054,7 +3863,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-20T12:07:15.787Z",
     "lastVerified": "2026-11-20",
     "risks": "專案在 1 週無活動後會自動暫停",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案明確標示為 $0 每月的免費方案，符合免費方案定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\nPerfect for passion projects & simple websites.\n$ 0\n/ month\nStart for Free Free projects are paused after 1 week of inactivity.\nLimit of 2 active projects.\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB dat",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261120-1",
@@ -4083,7 +3912,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-20T14:05:46.602Z",
     "lastVerified": "2026-11-20",
     "risks": "試用期滿後可能自動轉為付費訂閱（頁面提及 'Cancel anytime'，暗示需手動取消以避免扣費）",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-20T16:05:19.545Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供 7 天免費試用，符合試用類型的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial 1,000 AI credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261120-2",
@@ -4165,6 +4021,118 @@
     ],
     "officialUrl": "https://www.notion.com/pricing",
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-20T14:06:04.195Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261120-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 30% 折扣促銷",
+    "category": "ai",
+    "summary": "Copilot Fusion 用量享 30% 折扣，期限至 11 月 30 日",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-11-30",
+    "ongoing": false,
+    "steps": [
+      "點擊頁面頂部的 'Learn more' 連結了解詳情"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-20T16:06:30.793Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261120-2",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生優惠",
+    "category": "ai",
+    "summary": "經驗證的學生可存取 GitHub Copilot 學生方案",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須為經驗證的學生身份",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Learn more' 連結進行學生身份驗證"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-20T16:06:30.793Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261120-1",
+    "sourceId": "wise-home",
+    "name": "Wise 匯款費用折扣",
+    "category": "banking",
+    "summary": "匯款金額超過 20,000 GBP 或等值金額時，Wise 會提供費用折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "發送超過 20,000 GBP 或等值金額的匯款"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-20T16:07:04.909Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261120-2",
+    "sourceId": "wise-home",
+    "name": "Wise 帳戶免費開戶",
+    "category": "banking",
+    "summary": "提供免費開立 Wise 帳戶",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Open a free account」開立帳戶"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-20T16:07:04.909Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"

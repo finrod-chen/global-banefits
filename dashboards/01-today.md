@@ -1,15 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T14:05:17.815Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T16:05:19.545Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Google AI Pro 贈送 Google Cloud 每月 $10 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 $10 的 Google Cloud 代幣，來自 Google Developer Pro | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Cloud 每月 $40 積分](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 $40 的 Google Cloud 代幣，來自 Google Developer P | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實之學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 免費開啟 Wise 帳戶（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大额汇款手续费折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 會折扣其手續費（We'll discount our fee）。 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
-| [Wise Assets GBP 定期存款回報](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可賺取 3.47% 的可變年利率（GBP），提供 GBP、EUR 和 USD 的即時存取回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 提供 $0/月的永久免費方案。包含 100 個項目、每月 100 CU-hrs 計算力（每個項目）、每個項目 1 GB 儲存空間、5 GB  | 約 TWD 3,300（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期新創企業提供最多 $100k 的點數（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -38,14 +32,18 @@
 | [玉山信用卡 繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 約 TWD 20,000（AI 估） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
 | [Trip.com 訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 KVM VPS 特價方案，1GB KVM VPS 年費 $15.98、2.5GB KVM VPS 年費 $27.98、4GB KVM  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 13 款一鍵應用程式安裝](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 13 款應用程式一鍵安裝，包括 AdminBolt、OpenClaw、Hermes Agent、n8n、AnythingLLM、Oll | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有 Black Friday 特價 VPS 方案均附贈免費 Clientexec 授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 KVM VPS 特價方案，1GB KVM VPS 年費 $15.98、2.5GB KVM VPS 年費 $27.98、4GB KVM  | 約 TWD 48,000（AI 估） | 長期活動 | 待核實 |
+| [RackNerd 13 款一鍵應用程式安裝](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 13 款應用程式一鍵安裝，包括 AdminBolt、OpenClaw、Hermes Agent、n8n、AnythingLLM、Oll | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有 Black Friday 特價 VPS 方案均附贈免費 Clientexec 授權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 20 萬美元的 AWS 帳戶信用額度。自我資金創新的新創最高可獲得 5,000 美元信用額度；由 VC 或加速器投資的 Pre-S | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 20 萬美元以上的 AWS 帳戶信用額度，專為準備擴展的 AI 新創設計。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創信用額度，讓符合資格的沒有目前 Activate Credits 的新創可以開始使用 Kiro 開發環境，並可進一步擴展 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 月度活躍用戶、500 MB 資料庫大小、5 GB 出站流量、1 GB 檔案儲存。免費專案在 1 週無活動 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 20 萬美元以上的 AWS 帳戶信用額度，專為準備擴展的 AI 新創設計。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創信用額度，讓符合資格的沒有目前 Activate Credits 的新創可以開始使用 Kiro 開發環境，並可進一步擴展 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 月度活躍用戶、500 MB 資料庫大小、5 GB 出站流量、1 GB 檔案儲存。免費專案在 1 週無活動 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，試用期間內 Mac 與 Mac + iOS 方案附 1,000 AI 積分，Power User 方案附 2,000  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳節省 40%](https://setapp.com/pricing) | 軟體/數位服務 | 年繳方案最高可節省 40% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每人每月 $0，可試用 Notion AI 功能、基本表單、基礎網站、日曆功能及資料庫（含子任務、依賴關係等）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳可節省最多 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 30% 折扣促銷](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 用量享 30% 折扣，期限至 11 月 30 日 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值金額時，Wise 會提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 帳戶免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立 Wise 帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
