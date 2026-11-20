@@ -1773,5 +1773,36 @@
     },
     "archivedAt": "2026-11-20T12:05:17.277Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261120-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 萬聖節抽獎",
+    "category": "crypto",
+    "summary": "10 月交易即可參加抽獎，贏取 1,000 SOL。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 10 月內進行交易，每交易 1 美元交易量獲得一個抽獎資格。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-01",
+    "endDate": "2026-10-31",
+    "ongoing": false,
+    "steps": [
+      "註冊參加",
+      "在 10 月期間進行交易，交易量越高抽獎資格越多"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-20T12:05:45.341Z",
+    "lastVerified": "2026-11-20",
+    "risks": "交易高風險加密貨幣可能有資金損失風險。",
+    "status": "expired",
+    "archivedAt": "2026-11-20T14:05:17.815Z",
+    "archiveReason": "endDate passed"
   }
 ]

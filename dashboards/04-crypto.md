@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T12:05:17.277Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T14:05:17.815Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,6 +26,5 @@
 | [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 最高可獲得 100 美元的 BTC 獎金。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露，總獎金池 20,000 美元的 ANTHROPICX。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken 5,000,000 美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、實體資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，總獎金池 10,000 美元 USDG。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 阿特lassian 威廉姆斯 F1 車手見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易至少 1 美元交易量，即可參加抽獎與阿特lassian 威廉姆斯 F1 車手面對面見面。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 萬聖節抽獎](https://blog.kraken.com/) | Crypto | 10 月交易即可參加抽獎，贏取 1,000 SOL。 | 免費（價值視使用而定） | 2026-10-31 | 待核實 |
+| [Kraken 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 永續合約，總獎金池 10,000 美元 USDG。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 阿特lassian 威廉姆斯 F1 車手見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易至少 1 美元交易量，即可參加抽獎與阿特lassian 威廉姆斯 F1 車手面對面見面。 | 約 TWD 32（AI 估） | 長期活動 | AI 預審通過 |
