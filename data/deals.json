@@ -1888,167 +1888,6 @@
     }
   },
   {
-    "id": "epic-free-games-20261120-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
-    "category": "software",
-    "summary": "可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取該遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T10:05:20.980Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "遊戲被歸類於freegames類別，屬於免費領取方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"price\":{\"totalPrice\":{\"discountPrice\":28900,\"originalPrice\":28900,",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261120-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition",
-    "category": "software",
-    "summary": "可免費領取遊戲《Model Builder: Complete Edition》（原價 $318.00 TWD），包含基礎遊戲與所有 DLC",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取該遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T07:47:52.669Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出於「freegames」分類且標註為免費領取，屬於限時或週常免費遊戲優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 318,
-      "basis": "ai-estimate",
-      "note": "頁面明確顯示該遊戲原價為 $318.00 TWD（31800 分），領取該免費遊戲等同獲得此價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "epic-free-games-20261120-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲：Bread and Fred",
-    "category": "software",
-    "summary": "可免費領取遊戲《Bread and Fred》（原價 $207.00 TWD）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取該遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T07:49:28.537Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T07:47:52.669Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面顯示該遊戲分類為 freegames，但價格欄位顯示為 $207.00 且無立即免費領取的時間資訊，僅列出 2026-12-10 起 upcoming 的折扣資訊，故無法確定目前是否為免費方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"title\":\"Bread and Fred\"",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 207,
-      "basis": "ai-estimate",
-      "note": "依據頁面中 Bread and Fred 的 originalPrice 20700 (TWD) 估算其遊戲價值。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "gate-announce-20261120-1",
     "sourceId": "gate-announce",
     "name": "Gate 新戶註冊獎勵",
@@ -4175,7 +4014,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-20T18:05:43.999Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案明確標示為提供贊助（Sponsorship），屬於針對特定群體（開源專案）的激勵或補貼性質，而非一般商業定價。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open Source Program Open source projects\nSponsorship for the open source you maintain.\nLearn more about Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261120-1",
@@ -4203,7 +4062,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費雲端服務存取及固定金額的Azure額度給學生。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Access to Microsoft Azure cloud services and learning resources – no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "plus $100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261120-2",
@@ -4231,7 +4123,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "網域註冊通常有自動續約機制，需注意設定避免意外扣費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費的網域註冊與 SSL 憑證方案",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 year domain name registration on the .me TLD.\nTags\nVirtual Events\nOffer #2\n1 SSL certificate free for 1 year.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": ".me 網域年費約 10-15 美元，SSL 約 0-10 美元，合計約 15 美元（保守估算），換算成新台幣約 300 元（以 1 USD ≈ 20 TWD 計，取整數）",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-3",
@@ -4259,7 +4177,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "需確保帳號資訊唯一性",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費網域註冊，屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 150,
+      "basis": "ai-estimate",
+      "note": "保守估算一般常見網域（如 .com）年費約 60-70 美元，但未特別註明高價值字尾，故取中間值保守估算約 150-200 台幣價值，此處取保守整數 150。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-4",
@@ -4287,7 +4236,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "網域到期後需付費續約",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "學生可免費獲得價值付費的商品",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "依據 .TECH 網域常見零售價格約 10-20 美元/年估算",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-5",
@@ -4315,7 +4290,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "畢業或離開學校後資格可能失效",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示對學生提供免費的 GitHub Pro 方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "GitHub Pro 訂閱費約為每月 4 美元（學生理論價格可能更低或全免，以市場價估算），一年 12 個月約 48 美元，換算台幣約 1440 元；考慮到 Pro 版本功能較多，保守估算約 2500 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-6",
@@ -4343,7 +4349,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對學生的免費方案優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5400,
+      "basis": "ai-estimate",
+      "note": "假設一般付費方案（Plus）年費約40美元，保守估算一年價值約5400台幣（以1美元=13.5台幣計算）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-7",
@@ -4371,7 +4403,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-20T20:05:19.569Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案明確標示為面向已驗證學生提供，包含無限代碼補全與有限制的AI功能，屬於典型的學生專屬優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "根據一般開發工具市價，無限代碼補全及有限的AI互動功能對專業或學習者而言，保守估算其年度價值約為等值於30美元（約3000新臺幣）或以上的工具服務。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261120-8",
@@ -4483,6 +4546,178 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-20T18:06:38.985Z",
     "lastVerified": "2026-11-20",
     "risks": "3 個月後可能轉為付費",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261120-1",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域 Black Friday 促銷",
+    "category": "vps-cloud",
+    "summary": "特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、.shop 首年 $2.06（原價 $25.23）、.art 首年 $2.18（原價 $21.25）。部分擴充名提供「1st Yr Sale!」（首年特價）或一般「Sale!」（特價），價格顯著低於一般续费或注册價。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Porkbun 官方網站網域價格頁面",
+      "搜尋並選擇帶有「1st Yr Sale!」或「Sale!」標示的網域擴充名",
+      "將網域加入購物車並完成註冊"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
+    "lastVerified": "2026-11-20",
+    "risks": "首年優惠僅適用第一年，第二年续费將恢復一般價格（例如 .xyz 续费價為 $14.21，.blog 续费價為 $21.11），需注意自動續費成本。",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261120-2",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 WHOIS 隱私服務",
+    "category": "vps-cloud",
+    "summary": "提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊網域時，WHOIS 隱私服務通常已預設包含或可免費啟用"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261120-3",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 SSL 憑證",
+    "category": "vps-cloud",
+    "summary": "提供免費的 SSL 憑證服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Porkbun 平台設定網域並申請 SSL 憑證"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261120-4",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 Email 轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Porkbun 網域管理後台設定 Email 轉發"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261120-5",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 URL 轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Porkbun 網域管理後台設定 URL 轉發"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
+    "lastVerified": "2026-11-20",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261120-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic Games Store 每週免費遊戲",
+    "category": "software",
+    "summary": "可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Edition（原價 TWD $318.00）、Bread and Fred（原價 TWD $207.00）等遊戲",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往官方頁面",
+      "註冊或登入 Epic Games 帳號",
+      "點擊領取遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T20:06:58.862Z",
+    "lastVerified": "2026-11-20",
+    "risks": "遊戲需綁定於 Epic Games 帳號，一經領取無法退還",
     "status": "pending"
   }
 ]

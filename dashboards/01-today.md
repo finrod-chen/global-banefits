@@ -1,12 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T18:05:18.429Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T20:05:19.569Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Them's Fightin' Herds》（原價 $289.00 TWD） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Model Builder: Complete Edition》（原價 $318.00 TWD），包含基礎遊戲與所有 DLC | 約 TWD 318（AI 估） | 長期活動 | AI 預審通過 |
-| [Epic 每週免費遊戲：Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取遊戲《Bread and Fred》（原價 $207.00 TWD） | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
 | [Gate 新戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Event Contracts 限時交易競賽](https://www.gate.com/announcements) | Crypto | 新用戶首筆交易獎勵，最高可贏取獎勵（具體金額未明示） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate 2026 VIP Futures Elite Challenge Season 5](https://www.gate.com/announcements) | Crypto | 跨雙排行榜競爭 50,000 USDT 總獎金池，另有額外獎勵 | 約 TWD 1,600,000（AI 估） | 長期活動 | 待核實 |
@@ -44,15 +41,21 @@
 | [Wise 帳戶免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立 Wise 帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含 100 個項目、每個項目每月 100 CU-hrs、每個項目 1 GB 儲存空間、最大 2 CU (8 GB R | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業，提供最高 $100k 的額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 針對開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上 Microsoft Azure 雲端服務，以及 100 美元 Azure 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊免費 1 年；1 張 SSL 憑證免費 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 免費獲得一個指定網域（包括 .live, .studio, .software, .app, .dev 等 25 種以上延伸字尾）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 標準 .TECH 網域免費 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生身份期間免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education 方案（包含 Plus 方案功能、增强的分享與協作功能、更長頁面歷史）以及額外 AI 回應。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼補全、一定額度的 GitHub AI 積分，以及有限制的聊天與代理使用量（僅限自動模型選擇）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 針對開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上 Microsoft Azure 雲端服務，以及 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊免費 1 年；1 張 SSL 憑證免費 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 免費獲得一個指定網域（包括 .live, .studio, .software, .app, .dev 等 25 種以上延伸字尾）。 | 約 TWD 150（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 標準 .TECH 網域免費 1 年。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生身份期間免費使用 GitHub Pro。 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education 方案（包含 Plus 方案功能、增强的分享與協作功能、更長頁面歷史）以及額外 AI 回應。 | 約 TWD 5,400（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼補全、一定額度的 GitHub AI 積分，以及有限制的聊天與代理使用量（僅限自動模型選擇）。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可免費享用 3 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Heroku 每月額度回饋](https://education.github.com/pack) | 軟體/數位服務 | 每月獲得 13 美元額度，期限為 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生免費訂閱，需每年更新資格。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | Boot.dev 完整互動會員資格免費 3 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic Games Store 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Ed | 免費（價值視使用而定） | 長期活動 | 待核實 |
