@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T02:05:18.221Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-20T04:05:23.805Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -23,7 +23,7 @@
 | [DigitalOcean Reserved IP 免費配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | 當 Reserved IP 分配給 Droplet 時，該 IP 免費 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Droplet 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplet 方案包含免費出站數據傳輸，額度從每月 500 GiB 起 | 約 TWD 260,000（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean DNS 管理免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費 DNS 管理 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Container Registry 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表包含 1 個 repository 及 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Container Registry 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表包含 1 個 repository 及 500 MiB 儲存空間 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Cloud Firewalls 免費服務](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個月每個帳戶包含 25 個 secret-month 等值及 100K 次成功的檢索請求 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Uptime 免費監控次數](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check | 免費（價值視使用而定） | 長期活動 | 待核實 |
