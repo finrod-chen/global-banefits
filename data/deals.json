@@ -1840,112 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "openai-pricing-20261120-1",
-    "sourceId": "openai-pricing",
-    "name": "OpenAI ChatGPT 免費方案",
-    "category": "ai",
-    "summary": "提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 Codex 存取權限，以及有限的桌面版 ChatGPT Work 存取權限。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 ChatGPT 定價頁面",
-      "點擊 'Get Free' 按鈕"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
-    "lastVerified": "2026-11-20",
-    "risks": "免費方案的無限文字聊天受濫用防護限制。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T22:05:18.726Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目標明為「免費方案」（Free），屬於提供常態性免費額度或功能，符合 promotion 定義中的免費方案類別。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 450,
-      "basis": "ai-estimate",
-      "note": "以 Go 方案（未提供金額但功能較強）或 Plus 方案的市場價值為參考；免費方案提供有限的使用額度與基礎模型存取，保守估算其每月等效市場價值約為 150-200 TWD，一年約 1800-2400 TWD，但考慮到限制較多且部分功能（如進階模型）需付費，取較保守且保守估算一般使用者第一年能得到的價值為 450 TWD（約每季 100 TWD 的有效使用價值估算，因大量功能受限）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "openai-pricing-20261120-2",
-    "sourceId": "openai-pricing",
-    "name": "OpenAI ChatGPT 高等教育與 K-12 教師方案",
-    "category": "ai",
-    "summary": "頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特定群體定價類別。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 ChatGPT 定價頁面",
-      "選擇 'Higher Education' 或 'K-12 Teachers' 方案"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-20T20:45:47.160Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T22:05:18.726Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅列出了特定群體的導覽連結，未提供具體的優惠金額、折扣比例或免費額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Higher Education\nK–12 Teachers",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261121-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Network & CDN Free Plan",
@@ -4650,7 +4544,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "免費網域期限結束後可能產生費用",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供指定免費網域註冊給學生",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "保守估算一個一般商業/個人網域註冊費約為100美元(約3000台幣)，扣除了因限制於特定副域及可能的續費成本，估為2500台幣",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-3",
@@ -4678,7 +4603,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "額度用完後需付費使用超出部分",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供學生免費雲端服務存取權限與固定現金額度，屬於學生優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261121-4",
@@ -4706,7 +4664,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "網域到期後需付費續約",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費註冊 .TECH 網域一年，屬於新戶獎勵或學生優惠",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "以 .TECH 網域常規註冊費用約 10 美元估算，轉換成新台幣約 1000 元",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-5",
@@ -4734,7 +4725,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "學生身分失效後可能轉為付費方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提到學生可以免費或享有優惠價，屬於學生專屬優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261121-6",
@@ -4762,7 +4778,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "畢業或學生身分失效後，可能轉為付費方案",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供學生期間免費使用 GitHub Pro 的權益。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261121-7",
@@ -4790,7 +4833,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "學生身分失效後，方案可能轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "學生開發人員包內包含免費的 Notion Education 方案，屬學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "verified students",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "Notion Plus 方案每月約 10 美元，一年約 120 美元，加上 Education 方案的協作功能，保守估算約 1500 新臺幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-8",
@@ -4818,7 +4892,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "學生身分失效後，需訂閱付費方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對經核實學生提供的免費或包含特定配額的 GitHub Copilot 方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3600,
+      "basis": "ai-estimate",
+      "note": "GitHub Copilot 一般個人訂閱費約為 $10 USD/月，學生版雖有額度限制，保守估算其年價值約為 $30 USD（考慮到 AI Credits 與功能限制），換算成新台幣約 3600 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-9",
@@ -4847,7 +4952,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "3 個月後若未取消訂閱，將開始計費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T10:05:17.566Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "學生使用 GitHub 帳號可獲得 3 個月免費訂閱權益。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261121-10",
@@ -4991,6 +5121,64 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T07:46:01.756Z",
     "lastVerified": "2026-11-21",
     "risks": "未宣稱的專案將受到 100 MB 儲存空間與 1 GB 網路傳輸量的限制。",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261121-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT 免費方案",
+    "category": "ai",
+    "summary": "每月免費，包含 GPT-6 無限文字聊天、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶體與上下文、有限的 Codex 存取以及桌面端有限的 ChatGPT Work 存取。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往官方頁面",
+      "點選「Get Free」"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-21T10:05:47.756Z",
+    "lastVerified": "2026-11-21",
+    "risks": "無明確扣款或自動續約風險提示，但部分功能（如文字聊天、深度研究）受制於濫用防護機制 (abuse guardrails)。",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261121-2",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Pro 方案 API 額度",
+    "category": "ai",
+    "summary": "Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 ChatGPT Pro 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Pro 方案",
+      "於每月帳單週期內使用額度"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-21T10:05:47.756Z",
+    "lastVerified": "2026-11-21",
+    "risks": "額度上限依訂閱方案而定，非無限期無限量。",
     "status": "pending"
   }
 ]

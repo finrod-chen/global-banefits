@@ -1,11 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T08:05:20.204Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T10:05:17.566Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [OpenAI ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
-| [OpenAI ChatGPT 高等教育與 K-12 教師方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Network & CDN Free Plan](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月 $0，包含 DNS、無限量 DDoS 保護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損影像優化、AMP。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Zero Trust Free Plan](https://www.cloudflare.com/plans/) | VPS/雲服務 | 團隊版（50人以下）或企業概念驗證永久免費，每月 $0。包含社群論壇與 Discord 支援，標準日誌保留最多 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（$0），以及每請求 10ms 的 CPU 時間（$0）。超出部分為每百萬請求 $0.30，每百萬 CPU ms $ | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -52,16 +50,18 @@
 | [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊或等值金額時，Wise 將對其費用進行折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 存款回饋](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在英鎊、歐元及美元帳戶中賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Namecheap 免費 .me 域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年期 .me TLD 網域註冊免費，以及 1 張 SSL 證書免費使用 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 可使用超過 25 種網域副域（如 .live, .studio, .software, .app, .dev）中的指定免費網域建立專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 $100 Azure 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費註冊 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft 365 學生版](https://education.github.com/pack) | 軟體/數位服務 | 免費或優惠價存取內建 AI 的生產力應用、1TB 雲端儲存空間及進階安全功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 可使用超過 25 種網域副域（如 .live, .studio, .software, .app, .dev）中的指定免費網域建立專案。 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 $100 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費註冊 1 年。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
+| [Microsoft 365 學生版](https://education.github.com/pack) | 軟體/數位服務 | 免費或優惠價存取內建 AI 的生產力應用、1TB 雲端儲存空間及進階安全功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Pro 學生版](https://education.github.com/pack) | 軟體/數位服務 | 在學生期間免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Education Plan](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 Notion Education 方案，包含 Plus 方案所有功能、增強的分享與協作功能、更長的頁面歷史，以及額外的 AI 回應 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 經核實的學生可免費使用 GitHub Copilot Student，包含無限代碼補全、一定的 GitHub AI Credits 額度，以 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Education Plan](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 Notion Education 方案，包含 Plus 方案所有功能、增強的分享與協作功能、更長的頁面歷史，以及額外的 AI 回應 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 經核實的學生可免費使用 GitHub Copilot Student，包含無限代碼補全、一定的 GitHub AI Credits 額度，以 | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
+| [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 $13 USD 的額度，持續 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每專案 100 CU-hrs 計算資源、1 GB 儲存空間、5 GB 物件儲存空間、最多 100 個專案與無限團隊成員，無時間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創公司提供最高 10 萬美元的信用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助，維持您管理的開源專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可立即獲得 Postgres 專案，未宣稱專案受限於 100 MB 儲存空間與 1 GB 網路傳輸量，需在 72 小時內宣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 每月免費，包含 GPT-6 無限文字聊天、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶體與上下文、有限的 Co | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT Pro 方案 API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
