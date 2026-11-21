@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T07:43:49.813Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T08:05:20.204Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,6 +29,6 @@
 | [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可享有特定 Google AI 方案最高 50% 的折扣優惠 | 約 TWD 16（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 10 美元 Google Cloud 額度（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 40 美元 Google Cloud 額度（來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示數字 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示數字 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示 | 約 TWD 4,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

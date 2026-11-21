@@ -1840,309 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "porkbun-domains-20261120-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域 Black Friday 促銷",
-    "category": "vps-cloud",
-    "summary": "特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、.shop 首年 $2.06（原價 $25.23）、.art 首年 $2.18（原價 $21.25）。部分擴充名提供「1st Yr Sale!」（首年特價）或一般「Sale!」（特價），價格顯著低於一般续费或注册價。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Porkbun 官方網站網域價格頁面",
-      "搜尋並選擇帶有「1st Yr Sale!」或「Sale!」標示的網域擴充名",
-      "將網域加入購物車並完成註冊"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
-    "lastVerified": "2026-11-20",
-    "risks": "首年優惠僅適用第一年，第二年续费將恢復一般價格（例如 .xyz 续费價為 $14.21，.blog 续费價為 $21.11），需注意自動續費成本。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T20:45:08.243Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示特定網域擴充名為「first year sale」（首年優惠），價格顯著低於原價，屬於限時折扣或促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Amazing prices, always and forever\n.COM from $11.81\n.NET from $12.52\n.ORG from $7.98\nTrending\nAll Extensions\nThese are some of the hottest extensions around.\n.inc\n257.98 first year sale\n$2,060.25 regular price\n.xyz\n1.29 first year sale\n$14.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 30,
-      "basis": "ai-estimate",
-      "note": "以頁面最低價的 .xyz 首年 $1.29 換算新台幣約 39 元，保守取整估算為 30 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "porkbun-domains-20261120-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 WHOIS 隱私服務",
-    "category": "vps-cloud",
-    "summary": "提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊網域時，WHOIS 隱私服務通常已預設包含或可免費啟用"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T20:45:08.243Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "草稿描述的是免費服務，屬於免費額度或功能。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free WHOIS Privacy",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261120-3",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 SSL 憑證",
-    "category": "vps-cloud",
-    "summary": "提供免費的 SSL 憑證服務。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 平台設定網域並申請 SSL 憑證"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T20:45:08.243Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示提供免費的 SSL 憑證服務。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free SSL Certificates",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261120-4",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 Email 轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 網域管理後台設定 Email 轉發"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T20:45:08.243Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面將免費 Email 轉發列為常態的零元功能項目，而非限時或特例性的促銷優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Email Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261120-5",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 URL 轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Porkbun 網域管理後台設定 URL 轉發"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-20T20:06:41.239Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T22:05:18.726Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示該功能為免費，屬於免費服務或額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free URL Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261120-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic Games Store 每週免費遊戲",
-    "category": "software",
-    "summary": "可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Edition（原價 TWD $318.00）、Bread and Fred（原價 TWD $207.00）等遊戲",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往官方頁面",
-      "註冊或登入 Epic Games 帳號",
-      "點擊領取遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-20T20:06:58.862Z",
-    "lastVerified": "2026-11-20",
-    "risks": "遊戲需綁定於 Epic Games 帳號，一經領取無法退還",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T22:05:18.726Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面顯示價格未變且無明確免費領取時間表，不符合促銷特徵",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"title\":\"Bread and Fred\"...\"fmtPrice\":{\"originalPrice\":\"$207.00\",\"discountPrice\":\"$207.00\",\"intermediatePrice\":\"$207.00\"}",
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "openai-pricing-20261120-1",
     "sourceId": "openai-pricing",
     "name": "OpenAI ChatGPT 免費方案",
@@ -4312,8 +4009,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-21T04:07:14.037Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "reviewAttempts": 1
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費方案，符合「免費方案或額度」定義",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 per member / month\nFor individuals to organize personal projects and life.\nSign up\nIncludes:\nTrial AI capabilities like generating docs, or autofilling databases\nTrial of Notion AI\nCapture, organize, and act on responses right insid",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261121-1",
@@ -4528,7 +4244,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-21T06:05:44.323Z",
     "lastVerified": "2026-11-21",
     "risks": "需符合資格的手機裝置",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是付費訂閱方案中包含的常態權益，並非獨立的限時促銷或免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required).",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Includes Gemini 4 Neon\nGoogle AI Pro\n/mo\n5 TB storage\nCreate faster and get more done with four times more access to Gemini\nGet Pro\nTerms apply 1\n...",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "頁面未顯示 Google Health Premium 具體價值，估算基於類似健康訂閱服務月費約 $10 USD (約 330 TWD) 乘以 12 個月。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gemini-plans-20261121-5",
@@ -4556,7 +4305,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-21T06:05:44.323Z",
     "lastVerified": "2026-11-21",
     "risks": "需符合資格的手機裝置",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "訂閱特定高級付費方案時贈送額外的第三方訂閱權益",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4000,
+      "basis": "ai-estimate",
+      "note": "頁面顯示金額被替換符號遮蔽，保守假設該增值服務每月價值約為1-2美元，以一年12個月估算總價值約為12-24美元，換算成新台幣約4000元",
+      "confidence": "low"
+    }
   },
   {
     "id": "copilot-plans-20261121-2",
@@ -4585,7 +4365,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-21T06:06:23.064Z",
     "lastVerified": "2026-11-21",
     "risks": "僅限核實後的學生，畢業後可能失去資格",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確指出經核實的學生可存取免費的學生方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Verified students have access to the GitHub Copilot Student plan.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261121-1",
@@ -4614,7 +4419,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-21T07:44:15.551Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供免費開啟帳戶的方案 (Open a free account)。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "Money without borders",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261121-2",
@@ -4642,7 +4474,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-21T07:44:15.551Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面說明大額匯款（超過20,000英鎊）可獲得費用折扣，但未明確標示為限時活動或新戶獎勵，可能屬於常態定價機制或大型匯款專屬方案。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261121-3",
@@ -4671,7 +4530,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-21T07:44:15.551Z",
     "lastVerified": "2026-11-21",
     "risks": "資金價值可能因政府違約或負利率而減少；當前利率不保證未來表現；可變利率基於 7 天表現（截至 2026-10-11）；可能徵收稅項。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的帳戶存款計息產品，並非限時優惠或免費額度",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn a return on your everyday balance by opting in to Wise Assets. 1 Find out more\nOffered by Wise Assets UK\nMoney can decrease in value if governments default or interest rates go negative. Current rates do not guarantee future performanc",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "by opting in to Wise Assets",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Offered by Wise Assets UK",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261121-1",
@@ -4699,7 +4590,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T07:45:09.917Z",
     "lastVerified": "2026-11-21",
     "risks": "域名和SSL到期後需自行付費續約",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T08:05:20.204Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠僅提供給經核實身分的學生，屬於學生專屬的免費贈案與額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 year domain name registration on the .me TLD.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "保守估算 1 年 .me 網域註冊費約 $12 USD 與 1 年 SSL 證書約 $20 USD，合計約 $32 USD，換算成新台幣約 300 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-2",

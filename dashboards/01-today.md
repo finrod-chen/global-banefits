@@ -1,15 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T07:43:49.813Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T08:05:20.204Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、 | 約 TWD 30（AI 估） | 長期活動 | AI 預審通過 |
-| [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Epic Games Store 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Ed | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [OpenAI ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
 | [OpenAI ChatGPT 高等教育與 K-12 教師方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Network & CDN Free Plan](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月 $0，包含 DNS、無限量 DDoS 保護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損影像優化、AMP。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -47,17 +41,17 @@
 | [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月每個帳單帳戶包含 25 個 secret-month equivalents 及 100,000 次成功的撈取請求（retrieval  | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面 FAQ 提及「How does the $5 free credit work...」，暗示提供 $5 的免費額度。 | 約 TWD 165（AI 估） | 長期活動 | 待核實 |
 | [Setapp 免費試用與 AI 額度活動](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，並附帶 AI 額度：Mac 方案含 1,000 點、Mac + iOS 方案含 1,000 點、Power User  | 約 TWD 32（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供免費方案，每會員每月 $0。包含 Notion AI 測試版、基本表格、建立 Notion 網站、日曆整合、資料庫功能（含子任務、依賴關 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供免費方案，每會員每月 $0。包含 Notion AI 測試版、基本表格、建立 Notion 網站、日曆整合、資料庫功能（含子任務、依賴關 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可享有特定 Google AI 方案最高 50% 的折扣優惠 | 約 TWD 16（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 10 美元 Google Cloud 額度（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 40 美元 Google Cloud 額度（來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示數字 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示數字 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示 | 約 TWD 4,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶，享有超低匯率轉換費，無不公平匯率。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊或等值金額時，Wise 將對其費用進行折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 存款回饋](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在英鎊、歐元及美元帳戶中賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 免費 .me 域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年期 .me TLD 網域註冊免費，以及 1 張 SSL 證書免費使用 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 免費 .me 域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年期 .me TLD 網域註冊免費，以及 1 張 SSL 證書免費使用 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
 | [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 可使用超過 25 種網域副域（如 .live, .studio, .software, .app, .dev）中的指定免費網域建立專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 $100 Azure 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費註冊 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
