@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T22:05:18.726Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T00:05:17.029Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,3 +26,12 @@
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發功能，將網域郵件轉發至指定地址。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能，將網域流量導向至指定目標網頁。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Network & CDN Free Plan](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月 $0，包含 DNS、無限量 DDoS 保護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損影像優化、AMP。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Zero Trust Free Plan](https://www.cloudflare.com/plans/) | VPS/雲服務 | 團隊版（50人以下）或企業概念驗證永久免費，每月 $0。包含社群論壇與 Discord 支援，標準日誌保留最多 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求（$0），以及每請求 10ms 的 CPU 時間（$0）。超出部分為每百萬請求 $0.30，每百萬 CPU ms $ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間，以及 1 TB 北美/歐洲網路輸出 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求、13,000 GB-s 持續時間、5000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存數 | 約 TWD 45,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時間，最多 3 個並行瀏覽器。 | 約 TWD 5,357（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workflows Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 萬次請求、10ms/調用的 CPU 時間、1 GB 儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare R2 Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB 標準儲存空間、100 萬次 Class A 操作、1000 萬次 Class B 操作。無輸出流量費用。 | 約 TWD 100（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV Free Tier](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存數據、每日 10 萬次讀取請求、每日 1,000 次寫入/刪除/列出請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

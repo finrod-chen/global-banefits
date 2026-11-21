@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-20T22:05:18.726Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T00:05:17.029Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,3 +26,5 @@
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 13,170（AI 估） | 長期活動 | AI 預審通過 |
 | [OpenAI ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限文字聊天（受濫用防護限制）、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
 | [OpenAI ChatGPT 高等教育與 K-12 教師方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 頁面列出 'Higher Education' 與 'K-12 Teachers' 專屬方案選項，但未顯示具體免費金額或折扣數字，僅標示為特 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday 年度方案折扣](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣。Creator 年度方案售價為 $99（通常為 $22/月 × 12），Pro 新用戶可獲 55% 折扣，已訂閱 Pro | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
+| [ElevenLabs 免費方案額度](https://elevenlabs.io/pricing) | AI 工具 | 每月 10,000 credits；可進行 3 個 Studio 專案；支援免費 Text to Speech、Speech to Text | 免費（價值視使用而定） | 長期活動 | 待核實 |
