@@ -1840,742 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "esun-card-offers-20261120-1",
-    "sourceId": "esun-card-offers",
-    "name": "玉山雙11購物盛典",
-    "category": "banking",
-    "summary": "最高享9,800元回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-01",
-    "endDate": "2026-11-30",
-    "ongoing": false,
-    "steps": [
-      "使用玉山信用卡購物",
-      "點擊「了解更多」查看具體回饋規則"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "為特定日期內的限時購物回饋活動",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山雙11購物盛典，最高享9,800元回饋",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "2026/11/1~2026/11/30",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 10016,
-      "basis": "ai-estimate",
-      "usd": 313,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確標示最高回饋金額，無需估算",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261120-2",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳地價稅",
-    "category": "banking",
-    "summary": "最高享0.2%玉山e point回饋或3期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山信用卡繳納地價稅"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對特定消費（地價稅）提供的回饋與分期優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "最高享0.2%玉山e point回饋或3期0利率",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261120-3",
-    "sourceId": "esun-card-offers",
-    "name": "玉山環球賞",
-    "category": "banking",
-    "summary": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "指定萬事達卡啟用",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "啟用指定的玉山萬事達卡"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此優惠僅針對「指定萬事達卡」的新戶啟用提供，屬於新戶獎勵類別。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山指定萬事達卡啟用優惠",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "esun-card-offers-20261120-4",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡 繳學費",
-    "category": "banking",
-    "summary": "滿額登錄享最高6期0利率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "滿額登錄",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山信用卡繳費",
-      "進行滿額登錄"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供最高6期0利率分期，屬於限時的付費方案優惠（免手續費/利率）。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "滿額登錄享最高6期0利率！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "滿額登錄",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 20000,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者學費約40,000至60,000元，利用0利率分期相較於一般循環利率（約5.88%-15%）節省約1-2個月的利息成本，估算價值約2,000-5,000元，取保守值或中等值，但由於學費金額差異大，此處為估算範圍內的一個保守估算值（假設學費5萬，6期0利率比6期一般利率（年息約6-12%換算期息）省下來的利息，6期一般利率期息率約0.5%-1%，6期總息費約0.5%-1%*本金*6，若按6%年息算，期息率0.43%，6期總息約2.6%本金。若學費5萬，省下約1300元。若按更高額度估算，這裡給一個相對合理的整數估算值，考慮到「最高」二字可能暗示額度或回饋上限，但此处是利率，故估算為",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261120-5",
-    "sourceId": "esun-card-offers",
-    "name": "玉山信用卡綁定全支付",
-    "category": "banking",
-    "summary": "繳稅費享3%全點回饋",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "綁定全支付",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "綁定全支付帳戶",
-      "繳納稅費"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "特定行動（綁定）提供百分比返點，屬於消費回饋類優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "繳稅費享3%全點回饋",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "玉山信用卡綁定全支付",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 300,
-      "basis": "ai-estimate",
-      "note": "假設年繳稅費約10,000元，以3%回饋計算，價值約300元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "esun-card-offers-20261120-6",
-    "sourceId": "esun-card-offers",
-    "name": "Trip.com 訂房優惠",
-    "category": "banking",
-    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "JCB卡限日本飯店",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用玉山JCB卡在Trip.com預訂日本飯店",
-      "或使用玉山Visa卡在Trip.com訂房"
-    ],
-    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-20T12:06:20.454Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T14:05:17.815Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出信用卡特定品牌的訂房折扣，屬於消費回饋與折扣活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-startups-credits-20261120-1",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Activate Credits",
-    "category": "vps-cloud",
-    "summary": "提供最高 20 萬美元的 AWS 帳戶信用額度。自我資金創新的新創最高可獲得 5,000 美元信用額度；由 VC 或加速器投資的 Pre-Series B 新創最高可獲得 20 萬美元信用額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須處於 Pre-series B 融資階段；成立年限在 10 年內；AWS 帳戶必須使用付費計費方案 (Paid Tier Plan)；且必須是首次申請 Activate 額度或申請高於以往已獲得的額度。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "建立並驗證 AWS Builder ID",
-      "選擇適當的信用額度層級（自我資金或透過投資方的 Org ID 申請）",
-      "填寫新創的產品、融資階段和企業概況資訊",
-      "連結 AWS 帳戶並提交申請"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
-    "lastVerified": "2026-11-20",
-    "risks": "額度為美元 (USD) 且受 AWS Promotional Credit Terms & Conditions 約束。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T16:05:19.545Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供最高 20 萬美元的信用額度（Credits）給合格的新創公司，屬於免費方案或額度獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "20"
-      ]
-    }
-  },
-  {
-    "id": "aws-startups-credits-20261120-2",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Credits for AI Startups",
-    "category": "vps-cloud",
-    "summary": "提供 20 萬美元以上的 AWS 帳戶信用額度，專為準備擴展的 AI 新創設計。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "僅限受邀 (Invite only) 且已準備好擴展 (ready to scale) 的 AI 新創；此方案適用於已完成 Activate Portfolio 的新創。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "聯絡您的 AWS 帳戶經理 (Account Manager) 進行溝通"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
-    "lastVerified": "2026-11-20",
-    "risks": "所有 AWS Activate 額度均為美元且受 AWS Promotional Credit Terms & Conditions 約束。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T16:05:19.545Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確列出提供特定金額（$200,000+）的 AWS 帳戶信用額度。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio $200,000+ in AWS Credits",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "AWS Credits for AI Startups Invite only for startups ready to scale post Activate Portfolio",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "20"
-      ]
-    },
-    "valueEstimate": {
-      "twd": 6400000,
-      "basis": "explicit-amount",
-      "usd": 200000,
-      "quote": "$200,000+ in AWS Credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "aws-startups-credits-20261120-3",
-    "sourceId": "aws-startups-credits",
-    "name": "Kiro Startup Credits",
-    "category": "vps-cloud",
-    "summary": "提供 Kiro 新創信用額度，讓符合資格的沒有目前 Activate Credits 的新創可以開始使用 Kiro 開發環境，並可進一步擴展至 Activate Credits。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須是符合資格的新創；目前未擁有 Activate Credits。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往官方頁面申請 Kiro Startup Credits"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-20T12:06:58.497Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T16:05:19.545Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此優惠提供特定的信用額度以協助新創公司進行開發與擴展，屬於新創獎勵方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Available to eligible startups without current Activate Credits",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261120-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 7 天免費試用",
-    "category": "software",
-    "summary": "提供 7 天免費試用，試用期間內 Mac 與 Mac + iOS 方案附 1,000 AI 積分，Power User 方案附 2,000 AI 積分。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需綁定信用卡（頁面提到 Secure payment encryption 及常見之付費訂閱模式，但頁面文字未明確寫出「需綁卡」，故依規則填 null；然而試用結束後通常會自動轉為付費，此為常見風險，非顯性參與條件，故填 null）。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇方案（Mac、Mac + iOS 或 Power User）",
-      "點擊 'Start 7-day free trial'"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-20T14:05:46.602Z",
-    "lastVerified": "2026-11-20",
-    "risks": "試用期滿後可能自動轉為付費訂閱（頁面提及 'Cancel anytime'，暗示需手動取消以避免扣費）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T16:05:19.545Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供 7 天免費試用，符合試用類型的定義。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Start 7-day free trial 1,000 AI credits",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "setapp-pricing-20261120-2",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 年繳節省 40%",
-    "category": "software",
-    "summary": "年繳方案最高可節省 40% 的費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇年繳方案"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-20T14:05:46.602Z",
-    "lastVerified": "2026-11-20",
-    "risks": "年繳為長期承諾，取消可能無法按比例退款（頁面未明確說明退款政策）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T18:05:18.429Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面展示的是常態的年繳價格方案，並標註年繳比月繳最高可節省 40%，屬於一般定價機制而非限時促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 40% yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261120-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "每人每月 $0，可試用 Notion AI 功能、基本表單、基礎網站、日曆功能及資料庫（含子任務、依賴關係等）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點選 Free 方案的 Sign up"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-20T14:06:04.195Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-20T18:05:18.429Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供免費方案讓使用者可以無成本使用 Notion 的核心功能並試用 AI。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\n$0 per member / month",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261120-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳折扣",
-    "category": "software",
-    "summary": "選擇年繳可節省最多 20% 費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇年繳付款模式",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在付款模式選擇中選取 Pay yearly"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-20T14:06:04.195Z",
-    "lastVerified": "2026-11-20",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-20T18:05:18.429Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態的計價結構，年繳方案固定比月繳方案便宜最多 20%。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Select payment mode: Pay yearly",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 4680,
-      "basis": "ai-estimate",
-      "note": "以 Plus 方案月繳 $10 計算，年繳價 $96，節省金額 $12/年，約合台幣 $374。以 Business 方案月繳 $20 計算，年繳價 $192，節省金額 $24/年，約合台幣 $748。此處取 Business 方案節省額之保守估值。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "copilot-plans-20261120-2",
     "sourceId": "copilot-plans",
     "name": "GitHub Copilot 學生優惠",
@@ -4462,62 +3726,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261121-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 聖誕節存款抽獎活動",
-    "category": "crypto",
-    "summary": "每存入 1 歐元即可獲得 1 次抽獎機會，有機會贏得 500,000 歐元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-20",
-    "endDate": "2026-01-07",
-    "ongoing": false,
-    "steps": [
-      "報名參加",
-      "將資產轉入帳戶或進行存款"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T02:05:43.118Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-21T02:05:17.276Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供存款抽獎，屬於限時新戶獎勵與額度。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Win €500,000 this holiday season: every euro you deposit is an entry",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "your entries add up until January 7",
-          "found": true
-        }
-      ],
-      "flags": [
-        "expired"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "kraken-blog-20261121-2",
     "sourceId": "kraken-blog",
     "name": "Kraken Pro ANTx 交易獎賞活動",
@@ -4847,7 +4055,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T02:05:43.118Z",
     "lastVerified": "2026-11-21",
     "risks": "使用最高 10 倍槓桿交易有較高風險",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此活動提供以交易量排名分享獎金池的機會，屬於新戶獎勵或限時促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Pre-IPO Challenge: Trade OURAx and MOONSHOTx Perps for a share of $10,000 USDG\nEnroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, then trade the OURAx and MOONSHOTx Perps on Kraken Pro with up to 10x leverage. Your trading volume decides your rank.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "$10,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261121-8",
@@ -4876,7 +4117,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T02:05:43.118Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個結合代碼註冊與最低交易額要求的限時活動，提供實體獎品作為獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Meet an Atlassian Williams F1 Team driver at the United States GP\nSign up with code AUSTIN, trade $1 or more in volume, and you could meet an Atlassian Williams F1 Team driver face-to-face at Circuit of the Americas (COTA) this October.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up with code AUSTIN, trade $1 or more in volume",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "根據一般商業機密的估值，能與F1車手會面及參加活動的價值約為數千美元，保守換算為新台幣5000元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "racknerd-specials-20261121-1",
@@ -4906,7 +4178,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T02:06:18.691Z",
     "lastVerified": "2026-11-21",
     "risks": "促銷活動有明確的倒數計時限制，需在時間內完成訂單。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為「Black Friday 2026 Hosting Deals」，並提供特定規格的年費優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Black Friday VPS Deals",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261121-2",
@@ -4935,7 +4227,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T02:06:18.691Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為 Black Friday 特價活動，並提供免費的 Clientexec 授權作為附加價值。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Clientexec License",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Order Now",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "racknerd-specials-20261121-3",
@@ -4965,7 +4284,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T02:06:18.691Z",
     "lastVerified": "2026-11-21",
     "risks": "此功能依賴於已購買的 VPS 服務，單獨無法使用。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提到 AdminBolt 提供 30 天免費試用（30-day free trial），符合試用類型定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AdminBolt is a modern, affordable hosting control panel that brings website, email, DNS, SSL, WordPress, and database management together in one easy-to-use interface. Install AdminBolt in one click through ctrl and enjoy a 30-day free tria",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM\nInstalls on AlmaLinux 9",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 400,
+      "basis": "ai-estimate",
+      "note": "依據頁面列出的 VPS 起價 $15.98/year（約折合 527 台幣），扣除 30 天試用品需扣除的硬體成本，保守估算剩餘 335 天價值約 380-400 台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "supabase-pricing-20261121-1",
@@ -4994,7 +4344,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-21T02:06:55.122Z",
     "lastVerified": "2026-11-21",
     "risks": "專案長期不活躍（超過 1 週）將被自動暫停。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是 Supabase 的免費方案，提供免費的使用額度給使用者，屬於免費方案的性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$ 0\n/ month\nStart for Free Free projects are paused after 1 week of inactivity.\nLimit of 2 active projects.\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB c",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261121-2",
@@ -5023,7 +4398,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-21T02:06:55.122Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一項隨 Pro 方案訂閱而來的常態性計算資源額度，而非有限時期限或額外獲取的促銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "First project included. Additional from $10/mo. See how pricing scales\nEverything in the Free Plan, plus:",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10/mo in compute credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "humble-bundle-20261121-1",
@@ -5052,7 +4462,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-21T02:07:30.041Z",
     "lastVerified": "2026-11-21",
     "risks": "訂閱服務可能產生自動續約費用",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T04:05:18.330Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Humble Choice 的常態會員訂閱定價機制，包含月費與年繳優惠，並非限時的促銷活動或免費額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get great games every month with Humble Choice for only \n$14.99\n... Members save up to 20% in our store, including hot new releases\n5% of your Humble Choice membership supports charity\nPay less than $13 USD per month with an annual plan and",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2150,
+      "basis": "ai-estimate",
+      "note": "依據年繳方案每月低於 $13 USD（約 $130 USD/年）估算，轉換為新台幣約 40 元/月 * 12 個月 * 53.75 匯率（約 2150 元），僅計入成本端而未計入遊戲價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "humble-bundle-20261121-2",
@@ -5081,6 +4520,339 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-21T02:07:30.041Z",
     "lastVerified": "2026-11-21",
     "risks": "價格自訂可能高於預期成本，需留意自訂金額",
+    "status": "pending"
+  },
+  {
+    "id": "aws-startups-credits-20261121-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Credits",
+    "category": "vps-cloud",
+    "summary": "提供最高 $200,000 美元的新創額度。Activate Founders 層級提供最高 $5,000 美元（起跳 $1,000 美元）；Activate Portfolio 層級提供最高 $200,000 美元；AI 新創公司（邀請制）提供 $200,000 美元以上額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須為 Pre-series B 之前的階段、成立 10 年內、使用付費階層 AWS 帳戶、且為新申請 Activate Credits 或申請額度高於先前獲得者。Activate Portfolio 需持有加速機構或風投提供的 Organization ID (Org ID)。AI 新創額度僅限受邀者在完成 Activate Portfolio 後申請。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵件建立或登入 AWS Builder ID",
+      "選擇適合的額度層級（自助新創選 Founders，受風投或加速機構支持選 Portfolio 並使用 Org ID）",
+      "提供新創產品、資金階段及公司資料以確認資格",
+      "連結 AWS 帳戶並提交申請",
+      "等待 5-10 個工作日的回覆"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-21T04:05:44.845Z",
+    "lastVerified": "2026-11-21",
+    "risks": "額度適用 AWS 促銷額度條款與細則；AI 新創額度需透過客戶經理溝通並基於工作負載規模決定。",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-1",
+    "sourceId": "esun-card-offers",
+    "name": "玉山雙11購物盛典",
+    "category": "banking",
+    "summary": "最高享9,800元回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-01",
+    "endDate": "2026-11-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-2",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡繳地價稅",
+    "category": "banking",
+    "summary": "最高享0.2%玉山e point回饋或3期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-3",
+    "sourceId": "esun-card-offers",
+    "name": "玉山環球賞",
+    "category": "banking",
+    "summary": "玉山指定萬事達卡啟用優惠最高20%現金回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "指定萬事達卡",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-4",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡繳學費",
+    "category": "banking",
+    "summary": "滿額登錄享最高6期0利率",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "滿額登錄",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-5",
+    "sourceId": "esun-card-offers",
+    "name": "玉山信用卡綁定全支付",
+    "category": "banking",
+    "summary": "繳稅費享3%全點回饋",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "綁定全支付",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "esun-card-offers-20261121-6",
+    "sourceId": "esun-card-offers",
+    "name": "Trip.com 玉山信用卡訂房",
+    "category": "banking",
+    "summary": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "日本",
+      "全球"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-21T04:06:19.528Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261121-1",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 免費額度與基礎方案",
+    "category": "vps-cloud",
+    "summary": "App Platform 每月 $0 起；Functions 每月 $0 起，每月免費使用 90,000 GiB-seconds；Container Registry 每月 $0 起（含 1 個 repository 及 500 MiB 儲存空間）；VPC 每月 $0 起（建立 VPC 免費、VPC 內資料傳輸免費）；Uptime 每月 $0 起（每個帳戶每月含 1 次 Uptime Check）；CSPM 每月 $0 起；Support Plans 每月 $0 起；Droplets 含每月 500 GiB 免費傳出資料流量；免費 DNS 管理；免費雲防火牆；Kubernetes 控制平面免費且含免費頻寬額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 DigitalOcean 帳戶並設定付款方式",
+      "依需求選擇並啟用對應產品（如 App Platform, Functions, VPC, 或 Kubernetes）"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-21T04:06:38.874Z",
+    "lastVerified": "2026-11-21",
+    "risks": "部分產品標註為「Starting at $0」，實際費用可能隨資源用量（如 CPU、記憶體、儲存空間或超出免費配額的 API 呼叫）而增加，需留意監控帳單以避免超支。",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261121-2",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean Secrets Manager 免費額度",
+    "category": "vps-cloud",
+    "summary": "每月每個帳單帳戶包含 25 個 secret-month equivalents 及 100,000 次成功的撈取請求（retrieval requests）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "啟用 Secrets Manager 服務"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-21T04:06:38.874Z",
+    "lastVerified": "2026-11-21",
+    "risks": "超出每月免費額度後，額外費用為每月每個 secret $0.40，以及每 10,000 次成功撈取請求 $0.05。",
+    "status": "pending"
+  },
+  {
+    "id": "digitalocean-pricing-20261121-3",
+    "sourceId": "digitalocean-pricing",
+    "name": "DigitalOcean 新戶 $5 免費額度",
+    "category": "vps-cloud",
+    "summary": "頁面 FAQ 提及「How does the $5 free credit work...」，暗示提供 $5 的免費額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊帳戶並綁定信用卡以啟用額度"
+    ],
+    "officialUrl": "https://www.digitalocean.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-21T04:06:38.874Z",
+    "lastVerified": "2026-11-21",
+    "risks": "頁面內容截斷，未顯示具體的有效期限、綁卡要求或消費門檻，實際規則請參考官方最新公告。",
+    "status": "pending"
+  },
+  {
+    "id": "setapp-pricing-20261121-1",
+    "sourceId": "setapp-pricing",
+    "name": "Setapp 免費試用與 AI 額度活動",
+    "category": "software",
+    "summary": "提供 7 天免費試用，並附帶 AI 額度：Mac 方案含 1,000 點、Mac + iOS 方案含 1,000 點、Power User 方案含 2,000 點。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需註冊並啟動 7 天免費試用，試用結束後將開始依方案月費扣款（月費分別為 $14.99、$18.99、$22.99 美元，另加稅）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Setapp 訂閱方案（Mac、Mac + iOS 或 Power User）",
+      "點擊「Start 7-day free trial」啟動 7 天免費試用",
+      "在試用期間內使用並體驗方案內含的應用與 AI 額度"
+    ],
+    "officialUrl": "https://setapp.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-21T04:06:56.804Z",
+    "lastVerified": "2026-11-21",
+    "risks": "免費試用結束後將自動轉為付費訂閱並按月扣款，若不想付費需手動取消訂閱,未列明是否需要在試用前綁定信用卡，但試用結束後會自動續約",
+    "status": "pending"
+  },
+  {
+    "id": "notion-pricing-20261121-1",
+    "sourceId": "notion-pricing",
+    "name": "Notion 免費方案",
+    "category": "software",
+    "summary": "提供免費方案，每會員每月 $0。包含 Notion AI 測試版、基本表格、建立 Notion 網站、日曆整合、資料庫功能（含子任務、依賴關係、自訂屬性）。檔案上傳限制為每個檔案 5 MB。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Notion 定價頁面",
+      "點擊「Sign up」註冊免費帳號"
+    ],
+    "officialUrl": "https://www.notion.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-21T04:07:14.037Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]
