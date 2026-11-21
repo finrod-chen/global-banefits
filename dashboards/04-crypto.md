@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T10:05:17.566Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T12:05:17.978Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,3 +20,4 @@
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、真實世界資產及加密期貨，可爭奪高達 5,000,000 美元 USD | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO Perps 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 OURAx 和 MOONSHOTx Perps（最高 10 倍槓桿），依交易量排名分享 10,000 美元  | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken 美國 GRAND 站 F1 會面獎品](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並進行至少 1 美元交易體量，即有機會在美國 GRAND 站與 Atlassian Williams F1 車手 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [KuCoin Earn Friday Week 139](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% APR | 免費（價值視使用而定） | 長期活動 | 待核實 |

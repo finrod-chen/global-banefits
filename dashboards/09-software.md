@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T10:05:17.566Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T12:05:17.978Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -19,4 +19,4 @@
 | [Notion Education Plan](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 Notion Education 方案，包含 Plus 方案所有功能、增強的分享與協作功能、更長的頁面歷史，以及額外的 AI 回應 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 經核實的學生可免費使用 GitHub Copilot Student，包含無限代碼補全、一定的 GitHub AI Credits 額度，以 | 約 TWD 3,600（AI 估） | 長期活動 | AI 預審通過 |
 | [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 $13 USD 的額度，持續 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 $13 USD 的額度，持續 24 個月。 | 約 TWD 9,504（AI 估） | 長期活動 | AI 預審通過 |
