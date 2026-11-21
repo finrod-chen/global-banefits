@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T18:05:17.325Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T19:49:32.761Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,5 +29,4 @@
 | [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
 | [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面導航提供「Students」連結及「v0 for Students」產品條目，但未明確標註具體折扣數字或免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google Black Friday 會員提前預購折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 部分 Google AI 方案最高可享 50% 折扣 | 約 TWD 24,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 用量享 30% 折扣。 | 約 TWD 10（AI 估） | 2025-11-30 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經過驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
