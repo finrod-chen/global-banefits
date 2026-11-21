@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T16:05:17.313Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T18:05:17.325Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -14,7 +14,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [KuCoin Earn Friday Week 139](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% APR | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken 節慶存款抽獎活動](https://blog.kraken.com/) | Crypto | 節慶期間，每存入 1 歐元即可獲得 1 個抽獎名額，總獎 pool 為 500,000 歐元，一名獲獎者將贏得 500,000 歐元。 | 免費（價值視使用而定） | 2026-01-07 | 待核實 |
 | [Kraken Pro ANTx 交易挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 平台交易 ANTx（追蹤 Anthropic 股價）可參與總獎金 5,000 美元的分潤活動。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 報名後，存入 1,000 美元法幣並通過四個階梯式交易里程碑，最高可獲得 100 美元 BTC。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
 | [Kraken Anthropic 預 IPO 挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTHROPICX（最多 10 倍槓桿），依據交易量排名，分潤總計 20,000 美元的 ANTHROPI | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |

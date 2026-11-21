@@ -1988,5 +1988,68 @@
     "status": "expired",
     "archivedAt": "2026-11-21T14:05:17.237Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261121-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 節慶存款抽獎活動",
+    "category": "crypto",
+    "summary": "節慶期間，每存入 1 歐元即可獲得 1 個抽獎名額，總獎 pool 為 500,000 歐元，一名獲獎者將贏得 500,000 歐元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須報名活動並入金資產至帳戶。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-20",
+    "endDate": "2026-01-07",
+    "ongoing": false,
+    "steps": [
+      "報名活動",
+      "將資產帶入 Kraken 帳戶或向帳戶充值"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
+    "lastVerified": "2026-11-21",
+    "risks": "這是一個抽獎活動，中獎機率未明確標示，且仅有一人獲獎。",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-21T16:05:17.313Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時節慶活動，透過入金累積抽獎名額以贏取高額現金大獎。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Win €500,000 this holiday season: every euro you deposit is an entry\nTL;DR This holiday season, one client wins €500,000. Every euro you deposit is an entry.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, bring your assets to us, and your entries add up until January 7.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "your entries add up until January 7.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "archivedAt": "2026-11-21T18:05:17.325Z",
+    "archiveReason": "endDate passed"
   }
 ]

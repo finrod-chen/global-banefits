@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T16:05:17.313Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T18:05:17.325Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,4 +27,5 @@
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [RackNerd 黑五 VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 方案年費特價，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 約 TWD 470（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱黑五特價 VPS 方案時，包含免費的 Clientexec 授權。 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
-| [AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 主機管理面板時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 主機管理面板時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS Short-term Trial](https://aws.amazon.com/free/) | VPS/雲服務 | 可通過有限免費試用體驗選定的 Paid plan 服務。試用從啟用服務時開始，超過試用限制的用量會自動套用符合資格的額度。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
