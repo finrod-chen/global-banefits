@@ -1,15 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T19:49:32.761Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T20:05:17.082Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每專案 100 CU-hrs 計算資源、1 GB 儲存空間、5 GB 物件儲存空間、最多 100 個專案與無限團隊成員，無時間 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 新創計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創公司提供最高 10 萬美元的信用額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助，維持您管理的開源專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可立即獲得 Postgres 專案，未宣稱專案受限於 100 MB 儲存空間與 1 GB 網路傳輸量，需在 72 小時內宣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 每月免費，包含 GPT-6 無限文字聊天、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶體與上下文、有限的 Co | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT Pro 方案 API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 位使用者以內，費用 $0 永久免費。包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -42,14 +38,14 @@
 | [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds 的執行時間，函式呼叫本身不額外收費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Container Registry 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | Container Registry 起價為每個月 $0，包含 1 個 repository 和 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立 VPC 不需額外費用，VPC 內的數據傳輸免費，Ingress 數據傳輸免費，數據中心內的 VPC Peering 免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，額度從每月 500 GiB 開始。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 新戶免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面提及 $5 免費額度（How does the $5 free credit wo...），具體金額為 5 美元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有付費方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用，試用後將按月計費（分別為 $14.99、$18.99 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，額度從每月 500 GiB 開始。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 新戶免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面提及 $5 免費額度（How does the $5 free credit wo...），具體金額為 5 美元。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
+| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有付費方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用，試用後將按月計費（分別為 $14.99、$18.99 | 約 TWD 230（AI 估） | 長期活動 | 待核實 |
 | [Setapp 年繳 4 折優惠](https://setapp.com/pricing) | 軟體/數位服務 | 年繳方案最高可節省 40% 費用（Save up to 40% yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 免費 AI 額度](https://setapp.com/pricing) | 軟體/數位服務 | Mac 與 Mac + iOS 方案內含 1,000 個 AI 額度（credits）；Power User 方案內含 2,000 個 AI | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 免費方案 (Notion Free Plan)](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，包含 Notion AI 試用版、基本表單、基礎網站、日曆功能、資料庫與檔案上傳（單個檔案上限 5 MB）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 開戶免費](https://wise.com/) | 海外銀行/卡 | 開立帳戶是免費的。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 約 TWD 10,950（AI 估） | 長期活動 | 待核實 |
+| [Wise 開戶免費](https://wise.com/) | 海外銀行/卡 | 開立帳戶是免費的。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Namecheap 免費優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級網域註冊；1 年免費 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域擴充字尾（如 .live, .studio, .software, .app, .dev）之一的免費網域建置專案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Microsoft Azure 學生優惠](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 100 美元 Azure 信用額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -60,3 +56,8 @@
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼自動補全、GitHub AI 信用額度，以及有限制的聊天和智能體使用（僅限自動模型選擇） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Heroku 每月信用額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元（USD）信用額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DataCamp 三個月免費體驗](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶訂閱 DataCamp 時，提供三個月免費存取權 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供 1 年免費的 Google AI Pro 學生方案，包含 Gemini 用量限制提高 4 倍、5 TB 儲存空間、Gemini Spa | 免費（價值視使用而定） | 2026-12-31 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0 永久免費，包含 100 個項目，每個項目每月 100 CU 時、1 GB 儲存空間、最大 2 CU (8 GB RAM)，以及  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 $100k 的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

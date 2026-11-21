@@ -1958,225 +1958,6 @@
     }
   },
   {
-    "id": "neon-pricing-20261121-1",
-    "sourceId": "neon-pricing",
-    "name": "Neon 免費方案",
-    "category": "vps-cloud",
-    "summary": "永久免費，每月每專案 100 CU-hrs 計算資源、1 GB 儲存空間、5 GB 物件儲存空間、最多 100 個專案與無限團隊成員，無時間限制。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "不需要信用卡。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訪問 Neon 定價頁",
-      "點選 Free 方案下的「Try Neon」按鈕"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T07:46:01.756Z",
-    "lastVerified": "2026-11-21",
-    "risks": "若專案每月使用完 100 CU-hours 或 5 GB 網路傳輸量，計算資源將暫停至下一個計費週期。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T12:05:17.978Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提供包含特定資源配額的永久免費方案（Free Plan），屬於免費額度類型的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "100 projects 100 CU-hrs monthly per project 1 GB of storage per project Sizes up to 2 CU (8 GB RAM) Unlimited team members",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "no credit card required",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 500,
-      "basis": "ai-estimate",
-      "note": "估算依據為免費方案提供的 5 GB 物件儲存空間，若對照一般付費方案或常見雲端服務標準，每 GB 月費約在 1-2 美元之間，一年約 12-24 美元；此外 100 CU-hrs 對於輕量開發也有實質價值。取保守低額估計。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "neon-pricing-20261121-2",
-    "sourceId": "neon-pricing",
-    "name": "Neon 新創計畫",
-    "category": "vps-cloud",
-    "summary": "為早期階段新創公司提供最高 10 萬美元的信用額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為早期階段新創公司。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訪問 Neon 定價頁",
-      "點選 Special programs 中的 Startup Program「Learn more」"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T07:46:01.756Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T12:05:17.978Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目為針對特定族群（早期階段新創公司）提供的特別計畫，包含最高 10 萬美元的信用額度獎勵，屬於新戶獎勵或額度優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Launch faster with up to $100k in credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Startup Program Early-stage startups",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "neon-pricing-20261121-3",
-    "sourceId": "neon-pricing",
-    "name": "Neon 開源計畫",
-    "category": "vps-cloud",
-    "summary": "為開源專案提供贊助，維持您管理的開源專案。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為開源專案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訪問 Neon 定價頁",
-      "點選 Special programs 中的 Open Source Program「Learn more」"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T07:46:01.756Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-21T12:05:17.978Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Neon 提供的常態性「特別方案」，而非限時折扣或一次性額度獎勵，其性質屬於針對特定群體（開源專案）的商業合作或贊助選項。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sponsorship for the open source you maintain.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Open source projects",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "neon-pricing-20261121-4",
-    "sourceId": "neon-pricing",
-    "name": "Neon Claimable 體驗",
-    "category": "vps-cloud",
-    "summary": "無需帳號與信用卡即可立即獲得 Postgres 專案，未宣稱專案受限於 100 MB 儲存空間與 1 GB 網路傳輸量，需在 72 小時內宣稱至 Neon 帳號以保留。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訪問 Claimable Neon",
-      "72 小時內將專案宣稱至 Neon 帳號"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T07:46:01.756Z",
-    "lastVerified": "2026-11-21",
-    "risks": "未宣稱的專案將受到 100 MB 儲存空間與 1 GB 網路傳輸量的限制。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T12:05:17.978Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供無需信用卡或帳號即可體驗的免費專案，屬於新戶或體驗性質的推廣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Claimable Neon gives you, or an AI agent working for you, an instant Postgres project with no account and no credit card. Claim it to a Neon account within 72 hours to keep it. Unclaimed projects are capped at 100 MB of storage and 1 GB of ",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "openai-pricing-20261121-1",
     "sourceId": "openai-pricing",
     "name": "ChatGPT 免費方案",
@@ -3983,7 +3764,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-21T19:50:22.856Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Droplets 的一般定價結構中內含的免費出站流量額度，非專屬優惠活動或限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "ai-estimate",
+      "usd": 5,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面明確標示為 500 GiB 起，未提供標準化美元報價；若依常見雲端 egress 單價 0.01 USD/GiB 估算，500 GiB 約等於 5 USD 之價值，但此為推論而非頁面直接聲明之現金金額，故不作為確定數值輸入。",
+      "confidence": "low"
+    }
   },
   {
     "id": "digitalocean-pricing-20261121-6",
@@ -4012,7 +3822,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-21T19:50:22.856Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及 $5 免費額度，屬於新戶獎勵或免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "How does the $5 free credit wo",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "How does the $5 free credit wo",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "setapp-pricing-20261121-1",
@@ -4041,7 +3879,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-21T19:51:00.010Z",
     "lastVerified": "2026-11-21",
     "risks": "試用結束後將自動轉為付費訂閱並按月扣款（$14.99、$18.99 或 $22.99），若不願付費需在使用前取消訂閱。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供所有付費方案的 7 天免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 230,
+      "basis": "ai-estimate",
+      "note": "以 Mac 方案 $14.99/月為基礎，7 天約為 1/4 個月，價值約 $3.75，換算台幣約 115 元；若以 Power User 方案 $22.99/月計算，7 天約為 $5.75，換算台幣約 175 元。取中間值保守估算。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261121-2",
@@ -4069,7 +3945,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-21T19:51:00.010Z",
     "lastVerified": "2026-11-21",
     "risks": "年繳為一次性預付一年的訂閱費用。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "年繳比月繳便宜的折扣是常態定價機制，並非限時促銷或特殊優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261121-3",
@@ -4097,7 +4006,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-21T19:51:00.010Z",
     "lastVerified": "2026-11-21",
     "risks": "AI 額度包含在付費訂閱方案中，訂閱結束後額度可能失效或無法使用。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該 AI 額度是綁定在一般訂閱制的各階級方案（Mac、Mac + iOS、Power User）中，屬於常態的方案內容，並非獨立的限時優惠或免費贈案。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1,000 AI credits 2,000 AI credits",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261121-1",
@@ -4127,7 +4069,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-21T19:51:18.043Z",
     "lastVerified": "2026-11-21",
     "risks": "檔案上傳大小有限制（5 MB）；頁面歷史紀錄僅保留 7 天。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "包含免費方案（$0）及 Notion AI 試用（Trial），符合免費額度或試用的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "Limited for 2+ members",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261121-2",
@@ -4156,7 +4125,41 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-21T19:51:18.043Z",
     "lastVerified": "2026-11-21",
     "risks": "年繳方案通常需一次性支付全年費用。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "年繳比月繳節省20%屬於常態定價策略，非限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 10950,
+      "basis": "ai-estimate",
+      "note": "以最低付費方案Plus每月$10計算，年繳20%折扣下一年節省約$24，換算成新台幣約10950元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "wise-home-20261121-1",
@@ -4185,7 +4188,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-21T19:51:36.153Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T20:05:17.082Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "帳戶本身是免費的，屬於免費方案的開戶福利。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261121-1",
@@ -4475,6 +4498,150 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "訂閱後可能自動轉為付費方案，需注意取消",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-students-20261121-1",
+    "sourceId": "gemini-students",
+    "name": "Google Gemini 學生免費方案",
+    "category": "ai",
+    "summary": "提供 1 年免費的 Google AI Pro 學生方案，包含 Gemini 用量限制提高 4 倍、5 TB 儲存空間、Gemini Spark 以及 Gemini Omni 的一年存取權限。無限制上傳個人課程資料。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是 18 歲以上的美國大學生，且需為新用戶或 2025 年 AI Pro 試用期已過期的學生；註冊時需提供有效支付工具。",
+    "regions": [
+      "美國"
+    ],
+    "startDate": null,
+    "endDate": "2026-12-31",
+    "ongoing": false,
+    "steps": [
+      "進入官方頁面點擊「Claim Free Student Plan」。",
+      "驗證學生資格。",
+      "註冊並提供有效支付工具。"
+    ],
+    "officialUrl": "https://gemini.google/students/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gemini 學生方案」，待人工核實，提取時間 2026-11-21T20:05:58.571Z",
+    "lastVerified": "2026-11-21",
+    "risks": "除非較早取消，免費試用結束後將自動以每月 19.99 美元計費；資格需每年驗證以維持存取權。",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261121-1",
+    "sourceId": "neon-pricing",
+    "name": "Neon 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0 永久免費，包含 100 個項目，每個項目每月 100 CU 時、1 GB 儲存空間、最大 2 CU (8 GB RAM)，以及 5 GB Object Storage、5 GB 網路傳輸、Functions 免費額度 (10 活躍容量時、400 等待容量時、1M 呼叫次數) 等。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Neon 定價頁面",
+      "點擊 Free 方案下的 'Try Neon' 或 'Get started' 連結註冊使用"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T20:06:17.892Z",
+    "lastVerified": "2026-11-21",
+    "risks": "超出 100 CU 時或 5 GB 網路傳輸限制後，運算將暫停直至下一個計費週期,超過 1 GB 項目儲存空間或 20 GB 總儲存空間後，儲存操作將失敗,超過 10 個分支後，建立分支將失敗",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261121-2",
+    "sourceId": "neon-pricing",
+    "name": "Neon 新創企業計畫",
+    "category": "vps-cloud",
+    "summary": "針對早期新創企業提供最高 $100k 的信用額度（credits）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是早期階段的新創企業",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Startup Program' 下方的 'Learn more about Early-stage startups' 連結申請"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T20:06:17.892Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261121-3",
+    "sourceId": "neon-pricing",
+    "name": "Neon 開源專案贊助計畫",
+    "category": "vps-cloud",
+    "summary": "為維護的開源專案提供贊助。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須維護開源專案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Open Source Program' 下方的 'Learn more about Open source projects' 連結申請"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T20:06:17.892Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261121-4",
+    "sourceId": "neon-pricing",
+    "name": "Neon Claimable Postgres 體驗",
+    "category": "vps-cloud",
+    "summary": "無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 72 小時內聲稱至 Neon 帳戶以保留專案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Claimable Neon 功能或 AI 代理獲取代用項目",
+      "在 72 小時內將項目聲稱至 Neon 帳戶"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T20:06:17.892Z",
+    "lastVerified": "2026-11-21",
+    "risks": "未於 72 小時內聲稱的項目將被限制於 100 MB 儲存空間與 1 GB 網路傳輸",
     "status": "pending"
   }
 ]
