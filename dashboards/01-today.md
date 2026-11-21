@@ -1,25 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T06:05:17.107Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T07:43:49.813Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Wise 匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值金額時，Wise 會提供費用折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 帳戶免費開戶](https://wise.com/) | 海外銀行/卡 | 提供免費開立 Wise 帳戶 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含 100 個項目、每個項目每月 100 CU-hrs、每個項目 1 GB 儲存空間、最大 2 CU (8 GB R | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業，提供最高 $100k 的額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 針對開源專案提供贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上 Microsoft Azure 雲端服務，以及 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
-| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | .me 網域註冊免費 1 年；1 張 SSL 憑證免費 1 年。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 免費獲得一個指定網域（包括 .live, .studio, .software, .app, .dev 等 25 種以上延伸字尾）。 | 約 TWD 150（AI 估） | 長期活動 | AI 預審通過 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 標準 .TECH 網域免費 1 年。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生身份期間免費使用 GitHub Pro。 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 獲得 Notion Education 方案（包含 Plus 方案功能、增强的分享與協作功能、更長頁面歷史）以及額外 AI 回應。 | 約 TWD 5,400（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼補全、一定額度的 GitHub AI 積分，以及有限制的聊天與代理使用量（僅限自動模型選擇）。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [DataCamp 免費試用](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可免費享用 3 個月。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Heroku 每月額度回饋](https://education.github.com/pack) | 軟體/數位服務 | 每月獲得 13 美元額度，期限為 24 個月。 | 約 TWD 9,984（AI 估） | 長期活動 | AI 預審通過 |
-| [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生免費訂閱，需每年更新資格。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | Boot.dev 完整互動會員資格免費 3 個月。 | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域 Black Friday 促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定網域擴充名提供首年折扣價格，例如 .xyz 首年 $1.29（原價 $14.21）、.blog 首年 $2.06（原價 $21.11）、 | 約 TWD 30（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 WHOIS 隱私服務](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護功能，隱藏註冊人個人資訊。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -59,15 +43,31 @@
 | [玉山信用卡繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Trip.com 玉山信用卡訂房](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費額度與基礎方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 每月 $0 起；Functions 每月 $0 起，每月免費使用 90,000 GiB-seconds；Conta | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月每個帳單帳戶包含 25 個 secret-month equivalents 及 100,000 次成功的撈取請求（retrieval  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面 FAQ 提及「How does the $5 free credit work...」，暗示提供 $5 的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 免費試用與 AI 額度活動](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，並附帶 AI 額度：Mac 方案含 1,000 點、Mac + iOS 方案含 1,000 點、Power User  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費額度與基礎方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 每月 $0 起；Functions 每月 $0 起，每月免費使用 90,000 GiB-seconds；Conta | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean Secrets Manager 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月每個帳單帳戶包含 25 個 secret-month equivalents 及 100,000 次成功的撈取請求（retrieval  | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [DigitalOcean 新戶 $5 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面 FAQ 提及「How does the $5 free credit work...」，暗示提供 $5 的免費額度。 | 約 TWD 165（AI 估） | 長期活動 | 待核實 |
+| [Setapp 免費試用與 AI 額度活動](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，並附帶 AI 額度：Mac 方案含 1,000 點、Mac + iOS 方案含 1,000 點、Power User  | 約 TWD 32（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供免費方案，每會員每月 $0。包含 Notion AI 測試版、基本表格、建立 Notion 網站、日曆整合、資料庫功能（含子任務、依賴關 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可享有特定 Google AI 方案最高 50% 的折扣優惠 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 10 美元 Google Cloud 額度（來自 Google Developer Prog | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 40 美元 Google Cloud 額度（來自 Google Developer Pr | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可享有特定 Google AI 方案最高 50% 的折扣優惠 | 約 TWD 16（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 10 美元 Google Cloud 額度（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 每月 Google Cloud 額度贈送](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 40 美元 Google Cloud 額度（來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [Google AI Pro 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示數字 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 訂閱（頁面標示其價值，具體金額在頁面中未顯示 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Fusion 使用量 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | 在 11 月 30 日之前，Copilot Fusion 使用量享 30% 折扣 | 免費（價值視使用而定） | 2024-11-30 | 待核實 |
 | [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開啟免費帳戶，享有超低匯率轉換費，無不公平匯率。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊或等值金額時，Wise 將對其費用進行折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 存款回饋](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在英鎊、歐元及美元帳戶中賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 免費 .me 域名與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年期 .me TLD 網域註冊免費，以及 1 張 SSL 證書免費使用 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 可使用超過 25 種網域副域（如 .live, .studio, .software, .app, .dev）中的指定免費網域建立專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Microsoft Azure 學生雲端服務與額度](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 $100 Azure 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費註冊 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Microsoft 365 學生版](https://education.github.com/pack) | 軟體/數位服務 | 免費或優惠價存取內建 AI 的生產力應用、1TB 雲端儲存空間及進階安全功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Pro 學生版](https://education.github.com/pack) | 軟體/數位服務 | 在學生期間免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Education Plan](https://education.github.com/pack) | 軟體/數位服務 | 免費使用 Notion Education 方案，包含 Plus 方案所有功能、增強的分享與協作功能、更長的頁面歷史，以及額外的 AI 回應 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 經核實的學生可免費使用 GitHub Copilot Student，包含無限代碼補全、一定的 GitHub AI Credits 額度，以 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DataCamp 免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，可獲得 3 個月免費存取權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Heroku 月度額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 $13 USD 的額度，持續 24 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每專案 100 CU-hrs 計算資源、1 GB 儲存空間、5 GB 物件儲存空間、最多 100 個專案與無限團隊成員，無時間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創公司提供最高 10 萬美元的信用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源計畫](https://neon.com/pricing) | VPS/雲服務 | 為開源專案提供贊助，維持您管理的開源專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可立即獲得 Postgres 專案，未宣稱專案受限於 100 MB 儲存空間與 1 GB 網路傳輸量，需在 72 小時內宣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
