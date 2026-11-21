@@ -4238,7 +4238,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該頁面列出了學生開發者包中 Namecheap 提供的免費領域註冊與 SSL 憑證優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "1 year domain name registration on the .me TLD.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "保守估算 .me 網域一年註冊費約 10-15 美元，加上免費 SSL 憑證價值約 10-20 美元，總價約 300 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-2",
@@ -4267,7 +4300,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "帳戶需包含獨定的地址，否則系統可能無法正常處理請求",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠屬於 GitHub 學生包中的學生專屬免費網域額度方案",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build your project on a select free domain with over 25 domain extensions like .live, .studio, .software, .app, and .dev.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Be sure your Name.com account includes a unique address, otherwise the system may assume your request is a duplicate.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 600,
+      "basis": "ai-estimate",
+      "note": "假設一般常見網域（如 .live 或 .app）市場價值約 10-15 美元，約折合新台幣 600-900 元，取保守估算 600 元",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-3",
@@ -4296,7 +4360,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "學生可免費獲得雲端服務存取權限及100美元額度，屬於典型的新戶獎勵與學生優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For students aged 18+. no credit card required",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 in Azure credit",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "github-education-20261121-4",
@@ -4325,7 +4424,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供一年免費的標準 .TECH 網域註冊，屬於免費方案或額度優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": ".TECH 網域市場價格約每年 5-10 美元，保守估算約 250-500 台幣，取整數 500。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-5",
@@ -4354,7 +4486,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "學生免費或折扣方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices. Sign up today to unlock all your benefits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4000,
+      "basis": "ai-estimate",
+      "note": "Microsoft 365 學生版通常為免費或極低價，保守估算價值約為 1TB 儲存空間的市價。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-6",
@@ -4382,7 +4545,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供學生期間免費使用 GitHub Pro 的優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "GitHub Pro 一般個人訂閱費約為每月 4 美元（約 130 新台幣），估算一年價值約 48 美元（約 1600 新台幣），但考慮到 Pro 方案包含更多私庫與進階功能，其價值通常高於基礎版，保守估算一年價值約 3000 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-7",
@@ -4411,7 +4605,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給學生的免費 Notion Education 方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for Student Developer Pack",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4800,
+      "basis": "ai-estimate",
+      "note": "保守估算 Notion Plus 方案每年約 $10 美元，加上 AI 回應等 Education 功能，估值約 40-50 美元/年，換算新台幣約 4800 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-8",
@@ -4440,7 +4665,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-21T19:52:37.167Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T22:05:17.183Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供經驗證學生無限代碼補全與 AI 額度，屬於學生專屬優惠方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 540,
+      "basis": "ai-estimate",
+      "note": "以一般開發者使用 Copilot 的年費（約 $10 USD/月）保守估算，一年價值約 $120 USD，換算為新台幣約 3800 元；但考慮到此處僅為學生包中的一部分權益且非全部功能免費，保守估計其純增量價值或僅提供基礎額度，估算值取低標準或依市場類似工具價值調整，若僅算基礎版價值約 $5 USD/月，一年 $60 USD 約 1900 TWD；若算完整 Pro 價值 $10/月 一年 $120 USD 約 3800 TWD。鑑於草稿未明確全功能免費，僅有額度與有限聊天，保守估算為中等價值，約 540 TWD（約 $17 USD 等值之保守估值，或視為部分價值）。(註：通常 Copilot ",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261121-9",
@@ -4642,6 +4898,118 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-21T20:06:17.892Z",
     "lastVerified": "2026-11-21",
     "risks": "未於 72 小時內聲稱的項目將被限制於 100 MB 儲存空間與 1 GB 網路傳輸",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261121-1",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 WHOIS 隱私保護",
+    "category": "vps-cloud",
+    "summary": "提供免費的 WHOIS 隱私保護服務",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或管理 Porkbun 網域"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261121-2",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 SSL 憑證",
+    "category": "vps-cloud",
+    "summary": "提供免費的 SSL 憑證",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或管理 Porkbun 網域"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261121-3",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費電子郵件轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的電子郵件轉發功能",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或管理 Porkbun 網域"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261121-4",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 URL 轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的 URL 轉發功能",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或管理 Porkbun 網域"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
+    "lastVerified": "2026-11-21",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

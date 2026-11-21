@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T20:05:17.082Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T22:05:17.183Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -83,14 +83,14 @@
 | [Notion 免費方案 (Notion Free Plan)](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 $0，包含 Notion AI 試用版、基本表單、基礎網站、日曆功能、資料庫與檔案上傳（單個檔案上限 5 MB）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 費用。 | 約 TWD 10,950（AI 估） | 長期活動 | 待核實 |
 | [Wise 開戶免費](https://wise.com/) | 海外銀行/卡 | 開立帳戶是免費的。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Namecheap 免費優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級網域註冊；1 年免費 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域擴充字尾（如 .live, .studio, .software, .app, .dev）之一的免費網域建置專案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft Azure 學生優惠](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 100 美元 Azure 信用額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 年免費標準 .TECH 網域 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Microsoft 365 學生免費或折扣](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣使用 Microsoft 365 生產力應用（含 AI 功能），1TB 雲端儲存空間及進階數據與裝置安全 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Pro 學生免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生期間免費使用 GitHub Pro | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增加共享與協作能力、更長頁面歷史）及附加 AI 回應 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼自動補全、GitHub AI 信用額度，以及有限制的聊天和智能體使用（僅限自動模型選擇） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Namecheap 免費優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級網域註冊；1 年免費 SSL 憑證 | 約 TWD 300（AI 估） | 長期活動 | 待核實 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域擴充字尾（如 .live, .studio, .software, .app, .dev）之一的免費網域建置專案 | 約 TWD 600（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 學生優惠](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，外加 100 美元 Azure 信用額度 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 年免費標準 .TECH 網域 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
+| [Microsoft 365 學生免費或折扣](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣使用 Microsoft 365 生產力應用（含 AI 功能），1TB 雲端儲存空間及進階數據與裝置安全 | 約 TWD 4,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Pro 學生免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生期間免費使用 GitHub Pro | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增加共享與協作能力、更長頁面歷史）及附加 AI 回應 | 約 TWD 4,800（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼自動補全、GitHub AI 信用額度，以及有限制的聊天和智能體使用（僅限自動模型選擇） | 約 TWD 540（AI 估） | 長期活動 | AI 預審通過 |
 | [Heroku 每月信用額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元（USD）信用額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DataCamp 三個月免費體驗](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶訂閱 DataCamp 時，提供三個月免費存取權 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供 1 年免費的 Google AI Pro 學生方案，包含 Gemini 用量限制提高 4 倍、5 TB 儲存空間、Gemini Spa | 免費（價值視使用而定） | 2026-12-31 | 待核實 |
@@ -98,3 +98,7 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 $100k 的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費電子郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
