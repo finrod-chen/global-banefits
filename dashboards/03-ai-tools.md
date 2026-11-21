@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T12:05:17.978Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T14:05:17.237Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,7 +31,6 @@
 | [GitHub Copilot 學生免費方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的身分學生可免費存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 每月免費，包含 GPT-6 無限文字聊天、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶體與上下文、有限的 Co | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT Pro 方案 API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs 黑色星期五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年度方案可享最高 55% 折扣。Creator 年度方案第一年限時 $99。Pro 方案新用戶可享 55% 折扣，現有 Pro 月繳用戶 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
-| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | 原價 $90 現價 $30/user/month | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | 原價 $90 現價 $30/user/month | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
+| [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
 | [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面導航提供「Students」連結及「v0 for Students」產品條目，但未明確標註具體折扣數字或免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |

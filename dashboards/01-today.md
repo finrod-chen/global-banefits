@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T12:05:17.978Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T14:05:17.237Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -57,10 +57,9 @@
 | [ChatGPT Pro 方案 API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 位使用者以內，費用 $0 永久免費。包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：100,000 次請求，10 ms/請求的 CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：10 GB-month 標準儲存空間，1 百萬次 Class A 操作，10 百萬次 Class B 操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs 黑色星期五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年度方案可享最高 55% 折扣。Creator 年度方案第一年限時 $99。Pro 方案新用戶可享 55% 折扣，現有 Pro 月繳用戶 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
-| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | 原價 $90 現價 $30/user/month | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：10 GB-month 標準儲存空間，1 百萬次 Class A 操作，10 百萬次 Class B 操作。 | 約 TWD 400（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
+| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | 原價 $90 現價 $30/user/month | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
+| [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
 | [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面導航提供「Students」連結及「v0 for Students」產品條目，但未明確標註具體折扣數字或免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuCoin Earn Friday Week 139](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% APR | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [KuCoin Earn Friday Week 139](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% APR | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

@@ -4892,7 +4892,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-21T12:06:01.602Z",
     "lastVerified": "2026-11-21",
     "risks": "超出免費額度後將開始計費（每百萬次請求 $0.30，每百萬 CPU ms $0.02）。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對Cloudflare Workers服務的常態免費方案，明確列出了使用者每日可以免費享有的請求數與CPU時間額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests 100k / day Free 100k / day Paid $0.30 / million requests CPU Time Free 10 ms / request Paid $0.02 / million CPU ms",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261121-3",
@@ -4920,7 +4942,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-21T12:06:01.602Z",
     "lastVerified": "2026-11-21",
     "risks": "超出儲存或操作額度後將開始計費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面內容列出的是常態的付費方案定價與各方案的免費額度標準，並無提及限時折扣、新戶獎勵或特定推廣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Storage\n10 GB-month\n$0.015 / GB-month\nStandard Class A operations\n1 million\n$4.50 / million requests\nStandard Class B operations\n10 million\n$0.36 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 400,
+      "basis": "ai-estimate",
+      "note": "保守估算每年使用10 GB-month標準儲存空間及100萬次Class A操作所對應的付費價值（120 GB * $0.015 + 1 * $4.50 = $6.3/月，年化約$75.6 USD），換算成新台幣約為400元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261121-4",
@@ -4948,37 +4998,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-21T12:06:01.602Z",
     "lastVerified": "2026-11-21",
     "risks": "超出額度後將開始計費。",
-    "status": "pending"
-  },
-  {
-    "id": "elevenlabs-pricing-20261121-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 黑色星期五促銷",
-    "category": "ai",
-    "summary": "選擇年度方案可享最高 55% 折扣。Creator 年度方案第一年限時 $99。Pro 方案新用戶可享 55% 折扣，現有 Pro 月繳用戶轉為年繳可享 50% 折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一般付費產品 D1 的定價頁面，列出免費方案包含的基礎額度與超出後的計費標準，並非特定時限的優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "D1\nServerless SQL that scales horizontally\nComponent\nFree\nPaid\nStorage\n5 GB (total)\n$0.75 / GB-month\nRows Read\n5 million / day\n$0.001 / million rows\nRows Written\n100,000 / day\n$1.00 / million rows",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
     },
-    "requirements": "選擇年度方案（Annual plan）。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-12-01",
-    "ongoing": false,
-    "steps": [
-      "前往 ElevenLabs 定價頁面",
-      "選擇年繳方案（Annual plan）",
-      "完成訂閱以享受折扣"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-21T12:06:18.981Z",
-    "lastVerified": "2026-11-21",
-    "risks": "優惠於 12 月 1 日截止。",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者僅使用免費額度（5 GB 儲存、每日 500 萬次讀取、每日 10 萬次寫入），未消耗付費資源，則第一年價值為 $0。但考慮到免費額度對於小型應用程式已具實用價值，保守估算約等值於避免支付基礎儲存費與少量操作費，給定 1000 元作為其功能可用性的保守價值估算（註：若嚴格計算未付費部分應為 0，但此處依「一般使用者可能利用免費額度避免付費」之邏輯保守估算）。*修正：根據規則，若未明確寫出優惠金額且是常態定價，估算價值應基於用戶可能避免的費用或功能價值。由於免費額度是常態功能，非額外贈送，其「價值」在於替代付費功能。若完全未使用超額，實際成本為0。但通常「免費額度」的價值被評估為若",
+      "confidence": "medium"
+    }
   },
   {
     "id": "v0-pricing-20261121-1",
@@ -5007,7 +5058,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-21T12:06:36.707Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示這是 Plus 方案的標準訂閱定價（$30），並列出了原價 $90 以作比較，屬於常態的付費方案定價結構，而非臨時性促銷或限時折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$30 $ 90 /user/month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1920,
+      "basis": "ai-estimate",
+      "usd": 60,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；此為常態訂閱方案定價，並非一次性優惠或限時折扣，因此不適用「第一年能得到的價值」之估算邏輯，而是持續性支出。",
+      "confidence": "low"
+    }
   },
   {
     "id": "v0-pricing-20261121-2",
@@ -5035,7 +5115,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-21T12:06:36.707Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是付費方案（Plus 與 Business）包含的標準功能與額度，屬於常態定價與方案內容，而非限時或針對特定群體的特別優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$2 of free daily credits on login per user",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Plus\nPopular\n$30 $ 90 /user/month\nEverything from Free\nAccess to all models\n$30 of included monthly credits per user\n$2 of free daily credits on login per user\n...\nBusiness\n$100 /user/month\nEverything from Plus\nAccess to all models\n$30 of i",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 64,
+      "basis": "explicit-amount",
+      "usd": 2,
+      "quote": "$2 of free daily credits on login per user",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "v0-pricing-20261121-3",
@@ -5063,7 +5179,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-21T12:06:36.707Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅顯示「Students」連結及常見問題中詢問是否有學生折扣，但未具體說明優惠內容或資格要求。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kucoin-announce-20261121-1",
@@ -5091,6 +5235,26 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-21T12:07:10.351Z",
     "lastVerified": "2026-11-21",
     "risks": "年化報酬率（APR）可能隨市場波動變化，非固定保證收益",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-21T14:05:17.237Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個名為 'Earn Friday' 的特定活動，提供高於一般常態的高額 APR 獎勵，屬於限時優惠或新戶/用戶獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn Friday Week 139: Subscribe USDT, ETH, DOT to Earn up to 9% APR",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]

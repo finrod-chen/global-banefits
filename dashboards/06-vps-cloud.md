@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T12:05:17.978Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T14:05:17.237Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,5 +26,5 @@
 | [Neon Claimable 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可立即獲得 Postgres 專案，未宣稱專案受限於 100 MB 儲存空間與 1 GB 網路傳輸量，需在 72 小時內宣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 位使用者以內，費用 $0 永久免費。包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：100,000 次請求，10 ms/請求的 CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：10 GB-month 標準儲存空間，1 百萬次 Class A 操作，10 百萬次 Class B 操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：10 GB-month 標準儲存空間，1 百萬次 Class A 操作，10 百萬次 Class B 操作。 | 約 TWD 400（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
