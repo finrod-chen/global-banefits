@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T00:05:17.029Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-21T02:05:17.276Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -22,3 +22,5 @@
 | [JetBrains 學生免費訂閱](https://education.github.com/pack) | 軟體/數位服務 | 學生免費訂閱，需每年更新資格。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Boot.dev 免費會員](https://education.github.com/pack) | 軟體/數位服務 | Boot.dev 完整互動會員資格免費 3 個月。 | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Epic Games Store 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 可免費領取 Them's Fightin' Herds（原價 TWD $289.00）、Model Builder: Complete Ed | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 會員訂閱](https://www.humblebundle.com/) | 軟體/數位服務 | 每月訂閱費 $14.99；年繳方案每月低於 $13；會員在商店購物可享最高 20% 折扣；5% 訂閱費支持公益。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Bundle Pay What You Want 活動](https://www.humblebundle.com/) | 軟體/數位服務 | 參與者可自訂價格購買指定的遊戲、軟體或書籍組合包（例如：Painter 2023、MC Microsoft Certified Azure  | 免費（價值視使用而定） | 長期活動 | 待核實 |
