@@ -1,21 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T18:05:16.579Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T19:59:00.807Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Black Friday Google AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高享 5 折優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
-| [玉山信用卡 繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [繳學費 就愛刷玉山信用卡](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Trip.com 玉山信用卡訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊或等值貨幣時，Wise 會打折其費用（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 帳戶免開戶費](https://wise.com/) | 海外銀行/卡 | 「Open a free account」，可免費開啟帳戶。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google Cloud 免費方案（Free Tier）](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 提供超過 20 種常用產品（包括 AI API、VM、數據倉庫等）的免費額度，每月有指定使用限制。 | 約 TWD 9,600（AI 估） | 長期活動 | 待核實 |
@@ -54,5 +44,20 @@
 | [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTHROPICX（最高 10 倍槓桿），根據交易量排名，贏取總價值 20,000 美元 ANTHROPI | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Futures USDG 挑戰賽](https://blog.kraken.com/) | Crypto | 在 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 的獎勵池。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken Pre-IPO OURAx & MOONSHOTx 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 OURAx 和 MOONSHOTx 永續合約（最高 10 倍槓桿），交易量決定排名，贏取 10,000 US | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 奧斯汀 F1 活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，即有機會親眼目睹 Atlassian Williams F1 車手在美國大獎賽（CO | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [Kraken 奧斯汀 F1 活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，即有機會親眼目睹 Atlassian Williams F1 車手在美國大獎賽（CO | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 約 TWD 500（AI 估） | 2026-11-30 | 待核實 |
+| [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 指定 Google AI 方案最高享 5 折（Save up to 50%）。 | 約 TWD 6,240（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 30% 優惠](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 用量享受 30% 折扣，期限至 11 月 30 日 | 約 TWD 1,000（AI 估） | 2024-11-30 | 待核實 |
+| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS 短期試用](https://aws.amazon.com/free/) | VPS/雲服務 | 可透過有限的免費試用體驗選定的 Paid plan 服務，當試用期限超過時，合規的信用額度會自動應用於超過限制的用量。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 永久免費服務](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 個 AWS 服務在 Free 和 Paid 方案下每月使用量限制內永久免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元玉山e point回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
+| [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率分期 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山環球賞啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 指定萬事達卡啟用可享最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡繳學費分期](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄可享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Trip.com訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡保險分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 保險享12期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 年繳方案折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳計劃每月費用低於 13 美元（相比月繳 14.99 美元），會員在商店消費可享最高 20% 優惠。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 會員在商店購買新發布遊戲等內容時，可節省最高 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Bundle 遊戲限時折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 多款遊戲提供特定折扣，例如：PRAGMATA (-20%)、Resident Evil Requiem (-30%)、Total War:  | 免費（價值視使用而定） | 長期活動 | 待核實 |

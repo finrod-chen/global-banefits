@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T18:05:16.579Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T19:59:00.807Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,4 +25,6 @@
 | [Porkbun 網域免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發服務（Free URL Forwarding）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 約 TWD 500（AI 估） | 2026-11-30 | 待核實 |
+| [AWS 短期試用](https://aws.amazon.com/free/) | VPS/雲服務 | 可透過有限的免費試用體驗選定的 Paid plan 服務，當試用期限超過時，合規的信用額度會自動應用於超過限制的用量。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 永久免費服務](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 個 AWS 服務在 Free 和 Paid 方案下每月使用量限制內永久免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
