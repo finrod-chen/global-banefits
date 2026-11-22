@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T22:05:17.183Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T00:05:18.641Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,5 +20,5 @@
 | [GitHub Pro 學生免費方案](https://education.github.com/pack) | 軟體/數位服務 | 學生期間免費使用 GitHub Pro | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增加共享與協作能力、更長頁面歷史）及附加 AI 回應 | 約 TWD 4,800（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot Student](https://education.github.com/pack) | 軟體/數位服務 | 無限代碼自動補全、GitHub AI 信用額度，以及有限制的聊天和智能體使用（僅限自動模型選擇） | 約 TWD 540（AI 估） | 長期活動 | AI 預審通過 |
-| [Heroku 每月信用額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元（USD）信用額度，持續 24 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 三個月免費體驗](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶訂閱 DataCamp 時，提供三個月免費存取權 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Heroku 每月信用額度](https://education.github.com/pack) | 軟體/數位服務 | 每月 13 美元（USD）信用額度，持續 24 個月 | 約 TWD 9,984（AI 估） | 長期活動 | AI 預審通過 |
+| [DataCamp 三個月免費體驗](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶訂閱 DataCamp 時，提供三個月免費存取權 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |

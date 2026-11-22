@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T22:05:17.183Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T00:05:18.641Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,10 +13,6 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare SASE 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 50 位使用者以內，費用 $0 永久免費。包含社群論壇與 Discord 支援，標準日誌保存最長 24 小時。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：100,000 次請求，10 ms/請求的 CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：10 GB-month 標準儲存空間，1 百萬次 Class A 操作，10 百萬次 Class B 操作。 | 約 TWD 400（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案每月包含：5 GB 總儲存空間，每日 500 萬次列讀取，每日 10 萬次列寫入。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [RackNerd 黑五 VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 方案年費特價，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 約 TWD 470（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱黑五特價 VPS 方案時，包含免費的 Clientexec 授權。 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
 | [AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 主機管理面板時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -27,11 +23,22 @@
 | [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立 VPC 不需額外費用，VPC 內的數據傳輸免費，Ingress 數據傳輸免費，數據中心內的 VPC Peering 免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，額度從每月 500 GiB 開始。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 新戶免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面提及 $5 免費額度（How does the $5 free credit wo...），具體金額為 5 美元。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0 永久免費，包含 100 個項目，每個項目每月 100 CU 時、1 GB 儲存空間、最大 2 CU (8 GB RAM)，以及  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 $100k 的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0 永久免費，包含 100 個項目，每個項目每月 100 CU 時、1 GB 儲存空間、最大 2 CU (8 GB RAM)，以及  | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 $100k 的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費電子郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare 免費網路與 CDN 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 Fast DNS、無限 DDoS 保護、CDN、Universal SSL 憑證、免費管理規則集 (Free Manage | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於 50 人以下團隊或企業概念驗證 (proof-of-concept)。包含社群論壇與 Discord 支持、24 小時標 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求，每請求 10 ms CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量 (NA/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M SQL 讀取行數、100K SQL 寫入行數、5 GB SQL 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB-month 標準儲存空間、100 萬次 Class A 操作、1000 萬次 Class B 操作。無出站流量費 (egr | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 1 GB 儲存數據、100,000 次讀取請求、1,000 次寫入/刪除/列出請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬次讀取行數、每日 100,000 次寫入行數。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 個數據點寫入、每日 10,000 次讀取查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

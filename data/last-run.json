@@ -1,18 +1,18 @@
 {
-  "at": "2026-11-21T22:05:17.183Z",
+  "at": "2026-11-22T00:05:18.641Z",
   "summary": {
     "sourcesChecked": 48,
-    "changed": 36,
+    "changed": 35,
     "fetchFailed": 4,
-    "activeDeals": 98,
-    "pending": 36,
-    "aiReviewed": 25,
+    "activeDeals": 108,
+    "pending": 43,
+    "aiReviewed": 28,
     "archived": 45
   },
   "aiExtraction": {
-    "attempted": 6,
-    "extracted": 4,
-    "duplicateSkipped": 0,
+    "attempted": 8,
+    "extracted": 20,
+    "duplicateSkipped": 1,
     "deferred": 1,
     "errors": [],
     "warnings": [],
@@ -31,10 +31,10 @@
       "category": "ai",
       "name": "OpenAI ChatGPT 定價頁",
       "url": "https://openai.com/chatgpt/pricing/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1273197,
-      "hash": "28f8764f0270092f",
+      "bytes": 1271722,
+      "hash": "44ab2ac1cce95dce",
       "keywordHits": [
         "free",
         "plus"
@@ -46,10 +46,10 @@
       "category": "ai",
       "name": "Anthropic Claude 定價頁",
       "url": "https://www.anthropic.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1445728,
-      "hash": "4a5fe337ca64a85a",
+      "hash": "bb0fcb559745c995",
       "keywordHits": [
         "free"
       ],
@@ -60,10 +60,10 @@
       "category": "ai",
       "name": "Google One AI 方案",
       "url": "https://one.google.com/about/google-ai-plans/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 473112,
-      "hash": "25fb7051316d6ba0",
+      "hash": "de01b84b5260cfba",
       "keywordHits": [
         "free",
         "trial"
@@ -75,7 +75,7 @@
       "category": "ai",
       "name": "Midjourney 訂閱文件",
       "url": "https://docs.midjourney.com/hc/en-us",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
       "bytes": 5679,
       "error": "HTTP 403",
@@ -86,10 +86,10 @@
       "category": "ai",
       "name": "Suno 定價頁",
       "url": "https://suno.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 422417,
-      "hash": "2908ed5e1720025a",
+      "hash": "c3c74705b29d7ea6",
       "keywordHits": [
         "free",
         "credits"
@@ -101,10 +101,10 @@
       "category": "ai",
       "name": "GitHub Copilot 方案",
       "url": "https://github.com/features/copilot/plans",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1063683,
-      "hash": "7935c03f06925757",
+      "bytes": 1063685,
+      "hash": "deb5af3565096ca6",
       "keywordHits": [
         "free"
       ],
@@ -115,7 +115,7 @@
       "category": "crypto",
       "name": "Binance 官方公告",
       "url": "https://www.binance.com/en/support/announcement",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 202,
       "bytes": 0,
       "error": "空回應（HTTP 202），可能被擋",
@@ -126,10 +126,10 @@
       "category": "crypto",
       "name": "OKX 官方公告",
       "url": "https://www.okx.com/help/section/announcements-latest-announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 85371,
-      "hash": "b5284589e2a3861d",
+      "bytes": 85376,
+      "hash": "d12e4756c111174a",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -142,9 +142,9 @@
       "category": "banking",
       "name": "Revolut 官網",
       "url": "https://www.revolut.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
-      "bytes": 818348,
+      "bytes": 818369,
       "error": "HTTP 403",
       "change": "fetch-failed"
     },
@@ -153,10 +153,10 @@
       "category": "banking",
       "name": "Wise 官網",
       "url": "https://wise.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 906391,
-      "hash": "8aa7f28edaa9cbf3",
+      "bytes": 901625,
+      "hash": "6bd078c7515c99c5",
       "keywordHits": [
         "promo",
         "cashback"
@@ -168,10 +168,10 @@
       "category": "vps-cloud",
       "name": "Oracle Cloud Free Tier",
       "url": "https://www.oracle.com/cloud/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 80567,
-      "hash": "6938128a82741f60",
+      "bytes": 80566,
+      "hash": "6f4baef2f6c11f80",
       "keywordHits": [
         "$300",
         "always free"
@@ -183,10 +183,10 @@
       "category": "vps-cloud",
       "name": "AWS Free Tier",
       "url": "https://aws.amazon.com/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 431101,
-      "hash": "20077d3d84115c13",
+      "hash": "6ed50e82476e6f38",
       "keywordHits": [
         "free"
       ],
@@ -197,10 +197,10 @@
       "category": "vps-cloud",
       "name": "Google Cloud 免費試用說明",
       "url": "https://cloud.google.com/free/docs/free-cloud-features",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 181792,
-      "hash": "686426cea7b3f83f",
+      "bytes": 181788,
+      "hash": "9c63a7e7aa70c11d",
       "keywordHits": [
         "$300",
         "free trial"
@@ -212,10 +212,10 @@
       "category": "vps-cloud",
       "name": "Azure 免費帳戶",
       "url": "https://azure.microsoft.com/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 502205,
-      "hash": "a9f16c41530ae5d9",
+      "bytes": 505117,
+      "hash": "388c7dfefb4d23ae",
       "keywordHits": [
         "credit",
         "free"
@@ -227,10 +227,10 @@
       "category": "vps-cloud",
       "name": "Cloudflare 方案頁",
       "url": "https://www.cloudflare.com/plans/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 714282,
-      "hash": "9208eb057edc76a6",
+      "hash": "68f197e00ead5785",
       "keywordHits": [
         "free"
       ],
@@ -241,7 +241,7 @@
       "category": "vps-cloud",
       "name": "Namecheap 促銷頁",
       "url": "https://www.namecheap.com/promotions/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
       "bytes": 5750,
       "error": "HTTP 403",
@@ -252,10 +252,10 @@
       "category": "software",
       "name": "GitHub 學生包",
       "url": "https://education.github.com/pack",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 271377,
-      "hash": "d679487bc4b0bed0",
+      "bytes": 271357,
+      "hash": "9fe43e2d0ee65e3b",
       "keywordHits": [
         "student",
         "free"
@@ -267,10 +267,10 @@
       "category": "ai",
       "name": "Claude 定價頁（claude.com）",
       "url": "https://claude.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1445728,
-      "hash": "3ffd5c0980185993",
+      "hash": "02e5cbd867b804b2",
       "keywordHits": [
         "free",
         "pro"
@@ -282,10 +282,10 @@
       "category": "ai",
       "name": "Gemini 學生方案",
       "url": "https://gemini.google/students/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 194302,
-      "hash": "9f748a5ba6c1a169",
+      "hash": "cacfc41344d37b8c",
       "keywordHits": [
         "free",
         "student"
@@ -297,10 +297,10 @@
       "category": "ai",
       "name": "ElevenLabs 定價頁",
       "url": "https://elevenlabs.io/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 679143,
-      "hash": "53c435e8c8320a19",
+      "bytes": 678971,
+      "hash": "2a6eda2acec84e60",
       "keywordHits": [
         "free",
         "credits"
@@ -312,10 +312,10 @@
       "category": "ai",
       "name": "v0 定價頁",
       "url": "https://v0.app/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 273501,
-      "hash": "698611cb7983b45b",
+      "hash": "6f902550282836e5",
       "keywordHits": [
         "free",
         "credits"
@@ -327,10 +327,10 @@
       "category": "crypto",
       "name": "Bitget 官方公告",
       "url": "https://www.bitget.com/support/sections/360007868532",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 140999,
-      "hash": "8c8eb6aed07d586f",
+      "hash": "f92d043673b805a5",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -343,10 +343,10 @@
       "category": "crypto",
       "name": "KuCoin 官方公告",
       "url": "https://www.kucoin.com/announcement",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 159436,
-      "hash": "388f6acd69501579",
+      "bytes": 159440,
+      "hash": "89fa4e5ec484122f",
       "keywordHits": [
         "reward"
       ],
@@ -357,10 +357,10 @@
       "category": "crypto",
       "name": "Gate 官方公告",
       "url": "https://www.gate.com/announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 367317,
-      "hash": "7d33e11136594cca",
+      "bytes": 367004,
+      "hash": "74747802fbe7fbbc",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -373,10 +373,10 @@
       "category": "crypto",
       "name": "BitoPro 幣託公告（台灣）",
       "url": "https://www.bitopro.com/ns/announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 114346,
-      "hash": "c7a455b0f12e4ed1",
+      "hash": "0acbbad4cc4460b4",
       "keywordHits": [
         "活動",
         "回饋"
@@ -388,10 +388,10 @@
       "category": "crypto",
       "name": "Kraken 官方部落格",
       "url": "https://blog.kraken.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 147715,
-      "hash": "02fe03dc7a8c4b6d",
+      "bytes": 147764,
+      "hash": "5c70e27ed4afa974",
       "keywordHits": [
         "reward",
         "campaign"
@@ -403,10 +403,10 @@
       "category": "banking",
       "name": "Airwallex 官網",
       "url": "https://www.airwallex.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 678536,
-      "hash": "e4cdba0186a61638",
+      "bytes": 678487,
+      "hash": "aa155997353389a8",
       "keywordHits": [
         "free",
         "offer"
@@ -418,10 +418,10 @@
       "category": "banking",
       "name": "玉山信用卡優惠",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 189851,
-      "hash": "5a1fff3c8dcf61e1",
+      "bytes": 190733,
+      "hash": "666c2b56e2620152",
       "keywordHits": [
         "回饋",
         "優惠",
@@ -434,10 +434,10 @@
       "category": "vps-cloud",
       "name": "DigitalOcean 定價與試用額度",
       "url": "https://www.digitalocean.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 288597,
-      "hash": "9d1b58d1d3211e20",
+      "bytes": 288587,
+      "hash": "1f7ce48f3865b355",
       "keywordHits": [
         "free",
         "credit"
@@ -449,10 +449,10 @@
       "category": "vps-cloud",
       "name": "RackNerd 特價 VPS",
       "url": "https://www.racknerd.com/specials/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 197279,
-      "hash": "5ada0ff42359a1bb",
+      "hash": "4651aea25c9e47d0",
       "keywordHits": [
         "special",
         "deal",
@@ -465,10 +465,10 @@
       "category": "vps-cloud",
       "name": "AWS Activate 新創額度",
       "url": "https://aws.amazon.com/startups/credits/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 400320,
-      "hash": "1f724a1d4d1be273",
+      "hash": "46bdde578383953e",
       "keywordHits": [
         "credits",
         "free"
@@ -480,26 +480,12 @@
       "category": "vps-cloud",
       "name": "Cloudflare 新創方案",
       "url": "https://www.cloudflare.com/startups/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 568248,
-      "hash": "494a1b8e5b963e60",
+      "hash": "62a079ea7eb1fdfc",
       "keywordHits": [
         "credits",
-        "free"
-      ],
-      "change": "content-changed"
-    },
-    {
-      "id": "neon-pricing",
-      "category": "vps-cloud",
-      "name": "Neon 定價頁",
-      "url": "https://neon.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
-      "httpStatus": 200,
-      "bytes": 759842,
-      "hash": "f26272872fa331cc",
-      "keywordHits": [
         "free"
       ],
       "change": "content-changed"
@@ -509,10 +495,10 @@
       "category": "vps-cloud",
       "name": "Porkbun 網域價格",
       "url": "https://porkbun.com/products/domains",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 803581,
-      "hash": "11f6ab6d710f9835",
+      "bytes": 803374,
+      "hash": "f63bc26729ef4542",
       "keywordHits": [
         "sale",
         "first year"
@@ -524,10 +510,10 @@
       "category": "software",
       "name": "Epic 每週免費遊戲（官方 JSON）",
       "url": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 41706,
-      "hash": "8032019461e8351a",
+      "hash": "b7c1d6f861b80ad6",
       "keywordHits": [
         "freeGames",
         "promotions"
@@ -539,10 +525,10 @@
       "category": "software",
       "name": "GOG 免費遊戲",
       "url": "https://www.gog.com/en/games?priceRange=0,0",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1048500,
-      "hash": "5f6ffd8f1667cd44",
+      "hash": "91034695478b598b",
       "keywordHits": [
         "free"
       ],
@@ -553,10 +539,10 @@
       "category": "software",
       "name": "Steam 特價頁",
       "url": "https://store.steampowered.com/specials",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1408559,
-      "hash": "8c1a5871ee3794c4",
+      "bytes": 1409298,
+      "hash": "93254925ef925242",
       "keywordHits": [
         "sale",
         "free"
@@ -568,10 +554,10 @@
       "category": "software",
       "name": "Humble Bundle 首頁",
       "url": "https://www.humblebundle.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 581324,
-      "hash": "8706f676f170d952",
+      "hash": "ec596aea3b8b4796",
       "keywordHits": [
         "bundle",
         "free"
@@ -583,10 +569,10 @@
       "category": "software",
       "name": "Setapp 定價頁",
       "url": "https://setapp.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 875011,
-      "hash": "ce85fda5c391df19",
+      "hash": "7785f58ffc38340e",
       "keywordHits": [
         "free",
         "trial"
@@ -598,10 +584,10 @@
       "category": "software",
       "name": "Notion 定價頁",
       "url": "https://www.notion.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 401306,
-      "hash": "4688eede13009072",
+      "hash": "9d98e468c7e6ee46",
       "keywordHits": [
         "free",
         "trial"
@@ -615,10 +601,10 @@
       "category": "ai",
       "name": "OpenAI ChatGPT 定價頁",
       "url": "https://openai.com/chatgpt/pricing/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1273197,
-      "hash": "28f8764f0270092f",
+      "bytes": 1271722,
+      "hash": "44ab2ac1cce95dce",
       "keywordHits": [
         "free",
         "plus"
@@ -630,10 +616,10 @@
       "category": "ai",
       "name": "Anthropic Claude 定價頁",
       "url": "https://www.anthropic.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1445728,
-      "hash": "4a5fe337ca64a85a",
+      "hash": "bb0fcb559745c995",
       "keywordHits": [
         "free"
       ],
@@ -644,10 +630,10 @@
       "category": "ai",
       "name": "Google One AI 方案",
       "url": "https://one.google.com/about/google-ai-plans/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 473112,
-      "hash": "25fb7051316d6ba0",
+      "hash": "de01b84b5260cfba",
       "keywordHits": [
         "free",
         "trial"
@@ -659,7 +645,7 @@
       "category": "ai",
       "name": "Midjourney 訂閱文件",
       "url": "https://docs.midjourney.com/hc/en-us",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
       "bytes": 5679,
       "error": "HTTP 403",
@@ -670,10 +656,10 @@
       "category": "ai",
       "name": "Suno 定價頁",
       "url": "https://suno.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 422417,
-      "hash": "2908ed5e1720025a",
+      "hash": "c3c74705b29d7ea6",
       "keywordHits": [
         "free",
         "credits"
@@ -685,10 +671,10 @@
       "category": "ai",
       "name": "GitHub Copilot 方案",
       "url": "https://github.com/features/copilot/plans",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1063683,
-      "hash": "7935c03f06925757",
+      "bytes": 1063685,
+      "hash": "deb5af3565096ca6",
       "keywordHits": [
         "free"
       ],
@@ -699,7 +685,7 @@
       "category": "crypto",
       "name": "Binance 官方公告",
       "url": "https://www.binance.com/en/support/announcement",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 202,
       "bytes": 0,
       "error": "空回應（HTTP 202），可能被擋",
@@ -710,10 +696,10 @@
       "category": "crypto",
       "name": "OKX 官方公告",
       "url": "https://www.okx.com/help/section/announcements-latest-announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 85371,
-      "hash": "b5284589e2a3861d",
+      "bytes": 85376,
+      "hash": "d12e4756c111174a",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -726,9 +712,9 @@
       "category": "banking",
       "name": "Revolut 官網",
       "url": "https://www.revolut.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
-      "bytes": 818348,
+      "bytes": 818369,
       "error": "HTTP 403",
       "change": "fetch-failed"
     },
@@ -737,10 +723,10 @@
       "category": "banking",
       "name": "Wise 官網",
       "url": "https://wise.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 906391,
-      "hash": "8aa7f28edaa9cbf3",
+      "bytes": 901625,
+      "hash": "6bd078c7515c99c5",
       "keywordHits": [
         "promo",
         "cashback"
@@ -752,10 +738,10 @@
       "category": "vps-cloud",
       "name": "Oracle Cloud Free Tier",
       "url": "https://www.oracle.com/cloud/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 80567,
-      "hash": "6938128a82741f60",
+      "bytes": 80566,
+      "hash": "6f4baef2f6c11f80",
       "keywordHits": [
         "$300",
         "always free"
@@ -767,10 +753,10 @@
       "category": "vps-cloud",
       "name": "AWS Free Tier",
       "url": "https://aws.amazon.com/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 431101,
-      "hash": "20077d3d84115c13",
+      "hash": "6ed50e82476e6f38",
       "keywordHits": [
         "free"
       ],
@@ -781,10 +767,10 @@
       "category": "vps-cloud",
       "name": "Google Cloud 免費試用說明",
       "url": "https://cloud.google.com/free/docs/free-cloud-features",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 181792,
-      "hash": "686426cea7b3f83f",
+      "bytes": 181788,
+      "hash": "9c63a7e7aa70c11d",
       "keywordHits": [
         "$300",
         "free trial"
@@ -796,10 +782,10 @@
       "category": "vps-cloud",
       "name": "Azure 免費帳戶",
       "url": "https://azure.microsoft.com/free/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 502205,
-      "hash": "a9f16c41530ae5d9",
+      "bytes": 505117,
+      "hash": "388c7dfefb4d23ae",
       "keywordHits": [
         "credit",
         "free"
@@ -811,10 +797,10 @@
       "category": "vps-cloud",
       "name": "Cloudflare 方案頁",
       "url": "https://www.cloudflare.com/plans/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 714282,
-      "hash": "9208eb057edc76a6",
+      "hash": "68f197e00ead5785",
       "keywordHits": [
         "free"
       ],
@@ -825,7 +811,7 @@
       "category": "vps-cloud",
       "name": "Namecheap 促銷頁",
       "url": "https://www.namecheap.com/promotions/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 403,
       "bytes": 5750,
       "error": "HTTP 403",
@@ -836,7 +822,7 @@
       "category": "software",
       "name": "JetBrains 社群與免費授權",
       "url": "https://www.jetbrains.com/community/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 44006,
       "hash": "923d9b04820233f7",
@@ -851,10 +837,10 @@
       "category": "software",
       "name": "GitHub 學生包",
       "url": "https://education.github.com/pack",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 271377,
-      "hash": "d679487bc4b0bed0",
+      "bytes": 271357,
+      "hash": "9fe43e2d0ee65e3b",
       "keywordHits": [
         "student",
         "free"
@@ -866,7 +852,7 @@
       "category": "software",
       "name": "Figma 定價頁",
       "url": "https://www.figma.com/pricing/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 2677021,
       "hash": "d0af934b8aed303f",
@@ -880,7 +866,7 @@
       "category": "ai",
       "name": "Cursor 定價頁",
       "url": "https://cursor.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 330570,
       "hash": "021d588efaa63ed3",
@@ -895,10 +881,10 @@
       "category": "ai",
       "name": "Claude 定價頁（claude.com）",
       "url": "https://claude.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1445728,
-      "hash": "3ffd5c0980185993",
+      "hash": "02e5cbd867b804b2",
       "keywordHits": [
         "free",
         "pro"
@@ -910,10 +896,10 @@
       "category": "ai",
       "name": "Gemini 學生方案",
       "url": "https://gemini.google/students/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 194302,
-      "hash": "9f748a5ba6c1a169",
+      "hash": "cacfc41344d37b8c",
       "keywordHits": [
         "free",
         "student"
@@ -925,10 +911,10 @@
       "category": "ai",
       "name": "ElevenLabs 定價頁",
       "url": "https://elevenlabs.io/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 679143,
-      "hash": "53c435e8c8320a19",
+      "bytes": 678971,
+      "hash": "2a6eda2acec84e60",
       "keywordHits": [
         "free",
         "credits"
@@ -940,7 +926,7 @@
       "category": "ai",
       "name": "Mistral 定價頁",
       "url": "https://mistral.ai/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 419422,
       "hash": "729d29701deecd4b",
@@ -955,10 +941,10 @@
       "category": "ai",
       "name": "v0 定價頁",
       "url": "https://v0.app/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 273501,
-      "hash": "698611cb7983b45b",
+      "hash": "6f902550282836e5",
       "keywordHits": [
         "free",
         "credits"
@@ -970,10 +956,10 @@
       "category": "crypto",
       "name": "Bitget 官方公告",
       "url": "https://www.bitget.com/support/sections/360007868532",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 140999,
-      "hash": "8c8eb6aed07d586f",
+      "hash": "f92d043673b805a5",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -986,10 +972,10 @@
       "category": "crypto",
       "name": "KuCoin 官方公告",
       "url": "https://www.kucoin.com/announcement",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 159436,
-      "hash": "388f6acd69501579",
+      "bytes": 159440,
+      "hash": "89fa4e5ec484122f",
       "keywordHits": [
         "reward"
       ],
@@ -1000,10 +986,10 @@
       "category": "crypto",
       "name": "Gate 官方公告",
       "url": "https://www.gate.com/announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 367317,
-      "hash": "7d33e11136594cca",
+      "bytes": 367004,
+      "hash": "74747802fbe7fbbc",
       "keywordHits": [
         "airdrop",
         "reward",
@@ -1016,10 +1002,10 @@
       "category": "crypto",
       "name": "BitoPro 幣託公告（台灣）",
       "url": "https://www.bitopro.com/ns/announcements",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 114346,
-      "hash": "c7a455b0f12e4ed1",
+      "hash": "0acbbad4cc4460b4",
       "keywordHits": [
         "活動",
         "回饋"
@@ -1031,10 +1017,10 @@
       "category": "crypto",
       "name": "Kraken 官方部落格",
       "url": "https://blog.kraken.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 147715,
-      "hash": "02fe03dc7a8c4b6d",
+      "bytes": 147764,
+      "hash": "5c70e27ed4afa974",
       "keywordHits": [
         "reward",
         "campaign"
@@ -1046,7 +1032,7 @@
       "category": "banking",
       "name": "HSBC 香港帳戶與開戶優惠",
       "url": "https://www.hsbc.com.hk/accounts/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 262846,
       "hash": "288189269b3ca9d5",
@@ -1062,7 +1048,7 @@
       "category": "banking",
       "name": "ZA Bank 優惠頁",
       "url": "https://bank.za.group/en/promotions",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 30692,
       "hash": "2dcd19296e36502c",
@@ -1074,10 +1060,10 @@
       "category": "banking",
       "name": "Airwallex 官網",
       "url": "https://www.airwallex.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 678536,
-      "hash": "e4cdba0186a61638",
+      "bytes": 678487,
+      "hash": "aa155997353389a8",
       "keywordHits": [
         "free",
         "offer"
@@ -1089,10 +1075,10 @@
       "category": "banking",
       "name": "玉山信用卡優惠",
       "url": "https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 189851,
-      "hash": "5a1fff3c8dcf61e1",
+      "bytes": 190733,
+      "hash": "666c2b56e2620152",
       "keywordHits": [
         "回饋",
         "優惠",
@@ -1105,10 +1091,10 @@
       "category": "vps-cloud",
       "name": "DigitalOcean 定價與試用額度",
       "url": "https://www.digitalocean.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 288597,
-      "hash": "9d1b58d1d3211e20",
+      "bytes": 288587,
+      "hash": "1f7ce48f3865b355",
       "keywordHits": [
         "free",
         "credit"
@@ -1120,10 +1106,10 @@
       "category": "vps-cloud",
       "name": "RackNerd 特價 VPS",
       "url": "https://www.racknerd.com/specials/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 197279,
-      "hash": "5ada0ff42359a1bb",
+      "hash": "4651aea25c9e47d0",
       "keywordHits": [
         "special",
         "deal",
@@ -1136,10 +1122,10 @@
       "category": "vps-cloud",
       "name": "AWS Activate 新創額度",
       "url": "https://aws.amazon.com/startups/credits/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 400320,
-      "hash": "1f724a1d4d1be273",
+      "hash": "46bdde578383953e",
       "keywordHits": [
         "credits",
         "free"
@@ -1151,10 +1137,10 @@
       "category": "vps-cloud",
       "name": "Cloudflare 新創方案",
       "url": "https://www.cloudflare.com/startups/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 568248,
-      "hash": "494a1b8e5b963e60",
+      "hash": "62a079ea7eb1fdfc",
       "keywordHits": [
         "credits",
         "free"
@@ -1166,7 +1152,7 @@
       "category": "vps-cloud",
       "name": "Supabase 定價頁",
       "url": "https://supabase.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 405117,
       "hash": "9194dc54923444f6",
@@ -1180,24 +1166,24 @@
       "category": "vps-cloud",
       "name": "Neon 定價頁",
       "url": "https://neon.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 759842,
       "hash": "f26272872fa331cc",
       "keywordHits": [
         "free"
       ],
-      "change": "content-changed"
+      "change": "unchanged"
     },
     {
       "id": "porkbun-domains",
       "category": "vps-cloud",
       "name": "Porkbun 網域價格",
       "url": "https://porkbun.com/products/domains",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 803581,
-      "hash": "11f6ab6d710f9835",
+      "bytes": 803374,
+      "hash": "f63bc26729ef4542",
       "keywordHits": [
         "sale",
         "first year"
@@ -1209,10 +1195,10 @@
       "category": "software",
       "name": "Epic 每週免費遊戲（官方 JSON）",
       "url": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 41706,
-      "hash": "8032019461e8351a",
+      "hash": "b7c1d6f861b80ad6",
       "keywordHits": [
         "freeGames",
         "promotions"
@@ -1224,10 +1210,10 @@
       "category": "software",
       "name": "GOG 免費遊戲",
       "url": "https://www.gog.com/en/games?priceRange=0,0",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 1048500,
-      "hash": "5f6ffd8f1667cd44",
+      "hash": "91034695478b598b",
       "keywordHits": [
         "free"
       ],
@@ -1238,10 +1224,10 @@
       "category": "software",
       "name": "Steam 特價頁",
       "url": "https://store.steampowered.com/specials",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
-      "bytes": 1408559,
-      "hash": "8c1a5871ee3794c4",
+      "bytes": 1409298,
+      "hash": "93254925ef925242",
       "keywordHits": [
         "sale",
         "free"
@@ -1253,10 +1239,10 @@
       "category": "software",
       "name": "Humble Bundle 首頁",
       "url": "https://www.humblebundle.com/",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 581324,
-      "hash": "8706f676f170d952",
+      "hash": "ec596aea3b8b4796",
       "keywordHits": [
         "bundle",
         "free"
@@ -1268,7 +1254,7 @@
       "category": "software",
       "name": "Adobe 特別優惠",
       "url": "https://www.adobe.com/products/special-offers.html",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 28632,
       "hash": "2edb17951637cdf0",
@@ -1284,10 +1270,10 @@
       "category": "software",
       "name": "Setapp 定價頁",
       "url": "https://setapp.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 875011,
-      "hash": "ce85fda5c391df19",
+      "hash": "7785f58ffc38340e",
       "keywordHits": [
         "free",
         "trial"
@@ -1299,10 +1285,10 @@
       "category": "software",
       "name": "Notion 定價頁",
       "url": "https://www.notion.com/pricing",
-      "at": "2026-11-21T22:05:17.183Z",
+      "at": "2026-11-22T00:05:18.641Z",
       "httpStatus": 200,
       "bytes": 401306,
-      "hash": "4688eede13009072",
+      "hash": "9d98e468c7e6ee46",
       "keywordHits": [
         "free",
         "trial"

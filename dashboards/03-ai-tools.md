@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-21T22:05:17.183Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T00:05:18.641Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -23,11 +23,10 @@
 | [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192 | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
-| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 每月免費，包含 GPT-6 無限文字聊天、有限的上傳訊息、有限的圖片創作、有限的語音聊天、有限的深度研究、有限的記憶體與上下文、有限的 Co | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT Pro 方案 API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 訂閱者每月可獲得最高 300 美元的 API 額度，可用於建置自己的應用程式與代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [v0 Plus 方案限時折扣](https://v0.app/pricing) | AI 工具 | 原價 $90 現價 $30/user/month | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
-| [v0 每日登入回饋](https://v0.app/pricing) | AI 工具 | Plus 與 Business 方案用戶每日登入可獲 $2 免費信用點 | 約 TWD 64（AI 估） | 長期活動 | 待核實 |
-| [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面導航提供「Students」連結及「v0 for Students」產品條目，但未明確標註具體折扣數字或免費額度 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google Black Friday 會員提前預購折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 部分 Google AI 方案最高可享 50% 折扣 | 約 TWD 24,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經過驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供 1 年免費的 Google AI Pro 學生方案，包含 Gemini 用量限制提高 4 倍、5 TB 儲存空間、Gemini Spa | 免費（價值視使用而定） | 2026-12-31 | 待核實 |
+| [Google Gemini 學生免費方案](https://gemini.google/students/) | AI 工具 | 提供 1 年免費的 Google AI Pro 學生方案，包含 Gemini 用量限制提高 4 倍、5 TB 儲存空間、Gemini Spa | 約 TWD 6,000（AI 估） | 2026-12-31 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案每月費用為 0 美元。包含無限文字對話（GPT-6）、有限的上傳訊息、有限的圖像生成、有限的語音聊天、有限的深度研究、有限的記憶與脈 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT Pro API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 方案使用者可獲得每月不定的 API 額度，可用於建構自己的應用程式和代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday Sale](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受最高 55% 折扣。Creator 年繳方案現為 99 美元（一年），Pro 新用戶年繳可享 55% 折扣，Pro 既有月 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [ElevenLabs 年繳常態優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案相當於前 10 個月付費，第 11-12 個月免費（即 2 個月免費）。Starter 年繳相當於每月 5 美元，Creator 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
