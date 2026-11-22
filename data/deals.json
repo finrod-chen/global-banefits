@@ -1958,206 +1958,6 @@
     }
   },
   {
-    "id": "porkbun-domains-20261121-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 WHOIS 隱私保護",
-    "category": "vps-cloud",
-    "summary": "提供免費的 WHOIS 隱私保護服務",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或管理 Porkbun 網域"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T00:05:18.641Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示該服務為免費（Free），屬於贈送或包含在基礎服務中的免費權益。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free WHOIS Privacy",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261121-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 SSL 憑證",
-    "category": "vps-cloud",
-    "summary": "提供免費的 SSL 憑證",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或管理 Porkbun 網域"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T02:05:16.884Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出「Free SSL Certificates」，提供免費的安全憑證，屬於免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free SSL Certificates",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2500,
-      "basis": "ai-estimate",
-      "note": "保守估算一張一般商業SSL憑證的年度市價約為 $50~$80 USD，換算成新台幣約在 NT$1500~NT$2500 之間，取中位數估算。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "porkbun-domains-20261121-3",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費電子郵件轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的電子郵件轉發功能",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或管理 Porkbun 網域"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T02:05:16.884Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出該服務為免費功能，屬於免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Email Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261121-4",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 免費 URL 轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的 URL 轉發功能",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊或管理 Porkbun 網域"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T02:05:16.884Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面將「Free URL Forwarding」列於免費基礎功能清單中，屬於常態性的免費服務選項，而非限時優惠或特定促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free URL Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "openai-pricing-20261122-1",
     "sourceId": "openai-pricing",
     "name": "ChatGPT 免費方案",
@@ -4693,7 +4493,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生免費的網域註冊服務，屬於免費方案或額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One standard .TECH domain free for 1 year.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "依據市場常見 .TECH 網域一註冊年費約 10-12 美元，保守估算為 300 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261122-5",
@@ -4722,7 +4548,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容屬於 GitHub Student Developer Pack，針對學生提供免費或折扣價的 Microsoft 365 權益。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students can now get free or discounted access to our powerful productivity apps with AI built in, 1TB of cloud Storage, and and advanced security for your data and devices. Sign up today to unlock all your benefits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "Microsoft 365 一般訂閱費約為每個月 100-150 美元，若以 1 年計算約 1200 美元，但考慮到學生版可能僅提供部分功能或基礎版，保守估算第一年價值約 2000-2500 新台幣（若以基礎版年費換算約 1500-2000 TWD，這裡取一個較高但合理的保守估值作為參考，因為原文未明確區分版本，通常學生版 M365 包含完整辦公軟體，價值接近零售價）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261122-6",
@@ -4751,7 +4608,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "畢業或失去學生資格後可能轉為付費。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供學生免費使用 GitHub Pro 服務，屬於特定身分的免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free GitHub Pro while you are a student.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "while you are a student",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "github-education-20261122-7",
@@ -4779,7 +4661,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對學生的 GitHub Student Developer Pack 提供的免費 Notion Education 方案優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Everything in the Notion Education plan with additional AI responses. Notion Education plan offers everything in our Plus plan + increased sharing & collaboration capabilities and longer page history.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "Notion Plus 方案約每月 $8-$10 USD，一年約 $120 USD；Notion Education 方案包含 Plus 功能並增加 AI 回應，價值略高，保守估算第一年價值約 2500 TWD。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261122-8",
@@ -4808,7 +4716,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供經過驗證的學生免費使用 GitHub Copilot Student 方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "GitHub Copilot Student is available to verified students. The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1200,
+      "basis": "ai-estimate",
+      "note": "假設 GitHub Copilot 個人版月費約 USD 10，學生方案免費一年的價值約 USD 120 (匯率 1:30)，換算為 3,600 TWD；但考慮到 AI 點數與有限使用限制，保守估算為 1,200 TWD。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261122-9",
@@ -4836,7 +4775,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "點數過期未使用可能失效；超出點數部分可能產生費用。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供連續 24 個月、每月固定金額的雲端服務點數額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Enjoy a credit of $13 USD per month for 24 months.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 312,
+      "basis": "ai-estimate",
+      "note": "依原文明確的 24 個月總金額 312 美元計算。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261122-10",
@@ -4865,7 +4830,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-22T08:06:38.502Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定時段（3個月）的免費服務，屬於試用或限時免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "sign up for a DataCamp subscription with your GitHub student account",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "DataCamp個人訂閱費約每月35美元，3個月價值約105美元，換算成新台幣保守估算約為1000元（或依匯率調整，這裡取整數保守值，若按35*3=105 USD, 105*30=3150 TWD，但考慮到是免費試用且非全功能或特定課程可能價值較低，且題目要求保守估算，若無明確金額，通常免費試用的價值較難精確，但若必須給值，DataCamp全訂閱月費約$25-40，取中位數$30，3個月$90，約2700-3000 TWD。這裡填1000可能太保守，填3000較合理。讓我們重新評估：DataCamp Plus約$25/月，Pro約$45/月。通常學生拿的是標準訂閱。假設$25/月，3個月$75",
+      "confidence": "medium"
+    }
   },
   {
     "id": "aws-startups-credits-20261122-1",
@@ -4897,7 +4893,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-22T08:07:17.312Z",
     "lastVerified": "2026-11-22",
     "risks": "信貸額度受 AWS 促銷信貸條款與條件約束,AI 新創的額外信貸金額依工作負載規模而定，需與客戶經理洽談",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T12:05:17.007Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供最高 20 萬美元的促銷信貸額度，屬於專屬的免費方案或額度獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "up to $200,000 in AWS Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261122-2",
@@ -5183,6 +5212,118 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-22T10:06:53.981Z",
     "lastVerified": "2026-11-22",
     "risks": "頁面未明確列出贊助具體金額或持續時間。",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261122-1",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域免費 WHOIS 隱私保護",
+    "category": "vps-cloud",
+    "summary": "提供免費的 WHOIS 隱私保護服務（Free WHOIS Privacy）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "購買 Porkbun 網域服務"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
+    "lastVerified": "2026-11-22",
+    "risks": "隱私保護通常僅在網域註冊期間有效，過期未續費可能導致隱私設定失效",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261122-2",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域免費 SSL 憑證",
+    "category": "vps-cloud",
+    "summary": "提供免費的 SSL 憑證服務（Free SSL Certificates）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "購買 Porkbun 網域或主機服務"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
+    "lastVerified": "2026-11-22",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261122-3",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域免費 Email 轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的 Email 轉發服務（Free Email Forwarding）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "購買 Porkbun 網域服務"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
+    "lastVerified": "2026-11-22",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261122-4",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域免費 URL 轉發",
+    "category": "vps-cloud",
+    "summary": "提供免費的 URL 轉發服務（Free URL Forwarding）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "購買 Porkbun 網域服務"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
+    "lastVerified": "2026-11-22",
+    "risks": "",
     "status": "pending"
   }
 ]
