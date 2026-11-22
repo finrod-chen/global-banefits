@@ -2237,5 +2237,72 @@
     "status": "expired",
     "archivedAt": "2026-11-22T16:05:18.051Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "copilot-plans-20261122-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 30% 優惠",
+    "category": "ai",
+    "summary": "Copilot Fusion 用量享受 30% 折扣，期限至 11 月 30 日",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [
+      "瀏覽官方頁面了解活動詳情",
+      "在訂閱或更新 Copilot 方案時套用折扣"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-22T19:59:56.261Z",
+    "lastVerified": "2026-11-22",
+    "risks": "折扣僅限 Copilot Fusion 用量，可能不包含其他功能或模型",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-22T19:59:00.807Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面頂端明確標示 Copilot Fusion 用量享有 30% 折扣且期限至 11 月 30 日，屬於限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30% off Copilot Fusion usage until Nov 30th. Learn more",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "30% off Copilot Fusion usage until Nov 30th. Learn more",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "假設使用者每月使用 10 美元等值的 Copilot Fusion 用量，30% 折扣一年可節省約 36 美元，換算成新台幣約 1000 元。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-22T20:05:21.857Z",
+    "archiveReason": "endDate passed"
   }
 ]
