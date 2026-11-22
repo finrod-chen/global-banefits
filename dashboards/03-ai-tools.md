@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T07:29:27.644Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T08:05:16.240Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,7 +27,7 @@
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案每月費用為 0 美元。包含無限文字對話（GPT-6）、有限的上傳訊息、有限的圖像生成、有限的語音聊天、有限的深度研究、有限的記憶與脈 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT Pro API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 方案使用者可獲得每月不定的 API 額度，可用於建構自己的應用程式和代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs 年繳常態優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案相當於前 10 個月付費，第 11-12 個月免費（即 2 個月免費）。Starter 年繳相當於每月 5 美元，Creator 每 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Black Friday Google AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高享 5 折優惠。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Black Friday Google AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高享 5 折優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
