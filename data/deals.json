@@ -4636,7 +4636,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出「Free SSL Certificates」，提供免費的安全憑證，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "保守估算一張一般商業SSL憑證的年度市價約為 $50~$80 USD，換算成新台幣約在 NT$1500~NT$2500 之間，取中位數估算。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261121-3",
@@ -4664,7 +4690,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出該服務為免費功能，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Email Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261121-4",
@@ -4692,7 +4738,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-21T22:06:33.272Z",
     "lastVerified": "2026-11-21",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面將「Free URL Forwarding」列於免費基礎功能清單中，屬於常態性的免費服務選項，而非限時優惠或特定促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free URL Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "openai-pricing-20261122-1",
@@ -4721,7 +4789,31 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-22T00:05:42.927Z",
     "lastVerified": "2026-11-22",
     "risks": "免費方案對部分功能有使用限制，且可能受濫用防護機制限制。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該草稿描述的是「ChatGPT 免費方案」，屬於零元費用的使用額度與功能，符合免費方案或額度的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\nBest for trying out ChatGPT\n/ month\nGet Free\nUnlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "0"
+      ]
+    }
   },
   {
     "id": "openai-pricing-20261122-2",
@@ -4749,7 +4841,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-22T00:05:42.927Z",
     "lastVerified": "2026-11-22",
     "risks": "API 額度為 Pro 方案的一部分，需持續訂閱方能使用。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是付費訂閱方案中附帶的功能與資源，並非法定的特殊優惠或限時活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to in monthly API credits to build your own apps and agents.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Get Pro",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261122-1",
@@ -4777,7 +4897,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "此為長期免費方案，非試用期，無扣款風險。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案每月費用為$0，提供免費的基礎網路與CDN服務額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "For personal or hobby projects that aren't business-critical.\n$0\n/month\nGet started\n...\nCore Features Fast, Easy-to-use DNS\nFast, Easy-to-use DNS\nFree\n...\nUnmetered DDoS Protection\nUnmetered DdoS Protection\nFree\n...\nCDN\nCDN\nFree\n...\nUnivers",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261122-2",
@@ -4805,7 +4947,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "若團隊超過 50 人或非概念驗證，需升級至付費方案。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供每月 0 美元的免費方案，屬於免費方案與額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.\n$0\nforever\nGet started",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261122-3",
@@ -4831,7 +4998,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價 (每百萬請求 $0.30 / 每百萬 CPU ms $0.02) 收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T02:05:16.884Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 Workers 產品的免費額度，屬於免費方案或額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n100k / day\n10 ms / request",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2650,
+      "basis": "ai-estimate",
+      "note": "以免費額度的價值估算，假設付費率為每百萬次請求 $0.30 及每百萬 CPU ms $0.02，年價值約 $92（約 2,650 TWD）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261122-4",
@@ -5039,35 +5234,6 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
-  },
-  {
-    "id": "elevenlabs-pricing-20261122-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs Black Friday Sale",
-    "category": "ai",
-    "summary": "選擇年繳方案可享受最高 55% 折扣。Creator 年繳方案現為 99 美元（一年），Pro 新用戶年繳可享 55% 折扣，Pro 既有月繳用戶轉年繳可享 50% 折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "針對年繳方案。Pro 方案的 55% 折扣僅限新用戶，既有月繳用戶轉年繳為 50% 折扣。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-12-01",
-    "ongoing": false,
-    "steps": [
-      "選擇年繳方案",
-      "在 12 月 1 日結束前完成訂閱"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-22T00:06:39.940Z",
-    "lastVerified": "2026-11-22",
-    "risks": "折扣僅限前一年，之後恢復常態價格；需在截止日期前完成訂閱。",
     "status": "pending"
   },
   {

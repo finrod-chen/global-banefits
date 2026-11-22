@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T00:05:18.641Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T02:05:16.884Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -52,14 +52,14 @@
 | [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費電子郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費電子郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發功能 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案每月費用為 0 美元。包含無限文字對話（GPT-6）、有限的上傳訊息、有限的圖像生成、有限的語音聊天、有限的深度研究、有限的記憶與脈 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT Pro API 額度](https://openai.com/chatgpt/pricing/) | AI 工具 | Pro 方案使用者可獲得每月不定的 API 額度，可用於建構自己的應用程式和代理。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare 免費網路與 CDN 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 Fast DNS、無限 DDoS 保護、CDN、Universal SSL 憑證、免費管理規則集 (Free Manage | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於 50 人以下團隊或企業概念驗證 (proof-of-concept)。包含社群論壇與 Discord 支持、24 小時標 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求，每請求 10 ms CPU 時間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於 50 人以下團隊或企業概念驗證 (proof-of-concept)。包含社群論壇與 Discord 支持、24 小時標 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求，每請求 10 ms CPU 時間。 | 約 TWD 2,650（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量 (NA/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M SQL 讀取行數、100K SQL 寫入行數、5 GB SQL 儲存 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB-month 標準儲存空間、100 萬次 Class A 操作、1000 萬次 Class B 操作。無出站流量費 (egr | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -68,7 +68,6 @@
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 個數據點寫入、每日 10,000 次讀取查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs Black Friday Sale](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受最高 55% 折扣。Creator 年繳方案現為 99 美元（一年），Pro 新用戶年繳可享 55% 折扣，Pro 既有月 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
 | [ElevenLabs 年繳常態優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案相當於前 10 個月付費，第 11-12 個月免費（即 2 個月免費）。Starter 年繳相當於每月 5 美元，Creator 每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate Event Contracts Limited-Time Trading Competition](https://www.gate.com/announcements) | Crypto | 新戶第一筆交易獎勵，最高可贏得未明確定數的獎勵（原文僅提及 Win Up to... 未顯示具體金額） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate 2026 Annual Gala](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎，贏得驚喜獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
