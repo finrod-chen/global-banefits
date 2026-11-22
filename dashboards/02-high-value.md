@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T16:05:18.051Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T18:05:16.579Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,15 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Kraken Pro ANTx 交易獎勵活動](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價）可贏取總計 5,000 美元獎品。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 存入 1,000 美元法幣並通過四項疊加里程碑，最高可獲得 100 美元比特幣（BTC）。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken Pro Anthropic 前 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX），按成交量排名，贏取 20,000 美元 ANTHROP | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 非加密貨幣市場半價手續費](https://blog.kraken.com/) | Crypto | 銀、WTI 原油、布蘭特原油、銅、天然氣等商品上市，所有非加密市場手續費降至單邊 2 基準點。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池；採用單一看板，三個乘數。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | 待核實 |
-| [Kraken Pre-IPO 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 期貨，按交易量排名，分享 10,000 USDG 獎品。 | 約 TWD 340,000（AI 估） | 長期活動 | 待核實 |
-| [Kraken F1 車手見面會抽獎](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易 1 美元或更多交易量，即有機會在美國大獎賽期間與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [RackNerd Black Friday 2026 VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年費低至 $15.98（1GB RAM/20GB SSD/3TB 流量），另有 $27.98、$47.98、$74.98、$ | 約 TWD 511（AI 估） | 2026-11-29 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵應用程式功能安裝 AdminBolt（現代主機控制面板）可享 30 天免費試用。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Black Friday Google AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高享 5 折優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
@@ -92,5 +83,13 @@
 | [Porkbun 網域免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發服務（Free URL Forwarding）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面包含「Students」導覽選單及「v0 for Students」連結，暗示提供針對學生群體的專屬服務或頁面，但具體優惠內容未在提供的 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [KuCoin Earn Friday 週期139 理財活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
+| [Kraken 節日存款抽獎活動](https://blog.kraken.com/) | Crypto | 參加活動，每存入 1 歐元即可獲得一次抽獎資格，總獎池為 50 萬歐元，抽出一名贏家。活動持續至 1 月 7 日。 | 免費（價值視使用而定） | 2027-01-07 | 待核實 |
+| [Kraken Pro ANTx 交易獎品活動](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易追蹤 Anthropic 股價的 ANTx 資產，總共提供 5,000 美元的獎品。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 黑色星期五存款與交易獎勵](https://blog.kraken.com/) | Crypto | 存入 1,000 美元法定貨幣並完成四個堆疊里程碑交易，最高可獲得 100 美元的 BTC。活動期間為 11 月 12 日至 12 月 1  | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTHROPICX（最高 10 倍槓桿），根據交易量排名，贏取總價值 20,000 美元 ANTHROPI | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Futures USDG 挑戰賽](https://blog.kraken.com/) | Crypto | 在 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 的獎勵池。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
+| [Kraken Pre-IPO OURAx & MOONSHOTx 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 OURAx 和 MOONSHOTx 永續合約（最高 10 倍槓桿），交易量決定排名，贏取 10,000 US | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 奧斯汀 F1 活動](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元或以上，即有機會親眼目睹 Atlassian Williams F1 車手在美國大獎賽（CO | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |

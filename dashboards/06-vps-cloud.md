@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T16:05:18.051Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T18:05:16.579Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,8 +13,6 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年費低至 $15.98（1GB RAM/20GB SSD/3TB 流量），另有 $27.98、$47.98、$74.98、$ | 約 TWD 511（AI 估） | 2026-11-29 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵應用程式功能安裝 AdminBolt（現代主機控制面板）可享 30 天免費試用。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Google Cloud 免費方案（Free Tier）](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 提供超過 20 種常用產品（包括 AI API、VM、數據倉庫等）的免費額度，每月有指定使用限制。 | 約 TWD 9,600（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元的 AWS 信貸額度。其中自助（Self-funded）層級最高 5,000 美元，VC/加速器支援（Pre- | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的信貸額度，讓新創企業可以從基礎模型快速轉向生產環境基礎架構。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -25,5 +23,6 @@
 | [Porkbun 網域免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務（Free SSL Certificates）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發服務（Free Email Forwarding）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域免費 URL 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 URL 轉發服務（Free URL Forwarding）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
