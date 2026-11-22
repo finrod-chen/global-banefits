@@ -1958,495 +1958,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261121-2",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Pro ANTx 交易挑戰",
-    "category": "crypto",
-    "summary": "在 Kraken Pro 平台交易 ANTx（追蹤 Anthropic 股價）可參與總獎金 5,000 美元的分潤活動。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Pro 平台進行交易。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-20",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 平台交易 ANTx"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
-    "lastVerified": "2026-11-21",
-    "risks": "ANTx 為新上市產品，可能具有流動性或價格波動風險。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供總獎金 $5,000 的獎勵，屬於限時獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade ANTx on Kraken Pro",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000,
-      "basis": "explicit-amount",
-      "usd": 5000,
-      "quote": "$5,000 in prizes",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261121-3",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 黑五存款與交易獎金",
-    "category": "crypto",
-    "summary": "報名後，存入 1,000 美元法幣並通過四個階梯式交易里程碑，最高可獲得 100 美元 BTC。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須報名活動，存入至少 1,000 美元法幣，並在活動期間完成指定的交易里程碑。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-12",
-    "endDate": "2026-12-01",
-    "ongoing": false,
-    "steps": [
-      "報名活動",
-      "存入 1,000 美元法幣",
-      "在 11 月 12 日至 12 月 1 日期間完成四個階梯式交易里程碑"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
-    "lastVerified": "2026-11-21",
-    "risks": "獎金為 BTC，價值會隨市場波動。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供存入與交易獎金，屬於限時新戶或用戶獎勵優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261121-4",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Anthropic 預 IPO 挑戰",
-    "category": "crypto",
-    "summary": "在 Kraken Pro 交易 ANTHROPICX（最多 10 倍槓桿），依據交易量排名，分潤總計 20,000 美元的 ANTHROPICX 獎金池。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Pro 交易 ANTHROPICX，並按交易量進行排名。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-11",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 交易 ANTHROPICX（可使用最高 10x 槓桿）",
-      "依據交易量排名以獲取獎金池份額"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
-    "lastVerified": "2026-11-21",
-    "risks": "使用槓桿交易具有極高風險，可能損失全部本金。,獎金以 ANTHROPICX 形式發放，價值可能波動。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個以交易量排名為條件的競賽，提供獎金池作為獎勵，屬於典型的限時新戶或交易獎勵活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 640000,
-      "basis": "explicit-amount",
-      "usd": 20000,
-      "quote": "compete for $20,000 in ANTHROPICX on Kraken Pro",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261121-5",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Prop 非加密市場佣金半價",
-    "category": "crypto",
-    "summary": "Kraken Prop 平台上的黃金、白銀、石油等非加密商品，每邊手續費降至 2bps，此優惠適用於包括現有帳戶在內的帳戶。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Prop 平台交易非加密市場（如黃金、白銀、WTI 石油、布倫特石油、銅、天然氣等）。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-29",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Prop 帳戶交易指定的非加密商品"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
-    "lastVerified": "2026-11-21",
-    "risks": "僅適用於非加密市場，加密資產交易費率未提及此優惠。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面內容描述的是一項常態性的交易手續費（定價）調整，而非限時促銷或新戶獎勵活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "commission on every non-crypto market drops to 2bps per side, including on accounts you already hold",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261121-6",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 500 萬 USDG 期貨挑戰",
-    "category": "crypto",
-    "summary": "從 2026 年 10 月 12 日至 12 月 10 日，交易黃金、真實世界資產或加密期貨，可協助解鎖高達 5,000,000 USDG 的獎勵池，設有領跑榜單與三種倍數。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在活動期間交易黃金、真實世界資產或加密期貨。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-12",
-    "endDate": "2026-12-10",
-    "ongoing": false,
-    "steps": [
-      "在活動期間交易黃金、真實世界資產或加密期貨",
-      "透過交易量影響獎勵池解鎖狀態"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-21T16:05:48.326Z",
-    "lastVerified": "2026-11-21",
-    "risks": "獎勵為 USDG（Global Dollar），非法幣。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供獎勵池並有特定時間限制，屬於限時優惠或競賽活動。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "from October 12 to December 10, 2026",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000000,
-      "basis": "explicit-amount",
-      "usd": 5000000,
-      "quote": "$5,000,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261121-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd 黑五 VPS 特價",
-    "category": "vps-cloud",
-    "summary": "提供多款 KVM VPS 方案年費特價，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47.98/年、6GB RAM $74.98/年、8GB RAM $94.98/年。各方案皆包含特定 vCPU、SSD 儲存空間、月流量、1Gbps 網路埠、Root 存取權限、1 個 IPv4 位址及免費 Clientexec 授權。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在限時內完成訂單。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇所需的 VPS 方案",
-      "在頁面顯示的倒數計時結束後前完成下單"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T16:06:24.910Z",
-    "lastVerified": "2026-11-21",
-    "risks": "活動有明確的倒數計時限制，逾期價格可能調整。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標題明確標示為 Black Friday 活動，並提供限時特價方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 GB KVM VPS\n$ 15.98 /year\n1 vCPU Core\n20 GB SSD Storage\n1 GB RAM\n3 TB Monthly Transfer\n1Gbps Network Port\nFull Root Access\n1 IPv4 Address\nFree Clientexec License\nKVM / ctrl Panel\nDeploy in Multiple Locations",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Complete your order within:\n00 Days\n:\n14 Minutes\n:\n25 Seconds",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 470,
-      "basis": "ai-estimate",
-      "note": "以最低階 VPS 年費 $15.98 換算，依匯率約 30 NTD/USD 估算，約為 479 元，取整數保守估算約 470 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261121-2",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd VPS 免費 Clientexec 授權",
-    "category": "vps-cloud",
-    "summary": "訂閱黑五特價 VPS 方案時，包含免費的 Clientexec 授權。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱頁面列出的 KVM VPS 特價方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 KVM VPS 特價方案"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T16:06:24.910Z",
-    "lastVerified": "2026-11-21",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-21T16:05:17.313Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面展示的是限時黑五特價的年費方案，屬於一般付費產品的促銷價格，而非免費額度或純贈品。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Clientexec License",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Black Friday VPS Deals\nLaunch a KVM VPS and choose from Ubuntu, Debian, AlmaLinux, and more!",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3000,
-      "basis": "ai-estimate",
-      "note": "保守估算最低規格 VPS ($15.98/年) 加上授權的價值。$15.98 約為 500 台幣，Clientexec 授權若按月費 $20 計算一年約 240 美元 (7500 台幣)，但為保守估算且多數使用者可能只選最低方案並忽略授權價值，故取較低區間或僅計算主機成本加上少量授權價值，這裡取一個保守的綜合價值估算。若僅看主機成本約500元，若包含授權價值較高。依據「保守估算」原則，取最低方案主機費約 500 TWD，加上授權可能有的價值，給定一個保守數字。*",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261121-3",
-    "sourceId": "racknerd-specials",
-    "name": "AdminBolt 30 天免費試用",
-    "category": "vps-cloud",
-    "summary": "透過 RackNerd VPS 的 ctrl 面板安裝 AdminBolt 主機管理面板時，提供 30 天免費試用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需透過 ctrl 面板進行安裝，且 VPS 需滿足最低硬體規格（2+ vCPU、2+ GB RAM）並使用 AlmaLinux 9 系統。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 RackNerd VPS 的 ctrl 管理面板",
-      "在 One-Click Apps 中選擇 AdminBolt",
-      "點擊安裝"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-21T16:06:24.910Z",
-    "lastVerified": "2026-11-21",
-    "risks": "進行 One-Click 安裝會永久清除 VPS 上現有的數據，包括作業系統、應用程式和檔案，且無法復原。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T18:05:17.325Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供軟體的 30 天免費試用期，屬於試用優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Install AdminBolt in one click through ctrl and enjoy a 30-day free trial.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM\nInstalls on AlmaLinux 9",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "humble-bundle-20261121-1",
     "sourceId": "humble-bundle",
     "name": "Humble Choice 會員方案",
@@ -5052,7 +4563,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了 Containers 產品中包含的免費使用額度（Included usage），屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Memory\n25 GiB-hrs included\n$0.0000025 / GiB-second\nCPU\n375 vCPU-min included\n$0.000020 / vCPU-second\nDisk\n200 GB-hrs included\n$0.00000007 / GB-second\nNetwork Egress (NA/EU)\n1 TB included\n$0.025 / GB",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261122-5",
@@ -5078,7 +4609,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出 Durable Objects 各組件在 Free 方案下的使用上限，屬於常態的免費額度與付費定價，非限時或特定群體優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free 100,000 requests / day\nPaid $0.15 / million requests\nDuration\nFree 13,000 GB-s / day\nPaid $12.50 / million GB-s\nSQL Rows Read\nFree 50M / day\nPaid $0.001 / million rows\nSQL Rows Written\nFree 100K / day\nPaid $1.00 / million rows\nSQL Stor",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 420,
+      "basis": "ai-estimate",
+      "note": "假設每月使用量極低（約為免費額度上限的 1%），僅計算 KV 儲存數據（1 GB x $0.20/月）的實際費用，換算後約 18 元新臺幣，取整數估算。若使用量更高，價值會隨付費計價標準上升，但為保守估計，僅考慮最低儲存成本。",
+      "confidence": "low"
+    }
   },
   {
     "id": "cloudflare-plans-20261122-6",
@@ -5104,7 +4664,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費額度（10 GB-month 儲存空間與操作次數）符合免費方案或額度定義",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Storage\n10 GB-month\n$0.015 / GB-month\nStandard Class A operations\n1 million\n$4.50 / million requests\nStandard Class B operations\n10 million\n$0.36 / million requests\nObject storage without egress fees",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1341,
+      "basis": "ai-estimate",
+      "note": "保守估算每月價值：10 GB-month 儲存空間（10GB * $0.015 = $0.15）+ 100 萬次 Class A 操作（$4.50）+ 1000 萬次 Class B 操作（10M * $0.36/M = $3.60），每月共 $8.25，第一年 $99，換算約 1341 台幣",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261122-7",
@@ -5130,7 +4718,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供 Workers KV 免費方案的具體用量額度",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Stored Data\nFree 1 GB\nPaid $0.50 / GB-month\nRead Requests\nFree 100,000 / day\nPaid $0.50 / million requests\nWrite, Delete, List requests\nFree 1,000 / day\nPaid $5.00 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "估算第一個月若超過免費額度所需的費用，包含1GB儲存($0.50)、100,000次讀取($0.50)、1,000次寫入/刪除/列出($5.00)，總計約$6美元，換算成新台幣約300元；若按第一年估算則約為$72美元(約3600台幣)，但考慮到草稿主要描述的是每日免費額度，且一般使用者可能不會完全用滿，故以第一個月保守估算約300台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261122-8",
@@ -5156,7 +4770,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了 D1 的免費額度（Free tier），屬於免費方案或額度類型。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Storage\n5 GB (total)\nRows Read\n5 million / day\nRows Written\n100,000 / day",
+          "found": false
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    }
   },
   {
     "id": "cloudflare-plans-20261122-9",
@@ -5182,7 +4821,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的每日 10,000 次標準操作是 Queues 服務免費方案的常態基礎額度，而非限時優惠或促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations\n10,000 operations/day included",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1460,
+      "basis": "ai-estimate",
+      "note": "若無免費額度，需全額支付標準操作費用 ($0.40 / million operations)。第一年月操作量約 3,650,000 次，估算價值約 $1.46，換算成新台幣約 45 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261122-10",
@@ -5208,7 +4875,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費的使用額度（Free tier）。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Queries Free 100,000 / day",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261122-11",
@@ -5234,7 +4921,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-22T00:06:20.097Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費額度將依據付費定價收費。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T04:05:31.452Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出Workers Analytics Engine的免費額度（Free 100,000 / day 等），屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Data Points Written\n100,000 / day\n$0.25 / million data points\nRead Queries\n10,000 / day\n$1.00 / million read queries\nData Points Written\nFree 100,000 / day\nPaid $0.25 / million data points\nRead Queries\nFree 10,000 / day\nPaid $1.00 / million",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3400,
+      "basis": "ai-estimate",
+      "note": "假設每日寫入10萬個數據點及1萬次讀取查詢。寫入價值為 $0.25 * 365 = $91.25；讀取價值為 $1.00 * 365 = $365。總美元價值約 $456.25。以匯率 1 USD = 32 TWD 估算，約為 14,582 TWD。但考慮到免費額度可能並非完全等價於付費標準（例如是否有其他限制或付費版有額外功能），且此處僅計算基礎用量價值，保守估計取較低值或根據常見雲端服務價值估算。*修正估算*：通常免費層級的價值評估會比較其等價的付費費用。付費價格：寫入 $0.25/百萬，10萬/天 = 0.1百萬 * $0.25 = $0.025/天。一年 = $9.125。讀取 $1.",
+      "confidence": "medium"
+    }
   },
   {
     "id": "elevenlabs-pricing-20261122-3",
@@ -5406,6 +5119,296 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 聖誕節存款贏取 50 萬歐元活動",
+    "category": "crypto",
+    "summary": "存款即可參與抽獎，贏取 500,000 歐元；每一歐元存款均為一個獎品。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2026-01-07",
+    "ongoing": false,
+    "steps": [
+      "登入或註冊",
+      "儲存資產至 Kraken"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pro ANTx 交易獎勵活動",
+    "category": "crypto",
+    "summary": "在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價）可贏取總計 5,000 美元獎品。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 ANTx"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 黑五存款與交易獎金",
+    "category": "crypto",
+    "summary": "存入 1,000 美元法幣並通過四項疊加里程碑，最高可獲得 100 美元比特幣（BTC）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需存入 1,000 美元法幣",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-12",
+    "endDate": "2026-12-01",
+    "ongoing": false,
+    "steps": [
+      "登入或註冊",
+      "存入 1,000 美元法幣",
+      "交易以達標"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pro Anthropic 前 IPO 挑戰賽",
+    "category": "crypto",
+    "summary": "在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX），按成交量排名，贏取 20,000 美元 ANTHROPICX 獎池。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 Kraken Pro 交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 ANTHROPICX"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Prop 非加密貨幣市場半價手續費",
+    "category": "crypto",
+    "summary": "銀、WTI 原油、布蘭特原油、銅、天然氣等商品上市，所有非加密市場手續費降至單邊 2 基準點。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "交易商品市場"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-6",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 500 萬美元 USDG 期貨挑戰賽",
+    "category": "crypto",
+    "summary": "交易黃金、真實資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池；採用單一看板，三個乘數。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "交易黃金、真實資產或加密期貨"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-7",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Pre-IPO 期貨挑戰賽",
+    "category": "crypto",
+    "summary": "交易 OURAx 和 MOONSHOTx 期貨，按交易量排名，分享 10,000 USDG 獎品。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 Kraken Pro 交易 OURAx 和 MOONSHOTx 期貨",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "登入或註冊",
+      "交易 OURAx 和 MOONSHOTx 期貨"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261122-8",
+    "sourceId": "kraken-blog",
+    "name": "Kraken F1 車手見面會抽獎",
+    "category": "crypto",
+    "summary": "使用代碼 AUSTIN 註冊並交易 1 美元或更多交易量，即有機會在美國大獎賽期間與 Atlassian Williams F1 車手見面。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "使用代碼 AUSTIN，交易量至少 1 美元",
+    "regions": [
+      "United States"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用代碼 AUSTIN 註冊",
+      "交易至少 1 美元"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261122-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd Black Friday 2026 VPS 特價",
+    "category": "vps-cloud",
+    "summary": "KVM VPS 年費低至 $15.98（1GB RAM/20GB SSD/3TB 流量），另有 $27.98、$47.98、$74.98、$94.98 等方案。包含 1Gbps 網路埠、完整 Root 存取權限及免費 Clientexec 授權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須在限時內完成訂購（頁面顯示倒數計時）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-26",
+    "endDate": "2026-11-29",
+    "ongoing": false,
+    "steps": [
+      "選擇 VPS 規格（1GB, 2.5GB, 4GB, 6GB 或 8GB KVM VPS）",
+      "選擇部署位置（Multiple Locations）",
+      "點擊 Order Now 完成訂購"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-22T04:06:32.308Z",
+    "lastVerified": "2026-11-22",
+    "risks": "限時優惠，過期後價格可能恢復或漲價；年繳方案通常需一次付清；部分主機可能位於特定資料中心，請確認地理位置以延遲需求。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261122-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd AdminBolt 30 天免費試用",
+    "category": "vps-cloud",
+    "summary": "透過 ctrl 面板的一鍵應用程式功能安裝 AdminBolt（現代主機控制面板）可享 30 天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需先購買 RackNerd VPS，且 VPS 規格需滿足 AdminBolt 最低要求（2+ vCPU, 2+ GB RAM, AlmaLinux 9）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "登入 RackNerd VPS 的 ctrl 管理面板",
+      "進入 One-Click Apps 頁面",
+      "點擊安裝 AdminBolt",
+      "等待安裝完成並開始 30 天試用"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-22T04:06:32.308Z",
+    "lastVerified": "2026-11-22",
+    "risks": "僅限 VPS 使用者；安裝過程會永久清除 VPS 上的所有現有資料（包括作業系統、應用程式與檔案）；試用期滿後可能需付費或重新安裝。",
     "status": "pending"
   }
 ]
