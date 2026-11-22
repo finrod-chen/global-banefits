@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T04:05:31.452Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T06:05:17.983Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,7 +13,6 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [AWS Short-term Trial](https://aws.amazon.com/free/) | VPS/雲服務 | 可通過有限免費試用體驗選定的 Paid plan 服務。試用從啟用服務時開始，超過試用限制的用量會自動套用符合資格的額度。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean App Platform 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起價為每個月 $0，提供簡單的完全管理基礎架構解決方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds 的執行時間，函式呼叫本身不額外收費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Container Registry 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | Container Registry 起價為每個月 $0，包含 1 個 repository 和 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

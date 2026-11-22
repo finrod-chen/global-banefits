@@ -1,12 +1,11 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T04:05:31.452Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T06:05:17.983Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Humble Choice 會員方案](https://www.humblebundle.com/) | 軟體/數位服務 | 訂閱每月遊戲精選，年繳方案每月不到 13 美元（約 $14.99 起），會員在商店可享最高 20% 折扣，且會員費用的 5% 用於慈善捐款。 | 約 TWD 460（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有付費方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用，試用後將按月計費（分別為 $14.99、$18.99 | 約 TWD 230（AI 估） | 長期活動 | 待核實 |
 | [Setapp 年繳 4 折優惠](https://setapp.com/pricing) | 軟體/數位服務 | 年繳方案最高可節省 40% 費用（Save up to 40% yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 免費 AI 額度](https://setapp.com/pricing) | 軟體/數位服務 | Mac 與 Mac + iOS 方案內含 1,000 個 AI 額度（credits）；Power User 方案內含 2,000 個 AI | 免費（價值視使用而定） | 長期活動 | 待核實 |

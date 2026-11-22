@@ -1958,238 +1958,6 @@
     }
   },
   {
-    "id": "humble-bundle-20261121-1",
-    "sourceId": "humble-bundle",
-    "name": "Humble Choice 會員方案",
-    "category": "software",
-    "summary": "訂閱每月遊戲精選，年繳方案每月不到 13 美元（約 $14.99 起），會員在商店可享最高 20% 折扣，且會員費用的 5% 用於慈善捐款。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Humble Choice 服務，年繳方案需一次支付一年費用。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Humble Bundle 帳戶",
-      "選擇 Humble Choice 方案（月繳或年繳）",
-      "完成訂閱付費"
-    ],
-    "officialUrl": "https://www.humblebundle.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-21T18:05:43.425Z",
-    "lastVerified": "2026-11-21",
-    "risks": "年繳方案需一次性支付，但可随时取消訂閱（頁面標註 'skip anytime' 可能指跳過月份或取消，需留意自動續約條款）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-21T18:05:17.325Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面展示的是 Humble Choice 訂閱服務的一般定價結構，包含月繳與年繳價格差異，屬於常態付費方案。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get great games every month with Humble Choice for only   $14.99\nEmbark on space shenanigans with your chosen family in The Outer Worlds 2 . Immerse yourself into the complex crime world of Mafia: The Old Country . And more!\nGet a curated m",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Pay less than $13 USD per month with an annual plan and skip anytime",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 460,
-      "basis": "ai-estimate",
-      "note": "年繳方案每月不到 13 美元，一年約 156 美元；加上會員費用的 5% 用於慈善（實際價值可能更低或視為公益成本），保守估算以年繳費用的直接支出為主換算成新台幣約 460 元（156 USD * 30 TWD/USD 粗略估算，實際匯率可能不同，但此处僅求保守整數估算，若按純年費 156 USD 計算約 4600 TWD，但题目要求“保守估算一般使用者第一年能得到的價值”，若視年繳為節省的成本或訂閱價值，通常訂閱服務的價值等於其定價。若以月費 $14.99 x 12 = $179.88 為基準，或年繳 $156 為基準。這裡取年繳實際支付金額換算。$156 USD ≈ 4600 TWD。修正",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "gemini-plans-20261121-1",
-    "sourceId": "gemini-plans",
-    "name": "Google Black Friday 會員提前預購折扣",
-    "category": "ai",
-    "summary": "部分 Google AI 方案最高可享 50% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "會員提前存取 (Member early access)",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊頁面頂部的 'See offer' 連結"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-21T18:06:00.632Z",
-    "lastVerified": "2026-11-21",
-    "risks": "條款適用 (Terms apply)",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T18:05:17.325Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面頂部有明確的 Black Friday 限時折扣（最高 50% off）標語，屬於限時折扣促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 50% on select Google AI plans for Black Friday.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Member early access",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 24000,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者選擇 Google AI Pro 方案（月費約 $20 USD，年繳約 $200 USD 或等值），50% 折扣後第一年節省約 $100 USD，換算成新台幣約 24000 元。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "copilot-plans-20261121-2",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生方案",
-    "category": "ai",
-    "summary": "經過驗證的學生可存取 GitHub Copilot 學生方案。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為經驗證的學生 (Verified students)。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 'Learn more' 連結以驗證學生身分並存取方案"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-21T18:06:35.145Z",
-    "lastVerified": "2026-11-21",
-    "risks": "需要完成學生身分驗證",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T18:05:17.325Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面在免費方案下提及經驗證學生可存取特定的學生方案，符合學生優惠類別。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-free-20261121-1",
-    "sourceId": "aws-free",
-    "name": "AWS Short-term Trial",
-    "category": "vps-cloud",
-    "summary": "可通過有限免費試用體驗選定的 Paid plan 服務。試用從啟用服務時開始，超過試用限制的用量會自動套用符合資格的額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "啟用選定的 Paid plan 服務",
-      "超過試用限制時，符合資格的額度會自動套用至超出部分的費用"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-21T18:07:25.987Z",
-    "lastVerified": "2026-11-21",
-    "risks": "超過試用限制後可能產生費用，雖有額度抵銷，但若額度用完仍會計費",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-21T18:05:17.325Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提供短期免費試用體驗並套用額度，符合試用與額度優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Try selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usage beyond the trial limits.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "Get started for free with up to $200 in credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "esun-card-offers-20261121-1",
     "sourceId": "esun-card-offers",
     "name": "玉山雙11購物盛典回饋",
@@ -4976,7 +4744,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-22T00:06:39.940Z",
     "lastVerified": "2026-11-22",
     "risks": "年繳為預付制，一年內取消通常無法退還剩餘期限費用（頁面未明確說明退款政策，但年繳性質暗示一次性支付）。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面說明年繳是常態的計費選項，提供固定折扣（10個月價格），且此價格區間與FAQ中描述的一般年繳價一致，而非限時或僅限新戶的特惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10). The equivalent monthly price on an annual plan is $5 for Starter, $18.33 for Creator, $82.50 for Pro, $249.17 for Scale, and $825 for B",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Do you offer annual billing, and what does it cost?\nYes. Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10).",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "you pay for 10 months",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261122-1",
@@ -5004,7 +4807,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對新戶提供第一筆交易的限時獎勵活動",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Event Contracts Limited-Time Trading Competition Round 3: New User First Trade Reward, Win Up t...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "New User First Trade Reward",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261122-2",
@@ -5033,7 +4861,8 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "reviewAttempts": 1
   },
   {
     "id": "gate-announce-20261122-3",
@@ -5061,7 +4890,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示註冊即可領取 USDT 獎勵，屬於新戶註冊獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261122-4",
@@ -5090,7 +4944,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供總獎金池 50,000 USDT 給參與者，屬於獎勵性質的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "2026 VIP Futures Elite Challenge Season 5: Compete Across Dual Leaderboards for 50,000 USDT, Plus an...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1600000,
+      "basis": "explicit-amount",
+      "usd": 50000,
+      "quote": "50,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261122-5",
@@ -5119,36 +5008,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "kraken-blog-20261122-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 聖誕節存款贏取 50 萬歐元活動",
-    "category": "crypto",
-    "summary": "存款即可參與抽獎，贏取 500,000 歐元；每一歐元存款均為一個獎品。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為限時交易比賽，提供獎金池與排行榜獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
     },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2026-01-07",
-    "ongoing": false,
-    "steps": [
-      "登入或註冊",
-      "儲存資產至 Kraken"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 2560000,
+      "basis": "explicit-amount",
+      "usd": 80000,
+      "quote": "Share 80,000 USDT Across Two Leaderboards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261122-2",
@@ -5176,7 +5071,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為針對特定產品（ANTx）交易行為提供的獎品活動，符合新戶獎勵或活動性質的促銷。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "$5,000 in prizes",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261122-3",
@@ -5206,7 +5129,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-22T04:05:56.798Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T06:05:17.983Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供限時的黑五存款與交易獎勵，符合限時優惠定義。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "November 12 to December 1.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "Get up to $100 in BTC",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261122-4",
@@ -5409,6 +5370,143 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-22T04:06:32.308Z",
     "lastVerified": "2026-11-22",
     "risks": "僅限 VPS 使用者；安裝過程會永久清除 VPS 上的所有現有資料（包括作業系統、應用程式與檔案）；試用期滿後可能需付費或重新安裝。",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261122-1",
+    "sourceId": "gemini-plans",
+    "name": "Black Friday Google AI 方案限時折扣",
+    "category": "ai",
+    "summary": "特定 Google AI 方案最高享 5 折優惠。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "會員早期體驗（Member early access）。",
+    "regions": [
+      "United States"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往頁面查看優惠",
+      "註冊或升級方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-22T06:05:41.880Z",
+    "lastVerified": "2026-11-22",
+    "risks": "條款適用（Terms apply）。",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261122-2",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案贈送 Google Cloud 點數",
+    "category": "ai",
+    "summary": "每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-22T06:05:41.880Z",
+    "lastVerified": "2026-11-22",
+    "risks": "隨訂閱自動提供，取消訂閱後中斷。",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261122-3",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案贈送 Google Cloud 點數",
+    "category": "ai",
+    "summary": "每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-22T06:05:41.880Z",
+    "lastVerified": "2026-11-22",
+    "risks": "隨訂閱自動提供，取消訂閱後中斷。",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261122-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 30% 使用量折扣活動",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用量享有 30% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-22T06:06:15.605Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261122-2",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生方案",
+    "category": "ai",
+    "summary": "經驗證的學生可存取 GitHub Copilot 學生方案。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須為經驗證的學生",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-22T06:06:15.605Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]
