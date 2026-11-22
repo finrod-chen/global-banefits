@@ -2205,5 +2205,37 @@
     "status": "expired",
     "archivedAt": "2026-11-22T07:29:27.644Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261122-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday Sale",
+    "category": "ai",
+    "summary": "年繳方案享有最高55%折扣；Creator年繳僅$99；Pro新會員享有55%折扣，現有Pro月繳用戶轉年繳享有50%折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁面",
+      "選擇年繳方案 (Annual Plan)",
+      "完成訂閱流程以適用折扣"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-22T14:06:18.904Z",
+    "lastVerified": "2026-11-22",
+    "risks": "折扣僅限於12月1日結束前；Creator與Pro年繳計劃的首年享有此折扣。",
+    "status": "expired",
+    "archivedAt": "2026-11-22T16:05:18.051Z",
+    "archiveReason": "endDate passed"
   }
 ]

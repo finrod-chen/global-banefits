@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T14:05:17.527Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T16:05:18.051Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,5 +27,4 @@
 | [Google AI Pro 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $10 Google Cloud 點數（來自 Google Developer Program）及 200 個計算單元。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案贈送 Google Cloud 點數](https://one.google.com/about/google-ai-plans/) | AI 工具 | 每月提供 $40 Google Cloud 點數（來自 Google Developer Program）及 2,000 個計算單元。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 約 TWD 1,800（AI 估） | 長期活動 | AI 預審通過 |
-| [ElevenLabs Black Friday Sale](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案享有最高55%折扣；Creator年繳僅$99；Pro新會員享有55%折扣，現有Pro月繳用戶轉年繳享有50%折扣。 | 免費（價值視使用而定） | 2024-12-01 | 待核實 |
 | [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面包含「Students」導覽選單及「v0 for Students」連結，暗示提供針對學生群體的專屬服務或頁面，但具體優惠內容未在提供的 | 免費（價值視使用而定） | 長期活動 | 待核實 |

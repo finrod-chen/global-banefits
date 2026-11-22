@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T14:05:17.527Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T16:05:18.051Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,4 +20,4 @@
 | [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池；採用單一看板，三個乘數。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | 待核實 |
 | [Kraken Pre-IPO 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 期貨，按交易量排名，分享 10,000 USDG 獎品。 | 約 TWD 340,000（AI 估） | 長期活動 | 待核實 |
 | [Kraken F1 車手見面會抽獎](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易 1 美元或更多交易量，即有機會在美國大獎賽期間與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin Earn Friday 週期139 理財活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [KuCoin Earn Friday 週期139 理財活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
