@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T08:05:16.240Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T10:05:16.793Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,16 +13,6 @@
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean App Platform 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起價為每個月 $0，提供簡單的完全管理基礎架構解決方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月免費使用 90,000 GiB-seconds 的執行時間，函式呼叫本身不額外收費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Container Registry 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | Container Registry 起價為每個月 $0，包含 1 個 repository 和 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 建立 VPC 不需額外費用，VPC 內的數據傳輸免費，Ingress 數據傳輸免費，數據中心內的 VPC Peering 免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Droplets 免費出站數據傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費出站數據傳輸，額度從每月 500 GiB 開始。 | 約 TWD 160（AI 估） | 長期活動 | 待核實 |
-| [DigitalOcean 新戶免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 頁面提及 $5 免費額度（How does the $5 free credit wo...），具體金額為 5 美元。 | 約 TWD 160（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0 永久免費，包含 100 個項目，每個項目每月 100 CU 時、1 GB 儲存空間、最大 2 CU (8 GB RAM)，以及  | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業提供最高 $100k 的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案贊助計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon Claimable Postgres 體驗](https://neon.com/pricing) | VPS/雲服務 | 無需帳號與信用卡即可獲得即時的 Postgres 項目體驗。未聲稱的項目限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 免費電子郵件轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的電子郵件轉發功能 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -40,6 +30,9 @@
 | [Cloudflare Workers Analytics Engine 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 個數據點寫入、每日 10,000 次讀取查詢。 | 約 TWD 3,400（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd Black Friday 2026 VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年費低至 $15.98（1GB RAM/20GB SSD/3TB 流量），另有 $27.98、$47.98、$74.98、$ | 約 TWD 511（AI 估） | 2026-11-29 | 待核實 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵應用程式功能安裝 AdminBolt（現代主機控制面板）可享 30 天免費試用。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Google Cloud 免費方案（Free Tier）](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 提供超過 20 種常用產品（包括 AI API、VM、數據倉庫等）的免費額度，每月有指定使用限制。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google Cloud 免費方案（Free Tier）](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 提供超過 20 種常用產品（包括 AI API、VM、數據倉庫等）的免費額度，每月有指定使用限制。 | 約 TWD 9,600（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元的 AWS 信貸額度。其中自助（Self-funded）層級最高 5,000 美元，VC/加速器支援（Pre- | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的信貸額度，讓新創企業可以從基礎模型快速轉向生產環境基礎架構。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，每月每專案 100 CU-hrs、1 GB 儲存空間、最多 100 個專案、5 GB 物件儲存空間、1M 次函數調用、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (USD) 的抵扣額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案贊助計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助支持。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

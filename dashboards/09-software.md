@@ -1,14 +1,14 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T08:05:16.240Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T10:05:16.793Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Microsoft Azure 免費額度與服務存取](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，並提供 $100 的 Azure 點數（信用額度）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me TLD 網域註冊免費；1 年的免費 SSL 憑證。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 在超過 25 種網域擴充名（如 .live, .studio, .software, .app, .dev）中選擇一個免費網域。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Microsoft Azure 免費額度與服務存取](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25+ 種 Microsoft Azure 雲端服務，並提供 $100 的 Azure 點數（信用額度）。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [Namecheap 免費網域與 SSL](https://education.github.com/pack) | 軟體/數位服務 | 1 年的 .me TLD 網域註冊免費；1 年的免費 SSL 憑證。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Name.com 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 在超過 25 種網域擴充名（如 .live, .studio, .software, .app, .dev）中選擇一個免費網域。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [.TECH 免費網域](https://education.github.com/pack) | 軟體/數位服務 | 1 個標準 .TECH 網域免費 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Microsoft 365 學生方案](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用 Microsoft 365 生產力應用程式（含 AI 功能 Copilot）、1TB 雲端儲存空間及進階安全功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用 GitHub Pro 服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
