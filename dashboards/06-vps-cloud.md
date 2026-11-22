@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T12:05:17.007Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T14:05:17.527Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -28,8 +28,8 @@
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵應用程式功能安裝 AdminBolt（現代主機控制面板）可享 30 天免費試用。 | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
 | [Google Cloud 免費方案（Free Tier）](https://cloud.google.com/free/docs/free-cloud-features) | VPS/雲服務 | 提供超過 20 種常用產品（包括 AI API、VM、數據倉庫等）的免費額度，每月有指定使用限制。 | 約 TWD 9,600（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元的 AWS 信貸額度。其中自助（Self-funded）層級最高 5,000 美元，VC/加速器支援（Pre- | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的信貸額度，讓新創企業可以從基礎模型快速轉向生產環境基礎架構。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，每月每專案 100 CU-hrs、1 GB 儲存空間、最多 100 個專案、5 GB 物件儲存空間、1M 次函數調用、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的信貸額度，讓新創企業可以從基礎模型快速轉向生產環境基礎架構。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，每月每專案 100 CU-hrs、1 GB 儲存空間、最多 100 個專案、5 GB 物件儲存空間、1M 次函數調用、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (USD) 的抵扣額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案贊助計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助支持。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 網域免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務（Free WHOIS Privacy）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

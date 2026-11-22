@@ -1958,115 +1958,6 @@
     }
   },
   {
-    "id": "openai-pricing-20261122-1",
-    "sourceId": "openai-pricing",
-    "name": "ChatGPT 免費方案",
-    "category": "ai",
-    "summary": "免費方案每月費用為 0 美元。包含無限文字對話（GPT-6）、有限的上傳訊息、有限的圖像生成、有限的語音聊天、有限的深度研究、有限的記憶與脈絡、有限的 Codex 存取以及有限版的桌面端 ChatGPT Work。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 OpenAI 官方網站",
-      "點擊「Sign up for free」或「Get Free」"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-22T00:05:42.927Z",
-    "lastVerified": "2026-11-22",
-    "risks": "免費方案對部分功能有使用限制，且可能受濫用防護機制限制。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T02:05:16.884Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該草稿描述的是「ChatGPT 免費方案」，屬於零元費用的使用額度與功能，符合免費方案或額度的定義。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free\nBest for trying out ChatGPT\n/ month\nGet Free\nUnlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "0"
-      ]
-    }
-  },
-  {
-    "id": "openai-pricing-20261122-2",
-    "sourceId": "openai-pricing",
-    "name": "ChatGPT Pro API 額度",
-    "category": "ai",
-    "summary": "Pro 方案使用者可獲得每月不定的 API 額度，可用於建構自己的應用程式和代理。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Pro 方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 ChatGPT Pro 方案"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-22T00:05:42.927Z",
-    "lastVerified": "2026-11-22",
-    "risks": "API 額度為 Pro 方案的一部分，需持續訂閱方能使用。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T02:05:16.884Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是付費訂閱方案中附帶的功能與資源，並非法定的特殊優惠或限時活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Up to in monthly API credits to build your own apps and agents.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Get Pro",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "cloudflare-plans-20261122-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 免費網路與 CDN 方案",
@@ -2631,360 +2522,6 @@
       "basis": "ai-estimate",
       "note": "假設每日寫入10萬個數據點及1萬次讀取查詢。寫入價值為 $0.25 * 365 = $91.25；讀取價值為 $1.00 * 365 = $365。總美元價值約 $456.25。以匯率 1 USD = 32 TWD 估算，約為 14,582 TWD。但考慮到免費額度可能並非完全等價於付費標準（例如是否有其他限制或付費版有額外功能），且此處僅計算基礎用量價值，保守估計取較低值或根據常見雲端服務價值估算。*修正估算*：通常免費層級的價值評估會比較其等價的付費費用。付費價格：寫入 $0.25/百萬，10萬/天 = 0.1百萬 * $0.25 = $0.025/天。一年 = $9.125。讀取 $1.",
       "confidence": "medium"
-    }
-  },
-  {
-    "id": "elevenlabs-pricing-20261122-3",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 年繳常態優惠",
-    "category": "ai",
-    "summary": "年繳方案相當於前 10 個月付費，第 11-12 個月免費（即 2 個月免費）。Starter 年繳相當於每月 5 美元，Creator 每月 18.33 美元，Pro 每月 82.50 美元，Scale 每月 249.17 美元，Business 每月 825 美元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "選擇年繳計費方式。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇年繳方案",
-      "完成訂閱"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-22T00:06:39.940Z",
-    "lastVerified": "2026-11-22",
-    "risks": "年繳為預付制，一年內取消通常無法退還剩餘期限費用（頁面未明確說明退款政策，但年繳性質暗示一次性支付）。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T06:05:17.983Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面說明年繳是常態的計費選項，提供固定折扣（10個月價格），且此價格區間與FAQ中描述的一般年繳價一致，而非限時或僅限新戶的特惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10). The equivalent monthly price on an annual plan is $5 for Starter, $18.33 for Creator, $82.50 for Pro, $249.17 for Scale, and $825 for B",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Do you offer annual billing, and what does it cost?\nYes. Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10).",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "you pay for 10 months",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261122-1",
-    "sourceId": "gate-announce",
-    "name": "Gate Event Contracts Limited-Time Trading Competition",
-    "category": "crypto",
-    "summary": "新戶第一筆交易獎勵，最高可贏得未明確定數的獎勵（原文僅提及 Win Up to... 未顯示具體金額）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "新戶；第一筆交易",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進行第一筆 Event Contracts 交易"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T06:05:17.983Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對新戶提供第一筆交易的限時獎勵活動",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Event Contracts Limited-Time Trading Competition Round 3: New User First Trade Reward, Win Up t...",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "New User First Trade Reward",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261122-2",
-    "sourceId": "gate-announce",
-    "name": "Gate 2026 Annual Gala",
-    "category": "crypto",
-    "summary": "支持年度明星並參與抽獎，贏得驚喜獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "參與支持活動",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "支持年度明星",
-      "參與抽獎"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T07:29:27.644Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動鼓勵用戶支持明星並抽獎贏得獎勵，屬於行銷活動獎勵（新戶/活動獎勵）。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate 2026 Annual Gala: Support the Stars of the Year and Enter to Win Surprise Rewards",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261122-3",
-    "sourceId": "gate-announce",
-    "name": "Gate Sign-up USDT Rewards",
-    "category": "crypto",
-    "summary": "註冊即可領取 10,000+ USDT 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "註冊帳戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Gate 帳戶"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T06:05:17.983Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示註冊即可領取 USDT 獎勵，屬於新戶註冊獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261122-4",
-    "sourceId": "gate-announce",
-    "name": "Gate 2026 VIP Futures Elite Challenge",
-    "category": "crypto",
-    "summary": "雙排行榜競爭，總獎金池 50,000 USDT 及額外獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "VIP 用戶；參與期貨交易排行榜",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "參與期貨交易",
-      "衝刺雙排行榜"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T06:05:17.983Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供總獎金池 50,000 USDT 給參與者，屬於獎勵性質的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "2026 VIP Futures Elite Challenge Season 5: Compete Across Dual Leaderboards for 50,000 USDT, Plus an...",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600000,
-      "basis": "explicit-amount",
-      "usd": 50000,
-      "quote": "50,000 USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261122-5",
-    "sourceId": "gate-announce",
-    "name": "Gate CFD Gold Arena Round 7",
-    "category": "crypto",
-    "summary": "雙排行榜總獎金池 80,000 USDT，最高 13,000 USDT XAUT 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "參與 CFD Gold 交易",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "交易 CFD Gold",
-      "衝刺排行榜"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-22T00:07:48.887Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T06:05:17.983Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為限時交易比賽，提供獎金池與排行榜獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2560000,
-      "basis": "explicit-amount",
-      "usd": 80000,
-      "quote": "Share 80,000 USDT Across Two Leaderboards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
     }
   },
   {
@@ -4955,7 +4492,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-22T08:07:17.312Z",
     "lastVerified": "2026-11-22",
     "risks": "此額度為初始額度，之後需成長為 Activate Credits",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供給新創企業的開發環境信貸額度（Credits），屬於限時/針對特定對象的免費額度與試用推廣。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build faster with Kiro \nTurn prompts into working code, structured designs, and implementation tasks with an agentic development environment built on frontier models. Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261122-1",
@@ -4984,7 +4546,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-22T08:07:35.125Z",
     "lastVerified": "2026-11-22",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供 7 天免費試用期，屬於試用類型的優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial 1,000 AI credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261122-2",
@@ -5012,7 +4606,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-22T08:07:35.125Z",
     "lastVerified": "2026-11-22",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是包含在付費訂閱方案內的标准功能權益，而非獨立的限時免費優惠或試用方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Mac\n$ 14.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits\nSupercharge your beloved Mac with awesome apps.\nFor 1 Mac\nPopular choice\nMac + iOS\n$ 18.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits\nIf ",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261122-3",
@@ -5040,7 +4662,48 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-22T08:07:35.125Z",
     "lastVerified": "2026-11-22",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示的是年繳訂閱相較於月繳的節省幅度，屬於常態定價策略。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "Save up to 40% yearly",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "notion-pricing-20261122-1",
@@ -5068,7 +4731,30 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-22T08:07:53.431Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該內容為 Notion 的常態定價方案之一，並非限時或特定族群的優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free $0 per member / month\nFor individuals to organize personal projects and life.\nSign up\nIncludes:\nTrial AI capabilities like generating docs, or autofill databases\nTrial of Notion AI\nCapture, organize, and act on responses right inside N",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261122-2",
@@ -5097,7 +4783,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-22T08:07:53.431Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的計價選項，比較年繳與月繳的價格差異，屬於一般付費方案的定價機制。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Select payment mode:\nPay monthly\nPay yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 430,
+      "basis": "ai-estimate",
+      "note": "假設使用者選擇最低價的付費方案 Plus（$10/月），年節省 20% 即 $24/年，約折合台幣 430 元（按匯率 1 USD ≈ 18 TWD 估算）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "notion-pricing-20261122-3",
@@ -5125,7 +4844,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-22T08:07:53.431Z",
     "lastVerified": "2026-11-22",
     "risks": "試用結束後將產生費用",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿描述 AI 代理提供免費試用品，符合“試用”的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Requires Notion credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261122-1",
@@ -5154,7 +4898,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-22T10:06:53.981Z",
     "lastVerified": "2026-11-22",
     "risks": "若專案使用完每月 100 CU-hrs 或 5 GB 網路傳輸，計算資源將暫停至下一個計費週期；若儲存空間超過限制，增加儲存的作業將失敗。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-22T14:05:17.527Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供永久免費方案，無信用卡要求及時間限制，屬於常態免費額度/方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0\nBuild and learn free with no time limits and no credit card required.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Build and learn free with no time limits and no credit card required.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261122-2",
@@ -5324,6 +5093,92 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
     "lastVerified": "2026-11-22",
     "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261122-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday Sale",
+    "category": "ai",
+    "summary": "年繳方案享有最高55%折扣；Creator年繳僅$99；Pro新會員享有55%折扣，現有Pro月繳用戶轉年繳享有50%折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁面",
+      "選擇年繳方案 (Annual Plan)",
+      "完成訂閱流程以適用折扣"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-22T14:06:18.904Z",
+    "lastVerified": "2026-11-22",
+    "risks": "折扣僅限於12月1日結束前；Creator與Pro年繳計劃的首年享有此折扣。",
+    "status": "pending"
+  },
+  {
+    "id": "v0-pricing-20261122-1",
+    "sourceId": "v0-pricing",
+    "name": "v0 學生專區",
+    "category": "ai",
+    "summary": "頁面包含「Students」導覽選單及「v0 for Students」連結，暗示提供針對學生群體的專屬服務或頁面，但具體優惠內容未在提供的文字中明確顯示。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊導覽選單中的「Students」或頁面底部的「v0 for Students」連結以查看詳情"
+    ],
+    "officialUrl": "https://v0.app/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-22T14:06:36.106Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261122-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Earn Friday 週期139 理財活動",
+    "category": "crypto",
+    "summary": "訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-20",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 USDT、ETH 或 DOT 的 Earn 理財服務"
+    ],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-22T14:07:09.989Z",
+    "lastVerified": "2026-11-22",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"
   }
 ]

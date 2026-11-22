@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T12:05:17.007Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T14:05:17.527Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -18,7 +18,7 @@
 | [DataCamp 免費存取](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，提供 3 個月免費存取權。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 免費 AI 額度](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱方案包含免費 AI 額度：Mac 和 Mac + iOS 方案附 1,000 AI credits，Power User 方案附 2,0 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 年繳訂閱最高可享 40% 折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 年繳訂閱最高可享 40% 折扣。 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供每月 0 美元給成員的免費方案，包含 Notion AI 試用品、基本表單、基礎網站功能、日曆整合以及資料庫功能（含子任務、依賴關係、自 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費模式最多可節省 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理（Agents）可以自動處理重複性任務，提供免費試用品，之後每 1,000 個月度 Notion 積分收費 10 美元。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付費模式最多可節省 20% 的費用。 | 約 TWD 430（AI 估） | 長期活動 | 待核實 |
+| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI 代理（Agents）可以自動處理重複性任務，提供免費試用品，之後每 1,000 個月度 Notion 積分收費 10 美元。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
