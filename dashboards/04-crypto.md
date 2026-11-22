@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T06:05:17.983Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T07:29:27.644Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -20,8 +20,8 @@
 | [Gate CFD Gold Arena Round 7](https://www.gate.com/announcements) | Crypto | 雙排行榜總獎金池 80,000 USDT，最高 13,000 USDT XAUT 獎勵 | 約 TWD 2,560,000（AI 估） | 長期活動 | 待核實 |
 | [Kraken Pro ANTx 交易獎勵活動](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價）可贏取總計 5,000 美元獎品。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 存入 1,000 美元法幣並通過四項疊加里程碑，最高可獲得 100 美元比特幣（BTC）。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken Pro Anthropic 前 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX），按成交量排名，贏取 20,000 美元 ANTHROP | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Pro Anthropic 前 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX），按成交量排名，贏取 20,000 美元 ANTHROP | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 非加密貨幣市場半價手續費](https://blog.kraken.com/) | Crypto | 銀、WTI 原油、布蘭特原油、銅、天然氣等商品上市，所有非加密市場手續費降至單邊 2 基準點。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池；採用單一看板，三個乘數。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
-| [Kraken Pre-IPO 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 期貨，按交易量排名，分享 10,000 USDG 獎品。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken F1 車手見面會抽獎](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易 1 美元或更多交易量，即有機會在美國大獎賽期間與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、真實資產和加密期貨，幫助解鎖高達 5,000,000 美元 USDG 的獎勵池；採用單一看板，三個乘數。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | 待核實 |
+| [Kraken Pre-IPO 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 期貨，按交易量排名，分享 10,000 USDG 獎品。 | 約 TWD 340,000（AI 估） | 長期活動 | 待核實 |
+| [Kraken F1 車手見面會抽獎](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊並交易 1 美元或更多交易量，即有機會在美國大獎賽期間與 Atlassian Williams F1 車手見面。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
