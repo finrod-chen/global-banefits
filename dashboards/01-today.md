@@ -1,14 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-22T20:05:21.857Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-22T22:05:19.880Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個活躍專案、50,000 月活使用者、500 MB 資料庫大小、5 GB 出站流量、5 GB 快取出站流量、1 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Supabase Pro 方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 方案（$25/月）包含每月 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10/ | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無時間限制，每月每專案 100 CU-hrs、1 GB 儲存空間、最多 100 個專案、5 GB 物件儲存空間、1M 次函數調用、 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業方案 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期新創企業可獲得最高 10 萬美元 (USD) 的抵扣額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案贊助計畫 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助支持。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 網域免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 WHOIS 隱私保護服務（Free WHOIS Privacy）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 SSL 憑證服務（Free SSL Certificates）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 提供免費的 Email 轉發服務（Free Email Forwarding）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -39,11 +34,20 @@
 | [Humble Choice 年繳方案折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳計劃每月費用低於 13 美元（相比月繳 14.99 美元），會員在商店消費可享最高 20% 優惠。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 會員在商店購買新發布遊戲等內容時，可節省最高 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Bundle 遊戲限時折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 多款遊戲提供特定折扣，例如：PRAGMATA (-20%)、Resident Evil Requiem (-30%)、Total War:  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP（或等額貨幣）時，Wise 將對費用進行折扣（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP（或等額貨幣）時，Wise 將對費用進行折扣（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise Assets 存款收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可獲得 GBP、EUR 和 USD 貨幣的即時存取收益，GBP 變動利率目前為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 提供免費帳戶開設 (Open a free account)，無需開戶費，可管理多國貨幣並進行匯款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 包含多項開發工具與雲服務免費額度，如 1 年 .me 域名、1 年 SSL 憑證、25+ Azure 雲端服務及 $100 Azure 點數 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits - Activate Founders](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 推廣額度，起始提供 1,000 USD，部分參與者可能有資格獲得額外額度達 5,000 USD。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits - Activate Portfolio](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 推廣額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 或更多的 AWS 額度（具體金額隨新創公司工作負載規模調整，曾部署數千至數百萬美元的額度提供）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Student Developer Pack 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 包含多項開發工具與雲服務免費額度，如 1 年 .me 域名、1 年 SSL 憑證、25+ Azure 雲端服務及 $100 Azure 點數 | 約 TWD 4,800（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Credits - Activate Founders](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 推廣額度，起始提供 1,000 USD，部分參與者可能有資格獲得額外額度達 5,000 USD。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Credits - Activate Portfolio](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 推廣額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 或更多的 AWS 額度（具體金額隨新創公司工作負載規模調整，曾部署數千至數百萬美元的額度提供）。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
 | [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，不同方案包含 1,000 或 2,000 點 AI 積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 使用 DigitalOcean Kubernetes 時，控制平面與頻寬配額免費，基礎方案每月 $12 起 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean VPC 免費創建與資料中心內傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費創建無限數量的 VPC，資料中心內 VPC peering 與 Ingress 資料傳輸免費，NAT Gateway 每節點 $40  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Droplets 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含每月免費 500 GiB 出站資料傳輸額度，超額部分每 GiB 僅收 $0.01 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 平台基礎功能免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建立 3 個靜態網站、使用免費容器登錄（限 1 個 repo 及 500 MiB 儲存）、雲端防火牆、DNS 管理，以及每月 90,0 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案、50,000 月活躍用戶 (MAU)、500 MB 資料庫大小、共享 CPU、500 MB RAM、5 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費（非試用），無需信用卡。包含100個專案，每個專案每月100 CU-hrs 運算額度、1 GB 儲存空間、最多2 CU (8 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供給早期新創企業最高10萬美元的儲值額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案方案](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 無需註冊試用體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 提供可申領的 Neon 帳戶，讓使用者或 AI 代理無需帳號與信用卡即可立即獲得 Postgres 專案。未申領專案限制100 MB 儲存空 | 免費（價值視使用而定） | 長期活動 | 待核實 |
