@@ -1,11 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T02:05:16.562Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T04:05:17.262Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [v0 學生專區](https://v0.app/pricing) | AI 工具 | 頁面包含「Students」導覽選單及「v0 for Students」連結，暗示提供針對學生群體的專屬服務或頁面，但具體優惠內容未在提供的 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [KuCoin Earn Friday 週期139 理財活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
 | [Kraken 節日存款抽獎活動](https://blog.kraken.com/) | Crypto | 參加活動，每存入 1 歐元即可獲得一次抽獎資格，總獎池為 50 萬歐元，抽出一名贏家。活動持續至 1 月 7 日。 | 免費（價值視使用而定） | 2027-01-07 | 待核實 |
@@ -48,3 +46,12 @@
 | [Neon 開源專案方案](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無需註冊試用體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 提供可申領的 Neon 帳戶，讓使用者或 AI 代理無需帳號與信用卡即可立即獲得 Postgres 專案。未申領專案限制100 MB 儲存空 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可 | 約 TWD 814（AI 估） | 長期活動 | AI 預審通過 |
+| [ElevenLabs Black Friday 限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 選擇年度方案最高可省下 55%。Creator 年度方案現價 $99；Pro 新用戶享 55% 折扣，既有 Pro 月繳用戶轉為年繳享 50 | 約 TWD 3,000（AI 估） | 2024-12-01 | 待核實 |
+| [ElevenLabs 年繳方案兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳計費，實際支付 10 個月費用，相當於獲得 2 個月免費。 | 約 TWD 15,000（AI 估） | 長期活動 | 待核實 |
+| [KuCoin Earn Friday 訂閱 USDT/ETH/DOT 賺取最高 9% APR 活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 的年化報酬率（APR）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 新用戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取超過 10,000 USDT 的獎勵（Sign up to claim 10,000+ USDT rewards） | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Gate Live 黑色星期五與網路星期一活動](https://www.gate.com/announcements) | Crypto | 參與活動可獲得 500 USDT 紅包雨及其他獎勵（500 USDT Red Packet Rain & More Rewards） | 約 TWD 16,000（AI 估） | 2026-11-19 | 待核實 |
+| [Gate Event Contracts 新用戶首筆交易獎勵](https://www.gate.com/announcements) | Crypto | 新用戶進行首筆交易可獲得獎勵，最高可贏取獎金（New User First Trade Reward, Win Up to...） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate 2026 VIP 期貨精英挑戰賽第五季](https://www.gate.com/announcements) | Crypto | 在雙排行榜競爭，總獎金 50,000 USDT 及額外獎勵（Compete Across Dual Leaderboards for 50, | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate CFD 黃金競技場第七輪](https://www.gate.com/announcements) | Crypto | 在兩個排行榜分享總計 80,000 USDT，最高可獲得 13,000 USDT 的 XAUT 獎勵（Share 80,000 USDT A | 約 TWD 416,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Square × Trader Champions League S2](https://www.gate.com/announcements) | Crypto | 分享策略，分配 50,000 USDT 並贏取 10 GT（Share Strategies, Split 50,000 USDT & Wi | 免費（價值視使用而定） | 長期活動 | 待核實 |

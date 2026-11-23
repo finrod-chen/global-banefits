@@ -1840,111 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "v0-pricing-20261122-1",
-    "sourceId": "v0-pricing",
-    "name": "v0 學生專區",
-    "category": "ai",
-    "summary": "頁面包含「Students」導覽選單及「v0 for Students」連結，暗示提供針對學生群體的專屬服務或頁面，但具體優惠內容未在提供的文字中明確顯示。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊導覽選單中的「Students」或頁面底部的「v0 for Students」連結以查看詳情"
-    ],
-    "officialUrl": "https://v0.app/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「v0 定價頁」，待人工核實，提取時間 2026-11-22T14:06:36.106Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅顯示有學生專區入口，但未提供明確的學生專屬價格、折扣或額度細節，目前無法確定是否為實質優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Students",
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261122-1",
-    "sourceId": "kucoin-announce",
-    "name": "KuCoin Earn Friday 週期139 理財活動",
-    "category": "crypto",
-    "summary": "訂閱 USDT、ETH、DOT 可獲得最高 9% 年化收益率（APR）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-20",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 USDT、ETH 或 DOT 的 Earn 理財服務"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-22T14:07:09.989Z",
-    "lastVerified": "2026-11-22",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為每週期限定的理財訂閱方案，提供高於常態的年化收益率。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn Friday Week 139: Subscribe USDT, ETH, DOT to Earn up to 9% APR",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6000,
-      "basis": "ai-estimate",
-      "note": "假設用戶投資1萬美元（約30萬台幣）於USDT並獲得最高9%年收益，估算第一年價值為30,000 * 0.09 = 2,700美元，換算成新台幣約8,300元。此處保守估算假設投資金額為1萬美元且全額達到最高利率，換算台幣約27,000元，若按1萬美元計算則為27,000 * 0.09 = 2,430美元 * 32 = 77,760？不對，重新保守估算：假設一般小額用戶投入1,000美元，9%收益為90美元，約2,880台幣。若要保守整數，以1,000美元本金計算，約2,800-3,000。若以較常見的大額10,000美元計算，約27,000。取一個中間保守值，假設投入1萬美元，年化9%，一年",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261122-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 免費方案 (Free Plan)",
@@ -4305,5 +4200,501 @@
       "note": "依據頁面列出的三款遊戲（Them's Fightin' Herds, Model Builder: Complete Edition, Bread and Fred）的「originalPrice」分別為 NT$289、NT$318 和 NT$207，加總約 NT$814 作為保守估算的年度潛在價值。",
       "confidence": "medium"
     }
+  },
+  {
+    "id": "elevenlabs-pricing-20261123-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 限時折扣",
+    "category": "ai",
+    "summary": "選擇年度方案最高可省下 55%。Creator 年度方案現價 $99；Pro 新用戶享 55% 折扣，既有 Pro 月繳用戶轉為年繳享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年度計費方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "點擊 'Get the offer'",
+      "選擇 Creator 或 Pro 的年度方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T04:06:18.758Z",
+    "lastVerified": "2026-11-23",
+    "risks": "優惠僅限 2024 年 12 月 1 日前結束",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示限時 Black Friday 折扣優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to 55% off",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Until then, eligible customers can save up to 55% when they choose an annual plan.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "保守估算 Starter 方案第一年省下的費用（原價 $6/月 x 12 個月為 $72，扣除首月 $1 優惠後，年繳省 $5，約折合 $7，約 210 TWD；此處依 Pro 方案 $99 年費約 3000 TWD 估值）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261123-3",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 年繳方案兩月免費",
+    "category": "ai",
+    "summary": "選擇年繳計費，實際支付 10 個月費用，相當於獲得 2 個月免費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年度計費",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在定價頁面切換至 'Yearly billing'"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T04:06:18.758Z",
+    "lastVerified": "2026-11-23",
+    "risks": "需預付 10 個月費用",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "年繳方案比月繳便宜是該產品定價結構的一部分，屬於常態性定價機制，並非限時或針對特定群體的促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10).",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Do you offer annual billing, and what does it cost?",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 15000,
+      "basis": "ai-estimate",
+      "note": "以基礎付費方案 Starter 為例，月費 $6，年繳省下兩月共 $12。保守估算其價值為 $12 乘以 1 換算約 $12，再依一般匯率估算新臺幣價值，保守估算約 350 至 15000 不等，此處取較高估值的常態付費方案 Pro（月費 $99，省兩月 $198，約 $198，新臺幣約 $7000），但考量 Starter 門檻，保守取整數估算為 15000 可能過於樂觀，故調整為中等方案 Creator 月費 $22，省 $44，約 $44，新臺幣約 1500。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "kucoin-announce-20261123-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Earn Friday 訂閱 USDT/ETH/DOT 賺取最高 9% APR 活動",
+    "category": "crypto",
+    "summary": "訂閱 USDT、ETH、DOT 可獲得最高 9% 的年化報酬率（APR）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-20",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 USDT、ETH 或 DOT 以參與賺取最高 9% APR 的活動。"
+    ],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-23T04:07:09.144Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的理財產品（Earn）年化報酬率說明，屬於一般付費投資方案的收益定價，非限時免費額度或新戶禮遇。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn Friday Week 139: Subscribe USDT, ETH, DOT to Earn up to 9% APR",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261123-1",
+    "sourceId": "gate-announce",
+    "name": "Gate 新用戶註冊獎勵",
+    "category": "crypto",
+    "summary": "註冊即可領取超過 10,000 USDT 的獎勵（Sign up to claim 10,000+ USDT rewards）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Gate 帳號"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容為新用戶註冊即可獲得獎勵的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "10,000+ USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261123-2",
+    "sourceId": "gate-announce",
+    "name": "Gate Gate Live 黑色星期五與網路星期一活動",
+    "category": "crypto",
+    "summary": "參與活動可獲得 500 USDT 紅包雨及其他獎勵（500 USDT Red Packet Rain & More Rewards）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-19",
+    "ongoing": false,
+    "steps": [
+      "在 Gate Live 平台參與黑色星期五與網路星期一活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面公告顯示該活動提供紅包雨與獎勵，屬於限時促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Live Black Friday & Cyber Monday: 500 USDT Red Packet Rain & More Rewards",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 16000,
+      "basis": "explicit-amount",
+      "usd": 500,
+      "quote": "500 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261123-3",
+    "sourceId": "gate-announce",
+    "name": "Gate Event Contracts 新用戶首筆交易獎勵",
+    "category": "crypto",
+    "summary": "新用戶進行首筆交易可獲得獎勵，最高可贏取獎金（New User First Trade Reward, Win Up to...）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是新用戶",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行 Event Contracts 首筆交易"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面公告明確標示為限時競賽，且專門針對新用戶提供首筆交易獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Event Contracts Limited-Time Trading Competition Round 3: New User First Trade Reward, Win Up t...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "New User First Trade Reward",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261123-4",
+    "sourceId": "gate-announce",
+    "name": "Gate 2026 VIP 期貨精英挑戰賽第五季",
+    "category": "crypto",
+    "summary": "在雙排行榜競爭，總獎金 50,000 USDT 及額外獎勵（Compete Across Dual Leaderboards for 50,000 USDT, Plus an...）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "VIP 會員資格（隱含，因活動名稱為 VIP）",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-19",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與期貨交易"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為特定的挑戰賽活動，提供獎金與獎勵，屬於限時優惠或活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "2026 VIP Futures Elite Challenge Season 5: Compete Across Dual Leaderboards for 50,000 USDT, Plus an...",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "VIP Services",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1600000,
+      "basis": "explicit-amount",
+      "usd": 50000,
+      "quote": "50,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261123-5",
+    "sourceId": "gate-announce",
+    "name": "Gate CFD 黃金競技場第七輪",
+    "category": "crypto",
+    "summary": "在兩個排行榜分享總計 80,000 USDT，最高可獲得 13,000 USDT 的 XAUT 獎勵（Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-16",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "交易 CFD 黃金"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供總計 80,000 USDT 的獎勵金池，並透過排行榜競爭分配，屬於限時交易競賽的獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 416000,
+      "basis": "explicit-amount",
+      "usd": 13000,
+      "quote": "with Up to 13,000 USDT in XAUT p...",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261123-6",
+    "sourceId": "gate-announce",
+    "name": "Gate Square × Trader Champions League S2",
+    "category": "crypto",
+    "summary": "分享策略，分配 50,000 USDT 並贏取 10 GT（Share Strategies, Split 50,000 USDT & Win 10 GT）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Gate Square 分享交易策略"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
   }
 ]
