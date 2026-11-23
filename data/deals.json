@@ -1840,460 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "epic-free-games-20261123-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲",
-    "category": "software",
-    "summary": "頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可免費領取，原價約 NT$207~318",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-05-23",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "登入帳號",
-      "點擊領取免費遊戲"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T00:06:53.419Z",
-    "lastVerified": "2026-11-23",
-    "risks": "免費遊戲領取後將永久綁定於帳號，需注意遊戲內容可能包含 DLC 或更新版本需另外購買",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T02:05:16.562Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標題為「Epic 每週免費遊戲」且包含「freeGamesPromotions」路徑，顯示這些遊戲在特定期間可免費領取。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"title\":\"Them's Fightin' Herds\"",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "\"currencyCode\":\"TWD\"",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 814,
-      "basis": "ai-estimate",
-      "note": "依據頁面列出的三款遊戲（Them's Fightin' Herds, Model Builder: Complete Edition, Bread and Fred）的「originalPrice」分別為 NT$289、NT$318 和 NT$207，加總約 NT$814 作為保守估算的年度潛在價值。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "elevenlabs-pricing-20261123-3",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs 年繳方案兩月免費",
-    "category": "ai",
-    "summary": "選擇年繳計費，實際支付 10 個月費用，相當於獲得 2 個月免費。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "選擇年度計費",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在定價頁面切換至 'Yearly billing'"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T04:06:18.758Z",
-    "lastVerified": "2026-11-23",
-    "risks": "需預付 10 個月費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "年繳方案比月繳便宜是該產品定價結構的一部分，屬於常態性定價機制，並非限時或針對特定群體的促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Annual billing works out to two months free — you pay for 10 months (annual price = monthly price × 10).",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Do you offer annual billing, and what does it cost?",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 15000,
-      "basis": "ai-estimate",
-      "note": "以基礎付費方案 Starter 為例，月費 $6，年繳省下兩月共 $12。保守估算其價值為 $12 乘以 1 換算約 $12，再依一般匯率估算新臺幣價值，保守估算約 350 至 15000 不等，此處取較高估值的常態付費方案 Pro（月費 $99，省兩月 $198，約 $198，新臺幣約 $7000），但考量 Starter 門檻，保守取整數估算為 15000 可能過於樂觀，故調整為中等方案 Creator 月費 $22，省 $44，約 $44，新臺幣約 1500。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "kucoin-announce-20261123-1",
-    "sourceId": "kucoin-announce",
-    "name": "KuCoin Earn Friday 訂閱 USDT/ETH/DOT 賺取最高 9% APR 活動",
-    "category": "crypto",
-    "summary": "訂閱 USDT、ETH、DOT 可獲得最高 9% 的年化報酬率（APR）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-20",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 USDT、ETH 或 DOT 以參與賺取最高 9% APR 的活動。"
-    ],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-23T04:07:09.144Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態的理財產品（Earn）年化報酬率說明，屬於一般付費投資方案的收益定價，非限時免費額度或新戶禮遇。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn Friday Week 139: Subscribe USDT, ETH, DOT to Earn up to 9% APR",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261123-1",
-    "sourceId": "gate-announce",
-    "name": "Gate 新用戶註冊獎勵",
-    "category": "crypto",
-    "summary": "註冊即可領取超過 10,000 USDT 的獎勵（Sign up to claim 10,000+ USDT rewards）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Gate 帳號"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該內容為新用戶註冊即可獲得獎勵的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "10,000+ USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261123-3",
-    "sourceId": "gate-announce",
-    "name": "Gate Event Contracts 新用戶首筆交易獎勵",
-    "category": "crypto",
-    "summary": "新用戶進行首筆交易可獲得獎勵，最高可贏取獎金（New User First Trade Reward, Win Up to...）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須是新用戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進行 Event Contracts 首筆交易"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面公告明確標示為限時競賽，且專門針對新用戶提供首筆交易獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Event Contracts Limited-Time Trading Competition Round 3: New User First Trade Reward, Win Up t...",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "New User First Trade Reward",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261123-4",
-    "sourceId": "gate-announce",
-    "name": "Gate 2026 VIP 期貨精英挑戰賽第五季",
-    "category": "crypto",
-    "summary": "在雙排行榜競爭，總獎金 50,000 USDT 及額外獎勵（Compete Across Dual Leaderboards for 50,000 USDT, Plus an...）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "VIP 會員資格（隱含，因活動名稱為 VIP）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "參與期貨交易"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目為特定的挑戰賽活動，提供獎金與獎勵，屬於限時優惠或活動獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "2026 VIP Futures Elite Challenge Season 5: Compete Across Dual Leaderboards for 50,000 USDT, Plus an...",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "VIP Services",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600000,
-      "basis": "explicit-amount",
-      "usd": 50000,
-      "quote": "50,000 USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261123-5",
-    "sourceId": "gate-announce",
-    "name": "Gate CFD 黃金競技場第七輪",
-    "category": "crypto",
-    "summary": "在兩個排行榜分享總計 80,000 USDT，最高可獲得 13,000 USDT 的 XAUT 獎勵（Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "交易 CFD 黃金"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T04:05:17.262Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供總計 80,000 USDT 的獎勵金池，並透過排行榜競爭分配，屬於限時交易競賽的獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "CFD Gold Arena, Round 7: Share 80,000 USDT Across Two Leaderboards, with Up to 13,000 USDT in XAUT p...",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 416000,
-      "basis": "explicit-amount",
-      "usd": 13000,
-      "quote": "with Up to 13,000 USDT in XAUT p...",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261123-6",
-    "sourceId": "gate-announce",
-    "name": "Gate Square × Trader Champions League S2",
-    "category": "crypto",
-    "summary": "分享策略，分配 50,000 USDT 並贏取 10 GT（Share Strategies, Split 50,000 USDT & Win 10 GT）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Gate Square 分享交易策略"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T06:05:18.240Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供USDT獎金池與GT空投，屬於激勵性質的推廣活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Square × Trader Champions League S2: Share Strategies, Split 50,000 USDT & Win 10 GT",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600000,
-      "basis": "explicit-amount",
-      "usd": 50000,
-      "quote": "Split 50,000 USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261123-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Zero Trust 免費方案",
@@ -4655,6 +4201,353 @@
       "usd": 4.62,
       "note": "金額沒有在頁面原文逐字找到，僅供參考；",
       "confidence": "low"
+    }
+  },
+  {
+    "id": "openai-pricing-20261123-1",
+    "sourceId": "openai-pricing",
+    "name": "OpenAI ChatGPT Free Plan",
+    "category": "ai",
+    "summary": "免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 Codex 存取、有限的桌面版 ChatGPT Work 存取。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 OpenAI ChatGPT 定價頁"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-23T16:05:45.834Z",
+    "lastVerified": "2026-11-23",
+    "risks": "無限制的文字對話受濫用防護機制限制（subject to abuse guardrails）。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為ChatGPT的免費(Free)方案，屬於提供免費額度或基礎功能予所有使用者的推廣方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited text chats with GPT-6 Limited messages with uploads Limited image creation Limited voice chats Limited deep research Limited memory and context Limited Codex access Limited ChatGPT Work access on desktop",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "anthropic-pricing-20261123-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Anthropic Claude API 免費額度",
+    "category": "ai",
+    "summary": "訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度，用於在 Claude Platform 上建構應用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Max 或 Ultra 付費方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Anthropic Claude 的 Max 或 Ultra 方案",
+      "自動獲得對應額度的 API 信貸"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-23T16:06:03.041Z",
+    "lastVerified": "2026-11-23",
+    "risks": "Max 與 Ultra 均為付費訂閱方案 ($100 或 $200/月)",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "API額度是Max和Ultra常態付費方案中持續包含的價值，非限時折扣或免費方案",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$100 a month in API credits to build on the Claude Platform",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Everything in Pro, plus:",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "$100 a month in API credits to build on the Claude Platform",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261123-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 促銷",
+    "category": "ai",
+    "summary": "年繳方案最高可享 55% 折扣；Creator 年繳首年 $99；Pro 新用戶年繳享 55% 折扣，現有 Pro 月費用戶轉年繳享 50% 折扣。活動截止至 12 月 1 日。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T16:06:20.658Z",
+    "lastVerified": "2026-11-23",
+    "risks": "折扣僅適用於首年或特定轉換情形，續約時價格可能恢復原價",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示 Black Friday Sale 且有限時折扣與截止日期。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the year. Pro newcomers also get the full 55% off, while",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Until then, eligible customers can save up to 55% when they choose an annual plan.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3168,
+      "basis": "explicit-amount",
+      "usd": 99,
+      "quote": "Creator annual costs $99 for the year",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "epic-free-games-20261123-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
+    "category": "software",
+    "summary": "Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 289 元，活動期間內遊戲售價為 0 元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2022-12-19",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 商店的每週免費遊戲頁面",
+      "點擊 Them's Fightin' Herds 的領取按鈕",
+      "確認領取該遊戲並完成帳戶登入"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
+    "lastVerified": "2026-11-23",
+    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "JSON 資料顯示該遊戲的 discountPrice 與 originalPrice 均為 28900 TWD，且折扣比例為 0，並非免費。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "them's-fightin-herds",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "epic-free-games-20261123-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 318 元，活動期間內遊戲售價為 0 元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2023-01-16",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 商店的每週免費遊戲頁面",
+      "點擊 Model Builder: Complete Edition 的領取按鈕",
+      "確認領取該遊戲並完成帳戶登入"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
+    "lastVerified": "2026-11-23",
+    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "資料顯示該遊戲原價為318元，且促銷折扣為0，缺乏證據證明在該日期玩家可免費領取。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 318,
+      "basis": "ai-estimate",
+      "note": "若為免費遊戲，其價值即為頁面列出的原價318 TWD，換算成新台幣約為318元。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "epic-free-games-20261123-3",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 Bread and Fred",
+    "category": "software",
+    "summary": "Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活動期間內遊戲售價為 0 元。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2023-05-23",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 商店的每週免費遊戲頁面",
+      "點擊 Bread and Fred 的領取按鈕",
+      "確認領取該遊戲並完成帳戶登入"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
+    "lastVerified": "2026-11-23",
+    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "JSON 資料顯示該遊戲在「freegames」類別中，且 promotionalOffers 顯示了特定區間的折扣設定，符合免費遊戲推廣活動的特徵。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 207,
+      "basis": "ai-estimate",
+      "note": "依據頁面中 fmtPrice 顯示的遊戲原價 $207.00 TWD，保守估算領取該遊戲的價值。",
+      "confidence": "medium"
     }
   }
 ]

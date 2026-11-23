@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T14:05:17.027Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T16:05:18.892Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,14 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可 | 約 TWD 814（AI 估） | 長期活動 | AI 預審通過 |
-| [ElevenLabs 年繳方案兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳計費，實際支付 10 個月費用，相當於獲得 2 個月免費。 | 約 TWD 15,000（AI 估） | 長期活動 | 待核實 |
-| [KuCoin Earn Friday 訂閱 USDT/ETH/DOT 賺取最高 9% APR 活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 的年化報酬率（APR）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 新用戶註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取超過 10,000 USDT 的獎勵（Sign up to claim 10,000+ USDT rewards） | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Event Contracts 新用戶首筆交易獎勵](https://www.gate.com/announcements) | Crypto | 新用戶進行首筆交易可獲得獎勵，最高可贏取獎金（New User First Trade Reward, Win Up to...） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate 2026 VIP 期貨精英挑戰賽第五季](https://www.gate.com/announcements) | Crypto | 在雙排行榜競爭，總獎金 50,000 USDT 及額外獎勵（Compete Across Dual Leaderboards for 50, | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate CFD 黃金競技場第七輪](https://www.gate.com/announcements) | Crypto | 在兩個排行榜分享總計 80,000 USDT，最高可獲得 13,000 USDT 的 XAUT 獎勵（Share 80,000 USDT A | 約 TWD 416,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Square × Trader Champions League S2](https://www.gate.com/announcements) | Crypto | 分享策略，分配 50,000 USDT 並贏取 10 GT（Share Strategies, Split 50,000 USDT & Wi | 約 TWD 1,600,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，價格為 $0 永久免費。包含：使用者上限 50 人、社群論壇與 Discord 支援、標準日誌保 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求，以及每 1,000,000 CPU 毫秒 $0.30 的超出費用標準。免費額度內無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出口流量（北美/歐洲） | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -90,3 +82,9 @@
 | [Neon 開源計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 網域第一年促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 | 約 TWD 413（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域多年註冊優惠](https://porkbun.com/products/domains) | VPS/雲服務 | 針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原 | 約 TWD 148（AI 估） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT Free Plan](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Anthropic Claude API 免費額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度， | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案最高可享 55% 折扣；Creator 年繳首年 $99；Pro 新用戶年繳享 55% 折扣，現有 Pro 月費用戶轉年繳享 50% | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |
+| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
