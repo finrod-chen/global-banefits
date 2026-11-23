@@ -1840,198 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "porkbun-domains-20261122-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域免費 WHOIS 隱私保護",
-    "category": "vps-cloud",
-    "summary": "提供免費的 WHOIS 隱私保護服務（Free WHOIS Privacy）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "購買 Porkbun 網域服務"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
-    "lastVerified": "2026-11-22",
-    "risks": "隱私保護通常僅在網域註冊期間有效，過期未續費可能導致隱私設定失效",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出的 'Free WHOIS Privacy' 屬於免費方案或額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free WHOIS Privacy",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261122-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域免費 SSL 憑證",
-    "category": "vps-cloud",
-    "summary": "提供免費的 SSL 憑證服務（Free SSL Certificates）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "購買 Porkbun 網域或主機服務"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
-    "lastVerified": "2026-11-22",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面列出「Free SSL Certificates」，屬於提供免費服務或額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free SSL Certificates",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261122-3",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域免費 Email 轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的 Email 轉發服務（Free Email Forwarding）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "購買 Porkbun 網域服務"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
-    "lastVerified": "2026-11-22",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目為標示為「Free」的常態服務額度。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free Email Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "porkbun-domains-20261122-4",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域免費 URL 轉發",
-    "category": "vps-cloud",
-    "summary": "提供免費的 URL 轉發服務（Free URL Forwarding）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "購買 Porkbun 網域服務"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-22T12:06:34.103Z",
-    "lastVerified": "2026-11-22",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-22T16:05:18.051Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確定義了免費服務項目，且該項目在導航和免費福利列表中被明確標示為 Free（免費），因此判定為免費方案/額度類優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Free URL Forwarding",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "v0-pricing-20261122-1",
     "sourceId": "v0-pricing",
     "name": "v0 學生專區",
@@ -3946,7 +3754,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-22T20:07:19.085Z",
     "lastVerified": "2026-11-22",
     "risks": "試用結束後將開始計費；頁面標示 'Cancel anytime' 及 'Secure payment encryption'",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供限時免費試用及特定AI積分量，屬於新戶獎勵及試用性質的促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial 1,000 AI credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 740,
+      "basis": "ai-estimate",
+      "note": "以最低階的 Mac 方案月費 $14.99 為基準，7 天約佔月費的 1/4.3，估算為 $3.49 (約 115 新台幣)；但考慮到該期間還包含 1,000 點 AI 積分的潛在價值，且不同方案價格不同，保守且粗略地將整月價值作為參考的約 50%（約 11 美元）加上 AI 積分，最終以 740 新台幣估算作為一般使用者在該期間內避免支付的訂閱費及獲取的 AI 額度。",
+      "confidence": "low"
+    }
   },
   {
     "id": "digitalocean-pricing-20261122-1",
@@ -3974,7 +3815,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-22T22:06:20.940Z",
     "lastVerified": "2026-11-22",
     "risks": "需付費購買 Kubernetes 基礎方案",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Kubernetes 的控制平面與頻寬配額為免費 (Free control plane, free bandwidth allowance)，符合免費方案或額度之定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Simple, managed Kubernetes built for scale\nFree control plane, free bandwidth allowance, and more",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261122-2",
@@ -4003,7 +3864,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-22T22:06:20.940Z",
     "lastVerified": "2026-11-22",
     "risks": "超過配額或跨資料中心傳輸需額外付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供免費建立無限VPC及資料中心內傳輸免費等常態免費額度與基礎功能。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Create unlimited VPCs at no additional cost. Ingress data transfer to VPCs is free. Egress data transfer from VPCs to the internet counts against bandwidth quotas. Intra-datacenter VPC peering is free. Inter-datacenter VPC peering is $0.01/",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261122-3",
@@ -4031,7 +3912,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-22T22:06:20.940Z",
     "lastVerified": "2026-11-22",
     "risks": "超過 500 GiB 每月後會產生超額費用",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該內容描述的是 Droplet 一般付費方案中常態包含的出站頻寬配額與超額計費標準，並非限時優惠或新戶獨有的免費試用額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261122-4",
@@ -4059,7 +3962,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-22T22:06:20.940Z",
     "lastVerified": "2026-11-22",
     "risks": "超出免費配額需額外付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確列出多項免費的基礎功能與每月使用額度，屬於無期限的免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost\nPublic Internet Egress Overage Data transfer is $0",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "估算 1 個 500 MiB 容器登錄儲存空間的雲端成本約 $0.05，加上 90,000 GiB-seconds 的函数計算時數價值約 $1，加上 DNS、防火牆等軟體功能的替代成本，保守預估首年價值約為新台幣 1500 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "supabase-pricing-20261122-1",
@@ -4087,7 +4016,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-22T22:06:41.359Z",
     "lastVerified": "2026-11-22",
     "risks": "免費專案在 1 週無活動後會暫停；限制為 2 個活躍專案。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供 $0 月費的永久免費方案，包含特定資源額度，屬於免費方案類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$ 0\n/ month\nStart for Free Free projects are paused after 1 week of inactivity.\nLimit of 2 active projects.\nGet started with:\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB c",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261122-1",
@@ -4116,7 +4065,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-22T22:07:00.380Z",
     "lastVerified": "2026-11-22",
     "risks": "若專案耗盡每月100 CU-hrs 或5 GB網路流量額度，運算將暫停至下一個帳單週期；若超過1 GB儲存空間，新增儲存的操作會失敗。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供永久免費方案及每月運算與儲存額度，屬於免費額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free $0 Build and learn free with no time limits and no credit card required.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "The Free plan is permanent, not a trial, and doesn't require a credit card.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 500,
+      "basis": "ai-estimate",
+      "note": "依草稿所述，免費額度包含每月 100 CU-hours 運算與 1GB 儲存空間。參考同頁 Launch 方案定價（$0.106/CU-hr, $0.35/GB-month），每月價值約 $10.95，第一年約 $131.4，約合 4,245 台幣；但考慮到免費層級的規模限制（如 2 CU 上限、無 SLA）及實務使用率通常低於滿額，保守估算一般使用者第一年實際可使用的價值為 500 台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261122-2",
@@ -4145,7 +4125,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-22T22:07:00.380Z",
     "lastVerified": "2026-11-22",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T00:05:23.969Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定對象（新創企業）的儲值額度獎勵，屬於促銷或計畫性質，而非一般計價。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261122-3",
@@ -4203,6 +4203,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-22T22:07:00.380Z",
     "lastVerified": "2026-11-22",
     "risks": "若未能在72小時內申領，專案將受到儲存空間與網路流量限制。",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261123-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲",
+    "category": "software",
+    "summary": "頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可免費領取，原價約 NT$207~318",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2023-05-23",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "登入帳號",
+      "點擊領取免費遊戲"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T00:06:53.419Z",
+    "lastVerified": "2026-11-23",
+    "risks": "免費遊戲領取後將永久綁定於帳號，需注意遊戲內容可能包含 DLC 或更新版本需另外購買",
     "status": "pending"
   }
 ]
