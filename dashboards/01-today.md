@@ -1,17 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T08:05:16.926Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T08:17:15.596Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP（或等額貨幣）時，Wise 將對費用進行折扣（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise Assets 存款收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可獲得 GBP、EUR 和 USD 貨幣的即時存取收益，GBP 變動利率目前為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 提供免費帳戶開設 (Open a free account)，無需開戶費，可管理多國貨幣並進行匯款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 包含多項開發工具與雲服務免費額度，如 1 年 .me 域名、1 年 SSL 憑證、25+ Azure 雲端服務及 $100 Azure 點數 | 約 TWD 4,800（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Credits - Activate Founders](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 推廣額度，起始提供 1,000 USD，部分參與者可能有資格獲得額外額度達 5,000 USD。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Credits - Activate Portfolio](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS 推廣額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 或更多的 AWS 額度（具體金額隨新創公司工作負載規模調整，曾部署數千至數百萬美元的額度提供）。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，不同方案包含 1,000 或 2,000 點 AI 積分 | 約 TWD 740（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 使用 DigitalOcean Kubernetes 時，控制平面與頻寬配額免費，基礎方案每月 $12 起 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean VPC 免費創建與資料中心內傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費創建無限數量的 VPC，資料中心內 VPC peering 與 Ingress 資料傳輸免費，NAT Gateway 每節點 $40  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Droplets 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含每月免費 500 GiB 出站資料傳輸額度，超額部分每 GiB 僅收 $0.01 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -44,15 +36,22 @@
 | [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 Anthropic 價格曝險（ANTHROPICX），總獎金池 20,000 美元 ANTHROPICX，可達 10 倍槓桿 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 非加密貨幣市場半價佣金](https://blog.kraken.com/) | Crypto | 黃金、銀、原油等商品市場現在可在 Kraken Prop 交易，非加密貨幣市場佣金降至 2bps 每邊（含已有帳戶） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken 5,000,000 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產及加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎勵池 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI 方案 Black Friday 限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可於 Black Friday 期間在特定 Google AI 方案享有最高 50% 的折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用費享 30% 折扣 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI 方案 Black Friday 限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可於 Black Friday 期間在特定 Google AI 方案享有最高 50% 的折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
-| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
+| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山信用卡繳學費分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山JCB/Visa卡 Trip.com 訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | JCB卡訂日本飯店最高享14%折扣；Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，可在數分鐘內開立帳戶並匯款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等值金額時，Wise 將對其收取的費用提供折扣（頁面的計算示例顯示潛在節省最高 38.53 GBP）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 存款收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可從日常餘額賺取 3.47% 的浮動利率收益。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用，且訂閱後可獲得1,000 AI 積分（Mac 及 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | $0 每位成員 / 月。包含：試用 Notion AI（生成文件、自動填寫數據庫）、基本表單、發布 Notion 頁面到網頁（基本網站）、連 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI Agents 處理重複性任務。免費試用，之後按每 1,000 個 Notion credits 收取 $10 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

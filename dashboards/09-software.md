@@ -1,11 +1,13 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T08:05:16.926Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T08:17:15.596Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [GitHub Student Developer Pack 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 包含多項開發工具與雲服務免費額度，如 1 年 .me 域名、1 年 SSL 憑證、25+ Azure 雲端服務及 $100 Azure 點數 | 約 TWD 4,800（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 7 天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，不同方案包含 1,000 或 2,000 點 AI 積分 | 約 TWD 740（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可 | 約 TWD 814（AI 估） | 長期活動 | AI 預審通過 |
+| [Setapp 免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用，且訂閱後可獲得1,000 AI 積分（Mac 及 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | $0 每位成員 / 月。包含：試用 Notion AI（生成文件、自動填寫數據庫）、基本表單、發布 Notion 頁面到網頁（基本網站）、連 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI Agents 處理重複性任務。免費試用，之後按每 1,000 個 Notion credits 收取 $10 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

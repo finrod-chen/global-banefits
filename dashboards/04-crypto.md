@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T08:05:16.926Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T08:17:15.596Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,5 +24,5 @@
 | [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 Anthropic 價格曝險（ANTHROPICX），總獎金池 20,000 美元 ANTHROPICX，可達 10 倍槓桿 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 非加密貨幣市場半價佣金](https://blog.kraken.com/) | Crypto | 黃金、銀、原油等商品市場現在可在 Kraken Prop 交易，非加密貨幣市場佣金降至 2bps 每邊（含已有帳戶） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken 5,000,000 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產及加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎勵池 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
