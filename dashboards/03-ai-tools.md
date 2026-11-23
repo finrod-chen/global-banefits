@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T16:05:18.892Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T18:05:18.847Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -27,4 +27,3 @@
 | [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [OpenAI ChatGPT Free Plan](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Anthropic Claude API 免費額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度， | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案最高可享 55% 折扣；Creator 年繳首年 $99；Pro 新用戶年繳享 55% 折扣，現有 Pro 月費用戶轉年繳享 50% | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |

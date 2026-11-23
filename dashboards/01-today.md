@@ -1,26 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T16:05:18.892Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T18:05:18.847Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，價格為 $0 永久免費。包含：使用者上限 50 人、社群論壇與 Discord 支援、標準日誌保 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求，以及每 1,000,000 CPU 毫秒 $0.30 的超出費用標準。免費額度內無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出口流量（北美/歐洲） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求、13,000 GB-s 持續時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQ | 約 TWD 400（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時數及 3 個並行瀏覽器。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作。無出口流量費。 | 約 TWD 12,270（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 約 TWD 495（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken Pro 交易 ANTx 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總獎金池 5,000 美元 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 黑色星期五存款交易獎金](https://blog.kraken.com/) | Crypto | 存款 1,000 美元法幣並交易，可獲最多 100 美元 BTC 獎金，需達成四個堆疊里程碑 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 Anthropic 價格曝險（ANTHROPICX），總獎金池 20,000 美元 ANTHROPICX，可達 10 倍槓桿 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken Prop 非加密貨幣市場半價佣金](https://blog.kraken.com/) | Crypto | 黃金、銀、原油等商品市場現在可在 Kraken Prop 交易，非加密貨幣市場佣金降至 2bps 每邊（含已有帳戶） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 5,000,000 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產及加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎勵池 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
-| [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google AI 方案 Black Friday 限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可於 Black Friday 期間在特定 Google AI 方案享有最高 50% 的折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
 | [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -47,7 +30,7 @@
 | [Porkbun 網域多年註冊優惠](https://porkbun.com/products/domains) | VPS/雲服務 | 針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原 | 約 TWD 148（AI 估） | 長期活動 | 待核實 |
 | [OpenAI ChatGPT Free Plan](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Anthropic Claude API 免費額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度， | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案最高可享 55% 折扣；Creator 年繳首年 $99；Pro 新用戶年繳享 55% 折扣，現有 Pro 月費用戶轉年繳享 50% | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |
 | [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價活動](https://www.racknerd.com/specials/) | VPS/雲服務 | 限時 Black Friday 優惠，提供多款 KVM VPS 方案，包含 1 GB ($15.98/年)、2.5 GB ($27.98/年 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |

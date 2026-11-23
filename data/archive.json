@@ -2499,5 +2499,73 @@
     "status": "expired",
     "archivedAt": "2026-11-23T08:17:15.596Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261123-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 促銷",
+    "category": "ai",
+    "summary": "年繳方案最高可享 55% 折扣；Creator 年繳首年 $99；Pro 新用戶年繳享 55% 折扣，現有 Pro 月費用戶轉年繳享 50% 折扣。活動截止至 12 月 1 日。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T16:06:20.658Z",
+    "lastVerified": "2026-11-23",
+    "risks": "折扣僅適用於首年或特定轉換情形，續約時價格可能恢復原價",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-23T16:05:18.892Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示 Black Friday Sale 且有限時折扣與截止日期。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the year. Pro newcomers also get the full 55% off, while",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Until then, eligible customers can save up to 55% when they choose an annual plan.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3168,
+      "basis": "explicit-amount",
+      "usd": 99,
+      "quote": "Creator annual costs $99 for the year",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-23T18:05:18.847Z",
+    "archiveReason": "endDate passed"
   }
 ]
