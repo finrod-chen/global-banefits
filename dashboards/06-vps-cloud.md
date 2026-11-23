@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T12:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T14:05:17.027Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -28,3 +28,5 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每個月 100 CU-hrs 運算、每專案 1 GB 儲存空間、最多 100 個專案、不限制團隊成員。 | 約 TWD 2,650（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 新創公司計劃](https://neon.com/pricing) | VPS/雲服務 | 為早期新創公司提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域第一年促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 | 約 TWD 413（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 網域多年註冊優惠](https://porkbun.com/products/domains) | VPS/雲服務 | 針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原 | 約 TWD 148（AI 估） | 長期活動 | 待核實 |

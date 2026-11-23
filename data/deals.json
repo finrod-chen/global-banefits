@@ -4535,5 +4535,126 @@
       ],
       "numbersMissing": []
     }
+  },
+  {
+    "id": "porkbun-domains-20261123-1",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域第一年促銷",
+    "category": "vps-cloud",
+    "summary": "多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 $14.21），.blog 促銷價 $2.06（原價 $21.11），.cloud 促銷價 $3.88（原價 $21.11）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇欲註冊的網域擴展名",
+      "檢查是否標示「1st Yr Sale!」",
+      "完成註冊流程"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-23T14:06:53.958Z",
+    "lastVerified": "2026-11-23",
+    "risks": "促銷價格僅適用於第一年註冊，第二年續費將恢復至正規價格（如 .xyz 續費價 $14.21），需注意自動續約費用。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T14:05:17.027Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容顯示多款網域提供「first year sale」（第一年促銷）價格，且列出了與「regular price」（原價）的比較，符合限時折扣或促銷的特徵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".xyz\n1.29 first year sale\n$14.21 regular price",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 413,
+      "basis": "ai-estimate",
+      "usd": 12.92,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確列出具體金額，無需估算，故填 0。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "porkbun-domains-20261123-2",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 網域多年註冊優惠",
+    "category": "vps-cloud",
+    "summary": "針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原價 $11.12），.airforce 10 個用戶促銷價 $91.26（原價 $92.17）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為單一用戶帳戶購買 10 個網域才能享受此特定折扣價。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 .ca 或 .airforce 等適用擴展名",
+      "在單一帳戶內註冊 10 個網域",
+      "系統將自動應用 10/User 促銷價格"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-23T14:06:53.958Z",
+    "lastVerified": "2026-11-23",
+    "risks": "僅適用於特定擴展名，且需滿足數量門檻（10個），不符合條件則適用標準價格。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T14:05:17.027Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供特定數量網域註冊的限時或條件性折扣價（1st Yr Sale! 及 10 / User Sale!），屬於限時折扣或特定條件優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$11.12 10 / User 1st Yr Sale! $ 6.50",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "10 / User",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 148,
+      "basis": "ai-estimate",
+      "usd": 4.62,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
+      "confidence": "low"
+    }
   }
 ]
