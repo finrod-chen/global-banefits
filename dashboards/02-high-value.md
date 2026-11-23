@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T06:05:18.240Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T08:05:16.926Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,20 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Google AI 方案黑五限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 指定 Google AI 方案最高享 5 折（Save up to 50%）。 | 約 TWD 6,240（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS 短期試用](https://aws.amazon.com/free/) | VPS/雲服務 | 可透過有限的免費試用體驗選定的 Paid plan 服務，當試用期限超過時，合規的信用額度會自動應用於超過限制的用量。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS 永久免費服務](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 個 AWS 服務在 Free 和 Paid 方案下每月使用量限制內永久免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元玉山e point回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
-| [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率分期 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山環球賞啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 指定萬事達卡啟用可享最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山信用卡繳學費分期](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄可享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Trip.com訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡保險分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 保險享12期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Choice 年繳方案折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳計劃每月費用低於 13 美元（相比月繳 14.99 美元），會員在商店消費可享最高 20% 優惠。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | Humble Choice 會員在商店購買新發布遊戲等內容時，可節省最高 20%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Bundle 遊戲限時折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 多款遊戲提供特定折扣，例如：PRAGMATA (-20%)、Resident Evil Requiem (-30%)、Total War:  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP（或等額貨幣）時，Wise 將對費用進行折扣（discount our fee）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise Assets 存款收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可獲得 GBP、EUR 和 USD 貨幣的即時存取收益，GBP 變動利率目前為 3.47%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 提供免費帳戶開設 (Open a free account)，無需開戶費，可管理多國貨幣並進行匯款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -87,14 +73,23 @@
 | [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時數及 3 個並行瀏覽器。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作。無出口流量費。 | 約 TWD 12,270（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 約 TWD 495（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 聖誕季存款抽獎活動](https://blog.kraken.com/) | Crypto | 存款每1歐元即可獲得一次抽獎機會，贏取總計500,000歐元獎品 | 免費（價值視使用而定） | 2026-01-07 | 待核實 |
-| [Kraken Pro 交易 ANTx 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總獎金池 5,000 美元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 黑色星期五存款交易獎金](https://blog.kraken.com/) | Crypto | 存款 1,000 美元法幣並交易，可獲最多 100 美元 BTC 獎金，需達成四個堆疊里程碑 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
-| [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 Anthropic 價格曝險（ANTHROPICX），總獎金池 20,000 美元 ANTHROPICX，可達 10 倍槓桿 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken Pro 交易 ANTx 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總獎金池 5,000 美元 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 黑色星期五存款交易獎金](https://blog.kraken.com/) | Crypto | 存款 1,000 美元法幣並交易，可獲最多 100 美元 BTC 獎金，需達成四個堆疊里程碑 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
+| [Kraken Pro Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 交易 Anthropic 價格曝險（ANTHROPICX），總獎金池 20,000 美元 ANTHROPICX，可達 10 倍槓桿 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 非加密貨幣市場半價佣金](https://blog.kraken.com/) | Crypto | 黃金、銀、原油等商品市場現在可在 Kraken Prop 交易，非加密貨幣市場佣金降至 2bps 每邊（含已有帳戶） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 5,000,000 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產及加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎勵池 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken 5,000,000 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產及加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎勵池 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken 預 IPO 常規合約挑戰賽](https://blog.kraken.com/) | Crypto | 交易 OURAx 和 MOONSHOTx 常規合約，分享 10,000 USDG 獎金池 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken 美國 F1 格蘭賞見面會](https://blog.kraken.com/) | Crypto | 使用代碼 AUSTIN 註冊，交易量達 1 美元以上，有機會在美國 F1 格蘭賞現場與 Atlassian Williams F1 車手見面 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI 方案 Black Friday 限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可於 Black Friday 期間在特定 Google AI 方案享有最高 50% 的折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用費享 30% 折扣 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |
+| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡繳學費分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [玉山JCB/Visa卡 Trip.com 訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | JCB卡訂日本飯店最高享14%折扣；Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
