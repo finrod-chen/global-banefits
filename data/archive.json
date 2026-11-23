@@ -2304,5 +2304,140 @@
     },
     "archivedAt": "2026-11-22T20:05:21.857Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261123-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 限時折扣",
+    "category": "ai",
+    "summary": "選擇年度方案最高可省下 55%。Creator 年度方案現價 $99；Pro 新用戶享 55% 折扣，既有 Pro 月繳用戶轉為年繳享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年度計費方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "點擊 'Get the offer'",
+      "選擇 Creator 或 Pro 的年度方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-23T04:06:18.758Z",
+    "lastVerified": "2026-11-23",
+    "risks": "優惠僅限 2024 年 12 月 1 日前結束",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示限時 Black Friday 折扣優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to 55% off",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Until then, eligible customers can save up to 55% when they choose an annual plan.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "保守估算 Starter 方案第一年省下的費用（原價 $6/月 x 12 個月為 $72，扣除首月 $1 優惠後，年繳省 $5，約折合 $7，約 210 TWD；此處依 Pro 方案 $99 年費約 3000 TWD 估值）。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-23T06:05:18.240Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "gate-announce-20261123-2",
+    "sourceId": "gate-announce",
+    "name": "Gate Gate Live 黑色星期五與網路星期一活動",
+    "category": "crypto",
+    "summary": "參與活動可獲得 500 USDT 紅包雨及其他獎勵（500 USDT Red Packet Rain & More Rewards）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-19",
+    "endDate": "2026-11-19",
+    "ongoing": false,
+    "steps": [
+      "在 Gate Live 平台參與黑色星期五與網路星期一活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-23T04:07:34.057Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-23T04:05:17.262Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面公告顯示該活動提供紅包雨與獎勵，屬於限時促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Live Black Friday & Cyber Monday: 500 USDT Red Packet Rain & More Rewards",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 16000,
+      "basis": "explicit-amount",
+      "usd": 500,
+      "quote": "500 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-23T06:05:18.240Z",
+    "archiveReason": "endDate passed"
   }
 ]

@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T04:05:17.262Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T06:05:18.240Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,9 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [Cloudflare 免費方案 (Free Plan)](https://www.cloudflare.com/plans/) | VPS/雲服務 | 針對個人或非商業用途專案提供永久免費方案，每月 0 美元。包含：Fast DNS、Unmetered DDoS 保護、CDN、Univers | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare 年繳方案價差](https://www.cloudflare.com/plans/) | VPS/雲服務 | Pro 方案年繳為每月 20 美元，月繳為每月 25 美元；Business 方案年繳為每月 200 美元，月繳為每月 250 美元。年繳享 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價：1GB RAM 為 $15.98/年、2.5GB RAM 為 $27.98/年、4GB RAM 為 $4 | 約 TWD 500（AI 估） | 2026-11-30 | 待核實 |
 | [AWS 短期試用](https://aws.amazon.com/free/) | VPS/雲服務 | 可透過有限的免費試用體驗選定的 Paid plan 服務，當試用期限超過時，合規的信用額度會自動應用於超過限制的用量。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS 永久免費服務](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 個 AWS 服務在 Free 和 Paid 方案下每月使用量限制內永久免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Activate Credits - Activate Founders](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS 推廣額度，起始提供 1,000 USD，部分參與者可能有資格獲得額外額度達 5,000 USD。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -28,3 +25,13 @@
 | [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供給早期新創企業最高10萬美元的儲值額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案方案](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 無需註冊試用體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 提供可申領的 Neon 帳戶，讓使用者或 AI 代理無需帳號與信用卡即可立即獲得 Postgres 專案。未申領專案限制100 MB 儲存空 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，價格為 $0 永久免費。包含：使用者上限 50 人、社群論壇與 Discord 支援、標準日誌保 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求，以及每 1,000,000 CPU 毫秒 $0.30 的超出費用標準。免費額度內無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出口流量（北美/歐洲） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求、13,000 GB-s 持續時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQ | 約 TWD 400（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器時數及 3 個並行瀏覽器。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作。無出口流量費。 | 約 TWD 12,270（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求。 | 約 TWD 800（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 總儲存空間、每日 500 萬行讀取及每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
