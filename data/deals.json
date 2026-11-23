@@ -4112,7 +4112,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-23T08:07:29.753Z",
     "lastVerified": "2026-11-23",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供0利率分期付款，屬於限時或特定條件下的優惠方案，而非一般常態定價。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "滿額登錄享最高6期0利率！",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "滿額登錄活動",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261123-5",
@@ -4141,7 +4168,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-23T08:07:29.753Z",
     "lastVerified": "2026-11-23",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案為綁定特定支付平台後繳稅費所給予的額外回饋點數。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "繳稅費享3%全點回饋",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "玉山信用卡綁定全支付",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "esun-card-offers-20261123-6",
@@ -4169,7 +4223,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「玉山信用卡優惠」，待人工核實，提取時間 2026-11-23T08:07:29.753Z",
     "lastVerified": "2026-11-23",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定銀行信用卡（JCB/Visa）在特定平台（Trip.com）的訂房折扣優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限！",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "使用指定JCB或Visa信用卡在Trip.com訂房",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者每年在Trip.com消費約6-10萬台幣，14%折扣約可節省8400-14000元，保守估計第一年價值約5000元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "wise-home-20261123-1",
@@ -4199,7 +4286,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
     "lastVerified": "2026-11-23",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示帳戶開立為「免費」（Open a free account），屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account\n\nOpen an account in minutes Send money now",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261123-2",
@@ -4228,7 +4342,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
     "lastVerified": "2026-11-23",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定高金額匯款提供費用折扣，屬於限時或特定條件下的促銷方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "頁面未提供一般使用者非大額匯款的明確優惠價值，此為極保守估算（假設多數使用者不適用該大額折扣，價值趨近於零）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "wise-home-20261123-3",
@@ -4257,7 +4402,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
     "lastVerified": "2026-11-23",
     "risks": "若政府違約或利率轉負，資金價值可能下降。當前利率不保證未來表現。浮動利率基於截至 2026-10-11 的 7 日績效。可能涉及稅金。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "這是常態性的存款利息或投資服務，屬於一般金融產品定價與功能，而非行銷優惠或限時活動。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn a return on your everyday balance by opting in to Wise Assets. 1 Find out more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "by opting in to Wise Assets",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Offered by Wise Assets UK",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "azure-free-20261123-1",
@@ -4286,7 +4463,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-23T08:18:16.473Z",
     "lastVerified": "2026-11-23",
     "risks": "12 個月後可能轉為付費或需確認續約條款",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示該服務為「Always」免費提供，屬於常態性免費額度方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "5 GB free storage in Azure Files for 12 months",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Always",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 25,
+      "basis": "ai-estimate",
+      "note": "Azure Files 標準層級儲存空間月費約為 $0.047/GB，5 GB 每月約 $0.235，12 個月約 $2.8，換算成新台幣約 25 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261123-1",
@@ -4315,7 +4525,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-23T08:19:08.785Z",
     "lastVerified": "2026-11-23",
     "risks": "免費試用結束後將自動轉為付費訂閱,需支付稅費",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-23T10:05:17.228Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供 7 天免費試用權限，屬於免費試用類型的促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 480,
+      "basis": "explicit-amount",
+      "usd": 14.99,
+      "quote": "$ 14.99 / mo",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "notion-pricing-20261123-1",

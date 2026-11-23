@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T08:17:15.596Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T10:05:17.228Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,4 +31,4 @@
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10,000 次標準操作。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 約 TWD 25（AI 估） | 長期活動 | 待核實 |
