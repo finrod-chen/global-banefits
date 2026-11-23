@@ -1840,468 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "wise-home-20261123-1",
-    "sourceId": "wise-home",
-    "name": "Wise 免費開戶",
-    "category": "banking",
-    "summary": "開放免費帳戶，可在數分鐘內開立帳戶並匯款。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "GB"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Wise 官網",
-      "點擊 Sign up 或 Open a free account",
-      "完成帳戶註冊"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T10:05:17.228Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示帳戶開立為「免費」（Open a free account），屬於免費方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Open a free account\n\nOpen an account in minutes Send money now",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "Wise United Kingdom",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261123-2",
-    "sourceId": "wise-home",
-    "name": "Wise 大額匯款費用折扣",
-    "category": "banking",
-    "summary": "匯款超過 20,000 GBP 或等值金額時，Wise 將對其收取的費用提供折扣（頁面的計算示例顯示潛在節省最高 38.53 GBP）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "匯款金額需超過 20,000 GBP 或等值外幣",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Wise 匯款頁面輸入超過 20,000 GBP 的金額",
-      "系統將自動計算並顯示折後費用及潛在節省金額"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
-    "lastVerified": "2026-11-23",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T10:05:17.228Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對特定高金額匯款提供費用折扣，屬於限時或特定條件下的促銷方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1000,
-      "basis": "ai-estimate",
-      "note": "頁面未提供一般使用者非大額匯款的明確優惠價值，此為極保守估算（假設多數使用者不適用該大額折扣，價值趨近於零）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "wise-home-20261123-3",
-    "sourceId": "wise-home",
-    "name": "Wise Assets 存款收益",
-    "category": "banking",
-    "summary": "選擇加入 Wise Assets 可從日常餘額賺取 3.47% 的浮動利率收益。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇加入 (opt-in) Wise Assets 服務",
-    "regions": [
-      "United Kingdom"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 Wise 帳戶",
-      "選擇加入 Wise Assets 以賺取收益"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T08:17:42.589Z",
-    "lastVerified": "2026-11-23",
-    "risks": "若政府違約或利率轉負，資金價值可能下降。當前利率不保證未來表現。浮動利率基於截至 2026-10-11 的 7 日績效。可能涉及稅金。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T10:05:17.228Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "這是常態性的存款利息或投資服務，屬於一般金融產品定價與功能，而非行銷優惠或限時活動。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn a return on your everyday balance by opting in to Wise Assets. 1 Find out more",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "by opting in to Wise Assets",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "Offered by Wise Assets UK",
-          "found": true
-        }
-      ],
-      "flags": [
-        "kind-unclear"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "azure-free-20261123-1",
-    "sourceId": "azure-free",
-    "name": "Azure Cloud Shell 免費儲存空間",
-    "category": "vps-cloud",
-    "summary": "提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為 Azure 客戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Azure 帳戶",
-      "開啟 Cloud Shell"
-    ],
-    "officialUrl": "https://azure.microsoft.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Azure 免費帳戶」，待人工核實，提取時間 2026-11-23T08:18:16.473Z",
-    "lastVerified": "2026-11-23",
-    "risks": "12 個月後可能轉為付費或需確認續約條款",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T10:05:17.228Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示該服務為「Always」免費提供，屬於常態性免費額度方案。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "5 GB free storage in Azure Files for 12 months",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Always",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 25,
-      "basis": "ai-estimate",
-      "note": "Azure Files 標準層級儲存空間月費約為 $0.047/GB，5 GB 每月約 $0.235，12 個月約 $2.8，換算成新台幣約 25 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "setapp-pricing-20261123-1",
-    "sourceId": "setapp-pricing",
-    "name": "Setapp 免費試用",
-    "category": "software",
-    "summary": "提供7天免費試用，且訂閱後可獲得1,000 AI 積分（Mac 及 Mac + iOS 方案）或 2,000 AI 積分（Power User 方案）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇任一訂閱方案",
-      "點擊「Start 7-day free trial」"
-    ],
-    "officialUrl": "https://setapp.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-23T08:19:08.785Z",
-    "lastVerified": "2026-11-23",
-    "risks": "免費試用結束後將自動轉為付費訂閱,需支付稅費",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T10:05:17.228Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提供 7 天免費試用權限，屬於免費試用類型的促銷。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 480,
-      "basis": "explicit-amount",
-      "usd": 14.99,
-      "quote": "$ 14.99 / mo",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "notion-pricing-20261123-1",
-    "sourceId": "notion-pricing",
-    "name": "Notion 免費方案",
-    "category": "software",
-    "summary": "$0 每位成員 / 月。包含：試用 Notion AI（生成文件、自動填寫數據庫）、基本表單、發布 Notion 頁面到網頁（基本網站）、連接多個日曆、數據庫（含子任務、依賴關係等）。限制：2人以上團隊時部分功能受限，文件上傳上限 5 MB，頁面歷史紀錄 7 天，外部訪客上限 10 人。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Notion 定價頁",
-      "點擊 Free 方案的 'Sign up' 按鈕進行註冊"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-23T08:19:31.455Z",
-    "lastVerified": "2026-11-23",
-    "risks": "Free 方案對 2 人以上團隊的部分功能有限制（如區塊數量限制需升級）,文件上傳大小限制為 5 MB",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T12:05:17.757Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該草稿描述的是 Notion 的「免費方案」(Free Plan)，符合「免費方案或額度」的定義。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "notion-pricing-20261123-2",
-    "sourceId": "notion-pricing",
-    "name": "Notion 年繳折扣",
-    "category": "software",
-    "summary": "選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在定價頁選擇 'Pay yearly' 選項"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-23T08:19:31.455Z",
-    "lastVerified": "2026-11-23",
-    "risks": "年繳通常涉及一次性支付全年費用",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T12:05:17.757Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面描述的是標準訂閱方案中「年繳比月繳節省最多 20%」的定價結構，屬於常態定價機制而非限時促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Save up to 20% with yearly",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3156,
-      "basis": "ai-estimate",
-      "note": "假設使用者為 Business 方案（最常見的高價值方案），月繳 $20，年繳節省 20% 即每月 $4。一年節省 4 * 12 = $48。以 1 美元換算 65 新台幣計算，約為 3120 元；保守向上取整或考量 Plus 方案差異，此處依 Business 方案計算約 3156 元（$48 * 65.75）。若以 Plus 方案計算則較低（$2.4*12=$28.8 * 65.75 ≈ 1894）。取中間偏保守估計或依最高方案基準，此處提供一個基於最高標準方案（Business）的估算值。*修正：$48 USD * 65 NTD/USD = 3120 NTD。若考量匯率波動，3156 略",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "notion-pricing-20261123-3",
-    "sourceId": "notion-pricing",
-    "name": "Notion Custom Agents 免費試用",
-    "category": "software",
-    "summary": "AI Agents 處理重複性任務。免費試用，之後按每 1,000 個 Notion credits 收取 $10 費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需要 Notion credits",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Enterprise 或高階方案中使用 Custom Agents 功能",
-      "消耗免費試用額度後，需購買 Notion credits 繼續使用"
-    ],
-    "officialUrl": "https://www.notion.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-23T08:19:31.455Z",
-    "lastVerified": "2026-11-23",
-    "risks": "免費試用結束後會產生費用（$10/1,000 credits）",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T12:05:17.757Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該項目列出的是常態定價模型，免費試用後轉為按用量付費，並非限時或特定對象的優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "AI agents handle repetitive tasks autonomously, so your team doesn’t have to. Free to try, then $10 per 1,000 monthly Notion credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Requires Notion credits",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "supabase-pricing-20261123-1",
     "sourceId": "supabase-pricing",
     "name": "Supabase 免費方案",
@@ -3275,59 +2813,6 @@
     }
   },
   {
-    "id": "copilot-plans-20261123-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot Fusion 30% 折扣",
-    "category": "ai",
-    "summary": "Copilot Fusion 使用量享 30% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-11-30",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-23T20:06:19.915Z",
-    "lastVerified": "2026-11-23",
-    "risks": "",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示 Copilot Fusion 使用量有 30% 折扣的限時優惠",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "30% off Copilot Fusion usage until Nov 30th. Learn more",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "30% off Copilot Fusion usage until Nov 30th. Learn more",
-          "found": true
-        }
-      ],
-      "flags": [
-        "expired"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "copilot-plans-20261123-2",
     "sourceId": "copilot-plans",
     "name": "GitHub Copilot 學生優惠",
@@ -3482,6 +2967,59 @@
       "flags": [
         "kind-unclear"
       ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "wise-home-20261123-1",
+    "sourceId": "wise-home",
+    "name": "Wise 大額匯款手續費折扣",
+    "category": "banking",
+    "summary": "匯款超過 20,000 GBP 或等值貨幣時，Wise 將對其收取的手續費進行折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "英國 (GBP)"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行超過 20,000 GBP 的匯款"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-23T22:05:49.695Z",
+    "lastVerified": "2026-11-23",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-23T22:05:17.236Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "滿足特定金額條件（超過 20,000 GBP）時可獲得手續費折扣，屬於基於條件的限時/特定優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        }
+      ],
+      "flags": [],
       "numbersMissing": []
     }
   }
