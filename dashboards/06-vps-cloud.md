@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T18:05:18.847Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T20:05:18.633Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,7 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 約 TWD 25（AI 估） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 活躍使用者、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 G | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase 付費方案計算資源優惠](https://supabase.com/pricing) | VPS/雲服務 | Pro 與 Team 付費方案每月包含 $10 的計算資源積分（compute credits），足以覆蓋一個 Micro 實例或抵銷其他實 | 免費（價值視使用而定） | 長期活動 | 待核實 |

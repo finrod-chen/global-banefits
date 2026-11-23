@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T18:05:18.847Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T20:05:18.633Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,3 +13,5 @@
 | [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
+| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月成本低於 13 美元，隨時可取消 | 約 TWD 54,000（AI 估） | 長期活動 | 待核實 |
+| [Humble Bundle 慈善公益活動](https://www.humblebundle.com/) | 軟體/數位服務 | 自 2010 年以來，Humble 社群已向慈善機構捐贈超過 284,000,000 美元 | 免費（價值視使用而定） | 長期活動 | 待核實 |

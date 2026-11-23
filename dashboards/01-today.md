@@ -1,18 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T18:05:18.847Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T20:05:18.633Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Google AI 方案 Black Friday 限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可於 Black Friday 期間在特定 Google AI 方案享有最高 50% 的折扣。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Google Developer Program 每月 Cloud 額度回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案者每月可獲得 10 美元的 Google Cloud 額度；訂閱 Google AI Ultra 方案 | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | 待核實 |
-| [玉山環球賞指定萬事達卡啟用優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高20%現金回饋 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [玉山信用卡繳地價稅回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡繳學費分期優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付繳稅費回饋](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山JCB/Visa卡 Trip.com 訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | JCB卡訂日本飯店最高享14%折扣；Visa卡訂房享8%折扣無上限 | 約 TWD 5,000（AI 估） | 長期活動 | 待核實 |
 | [Wise 免費開戶](https://wise.com/) | 海外銀行/卡 | 開放免費帳戶，可在數分鐘內開立帳戶並匯款。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等值金額時，Wise 將對其收取的費用提供折扣（頁面的計算示例顯示潛在節省最高 38.53 GBP）。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Wise Assets 存款收益](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可從日常餘額賺取 3.47% 的浮動利率收益。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -34,3 +25,11 @@
 | [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
 | [RackNerd Black Friday 2026 特價活動](https://www.racknerd.com/specials/) | VPS/雲服務 | 限時 Black Friday 優惠，提供多款 KVM VPS 方案，包含 1 GB ($15.98/年)、2.5 GB ($27.98/年 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
+| [Google AI Black Friday 早鳥會員折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 部分 Google AI 方案最高可享 50% 折扣 | 約 TWD 16（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 每月 Google Cloud 積分回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 $10 的 Google Cloud 積分（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 每月 Google Cloud 積分回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 $40 的 Google Cloud 積分（來自 Google Developer Pr | 約 TWD 15,360（AI 估） | 長期活動 | 待核實 |
+| [Suno 黑五促銷 (Black Friday Sale)](https://suno.com/pricing) | AI 工具 | 年繳方案額外享 30% 折扣（Extra 30% off annual plans），標題宣稱是「一年中最大的促銷」。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Fusion 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 已驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月成本低於 13 美元，隨時可取消 | 約 TWD 54,000（AI 估） | 長期活動 | 待核實 |
+| [Humble Bundle 慈善公益活動](https://www.humblebundle.com/) | 軟體/數位服務 | 自 2010 年以來，Humble 社群已向慈善機構捐贈超過 284,000,000 美元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
