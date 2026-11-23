@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T10:05:17.228Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T12:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,15 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 使用 DigitalOcean Kubernetes 時，控制平面與頻寬配額免費，基礎方案每月 $12 起 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean VPC 免費創建與資料中心內傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費創建無限數量的 VPC，資料中心內 VPC peering 與 Ingress 資料傳輸免費，NAT Gateway 每節點 $40  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Droplets 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含每月免費 500 GiB 出站資料傳輸額度，超額部分每 GiB 僅收 $0.01 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 平台基礎功能免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建立 3 個靜態網站、使用免費容器登錄（限 1 個 repo 及 500 MiB 儲存）、雲端防火牆、DNS 管理，以及每月 90,0 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案、50,000 月活躍用戶 (MAU)、500 MB 資料庫大小、共享 CPU、500 MB RAM、5 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費（非試用），無需信用卡。包含100個專案，每個專案每月100 CU-hrs 運算額度、1 GB 儲存空間、最多2 CU (8 GB  | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供給早期新創企業最高10萬美元的儲值額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案方案](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 無需註冊試用體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 提供可申領的 Neon 帳戶，讓使用者或 AI 代理無需帳號與信用卡即可立即獲得 Postgres 專案。未申領專案限制100 MB 儲存空 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可 | 約 TWD 814（AI 估） | 長期活動 | AI 預審通過 |
 | [ElevenLabs 年繳方案兩月免費](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳計費，實際支付 10 個月費用，相當於獲得 2 個月免費。 | 約 TWD 15,000（AI 估） | 長期活動 | 待核實 |
 | [KuCoin Earn Friday 訂閱 USDT/ETH/DOT 賺取最高 9% APR 活動](https://www.kucoin.com/announcement) | Crypto | 訂閱 USDT、ETH、DOT 可獲得最高 9% 的年化報酬率（APR）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -90,5 +81,10 @@
 | [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 約 TWD 25（AI 估） | 長期活動 | 待核實 |
 | [Setapp 免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用，且訂閱後可獲得1,000 AI 積分（Mac 及 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | $0 每位成員 / 月。包含：試用 Notion AI（生成文件、自動填寫數據庫）、基本表單、發布 Notion 頁面到網頁（基本網站）、連 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 約 TWD 3,156（AI 估） | 長期活動 | 待核實 |
 | [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI Agents 處理重複性任務。免費試用，之後按每 1,000 個 Notion credits 收取 $10 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 活躍使用者、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 G | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算資源優惠](https://supabase.com/pricing) | VPS/雲服務 | Pro 與 Team 付費方案每月包含 $10 的計算資源積分（compute credits），足以覆蓋一個 Micro 實例或抵銷其他實 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每個月 100 CU-hrs 運算、每專案 1 GB 儲存空間、最多 100 個專案、不限制團隊成員。 | 約 TWD 2,650（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創公司計劃](https://neon.com/pricing) | VPS/雲服務 | 為早期新創公司提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

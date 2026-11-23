@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T10:05:17.228Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T12:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,15 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 使用 DigitalOcean Kubernetes 時，控制平面與頻寬配額免費，基礎方案每月 $12 起 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean VPC 免費創建與資料中心內傳輸](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費創建無限數量的 VPC，資料中心內 VPC peering 與 Ingress 資料傳輸免費，NAT Gateway 每節點 $40  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Droplets 免費出站頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含每月免費 500 GiB 出站資料傳輸額度，超額部分每 GiB 僅收 $0.01 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 平台基礎功能免費](https://www.digitalocean.com/pricing) | VPS/雲服務 | 可免費建立 3 個靜態網站、使用免費容器登錄（限 1 個 repo 及 500 MiB 儲存）、雲端防火牆、DNS 管理，以及每月 90,0 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案、50,000 月活躍用戶 (MAU)、500 MB 資料庫大小、共享 CPU、500 MB RAM、5 GB  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費（非試用），無需信用卡。包含100個專案，每個專案每月100 CU-hrs 運算額度、1 GB 儲存空間、最多2 CU (8 GB  | 約 TWD 500（AI 估） | 長期活動 | AI 預審通過 |
-| [Neon 新創企業方案](https://neon.com/pricing) | VPS/雲服務 | 提供給早期新創企業最高10萬美元的儲值額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 開源專案方案](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 無需註冊試用體驗 (Claimable Neon)](https://neon.com/pricing) | VPS/雲服務 | 提供可申領的 Neon 帳戶，讓使用者或 AI 代理無需帳號與信用卡即可立即獲得 Postgres 專案。未申領專案限制100 MB 儲存空 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於 50 人以下團隊或企業概念驗證測試，價格為 $0 永久免費。包含：使用者上限 50 人、社群論壇與 Discord 支援、標準日誌保 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求，以及每 1,000,000 CPU 毫秒 $0.30 的超出費用標準。免費額度內無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出口流量（北美/歐洲） | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -32,3 +23,8 @@
 | [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次查詢。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [AWS Free Tier Always Free Services](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在免費方案和付費方案下，皆可在每月使用限制內永久免費使用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Azure Cloud Shell 免費儲存空間](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 5 GB 免費 Azure Files 儲存空間，期限為 12 個月 | 約 TWD 25（AI 估） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0。包含無限 API 請求、每月 50,000 活躍使用者、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 G | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算資源優惠](https://supabase.com/pricing) | VPS/雲服務 | Pro 與 Team 付費方案每月包含 $10 的計算資源積分（compute credits），足以覆蓋一個 Micro 實例或抵銷其他實 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每個月 100 CU-hrs 運算、每專案 1 GB 儲存空間、最多 100 個專案、不限制團隊成員。 | 約 TWD 2,650（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 新創公司計劃](https://neon.com/pricing) | VPS/雲服務 | 為早期新創公司提供最高 10 萬美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源計劃](https://neon.com/pricing) | VPS/雲服務 | 為您維護的開源專案提供贊助。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

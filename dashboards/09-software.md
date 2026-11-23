@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-23T10:05:17.228Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-23T12:05:17.757Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -9,5 +9,5 @@
 | [Epic 每週免費遊戲](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 頁面列出的遊戲（如 Them's Fightin' Herds, Model Builder, Bread and Fred）在特定時間內可 | 約 TWD 814（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用，且訂閱後可獲得1,000 AI 積分（Mac 及 Mac + iOS 方案）或 2,000 AI 積分（Power Use | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | $0 每位成員 / 月。包含：試用 Notion AI（生成文件、自動填寫數據庫）、基本表單、發布 Notion 頁面到網頁（基本網站）、連 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳模式可節省最多 20%（Save up to 20% with yearly）。 | 約 TWD 3,156（AI 估） | 長期活動 | 待核實 |
 | [Notion Custom Agents 免費試用](https://www.notion.com/pricing) | 軟體/數位服務 | AI Agents 處理重複性任務。免費試用，之後按每 1,000 個 Notion credits 收取 $10 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
