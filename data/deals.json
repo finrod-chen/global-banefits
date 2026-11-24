@@ -3613,7 +3613,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-24T00:07:19.189Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T02:05:16.589Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供每月 $0 的免費方案及具體資源額度，屬於免費方案或額度類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity.\nLimit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3788,
+      "basis": "ai-estimate",
+      "note": "保守估算：假設使用者使用 1 個 Micro 計算實例（$10/月），一年 12 個月共 $120；換算成新台幣約為 3788 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261124-1",
@@ -3642,7 +3673,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T00:07:37.385Z",
     "lastVerified": "2026-11-24",
     "risks": "若單月用量超過免費額度（100 CU-hours 或 5GB 網路傳輸），計算資源會暫停至下一計費週期；儲存空間超過限制（單專案1GB 或 總共20GB）將導致部分操作失敗，直到騰出空間或升級。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T02:05:16.589Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供永久免費方案，包含特定資源額度且無需信用卡，符合免費方案定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0\nBuild and learn free with no time limits and no credit card required.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261124-2",
@@ -3670,6 +3721,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T00:07:37.385Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T02:05:16.589Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供給特定新創對象的額度（credits）作為獎勵與資助。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   }
 ]

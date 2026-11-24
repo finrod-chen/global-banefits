@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T00:24:01.947Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T02:05:16.589Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -73,6 +73,6 @@
 | [DigitalOcean Secrets Manager 免費每月額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月包含 25 個 secret-month 當量以及 100,000 次成功檢索請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費靜態網站建立](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立並部署 3 個靜態網站。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費雲防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費的雲防火牆（Free cloud firewalls）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月度活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每個專案 100 CU-hours 計算資源、1 GB 儲存空間、最多 100 個專案、無限團隊成員，無需信用卡，無時間限制。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月度活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB  | 約 TWD 3,788（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每個專案 100 CU-hours 計算資源、1 GB 儲存空間、最多 100 個專案、無限團隊成員，無需信用卡，無時間限制。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供新創早期公司最高 100,000 美元 (up to $100k) 的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
