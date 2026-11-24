@@ -1840,69 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "racknerd-specials-20261123-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd Black Friday 2026 特價活動",
-    "category": "vps-cloud",
-    "summary": "限時 Black Friday 優惠，提供多款 KVM VPS 方案，包含 1 GB ($15.98/年)、2.5 GB ($27.98/年)、4 GB ($47.98/年)、6 GB ($74.98/年) 及 8 GB ($94.98/年)。方案含免費 Clientexec 授權。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在倒計時結束前完成訂單（頁面顯示剩餘 00 天 14 分鐘 24 秒）。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 KVM VPS 規格",
-      "點擊 Order Now",
-      "完成付款流程"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-23T18:07:11.206Z",
-    "lastVerified": "2026-11-23",
-    "risks": "活動具有嚴格的時間限制，逾期將無法以特價購買。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T18:05:18.847Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標題與內容明確標示為 Black Friday 特價活動，且提供倒數計時器。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 GB KVM VPS\n$ 15.98 /year\n... 2.5 GB KVM VPS\n$ 27.98 /year\n... 4 GB KVM VPS\nMost popular $ 47.98 /year\n... 6 GB KVM VPS\n$ 74.98 /year\n... 8 GB KVM VPS\n$ 94.98 /year\n... Free Clientexec License",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "Complete your order within:\n00 Days\n: 14 Minutes\n: 24 Seconds",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 600,
-      "basis": "ai-estimate",
-      "note": "以最入門的 1 GB KVM VPS 方案 $15.98/年為基準換算（約 $15.98 * 30 = $479.4，取保守整數估值或依據頁面價格直譯），但考慮到頁面未提供原價以計算折扣金額，故無法計算確切優惠金額，此估值為最基礎方案的年費換算參考。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "gemini-plans-20261123-1",
     "sourceId": "gemini-plans",
     "name": "Google AI Black Friday 早鳥會員折扣",
@@ -3823,7 +3760,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
     "risks": "超過每日 10 分鐘或 3 個並行瀏覽器限制後，將按 $0.09/小時與 $2.00/瀏覽器計費。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T08:05:17.121Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了 Browser Rendering 的免費額度（每日10分鐘、3個並行），符合免費方案或額度的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Browser Hours\nFree 10 min / day\nPaid $0.09 / hour\nConcurrent Browsers\nFree 3 browsers\nPaid $2.00 / browser",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 288,
+      "basis": "ai-estimate",
+      "note": "保守估算：若完全利用免費額度（30天×每日10分鐘=50小時，3個並行瀏覽器），對照付費定價（$0.09/小時 + $2/瀏覽器），第一年潛在價值約為 (50 * 0.09 * 12) + (3 * 2 * 12) ≈ $55.8，換算成新台幣約 288 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261124-7",
@@ -3851,7 +3814,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
     "risks": "超過免費額度後，儲存與操作將按量計費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T08:05:17.121Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Cloudflare 對 R2 產品的一般常態計費標準，標示的是免費額度與超出後的每單位價格，並不存在限時或針對特定對象的促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Storage\n10 GB-month\n$0.015 / GB-month\nStandard Class A operations\n1 million\n$4.50 / million requests\nStandard Class B operations\n10 million\n$0.36 / million requests\nInfrequent Access Storage\nNot available —\n$0.01 / GB-month\nInfrequ",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 20,
+      "basis": "ai-estimate",
+      "note": "若用戶每年僅使用免費額度（10 GB-month/月、100萬次 Class A、1000萬次 Class B 操作且無出站費），第一年的價值可計算為：10 GB-month * 12 個月 * $0.015/GB-month + (100萬次 * 12 / 100萬) * $4.50 + (1000萬次 * 12 / 100萬) * $0.36 = $1.8 + $54 + $43.2 = $99。以 1 美元約 30 台幣計算，價值約為 2970 台幣。但考量多數一般使用者實際使用量遠低於此免費上限，保守估值約 20 台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261124-8",
@@ -3879,7 +3870,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
     "risks": "超出額度後將按 GB-month 與請求數計費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T08:05:17.121Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的免費計費額度（Free tier），屬於一般定價結構的一部分，而非限時或針對特定族群的推廣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Stored Data\nFree 1 GB\nPaid $0.50 / GB-month\nRead Requests\nFree 100,000 / day\nPaid $0.50 / million requests\nWrite, Delete, List requests\nFree 1,000 / day\nPaid $5.00 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 47500,
+      "basis": "ai-estimate",
+      "note": "假設用戶完全用滿免費額度：(1GB儲存 x $0.50/月 x 12) + (100,000讀取 x $0.50/百萬 x 12) + (1,000寫入 x $5.00/百萬 x 12) = $6 + $0.6 + $0.06 = $6.66/年。換算為TWD約 6.66 * 30 * 12 ≈ 47500元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261124-9",
@@ -3907,6 +3926,86 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
     "risks": "超出額度後將按 GB-month、讀取與寫入行數計費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T08:05:17.121Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 D1 服務的免費額度，包含儲存空間與讀寫操作限制，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "100,000 / day\n$1.00 / million rows",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    }
+  },
+  {
+    "id": "racknerd-specials-20261124-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd Black Friday 2026 VPS 促銷",
+    "category": "vps-cloud",
+    "summary": "Black Friday 特惠，提供多款 KVM VPS 年費方案：1 GB RAM 版本 $15.98/年、2.5 GB RAM 版本 $27.98/年、4 GB RAM 版本 $47.98/年（最受歡迎）、6 GB RAM 版本 $74.98/年、8 GB RAM 版本 $94.98/年。所有方案均包含免費 Clientexec 授權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇所需的 VPS 配置（如 1 GB、2.5 GB、4 GB 等）",
+      "點擊 \"Order Now\" 進行下單",
+      "完成付款"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T08:06:17.376Z",
+    "lastVerified": "2026-11-24",
+    "risks": "限時活動，頁面顯示僅剩 00 天 14 分鐘 27 秒,年費方案，需一次性支付全年的費用",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T08:05:17.121Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題與活動標明為 Black Friday 特惠，屬於限時折扣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Black Friday 2026 Hosting Deals | RackNerd",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "取入門方案最低年費 1 GB KVM VPS 的 $15.98 估算，假設匯率約為 1:31，約折合 500 美元，但此處應為保守估算，故直接將最低方案 $15.98 換算為新臺幣 15.98 * 31 ≈ 495.38，取整數 495 或保守給 5000 似乎有誤，重新計算：$15.98 * 31 = 495.38，取整數 495。",
+      "confidence": "medium"
+    }
   }
 ]

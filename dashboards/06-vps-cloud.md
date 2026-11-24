@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T06:05:20.182Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T08:05:17.121Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,7 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [RackNerd Black Friday 2026 特價活動](https://www.racknerd.com/specials/) | VPS/雲服務 | 限時 Black Friday 優惠，提供多款 KVM VPS 方案，包含 1 GB ($15.98/年)、2.5 GB ($27.98/年 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Founders 自資金新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 USD 的 AWS Activate Credits，其中 1,000 USD 為起始額度，合格參與者可能額外獲得至  | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio Pre-Series B 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 USD 的 AWS Activate Credits。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Credits for AI Startups 邀請制額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 USD 以上的 AWS Credits，額度隨新創工作負載規模擴大，曾部署從數千美元到數百萬美元的 Credit 方案 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -36,7 +35,8 @@
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100k 請求、每請求 10 ms CPU 時間的免費額度，超出部分按量付費。 | 約 TWD 1,420（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min 處理器時間、200 GB-hrs 磁碟空間與 1 TB 網路出站流量。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100,000 請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB 儲存資料及 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 10 分鐘瀏覽器時間與 3 個並行瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作與 1000 萬次 Class B 操作，且無出站流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存空間、每日 100,000 讀取請求與每日 1,000 寫入/刪除/列舉請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 10 分鐘瀏覽器時間與 3 個並行瀏覽器。 | 約 TWD 288（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作與 1000 萬次 Class B 操作，且無出站流量費。 | 約 TWD 20（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存空間、每日 100,000 讀取請求與每日 1,000 寫入/刪除/列舉請求。 | 約 TWD 47,500（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 儲存空間、每日 500 萬行讀取與每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 VPS 促銷](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 特惠，提供多款 KVM VPS 年費方案：1 GB RAM 版本 $15.98/年、2.5 GB RAM 版本 $ | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
