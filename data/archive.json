@@ -2818,5 +2818,128 @@
     },
     "archivedAt": "2026-11-24T10:27:32.146Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261124-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 2倍用量限時活動",
+    "category": "ai",
+    "summary": "在11月30日前建立新的ChatGPT Business工作區，可獲得Standard和Premium席位在12月31日前2倍的包含用量。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在11月30日前建立新的ChatGPT Business工作區"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-24T16:05:49.475Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時活動，為新建立 ChatGPT Business 工作區的使用者提供額外的用量倍數。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Create a new ChatGPT Business workspace by Nov 30 and get 2x included usage on your Standard and Premium seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "archivedAt": "2026-11-24T18:05:18.861Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 黑五限時折扣",
+    "category": "ai",
+    "summary": "最高 55% 折扣。選擇年繳方案可享有折扣；Creator 年繳第一年 $99；Pro 新用戶年繳享 55% 折扣，Pro 既有月繳用戶轉年繳享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "進入定價頁",
+      "選擇年繳計費",
+      "訂閱所需方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "折扣期限於 12 月 1 日結束",
+    "status": "expired",
+    "archivedAt": "2026-11-24T18:05:18.861Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 首月 $1 優惠",
+    "category": "ai",
+    "summary": "首月僅需 $1。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-09-30",
+    "ongoing": false,
+    "steps": [
+      "進入定價頁",
+      "點擊 Subscribe 或 Choose Starter/Creator"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "僅限首月，之後恢復正常月費（Starter $6/月，Creator $22/月）",
+    "status": "expired",
+    "archivedAt": "2026-11-24T18:05:18.861Z",
+    "archiveReason": "endDate passed"
   }
 ]

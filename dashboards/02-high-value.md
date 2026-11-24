@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T16:05:19.876Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T18:05:18.861Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -87,14 +87,20 @@
 | [Supabase 付費方案計算信用額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 付費方案每月包含 10 美元的計算信用額度，足以抵蓋一個 Micro 實例（$10/月）或用於抵銷其他實例費用。第一台 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡，無時間限制。每個項目每月包含 100 CU-hours 運算額度、1 GB 儲存空間、5 GB 物件儲存空間、100  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 創新一級市場信用額度計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期創業公司，提供最高 100,000 美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT Business 2倍用量限時活動](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可獲得Standard和Premium席位在12月31日前2倍的包含用量。 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供無限制的GPT-6文字聊天、有限的上傳訊息、有限的影像創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的Codex存取以及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Claude Max API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Ultra API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年繳月價 $17 (一次繳納 $200)，比月繳 $20 便宜。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Max API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 可獲得每月 $100 的 API 額度 (API credits)，用於在 Claude Platfo | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Ultra API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案 ($200/月) 可獲得每月 $200 的 API 額度 (API credits)，高於 Max 方案的 $100 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣。選擇年繳方案可享有折扣；Creator 年繳第一年 $99；Pro 新用戶年繳享 55% 折扣，Pro 既有月繳用戶轉年 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
-| [ElevenLabs 首月 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月僅需 $1。 | 免費（價值視使用而定） | 2025-09-30 | 待核實 |
-| [ElevenLabs 年繳兩月免費優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案享有兩個月免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs 免費重新生成](https://elevenlabs.io/pricing) | AI 工具 | 在網站上，若文字、聲音和模型保持不變，2 小時內可免費重新生成 2 次。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Max API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年繳月價 $17 (一次繳納 $200)，比月繳 $20 便宜。 | 約 TWD 5,570（AI 估） | 長期活動 | 待核實 |
+| [Claude Max API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 可獲得每月 $100 的 API 額度 (API credits)，用於在 Claude Platfo | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案 ($200/月) 可獲得每月 $200 的 API 額度 (API credits)，高於 Max 方案的 $100 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs 年繳兩月免費優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案享有兩個月免費。 | 約 TWD 1,920（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs 免費重新生成](https://elevenlabs.io/pricing) | AI 工具 | 在網站上，若文字、聲音和模型保持不變，2 小時內可免費重新生成 2 次。 | 約 TWD 12（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Sign up 10,000+ USDT 獎勵活動](https://www.gate.com/announcements) | Crypto | 註冊即可領取超過 10,000 USDT 的獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate NVDA Futures Trading Challenge 活動](https://www.gate.com/announcements) | Crypto | 首次交易 NVDA 期貨獲贈 3 USDT，總獎勵池最高 8,000 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold Airdrop 空投活動](https://www.gate.com/announcements) | Crypto | 交易 CFD 黃金以分享價值 850,000 USDx 的獎勵，個人最高可獲 4,432 USDT 的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Thanksgiving VIP Welcome Season 活動](https://www.gate.com/announcements) | Crypto | 首次升級為 VIP 5 會員可解鎖新款 LV 滑雪裝備 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate NVIDIA Momentum Trading Challenge 活動](https://www.gate.com/announcements) | Crypto | 交易 NVIDIA 期貨，宣稱 100% 勝率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Perp Hot Tuesday Round 9 活動](https://www.gate.com/announcements) | Crypto | 交易熱門貨幣以解鎖最高 100 USDT 的獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate OPENAI & SPCX Futures Hot Coin Airdrop 活動](https://www.gate.com/announcements) | Crypto | 註冊即可獲 5 USDT，每人最高可獲 240 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理（Batch processing）進行高容量工作時，API 價格降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral API 快取輸入令牌折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，使用快取輸入令牌（cached input tokens）可減少高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
