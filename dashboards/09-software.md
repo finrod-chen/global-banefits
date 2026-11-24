@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T12:05:20.570Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T14:05:17.987Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -18,7 +18,7 @@
 | [GitHub Student Developer Pack 優惠（Notion）](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增強協作、更長頁面歷史）及額外 AI 回應額度。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Student Developer Pack 優惠（GitHub Copilot）](https://education.github.com/pack) | 軟體/數位服務 | 提供 GitHub Copilot Student 方案，包含無限代碼補全、GitHub AI 額度、有限制的聊天與代理使用（僅限自動模型選 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Student Developer Pack 優惠（DataCamp）](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶註冊 DataCamp 訂閱時，可享 3 個月免費存取權限。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳 Humble Choice 每月低於 13 美元（Pay less than $13 USD per month with an an | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 Mac、Mac + iOS 及 Power User 方案的 7 天免費試用，可體驗数百款高品質應用程式。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳 Humble Choice 每月低於 13 美元（Pay less than $13 USD per month with an an | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
+| [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 Mac、Mac + iOS 及 Power User 方案的 7 天免費試用，可體驗数百款高品質應用程式。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 年繳節省 40% 促銷](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供年繳方案，宣稱最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp AI 贈送額度](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Setapp Mac 或 Mac + iOS 方案可獲贈 1,000 點 AI 積分；訂閱 Power User 方案可獲贈 2,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
