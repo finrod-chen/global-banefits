@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T20:05:17.350Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T22:05:17.648Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,15 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Cloudflare 網絡與 CDN 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於個人或非商業關鍵用途的專案，包含 DNS、DDoS 防護、CDN、SSL 等核心功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久 $0，適用於 50 人以下團隊或企業概念驗證測試，包含社群論壇與 Discord 支援、最高 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100k 請求、每請求 10 ms CPU 時間的免費額度，超出部分按量付費。 | 約 TWD 1,420（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min 處理器時間、200 GB-hrs 磁碟空間與 1 TB 網路出站流量。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100,000 請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB 儲存資料及 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 10 分鐘瀏覽器時間與 3 個並行瀏覽器。 | 約 TWD 288（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作與 1000 萬次 Class B 操作，且無出站流量費。 | 約 TWD 20（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存空間、每日 100,000 讀取請求與每日 1,000 寫入/刪除/列舉請求。 | 約 TWD 47,500（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 儲存空間、每日 500 萬行讀取與每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Black Friday Google AI 方案會員早鳥優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高可省 50% (Save up to 50%) | 約 TWD 4,755（AI 估） | 長期活動 | 待核實 |
 | [Suno Black Friday 限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans） | 約 TWD 4,520（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的學生可獲得 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -101,9 +92,16 @@
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理（Batch processing）進行高容量工作時，API 價格降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入令牌折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，使用快取輸入令牌（cached input tokens）可減少高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Airwallex 夥伴獎勵計畫](https://www.airwallex.com/) | 海外銀行/卡 | 提供來自合作夥伴的專屬獎勵 (Exclusive rewards from our partners)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS 特價 $15.98/年（含 1 vCPU、20 GB SSD、1 GB RAM、3 TB 流量）；2.5 GB K | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 Shared Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案起價 $9.49/年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 Reseller Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案起價 $29.88/年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 Dedicated Servers](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Servers 方案起價 $64/月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 黑五特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS 特價 $15.98/年（含 1 vCPU、20 GB SSD、1 GB RAM、3 TB 流量）；2.5 GB K | 約 TWD 511（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd 黑五特價 Shared Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案起價 $9.49/年。 | 約 TWD 304（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd 黑五特價 Reseller Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案起價 $29.88/年。 | 約 TWD 956（AI 估） | 長期活動 | 待核實 |
+| [RackNerd 黑五特價 Dedicated Servers](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Servers 方案起價 $64/月。 | 約 TWD 322,000（AI 估） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 提供每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取行數、每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | D1 伺服器無 SQL 資料庫提供 5 GB 總儲存空間、每日 500 萬次行讀取及每日 100,000 次行寫入的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T20:05:17.350Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T22:05:17.648Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -19,4 +19,4 @@
 | [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 Mac、Mac + iOS 及 Power User 方案的 7 天免費試用，可體驗数百款高品質應用程式。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 年繳節省 40% 促銷](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供年繳方案，宣稱最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp AI 贈送額度](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Setapp Mac 或 Mac + iOS 方案可獲贈 1,000 點 AI 積分；訂閱 Power User 方案可獲贈 2,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
