@@ -3225,7 +3225,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提到每月提供免費的GiB-seconds使用額度，符合免費方案或額度定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-6",
@@ -3251,7 +3271,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面將這些功能列為 'Platform benefits'，並明確標示為 'included at no additional cost'，屬於常態性的免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free DNS management\nFree container registry with 1 repository and 500 MiB storage",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-7",
@@ -3277,7 +3317,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確指出當預留 IP 分配給 Droplet 時是免費的，屬於特定條件下的免費額度或方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Reserved IPs when assigned to a Droplet",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-8",
@@ -3303,7 +3363,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提到每月包含固定的免費額度，屬於免費額度優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Each billing team receives an included monthly allowance of 5 GB, shared between logs and traces.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2000,
+      "basis": "ai-estimate",
+      "note": "頁面標示 Insights Logs 和 Traces 的定價為 $ 0.50 /GB。保守估計一般使用者第一年獲得 5 GB 每月 * 12 個月 = 60 GB 的免費額度，價值 60 * $0.50 = $30 USD，約 900 TWD (匯率 30)。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-9",
@@ -3329,7 +3415,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "此為帳戶預設包含的常態基礎功能額度，並非限定時、新戶專屬或限額的行銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "One Uptime Check/month included with every account",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-10",
@@ -3355,7 +3463,31 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "包含特定產品每月的免費使用額度（免費 secret-month 及成功檢索請求數）。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "25 secret-month equivalents and 100K successful retrieval requests included every month, per billing account.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-11",
@@ -3381,7 +3513,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提到免費建立並部署 3 個靜態網站，屬於免費額度方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "依據一般靜態網站託管的市場價值保守估算，第一年價值約為新台幣 1000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261124-12",
@@ -3407,7 +3565,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T00:07:01.855Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T00:24:01.947Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面的 Platform benefits 章節明確列出「Free cloud firewalls」，屬於產品包含的免費功能。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free cloud firewalls",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261124-1",
