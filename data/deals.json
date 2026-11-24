@@ -1840,188 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "epic-free-games-20261124-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 遊戲商城免費遊戲：Them's Fightin' Herds",
-    "category": "software",
-    "summary": "免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2022-12-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取遊戲 Them's Fightin' Herds"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T06:05:20.182Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "提供的頁面內容顯示該遊戲的原始價格與折扣價格均為 TWD 289.00，且折扣比例為 0，未體現免費領取的特徵。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "null",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261124-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 遊戲商城免費遊戲：Model Builder: Complete Edition",
-    "category": "software",
-    "summary": "免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-01-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取遊戲 Model Builder: Complete Edition"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T06:05:20.182Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅列出遊戲原價與分類，未明確標註該遊戲當前為免費領取，僅顯示為目錄資訊。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs. Assemble, customize and display your creations, whether you’re a veteran or a novice. Get buildi",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 318,
-      "basis": "ai-estimate",
-      "note": "根據頁面顯示的該遊戲原價 TWD 318.00 進行保守估算。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "epic-free-games-20261124-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 遊戲商城免費遊戲：Bread and Fred",
-    "category": "software",
-    "summary": "免費領取遊戲《Bread and Fred》，原價 TWD 207.00。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2023-05-23",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店",
-      "領取遊戲 Bread and Fred"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T06:05:20.182Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該遊戲屬於免費遊戲推廣（free games promotions），玩家可免費領取，原價為TWD 207.00。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "TW",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 207,
-      "basis": "ai-estimate",
-      "note": "依據遊戲原價 $207.00 計算其價值，由於是免費領取，使用者第一年獲得的價值等同於原價。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261124-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 網絡與 CDN 免費方案",
@@ -2502,62 +2320,6 @@
       "numbersMissing": [
         "500"
       ]
-    }
-  },
-  {
-    "id": "racknerd-specials-20261124-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd Black Friday 2026 VPS 促銷",
-    "category": "vps-cloud",
-    "summary": "Black Friday 特惠，提供多款 KVM VPS 年費方案：1 GB RAM 版本 $15.98/年、2.5 GB RAM 版本 $27.98/年、4 GB RAM 版本 $47.98/年（最受歡迎）、6 GB RAM 版本 $74.98/年、8 GB RAM 版本 $94.98/年。所有方案均包含免費 Clientexec 授權。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇所需的 VPS 配置（如 1 GB、2.5 GB、4 GB 等）",
-      "點擊 \"Order Now\" 進行下單",
-      "完成付款"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T08:06:17.376Z",
-    "lastVerified": "2026-11-24",
-    "risks": "限時活動，頁面顯示僅剩 00 天 14 分鐘 27 秒,年費方案，需一次性支付全年的費用",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T08:05:17.121Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標題與活動標明為 Black Friday 特惠，屬於限時折扣。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Black Friday 2026 Hosting Deals | RackNerd",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "取入門方案最低年費 1 GB KVM VPS 的 $15.98 估算，假設匯率約為 1:31，約折合 500 美元，但此處應為保守估算，故直接將最低方案 $15.98 換算為新臺幣 15.98 * 31 ≈ 495.38，取整數 495 或保守給 5000 似乎有誤，重新計算：$15.98 * 31 = 495.38，取整數 495。",
-      "confidence": "medium"
     }
   },
   {
@@ -5064,7 +4826,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動提供首次交易獎勵及空投，屬於限時活動激勵",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 256000,
+      "basis": "explicit-amount",
+      "usd": 8000,
+      "quote": "Up to 8,000 USDT in Rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261124-3",
@@ -5092,7 +4887,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動標題明確標示為 Airdrop（空投），且提供最高限額的獎勵金，屬於空投積分或獎勵類型的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade for a Share of Rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 141824,
+      "basis": "explicit-amount",
+      "usd": 4432,
+      "quote": "Up to 4,432 USDT in XAUT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261124-4",
@@ -5120,7 +4948,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對首次升級 VIP 5 的用戶提供實體獎勵，屬於特定條件下的限時活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Upgrade to VIP 5 for the First Time",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261124-5",
@@ -5148,7 +5001,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "「100% 勝率」為行銷話術，實際交易仍存在市場風險",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動包含交易挑戰與獎勵機制，屬於平台提供的促銷或活動優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "NVIDIA Momentum Trading Challenge : Trade NVIDIA, 100% Win Rate",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "NVIDIA Momentum Trading Challenge : Trade NVIDIA, 100% Win Rate",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261124-6",
@@ -5176,7 +5054,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "透過交易指定幣種解鎖最高 100 USDT 獎勵，屬於限時活動與空投/獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Perp Hot Tuesday Round 9: Trade popular coins to Unlock Up to 100 USDT in Rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade popular coins",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "Up to 100 USDT in Rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261124-7",
@@ -5204,7 +5115,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為空投獎勵，註冊即可獲得 USDT 獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "OPENAI & SPCX Futures Hot Coin Airdrop: Register to Get 5 USDT, Up to 240 USDT Per Person",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160,
+      "basis": "explicit-amount",
+      "usd": 5,
+      "quote": "Register to Get 5 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "mistral-pricing-20261124-1",
@@ -5234,7 +5173,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-24T18:06:12.688Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 API 一般定價結構中針對批次處理與快取輸入的常態折扣機制，並非限時促銷或特定用戶群優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Batch processing, for high-volume work, reduces the price by 50%",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "mistral-pricing-20261124-2",
@@ -5264,6 +5230,236 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-24T18:06:12.688Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T20:05:17.350Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面說明此為 API 計價規則中針對重複提示詞的常態成本降低機制，而非限定時間或特定人群的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "cached input tokens reduce input cost by up to 90% for repeated prompts",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For example, Mistral Large costs $0.5 /M tokens in and $1.5 /M tokens out. Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "airwallex-home-20261124-1",
+    "sourceId": "airwallex-home",
+    "name": "Airwallex 夥伴獎勵計畫",
+    "category": "banking",
+    "summary": "提供來自合作夥伴的專屬獎勵 (Exclusive rewards from our partners)。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "探索並加入夥伴計畫"
+    ],
+    "officialUrl": "https://www.airwallex.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Airwallex 官網」，待人工核實，提取時間 2026-11-24T20:06:38.540Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261124-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 黑五特價 VPS",
+    "category": "vps-cloud",
+    "summary": "1 GB KVM VPS 特價 $15.98/年（含 1 vCPU、20 GB SSD、1 GB RAM、3 TB 流量）；2.5 GB KVM VPS 特價 $27.98/年；4 GB KVM VPS 特價 $47.98/年；6 GB KVM VPS 特價 $74.98/年；8 GB KVM VPS 特價 $94.98/年。所有方案均含 1Gbps 網路埠、完整 Root 權限、1 個 IPv4 位址及免費 Clientexec 授權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇所需的 VPS 方案（1GB 至 8GB）",
+      "點擊 'Order Now' 下單"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T20:06:58.216Z",
+    "lastVerified": "2026-11-24",
+    "risks": "頁面顯示限時活動倒數計時器（00 Days: 14 Minutes: 20 Seconds），需在此期限內完成訂購。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261124-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 黑五特價 Shared Hosting",
+    "category": "vps-cloud",
+    "summary": "Shared Hosting 方案起價 $9.49/年。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Shared Hosting 類別",
+      "點擊 'View deals' 或相關連結下單"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T20:06:58.216Z",
+    "lastVerified": "2026-11-24",
+    "risks": "活動限時，頁面有倒數計時器提示。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261124-3",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 黑五特價 Reseller Hosting",
+    "category": "vps-cloud",
+    "summary": "Reseller Hosting 方案起價 $29.88/年。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Reseller Hosting 類別",
+      "點擊 'View deals' 或相關連結下單"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T20:06:58.216Z",
+    "lastVerified": "2026-11-24",
+    "risks": "活動限時，頁面有倒數計時器提示。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261124-4",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 黑五特價 Dedicated Servers",
+    "category": "vps-cloud",
+    "summary": "Dedicated Servers 方案起價 $64/月。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Dedicated Servers 類別",
+      "點擊 'View deals' 或相關連結下單"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T20:06:58.216Z",
+    "lastVerified": "2026-11-24",
+    "risks": "活動限時，頁面有倒數計時器提示。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261124-5",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd AdminBolt 30 天免費試用",
+    "category": "vps-cloud",
+    "summary": "透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需擁有 RackNerd VPS 服務，且 VPS 規格需滿足 AdminBolt 最低要求（2+ vCPU 及 2+ GB RAM）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "擁有符合規格的 RackNerd VPS",
+      "在 ctrl 面板中進入 'One-Click Apps' 選單",
+      "選擇並安裝 AdminBolt"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-24T20:06:58.216Z",
+    "lastVerified": "2026-11-24",
+    "risks": "安裝應用會永久清除虛擬伺服器上所有現有資料（包括作業系統、應用程式和檔案）。",
+    "status": "pending"
+  },
+  {
+    "id": "gog-free-games-20261124-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 歡迎優惠",
+    "category": "software",
+    "summary": "限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discount }}% 與 -{{ secondaryProduct.price.discount }}%），並附帶倒數計時器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 GOG 網站",
+      "點擊「Browse the deals」查看具體優惠內容"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-24T20:07:50.171Z",
+    "lastVerified": "2026-11-24",
+    "risks": "優惠為限時活动，需留意倒數計時器顯示的結束時間",
     "status": "pending"
   }
 ]
