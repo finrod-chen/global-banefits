@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T22:05:17.648Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T22:47:03.801Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,8 +24,10 @@
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 約 TWD 9,313（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 提供每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取行數、每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 約 TWD 4,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | D1 伺服器無 SQL 資料庫提供 5 GB 總儲存空間、每日 500 萬次行讀取及每日 100,000 次行寫入的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 短試期方案 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 試用付費方案的選定服務，試期從啟用服務時開始，任何符合資格的信用額度會自動適用於超過試用限制的用量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 永久免費服務 (Always Free)](https://aws.amazon.com/free/) | VPS/雲服務 | 在免費和付費方案中，每月使用限制內可永久免費使用 30+ AWS 服務。若超過這些限制或存取付費功能，會自動應用信用額度來覆蓋成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T22:05:17.648Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T22:47:03.801Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,12 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Black Friday Google AI 方案會員早鳥優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高可省 50% (Save up to 50%) | 約 TWD 4,755（AI 估） | 長期活動 | 待核實 |
-| [Suno Black Friday 限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans） | 約 TWD 4,520（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的學生可獲得 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 免費開啟 Wise 帳戶 (Open a free account) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 若匯款金額超過 20,000 英鎊 (GBP) 或等值貨幣，Wise 將提供費用折扣 (We'll discount our fee) | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise Assets 3.47% 變動利率](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 服務，可獲得 3.47% 的變動利率，適用於日常英鎊 (GBP)、歐元 (EUR) 和美元 (USD) 資 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GitHub Student Developer Pack 優惠（Namecheap）](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 網域註冊及 1 年免費 SSL 憑證。 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
 | [GitHub Student Developer Pack 優惠（Name.com）](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域擴展名（如 .live, .studio, .app）的免費網域。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Student Developer Pack 優惠（Microsoft Azure）](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上 Azure 雲端服務，並提供 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
@@ -100,8 +94,15 @@
 | [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 約 TWD 9,313（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 提供每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取行數、每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 約 TWD 4,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | D1 伺服器無 SQL 資料庫提供 5 GB 總儲存空間、每日 500 萬次行讀取及每日 100,000 次行寫入的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Black Friday Member Early Access](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可提前享受特定 Google AI 方案最高 50% 的折扣。 | 約 TWD 1,600（AI 估） | 長期活動 | AI 預審通過 |
+| [Suno 黑色星期五促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外獲得 30% 折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額轉帳費用折扣](https://wise.com/) | 海外銀行/卡 | 發送超過 20,000 英鎊（或等值貨幣）的轉帳時，Wise 會折扣其服務費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 短試期方案 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 試用付費方案的選定服務，試期從啟用服務時開始，任何符合資格的信用額度會自動適用於超過試用限制的用量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 永久免費服務 (Always Free)](https://aws.amazon.com/free/) | VPS/雲服務 | 在免費和付費方案中，每月使用限制內可永久免費使用 30+ AWS 服務。若超過這些限制或存取付費功能，會自動應用信用額度來覆蓋成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
