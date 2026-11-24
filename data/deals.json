@@ -1840,293 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "gemini-plans-20261123-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Black Friday 早鳥會員折扣",
-    "category": "ai",
-    "summary": "部分 Google AI 方案最高可享 50% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "會員身份、符合條款（Terms apply）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 Google One 帳戶",
-      "選擇符合條件的 Google AI 方案進行訂閱"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-23T20:05:45.421Z",
-    "lastVerified": "2026-11-23",
-    "risks": "條款適用限制,訂閱後可能涉及自動續約與扣款",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面頂端橫幅明確標示為黑五限時折扣優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday. Terms apply . See offer",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Member early access",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 16,
-      "basis": "ai-estimate",
-      "usd": 0.5,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面未提供各方案具體定價數值，且折扣上限為50%，無法根據現行價格計算出具體的金額。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "gemini-plans-20261123-2",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Pro 每月 Google Cloud 積分回饋",
-    "category": "ai",
-    "summary": "訂閱 Google AI Pro 方案每月獲得 $10 的 Google Cloud 積分（來自 Google Developer Program）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "訂閱 Google AI Pro 方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Pro 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-23T20:05:45.421Z",
-    "lastVerified": "2026-11-23",
-    "risks": "訂閱費用需持續支付,取消訂閱後積分可能失效",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "該積分是常態付費方案（Google AI Pro）中內含的權益，並非限時推廣或獨立的獎勵活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Includes Gemini 4 Neon\nGoogle AI Pro\n/mo\n5 TB storage\nCreate faster and get more done with four times more access to Gemini\nGet Pro\nTerms apply 1",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gemini-plans-20261123-3",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Ultra 每月 Google Cloud 積分回饋",
-    "category": "ai",
-    "summary": "訂閱 Google AI Ultra 方案每月獲得 $40 的 Google Cloud 積分（來自 Google Developer Program）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "訂閱 Google AI Ultra 方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Google AI Ultra 方案"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-23T20:05:45.421Z",
-    "lastVerified": "2026-11-23",
-    "risks": "訂閱費用需持續支付,取消訂閱後積分可能失效",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是訂閱該付費方案後包含在內的常態權益（每月積分回饋），而非限時折扣或特殊的新戶優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Get Ultra",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 15360,
-      "basis": "ai-estimate",
-      "usd": 480,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確提供每月 $40 的美元金額，因此不需要估算。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "suno-pricing-20261123-1",
-    "sourceId": "suno-pricing",
-    "name": "Suno 黑五促銷 (Black Friday Sale)",
-    "category": "ai",
-    "summary": "年繳方案額外享 30% 折扣（Extra 30% off annual plans），標題宣稱是「一年中最大的促銷」。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro、Premier 或 Platinum 的年繳方案",
-      "結帳時確認已套用額外的 30% 折扣"
-    ],
-    "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-23T20:06:02.868Z",
-    "lastVerified": "2026-11-23",
-    "risks": "促銷有期限，頁面顯示距結束僅剩約 1 天 10 小時（Sale ends: 1d 10h 00m 00s）。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示 Black Friday Sale 並提供限時折扣，屬於限時優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Extra 30% off annual plans\nBlack Friday Sale\nGet more Suno for less in our biggest sale of the year.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "copilot-plans-20261123-2",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生優惠",
-    "category": "ai",
-    "summary": "已驗證的學生可存取 GitHub Copilot 學生方案",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "須為已驗證學生身分",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-23T20:06:19.915Z",
-    "lastVerified": "2026-11-23",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T20:05:18.633Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對特定身分（學生）的專屬方案，屬於特定群體的特別價格或福利。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "humble-bundle-20261123-1",
     "sourceId": "humble-bundle",
     "name": "Humble Choice 年繳方案",
@@ -4006,6 +3719,244 @@
       "basis": "ai-estimate",
       "note": "取入門方案最低年費 1 GB KVM VPS 的 $15.98 估算，假設匯率約為 1:31，約折合 500 美元，但此處應為保守估算，故直接將最低方案 $15.98 換算為新臺幣 15.98 * 31 ≈ 495.38，取整數 495 或保守給 5000 似乎有誤，重新計算：$15.98 * 31 = 495.38，取整數 495。",
       "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261124-1",
+    "sourceId": "gemini-plans",
+    "name": "Black Friday Google AI 方案會員早鳥優惠",
+    "category": "ai",
+    "summary": "特定 Google AI 方案最高可省 50% (Save up to 50%)",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為會員 (Member early access)，條款與細則適用 (Terms apply)",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊或登入 Google One 會員",
+      "在 Black Friday 期間查看特定 AI 方案",
+      "完成訂閱以獲取折扣"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-24T10:05:58.715Z",
+    "lastVerified": "2026-11-24",
+    "risks": "條款與細則適用 (Terms apply)",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T10:05:19.143Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面頂部明確標示「Black Friday」限時折扣與「Member early access」早鳥優惠，符合限時折扣定義。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday. Terms apply . See offer",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4755,
+      "basis": "ai-estimate",
+      "note": "以最高階的 Google AI Ultra 方案常態月費約 $349 USD (換算約 11,910 TWD) 為基礎，保守估算 50% 折扣後一年省下的價值，但因未指定特定方案價格，故僅為基於最高方案的粗估。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "suno-pricing-20261124-1",
+    "sourceId": "suno-pricing",
+    "name": "Suno Black Friday 限時折扣",
+    "category": "ai",
+    "summary": "年繳方案額外 30% 折扣（Extra 30% off annual plans）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳方案",
+      "於結帳時套用折扣"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-24T10:06:15.939Z",
+    "lastVerified": "2026-11-24",
+    "risks": "活動限時（頁面顯示剩餘約 1 天 10 小時），錯過後恢復原價；付費方案自動續約，可随时取消",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T10:05:19.143Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標題為 Black Friday Sale，並標註有截止日期，屬於限時折扣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Extra 30% off annual plans",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 4520,
+      "basis": "ai-estimate",
+      "note": "以 Pro 方案為例，年繳標價 $96，30% 折扣約為 $28.8，換算成新台幣約 4520 元（假設匯率 1:20)。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "copilot-plans-20261124-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 30% 折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用量享有 30% 折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2023-12-31",
+    "ongoing": false,
+    "steps": [
+      "前往 GitHub Copilot 方案頁面",
+      "選擇並訂閱 Copilot 方案"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-24T10:06:33.542Z",
+    "lastVerified": "2026-11-24",
+    "risks": "優惠僅限 2023 年 12 月 31 日前,訂閱後可能自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T10:05:19.143Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示針對特定功能（Copilot Fusion）的限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30% off Copilot Fusion usage until Dec 31. Learn more",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "30% off Copilot Fusion usage until Dec 31. Learn more",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "保守估算一般使用者在一年內透過折扣节省的額度成本，假設平均每月節省少量費用。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "copilot-plans-20261124-2",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生方案",
+    "category": "ai",
+    "summary": "經核實的學生可獲得 GitHub Copilot 學生方案",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是經核實的學生身份",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 GitHub 進行學生身份驗證"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-24T10:06:33.542Z",
+    "lastVerified": "2026-11-24",
+    "risks": "僅限學生身份，若畢業或離開學校可能失去資格",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T10:05:19.143Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供給特定群體（經核實的學生）的專屬方案，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Verified students have access to the GitHub Copilot Student plan. Learn more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Verified students",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
     }
   }
 ]
