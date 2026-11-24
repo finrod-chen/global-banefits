@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T10:27:32.146Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T12:05:20.570Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -14,10 +14,10 @@
 | [GitHub Student Developer Pack 優惠（Microsoft Azure）](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上 Azure 雲端服務，並提供 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [GitHub Student Developer Pack 優惠（.TECH）](https://education.github.com/pack) | 軟體/數位服務 | 1 年標準 .TECH 網域免費。 | 約 TWD 350（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Student Developer Pack 優惠（Microsoft 365）](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用含 AI 助手 Copilot 的生产力應用程式，包括 1TB 雲端儲存空間及進階安全功能。 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（GitHub Pro）](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用 GitHub Pro。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（Notion）](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增強協作、更長頁面歷史）及額外 AI 回應額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（GitHub Copilot）](https://education.github.com/pack) | 軟體/數位服務 | 提供 GitHub Copilot Student 方案，包含無限代碼補全、GitHub AI 額度、有限制的聊天與代理使用（僅限自動模型選 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（DataCamp）](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶註冊 DataCamp 訂閱時，可享 3 個月免費存取權限。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Student Developer Pack 優惠（GitHub Pro）](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用 GitHub Pro。 | 約 TWD 1,700（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Student Developer Pack 優惠（Notion）](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增強協作、更長頁面歷史）及額外 AI 回應額度。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Student Developer Pack 優惠（GitHub Copilot）](https://education.github.com/pack) | 軟體/數位服務 | 提供 GitHub Copilot Student 方案，包含無限代碼補全、GitHub AI 額度、有限制的聊天與代理使用（僅限自動模型選 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Student Developer Pack 優惠（DataCamp）](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶註冊 DataCamp 訂閱時，可享 3 個月免費存取權限。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳 Humble Choice 每月低於 13 美元（Pay less than $13 USD per month with an an | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 Mac、Mac + iOS 及 Power User 方案的 7 天免費試用，可體驗数百款高品質應用程式。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp 年繳節省 40% 促銷](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供年繳方案，宣稱最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
