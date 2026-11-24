@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T02:05:16.589Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T04:05:19.257Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,8 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Porkbun 網域第一年促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 | 約 TWD 413（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域多年註冊優惠](https://porkbun.com/products/domains) | VPS/雲服務 | 針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原 | 約 TWD 148（AI 估） | 長期活動 | 待核實 |
-| [OpenAI ChatGPT Free Plan](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 C | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Anthropic Claude API 免費額度](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度， | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
@@ -76,3 +74,5 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月度活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB  | 約 TWD 3,788（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每個專案 100 CU-hours 計算資源、1 GB 儲存空間、最多 100 個專案、無限團隊成員，無需信用卡，無時間限制。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供新創早期公司最高 100,000 美元 (up to $100k) 的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT Business 限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可於12月31日前在Standard和Premium席位中獲得2倍的包含用量 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
+| [ElevenLabs Black Friday 折扣](https://elevenlabs.io/pricing) | AI 工具 | 年度方案最高 55% 折扣。Creator 年度方案原價基礎上折扣後為每年 $99；Pro 新用戶享受 55% 折扣，已訂閱 Pro 月度方 | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |

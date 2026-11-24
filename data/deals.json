@@ -1961,118 +1961,6 @@
     }
   },
   {
-    "id": "openai-pricing-20261123-1",
-    "sourceId": "openai-pricing",
-    "name": "OpenAI ChatGPT Free Plan",
-    "category": "ai",
-    "summary": "免費方案包含：無限制的文字對話（GPT-6）、有限的上傳訊息、有限的圖片建立、有限的語音對話、有限的深入研究、有限的記憶體與情境、有限的 Codex 存取、有限的桌面版 ChatGPT Work 存取。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 OpenAI ChatGPT 定價頁"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-23T16:05:45.834Z",
-    "lastVerified": "2026-11-23",
-    "risks": "無限制的文字對話受濫用防護機制限制（subject to abuse guardrails）。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T16:05:18.892Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此為ChatGPT的免費(Free)方案，屬於提供免費額度或基礎功能予所有使用者的推廣方案。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlimited text chats with GPT-6 Limited messages with uploads Limited image creation Limited voice chats Limited deep research Limited memory and context Limited Codex access Limited ChatGPT Work access on desktop",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "anthropic-pricing-20261123-1",
-    "sourceId": "anthropic-pricing",
-    "name": "Anthropic Claude API 免費額度",
-    "category": "ai",
-    "summary": "訂閱 Max 方案 ($100/月) 或 Ultra 方案 ($200/月) 可分別獲得每月 $100 或 $200 的 API 信貸額度，用於在 Claude Platform 上建構應用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Max 或 Ultra 付費方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Anthropic Claude 的 Max 或 Ultra 方案",
-      "自動獲得對應額度的 API 信貸"
-    ],
-    "officialUrl": "https://www.anthropic.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-23T16:06:03.041Z",
-    "lastVerified": "2026-11-23",
-    "risks": "Max 與 Ultra 均為付費訂閱方案 ($100 或 $200/月)",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T16:05:18.892Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "API額度是Max和Ultra常態付費方案中持續包含的價值，非限時折扣或免費方案",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$100 a month in API credits to build on the Claude Platform",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Everything in Pro, plus:",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "$100 a month in API credits to build on the Claude Platform",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "epic-free-games-20261123-1",
     "sourceId": "epic-free-games",
     "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
@@ -3750,6 +3638,134 @@
       "numbersMissing": [
         "100000"
       ]
+    }
+  },
+  {
+    "id": "openai-pricing-20261124-1",
+    "sourceId": "openai-pricing",
+    "name": "OpenAI ChatGPT Business 限時優惠",
+    "category": "ai",
+    "summary": "在11月30日前建立新的ChatGPT Business工作區，可於12月31日前在Standard和Premium席位中獲得2倍的包含用量。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在11月30日前建立新的ChatGPT Business工作區"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-24T04:05:45.463Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T04:05:19.257Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為 Limited-time offer（限時優惠），並指定了建立工作區的時間截止點與用量加倍的有效期限。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Create a new ChatGPT Business workspace by Nov 30 and get 2x included usage on your Standard and Premium seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    }
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 折扣",
+    "category": "ai",
+    "summary": "年度方案最高 55% 折扣。Creator 年度方案原價基礎上折扣後為每年 $99；Pro 新用戶享受 55% 折扣，已訂閱 Pro 月度方案的用戶轉為年度方案可享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年度方案（Annual plan）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "前往 ElevenLabs 定價頁面",
+      "選擇年度計費方式",
+      "訂閱 Creator 或 Pro 方案以獲得折扣"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T04:06:36.255Z",
+    "lastVerified": "2026-11-24",
+    "risks": "優惠於 12 月 1 日結束；折扣適用於第一年；後續續約價格可能恢復標準定價。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T04:05:19.257Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為 Black Friday Sale，提供特定期限內的年度方案折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the year. Pro newcomers also get the full 55% off, while",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "when they choose an annual plan",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3168,
+      "basis": "explicit-amount",
+      "usd": 99,
+      "quote": "Creator annual costs $99 for the year",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
     }
   }
 ]
