@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T14:05:17.987Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T16:05:19.876Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -45,8 +45,19 @@
 | [Setapp 年繳節省 40% 促銷](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供年繳方案，宣稱最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp AI 贈送額度](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Setapp Mac 或 Mac + iOS 方案可獲贈 1,000 點 AI 積分；訂閱 Power User 方案可獲贈 2,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費試用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 200 美元額度，有效期 60 天，可支付高達 200 美元的雲服務費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供符合資格的新創公司最多 $200,000 USD 的 AWS 額度。其中自我資金（Activate Founders）可獲得最多 $5, | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 2 個活躍專案、無限 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、5 GB  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算信用額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 付費方案每月包含 10 美元的計算信用額度，足以抵蓋一個 Micro 實例（$10/月）或用於抵銷其他實例費用。第一台 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡，無時間限制。每個項目每月包含 100 CU-hours 運算額度、1 GB 儲存空間、5 GB 物件儲存空間、100  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供符合資格的新創公司最多 $200,000 USD 的 AWS 額度。其中自我資金（Activate Founders）可獲得最多 $5, | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 2 個活躍專案、無限 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、5 GB  | 約 TWD 2,100（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算信用額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 付費方案每月包含 10 美元的計算信用額度，足以抵蓋一個 Micro 實例（$10/月）或用於抵銷其他實例費用。第一台 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡，無時間限制。每個項目每月包含 100 CU-hours 運算額度、1 GB 儲存空間、5 GB 物件儲存空間、100  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 創新一級市場信用額度計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期創業公司，提供最高 100,000 美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT Business 2倍用量限時活動](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可獲得Standard和Premium席位在12月31日前2倍的包含用量。 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供無限制的GPT-6文字聊天、有限的上傳訊息、有限的影像創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的Codex存取以及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Claude Max API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Ultra API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年繳月價 $17 (一次繳納 $200)，比月繳 $20 便宜。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Max API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 可獲得每月 $100 的 API 額度 (API credits)，用於在 Claude Platfo | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Ultra API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案 ($200/月) 可獲得每月 $200 的 API 額度 (API credits)，高於 Max 方案的 $100 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣。選擇年繳方案可享有折扣；Creator 年繳第一年 $99；Pro 新用戶年繳享 55% 折扣，Pro 既有月繳用戶轉年 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [ElevenLabs 首月 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月僅需 $1。 | 免費（價值視使用而定） | 2025-09-30 | 待核實 |
+| [ElevenLabs 年繳兩月免費優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案享有兩個月免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 免費重新生成](https://elevenlabs.io/pricing) | AI 工具 | 在網站上，若文字、聲音和模型保持不變，2 小時內可免費重新生成 2 次。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

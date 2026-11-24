@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T14:05:17.987Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T16:05:19.876Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,3 +26,14 @@
 | [Black Friday Google AI 方案會員早鳥優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 特定 Google AI 方案最高可省 50% (Save up to 50%) | 約 TWD 4,755（AI 估） | 長期活動 | 待核實 |
 | [Suno Black Friday 限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans） | 約 TWD 4,520（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經核實的學生可獲得 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [ChatGPT Business 2倍用量限時活動](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可獲得Standard和Premium席位在12月31日前2倍的包含用量。 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供無限制的GPT-6文字聊天、有限的上傳訊息、有限的影像創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的Codex存取以及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Claude Max API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Ultra API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年繳月價 $17 (一次繳納 $200)，比月繳 $20 便宜。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Max API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案 ($100/月) 可獲得每月 $100 的 API 額度 (API credits)，用於在 Claude Platfo | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Ultra API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案 ($200/月) 可獲得每月 $200 的 API 額度 (API credits)，高於 Max 方案的 $100 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣。選擇年繳方案可享有折扣；Creator 年繳第一年 $99；Pro 新用戶年繳享 55% 折扣，Pro 既有月繳用戶轉年 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [ElevenLabs 首月 $1 優惠](https://elevenlabs.io/pricing) | AI 工具 | 首月僅需 $1。 | 免費（價值視使用而定） | 2025-09-30 | 待核實 |
+| [ElevenLabs 年繳兩月免費優惠](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案享有兩個月免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 免費重新生成](https://elevenlabs.io/pricing) | AI 工具 | 在網站上，若文字、聲音和模型保持不變，2 小時內可免費重新生成 2 次。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

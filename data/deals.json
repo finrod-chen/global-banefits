@@ -4191,7 +4191,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T12:06:23.072Z",
     "lastVerified": "2026-11-24",
     "risks": "若帳戶有活動資源且額度用盡或未在 60 天內完成設置，信用卡可能被扣款；額度未用完過期後資源會被停止並可能在 14 天后被刪除",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面主要展示各產品的訂閱定價與計費方式（如 Droplets $4/month, Databases $15/month），未提及特定時間限定的優惠試用額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "We accept Visa, Mastercard, American Express, Discover, PayPal, Google Pay, and Apple Pay. Apple pay requires a Safari browser.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "200"
+      ]
+    }
   },
   {
     "id": "aws-startups-credits-20261124-1",
@@ -4222,7 +4253,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-24T12:06:41.674Z",
     "lastVerified": "2026-11-24",
     "risks": "所有額度均以 USD 計算，並受到 AWS 促銷額度條款與條件約束。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供特定新創階層的雲端服務額度（Credits），屬於新創專屬的促銷優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Apply for up to $200,000 in AWS Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "supabase-pricing-20261124-1",
@@ -4251,7 +4315,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-24T12:07:00.279Z",
     "lastVerified": "2026-11-24",
     "risks": "免費專案長期不活動會被暫停。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為 Supabase 的免費方案（Free Plan），提供固定額度供使用者使用，屬於免費額度類型的優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2100,
+      "basis": "ai-estimate",
+      "note": "Pro 方案起價為每月 $25，若使用者用量在 Pro 方案包含額度內，免費方案相當於節省了每月 $25 的訂閱費。計算一年價值：$25 * 12 = $300。依保守匯率 7 TWD/USD 換算，約為 2,100 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "supabase-pricing-20261124-2",
@@ -4279,7 +4374,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-24T12:07:00.279Z",
     "lastVerified": "2026-11-24",
     "risks": "超過信用額度或方案包含的用量後，將依據使用量收費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Supabase 常態付費方案中內含的計算資源額度，而非限時或特定對象的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid Plans come with $10 /month in compute credits to cover one Micro instance or offset the cost of any other instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "From $ 25 / month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 /month in compute credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "neon-pricing-20261124-1",
@@ -4307,7 +4437,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T12:07:19.119Z",
     "lastVerified": "2026-11-24",
     "risks": "若項目每月使用完 100 CU-hours 或 5 GB 網路傳輸量，運算將暫停 until 下一個帳單週期",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供永久免費方案及免費額度",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The Free plan is permanent, not a trial, and doesn't require a credit card.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "no credit card required",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261124-2",
@@ -4335,6 +4490,394 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T12:07:19.119Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目明確標示為針對特定對象（早期創業公司）提供的額外信用額度優惠，屬於特別方案而非常態定價。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
+  },
+  {
+    "id": "openai-pricing-20261124-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 2倍用量限時活動",
+    "category": "ai",
+    "summary": "在11月30日前建立新的ChatGPT Business工作區，可獲得Standard和Premium席位在12月31日前2倍的包含用量。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在11月30日前建立新的ChatGPT Business工作區"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-24T16:05:49.475Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時活動，為新建立 ChatGPT Business 工作區的使用者提供額外的用量倍數。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Create a new ChatGPT Business workspace by Nov 30 and get 2x included usage on your Standard and Premium seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    }
+  },
+  {
+    "id": "openai-pricing-20261124-2",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT 免費方案",
+    "category": "ai",
+    "summary": "提供無限制的GPT-6文字聊天、有限的上傳訊息、有限的影像創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的Codex存取以及有限的桌面版ChatGPT Work存取。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Get Free」進行註冊"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-24T16:05:49.475Z",
+    "lastVerified": "2026-11-24",
+    "risks": "無限制文字聊天受濫用防護措施限制。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T16:05:19.876Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為 ChatGPT 的免費方案，提供使用者免費使用 AI 服務。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "anthropic-pricing-20261124-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Claude Max API 積分活動",
+    "category": "ai",
+    "summary": "訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行開發。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Claude Max 方案"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-24T16:06:06.938Z",
+    "lastVerified": "2026-11-24",
+    "risks": "需每月支付 $100 訂閱費,API 積分限於 Claude Platform 使用",
+    "status": "pending"
+  },
+  {
+    "id": "anthropic-pricing-20261124-2",
+    "sourceId": "anthropic-pricing",
+    "name": "Claude Ultra API 積分活動",
+    "category": "ai",
+    "summary": "訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上進行開發。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Claude Ultra 方案"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-24T16:06:06.938Z",
+    "lastVerified": "2026-11-24",
+    "risks": "需每月支付 $200 訂閱費,API 積分限於 Claude Platform 使用",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261124-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude Pro 年繳折扣",
+    "category": "ai",
+    "summary": "年繳月價 $17 (一次繳納 $200)，比月繳 $20 便宜。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-24T16:06:41.445Z",
+    "lastVerified": "2026-11-24",
+    "risks": "年繳需預先支付 $200，取消訂閱可能不退款或僅退未使用天數費用（頁面未明確說明退款政策，僅提示價格與方案可能變動）,價格與方案隨時可能變動",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261124-2",
+    "sourceId": "claude-pricing",
+    "name": "Claude Max API 額度",
+    "category": "ai",
+    "summary": "訂閱 Max 方案 ($100/月) 可獲得每月 $100 的 API 額度 (API credits)，用於在 Claude Platform 上建構。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Max 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Max 方案"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-24T16:06:41.445Z",
+    "lastVerified": "2026-11-24",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261124-3",
+    "sourceId": "claude-pricing",
+    "name": "Claude Ultra API 額度",
+    "category": "ai",
+    "summary": "訂閱 Ultra 方案 ($200/月) 可獲得每月 $200 的 API 額度 (API credits)，高於 Max 方案的 $100。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Ultra 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Ultra 方案"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-24T16:06:41.445Z",
+    "lastVerified": "2026-11-24",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 黑五限時折扣",
+    "category": "ai",
+    "summary": "最高 55% 折扣。選擇年繳方案可享有折扣；Creator 年繳第一年 $99；Pro 新用戶年繳享 55% 折扣，Pro 既有月繳用戶轉年繳享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "進入定價頁",
+      "選擇年繳計費",
+      "訂閱所需方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "折扣期限於 12 月 1 日結束",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-2",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 首月 $1 優惠",
+    "category": "ai",
+    "summary": "首月僅需 $1。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-09-30",
+    "ongoing": false,
+    "steps": [
+      "進入定價頁",
+      "點擊 Subscribe 或 Choose Starter/Creator"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "僅限首月，之後恢復正常月費（Starter $6/月，Creator $22/月）",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-3",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 年繳兩月免費優惠",
+    "category": "ai",
+    "summary": "年繳方案享有兩個月免費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳計費"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "為訂閱方案，取消前會持續計費",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261124-4",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 免費重新生成",
+    "category": "ai",
+    "summary": "在網站上，若文字、聲音和模型保持不變，2 小時內可免費重新生成 2 次。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在網站上使用，且內容參數不變；不適用於 ElevenAPI 或 Enterprise 工作區。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 2 小時內對相同參數點擊重新生成"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T16:07:00.226Z",
+    "lastVerified": "2026-11-24",
+    "risks": "API 用戶無法使用此免費額度",
     "status": "pending"
   }
 ]
