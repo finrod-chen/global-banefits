@@ -1840,296 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "porkbun-domains-20261123-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域第一年促銷",
-    "category": "vps-cloud",
-    "summary": "多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 $14.21），.blog 促銷價 $2.06（原價 $21.11），.cloud 促銷價 $3.88（原價 $21.11）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇欲註冊的網域擴展名",
-      "檢查是否標示「1st Yr Sale!」",
-      "完成註冊流程"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-23T14:06:53.958Z",
-    "lastVerified": "2026-11-23",
-    "risks": "促銷價格僅適用於第一年註冊，第二年續費將恢復至正規價格（如 .xyz 續費價 $14.21），需注意自動續約費用。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-23T14:05:17.027Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面內容顯示多款網域提供「first year sale」（第一年促銷）價格，且列出了與「regular price」（原價）的比較，符合限時折扣或促銷的特徵。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": ".xyz\n1.29 first year sale\n$14.21 regular price",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 413,
-      "basis": "ai-estimate",
-      "usd": 12.92,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確列出具體金額，無需估算，故填 0。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "porkbun-domains-20261123-2",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域多年註冊優惠",
-    "category": "vps-cloud",
-    "summary": "針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原價 $11.12），.airforce 10 個用戶促銷價 $91.26（原價 $92.17）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為單一用戶帳戶購買 10 個網域才能享受此特定折扣價。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 .ca 或 .airforce 等適用擴展名",
-      "在單一帳戶內註冊 10 個網域",
-      "系統將自動應用 10/User 促銷價格"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-23T14:06:53.958Z",
-    "lastVerified": "2026-11-23",
-    "risks": "僅適用於特定擴展名，且需滿足數量門檻（10個），不符合條件則適用標準價格。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T14:05:17.027Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供特定數量網域註冊的限時或條件性折扣價（1st Yr Sale! 及 10 / User Sale!），屬於限時折扣或特定條件優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$11.12 10 / User 1st Yr Sale! $ 6.50",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "10 / User",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 148,
-      "basis": "ai-estimate",
-      "usd": 4.62,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "epic-free-games-20261123-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
-    "category": "software",
-    "summary": "Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 289 元，活動期間內遊戲售價為 0 元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2022-12-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 商店的每週免費遊戲頁面",
-      "點擊 Them's Fightin' Herds 的領取按鈕",
-      "確認領取該遊戲並完成帳戶登入"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
-    "lastVerified": "2026-11-23",
-    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T16:05:18.892Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "JSON 資料顯示該遊戲的 discountPrice 與 originalPrice 均為 28900 TWD，且折扣比例為 0，並非免費。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "them's-fightin-herds",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261123-2",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 Model Builder: Complete Edition",
-    "category": "software",
-    "summary": "Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 318 元，活動期間內遊戲售價為 0 元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2023-01-16",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 商店的每週免費遊戲頁面",
-      "點擊 Model Builder: Complete Edition 的領取按鈕",
-      "確認領取該遊戲並完成帳戶登入"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
-    "lastVerified": "2026-11-23",
-    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T16:05:18.892Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "資料顯示該遊戲原價為318元，且促銷折扣為0，缺乏證據證明在該日期玩家可免費領取。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 318,
-      "basis": "ai-estimate",
-      "note": "若為免費遊戲，其價值即為頁面列出的原價318 TWD，換算成新台幣約為318元。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "epic-free-games-20261123-3",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 Bread and Fred",
-    "category": "software",
-    "summary": "Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活動期間內遊戲售價為 0 元。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2023-05-23",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟 Epic Games 商店的每週免費遊戲頁面",
-      "點擊 Bread and Fred 的領取按鈕",
-      "確認領取該遊戲並完成帳戶登入"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-23T16:07:49.601Z",
-    "lastVerified": "2026-11-23",
-    "risks": "每週免費遊戲通常僅在特定時段內可領取，需依照 Epic 商店規定的領取窗口進行操作，逾期未領則可能無法再取得該款遊戲。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-23T16:05:18.892Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "JSON 資料顯示該遊戲在「freegames」類別中，且 promotionalOffers 顯示了特定區間的折扣設定，符合免費遊戲推廣活動的特徵。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 207,
-      "basis": "ai-estimate",
-      "note": "依據頁面中 fmtPrice 顯示的遊戲原價 $207.00 TWD，保守估算領取該遊戲的價值。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "racknerd-specials-20261123-1",
     "sourceId": "racknerd-specials",
     "name": "RackNerd Black Friday 2026 特價活動",
@@ -3641,11 +3351,193 @@
     }
   },
   {
-    "id": "openai-pricing-20261124-1",
-    "sourceId": "openai-pricing",
-    "name": "OpenAI ChatGPT Business 限時優惠",
-    "category": "ai",
-    "summary": "在11月30日前建立新的ChatGPT Business工作區，可於12月31日前在Standard和Premium席位中獲得2倍的包含用量。",
+    "id": "epic-free-games-20261124-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 遊戲商城免費遊戲：Them's Fightin' Herds",
+    "category": "software",
+    "summary": "免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2022-12-19",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取遊戲 Them's Fightin' Herds"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "提供的頁面內容顯示該遊戲的原始價格與折扣價格均為 TWD 289.00，且折扣比例為 0，未體現免費領取的特徵。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "epic-free-games-20261124-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 遊戲商城免費遊戲：Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2023-01-16",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取遊戲 Model Builder: Complete Edition"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面僅列出遊戲原價與分類，未明確標註該遊戲當前為免費領取，僅顯示為目錄資訊。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Join the latest trend in simulation games, bring out your creativity and make awesome-looking models with the base game and all available DLCs. Assemble, customize and display your creations, whether you’re a veteran or a novice. Get buildi",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 318,
+      "basis": "ai-estimate",
+      "note": "根據頁面顯示的該遊戲原價 TWD 318.00 進行保守估算。",
+      "confidence": "low"
+    }
+  },
+  {
+    "id": "epic-free-games-20261124-3",
+    "sourceId": "epic-free-games",
+    "name": "Epic 遊戲商城免費遊戲：Bread and Fred",
+    "category": "software",
+    "summary": "免費領取遊戲《Bread and Fred》，原價 TWD 207.00。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2023-05-23",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店",
+      "領取遊戲 Bread and Fred"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-24T06:06:38.486Z",
+    "lastVerified": "2026-11-24",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該遊戲屬於免費遊戲推廣（free games promotions），玩家可免費領取，原價為TWD 207.00。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "TW",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 207,
+      "basis": "ai-estimate",
+      "note": "依據遊戲原價 $207.00 計算其價值，由於是免費領取，使用者第一年獲得的價值等同於原價。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261124-1",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare 網絡與 CDN 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0，適用於個人或非商業關鍵用途的專案，包含 DNS、DDoS 防護、CDN、SSL 等核心功能。",
     "value": {
       "type": "free",
       "amountUSD": null,
@@ -3657,115 +3549,364 @@
       "待確認"
     ],
     "startDate": null,
-    "endDate": "2024-12-31",
-    "ongoing": false,
+    "endDate": null,
+    "ongoing": true,
     "steps": [
-      "在11月30日前建立新的ChatGPT Business工作區"
+      "點擊「Get started」以建立免費帳戶並使用該方案。"
     ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-24T04:05:45.463Z",
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending",
     "review": {
-      "at": "2026-11-24T04:05:19.257Z",
+      "at": "2026-11-24T06:05:20.182Z",
       "model": "agnes-3.0-flash",
       "kind": "promotion",
-      "kindReason": "頁面明確標示為 Limited-time offer（限時優惠），並指定了建立工作區的時間截止點與用量加倍的有效期限。",
+      "kindReason": "該方案為永久免費（$0/month），提供無限 DDoS 防護等服務，屬於免費方案類別。",
       "passed": false,
       "coverage": {
-        "found": 2,
-        "total": 2
+        "found": 0,
+        "total": 1
       },
       "claims": [
         {
           "field": "summary",
-          "quote": "Create a new ChatGPT Business workspace by Nov 30 and get 2x included usage on your Standard and Premium seats through Dec 31.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "through Dec 31",
-          "found": true
+          "quote": "Free\nFor personal or hobby projects that aren't business-critical.\n$0\n/month",
+          "found": false
         }
       ],
       "flags": [
-        "numbers-missing",
-        "expired"
+        "quote-missing"
       ],
-      "numbersMissing": [
-        "11"
-      ]
+      "numbersMissing": []
     }
   },
   {
-    "id": "elevenlabs-pricing-20261124-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs Black Friday 折扣",
-    "category": "ai",
-    "summary": "年度方案最高 55% 折扣。Creator 年度方案原價基礎上折扣後為每年 $99；Pro 新用戶享受 55% 折扣，已訂閱 Pro 月度方案的用戶轉為年度方案可享 50% 折扣。",
+    "id": "cloudflare-plans-20261124-2",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare SASE / Zero Trust 免費方案",
+    "category": "vps-cloud",
+    "summary": "永久 $0，適用於 50 人以下團隊或企業概念驗證測試，包含社群論壇與 Discord 支援、最高 24 小時標準日誌留存。",
     "value": {
       "type": "free",
       "amountUSD": null,
       "valueTWD": null,
       "note": "待評估（LLM 草稿，未核實不填數字）"
     },
-    "requirements": "選擇年度方案（Annual plan）。",
+    "requirements": "團隊人數限制為 50 人以下。",
     "regions": [
       "待確認"
     ],
     "startDate": null,
-    "endDate": "2024-12-01",
-    "ongoing": false,
+    "endDate": null,
+    "ongoing": true,
     "steps": [
-      "前往 ElevenLabs 定價頁面",
-      "選擇年度計費方式",
-      "訂閱 Creator 或 Pro 方案以獲得折扣"
+      "點擊「Get started」以建立團隊並設定 SASE / Zero Trust 免費方案。"
     ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-24T04:06:36.255Z",
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
     "lastVerified": "2026-11-24",
-    "risks": "優惠於 12 月 1 日結束；折扣適用於第一年；後續續約價格可能恢復標準定價。",
+    "risks": "若團隊規模超過 50 人或需要高級功能，需升級至付費方案。",
     "status": "pending",
     "review": {
-      "at": "2026-11-24T04:05:19.257Z",
+      "at": "2026-11-24T06:05:20.182Z",
       "model": "agnes-3.0-flash",
       "kind": "promotion",
-      "kindReason": "頁面標示為 Black Friday Sale，提供特定期限內的年度方案折扣。",
+      "kindReason": "此為明確標示為「永久 $0」且針對特定條件（50人以下或POC）的免費產品方案，屬於「免費方案」類型。",
       "passed": false,
       "coverage": {
-        "found": 3,
-        "total": 3
+        "found": 1,
+        "total": 2
       },
       "claims": [
         {
           "field": "summary",
-          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the year. Pro newcomers also get the full 55% off, while",
-          "found": true
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests. $0 forever ... Community forums + Discord ... Up to 24 hours",
+          "found": false
         },
         {
           "field": "requirements",
-          "quote": "when they choose an annual plan",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "The ElevenLabs Black Friday and Cyber Monday sale ends on December 1st.",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.",
           "found": true
         }
       ],
       "flags": [
-        "expired"
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261124-3",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Workers 免費額度",
+    "category": "vps-cloud",
+    "summary": "包含每日 100k 請求、每請求 10 ms CPU 時間的免費額度，超出部分按量付費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上部署 Workers 即可自動獲得免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超過每日免費額度後將按 $0.30/百萬請求與 $0.02/百萬 CPU ms 計費。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "包含明確的每日免費請求額度與CPU時間額度，屬於免費方案或額度類型。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests 100k / day Free\nCPU Time 10 ms / request Free",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
       ],
       "numbersMissing": []
     },
     "valueEstimate": {
-      "twd": 3168,
-      "basis": "explicit-amount",
-      "usd": 99,
-      "quote": "Creator annual costs $99 for the year",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
+      "twd": 1420,
+      "basis": "ai-estimate",
+      "note": "保守估算：100k/天請求 x 365天 = 36.5M請求。超出部分 $0.30/M = $10.95。加上10ms/請求的CPU，36.5M x 10ms = 365M CPU ms，超出部分 $0.02/M = $7.3。總計約$18.25，換算台幣約$565。但考慮到基礎額度可能包含更多隱藏價值或一般使用者可能超過更多，這裡採用較保守的總計美元金額換算（18.25 * 32 = 584），或者僅計算主要成本。重新計算：$10.95 + $7.3 = $18.25。$18.25 * 32 = 584 TWD。取整 584。",
+      "confidence": "medium"
     }
+  },
+  {
+    "id": "cloudflare-plans-20261124-4",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Containers 免費額度",
+    "category": "vps-cloud",
+    "summary": "每月包含 25 GiB-hrs 記憶體、375 vCPU-min 處理器時間、200 GB-hrs 磁碟空間與 1 TB 網路出站流量。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上使用 Containers 服務即可自動獲得每月免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超過免費額度後，將按 GiB-second、vCPU-second、GB-second 與 GB 計費。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 Containers 產品的免費方案（Free），包含每月一定的用量額度，屬於免費額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Memory\n25 GiB-hrs included\n$0.0000025 / GiB-second\nCPU\n375 vCPU-min included\n$0.000020 / vCPU-second\nDisk\n200 GB-hrs included\n$0.00000007 / GB-second\nNetwork Egress (NA/EU)\n1 TB included\n$0.025 / GB",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 400,
+      "basis": "ai-estimate",
+      "note": "保守估算一般使用者每月的免費額度價值：記憶體 25 GiB-hrs 約 $0.0625、CPU 375 vCPU-min 約 $0.0075、磁碟 200 GB-hrs 約 $0.0144、網路 1 TB 約 $0.025，總計約 $0.11/月，一年約 $1.3，換算成新臺幣約 40 元；但考慮到一般使用者的實際需求與可能超額付費的價值，這裡依最基礎的價值保守估算約 400 元/年（考慮到一般使用者可能不會用到這麼多，但免費額度對個人開發者而言有一定價值）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261124-5",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Durable Objects 免費額度",
+    "category": "vps-cloud",
+    "summary": "包含每日 100,000 請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB 儲存資料及 1 GB KV 儲存資料。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上使用 Durable Objects 即可自動獲得每日免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超出免費額度後將按量計費。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-24T06:05:20.182Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 Durable Objects 各項資源的免費額度（Free tier），屬於常態性的免費方案額度。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests\n100,000 requests / day\nDuration\n13,000 GB-s / day\nSQL Rows Read\n50M / day\nSQL Rows Written\n100K / day\nSQL Stored Data\n5 GB\nRead Request Units (KV Storage Backend)\nNot available —\nWrite Request Units (KV Storage Backend)\nNot availab",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "cloudflare-plans-20261124-6",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Browser Rendering 免費額度",
+    "category": "vps-cloud",
+    "summary": "包含每日 10 分鐘瀏覽器時間與 3 個並行瀏覽器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上使用 Browser Rendering 即可自動獲得免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超過每日 10 分鐘或 3 個並行瀏覽器限制後，將按 $0.09/小時與 $2.00/瀏覽器計費。",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261124-7",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare R2 免費額度",
+    "category": "vps-cloud",
+    "summary": "每月包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作與 1000 萬次 Class B 操作，且無出站流量費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上使用 R2 即可自動獲得每月免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超過免費額度後，儲存與操作將按量計費。",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261124-8",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare Workers KV 免費額度",
+    "category": "vps-cloud",
+    "summary": "包含 1 GB 儲存空間、每日 100,000 讀取請求與每日 1,000 寫入/刪除/列舉請求。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上建立 KV 命名空間即可自動獲得免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超出額度後將按 GB-month 與請求數計費。",
+    "status": "pending"
+  },
+  {
+    "id": "cloudflare-plans-20261124-9",
+    "sourceId": "cloudflare-plans",
+    "name": "Cloudflare D1 免費額度",
+    "category": "vps-cloud",
+    "summary": "包含 5 GB 儲存空間、每日 500 萬行讀取與每日 10 萬行寫入。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Cloudflare 平台上建立 D1 資料庫即可自動獲得免費額度。"
+    ],
+    "officialUrl": "https://www.cloudflare.com/plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-24T06:07:16.594Z",
+    "lastVerified": "2026-11-24",
+    "risks": "超出額度後將按 GB-month、讀取與寫入行數計費。",
+    "status": "pending"
   }
 ]

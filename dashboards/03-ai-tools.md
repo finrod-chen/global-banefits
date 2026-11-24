@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T04:05:19.257Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T06:05:20.182Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -28,5 +28,3 @@
 | [Google AI Ultra 每月 Google Cloud 積分回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案每月獲得 $40 的 Google Cloud 積分（來自 Google Developer Pr | 約 TWD 15,360（AI 估） | 長期活動 | 待核實 |
 | [Suno 黑五促銷 (Black Friday Sale)](https://suno.com/pricing) | AI 工具 | 年繳方案額外享 30% 折扣（Extra 30% off annual plans），標題宣稱是「一年中最大的促銷」。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 已驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [OpenAI ChatGPT Business 限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可於12月31日前在Standard和Premium席位中獲得2倍的包含用量 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
-| [ElevenLabs Black Friday 折扣](https://elevenlabs.io/pricing) | AI 工具 | 年度方案最高 55% 折扣。Creator 年度方案原價基礎上折扣後為每年 $99；Pro 新用戶享受 55% 折扣，已訂閱 Pro 月度方 | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |

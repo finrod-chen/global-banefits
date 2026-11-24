@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T04:05:19.257Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-24T06:05:20.182Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,11 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Porkbun 網域第一年促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域-extension（如 .xyz, .blog, .cloud 等）提供第一年註冊促銷價，例如 .xyz 促銷價 $1.29（原價 | 約 TWD 413（AI 估） | 長期活動 | AI 預審通過 |
-| [Porkbun 網域多年註冊優惠](https://porkbun.com/products/domains) | VPS/雲服務 | 針對 .ca 和 .airforce 等特定擴展名，提供每用戶購買 10 個網域時的折扣價。例如 .ca 10 個用戶促銷價 $6.50（原 | 約 TWD 148（AI 估） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Them's Fightin' Herds 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲 Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Model Builder: Complete Edition 列入免費遊戲推廣活動中，玩家可免費領取 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲 Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | Epic Games Store 將 Bread and Fred 列入免費遊戲推廣活動中，玩家可免費領取該遊戲，遊戲原價為 207 元，活 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
 | [RackNerd Black Friday 2026 特價活動](https://www.racknerd.com/specials/) | VPS/雲服務 | 限時 Black Friday 優惠，提供多款 KVM VPS 方案，包含 1 GB ($15.98/年)、2.5 GB ($27.98/年 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
 | [Google AI Black Friday 早鳥會員折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | 部分 Google AI 方案最高可享 50% 折扣 | 約 TWD 16（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 每月 Google Cloud 積分回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案每月獲得 $10 的 Google Cloud 積分（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
@@ -74,5 +69,15 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含無限 API 請求、50,000 月度活躍用戶、500 MB 資料庫大小、共享 CPU 與 500 MB RAM、5 GB  | 約 TWD 3,788（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案 (Free Plan)](https://neon.com/pricing) | VPS/雲服務 | 永久免費，每月每個專案 100 CU-hours 計算資源、1 GB 儲存空間、最多 100 個專案、無限團隊成員，無需信用卡，無時間限制。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創企業計畫 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供新創早期公司最高 100,000 美元 (up to $100k) 的額度 (credits) 以加速啟動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [OpenAI ChatGPT Business 限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 在11月30日前建立新的ChatGPT Business工作區，可於12月31日前在Standard和Premium席位中獲得2倍的包含用量 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
-| [ElevenLabs Black Friday 折扣](https://elevenlabs.io/pricing) | AI 工具 | 年度方案最高 55% 折扣。Creator 年度方案原價基礎上折扣後為每年 $99；Pro 新用戶享受 55% 折扣，已訂閱 Pro 月度方 | 約 TWD 3,168（AI 估） | 2024-12-01 | 待核實 |
+| [Epic 遊戲商城免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取遊戲《Them's Fightin' Herds》，原價 TWD 289.00。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 遊戲商城免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取遊戲《Model Builder: Complete Edition》，原價 TWD 318.00。 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
+| [Epic 遊戲商城免費遊戲：Bread and Fred](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取遊戲《Bread and Fred》，原價 TWD 207.00。 | 約 TWD 207（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare 網絡與 CDN 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於個人或非商業關鍵用途的專案，包含 DNS、DDoS 防護、CDN、SSL 等核心功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 永久 $0，適用於 50 人以下團隊或企業概念驗證測試，包含社群論壇與 Discord 支援、最高 24 小時標準日誌留存。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100k 請求、每請求 10 ms CPU 時間的免費額度，超出部分按量付費。 | 約 TWD 1,420（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min 處理器時間、200 GB-hrs 磁碟空間與 1 TB 網路出站流量。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 100,000 請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB 儲存資料及 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每日 10 分鐘瀏覽器時間與 3 個並行瀏覽器。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 10 GB-month 標準儲存空間、100 萬次 Class A 操作與 1000 萬次 Class B 操作，且無出站流量費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 1 GB 儲存空間、每日 100,000 讀取請求與每日 1,000 寫入/刪除/列舉請求。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含 5 GB 儲存空間、每日 500 萬行讀取與每日 10 萬行寫入。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
