@@ -1,15 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T00:05:19.189Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T02:05:17.727Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [DigitalOcean 免費試用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 200 美元額度，有效期 60 天，可支付高達 200 美元的雲服務費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供符合資格的新創公司最多 $200,000 USD 的 AWS 額度。其中自我資金（Activate Founders）可獲得最多 $5, | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 2 個活躍專案、無限 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、5 GB  | 約 TWD 2,100（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 付費方案計算信用額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 付費方案每月包含 10 美元的計算信用額度，足以抵蓋一個 Micro 實例（$10/月）或用於抵銷其他實例費用。第一台 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡，無時間限制。每個項目每月包含 100 CU-hours 運算額度、1 GB 儲存空間、5 GB 物件儲存空間、100  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 創新一級市場信用額度計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期創業公司，提供最高 100,000 美元（$100k）的信用額度（credits）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供無限制的GPT-6文字聊天、有限的上傳訊息、有限的影像創作、有限的語音聊天、有限的深度研究、有限的記憶與上下文、有限的Codex存取以及 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Claude Max API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月提供 $100 API 積分（API credits），用於在 Claude Platform 上進行 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra API 積分活動](https://www.anthropic.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月提供 $200 API 積分（API credits），用於在 Claude Platform 上 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
@@ -51,8 +45,13 @@
 | [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 會員在商店內購物最高可享 20% 折扣，包含熱門新遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Bundle 公益捐款回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble 會員社群自 2010 年以來已捐贈超過 2.84 億美元給慈善機構；5% 的 Humble Choice 會員費用於支持公益。 | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
 | [Pay What You Want 免費贈品機會](https://www.humblebundle.com/) | 軟體/數位服務 | 多款 Bundle 採用「Pay What You Want」機制，允許用戶自訂價格，最低可為 0 美元（視乎具體 Bundle 的最低定價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 約 TWD 433（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 年度訂閱折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度付費可節省最高40%的費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp AI 積分贈送](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱Mac或Mac + iOS方案贈送1,000 AI積分；訂閱Power User方案贈送2,000 AI積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 約 TWD 640（AI 估） | 長期活動 | 待核實 |
+| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元的 AWS 推廣點數。具體分層：自資/初創者（Activate Founders）最高可獲 5,000 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

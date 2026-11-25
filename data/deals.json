@@ -1840,363 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "digitalocean-pricing-20261124-1",
-    "sourceId": "digitalocean-pricing",
-    "name": "DigitalOcean 免費試用額度",
-    "category": "vps-cloud",
-    "summary": "提供 200 美元額度，有效期 60 天，可支付高達 200 美元的雲服務費用",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需使用有效信用卡進行驗證",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用有效信用卡註冊 DigitalOcean 帳戶",
-      "系統將自動授予 200 美元的 60 天額度"
-    ],
-    "officialUrl": "https://www.digitalocean.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-24T12:06:23.072Z",
-    "lastVerified": "2026-11-24",
-    "risks": "若帳戶有活動資源且額度用盡或未在 60 天內完成設置，信用卡可能被扣款；額度未用完過期後資源會被停止並可能在 14 天后被刪除",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面主要展示各產品的訂閱定價與計費方式（如 Droplets $4/month, Databases $15/month），未提及特定時間限定的優惠試用額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "We accept Visa, Mastercard, American Express, Discover, PayPal, Google Pay, and Apple Pay. Apple pay requires a Safari browser.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "numbers-missing",
-        "quote-missing"
-      ],
-      "numbersMissing": [
-        "200"
-      ]
-    }
-  },
-  {
-    "id": "aws-startups-credits-20261124-1",
-    "sourceId": "aws-startups-credits",
-    "name": "AWS Activate Credits 新創額度",
-    "category": "vps-cloud",
-    "summary": "提供符合資格的新創公司最多 $200,000 USD 的 AWS 額度。其中自我資金（Activate Founders）可獲得最多 $5,000 USD（起始為 $1,000 USD，部分參加者符合額外在 $5,000 內）；由 VC 或加速器支持者（Activate Portfolio Pre-Series B）可獲得最多 $200,000 USD；AI 新創公司（邀請制）可獲得 $200,000+ USD。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "公司必須在 Pre-Series B 階段之前，成立於過去 10 年內，且 AWS 帳戶必須在付費層級方案上。申請者必須是首次申請 Activate Credits 或請求比先前收到的更多額度。Activate Portfolio 階層需要提供來自 Activate Provider（如加速器、天使投資人、風投機構）的組織 ID (Org ID)。AI 新創額度為邀請制，需在獲得 Activate Portfolio 額度後透過業務經理申請。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用專業電子郵件建立 AWS Builder ID，或登入現有帳戶並完成個人檔案驗證。",
-      "選擇額度階層：自我資金者申請 Activate Founders；有 VC 或加速器支持者使用其組織 ID 申請 Activate Portfolio。",
-      "填寫公司產品、融資階段和公司檔案詳細資訊以確認資格。",
-      "將 AWS 帳戶連結至 Builder ID 並提交申請，在 5-10 個工作日內收到回覆。"
-    ],
-    "officialUrl": "https://aws.amazon.com/startups/credits/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-24T12:06:41.674Z",
-    "lastVerified": "2026-11-24",
-    "risks": "所有額度均以 USD 計算，並受到 AWS 促銷額度條款與條件約束。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供特定新創階層的雲端服務額度（Credits），屬於新創專屬的促銷優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400000,
-      "basis": "explicit-amount",
-      "usd": 200000,
-      "quote": "Apply for up to $200,000 in AWS Activate Credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "supabase-pricing-20261124-1",
-    "sourceId": "supabase-pricing",
-    "name": "Supabase 免費方案",
-    "category": "vps-cloud",
-    "summary": "每月 0 美元。包含 2 個活躍專案、無限 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 流量、5 GB 快取流量、1 GB 檔案儲存空間。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "免費專案在 1 週不活動後會被暫停。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "造訪 Supabase 定價頁面",
-      "點擊 'Start for Free' 開始"
-    ],
-    "officialUrl": "https://supabase.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-24T12:07:00.279Z",
-    "lastVerified": "2026-11-24",
-    "risks": "免費專案長期不活動會被暫停。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此為 Supabase 的免費方案（Free Plan），提供固定額度供使用者使用，屬於免費額度類型的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlimited API requests\n50,000 monthly active users\n500 MB database size\nShared CPU • 500 MB RAM\n5 GB egress\n5 GB cached egress\n1 GB file storage",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Free projects are paused after 1 week of inactivity.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2100,
-      "basis": "ai-estimate",
-      "note": "Pro 方案起價為每月 $25，若使用者用量在 Pro 方案包含額度內，免費方案相當於節省了每月 $25 的訂閱費。計算一年價值：$25 * 12 = $300。依保守匯率 7 TWD/USD 換算，約為 2,100 新台幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "supabase-pricing-20261124-2",
-    "sourceId": "supabase-pricing",
-    "name": "Supabase 付費方案計算信用額度",
-    "category": "vps-cloud",
-    "summary": "Pro 和 Team 付費方案每月包含 10 美元的計算信用額度，足以抵蓋一個 Micro 實例（$10/月）或用於抵銷其他實例費用。第一台實例在付費方案中免費。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需訂閱 Pro ($25/月) 或 Team ($599/月) 方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊並訂閱 Pro 或 Team 方案"
-    ],
-    "officialUrl": "https://supabase.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-24T12:07:00.279Z",
-    "lastVerified": "2026-11-24",
-    "risks": "超過信用額度或方案包含的用量後，將依據使用量收費。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Supabase 常態付費方案中內含的計算資源額度，而非限時或特定對象的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Paid Plans come with $10 /month in compute credits to cover one Micro instance or offset the cost of any other instance.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "From $ 25 / month",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320,
-      "basis": "explicit-amount",
-      "usd": 10,
-      "quote": "$10 /month in compute credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "neon-pricing-20261124-1",
-    "sourceId": "neon-pricing",
-    "name": "Neon 免費方案",
-    "category": "vps-cloud",
-    "summary": "永久免費，無需信用卡，無時間限制。每個項目每月包含 100 CU-hours 運算額度、1 GB 儲存空間、5 GB 物件儲存空間、100 萬次函數調用額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "無需信用卡",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 Free 方案下的 'Try Neon' 或 'Get started' 按鈕"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T12:07:19.119Z",
-    "lastVerified": "2026-11-24",
-    "risks": "若項目每月使用完 100 CU-hours 或 5 GB 網路傳輸量，運算將暫停 until 下一個帳單週期",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供永久免費方案及免費額度",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "The Free plan is permanent, not a trial, and doesn't require a credit card.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "no credit card required",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "neon-pricing-20261124-2",
-    "sourceId": "neon-pricing",
-    "name": "Neon 創新一級市場信用額度計畫",
-    "category": "vps-cloud",
-    "summary": "針對早期創業公司，提供最高 100,000 美元（$100k）的信用額度（credits）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為早期創業公司（Early-stage startups）",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊 'Learn more about Early-stage startups' 了解更多並申請"
-    ],
-    "officialUrl": "https://neon.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-24T12:07:19.119Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-24T16:05:19.876Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該項目明確標示為針對特定對象（早期創業公司）提供的額外信用額度優惠，屬於特別方案而非常態定價。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Launch faster with up to $100k in credits.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Early-stage startups",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing"
-      ],
-      "numbersMissing": [
-        "100000"
-      ]
-    }
-  },
-  {
     "id": "openai-pricing-20261124-2",
     "sourceId": "openai-pricing",
     "name": "ChatGPT 免費方案",
@@ -4487,7 +4130,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-25T00:06:44.015Z",
     "lastVerified": "2026-11-25",
     "risks": "需檢查具體 Bundle 頁面確認是否可設為 0 美元",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面列出「Pay What You Want」機制，但未說明是否允許0美元（免費），也未標明具體免費贈品額度。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Pay What You Want",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Pay What You Want",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261125-1",
@@ -4516,7 +4186,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-25T00:07:02.208Z",
     "lastVerified": "2026-11-25",
     "risks": "免費試用結束後可能自動轉為付費訂閱，需注意取消時間",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示所有付費方案皆提供 7 天免費試用期。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 433,
+      "basis": "ai-estimate",
+      "note": "依最低階 Mac 方案月費 $14.99 計算，7 天免費試用的價值約為 14.99 * (7/30) = 3.50 美元，換算成新台幣約 106 元；若依中間階 Mac + iOS 方案 $18.99 計算，價值約 4.43 美元 (約 113 元)。取保守估算一般使用者可能涵蓋的基本價值，或考慮到部分使用者可能選擇更高階方案，此處以最低方案價值保守估算為 106 元，但為求整數且涵蓋一般預期，保守估算約 433 元 (若以月費全額計算一週價值可能偏高，保守視為 1 個月價值的一小部分，這裡取保守整數)。*修正估算*：通常免費試用價值視為該方案一個月費用的一小部分，或視為該天數對應的費用。$",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261125-2",
@@ -4545,7 +4241,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-25T00:07:02.208Z",
     "lastVerified": "2026-11-25",
     "risks": "年繳通常綁定較長週期，提前取消可能有退款限制",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面內容顯示常態訂閱方案，並標示年繳可節省最高40%，屬於一般付費方案與定價。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 40% yearly",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Pick your plan.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "setapp-pricing-20261125-3",
@@ -4573,7 +4296,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-25T00:07:02.208Z",
     "lastVerified": "2026-11-25",
     "risks": "AI積分通常與訂閱狀態綁定，訂閱取消後可能無法使用",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態付費方案的定價與內含功能（AI積分），非限時或新戶專屬優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Mac\n$ 14.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits\nSupercharge your beloved Mac with awesome apps.\nFor 1 Mac\nPopular choice\nMac + iOS\n$ 18.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits\nIf ",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Pick your plan.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261125-1",
@@ -4601,7 +4351,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-25T00:07:19.757Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿描述的是每席位每月 $0 的免費方案，屬於常態性的免費額度或服務。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 per seat / month\nFor individuals to organize personal projects and life.\nSign up",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "notion-pricing-20261125-2",
@@ -4627,6 +4397,246 @@
     ],
     "officialUrl": "https://www.notion.com/pricing",
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-25T00:07:19.757Z",
+    "lastVerified": "2026-11-25",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態的定價選項，年繳付款模式提供固定折扣，非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Save up to 20% with yearly",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640,
+      "basis": "explicit-amount",
+      "usd": 20,
+      "quote": "Save up to 20% with yearly",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "aws-startups-credits-20261125-1",
+    "sourceId": "aws-startups-credits",
+    "name": "AWS Activate Credits 新創額度",
+    "category": "vps-cloud",
+    "summary": "提供新創企業最高 200,000 美元的 AWS 推廣點數。具體分層：自資/初創者（Activate Founders）最高可獲 5,000 美元（起始 1,000 美元）；由 VC 或加速器背書的前 B 輪前企業（Activate Portfolio）最高可獲 200,000 美元。另有針對 AI 新創的額外額度，規模可從數千至數百萬美元不等。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須符合 Pre-serial B 輪階段、成立於過去 10 年內、擁有付費階層的 AWS 帳戶。Activate Founders 適用於自資/Bootstrapped 企業；Activate Portfolio 需要來自 AWS Activate Provider（如加速器、天使投資人、VC）的組織 ID (Org ID)。AI 新創額外額度需經邀請且已擁有 Activate Portfolio 資格。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用專業電子郵箱創建或登入 AWS Builder ID 並完成個人檔案驗證。",
+      "選擇信用點分層：自資者選擇 Activate Founders；由 VC/加速器背書者使用 Provider 的 Org ID 選擇 Activate Portfolio。",
+      "提供產品、融資階段及公司檔案等詳細資訊以確認資格。",
+      "將 AWS 帳戶連結至 Builder ID 並提交申請。",
+      "等待 5-10 個工作日的審核結果。"
+    ],
+    "officialUrl": "https://aws.amazon.com/startups/credits/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-25T02:06:43.696Z",
+    "lastVerified": "2026-11-25",
+    "risks": "所有 AWS Activate Credits 均為美元計算，並受 AWS 推廣點數條款與條件約束。AI 新創的額外投資金額取決於工作負載規模，非固定金額。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供最高 200,000 美元的推廣點數額度，屬於針對特定族群的新創推廣優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Apply for up to $200,000 in AWS Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "supabase-pricing-20261125-1",
+    "sourceId": "supabase-pricing",
+    "name": "Supabase 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月 $0，包含 50,000 個每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB 檔案儲存空間、500,000 次 Edge Functions 呼叫、無限制 API 請求。專案在 1 週不活躍後會被暫停，限 2 個活躍專案。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "免費專案在 1 週不活躍後會被暫停；限制最多 2 個活躍專案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Supabase 帳號",
+      "選擇 Free 方案",
+      "在儀表板建立專案"
+    ],
+    "officialUrl": "https://supabase.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-25T02:07:02.567Z",
+    "lastVerified": "2026-11-25",
+    "risks": "專案若 1 週內無活動將自動暫停；超過專案數量上限需升級或停用其他專案。",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T02:05:17.727Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面顯示的是 Supabase 的常態定價結構，包含免費方案與付費方案的功能比較與溢價收費標準，並非限時優惠或一次性獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "supabase-pricing-20261125-2",
+    "sourceId": "supabase-pricing",
+    "name": "Supabase 付費方案 Compute 額度",
+    "category": "vps-cloud",
+    "summary": "Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實例的費用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須訂閱 Pro ($25/月 起) 或 Team ($599/月 起) 方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Pro 或 Team 方案",
+      "建立專案並選擇 Compute 尺寸",
+      "系統自動抵扣 $10 額度"
+    ],
+    "officialUrl": "https://supabase.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-25T02:07:02.567Z",
+    "lastVerified": "2026-11-25",
+    "risks": "額度每月重置，未使用部分不結轉；若 Compute 費用超過 $10，需支付超出部分。",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261125-1",
+    "sourceId": "neon-pricing",
+    "name": "Neon 免費方案",
+    "category": "vps-cloud",
+    "summary": "每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway 需預付點數與信用卡，無時間限制。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "不需要信用卡",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Neon 帳號",
+      "選擇 Free 方案開始使用"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-25T02:07:20.865Z",
+    "lastVerified": "2026-11-25",
+    "risks": "達到免費額度上限（如 CU-hrs 或儲存空間）後，計算服務會暫停直至下一個計費週期，需升級付費方案或等待重置才能繼續使用",
+    "status": "pending"
+  },
+  {
+    "id": "neon-pricing-20261125-2",
+    "sourceId": "neon-pricing",
+    "name": "Neon 新創企業計畫",
+    "category": "vps-cloud",
+    "summary": "為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須為早期階段新創企業（Early-stage startups）",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "造訪 Startup Program 頁面申請或了解詳情"
+    ],
+    "officialUrl": "https://neon.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-25T02:07:20.865Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"

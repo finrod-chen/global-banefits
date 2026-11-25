@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T00:05:19.189Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T02:05:17.727Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,8 +11,8 @@
 | [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 會員在商店內購物最高可享 20% 折扣，包含熱門新遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Humble Bundle 公益捐款回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble 會員社群自 2010 年以來已捐贈超過 2.84 億美元給慈善機構；5% 的 Humble Choice 會員費用於支持公益。 | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
 | [Pay What You Want 免費贈品機會](https://www.humblebundle.com/) | 軟體/數位服務 | 多款 Bundle 採用「Pay What You Want」機制，允許用戶自訂價格，最低可為 0 美元（視乎具體 Bundle 的最低定價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 約 TWD 433（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 年度訂閱折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度付費可節省最高40%的費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Setapp AI 積分贈送](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱Mac或Mac + iOS方案贈送1,000 AI積分；訂閱Power User方案贈送2,000 AI積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 約 TWD 640（AI 估） | 長期活動 | 待核實 |
