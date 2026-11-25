@@ -1,30 +1,9 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T22:47:03.801Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T00:05:19.189Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [GitHub Student Developer Pack 優惠（Namecheap）](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 網域註冊及 1 年免費 SSL 憑證。 | 約 TWD 600（AI 估） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（Name.com）](https://education.github.com/pack) | 軟體/數位服務 | 提供超過 25 種網域擴展名（如 .live, .studio, .app）的免費網域。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [GitHub Student Developer Pack 優惠（Microsoft Azure）](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 種以上 Azure 雲端服務，並提供 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（.TECH）](https://education.github.com/pack) | 軟體/數位服務 | 1 年標準 .TECH 網域免費。 | 約 TWD 350（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Student Developer Pack 優惠（Microsoft 365）](https://education.github.com/pack) | 軟體/數位服務 | 免費或折扣價使用含 AI 助手 Copilot 的生产力應用程式，包括 1TB 雲端儲存空間及進階安全功能。 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
-| [GitHub Student Developer Pack 優惠（GitHub Pro）](https://education.github.com/pack) | 軟體/數位服務 | 在學期間免費使用 GitHub Pro。 | 約 TWD 1,700（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Student Developer Pack 優惠（Notion）](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion Education 方案（包含 Plus 方案所有功能、增強協作、更長頁面歷史）及額外 AI 回應額度。 | 約 TWD 3,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Student Developer Pack 優惠（GitHub Copilot）](https://education.github.com/pack) | 軟體/數位服務 | 提供 GitHub Copilot Student 方案，包含無限代碼補全、GitHub AI 額度、有限制的聊天與代理使用（僅限自動模型選 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Student Developer Pack 優惠（DataCamp）](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳戶註冊 DataCamp 訂閱時，可享 3 個月免費存取權限。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [玉山信用卡年末犒賞計畫](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 年末專屬優惠活動，詳細內容需點擊了解更多查看 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [百貨週年慶刷玉山卡享好禮](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 開啟「本月推薦」解鎖專屬回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,600（AI 估） | 2026-11-30 | 待核實 |
-| [玉山信用卡繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 約 TWD 200（AI 估） | 長期活動 | 待核實 |
-| [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 約 TWD 10,000（AI 估） | 長期活動 | 待核實 |
-| [玉山信用卡繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Trip.com 玉山信用卡訂房優惠](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣；玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Humble Choice 年繳方案](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳 Humble Choice 每月低於 13 美元（Pay less than $13 USD per month with an an | 約 TWD 416（AI 估） | 長期活動 | 待核實 |
-| [Setapp 7日免費試用](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供 Mac、Mac + iOS 及 Power User 方案的 7 天免費試用，可體驗数百款高品質應用程式。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Setapp 年繳節省 40% 促銷](https://setapp.com/pricing) | 軟體/數位服務 | Setapp 提供年繳方案，宣稱最高可節省 40% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp AI 贈送額度](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱 Setapp Mac 或 Mac + iOS 方案可獲贈 1,000 點 AI 積分；訂閱 Power User 方案可獲贈 2,00 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean 免費試用額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供 200 美元額度，有效期 60 天，可支付高達 200 美元的雲服務費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供符合資格的新創公司最多 $200,000 USD 的 AWS 額度。其中自我資金（Activate Founders）可獲得最多 $5, | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 2 個活躍專案、無限 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、5 GB  | 約 TWD 2,100（AI 估） | 長期活動 | AI 預審通過 |
@@ -58,14 +37,22 @@
 | [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 約 TWD 9,313（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 提供每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取行數、每 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Durable Objects 提供每日 100,000 次請求、每日 13,000 GB-s 持續時間、每日 50M SQL 讀取行數、每 | 約 TWD 225（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | R2 對象儲存提供每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作的免費額度，且 | 約 TWD 4,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers KV 提供 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入、刪除、列表請求的免費額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | D1 伺服器無 SQL 資料庫提供 5 GB 總儲存空間、每日 500 萬次行讀取及每日 100,000 次行寫入的免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Black Friday Member Early Access](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可提前享受特定 Google AI 方案最高 50% 的折扣。 | 約 TWD 1,600（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno 黑色星期五促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外獲得 30% 折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 2,700（AI 估） | 長期活動 | AI 預審通過 |
 | [Wise 大額轉帳費用折扣](https://wise.com/) | 海外銀行/卡 | 發送超過 20,000 英鎊（或等值貨幣）的轉帳時，Wise 會折扣其服務費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS 短試期方案 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 試用付費方案的選定服務，試期從啟用服務時開始，任何符合資格的信用額度會自動適用於超過試用限制的用量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS 永久免費服務 (Always Free)](https://aws.amazon.com/free/) | VPS/雲服務 | 在免費和付費方案中，每月使用限制內可永久免費使用 30+ AWS 服務。若超過這些限制或存取付費功能，會自動應用信用額度來覆蓋成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 短試期方案 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 試用付費方案的選定服務，試期從啟用服務時開始，任何符合資格的信用額度會自動適用於超過試用限制的用量。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS 永久免費服務 (Always Free)](https://aws.amazon.com/free/) | VPS/雲服務 | 在免費和付費方案中，每月使用限制內可永久免費使用 30+ AWS 服務。若超過這些限制或存取付費功能，會自動應用信用額度來覆蓋成本。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Humble Choice 年繳方案折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月實付金額低於 13 美元，相比標準月費 14.99 美元有節省。 | 約 TWD 152（AI 估） | 長期活動 | 待核實 |
+| [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 會員在商店內購物最高可享 20% 折扣，包含熱門新遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Bundle 公益捐款回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble 會員社群自 2010 年以來已捐贈超過 2.84 億美元給慈善機構；5% 的 Humble Choice 會員費用於支持公益。 | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
+| [Pay What You Want 免費贈品機會](https://www.humblebundle.com/) | 軟體/數位服務 | 多款 Bundle 採用「Pay What You Want」機制，允許用戶自訂價格，最低可為 0 美元（視乎具體 Bundle 的最低定價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp 年度訂閱折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度付費可節省最高40%的費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Setapp AI 積分贈送](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱Mac或Mac + iOS方案贈送1,000 AI積分；訂閱Power User方案贈送2,000 AI積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-24T22:47:03.801Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T00:05:19.189Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -35,5 +35,4 @@
 | [Mistral API 快取輸入令牌折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，使用快取輸入令牌（cached input tokens）可減少高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Black Friday Member Early Access](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可提前享受特定 Google AI 方案最高 50% 的折扣。 | 約 TWD 1,600（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno 黑色星期五促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外獲得 30% 折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享 30% 折扣 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 2,700（AI 估） | 長期活動 | AI 預審通過 |
