@@ -3136,5 +3136,35 @@
     "status": "expired",
     "archivedAt": "2026-11-25T14:05:19.856Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261125-2",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時促銷",
+    "category": "ai",
+    "summary": "11月30日前註冊 ChatGPT Business，即可在12月31日前享受所有席位 2 倍用量與快速模式，且無需額外付費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 11 月 30 日前註冊 ChatGPT Business 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2023-12-31",
+    "ongoing": false,
+    "steps": [
+      "在 11 月 30 日前點擊「Get started」註冊 ChatGPT Business"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-25T18:07:28.840Z",
+    "lastVerified": "2026-11-25",
+    "risks": "促銷期限至 12 月 31 日，錯過期限後將恢復標準計費與用量限制",
+    "status": "expired",
+    "archivedAt": "2026-11-25T20:05:24.534Z",
+    "archiveReason": "endDate passed"
   }
 ]

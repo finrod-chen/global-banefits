@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T18:05:21.222Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T20:05:24.534Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,18 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [ElevenLabs 年繳免兩個月](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受兩個月免費（例如 Starter 年繳 $60 等同於 $5/月，原價 $6/月；Scale 年繳 $2,990 等同於  | 約 TWD 384（AI 估） | 長期活動 | 待核實 |
-| [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000 以上 USDT 的獎勵。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate 2026 年度盛典](https://www.gate.com/announcements) | Crypto | 支援年度之星並參與活動贏取驚喜獎勵。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate Idle Earn × Simple Earn 限時活動第三階段](https://www.gate.com/announcements) | Crypto | 在 USDT 上賺取最高 9% 的年化收益率 (APR)。 | 約 TWD 9,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate NVDA 期貨交易挑戰](https://www.gate.com/announcements) | Crypto | 首次交易 NVDA 期貨獲 3 USDT，總獎勵最高 8,000 USDT。 | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate CFD 黃金空投活動](https://www.gate.com/announcements) | Crypto | 交易即可分享總價值 850,000 USDx 的獎勵，最高可賺取 4,432 USDT 的 XAUT。 | 約 TWD 45,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 感恩節 VIP 歡迎季](https://www.gate.com/announcements) | Crypto | 首次升級為 VIP 5 即可解鎖新 LV 滑雪裝備。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 社群成長積分大抽獎第 27 輪](https://www.gate.com/announcements) | Crypto | 抽獎 5,000 USDT、SPCX 代幣及其他獎勵。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 雙重投資挑戰第七階段](https://www.gate.com/announcements) | Crypto | 最高獲得 4,000 美元獎勵。 | 約 TWD 128,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 感恩節獎勵活動](https://www.gate.com/announcements) | Crypto | 簽到、升級排名，最高可贏 8,000 USDT。 | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 期貨簽到 AI 賦能版](https://www.gate.com/announcements) | Crypto | 分享 500,000 USDT 並解鎖額外 NVDAG 獎勵。 | 約 TWD 16,000,000（AI 估） | 長期活動 | 待核實 |
-| [Gate Trenches Base Chain 限時獎勵](https://www.gate.com/announcements) | Crypto | 分享 30,000 USDT 的三倍獎勵。 | 約 TWD 960,000（AI 估） | 長期活動 | 待核實 |
 | [Kraken 節日存款抽獎活動](https://blog.kraken.com/) | Crypto | 每存入 1 歐元即可獲得一次中獎機會，總獎金池為 500,000 歐元。從現在到 1 月 7 日，存入的資產越多，中獎機會越多。 | 免費（價值視使用而定） | 2027-01-07 | AI 預審通過 |
 | [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 存款 1,000 法幣並完成四個疊加裡程碑任務，最高可獲得 100 美元比特幣（BTC）獎勵。活動期間為 11 月 12 日至 12 月 1 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
 | [Kraken ANTx 交易獎勵](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價的資產），總獎金池為 5,000 美元。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -91,7 +79,21 @@
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免帳號即時體驗](https://neon.com/pricing) | VPS/雲服務 | 提供免帳號、免信用卡的 Postgres 專案體驗。未聲稱到帳號的專案限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，期間包含 1,000 或 2,000 個 AI 額度（視方案而定） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 0 美元，提供有限儲存空間（512 MB）、10 位外部訪客、7 天頁面歷史、1 個已發布頁面與 1 個 notion.site 域名 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 0 美元，提供有限儲存空間（512 MB）、10 位外部訪客、7 天頁面歷史、1 個已發布頁面與 1 個 notion.site 域名 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 的費用。 | 約 TWD 2,200（AI 估） | 長期活動 | 待核實 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費使用，提供 GPT-6 無限文字聊天、有限訊息上傳、有限影像創作、有限語音聊天、有限深度研究、有限記憶與脈絡、有限 Codex 存取、有 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT Business 限時促銷](https://openai.com/chatgpt/pricing/) | AI 工具 | 11月30日前註冊 ChatGPT Business，即可在12月31日前享受所有席位 2 倍用量與快速模式，且無需額外付費。 | 免費（價值視使用而定） | 2023-12-31 | 待核實 |
+| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年訂閱每月 $17，先一次性支付 $200（約 11.76 個月）；月繳為 $20/月。年繳比月繳便宜。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Claude Max API 贈送 $100 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案每月含 $100 API 額度，用於在 Claude Platform 開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra API 贈送 $200 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案每月含 $200 API 額度，用於在 Claude Platform 開發。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣；Starter 年繳首年 $60；Creator 年繳首年 $99；Pro 年繳首年 $445.50（新 | 約 TWD 1,760（AI 估） | 2024-12-01 | 待核實 |
+| [Gate 註冊獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取超過 10,000 USDT 的獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate BTC 和 ETH 代幣化存儲利率上調](https://www.gate.com/announcements) | Crypto | BTC 和 ETH 的 Staking APR 上調至最高 5.50% | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Idle Earn × Simple Earn 限時活動第三階段](https://www.gate.com/announcements) | Crypto | USDT 最高可賺取 9% APR | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate NVDA 期貨交易挑戰](https://www.gate.com/announcements) | Crypto | 首次交易獲 3 USDT，總獎勵最高達 8,000 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 交易可參與瓜分價值 850,000 USDx 的獎勵，最高賺取 4,432 USDT 的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 萬聖節 VIP 歡迎季](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 可解鎖新 LV 滑雪裝備 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 期貨歡迎回歸活動](https://www.gate.com/announcements) | Crypto | 每日領取 2 USDT 現金，交易可解鎖 660 USDT 空投 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD 空投活動](https://www.gate.com/announcements) | Crypto | 首次交易獲 2 USDT，最高現金獎勵達 102 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Convert 促銷活動第四階段](https://www.gate.com/announcements) | Crypto | 註冊獲 8 USDT，每位用戶最高可獲 543 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 社交增長積分大抽獎第 27 輪](https://www.gate.com/announcements) | Crypto | 抽獎獲 5,000 USDT、SPCX 代幣及其他獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 雙向投資挑戰賽第七階段](https://www.gate.com/announcements) | Crypto | 總獎勵最高達 4,000 美元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
