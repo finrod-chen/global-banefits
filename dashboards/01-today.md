@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T21:59:28.333Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T22:05:17.468Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -47,14 +47,13 @@
 | [Gate 萬聖節 VIP 歡迎季](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 可解鎖新 LV 滑雪裝備 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate 期貨歡迎回歸活動](https://www.gate.com/announcements) | Crypto | 每日領取 2 USDT 現金，交易可解鎖 660 USDT 空投 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate CFD 空投活動](https://www.gate.com/announcements) | Crypto | 首次交易獲 2 USDT，最高現金獎勵達 102 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Convert 促銷活動第四階段](https://www.gate.com/announcements) | Crypto | 註冊獲 8 USDT，每位用戶最高可獲 543 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 社交增長積分大抽獎第 27 輪](https://www.gate.com/announcements) | Crypto | 抽獎獲 5,000 USDT、SPCX 代幣及其他獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 雙向投資挑戰賽第七階段](https://www.gate.com/announcements) | Crypto | 總獎勵最高達 4,000 美元 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 黑色星期五存款與交易獎賞](https://blog.kraken.com/) | Crypto | 存入 1,000 美元法幣並完成四個堆疊里程碑交易，最高可獲得 100 美元 BTC | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
-| [Kraken ANTx 交易獎賞](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價），有機會贏取總計 5,000 美元獎品 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 節日存款抽獎](https://blog.kraken.com/) | Crypto | 每存入 1 歐元即獲得一次抽獎資格，活動期間一名客戶將贏取 500,000 歐元 | 免費（價值視使用而定） | 2026-01-07 | 待核實 |
-| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX，最高 10 倍槓桿），依交易量排名分享總計 20,000 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USD | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Gate Convert 促銷活動第四階段](https://www.gate.com/announcements) | Crypto | 註冊獲 8 USDT，每位用戶最高可獲 543 USDT | 約 TWD 17,376（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate 社交增長積分大抽獎第 27 輪](https://www.gate.com/announcements) | Crypto | 抽獎獲 5,000 USDT、SPCX 代幣及其他獎勵 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate 雙向投資挑戰賽第七階段](https://www.gate.com/announcements) | Crypto | 總獎勵最高達 4,000 美元 | 約 TWD 128,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 黑色星期五存款與交易獎賞](https://blog.kraken.com/) | Crypto | 存入 1,000 美元法幣並完成四個堆疊里程碑交易，最高可獲得 100 美元 BTC | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
+| [Kraken ANTx 交易獎賞](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價），有機會贏取總計 5,000 美元獎品 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Anthropic Pre-IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX，最高 10 倍槓桿），依交易量排名分享總計 20,000 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USD | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken 商品交易費率優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、石油等非加密貨幣市場手續費降至每邊 2bps（基本點），適用於既有帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Krak 信用卡現金回饋](https://blog.kraken.com/) | Crypto | Krak 信用卡提供最高 4% 現金回饋，以美元或比特幣支付，無需追蹤積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -4282,7 +4282,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T20:07:40.762Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動針對新用戶註冊提供USDT獎勵，並限定總額上限，屬於新戶獎勵性質的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Convert Promotion Phase 4: Sign Up for 8 USDT, Get Up to 543 USDT per User",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 17376,
+      "basis": "explicit-amount",
+      "usd": 543,
+      "quote": "Up to 543 USDT per User",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261125-10",
@@ -4310,7 +4338,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T20:07:40.762Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為限時抽獎活動，提供代幣與現金獎勵，屬於促銷性質的獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Social Growth Points Grand Draw Round 27: Draw 5,000 USDT, SPCX Token and More",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "5,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261125-11",
@@ -4338,7 +4394,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T20:07:40.762Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為帶有上限獎勵金額的限時挑戰活動",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Dual Investment Challenge Phase 7: Up to $4,000",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 128000,
+      "basis": "explicit-amount",
+      "usd": 4000,
+      "quote": "Dual Investment Challenge Phase 7: Up to $4,000",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261125-1",
@@ -4368,7 +4452,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動為限定的黑五存款與交易獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261125-2",
@@ -4397,37 +4519,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "kraken-blog-20261125-3",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 節日存款抽獎",
-    "category": "crypto",
-    "summary": "每存入 1 歐元即獲得一次抽獎資格，活動期間一名客戶將贏取 500,000 歐元",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供交易特定產品並參與贏取獎金池的競賽機制，屬於新產品發布或交易活動獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
     },
-    "requirements": "必須加入活動並存入歐元資產（從其他平台轉入或新增存款），存款金額累計作為抽獎資格",
-    "regions": [
-      "歐洲"
-    ],
-    "startDate": null,
-    "endDate": "2026-01-07",
-    "ongoing": false,
-    "steps": [
-      "加入活動",
-      "存入歐元資產",
-      "等待抽獎結果"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "$5,000 in prizes",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261125-4",
@@ -4457,7 +4582,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動提供總計 20,000 美元的獎品池，屬於依交易量排名分享獎勵的競賽型促銷。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261125-5",
@@ -4486,7 +4644,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一項有明確期限、需要透過交易達標以解鎖獎品池的限時活動。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "one leaderboard, three multipliers",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 10, 2026",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "$5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261125-6",
@@ -4514,7 +4710,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T22:05:17.468Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面指出所有非加密貨幣市場的手續費降至每邊2bps，並適用於既有帳戶，屬於常態定價或費率調整，而非限時的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "including on accounts you already hold.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261125-7",
