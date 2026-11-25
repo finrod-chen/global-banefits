@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T12:05:18.010Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T14:05:19.856Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,9 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元的 AWS 推廣點數。具體分層：自資/初創者（Activate Founders）最高可獲 5,000 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 約 TWD 15,390（AI 估） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd Black Friday VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年度特價方案，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 約 TWD 485（AI 估） | 2026-11-26 | 待核實 |
@@ -29,3 +26,9 @@
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求免費。 | 約 TWD 3,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬列讀取及每日 10 萬列寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 約 TWD 227,925（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自助資金創新的新創公司可獲得最高 5,000 美元額度，起始提供 1,000 美元額度，部分符合資格的參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 由投資機構支持的 Pre-Series B 新創公司可獲得最高 200,000 美元額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 人工智慧新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對 AI 新創公司提供 200,000 美元以上的 AWS 額度，投資規模隨負載大小調整，已提供額度從數千到數百萬美元不等。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro 新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創公司額度，可擴展至 Activate 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 個月活躍使用者 (MAUs)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案每月包含 10 美元的計算 (Compute) 額度，足以覆蓋一個 Micro 實例的成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
