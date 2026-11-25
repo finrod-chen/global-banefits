@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T08:05:16.834Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T09:12:59.673Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,11 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [RackNerd 黑五特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS 特價 $15.98/年（含 1 vCPU、20 GB SSD、1 GB RAM、3 TB 流量）；2.5 GB K | 約 TWD 511（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd 黑五特價 Shared Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案起價 $9.49/年。 | 約 TWD 304（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd 黑五特價 Reseller Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案起價 $29.88/年。 | 約 TWD 956（AI 估） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 Dedicated Servers](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Servers 方案起價 $64/月。 | 約 TWD 322,000（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 約 TWD 9,313（AI 估） | 長期活動 | 待核實 |
@@ -30,3 +25,5 @@
 | [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 約 TWD 15,390（AI 估） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年度特價方案，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 免費（價值視使用而定） | 2026-11-26 | 待核實 |
+| [RackNerd AdminBolt 30天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 VPS 上透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用期。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T08:05:16.834Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T09:12:59.673Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,13 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理（Batch processing）進行高容量工作時，API 價格降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入令牌折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，使用快取輸入令牌（cached input tokens）可減少高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Airwallex 夥伴獎勵計畫](https://www.airwallex.com/) | 海外銀行/卡 | 提供來自合作夥伴的專屬獎勵 (Exclusive rewards from our partners)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS 特價 $15.98/年（含 1 vCPU、20 GB SSD、1 GB RAM、3 TB 流量）；2.5 GB K | 約 TWD 511（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd 黑五特價 Shared Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案起價 $9.49/年。 | 約 TWD 304（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd 黑五特價 Reseller Hosting](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案起價 $29.88/年。 | 約 TWD 956（AI 估） | 長期活動 | 待核實 |
-| [RackNerd 黑五特價 Dedicated Servers](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Servers 方案起價 $64/月。 | 約 TWD 322,000（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd 的 ctrl 面板安裝 AdminBolt 主機板，可享受 30 天免費試用。 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 限時特惠，提供特定遊戲的折扣（具體折扣百分比與價格為動態內容，頁面顯示佔位符 -{{ primaryProduct.price.discou | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案（Network & CDN 與 SASE/Zero Trust）](https://www.cloudflare.com/plans/) | VPS/雲服務 | Network & CDN 方案提供 $0/月 的免費方案，包含無限 DDoS 防護、CDN、Universal SSL、WAF 等；SAS | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Workers 提供每日 100,000 次請求的免費額度，以及每請求 10 ms 的 CPU 時間免費額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | Containers 服務提供每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 T | 約 TWD 9,313（AI 估） | 長期活動 | 待核實 |
@@ -87,6 +80,15 @@
 | [Gate 感恩節 VIP 歡迎季](https://www.gate.com/announcements) | Crypto | 首次升級為 VIP 5 即可解鎖新 LV 滑雪裝備。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Gate 社群成長積分大抽獎第 27 輪](https://www.gate.com/announcements) | Crypto | 抽獎 5,000 USDT、SPCX 代幣及其他獎勵。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate 雙重投資挑戰第七階段](https://www.gate.com/announcements) | Crypto | 最高獲得 4,000 美元獎勵。 | 約 TWD 128,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate 感恩節獎勵活動](https://www.gate.com/announcements) | Crypto | 簽到、升級排名，最高可贏 8,000 USDT。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate 期貨簽到 AI 賦能版](https://www.gate.com/announcements) | Crypto | 分享 500,000 USDT 並解鎖額外 NVDAG 獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Trenches Base Chain 限時獎勵](https://www.gate.com/announcements) | Crypto | 分享 30,000 USDT 的三倍獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate 感恩節獎勵活動](https://www.gate.com/announcements) | Crypto | 簽到、升級排名，最高可贏 8,000 USDT。 | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate 期貨簽到 AI 賦能版](https://www.gate.com/announcements) | Crypto | 分享 500,000 USDT 並解鎖額外 NVDAG 獎勵。 | 約 TWD 16,000,000（AI 估） | 長期活動 | 待核實 |
+| [Gate Trenches Base Chain 限時獎勵](https://www.gate.com/announcements) | Crypto | 分享 30,000 USDT 的三倍獎勵。 | 約 TWD 960,000（AI 估） | 長期活動 | 待核實 |
+| [Kraken 節日存款抽獎活動](https://blog.kraken.com/) | Crypto | 每存入 1 歐元即可獲得一次中獎機會，總獎金池為 500,000 歐元。從現在到 1 月 7 日，存入的資產越多，中獎機會越多。 | 免費（價值視使用而定） | 2027-01-07 | AI 預審通過 |
+| [Kraken 黑色星期五存款與交易獎金](https://blog.kraken.com/) | Crypto | 存款 1,000 法幣並完成四個疊加裡程碑任務，最高可獲得 100 美元比特幣（BTC）獎勵。活動期間為 11 月 12 日至 12 月 1 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken ANTx 交易獎勵](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價的資產），總獎金池為 5,000 美元。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（最高 10 倍槓桿），依交易量排名，分享 20,000 美元的 ANTHROP | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 從 10 月 12 日至 12 月 10 日交易黃金、真實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 的獎勵池。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
+| [RackNerd Black Friday VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年度特價方案，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 免費（價值視使用而定） | 2026-11-26 | 待核實 |
+| [RackNerd AdminBolt 30天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 VPS 上透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用期。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 免費遊戲](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供免費下載或購買價格為 0 的遊戲，頁面顯示有多款遊戲標示為 Free 或價格範圍為 0,0。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG Welcome Offer](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 新用戶歡迎優惠，提供限時特別折扣，頁面顯示有倒數計時器（{{countdown}} left!）和折扣百分比（-{{ primaryProd | 免費（價值視使用而定） | 長期活動 | 待核實 |
