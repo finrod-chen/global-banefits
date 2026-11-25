@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T14:05:19.856Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T18:05:21.222Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,18 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Humble Choice 年繳方案折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 年繳方案每月實付金額低於 13 美元，相比標準月費 14.99 美元有節省。 | 約 TWD 152（AI 估） | 長期活動 | 待核實 |
-| [Humble Choice 會員商店折扣](https://www.humblebundle.com/) | 軟體/數位服務 | 會員在商店內購物最高可享 20% 折扣，包含熱門新遊戲。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Humble Bundle 公益捐款回饋](https://www.humblebundle.com/) | 軟體/數位服務 | Humble 會員社群自 2010 年以來已捐贈超過 2.84 億美元給慈善機構；5% 的 Humble Choice 會員費用於支持公益。 | 約 TWD 480（AI 估） | 長期活動 | 待核實 |
-| [Pay What You Want 免費贈品機會](https://www.humblebundle.com/) | 軟體/數位服務 | 多款 Bundle 採用「Pay What You Want」機制，允許用戶自訂價格，最低可為 0 美元（視乎具體 Bundle 的最低定價 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供7天免費試用期，適用於Mac、Mac + iOS或Power User方案 | 約 TWD 433（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 年度訂閱折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度付費可節省最高40%的費用 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Setapp AI 積分贈送](https://setapp.com/pricing) | 軟體/數位服務 | 訂閱Mac或Mac + iOS方案贈送1,000 AI積分；訂閱Power User方案贈送2,000 AI積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每席位每月 $0，包含有限儲存空間、Notion AI 試用功能（生成文件、自動填充資料庫）、基本表單、發布 Notion 頁面至網頁、基本 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 約 TWD 640（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 約 TWD 15,390（AI 估） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費使用 GPT-6.1 Luna 模型，每月 $0。包含無限文字聊天（有濫用限制）、有限的上傳、圖片生成、語音聊天、深度研究、記憶與上下文 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs 年繳免兩個月](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受兩個月免費（例如 Starter 年繳 $60 等同於 $5/月，原價 $6/月；Scale 年繳 $2,990 等同於  | 約 TWD 384（AI 估） | 長期活動 | 待核實 |
 | [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000 以上 USDT 的獎勵。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate 2026 年度盛典](https://www.gate.com/announcements) | Crypto | 支援年度之星並參與活動贏取驚喜獎勵。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -94,7 +82,16 @@
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自助資金創新的新創公司可獲得最高 5,000 美元額度，起始提供 1,000 美元額度，部分符合資格的參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 由投資機構支持的 Pre-Series B 新創公司可獲得最高 200,000 美元額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS 人工智慧新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對 AI 新創公司提供 200,000 美元以上的 AWS 額度，投資規模隨負載大小調整，已提供額度從數千到數百萬美元不等。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kiro 新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創公司額度，可擴展至 Activate 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 個月活躍使用者 (MAUs)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案每月包含 10 美元的計算 (Compute) 額度，足以覆蓋一個 Micro 實例的成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 人工智慧新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 針對 AI 新創公司提供 200,000 美元以上的 AWS 額度，投資規模隨負載大小調整，已提供額度從數千到數百萬美元不等。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kiro 新創公司額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 新創公司額度，可擴展至 Activate 額度。 | 約 TWD 15,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 0 美元。包含 50,000 個月活躍使用者 (MAUs)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算額度贈送](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案每月包含 10 美元的計算 (Compute) 額度，足以覆蓋一個 Micro 實例的成本。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含 100 個專案，每個專案每月 100 CU-時數、1 GB 儲存空間、5 GB 物件儲存空間、100 萬次 AI | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期新創企業最高 10 萬美元的點數優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 免帳號即時體驗](https://neon.com/pricing) | VPS/雲服務 | 提供免帳號、免信用卡的 Postgres 專案體驗。未聲稱到帳號的專案限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，期間包含 1,000 或 2,000 個 AI 額度（視方案而定） | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 0 美元，提供有限儲存空間（512 MB）、10 位外部訪客、7 天頁面歷史、1 個已發布頁面與 1 個 notion.site 域名 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費使用，提供 GPT-6 無限文字聊天、有限訊息上傳、有限影像創作、有限語音聊天、有限深度研究、有限記憶與脈絡、有限 Codex 存取、有 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT Business 限時促銷](https://openai.com/chatgpt/pricing/) | AI 工具 | 11月30日前註冊 ChatGPT Business，即可在12月31日前享受所有席位 2 倍用量與快速模式，且無需額外付費。 | 免費（價值視使用而定） | 2023-12-31 | 待核實 |
