@@ -3166,5 +3166,77 @@
     "status": "expired",
     "archivedAt": "2026-11-25T20:05:24.534Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261125-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 黑五限時折扣",
+    "category": "ai",
+    "summary": "選擇年繳方案最高可享 55% 折扣；Starter 年繳首年 $60；Creator 年繳首年 $99；Pro 年繳首年 $445.50（新戶全額 55% 折扣，舊月繳轉年繳為 50% 折扣）；Scale 年繳 $2,990；Business 年繳 $9,900。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 12 月 1 日前訂閱年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-01",
+    "ongoing": false,
+    "steps": [
+      "選擇年繳方案",
+      "在 12 月 1 日前完成訂閱以獲得折扣"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-25T20:06:13.146Z",
+    "lastVerified": "2026-11-25",
+    "risks": "折扣期限截止後恢復常態價格；年繳方案通常為一次性支付全額。",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-25T20:05:24.534Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為 Black Friday Sale，提供最高 55% 折扣及首月特惠，屬於限時優惠活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to 55% off",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "Ends December 1",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1760,
+      "basis": "explicit-amount",
+      "usd": 55,
+      "quote": "Save up to 55%",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    },
+    "archivedAt": "2026-11-25T21:59:28.333Z",
+    "archiveReason": "endDate passed"
   }
 ]

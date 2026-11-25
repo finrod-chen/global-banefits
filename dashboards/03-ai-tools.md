@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T20:05:24.534Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T21:59:28.333Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -34,4 +34,3 @@
 | [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年訂閱每月 $17，先一次性支付 $200（約 11.76 個月）；月繳為 $20/月。年繳比月繳便宜。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
 | [Claude Max API 贈送 $100 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案每月含 $100 API 額度，用於在 Claude Platform 開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra API 贈送 $200 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案每月含 $200 API 額度，用於在 Claude Platform 開發。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
-| [ElevenLabs 黑五限時折扣](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣；Starter 年繳首年 $60；Creator 年繳首年 $99；Pro 年繳首年 $445.50（新 | 約 TWD 1,760（AI 估） | 2024-12-01 | 待核實 |

@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T20:05:24.534Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T21:59:28.333Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,8 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [RackNerd Black Friday VPS 特價方案](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年度特價方案，包括 1GB RAM $15.98/年、2.5GB RAM $27.98/年、4GB RAM $47 | 約 TWD 485（AI 估） | 2026-11-26 | 待核實 |
-| [RackNerd AdminBolt 30天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 VPS 上透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用期。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 0 美元方案，包含無計量 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集、Web 應用防火牆、無損圖像優 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永遠免費 (0 美元) 的方案，適用於 50 名以下使用者的小團隊或企業概念驗證測試，包含社群論壇及 Discord 支援、最多 24  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求及每請求 10 ms CPU 時間免費。 | 約 TWD 2,600（AI 估） | 長期活動 | AI 預審通過 |
@@ -34,3 +32,4 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期新創企業最高 10 萬美元的點數優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免帳號即時體驗](https://neon.com/pricing) | VPS/雲服務 | 提供免帳號、免信用卡的 Postgres 專案體驗。未聲稱到帳號的專案限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
