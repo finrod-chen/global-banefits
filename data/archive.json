@@ -2972,5 +2972,139 @@
     "status": "expired",
     "archivedAt": "2026-11-25T00:05:19.189Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261125-2",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時促銷",
+    "category": "ai",
+    "summary": "在 11 月 30 日前訂閱 ChatGPT Business 方案，所有席位在 12 月 31 日前可免費享有 2 倍的使用額度及快速模式。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 2025 年 11 月 30 日前完成 ChatGPT Business 方案的註冊與訂閱",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-11-30",
+    "ongoing": false,
+    "steps": [
+      "在 11 月 30 日前簽署 ChatGPT Business 方案"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-25T06:05:46.409Z",
+    "lastVerified": "2026-11-25",
+    "risks": "需訂閱 Business 方案，可能涉及付費,限時優惠，過期後恢復常態",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-25T06:05:17.395Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠為限時的新戶獎勵，提供免費的額外使用額度與功能。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up for ChatGPT Business by Nov 30 and get 2x included usage and fast mode at no extra cost for all seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for ChatGPT Business by Nov 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Sign up for ChatGPT Business by Nov 30",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "archivedAt": "2026-11-25T08:05:16.834Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261125-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 年繳促銷",
+    "category": "ai",
+    "summary": "選擇年繳方案最高可節省 55%。Creator 年繳首年 $99，Pro 年繳新用戶首年 55% 折扣，現有用戶 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "選擇年繳方案",
+      "訂閱並完成付款"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-25T06:06:54.880Z",
+    "lastVerified": "2026-11-25",
+    "risks": "折扣僅適用於首年，次年恢復常態價格",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-25T06:05:17.395Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Black Friday Sale 且提供限時折扣與期限",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to 55% off\nGet up to 55% off Ends December 1\nGet the offer",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "When does the ElevenCreative Black Friday sale end?\nThe ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the ",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1260,
+      "basis": "ai-estimate",
+      "note": "以Creator年繳促銷價格$99計算，約為1美元=12.7新台幣，$99 * 12.7 = 1257.3，向上取整為1260。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-25T08:05:16.834Z",
+    "archiveReason": "endDate passed"
   }
 ]

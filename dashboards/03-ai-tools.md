@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T06:05:17.395Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T08:05:16.834Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,6 +29,4 @@
 | [Suno 黑色星期五促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外獲得 30% 折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 2,700（AI 估） | 長期活動 | AI 預審通過 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費使用 GPT-6.1 Luna 模型，每月 $0。包含無限文字聊天（有濫用限制）、有限的上傳、圖片生成、語音聊天、深度研究、記憶與上下文 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT Business 限時促銷](https://openai.com/chatgpt/pricing/) | AI 工具 | 在 11 月 30 日前訂閱 ChatGPT Business 方案，所有席位在 12 月 31 日前可免費享有 2 倍的使用額度及快速模式 | 免費（價值視使用而定） | 2025-11-30 | 待核實 |
-| [ElevenLabs Black Friday 年繳促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可節省 55%。Creator 年繳首年 $99，Pro 年繳新用戶首年 55% 折扣，現有用戶 50% 折扣。 | 約 TWD 1,260（AI 估） | 2025-12-01 | 待核實 |
 | [ElevenLabs 年繳免兩個月](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受兩個月免費（例如 Starter 年繳 $60 等同於 $5/月，原價 $6/月；Scale 年繳 $2,990 等同於  | 約 TWD 384（AI 估） | 長期活動 | 待核實 |

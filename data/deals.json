@@ -1840,407 +1840,6 @@
     "status": "verified"
   },
   {
-    "id": "gate-announce-20261124-1",
-    "sourceId": "gate-announce",
-    "name": "Gate Sign up 10,000+ USDT 獎勵活動",
-    "category": "crypto",
-    "summary": "註冊即可領取超過 10,000 USDT 的獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊 Gate 帳戶"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T18:05:18.861Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示為「Sign up to claim 10,000+ USDT rewards」，屬於新戶註冊獎勵或空投積分類型的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up to claim 10,000+ USDT rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 320000,
-      "basis": "explicit-amount",
-      "usd": 10000,
-      "quote": "10,000+ USDT rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261124-2",
-    "sourceId": "gate-announce",
-    "name": "Gate NVDA Futures Trading Challenge 活動",
-    "category": "crypto",
-    "summary": "首次交易 NVDA 期貨獲贈 3 USDT，總獎勵池最高 8,000 USDT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需首次交易 NVDA 期貨",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "首次進行 NVDA 期貨交易"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "活動提供首次交易獎勵及空投，屬於限時活動激勵",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 256000,
-      "basis": "explicit-amount",
-      "usd": 8000,
-      "quote": "Up to 8,000 USDT in Rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261124-3",
-    "sourceId": "gate-announce",
-    "name": "Gate CFD Gold Airdrop 空投活動",
-    "category": "crypto",
-    "summary": "交易 CFD 黃金以分享價值 850,000 USDx 的獎勵，個人最高可獲 4,432 USDT 的 XAUT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需進行 CFD 黃金交易",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "交易 CFD 黃金"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "活動標題明確標示為 Airdrop（空投），且提供最高限額的獎勵金，屬於空投積分或獎勵類型的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade for a Share of Rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 141824,
-      "basis": "explicit-amount",
-      "usd": 4432,
-      "quote": "Up to 4,432 USDT in XAUT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261124-4",
-    "sourceId": "gate-announce",
-    "name": "Gate Thanksgiving VIP Welcome Season 活動",
-    "category": "crypto",
-    "summary": "首次升級為 VIP 5 會員可解鎖新款 LV 滑雪裝備",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需首次升級為 VIP 5",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "首次升級為 VIP 5 會員"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "針對首次升級 VIP 5 的用戶提供實體獎勵，屬於特定條件下的限時活動獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Upgrade to VIP 5 for the First Time",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261124-5",
-    "sourceId": "gate-announce",
-    "name": "Gate NVIDIA Momentum Trading Challenge 活動",
-    "category": "crypto",
-    "summary": "交易 NVIDIA 期貨，宣稱 100% 勝率",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需交易 NVIDIA 期貨",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "交易 NVIDIA 期貨"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "「100% 勝率」為行銷話術，實際交易仍存在市場風險",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動包含交易挑戰與獎勵機制，屬於平台提供的促銷或活動優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "NVIDIA Momentum Trading Challenge : Trade NVIDIA, 100% Win Rate",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "NVIDIA Momentum Trading Challenge : Trade NVIDIA, 100% Win Rate",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261124-6",
-    "sourceId": "gate-announce",
-    "name": "Gate Perp Hot Tuesday Round 9 活動",
-    "category": "crypto",
-    "summary": "交易熱門貨幣以解鎖最高 100 USDT 的獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需交易指定熱門貨幣",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "交易熱門貨幣"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "透過交易指定幣種解鎖最高 100 USDT 獎勵，屬於限時活動與空投/獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Perp Hot Tuesday Round 9: Trade popular coins to Unlock Up to 100 USDT in Rewards",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade popular coins",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "Up to 100 USDT in Rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261124-7",
-    "sourceId": "gate-announce",
-    "name": "Gate OPENAI & SPCX Futures Hot Coin Airdrop 活動",
-    "category": "crypto",
-    "summary": "註冊即可獲 5 USDT，每人最高可獲 240 USDT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "註冊活動"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-24T18:05:54.554Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T20:05:17.350Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為空投獎勵，註冊即可獲得 USDT 獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "OPENAI & SPCX Futures Hot Coin Airdrop: Register to Get 5 USDT, Up to 240 USDT Per Person",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160,
-      "basis": "explicit-amount",
-      "usd": 5,
-      "quote": "Register to Get 5 USDT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "mistral-pricing-20261124-1",
     "sourceId": "mistral-pricing",
     "name": "Mistral API 批次處理折扣",
@@ -4330,136 +3929,6 @@
     }
   },
   {
-    "id": "openai-pricing-20261125-2",
-    "sourceId": "openai-pricing",
-    "name": "ChatGPT Business 限時促銷",
-    "category": "ai",
-    "summary": "在 11 月 30 日前訂閱 ChatGPT Business 方案，所有席位在 12 月 31 日前可免費享有 2 倍的使用額度及快速模式。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 2025 年 11 月 30 日前完成 ChatGPT Business 方案的註冊與訂閱",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-11-30",
-    "ongoing": false,
-    "steps": [
-      "在 11 月 30 日前簽署 ChatGPT Business 方案"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-25T06:05:46.409Z",
-    "lastVerified": "2026-11-25",
-    "risks": "需訂閱 Business 方案，可能涉及付費,限時優惠，過期後恢復常態",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-25T06:05:17.395Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "此優惠為限時的新戶獎勵，提供免費的額外使用額度與功能。",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sign up for ChatGPT Business by Nov 30 and get 2x included usage and fast mode at no extra cost for all seats through Dec 31.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sign up for ChatGPT Business by Nov 30",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Sign up for ChatGPT Business by Nov 30",
-          "found": true
-        }
-      ],
-      "flags": [
-        "numbers-missing",
-        "expired"
-      ],
-      "numbersMissing": [
-        "11"
-      ]
-    }
-  },
-  {
-    "id": "elevenlabs-pricing-20261125-1",
-    "sourceId": "elevenlabs-pricing",
-    "name": "ElevenLabs Black Friday 年繳促銷",
-    "category": "ai",
-    "summary": "選擇年繳方案最高可節省 55%。Creator 年繳首年 $99，Pro 年繳新用戶首年 55% 折扣，現有用戶 50% 折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇年繳方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-12-01",
-    "ongoing": false,
-    "steps": [
-      "選擇年繳方案",
-      "訂閱並完成付款"
-    ],
-    "officialUrl": "https://elevenlabs.io/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-25T06:06:54.880Z",
-    "lastVerified": "2026-11-25",
-    "risks": "折扣僅適用於首年，次年恢復常態價格",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-25T06:05:17.395Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示 Black Friday Sale 且提供限時折扣與期限",
-      "passed": false,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Up to 55% off\nGet up to 55% off Ends December 1\nGet the offer",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "When does the ElevenCreative Black Friday sale end?\nThe ElevenLabs Black Friday and Cyber Monday sale ends on December 1st. Until then, eligible customers can save up to 55% when they choose an annual plan. Creator annual costs $99 for the ",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Ends December 1",
-          "found": true
-        }
-      ],
-      "flags": [
-        "expired"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1260,
-      "basis": "ai-estimate",
-      "note": "以Creator年繳促銷價格$99計算，約為1美元=12.7新台幣，$99 * 12.7 = 1257.3，向上取整為1260。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "elevenlabs-pricing-20261125-2",
     "sourceId": "elevenlabs-pricing",
     "name": "ElevenLabs 年繳免兩個月",
@@ -4521,5 +3990,528 @@
       "note": "金額沒有在頁面原文逐字找到，僅供參考；",
       "confidence": "low"
     }
+  },
+  {
+    "id": "gate-announce-20261125-1",
+    "sourceId": "gate-announce",
+    "name": "Gate 註冊領取 10,000+ USDT 獎勵",
+    "category": "crypto",
+    "summary": "註冊即可領取 10,000 以上 USDT 的獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Gate 平台完成註冊"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給註冊用戶的 USDT 獎勵，屬於新戶獎勵或空投。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261125-2",
+    "sourceId": "gate-announce",
+    "name": "Gate 2026 年度盛典",
+    "category": "crypto",
+    "summary": "支援年度之星並參與活動贏取驚喜獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-18",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與 Gate 2026 年度盛典活動",
+      "支援年度之星"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動名稱提及「Win Surprise Rewards」，屬於參與活動即可獲得獎勵的促銷活動類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate 2026 Annual Gala: Support the Stars of the Year and Enter to Win Surprise Rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261125-3",
+    "sourceId": "gate-announce",
+    "name": "Gate Idle Earn × Simple Earn 限時活動第三階段",
+    "category": "crypto",
+    "summary": "在 USDT 上賺取最高 9% 的年化收益率 (APR)。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與 Idle Earn 或 Simple Earn 活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容標明為「Limited-Time Event Phase 3」（限時活動第三階段），屬於特定時段的促銷優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 9000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者投入約1000美元等值的USDT進行投資，以9%的年化收益率計算，第一年約可獲得90美元利息收益，換算為新台幣約9000元。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gate-announce-20261125-4",
+    "sourceId": "gate-announce",
+    "name": "Gate NVDA 期貨交易挑戰",
+    "category": "crypto",
+    "summary": "首次交易 NVDA 期貨獲 3 USDT，總獎勵最高 8,000 USDT。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "首次交易 NVDA 期貨",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行 NVDA 期貨首次交易"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此活動為特定產品（NVDA期貨）的交易挑戰，提供首次交易獎勵與總獎金池，屬於新戶獎勵或限時促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 256000,
+      "basis": "explicit-amount",
+      "usd": 8000,
+      "quote": "Up to 8,000 USDT in Rewards",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261125-5",
+    "sourceId": "gate-announce",
+    "name": "Gate CFD 黃金空投活動",
+    "category": "crypto",
+    "summary": "交易即可分享總價值 850,000 USDx 的獎勵，最高可賺取 4,432 USDT 的 XAUT。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "進行 CFD 黃金交易",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "交易 CFD 黃金產品"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為標註為空投（Airdrop）的限時活動，鼓勵交易以獲取獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 45000,
+      "basis": "ai-estimate",
+      "note": "根據公告提及的最高可賺取 4,432 USDT 計算，按保守匯率 1:10 TWD/USDT 估算價值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gate-announce-20261125-6",
+    "sourceId": "gate-announce",
+    "name": "Gate 感恩節 VIP 歡迎季",
+    "category": "crypto",
+    "summary": "首次升級為 VIP 5 即可解鎖新 LV 滑雪裝備。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "首次升級至 VIP 5 等級",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "首次升級為 VIP 5"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "該活動為針對VIP用戶的特定福利（解鎖LV滑雪裝備），不屬於明確的現金折扣、新戶獎勵或空投，且主要針對特定會員等級。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Upgrade to VIP 5 for the First Time",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gate-announce-20261125-7",
+    "sourceId": "gate-announce",
+    "name": "Gate 社群成長積分大抽獎第 27 輪",
+    "category": "crypto",
+    "summary": "抽獎 5,000 USDT、SPCX 代幣及其他獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與社群成長積分活動並參加抽獎"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動涉及抽獎與代幣獎勵，屬於新戶或用戶獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Social Growth Points Grand Draw Round 27: Draw 5,000 USDT, SPCX Token and More",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Draw 5,000 USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261125-8",
+    "sourceId": "gate-announce",
+    "name": "Gate 雙重投資挑戰第七階段",
+    "category": "crypto",
+    "summary": "最高獲得 4,000 美元獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與雙重投資挑戰活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T08:05:16.834Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出的雙重投資挑戰活動，屬於限時獎勵活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Dual Investment Challenge Phase 7: Up to $4,000",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 128000,
+      "basis": "explicit-amount",
+      "usd": 4000,
+      "quote": "Up to $4,000",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gate-announce-20261125-9",
+    "sourceId": "gate-announce",
+    "name": "Gate 感恩節獎勵活動",
+    "category": "crypto",
+    "summary": "簽到、升級排名，最高可贏 8,000 USDT。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "簽到並提升排名",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "每日簽到",
+      "提升活動排名"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261125-10",
+    "sourceId": "gate-announce",
+    "name": "Gate 期貨簽到 AI 賦能版",
+    "category": "crypto",
+    "summary": "分享 500,000 USDT 並解鎖額外 NVDAG 獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "參與簽到活動",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與期貨簽到活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261125-11",
+    "sourceId": "gate-announce",
+    "name": "Gate Trenches Base Chain 限時獎勵",
+    "category": "crypto",
+    "summary": "分享 30,000 USDT 的三倍獎勵。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "參與 Trenches Base Chain 相關活動",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "參與 Trenches Base Chain 活動"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-25T08:05:56.551Z",
+    "lastVerified": "2026-11-25",
+    "risks": "",
+    "status": "pending"
   }
 ]
