@@ -4582,7 +4582,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-25T02:07:02.567Z",
     "lastVerified": "2026-11-25",
     "risks": "額度每月重置，未使用部分不結轉；若 Compute 費用超過 $10，需支付超出部分。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T04:05:18.129Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是 Supabase 付費方案（Pro/Team）中常態包含的 Compute 額度，並非限時優惠或免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Paid plans include $10/mo in compute credits, enough to cover one Micro instance.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "First project included. Additional from $10/mo. See how pricing scales",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10/mo in compute credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "neon-pricing-20261125-1",
@@ -4611,7 +4646,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-25T02:07:20.865Z",
     "lastVerified": "2026-11-25",
     "risks": "達到免費額度上限（如 CU-hrs 或儲存空間）後，計算服務會暫停直至下一個計費週期，需升級付費方案或等待重置才能繼續使用",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T04:05:18.129Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供免費的使用額度與功能，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free $0 Build and learn free with no time limits and no credit card required. Lakebase Postgres 100 projects 100 CU-hrs monthly per project 1 GB of storage per project Sizes up to 2 CU (8 GB RAM) Unlimited team members Backend Managed Bette",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "The Free plan is permanent, not a trial, and doesn't require a credit card.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 15390,
+      "basis": "ai-estimate",
+      "note": "依據頁面 Launch 方案典型月費 $15/mo 估算一年價值 ($15 × 12 = $180)，換算成新台幣 (假設匯率 85.5) 約為 $15,390。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "neon-pricing-20261125-2",
@@ -4639,6 +4707,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-25T02:07:20.865Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T04:05:18.129Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供給特定對象（新創企業）的高額點數回饋屬於專項優惠計劃。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "100000"
+      ]
+    }
   }
 ]

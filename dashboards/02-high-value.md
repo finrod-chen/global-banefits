@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T02:05:17.727Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T04:05:18.129Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -89,6 +89,6 @@
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式，最高可節省 20% 費用。 | 約 TWD 640（AI 估） | 長期活動 | 待核實 |
 | [AWS Activate Credits 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供新創企業最高 200,000 美元的 AWS 推廣點數。具體分層：自資/初創者（Activate Founders）最高可獲 5,000 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個每月活躍使用者 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案 Compute 額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 及 Team 方案每月包含 $10 的 Compute 額度，可抵銷一台 Micro 實例（$10/月）的成本，或用於抵消其他尺寸實 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案、每個專案 100 CU-hrs 計算額度、每個專案 1 GB 儲存空間、5 GB 物件儲存、AI Gateway  | 約 TWD 15,390（AI 估） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段新創企業提供最高 100,000 美元（$100k）的點數（credits）回饋。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
