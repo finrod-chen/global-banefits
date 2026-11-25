@@ -1954,350 +1954,6 @@
     }
   },
   {
-    "id": "gemini-plans-20261124-1",
-    "sourceId": "gemini-plans",
-    "name": "Google AI Black Friday Member Early Access",
-    "category": "ai",
-    "summary": "會員可提前享受特定 Google AI 方案最高 50% 的折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為 Google 會員；條款適用 (Terms apply)。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "開啟頁面頂部的 Black Friday 促銷橫幅",
-      "點擊「See offer」連結"
-    ],
-    "officialUrl": "https://one.google.com/about/google-ai-plans/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-24T22:47:37.707Z",
-    "lastVerified": "2026-11-24",
-    "risks": "折扣可能僅限特定方案；訂閱可能涉及自動續約。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T22:47:03.801Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面包含 Black Friday 限時折扣與會員提前享受的活動資訊，屬於限時折扣類型的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday. Terms apply",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Member early access",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1600,
-      "basis": "explicit-amount",
-      "usd": 50,
-      "quote": "Save up to 50% on select Google AI plans",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "suno-pricing-20261124-1",
-    "sourceId": "suno-pricing",
-    "name": "Suno 黑色星期五促銷",
-    "category": "ai",
-    "summary": "年繳方案額外獲得 30% 折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇年繳方案",
-      "完成付款"
-    ],
-    "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-24T22:47:54.923Z",
-    "lastVerified": "2026-11-24",
-    "risks": "促銷活動有倒數計時，結束後恢復原價；付費方案自動續約。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-24T22:47:03.801Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面包含明確的「Black Friday Sale」活動標題與折扣，屬於限時促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Extra 30% off annual plans",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1500,
-      "basis": "ai-estimate",
-      "note": "根據Pro年繳方案原價 $96 估算額外 30% 折扣（$96 * 0.3 = $28.8），換算成新台幣約 1500 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "copilot-plans-20261124-2",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生優惠",
-    "category": "ai",
-    "summary": "經驗證的學生可存取 GitHub Copilot 學生方案",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須為經驗證的學生",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "完成學生身份驗證"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-24T22:48:12.416Z",
-    "lastVerified": "2026-11-24",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T00:05:19.189Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確提及針對經驗證學生的專屬方案，符合學生優惠定義。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan. Learn more",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan. Learn more",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2700,
-      "basis": "ai-estimate",
-      "note": "假設學生方案等同於免費方案但提供額外價值，或依 Pro 方案 $10/月 推算一年約 $120 USD，換算約 3600 台幣，保守取 2700 作為參考估值（註：通常學生方案為免費或極低成本，此處僅為無明確金額時的保守估算邏輯，實際上若為免費則價值為 0，但因 draft 未指明免費，且 Pro 為 10 美元，保守估算其潛在免付費價值）。更準確地說，若無法確認學生方案是否免費，僅知有方案存在，保守估算其價值為 0 或難以評估。但根據指令「保守估算一般使用者第一年能得到的價值」，若學生方案是免費的，價值即為 Pro 方案的價值。Pro 是 $10/月 = $120/年。$120 USD * ",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "wise-home-20261124-1",
-    "sourceId": "wise-home",
-    "name": "Wise 大額轉帳費用折扣",
-    "category": "banking",
-    "summary": "發送超過 20,000 英鎊（或等值貨幣）的轉帳時，Wise 會折扣其服務費。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "轉帳金額需超過 20,000 英鎊或等值貨幣。",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "發起超過 20,000 英鎊的轉帳",
-      "系統自動應用費用折扣"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-24T22:48:46.417Z",
-    "lastVerified": "2026-11-24",
-    "risks": "null",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-25T00:05:19.189Z",
-      "model": "agnes-3.0-flash",
-      "kind": "unclear",
-      "kindReason": "頁面僅提到折扣費用但未定義為特定促銷活動或標準定價結構，故歸類為不確定。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "kind-unclear",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-free-20261124-1",
-    "sourceId": "aws-free",
-    "name": "AWS 短試期方案 (Short-term trial)",
-    "category": "vps-cloud",
-    "summary": "試用付費方案的選定服務，試期從啟用服務時開始，任何符合資格的信用額度會自動適用於超過試用限制的用量。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "啟用選定的付費方案服務以開始試用"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-24T22:49:20.875Z",
-    "lastVerified": "2026-11-24",
-    "risks": "超過試用限制後的用量會自動應用符合資格的信用額度",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T00:05:19.189Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供限定付費服務在試用限制內免費體驗，屬於試用性質的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Try selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usage beyond the trial limits.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-free-20261124-2",
-    "sourceId": "aws-free",
-    "name": "AWS 永久免費服務 (Always Free)",
-    "category": "vps-cloud",
-    "summary": "在免費和付費方案中，每月使用限制內可永久免費使用 30+ AWS 服務。若超過這些限制或存取付費功能，會自動應用信用額度來覆蓋成本。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在每月使用限制內使用指定的 AWS 服務"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-24T22:49:20.875Z",
-    "lastVerified": "2026-11-24",
-    "risks": "若超過每月使用限制或存取付費功能，會自動應用信用額度來覆蓋成本",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-25T00:05:19.189Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面明確指出這是在免費和付費方案中，超過限制後會自動套用信用額度的常態定價機制，而非獨立的限時優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "30+ AWS services are always free within monthly usage limits on both the Free and Paid plans. If you go beyond these limits or access paid features, credits are automatically applied to cover the costs.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "Get started for free with up to $200 in credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "humble-bundle-20261125-1",
     "sourceId": "humble-bundle",
     "name": "Humble Choice 年繳方案折扣",
@@ -4643,7 +4299,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出了 Durable Objects 的免費額度（Free tier），包含每日請求數、持續時間及儲存空間上限。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Durable Objects\nStateful compute for real-time coordination\nComponent\nFree\nPaid\nRequests\n100,000 requests / day\n$0.15 / million requests\nDuration\n13,000 GB-s / day\n$12.50 / million GB-s\nSQL Rows Read\n50M / day\n$0.001 / million rows\nSQL Rows",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261125-6",
@@ -4671,7 +4347,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供每日固定的免費使用額度（Free tier）",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Browser Hours\nFree 10 min / day\nPaid $0.09 / hour\nConcurrent Browsers\nFree 3 browsers\nPaid $2.00 / browser",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5800,
+      "basis": "ai-estimate",
+      "note": "按每日10分鐘（每月約50小時）及3個並行瀏覽器計算，若全部轉為付費需約$5.2 USD/月，一年約$62.4 USD，換算約新台幣5800元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261125-7",
@@ -4699,7 +4401,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "此為 Cloudflare Workflows 服務在付費模式下的標準計費方式，列出了包含在內部的每日免費額度與超出後的每單位價格，屬於常態定價。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Component\nFree\nPaid\nRequests\n100k / day\n$0.30 / million requests\nCPU Time\n10 ms / invocation\n$0.02 / million CPU ms\nStorage\n1 GB\n$0.20 / GB-month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1000,
+      "basis": "ai-estimate",
+      "note": "假設一般個人使用者每月消耗 300 萬次請求、30 百萬 CPU ms 及 10 GB 儲存，超出免費額度後的成本約為 2.5 美元，年度價值約 30 美元，換算為新台幣約 1000 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261125-8",
@@ -4727,7 +4457,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出了常態方案下的免費配額（included usage）及超過後的付費價格，屬於一般定價與免費額度結構，非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Storage\n10 GB-month\n$0.015 / GB-month\nStandard Class A operations\n1 million\n$4.50 / million requests\nStandard Class B operations\n10 million\n$0.36 / million requests",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "估算依據：若使用者用盡每月免費額度，對應的付費價值為儲存 10GB ($0.15)、Class A 100萬次 ($4.50)、Class B 1000萬次 ($3.60)，月總值約 $8.25 USD。保守估算第一年價值（取整）：$8.25 * 12 ≈ $99 USD。考慮匯率波動及使用者未必用滿，給出保守估計值。註：若僅計算儲存費則極低，但包含操作費後價值較高，此處取保守估算值 1500 TWD (約 $45 USD) 可能偏低，依常態月費 $8.25 * 12 = $99 * 30 = 2970 TWD。為保守起見，取約 1500-3000 區間。依據題目要求「保守估算」，且一般使用者",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261125-9",
@@ -4755,7 +4513,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 Workers KV 的免費額度包含 1GB 儲存空間及每日讀寫請求數，屬於免費方案或額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Workers KV\nLightning-fast key-value storage\nComponent\nFree\nPaid\nStored Data\n1 GB\n$0.50 / GB-month\nRead Requests\n100,000 / day\n$0.50 / million requests\nWrite, Delete, List requests\n1,000 / day\n$5.00 / million requests\nStored Data\nFree 1 GB\nP",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3500,
+      "basis": "ai-estimate",
+      "note": "估算依據：1GB 儲存費 12 個月為 $0.18，每日 10 萬讀取請求一年約 $0.18，每日 1 千寫入請求一年約 $0.02。總計約 $0.38/月 x 12 = $4.56。以匯率 30 計算約 $136 TWD，但考慮到 API 呼叫成本可能更高且通常有最低消費或實際使用成本，此處採用保守估算或依據市場上類似免費層級的價值。若單純計算超額費用：儲存 $0.015*12=$0.18 (註：KV 是 $0.50/GB-month 超額部分，免費層是 included，若不用免費層需付 $6/年)。讀取 $0.50/M * 36500 (100k/day * 365) = $18.25。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261125-10",
@@ -4783,7 +4567,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確列出 D1 的免費額度（Free tier），符合免費方案或額度的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Storage\nFree 5 GB (total)\nRows Read\nFree 5 million / day\nRows Written\nFree 100,000 / day",
+          "found": false
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    }
   },
   {
     "id": "cloudflare-plans-20261125-11",
@@ -4809,6 +4618,262 @@
     ],
     "officialUrl": "https://www.cloudflare.com/plans/",
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-25T10:06:02.572Z",
+    "lastVerified": "2026-11-25",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面顯示 Cloudflare Queues 提供「10,000 operations/day included」的免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations\n10,000 operations/day included\n$0.40 / million operations\nStandard Operations\nFree 10,000 operations/day included\nPaid $0.40 / million operations",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 227925,
+      "basis": "ai-estimate",
+      "note": "保守假設一般使用者每日用完 10,000 次免費額度，超出部分依 $0.40/million 計算，一年約價值 $735 美元，換算為新台幣約 227,925 元（以 1 美元=310 台幣估算）。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261125-1",
+    "sourceId": "gemini-plans",
+    "name": "Google Black Friday AI 方案限時折扣",
+    "category": "ai",
+    "summary": "Member early access: 部分 Google AI 方案最高可享 50% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需為 Google One 會員 (Member)。條款適用 (Terms apply)。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "查看頁面頂部的 Black Friday 優惠橫幅",
+      "點擊「See offer」或進入方案頁面選購"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-25T12:05:54.437Z",
+    "lastVerified": "2026-11-25",
+    "risks": "條款適用，可能有限時或庫存限制。",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-25T12:05:18.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及 Black Friday 限時最高 50% 折扣優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday. Terms apply . See offer",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Member early access: Save up to 50% on select Google AI plans for Black Friday. Terms apply . See offer",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5600,
+      "basis": "ai-estimate",
+      "note": "保守估算：假設用戶訂閱基礎方案 Google AI Plus（定價約 $3.99/月，年繳約 $47.88）。若享最高 50% 折扣，第一年的節省金額約為 $23.94。換算成新台幣（約 1 美元 = 22 台幣），節省金額約 526 元。加上原方案本身的第一年價值（約 $47.88 * 22 ≈ 1053 元），總價值約 1579 元。但若考量 Pro 方案（約 $19.99/月），第一年價值約 $239.88 (約 5277 台幣)，折扣 50% 後節省約 2639 台幣，總價值仍為 5277 台幣。保守取中間值或基礎方案價值估算，這裡給定一個保守的價值估算，基於基礎方案的一年價值與折扣後",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261125-2",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案含 Google Cloud 信用額",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案可每月獲得 10 美元的 Google Cloud 信用額（來自 Google Developer Program）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 付費方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-25T12:05:54.437Z",
+    "lastVerified": "2026-11-25",
+    "risks": "此優惠為付費訂閱方案的一部分，非獨立免費贈送。",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261125-3",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案含 Google Cloud 信用額",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案可每月獲得 40 美元的 Google Cloud 信用額（來自 Google Developer Program）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 付費方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-25T12:05:54.437Z",
+    "lastVerified": "2026-11-25",
+    "risks": "此優惠為付費訂閱方案的一部分，非獨立免費贈送。",
+    "status": "pending"
+  },
+  {
+    "id": "gemini-plans-20261125-4",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 學生專屬優惠",
+    "category": "ai",
+    "summary": "學生可透過 Google AI Pro 方案免費獲得 1 年的 AI Pro 服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是學生身分。",
+    "regions": [
+      "視國家或地區而定 (Availability varies by country)"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「See student plans」",
+      "驗證學生身分並註冊"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-25T12:05:54.437Z",
+    "lastVerified": "2026-11-25",
+    "risks": "免費期限為 1 年，之後可能需要付費。",
+    "status": "pending"
+  },
+  {
+    "id": "suno-pricing-20261125-1",
+    "sourceId": "suno-pricing",
+    "name": "Suno 黑五限時優惠",
+    "category": "ai",
+    "summary": "年繳方案額外享有 30% 折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳方案",
+      "完成結帳"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-25T12:06:11.604Z",
+    "lastVerified": "2026-11-25",
+    "risks": "促銷結束時間為 1 天 10 小時 00 分 00 秒",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261125-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Fusion 30% 限時折扣",
+    "category": "ai",
+    "summary": "30% off Copilot Fusion usage",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在 Copilot Fusion 使用時套用折扣"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-25T12:06:28.810Z",
+    "lastVerified": "2026-11-25",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261125-2",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生方案",
+    "category": "ai",
+    "summary": "Verified students have access to the GitHub Copilot Student plan.",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "Must be a verified student",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "Verify student status to access the plan"
+    ],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-25T12:06:28.810Z",
     "lastVerified": "2026-11-25",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"

@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T10:05:19.748Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-25T12:05:18.010Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,8 +25,12 @@
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理（Batch processing）進行高容量工作時，API 價格降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入令牌折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，使用快取輸入令牌（cached input tokens）可減少高達 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Black Friday Member Early Access](https://one.google.com/about/google-ai-plans/) | AI 工具 | 會員可提前享受特定 Google AI 方案最高 50% 的折扣。 | 約 TWD 1,600（AI 估） | 長期活動 | AI 預審通過 |
-| [Suno 黑色星期五促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外獲得 30% 折扣。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案 | 約 TWD 2,700（AI 估） | 長期活動 | AI 預審通過 |
 | [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 免費使用 GPT-6.1 Luna 模型，每月 $0。包含無限文字聊天（有濫用限制）、有限的上傳、圖片生成、語音聊天、深度研究、記憶與上下文 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ElevenLabs 年繳免兩個月](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案可享受兩個月免費（例如 Starter 年繳 $60 等同於 $5/月，原價 $6/月；Scale 年繳 $2,990 等同於  | 約 TWD 384（AI 估） | 長期活動 | 待核實 |
+| [Google Black Friday AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | Member early access: 部分 Google AI 方案最高可享 50% 折扣。 | 約 TWD 5,600（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 方案含 Google Cloud 信用額](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 10 美元的 Google Cloud 信用額（來自 Google Developer P | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案含 Google Cloud 信用額](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 40 美元的 Google Cloud 信用額（來自 Google Developer | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 學生專屬優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可透過 Google AI Pro 方案免費獲得 1 年的 AI Pro 服務。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Suno 黑五限時優惠](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 30% 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | 30% off Copilot Fusion usage | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | Verified students have access to the GitHub Copilot Student plan. | 免費（價值視使用而定） | 長期活動 | 待核實 |
