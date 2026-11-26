@@ -1,6 +1,6 @@
 # H. 已結束活動檔案
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T08:55:46.006Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T10:05:17.716Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 歸檔原因 | 歸檔時間 |
 |---|---|---|---|
@@ -75,3 +75,5 @@
 | [Kraken 節日存款抽獎](https://blog.kraken.com/) | Crypto | endDate passed | 2026-11-25T22:05:17.468Z |
 | [GitHub Copilot Fusion 限時 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | endDate passed | 2026-11-26T02:05:17.784Z |
 | [ChatGPT Business 限時免費加倍用量活動](https://openai.com/chatgpt/pricing/) | AI 工具 | endDate passed | 2026-11-26T08:55:46.006Z |
+| [Gate NVDA 期貨交易挑戰](https://www.gate.com/announcements) | Crypto | endDate passed | 2026-11-26T10:05:17.716Z |
+| [Gate Idle Earn × Simple Earn 限時活動第 3 階段](https://www.gate.com/announcements) | Crypto | endDate passed | 2026-11-26T10:05:17.716Z |

@@ -1891,443 +1891,6 @@
     }
   },
   {
-    "id": "kraken-blog-20261125-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 黑色星期五存款與交易獎賞",
-    "category": "crypto",
-    "summary": "存入 1,000 美元法幣並完成四個堆疊里程碑交易，最高可獲得 100 美元 BTC",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須註冊並存入 1,000 美元法幣，並在活動期間完成指定的交易量里程碑",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-12",
-    "endDate": "2026-12-01",
-    "ongoing": false,
-    "steps": [
-      "註冊並加入活動",
-      "存入 1,000 美元法幣",
-      "在 11 月 12 日至 12 月 1 日期間完成四個堆疊交易量里程碑"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T22:05:17.468Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為限定的黑五存款與交易獎勵活動。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261125-2",
-    "sourceId": "kraken-blog",
-    "name": "Kraken ANTx 交易獎賞",
-    "category": "crypto",
-    "summary": "在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價），有機會贏取總計 5,000 美元獎品",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Pro 平台交易 ANTx 產品",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 Kraken Pro",
-      "交易 ANTx 產品"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T22:05:17.468Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供交易特定產品並參與贏取獎金池的競賽機制，屬於新產品發布或交易活動獎勵性質。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000,
-      "basis": "explicit-amount",
-      "usd": 5000,
-      "quote": "$5,000 in prizes",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261125-4",
-    "sourceId": "kraken-blog",
-    "name": "Kraken Anthropic Pre-IPO 挑戰賽",
-    "category": "crypto",
-    "summary": "在 Kraken Pro 交易 Anthropic 價格曝光（ANTHROPICX，最高 10 倍槓桿），依交易量排名分享總計 20,000 美元獎品池",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在 Kraken Pro 交易 ANTHROPICX，並根據交易量進行排名",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Pro 交易 Anthropic 價格曝光產品",
-      "累積交易量以獲得排名",
-      "分享獎品池"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T22:05:17.468Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "活動提供總計 20,000 美元的獎品池，屬於依交易量排名分享獎勵的競賽型促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 640000,
-      "basis": "explicit-amount",
-      "usd": 20000,
-      "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261125-5",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 500 萬美元 USDG 期貨挑戰賽",
-    "category": "crypto",
-    "summary": "在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USDG 獎品池，依排行榜及三個倍率計算",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在指定期間內交易指定期貨產品，並參與排行榜競爭",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-12",
-    "endDate": "2026-12-10",
-    "ongoing": false,
-    "steps": [
-      "在指定期間內交易黃金、現實世界資產或加密貨幣期貨",
-      "累積交易量以影響排行榜"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-25T22:05:17.468Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一項有明確期限、需要透過交易達標以解鎖獎品池的限時活動。",
-      "passed": true,
-      "coverage": {
-        "found": 3,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "one leaderboard, three multipliers",
-          "found": true
-        },
-        {
-          "field": "endDate",
-          "quote": "December 10, 2026",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 160000000,
-      "basis": "explicit-amount",
-      "usd": 5000000,
-      "quote": "$5,000,000 USDG",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kraken-blog-20261125-6",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 商品交易費率優惠",
-    "category": "crypto",
-    "summary": "黃金、白銀、石油等非加密貨幣市場手續費降至每邊 2bps（基本點），適用於既有帳戶",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "適用於所有帳戶，包括既有的非加密貨幣市場帳戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-10-29",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 Kraken Prop 交易黃金、白銀、WTI 石油、布倫特石油、銅或天然氣"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-25T22:05:17.468Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面指出所有非加密貨幣市場的手續費降至每邊2bps，並適用於既有帳戶，屬於常態定價或費率調整，而非限時的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "including on accounts you already hold.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kraken-blog-20261125-7",
-    "sourceId": "kraken-blog",
-    "name": "Krak 信用卡現金回饋",
-    "category": "crypto",
-    "summary": "Krak 信用卡提供最高 4% 現金回饋，以美元或比特幣支付，無需追蹤積分",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需持有或申請 Krak 信用卡，在購物時使用該卡",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "獲得或使用 Krak 信用卡",
-      "進行購物消費"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-25T22:00:29.311Z",
-    "lastVerified": "2026-11-25",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是信用卡產品的常態現金回饋權益，並非限時的促銷活動或免費額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Meet the new Krak Credit Card: up to 4% cashback on all purchases¹\nNo points to chase. Just real cashback, paid in US dollars or bitcoin.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "racknerd-specials-20261125-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd Black Friday 2026 特價 VPS",
-    "category": "vps-cloud",
-    "summary": "提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.98/年、6 GB 方案 $74.98/年、8 GB 方案 $94.98/年。所有方案均包含完整 Root 存取權限、1 IPv4 位址、免費 Clientexec 授權、KVM 控制介面、1Gbps 網路埠，並可部署於多個地點。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需在倒數計時結束前完成訂單。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇所需的 VPS 規格與位置",
-      "點擊「Order Now」",
-      "在倒數計時結束前完成付款與下單流程"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-25T22:01:03.926Z",
-    "lastVerified": "2026-11-25",
-    "risks": "活動設有倒數計時器，需於限時內完成下單；特價通常為年繳方案，需注意合約期限。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標明為 Black Friday 特促，且包含特定期限倒數。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "1 GB KVM VPS\n$ 15.98 /year... 2.5 GB KVM VPS\n$ 27.98 /year... 4 GB KVM VPS\nMost popular $ 47.98 /year... 6 GB KVM VPS\n$ 74.98 /year... 8 GB KVM VPS\n$ 94.98 /year",
-          "found": false
-        },
-        {
-          "field": "requirements",
-          "quote": "Complete your order within:\n00 Days\n:\n14 Minutes\n:\n16 Seconds",
-          "found": true
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 511,
-      "basis": "explicit-amount",
-      "usd": 15.98,
-      "quote": "1 GB KVM VPS\n$ 15.98 /year",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "suno-pricing-20261126-1",
     "sourceId": "suno-pricing",
     "name": "Suno 黑色星期五促銷（年繳方案額外 30% 折扣）",
@@ -4808,7 +4371,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-26T08:57:36.971Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "屬於針對特定群體（前 VIP 用戶）推出的新戶獎勵或專屬回饋活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "KuCoin is officially launching the VIP Return Program, welcoming former VIP users back to KuCoin! (2026/11/26 10:33:00)",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "welcoming former VIP users back to KuCoin! (2026/11/26 10:33:00)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "ai-estimate",
+      "usd": 10000,
+      "note": "金額沒有在頁面原文逐字找到，僅供參考；頁面已明確寫出最高金額，故不需保守估算。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gate-announce-20261126-1",
@@ -4836,7 +4431,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為「Sign up」即可領取的獎勵，屬於新戶獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up to claim 10,000+ USDT rewards",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320000,
+      "basis": "explicit-amount",
+      "usd": 10000,
+      "quote": "10,000+ USDT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261126-2",
@@ -4864,7 +4487,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "質押資產以領取空投獎勵屬於空投/積分類別的促銷活動",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Launchpool Project #388: XAUT (Tether Gold). Stake USDT, GT, or XAUT to Claim Airdrops",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Stake USDT, GT, or XAUT to Claim Airdrops",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261126-3",
@@ -4892,7 +4540,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供參與抽獎贏得獎勵的機會，屬於限時活動獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Support the Stars of the Year and Enter to Win Surprise Rewards",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Support the Stars of the Year",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261126-4",
@@ -4920,7 +4593,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目為特定專案（BTC/ETH 質押）的限時利率提升（最高達 5.50%），屬於金融優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Raises BTC and ETH Staking APRs: Up to 5.50%",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gate-announce-20261126-5",
@@ -4948,63 +4648,42 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "gate-announce-20261126-6",
-    "sourceId": "gate-announce",
-    "name": "Gate NVDA 期貨交易挑戰",
-    "category": "crypto",
-    "summary": "首次交易獲得 3 USDT，總獎勵高達 8,000 USDT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供基於交易額度的空投獎勵（Airdrop）及最高獎金，屬於典型的激勵性優惠方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
     },
-    "requirements": "進行 NVDA 期貨首次交易",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2026-11-23",
-    "ongoing": false,
-    "steps": [
-      "進行 NVDA 期貨首次交易以獲得 3 USDT"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
-    "lastVerified": "2026-11-26",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
-  },
-  {
-    "id": "gate-announce-20261126-7",
-    "sourceId": "gate-announce",
-    "name": "Gate Idle Earn × Simple Earn 限時活動第 3 階段",
-    "category": "crypto",
-    "summary": "USDT 最高可享 9% 年回報率（APR）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "參與 Idle Earn 或 Simple Earn 產品",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2026-11-02",
-    "ongoing": false,
-    "steps": [
-      "將 USDT 投入 Idle Earn 或 Simple Earn 以獲得最高 9% APR"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
-    "lastVerified": "2026-11-26",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "valueEstimate": {
+      "twd": 141824,
+      "basis": "explicit-amount",
+      "usd": 4432,
+      "quote": "Earn Up to 4,432 USDT in XAUT",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261126-8",
@@ -5032,7 +4711,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "這是針對特定 VIP 層級的會員獎勵活動，不属于常見的促銷類別如免費方案或折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Upgrade to VIP 5 for the First Time",
+          "found": true
+        }
+      ],
+      "flags": [
+        "kind-unclear"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 100000,
+      "basis": "ai-estimate",
+      "note": "獎勵為新 LV 滑雪裝備。假設其價值相當於一般高級品牌冬季運動裝備，保守估算約 10 萬新台幣，但實際價值取決於具體產品與發售情況。",
+      "confidence": "low"
+    }
   },
   {
     "id": "gate-announce-20261126-9",
@@ -5060,7 +4772,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-26T08:57:57.533Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T10:05:17.716Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠為新幣種上線或特定活動提供的無條件註冊空投與交易獎勵，屬於空投積分與新戶獎勵類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "SNXX Futures Hot Coin Airdrop: Register to Get 5 USDT, Up to 240 USDT Per Person",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Register to Get 5 USDT, Up to 240 USDT Per Person",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 7680,
+      "basis": "explicit-amount",
+      "usd": 240,
+      "quote": "Up to 240 USDT Per Person",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "gate-announce-20261126-10",
@@ -5140,6 +4885,210 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「ZA Bank 優惠頁」，待人工核實，提取時間 2026-11-26T08:58:14.653Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261126-1",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 假日存款贏取 €500,000 活動",
+    "category": "crypto",
+    "summary": "每存入 1 歐元即為一次入場機會，有機會贏得 500,000 歐元獎項。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在截止日前入會並存入資金。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2026-01-07",
+    "ongoing": false,
+    "steps": [
+      "入會",
+      "存入資產"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-26T10:06:36.420Z",
+    "lastVerified": "2026-11-26",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261126-2",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 交易 ANTx 贏取 $5,000 獎金活動",
+    "category": "crypto",
+    "summary": "交易追蹤 Anthropic 股價的 ANTx，總共提供 $5,000 獎金。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 Kraken Pro 平台交易 ANTx。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 ANTx"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-26T10:06:36.420Z",
+    "lastVerified": "2026-11-26",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261126-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 黑五存款與交易獎金活動",
+    "category": "crypto",
+    "summary": "存入 1,000 法幣並通過四個階段的交易里程碑，最高可獲得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需入會並存入至少 1,000 法幣，完成交易里程碑。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-12",
+    "endDate": "2026-12-01",
+    "ongoing": false,
+    "steps": [
+      "入會",
+      "存入 1,000 法幣",
+      "完成四個階段的交易里程碑"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-26T10:06:36.420Z",
+    "lastVerified": "2026-11-26",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261126-4",
+    "sourceId": "kraken-blog",
+    "name": "Kraken Anthropic 預 IPO 挑戰賽",
+    "category": "crypto",
+    "summary": "在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在 Kraken Pro 交易，依成交量排名。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 Kraken Pro 交易 Anthropic 價格暴露",
+      "依成交量排名"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-26T10:06:36.420Z",
+    "lastVerified": "2026-11-26",
+    "risks": "使用槓桿交易有風險。",
+    "status": "pending"
+  },
+  {
+    "id": "kraken-blog-20261126-5",
+    "sourceId": "kraken-blog",
+    "name": "Kraken USDG 期貨挑戰賽",
+    "category": "crypto",
+    "summary": "交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在指定期間內交易相關期貨產品。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-10-12",
+    "endDate": "2026-12-10",
+    "ongoing": false,
+    "steps": [
+      "交易黃金、現實世界資產或加密貨幣期貨"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-26T10:06:36.420Z",
+    "lastVerified": "2026-11-26",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261126-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd Black Friday VPS 限時折扣",
+    "category": "vps-cloud",
+    "summary": "1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6 GB KVM VPS $74.98/年、8 GB KVM VPS $94.98/年，包含免費 Clientexec 授權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在倒數計時結束前完成訂單。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 VPS 方案（1 GB, 2.5 GB, 4 GB, 6 GB, 8 GB KVM VPS）",
+      "點擊 Order Now",
+      "在倒數計時結束前完成付款"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-26T10:07:11.643Z",
+    "lastVerified": "2026-11-26",
+    "risks": "活動有明確的倒數計時限制（00 Days : 14 Minutes : 23 Seconds），過期後價格可能恢復正常。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261126-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd AdminBolt 30 天免費試用",
+    "category": "vps-cloud",
+    "summary": "透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需擁有適合的 VPS 方案（至少 2+ vCPU, 2+ GB RAM，安裝於 AlmaLinux 9）。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂購 RackNerd KVM VPS",
+      "在 ctrl 面板中進入 One-Click Apps",
+      "選擇並安裝 AdminBolt"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-26T10:07:11.643Z",
+    "lastVerified": "2026-11-26",
+    "risks": "30 天试用期結束後可能自動轉為付費方案，需注意訂閱變更。",
     "status": "pending"
   }
 ]
