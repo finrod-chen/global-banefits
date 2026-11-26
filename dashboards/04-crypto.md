@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T20:05:15.797Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T21:57:17.073Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,8 +13,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [KuCoin VerityAI (VERITY) 上線活動贈送 92,000 VERITY](https://www.kucoin.com/announcement) | Crypto | 上線活動贈送總計 92,000 VERITY 代幣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin VIP 回流計畫最高 10,000 USDT 獎勵](https://www.kucoin.com/announcement) | Crypto | 前 VIP 用戶重返 KuCoin 可領取最高 10,000 USDT 專屬獎勵，包含 BTC 及熱門美股代幣 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Launchpool 項目 #388: XAUT 質押空投](https://www.gate.com/announcements) | Crypto | 質押 USDT, GT, 或 XAUT 以領取 XAUT 空投獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate 2026 年度盛典活動](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎贏得驚喜獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -27,3 +25,5 @@
 | [Kraken 黑五存款與交易獎金活動](https://blog.kraken.com/) | Crypto | 存入 1,000 法幣並通過四個階段的交易里程碑，最高可獲得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日。 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
 | [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
+| [VerityAI (VERITY) Listing Campaign — 92,000 VERITY Giveaway](https://www.kucoin.com/announcement) | Crypto | 提供 92,000 VERITY 的贈送活動 (Giveaway)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [KuCoin VIP Return Program](https://www.kucoin.com/announcement) | Crypto | 歡迎前 VIP 用戶返回 KuCoin，可領取最高 10,000 USDT 的獨家獎勵，包括比特幣 (BTC) 及熱門美國股票代幣。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |

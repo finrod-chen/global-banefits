@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T20:05:15.797Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T21:57:17.073Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -13,8 +13,6 @@
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每位使用者每月 $0。包含有限儲存空間、AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布網頁、Notion 日曆、資料庫功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式可節省最高 20%。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
 | [Humble Bundle BFCM 年度訂閱優惠](https://www.humblebundle.com/) | 軟體/數位服務 | 以 114.99 美元購買 1 年的 Humble Choice 訂閱，每個月可獲得精選 PC 遊戲。會員在商店購物可節省最多 20%，且  | 約 TWD 3,680（AI 估） | 2026-11-30 | 待核實 |
-| [KuCoin VerityAI (VERITY) 上線活動贈送 92,000 VERITY](https://www.kucoin.com/announcement) | Crypto | 上線活動贈送總計 92,000 VERITY 代幣 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin VIP 回流計畫最高 10,000 USDT 獎勵](https://www.kucoin.com/announcement) | Crypto | 前 VIP 用戶重返 KuCoin 可領取最高 10,000 USDT 專屬獎勵，包含 BTC 及熱門美股代幣 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Launchpool 項目 #388: XAUT 質押空投](https://www.gate.com/announcements) | Crypto | 質押 USDT, GT, 或 XAUT 以領取 XAUT 空投獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate 2026 年度盛典活動](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎贏得驚喜獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
@@ -48,3 +46,8 @@
 | [AWS AI 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上的 AWS 額度，投資規模隨新創公司工作負載大小而擴展，曾提供從數千到數百萬美元的額度方案。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案上限、無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、5 GB 輸出流量、5 GB 快取 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase 付費方案計算積分](https://supabase.com/pricing) | VPS/雲服務 | Pro 及更高階付費方案每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例或抵銷其他實例的成本。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [OpenAI ChatGPT Business 2倍用量與快速模式限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 11月30日前註冊ChatGPT Business，可免費獲得所有席位的2倍包含用量與快速模式，有效期至12月31日，無需額外費用。 | 約 TWD 2,900（AI 估） | 2024-12-31 | 待核實 |
+| [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 年繳方案每月 $17（預先支付 $200），比月繳 $20 更划算。 | 約 TWD 96（AI 估） | 長期活動 | 待核實 |
+| [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣。Starter 年繳原價 $60，現價 $5/月（含 2 個月免費）；Creator 年繳第一年 $99 | 免費（價值視使用而定） | 2026-12-01 | AI 預審通過 |
+| [VerityAI (VERITY) Listing Campaign — 92,000 VERITY Giveaway](https://www.kucoin.com/announcement) | Crypto | 提供 92,000 VERITY 的贈送活動 (Giveaway)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [KuCoin VIP Return Program](https://www.kucoin.com/announcement) | Crypto | 歡迎前 VIP 用戶返回 KuCoin，可領取最高 10,000 USDT 的獨家獎勵，包括比特幣 (BTC) 及熱門美國股票代幣。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
