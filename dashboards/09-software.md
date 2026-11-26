@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T04:05:23.771Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T06:05:16.369Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -16,5 +16,5 @@
 | [Microsoft 365 免費或折扣生產力應用程式](https://education.github.com/pack) | 軟體/數位服務 | 學生可免費或折扣取得內建 AI 助理 Copilot 的生產力應用程式（如 Word, Excel, PowerPoint），1TB 雲端儲 | 約 TWD 15,000（AI 估） | 長期活動 | 待核實 |
 | [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 在學期間可免費使用 GitHub Pro。 | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion 教育版方案，包含 Plus 版所有功能、增加共享與協作能力、更長的頁面歷史，以及額外的 AI 回應額度。 | 約 TWD 3,500（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Student 方案](https://education.github.com/pack) | 軟體/數位服務 | 驗證學生可用。包含無限代碼補全、GitHub AI 額度，以及有限的聊天與代理功能使用權限（僅限自動模型選擇模式）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DataCamp 免費存取期](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，提供 3 個月免費存取。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Student 方案](https://education.github.com/pack) | 軟體/數位服務 | 驗證學生可用。包含無限代碼補全、GitHub AI 額度，以及有限的聊天與代理功能使用權限（僅限自動模型選擇模式）。 | 約 TWD 12,000（AI 估） | 長期活動 | AI 預審通過 |
+| [DataCamp 免費存取期](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，提供 3 個月免費存取。 | 約 TWD 2,500（AI 估） | 長期活動 | AI 預審通過 |

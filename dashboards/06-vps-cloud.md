@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T04:05:23.771Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T06:05:16.369Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,11 +26,11 @@
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間，每日 10 萬次讀取請求，每日 1,000 次寫入/刪除/列表請求 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間，每日 500 萬行讀取，每日 10 萬行寫入 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean Kubernetes 免費控制平面與頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | Kubernetes 方案提供免費的控制平面（Free control plane）及免費頻寬額度（free bandwidth allow | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費出站資料傳輸額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費的出站資料傳輸額度，起跳點為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費出站資料傳輸額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | Droplets 包含免費的出站資料傳輸額度，起跳點為每月 500 GiB。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費容器註冊表](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費容器註冊表（Free container registry），包含 1 個儲存庫與 500 MiB 的儲存空間。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費雲端防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆（Free cloud firewalls）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度，且不額外收取函式調用費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean 免費静态網站與 VPC 頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置並部署 3 個靜態網站；資料中心內及跨資料中心的 VPC 資料傳輸免費；Ingress 資料傳輸免費；免費建立無限量的 VPC。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean 免費雲端防火牆](https://www.digitalocean.com/pricing) | VPS/雲服務 | 提供免費雲端防火牆（Free cloud firewalls）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月提供 90,000 GiB-seconds 的免費使用額度，且不額外收取函式調用費用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean 免費静态網站與 VPC 頻寬](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建置並部署 3 個靜態網站；資料中心內及跨資料中心的 VPC 資料傳輸免費；Ingress 資料傳輸免費；免費建立無限量的 VPC。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean 免費保留 IP 與 DNS](https://www.digitalocean.com/pricing) | VPS/雲服務 | 指派給 Droplet 的保留 IP 免費；DNS 管理免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate 新創額度 (Activate Founders)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 $5,000 USD 的 AWS 額度。起始為 $1,000 USD，部分選定參與者符合資格可獲得最多 $5,000 USD 的額外額 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate 新創額度 (Activate Portfolio)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最高 $200,000 USD 的 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

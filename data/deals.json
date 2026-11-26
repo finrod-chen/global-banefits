@@ -4764,7 +4764,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-26T04:06:11.621Z",
     "lastVerified": "2026-11-26",
     "risks": "AI 額度用完後可能影響高級功能使用",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案專為驗證後的學生設計，提供通常為付費功能的免費或限額使用權，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "The plan includes unlimited code completions and an allowance of GitHub AI Credits, plus limited chat and agent usage with models available through auto model selection only.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "GitHub Copilot Student is available to verified students.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 12000,
+      "basis": "ai-estimate",
+      "note": "GitHub Copilot 個人訂閱年費約為 100 美元（約 3,000 元台幣），學生方案雖有限制但提供完整核心功能，保守估算第一年價值約 12,000 台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "github-education-20261126-9",
@@ -4793,7 +4824,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub 學生包」，待人工核實，提取時間 2026-11-26T04:06:11.621Z",
     "lastVerified": "2026-11-26",
     "risks": "免費期結束後若未取消訂閱將自動轉為付費",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定時限的免費存取期，屬於試用或學生優惠性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "DataCamp has partnered with GitHub Education to offer three months of free access when you sign up for a DataCamp subscription with your GitHub student account.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2500,
+      "basis": "ai-estimate",
+      "note": "DataCamp 訂閱費約每月 $49 美元，3 個月價值約 $147 美元，依保守匯率 1 USD=17 TWD 估算為 2499 台幣，取整為 2500。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-1",
@@ -4821,7 +4883,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出 Kubernetes 的起跳價為 $12 /month，免費控制平面與頻寬是該付費方案的標準功能，並非獨立的免費優惠或額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free control plane, free bandwidth allowance, and more",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-2",
@@ -4849,7 +4933,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供每用戶每月 500 GiB 的免費出站資料傳輸額度，屬於免費額度方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Industry leading bandwidth pricing, Droplets include free outbound data transfer, starting at 500 GiB / mo",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-3",
@@ -4877,7 +4981,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是DigitalOcean定價頁面中列出的常態免費功能（Included at no additional cost），屬於一般方案權益而非限時優惠或新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free container registry with 1 repository and 500 MiB storage",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-4",
@@ -4905,7 +5031,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示該雲端防火牆功能為免費（Free），屬於免費方案或額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free cloud firewalls",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-5",
@@ -4933,7 +5079,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示為「Platform benefits」且「included at no additional cost」，屬於免費使用額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Use 90,000 GiB-seconds per month for free with DigitalOcean Functions. There are no additional charges for function invocations",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-6",
@@ -4962,7 +5128,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-26T04:07:04.396Z",
     "lastVerified": "2026-11-26",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T06:05:16.369Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供免費的靜態網站建置數量與無限量的 VPC 建立額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261126-7",
