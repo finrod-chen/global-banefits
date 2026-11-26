@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T00:05:21.192Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T02:05:17.784Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,5 +29,4 @@
 | [Claude Max API 贈送 $100 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案每月含 $100 API 額度，用於在 Claude Platform 開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra API 贈送 $200 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案每月含 $200 API 額度，用於在 Claude Platform 開發。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno 黑色星期五促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。 | 約 TWD 1,528（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 限時 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 約 TWD 3,000（AI 估） | 2025-12-31 | 待核實 |
 | [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

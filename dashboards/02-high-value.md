@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T00:05:21.192Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T02:05:17.784Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -41,17 +41,6 @@
 | [Gate Convert & Auto-Invest 0 Fee 免手續費交易](https://www.gate.com/announcements) | Crypto | 貨幣兌換與自動投資零手續費且無滑點 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 0 美元方案，包含無計量 DDoS 防護、CDN、Universal SSL 憑證、免費管理規則集、Web 應用防火牆、無損圖像優 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永遠免費 (0 美元) 的方案，適用於 50 名以下使用者的小團隊或企業概念驗證測試，包含社群論壇及 Discord 支援、最多 24  | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求及每請求 10 ms CPU 時間免費。 | 約 TWD 2,600（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間及 1 TB 網路出站流量。 | 約 TWD 4,450（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M SQL 讀取列、100K SQL 寫入列、5 GB SQL 儲存資料 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間及 3 個並行瀏覽器免費。 | 約 TWD 5,800（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、每次調用 10 ms CPU 時間及 1 GB 儲存空間免費。 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次標準 Class A 操作及 1,000 萬次標準 Class B 操作免費。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求免費。 | 約 TWD 3,500（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬列讀取及每日 10 萬列寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 約 TWD 227,925（AI 估） | 長期活動 | AI 預審通過 |
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自助資金創新的新創公司可獲得最高 5,000 美元額度，起始提供 1,000 美元額度，部分符合資格的參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 由投資機構支持的 Pre-Series B 新創公司可獲得最高 200,000 美元額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -89,9 +78,16 @@
 | [Krak 信用卡現金回饋](https://blog.kraken.com/) | Crypto | Krak 信用卡提供最高 4% 現金回饋，以美元或比特幣支付，無需追蹤積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 約 TWD 511（AI 估） | 長期活動 | 待核實 |
 | [Suno 黑色星期五促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。 | 約 TWD 1,528（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot Fusion 限時 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 約 TWD 3,000（AI 估） | 2025-12-31 | 待核實 |
 | [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 註冊並開啟帳戶不收取費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（或等值貨幣）時，將獲得費用折扣。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Wise Assets 收益方案](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 貨幣中賺取即時存取收益，目前 GBP 變動利率為 3.47%。 | 約 TWD 35,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS 新戶免費信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 新戶免費信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求，每次請求 10ms CPU 時間 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-小時記憶體、375 vCPU-分鐘、200 GB-小時磁碟空間、1 TB 網路輸出流量 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求、13,000 GB-秒執行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存空間、 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間，3 個並列瀏覽器 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求，每次 10ms CPU 時間，1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作 | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間，每日 10 萬次讀取請求，每日 1,000 次寫入/刪除/列表請求 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間，每日 500 萬行讀取，每日 10 萬行寫入 | 免費（價值視使用而定） | 長期活動 | 待核實 |

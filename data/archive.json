@@ -3270,5 +3270,66 @@
     "status": "expired",
     "archivedAt": "2026-11-25T22:05:17.468Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "copilot-plans-20261126-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Fusion 限時 30% 折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用量享有 30% 折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-31",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-26T00:06:28.021Z",
+    "lastVerified": "2026-11-26",
+    "risks": "",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-26T00:05:21.192Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Copilot Fusion 使用量享有 30% 折扣至 12 月 31 日，屬於限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30% off Copilot Fusion usage until Dec 31. Learn more",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "until Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3000,
+      "basis": "ai-estimate",
+      "note": "假設一般使用者每月在 Copilot Fusion 上花費約 25 美元（基於 Pro 方案 $10 加上額外用量或 Pro+ 基礎折扣），30% 折扣約為 7.5 美元/月，一年約 90 美元，換算成新台幣約 2,700 元，保守取整為 3,000 元。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-26T02:05:17.784Z",
+    "archiveReason": "endDate passed"
   }
 ]
