@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T21:57:17.073Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T22:05:15.594Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,22 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，不需信用卡。每個專案每月 100 CU-小時（CU-hrs）、1 GB 儲存空間、最多 2 CU（8 GB RAM）、100 個專 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業，提供最高 $100,000 的點數（credits）獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護開源專案的人提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 所有訂閱方案（Mac、Mac + iOS、Power User）均提供 7 天免費試用。 | 約 TWD 700（AI 估） | 長期活動 | AI 預審通過 |
-| [Setapp 年繳折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年繳訂閱可節省最高 40% 的費用（Save up to 40% yearly）。 | 約 TWD 3,500（AI 估） | 長期活動 | 待核實 |
-| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每位使用者每月 $0。包含有限儲存空間、AI 功能試用（如生成文件、自動填充資料庫）、基本表單、發布網頁、Notion 日曆、資料庫功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款模式可節省最高 20%。 | 約 TWD 1,500（AI 估） | 長期活動 | 待核實 |
-| [Humble Bundle BFCM 年度訂閱優惠](https://www.humblebundle.com/) | 軟體/數位服務 | 以 114.99 美元購買 1 年的 Humble Choice 訂閱，每個月可獲得精選 PC 遊戲。會員在商店購物可節省最多 20%，且  | 約 TWD 3,680（AI 估） | 2026-11-30 | 待核實 |
-| [Gate 註冊領取 10,000+ USDT 獎勵](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate Launchpool 項目 #388: XAUT 質押空投](https://www.gate.com/announcements) | Crypto | 質押 USDT, GT, 或 XAUT 以領取 XAUT 空投獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate 2026 年度盛典活動](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎贏得驚喜獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Gate BTC 和 ETH 質押利率提升](https://www.gate.com/announcements) | Crypto | BTC 和 ETH 質押年利率（APR）最高提升至 5.50% | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 交易以分享總價值 850,000 USDx 的獎勵，最高可得 4,432 USDT 的 XAUT 獎勵 | 約 TWD 141,824（AI 估） | 長期活動 | 待核實 |
-| [Gate 感恩節 VIP 歡迎季](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 可解鎖新 LV 滑雪裝備獎勵 | 約 TWD 100,000（AI 估） | 長期活動 | 待核實 |
-| [Gate SNXX 期貨熱門幣種空投](https://www.gate.com/announcements) | Crypto | 註冊即可獲得 5 USDT，每人最高 240 USDT | 約 TWD 7,680（AI 估） | 長期活動 | AI 預審通過 |
-| [Gate ZEC 期貨電力站第 3 階段](https://www.gate.com/announcements) | Crypto | 首次交易獲得 3 USDT，總獎勵高達 8,000 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kraken 交易 ANTx 贏取 $5,000 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總共提供 $5,000 獎金。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -83,8 +67,13 @@
 | [AWS AI 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上的 AWS 額度，投資規模隨新創公司工作負載大小而擴展，曾提供從數千到數百萬美元的額度方案。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案上限、無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、5 GB 輸出流量、5 GB 快取 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Supabase 付費方案計算積分](https://supabase.com/pricing) | VPS/雲服務 | Pro 及更高階付費方案每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例或抵銷其他實例的成本。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [OpenAI ChatGPT Business 2倍用量與快速模式限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 11月30日前註冊ChatGPT Business，可免費獲得所有席位的2倍包含用量與快速模式，有效期至12月31日，無需額外費用。 | 約 TWD 2,900（AI 估） | 2024-12-31 | 待核實 |
 | [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 年繳方案每月 $17（預先支付 $200），比月繳 $20 更划算。 | 約 TWD 96（AI 估） | 長期活動 | 待核實 |
 | [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣。Starter 年繳原價 $60，現價 $5/月（含 2 個月免費）；Creator 年繳第一年 $99 | 免費（價值視使用而定） | 2026-12-01 | AI 預審通過 |
 | [VerityAI (VERITY) Listing Campaign — 92,000 VERITY Giveaway](https://www.kucoin.com/announcement) | Crypto | 提供 92,000 VERITY 的贈送活動 (Giveaway)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [KuCoin VIP Return Program](https://www.kucoin.com/announcement) | Crypto | 歡迎前 VIP 用戶返回 KuCoin，可領取最高 10,000 USDT 的獨家獎勵，包括比特幣 (BTC) 及熱門美國股票代幣。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案，每個專案每月 100 CU-hrs 計算資源、1 GB 儲存空間、最多 2 CU (8 GB RAM) 的計算大小 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Neon 早期創業公司計劃 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 開源專案計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 提供對您維護的開源專案的贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Humble Bundle BFCM 促銷](https://www.humblebundle.com/) | 軟體/數位服務 | 以 $114.99 美元購買 1 年 Humble Choice 會員，每個月不到 $10 美元。使用折扣碼 HOLIDAY26 可將 1  | 約 TWD 3,680（AI 估） | 2026-11-30 | AI 預審通過 |
+| [Setapp 免費試用與 AI 積分](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，並隨方案贈送 1,000 或 2,000 點 AI 積分。年繳可節省高達 40%。 | 約 TWD 100（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供免費方案，價格為 $0 每人/月，適用於個人組織個人項目和生活的整理。包含有限的儲存空間、Notion AI 功能試用、基本表單、發布至 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |

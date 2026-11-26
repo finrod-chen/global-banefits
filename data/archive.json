@@ -3482,5 +3482,71 @@
     "status": "expired",
     "archivedAt": "2026-11-26T12:05:20.575Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261126-1",
+    "sourceId": "openai-pricing",
+    "name": "OpenAI ChatGPT Business 2倍用量與快速模式限時優惠",
+    "category": "ai",
+    "summary": "11月30日前註冊ChatGPT Business，可免費獲得所有席位的2倍包含用量與快速模式，有效期至12月31日，無需額外費用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "11月30日前完成ChatGPT Business註冊。"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-26T21:57:42.118Z",
+    "lastVerified": "2026-11-26",
+    "risks": "需在截止日期前完成註冊，逾期無法參與。,此優惠僅限Business方案。",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-26T21:57:17.073Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "限時提供額外用量與功能，屬於新戶獎勵與限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up for ChatGPT Business by Nov 30 and get 2x included usage and fast mode at no extra cost for all seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 2900,
+      "basis": "ai-estimate",
+      "note": "假設 Business 方案月費約 25 美元，12 月一個月免費提供 2 倍用量與快速模式，價值約 50 美元（25 美元基礎 + 25 美元等值額外加量），換算台幣約 2900 元。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-26T22:05:15.594Z",
+    "archiveReason": "endDate passed"
   }
 ]
