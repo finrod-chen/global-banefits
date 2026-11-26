@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T10:05:17.716Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T12:05:20.575Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -35,5 +35,5 @@
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，不需信用卡。每個專案每月 100 CU-小時（CU-hrs）、1 GB 儲存空間、最多 2 CU（8 GB RAM）、100 個專 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 針對早期新創企業，提供最高 $100,000 的點數（credits）獎勵。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護開源專案的人提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

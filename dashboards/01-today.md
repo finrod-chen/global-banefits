@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T10:05:17.716Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T12:05:20.575Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -59,11 +59,10 @@
 | [Gate SNXX 期貨熱門幣種空投](https://www.gate.com/announcements) | Crypto | 註冊即可獲得 5 USDT，每人最高 240 USDT | 約 TWD 7,680（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate ZEC 期貨電力站第 3 階段](https://www.gate.com/announcements) | Crypto | 首次交易獲得 3 USDT，總獎勵高達 8,000 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 假日存款贏取 €500,000 活動](https://blog.kraken.com/) | Crypto | 每存入 1 歐元即為一次入場機會，有機會贏得 500,000 歐元獎項。 | 免費（價值視使用而定） | 2026-01-07 | 待核實 |
-| [Kraken 交易 ANTx 贏取 $5,000 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總共提供 $5,000 獎金。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 黑五存款與交易獎金活動](https://blog.kraken.com/) | Crypto | 存入 1,000 法幣並通過四個階段的交易里程碑，最高可獲得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日。 | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
-| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
-| [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kraken 交易 ANTx 贏取 $5,000 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總共提供 $5,000 獎金。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 黑五存款與交易獎金活動](https://blog.kraken.com/) | Crypto | 存入 1,000 法幣並通過四個階段的交易里程碑，最高可獲得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日。 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
+| [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
