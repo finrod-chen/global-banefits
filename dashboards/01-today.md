@@ -1,18 +1,10 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T14:05:16.665Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T16:05:19.197Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求，每次請求 10ms CPU 時間 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-小時記憶體、375 vCPU-分鐘、200 GB-小時磁碟空間、1 TB 網路輸出流量 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求、13,000 GB-秒執行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存空間、 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間，3 個並列瀏覽器 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workflows 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求，每次 10ms CPU 時間，1 GB 儲存空間 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作、1,000 萬次 Class B 操作 | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間，每日 10 萬次讀取請求，每日 1,000 次寫入/刪除/列表請求 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間，每日 500 萬行讀取，每日 10 萬行寫入 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
 | [Namecheap 免費域名與 SSL 優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級域名註冊免費；1 年免費 SSL 憑證。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Name.com 免費域名優惠](https://education.github.com/pack) | 軟體/數位服務 | 提供包含 .live, .studio, .software, .app, .dev 等超過 25 種域名延伸的免費專案域名。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Microsoft Azure 雲端服務與額度優惠](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上微軟 Azure 雲端服務，並提供 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
@@ -62,3 +54,5 @@
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno Black Friday 促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。 | 約 TWD 550（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS 免費帳戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 100,000 次 Workers 請求/天、10ms CPU 時間/請求、25 GiB-hrs 容器記憶體、375 vC | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於 50 名以下用戶的團隊或企業概念驗證測試，包含社群論壇及 Discord 支援，標準日誌保留最多 24 小時。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
