@@ -3331,5 +3331,65 @@
     },
     "archivedAt": "2026-11-26T02:05:17.784Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261126-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時免費加倍用量活動",
+    "category": "ai",
+    "summary": "11月30日前訂閱ChatGPT Business方案，可在12月31日前免費享有2倍用量及快速模式，所有席位均適用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2024-11-01",
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [
+      "在11月30日前訂閱ChatGPT Business方案。"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-26T08:05:48.138Z",
+    "lastVerified": "2026-11-26",
+    "risks": "需在截止日期前完成訂閱，且優惠期限為12月31日",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-26T08:05:17.887Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供限時免費加倍用量及快速模式，屬於新戶獎勵或限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up for ChatGPT Business by Nov 30 and get 2x included usage and fast mode at no extra cost for all seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "archivedAt": "2026-11-26T08:55:46.006Z",
+    "archiveReason": "endDate passed"
   }
 ]

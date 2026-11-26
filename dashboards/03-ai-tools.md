@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T08:05:17.887Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T08:55:46.006Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -24,9 +24,5 @@
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳折扣](https://claude.com/pricing) | AI 工具 | 年訂閱每月 $17，先一次性支付 $200（約 11.76 個月）；月繳為 $20/月。年繳比月繳便宜。 | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
-| [Claude Max API 贈送 $100 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案每月含 $100 API 額度，用於在 Claude Platform 開發。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra API 贈送 $200 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案每月含 $200 API 額度，用於在 Claude Platform 開發。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno 黑色星期五促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。 | 約 TWD 1,528（AI 估） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [ChatGPT Business 限時免費加倍用量活動](https://openai.com/chatgpt/pricing/) | AI 工具 | 11月30日前訂閱ChatGPT Business方案，可在12月31日前免費享有2倍用量及快速模式，所有席位均適用。 | 免費（價值視使用而定） | 2024-11-30 | 待核實 |
