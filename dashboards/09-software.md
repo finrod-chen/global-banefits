@@ -1,6 +1,6 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T02:05:17.784Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T04:05:23.771Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -9,3 +9,12 @@
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，期間包含 1,000 或 2,000 個 AI 額度（視方案而定） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 每月 0 美元，提供有限儲存空間（512 MB）、10 位外部訪客、7 天頁面歷史、1 個已發布頁面與 1 個 notion.site 域名 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Notion 年繳折扣](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇年繳付款方式可節省最高 20% 的費用。 | 約 TWD 2,200（AI 估） | 長期活動 | 待核實 |
+| [Namecheap 免費域名與 SSL 優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年 .me 頂級域名註冊免費；1 年免費 SSL 憑證。 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
+| [Name.com 免費域名優惠](https://education.github.com/pack) | 軟體/數位服務 | 提供包含 .live, .studio, .software, .app, .dev 等超過 25 種域名延伸的免費專案域名。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Microsoft Azure 雲端服務與額度優惠](https://education.github.com/pack) | 軟體/數位服務 | 免費存取 25 項以上微軟 Azure 雲端服務，並提供 100 美元 Azure 額度。 | 約 TWD 3,200（AI 估） | 長期活動 | AI 預審通過 |
+| [.TECH 免費域名優惠](https://education.github.com/pack) | 軟體/數位服務 | 1 年標準 .TECH 域名免費。 | 約 TWD 400（AI 估） | 長期活動 | AI 預審通過 |
+| [Microsoft 365 免費或折扣生產力應用程式](https://education.github.com/pack) | 軟體/數位服務 | 學生可免費或折扣取得內建 AI 助理 Copilot 的生產力應用程式（如 Word, Excel, PowerPoint），1TB 雲端儲 | 約 TWD 15,000（AI 估） | 長期活動 | 待核實 |
+| [GitHub Pro 免費方案](https://education.github.com/pack) | 軟體/數位服務 | 在學期間可免費使用 GitHub Pro。 | 約 TWD 2,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Notion Education 方案](https://education.github.com/pack) | 軟體/數位服務 | 提供 Notion 教育版方案，包含 Plus 版所有功能、增加共享與協作能力、更長的頁面歷史，以及額外的 AI 回應額度。 | 約 TWD 3,500（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Student 方案](https://education.github.com/pack) | 軟體/數位服務 | 驗證學生可用。包含無限代碼補全、GitHub AI 額度，以及有限的聊天與代理功能使用權限（僅限自動模型選擇模式）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DataCamp 免費存取期](https://education.github.com/pack) | 軟體/數位服務 | 使用 GitHub 學生帳號訂閱 DataCamp 時，提供 3 個月免費存取。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
