@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T18:05:17.507Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T20:05:15.797Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -80,8 +80,8 @@
 | [DigitalOcean Uptime Monitoring 免費檢查](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check（持續時間檢查）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Secrets Manager 每月免費配額](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個計費帳戶每月包含 25 個 secret-month 當量及 100,000 次成功檢索請求。 | 約 TWD 570（AI 估） | 長期活動 | 待核實 |
 | [DigitalOcean 免費保留 IP 位址](https://www.digitalocean.com/pricing) | VPS/雲服務 | 當保留 IP 位址被指派給 Droplet 時，不收取費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 新創額度 (Activate Founders)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 美元 AWS 額度，起始提供 1,000 美元額度，特定參與者可能符合資格獲得額外的 5,000 美元額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate 新創額度 (Activate Portfolio)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元 AWS 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS AI 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上的 AWS 額度，投資規模隨新創公司工作負載大小而擴展，曾提供從數千到數百萬美元的額度方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案上限、無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、5 GB 輸出流量、5 GB 快取 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 付費方案計算積分](https://supabase.com/pricing) | VPS/雲服務 | Pro 及更高階付費方案每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例或抵銷其他實例的成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate 新創額度 (Activate Founders)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 5,000 美元 AWS 額度，起始提供 1,000 美元額度，特定參與者可能符合資格獲得額外的 5,000 美元額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate 新創額度 (Activate Portfolio)](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供最高 200,000 美元 AWS 額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS AI 新創額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 200,000 美元以上的 AWS 額度，投資規模隨新創公司工作負載大小而擴展，曾提供從數千到數百萬美元的額度方案。 | 約 TWD 6,400,000（AI 估） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 2 個專案上限、無限 API 請求、50,000 月活躍用戶、500 MB 資料庫大小、5 GB 輸出流量、5 GB 快取 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 付費方案計算積分](https://supabase.com/pricing) | VPS/雲服務 | Pro 及更高階付費方案每月包含 $10 的計算積分，足以覆蓋一個 Micro 實例或抵銷其他實例的成本。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
