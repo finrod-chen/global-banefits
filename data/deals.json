@@ -1891,334 +1891,6 @@
     }
   },
   {
-    "id": "suno-pricing-20261126-1",
-    "sourceId": "suno-pricing",
-    "name": "Suno 黑色星期五促銷（年繳方案額外 30% 折扣）",
-    "category": "ai",
-    "summary": "年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro、Premier 或 Platinum 的年繳方案",
-      "在結帳時套用黑色星期五額外 30% 折扣"
-    ],
-    "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-26T00:06:10.628Z",
-    "lastVerified": "2026-11-26",
-    "risks": "促銷有截止日期（頁面顯示剩餘時間 1d 10h 00m 00s）,付費方案為自動續約，可隨時取消",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示為「Black Friday Sale」並強調「biggest sale of the year」，屬於限時折扣活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Extra 30% off annual plans\nBlack Friday Sale\nGet more Suno for less in our biggest sale of the year.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1528,
-      "basis": "ai-estimate",
-      "note": "以 Pro 方案年繳 $96 年（折前）為例，30% 折扣後約為 $67.2 年。保守按 $67.2 乘以 20 TWD/USD 換算，約 1,344 元；或按 $78.4 折前（若折扣是基於月價 $10 的 30% 為 $7，年繳 $84）換算約 1,680。取中間偏保守估計 1,528 元（假設約 $76.4 的美金價值）。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "copilot-plans-20261126-2",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot 學生專屬方案",
-    "category": "ai",
-    "summary": "經驗證的學生可存取 GitHub Copilot 學生方案。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需為經驗證的學生。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-26T00:06:28.021Z",
-    "lastVerified": "2026-11-26",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提及經驗證學生可存取學生方案，屬於特定群體的優惠或專屬方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Verified students have access to the GitHub Copilot Student plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261126-1",
-    "sourceId": "wise-home",
-    "name": "Wise 免費帳戶",
-    "category": "banking",
-    "summary": "註冊並開啟帳戶不收取費用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Open a free account」或「Open an account in minutes」",
-      "完成註冊程序"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-26T00:07:04.216Z",
-    "lastVerified": "2026-11-26",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面標示開啟帳戶免費，屬於常態性帳戶註冊條款，而非限時促銷或新戶獎勵額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Open a free account",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261126-2",
-    "sourceId": "wise-home",
-    "name": "Wise 大額匯款折扣",
-    "category": "banking",
-    "summary": "匯款超過 20,000 英鎊（或等值貨幣）時，將獲得費用折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "進行超過 20,000 GBP 或等值的匯款"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-26T00:07:04.216Z",
-    "lastVerified": "2026-11-26",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "特定金額門檻以上的費用折扣屬於限時折扣或條件性優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 5000,
-      "basis": "ai-estimate",
-      "note": "保守估算：假設匯款 20,000 GBP，一般匯款費約 0.5%，折扣可能省 0.1-0.2%，約 20-40 GBP，換算成新台幣約 800-1600，取較保守值 5000 僅作一般估測基準。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "wise-home-20261126-3",
-    "sourceId": "wise-home",
-    "name": "Wise Assets 收益方案",
-    "category": "banking",
-    "summary": "選擇加入 Wise Assets 可在 GBP、EUR 和 USD 貨幣中賺取即時存取收益，目前 GBP 變動利率為 3.47%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇加入 Wise Assets"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-26T00:07:04.216Z",
-    "lastVerified": "2026-11-26",
-    "risks": "貨幣價值可能因政府違約或負利率而下跌；目前利率不保證未來表現；變動利率基於過去 7 天的表現；可能適用稅務。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T00:05:21.192Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是一個提供特定利率（3.47%）的資產收益方案，屬於對用戶有吸引力的常態性收益優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Opt into Wise Assets to earn instant-access returns in GBP, EUR and USD. 1",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 35000,
-      "basis": "ai-estimate",
-      "note": "假設一般使用者每年投入約 1,000 美元在 GBP 帳戶中，依 3.47% 年利率換算約 35 美元，約合新台幣 1,200 元。若按 1,000 英鎊（約 1,300 美元）計算，約 1,030 美元，約合 35,000 新台幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "aws-free-20261126-1",
-    "sourceId": "aws-free",
-    "name": "AWS 新戶免費信用額度",
-    "category": "vps-cloud",
-    "summary": "新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "建立新的 AWS Free Tier 帳戶",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "建立新的 AWS 帳戶",
-      "立即獲得 100 美元信用額度",
-      "探索主要服務以賺取額外最高 100 美元信用額度"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-26T00:07:38.418Z",
-    "lastVerified": "2026-11-26",
-    "risks": "帳戶在開戶後 6 個月或信用額度用盡時自動關閉， whichever comes first,除非轉換為付費方案或啟用僅限付費的服務，否則不會收費",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T02:05:17.784Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面提供新帳戶最高 200 美元的免費信用額度，屬於新戶獎勵與免費方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surpr",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "When you create a new AWS Free Tier account",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "Get up to $200 in credits for new customers",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261126-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Workers 免費額度",
@@ -5310,6 +4982,156 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-26T10:07:11.643Z",
     "lastVerified": "2026-11-26",
     "risks": "30 天试用期結束後可能自動轉為付費方案，需注意訂閱變更。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T14:05:16.665Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及 AdminBolt 提供 30 天免費試用 (free trial)。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AdminBolt is a modern, affordable hosting control panel that brings website, email, DNS, SSL, WordPress, and database management together in one easy-to-use interface. Install AdminBolt in one click through ctrl and enjoy a 30-day free tria",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM\nInstalls on AlmaLinux 9",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 450,
+      "basis": "ai-estimate",
+      "note": "AdminBolt 的常態月費約為 15 美元（或 3 個月套餐約 45 美元），30 天試用價值相當於 1 個月費用的保守估算。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "suno-pricing-20261126-1",
+    "sourceId": "suno-pricing",
+    "name": "Suno Black Friday 促銷（年繳方案額外 30% 折扣）",
+    "category": "ai",
+    "summary": "年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須訂閱年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 Suno 定價頁面",
+      "選擇年繳方案",
+      "完成訂閱以享受額外 30% 折扣"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-26T14:06:00.138Z",
+    "lastVerified": "2026-11-26",
+    "risks": "促銷活動有時限（頁面顯示倒數計時），逾期恢復原價,付費方案為自動續約（auto-renew），取消隨時可停",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T14:05:16.665Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為 Black Friday Sale 並提供年繳額外折扣，屬於限時促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Extra 30% off annual plans",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Extra 30% off annual plans",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 550,
+      "basis": "ai-estimate",
+      "note": "以 Pro 年繳原價 $96/年 估算，30% 折扣相當於 $28.8/年，換算約 550 新台幣。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "aws-free-20261126-1",
+    "sourceId": "aws-free",
+    "name": "AWS 免費帳戶信用額度",
+    "category": "vps-cloud",
+    "summary": "新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 AWS 免費帳戶",
+      "獲得立即發放的 $100 信用額度",
+      "探索關鍵服務以賺取額外最高 $100 的信用額度"
+    ],
+    "officialUrl": "https://aws.amazon.com/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-26T14:07:24.917Z",
+    "lastVerified": "2026-11-26",
+    "risks": "帳戶在開設 6 個月後或信用額度用完時會自動關閉,除非轉換為付費方案，否則不會被收費",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-26T14:05:16.665Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確指出新客戶可獲得最高 $200 的免費信用額度，且未升級至付費方案前不收費。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surpr",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400,
+      "basis": "explicit-amount",
+      "usd": 200,
+      "quote": "Get up to $200 in credits for new customers",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   }
 ]

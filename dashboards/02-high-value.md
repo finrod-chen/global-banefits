@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T12:05:20.575Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T14:05:16.665Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -42,12 +42,6 @@
 | [Gate Crypto Loan 0 Fee 免手續費借貸](https://www.gate.com/announcements) | Crypto | 抵押一種加密貨幣借出另一種，免手續費 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Suno 黑色星期五促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。 | 約 TWD 1,528（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 註冊並開啟帳戶不收取費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（或等值貨幣）時，將獲得費用折扣。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Wise Assets 收益方案](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 貨幣中賺取即時存取收益，目前 GBP 變動利率為 3.47%。 | 約 TWD 35,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS 新戶免費信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求，每次請求 10ms CPU 時間 | 約 TWD 6,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-小時記憶體、375 vCPU-分鐘、200 GB-小時磁碟空間、1 TB 網路輸出流量 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 萬次請求、13,000 GB-秒執行時間、5,000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存空間、 | 約 TWD 1,000（AI 估） | 長期活動 | 待核實 |
@@ -102,4 +96,6 @@
 | [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
 | [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
+| [Suno Black Friday 促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。 | 約 TWD 550（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 免費帳戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
