@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T22:05:17.468Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T00:05:21.192Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -32,4 +32,5 @@
 | [Neon 新創企業計畫](https://neon.com/pricing) | VPS/雲服務 | 提供早期新創企業最高 10 萬美元的點數優惠。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 開源專案計畫](https://neon.com/pricing) | VPS/雲服務 | 為維護的開源專案提供贊助（Sponsorship）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免帳號即時體驗](https://neon.com/pricing) | VPS/雲服務 | 提供免帳號、免信用卡的 Postgres 專案體驗。未聲稱到帳號的專案限制為 100 MB 儲存空間與 1 GB 網路傳輸。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 約 TWD 511（AI 估） | 長期活動 | 待核實 |
+| [AWS 新戶免費信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-25T22:05:17.468Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-26T00:05:21.192Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -15,12 +15,6 @@
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列出請求免費。 | 約 TWD 3,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每日 500 萬列讀取及每日 10 萬列寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 約 TWD 227,925（AI 估） | 長期活動 | AI 預審通過 |
-| [Google Black Friday AI 方案限時折扣](https://one.google.com/about/google-ai-plans/) | AI 工具 | Member early access: 部分 Google AI 方案最高可享 50% 折扣。 | 約 TWD 5,600（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案含 Google Cloud 信用額](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可每月獲得 10 美元的 Google Cloud 信用額（來自 Google Developer P | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案含 Google Cloud 信用額](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可每月獲得 40 美元的 Google Cloud 信用額（來自 Google Developer | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 學生專屬優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可透過 Google AI Pro 方案免費獲得 1 年的 AI Pro 服務。 | 約 TWD 9,544（AI 估） | 長期活動 | AI 預審通過 |
-| [Suno 黑五限時優惠](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣 | 約 TWD 1,555（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | Verified students have access to the GitHub Copilot Student plan. | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 自助資金創新的新創公司可獲得最高 5,000 美元額度，起始提供 1,000 美元額度，部分符合資格的參與者可能有資格獲得額外額度。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 由投資機構支持的 Pre-Series B 新創公司可獲得最高 200,000 美元額度。 | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -56,4 +50,11 @@
 | [Kraken 500 萬美元 USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、現實世界資產和加密貨幣期貨，幫助解鎖最高 5,000,000 USD | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [Kraken 商品交易費率優惠](https://blog.kraken.com/) | Crypto | 黃金、白銀、石油等非加密貨幣市場手續費降至每邊 2bps（基本點），適用於既有帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Krak 信用卡現金回饋](https://blog.kraken.com/) | Crypto | Krak 信用卡提供最高 4% 現金回饋，以美元或比特幣支付，無需追蹤積分 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday 2026 特價 VPS](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供多款 KVM VPS 年費特價，包含 1 GB 方案 $15.98/年、2.5 GB 方案 $27.98/年、4 GB 方案 $47.9 | 約 TWD 511（AI 估） | 長期活動 | 待核實 |
+| [Suno 黑色星期五促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣（Extra 30% off annual plans），這是該品牌年度最大的促銷活動。 | 約 TWD 1,528（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot Fusion 限時 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣。 | 約 TWD 3,000（AI 估） | 2025-12-31 | 待核實 |
+| [GitHub Copilot 學生專屬方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 註冊並開啟帳戶不收取費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 英鎊（或等值貨幣）時，將獲得費用折扣。 | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Wise Assets 收益方案](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可在 GBP、EUR 和 USD 貨幣中賺取即時存取收益，目前 GBP 變動利率為 3.47%。 | 約 TWD 35,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 新戶免費信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新顧客可立即獲得 100 美元信用額度，透過探索主要服務最高可再獲得 100 美元，總計最高 200 美元，期限 6 個月。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
