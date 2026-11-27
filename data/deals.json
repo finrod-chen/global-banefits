@@ -4530,7 +4530,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-27T06:06:55.084Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該功能標註起價為0美元，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Starting at\n$0 /month Stay secure without adding complexity",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "digitalocean-pricing-20261127-7",
@@ -4556,7 +4576,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-27T06:06:55.084Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提到每個計費團隊每月包含 5 GB 的 Logs 和 Traces 免費額度，屬於免費額度類型。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Each billing team receives an included monthly allowance of 5 GB, shared between logs and traces.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 93,
+      "basis": "ai-estimate",
+      "note": "5 GB 每月 x $0.50/GB = $2.5 USD/月，一年 $30 USD，依約 3.1 TWD/USD 換算約 93 TWD。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "digitalocean-pricing-20261127-8",
@@ -4582,7 +4628,29 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「DigitalOcean 定價與試用額度」，待人工核實，提取時間 2026-11-27T06:06:55.084Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面描述的是 DigitalOcean 平台持續提供的一項基本功能與免費額度（如 500 GiB 出站流量），而非有限期限的促銷方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and deploy 3 static sites for free\nData transfer within and across VPCs in a data center is free. Ingress data transfer is free. Create as many VPCs as you want for no additional cost\nPublic Internet Egress Overage Data transfer is $0",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-startups-credits-20261127-1",
@@ -4613,7 +4681,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T06:07:13.255Z",
     "lastVerified": "2026-11-27",
     "risks": "All AWS Activate Credits are in USD and subject to the AWS Promotional Credit Terms & Conditions.",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該優惠提供符合資格的創投新創公司最高200,000美元的促銷額度（Credits），屬於額度獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Move from prototype to production faster. Apply for up to $200,000 in AWS Activate Credits, with additional credits available for AI startups ready to scale.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Apply for up to $200,000 in AWS Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-2",
@@ -4641,7 +4742,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T06:07:13.255Z",
     "lastVerified": "2026-11-27",
     "risks": "All AWS Activate Credits are in USD and subject to the AWS Promotional Credit Terms & Conditions.",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供新創公司最高可達5,000美元的優惠額度（Activate Credits）。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits\n*Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Apply directly if you’re bootstrapped or self-funded",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-3",
@@ -4669,7 +4803,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T06:07:13.255Z",
     "lastVerified": "2026-11-27",
     "risks": "All AWS Activate Credits are in USD and subject to the AWS Promotional Credit Terms & Conditions.",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目提供予特定創業公司的雲端資源額度。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "You must have an Organization ID (Org ID) from your Activate Provider, such as an accelerator, angel investor, and venture capital firm",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-4",
@@ -4697,7 +4864,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T06:07:13.255Z",
     "lastVerified": "2026-11-27",
     "risks": "All AWS Activate Credits are in USD and subject to the AWS Promotional Credit Terms & Conditions.",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此優惠為針對特定條件（邀請制、AI 新創）提供的雲端資源額度補貼，屬於免費額度或新創獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ USD in AWS Credits\n*Our investment scales with the size of the startup's workload. We have deployed credit offers to startups ranging from thousands into the millions.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only, after Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ USD in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-5",
@@ -4725,7 +4925,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T06:07:13.255Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T09:07:38.785Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該項目明確提供給特定創始團隊的推廣額度與無限期優惠，屬於免費額度或新創獎勵類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Available to eligible startups without current Activate Credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50000,
+      "basis": "ai-estimate",
+      "note": "頁面未提供 Kiro Startup Credits 的具體數值，僅提及可「增長至 Activate Credits」，而 Activate Founders 基礎額度為 $1,000 USD。保守估算一般使用者第一年能獲得的基礎開發工具與額度價值，約 1,000 USD，換算為 50,000 TWD。",
+      "confidence": "low"
+    }
   },
   {
     "id": "supabase-pricing-20261127-1",
