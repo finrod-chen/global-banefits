@@ -1,18 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-26T22:05:15.594Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T00:05:15.946Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
-| [Mistral Batch 處理與快取 Token 折扣](https://mistral.ai/pricing) | AI 工具 | 大批量處理（Batch processing）價格減少 50%；重複提示詞的快取輸入 tokens（cached input tokens） | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Kraken 交易 ANTx 贏取 $5,000 獎金活動](https://blog.kraken.com/) | Crypto | 交易追蹤 Anthropic 股價的 ANTx，總共提供 $5,000 獎金。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken 黑五存款與交易獎金活動](https://blog.kraken.com/) | Crypto | 存入 1,000 法幣並通過四個階段的交易里程碑，最高可獲得 100 美元 BTC。活動期間為 11 月 12 日至 12 月 1 日。 | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
-| [Kraken Anthropic 預 IPO 挑戰賽](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格暴露（可加 10 倍槓桿），依成交量排名分配 20,000 美元獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kraken USDG 期貨挑戰賽](https://blog.kraken.com/) | Crypto | 交易黃金、現實世界資產和加密貨幣期貨，總獎金池最高可達 5,000,000 USDG。活動期間為 10 月 12 日至 12 月 10 日。 | 免費（價值視使用而定） | 2026-12-10 | AI 預審通過 |
-| [RackNerd Black Friday VPS 限時折扣](https://www.racknerd.com/specials/) | VPS/雲服務 | 1 GB KVM VPS $15.98/年、2.5 GB KVM VPS $27.98/年、4 GB KVM VPS $47.98/年、6  | 約 TWD 480（AI 估） | 長期活動 | AI 預審通過 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 RackNerd VPS 的 One-Click Apps 安裝 AdminBolt 時，提供 30 天免費試用。 | 約 TWD 450（AI 估） | 長期活動 | AI 預審通過 |
 | [Suno Black Friday 促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。 | 約 TWD 550（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS 免費帳戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 100,000 次 Workers 請求/天、10ms CPU 時間/請求、25 GiB-hrs 容器記憶體、375 vC | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -40,3 +33,13 @@
 | [Humble Bundle BFCM 促銷](https://www.humblebundle.com/) | 軟體/數位服務 | 以 $114.99 美元購買 1 年 Humble Choice 會員，每個月不到 $10 美元。使用折扣碼 HOLIDAY26 可將 1  | 約 TWD 3,680（AI 估） | 2026-11-30 | AI 預審通過 |
 | [Setapp 免費試用與 AI 積分](https://setapp.com/pricing) | 軟體/數位服務 | 提供 7 天免費試用，並隨方案贈送 1,000 或 2,000 點 AI 積分。年繳可節省高達 40%。 | 約 TWD 100（AI 估） | 長期活動 | AI 預審通過 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | 提供免費方案，價格為 $0 每人/月，適用於個人組織個人項目和生活的整理。包含有限的儲存空間、Notion AI 功能試用、基本表單、發布至 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 批次處理（Batch processing）價格減少50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral API 緩存輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 重複提示詞的緩存輸入代幣（cached input tokens）輸入成本最多降低90%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken Black Friday Deposit & Trade Bonus](https://blog.kraken.com/) | Crypto | 最高獲得 100 美元比特幣（BTC）獎金。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
+| [Kraken Pro ANTx Prize Promotion](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx 可贏得 5,000 美元獎金。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Holiday Season Deposit Contest](https://blog.kraken.com/) | Crypto | 節慶季節抽獎，一位客戶可贏得 50 萬歐元（€500,000）。 | 免費（價值視使用而定） | 2027-01-07 | 待核實 |
+| [Kraken Pro Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 競爭 20,000 美元 ANTHROPICX 獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | 待核實 |
+| [Kraken USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 幫助解鎖高達 5,000,000 USDG 的獎勵池，單一排行榜，三重倍率。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
+| [RackNerd Black Friday VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
