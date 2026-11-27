@@ -4068,7 +4068,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T00:07:26.290Z",
     "lastVerified": "2026-11-27",
     "risks": "安裝 One-Click App 會永久清除該 VPS 上所有的資料，包括作業系統、應用程式和檔案。,免費試用期滿後可能轉為付費服務（頁面未明確標示後續費用，僅提及 30 天免費）。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T02:05:16.625Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供 AdminBolt 的 30 天免費試用期間。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Install AdminBolt in one click through ctrl and enjoy a 30-day free trial.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For your convenience, RackNerd offers several applications that can be deployed with a single click.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "AdminBolt 未列出價格，但同頁 VPS 最低價為 $15.98/年（約 500 TWD/年），30 天價值約為 125 TWD，加上 1vCPU 2GB RAM VPS 的基礎成本，保守估算約 300 TWD。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261127-1",
@@ -4098,6 +4129,123 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T00:07:44.440Z",
     "lastVerified": "2026-11-27",
     "risks": "首年優惠僅適用於註冊，續約時將恢復為常態價格（例如 .xyz 續約價為 $14.21）,部分網域如 .inc、.rich 等首年價格較高，需注意實際總成本",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T02:05:16.625Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示多款網域有 \"first year sale\" 及 \"everyday low price\" 等促銷標記，且列出免費服務項目。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".xyz\n1.29 first year sale\n$14.21 regular price\n.lol\n1.54 first year sale\n$26.26 regular price",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50,
+      "basis": "ai-estimate",
+      "note": "以 .xyz 網域首年售價 $1.29 換算約 38 元，加上免費服務的基礎價值估算，保守取整為 50 元。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "epic-free-games-20261127-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
+    "category": "software",
+    "summary": "免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 freeGamesPromotions 及 JSON 資料結構推斷，但需注意 JSON 中 price 欄位顯示為 289.00，這可能是目錄資訊而非當前領取價格，然而頁面標題明確為「免費遊戲」且屬於 freeGamesPromotions 端點，故定義為免費領取）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": "2022-12-19",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "前往 Epic Games 商店頁面",
+      "點擊領取 Them's Fightin' Herds"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T02:05:41.312Z",
+    "lastVerified": "2026-11-27",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending",
+    "reviewAttempts": 1
+  },
+  {
+    "id": "gog-free-games-20261127-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 新用戶歡迎優惠",
+    "category": "software",
+    "summary": "GOG 提供新用戶限時折扣方案，標榜為「Welcome Offer」，包含特殊限時交易，但具體折扣百分比與金額在頁面中為動態變數（{{ primaryProduct.price.discount }}%），無固定數字。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Browse the deals」連結",
+      "在限時倒數結束前完成購買"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-27T02:05:58.869Z",
+    "lastVerified": "2026-11-27",
+    "risks": "限時活動，倒數結束後可能失效,具體折扣內容需進入活動頁面確認",
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T02:05:16.625Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面包含明確的「Welcome Offer」與限時交易（limited-time deals）宣傳，屬於針對特定用戶的促銷活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   }
 ]

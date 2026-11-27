@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T00:05:15.946Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T02:05:16.625Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -31,5 +31,5 @@
 | [Neon 早期創業公司計劃 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 提供對您維護的開源專案的贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd Black Friday VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 約 TWD 50（AI 估） | 長期活動 | 待核實 |

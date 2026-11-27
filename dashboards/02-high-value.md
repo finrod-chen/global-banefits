@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T00:05:15.946Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T02:05:16.625Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -78,5 +78,7 @@
 | [Kraken Pro Anthropic Pre-IPO Challenge](https://blog.kraken.com/) | Crypto | 競爭 20,000 美元 ANTHROPICX 獎金池。 | 約 TWD 640,000（AI 估） | 長期活動 | 待核實 |
 | [Kraken USDG Futures Challenge](https://blog.kraken.com/) | Crypto | 幫助解鎖高達 5,000,000 USDG 的獎勵池，單一排行榜，三重倍率。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |
 | [RackNerd Black Friday VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 約 TWD 50（AI 估） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 fre | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GOG 新用戶歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | GOG 提供新用戶限時折扣方案，標榜為「Welcome Offer」，包含特殊限時交易，但具體折扣百分比與金額在頁面中為動態變數（{{ pr | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
