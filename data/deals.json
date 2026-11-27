@@ -2047,192 +2047,6 @@
     }
   },
   {
-    "id": "racknerd-specials-20261127-1",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd Black Friday VPS 特價",
-    "category": "vps-cloud",
-    "summary": "Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方案），另有 $27.98、$47.98 等方案。所有方案包含 1Gbps 網路頻寬、完整 Root 權限及免費 Clientexec 授權。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇符合需求的 VPS 方案（如 1GB, 2.5GB, 4GB 等）。",
-      "點擊 'Order Now' 下單。"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T00:07:26.290Z",
-    "lastVerified": "2026-11-27",
-    "risks": "頁面上顯示倒數計時（00 Days : 14 Minutes : 27 Seconds），活動可能隨時結束。,年費方案需注意自動續約條款（頁面未明確寫出，但屬常見商業條款，此處依規則不推測，僅保留頁面可見風險：限時促銷）。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T00:05:15.946Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示為 Black Friday 2026 限時促銷活動，並提供特定折扣價格。",
-      "passed": false,
-      "coverage": {
-        "found": 0,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Black Friday 2026 Hosting Deals | RackNerd\nGreat hosting. A better deal.\n... 1 GB KVM VPS\n$ 15.98 /year\n... 1Gbps Network Port\nFull Root Access\n... Free Clientexec License",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 500,
-      "basis": "ai-estimate",
-      "note": "保守估算最基礎方案（$15.98/年）約等於台幣 500 元。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "racknerd-specials-20261127-2",
-    "sourceId": "racknerd-specials",
-    "name": "RackNerd AdminBolt 免費試用",
-    "category": "vps-cloud",
-    "summary": "在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需要 RackNerd VPS 帳戶並透過 ctrl 面板安裝 AdminBolt。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "登入 RackNerd VPS。",
-      "在 ctrl 面板中進入 One-Click Apps。",
-      "選擇並安裝 AdminBolt。"
-    ],
-    "officialUrl": "https://www.racknerd.com/specials/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T00:07:26.290Z",
-    "lastVerified": "2026-11-27",
-    "risks": "安裝 One-Click App 會永久清除該 VPS 上所有的資料，包括作業系統、應用程式和檔案。,免費試用期滿後可能轉為付費服務（頁面未明確標示後續費用，僅提及 30 天免費）。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T02:05:16.625Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供 AdminBolt 的 30 天免費試用期間。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Install AdminBolt in one click through ctrl and enjoy a 30-day free trial.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "For your convenience, RackNerd offers several applications that can be deployed with a single click.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 300,
-      "basis": "ai-estimate",
-      "note": "AdminBolt 未列出價格，但同頁 VPS 最低價為 $15.98/年（約 500 TWD/年），30 天價值約為 125 TWD，加上 1vCPU 2GB RAM VPS 的基礎成本，保守估算約 300 TWD。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "porkbun-domains-20261127-1",
-    "sourceId": "porkbun-domains",
-    "name": "Porkbun 網域首年促銷與免費服務",
-    "category": "vps-cloud",
-    "summary": "多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、.lol 首年 $1.54、.io 首年 $20.91 等。同時提供免費電子郵件轉發（Free Email Forwarding）、免費 WHOIS 隱私保護（Free WHOIS Privacy）、免費 SSL 憑證（Free SSL Certificates）及免費 URL 轉址（Free URL Forwarding）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "搜尋並選擇目標網域",
-      "將網域加入購物車",
-      "完成註冊流程以獲得首年優惠價及免費服務"
-    ],
-    "officialUrl": "https://porkbun.com/products/domains",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T00:07:44.440Z",
-    "lastVerified": "2026-11-27",
-    "risks": "首年優惠僅適用於註冊，續約時將恢復為常態價格（例如 .xyz 續約價為 $14.21）,部分網域如 .inc、.rich 等首年價格較高，需注意實際總成本",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T02:05:16.625Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示多款網域有 \"first year sale\" 及 \"everyday low price\" 等促銷標記，且列出免費服務項目。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": ".xyz\n1.29 first year sale\n$14.21 regular price\n.lol\n1.54 first year sale\n$26.26 regular price",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 50,
-      "basis": "ai-estimate",
-      "note": "以 .xyz 網域首年售價 $1.29 換算約 38 元，加上免費服務的基礎價值估算，保守取整為 50 元。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "epic-free-games-20261127-1",
     "sourceId": "epic-free-games",
     "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
@@ -2290,55 +2104,6 @@
       "basis": "ai-estimate",
       "note": "遊戲目錄原價為 289 新臺幣，免費領取等值於該金額。",
       "confidence": "medium"
-    }
-  },
-  {
-    "id": "gog-free-games-20261127-1",
-    "sourceId": "gog-free-games",
-    "name": "GOG 新用戶歡迎優惠",
-    "category": "software",
-    "summary": "GOG 提供新用戶限時折扣方案，標榜為「Welcome Offer」，包含特殊限時交易，但具體折扣百分比與金額在頁面中為動態變數（{{ primaryProduct.price.discount }}%），無固定數字。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Browse the deals」連結",
-      "在限時倒數結束前完成購買"
-    ],
-    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-27T02:05:58.869Z",
-    "lastVerified": "2026-11-27",
-    "risks": "限時活動，倒數結束後可能失效,具體折扣內容需進入活動頁面確認",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T02:05:16.625Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面包含明確的「Welcome Offer」與限時交易（limited-time deals）宣傳，屬於針對特定用戶的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals!",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
     }
   },
   {
@@ -4865,7 +4630,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-27T12:05:46.302Z",
     "lastVerified": "2026-11-27",
     "risks": "若專案使用超出每月的100 CU-hours 或 5 GB 網路傳輸量，計算資源將暫停直到下一個帳單週期；若儲存空間超出限制，增加儲存空間的操作將失敗",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供永久免費方案，包含免費額度與限制，屬於免費額度與方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free $0 Build and learn free with no time limits and no credit card required.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "The Free plan is permanent, not a trial, and doesn't require a credit card.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261127-2",
@@ -4894,7 +4684,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-27T12:05:46.302Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是提供給特定受眾（新創公司）的優惠計畫，提供最高 $100k 的點數（credits）。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Startup Program Early-stage startups\nLaunch faster with up to $100k in credits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261127-1",
@@ -4924,7 +4734,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-27T12:06:06.287Z",
     "lastVerified": "2026-11-27",
     "risks": "優惠代碼於 2026 年 11 月 30 日 23:59 (PT) 過期。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為「this BFCM」（黑色星期五/網絡星期一）限時活動，且有特定優惠代碼與截止日期的年度訂閱促銷。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Score 1 year of Humble Choice for $114.99 USD this BFCM!\nThis month, add Mafia: The Old Country, The Outer Worlds 2, and six more titles to launch your year of gaming. Use code HOLIDAY26 at checkout to give a year of Choice to a friend or y",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Use code HOLIDAY26 at checkout to give a year of Choice to a friend or yourself!",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "C oupon expires on November 30, 2026, at 11:59pm PT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3680,
+      "basis": "explicit-amount",
+      "usd": 114.99,
+      "quote": "$114.99 USD",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "humble-bundle-20261127-2",
@@ -4954,7 +4802,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-27T12:06:06.287Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為 Black Friday Store Deals，包含多款遊戲的限時折扣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Satisfactory\n-30%\n$27.99\nBONELAB\n-20%\n$31.99",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261127-3",
@@ -4982,7 +4850,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-27T12:06:06.287Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面主要展示 Humble Choice 會員訂閱服務及其定價與常態性的慈善捐贈比例，而非限時免費或折扣促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "5% of your Humble Choice membership supports charity",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Get a curated mix of PC games every month",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "2.84"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 41500,
+      "basis": "ai-estimate",
+      "note": "以頁面標註的 1 年期 Humble Choice 售價 $114.99 USD 換算為新臺幣約 41,500 元（參考匯率 36）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261127-1",
@@ -5011,7 +4915,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-27T12:06:23.601Z",
     "lastVerified": "2026-11-27",
     "risks": "免費試用結束後可能自動轉為付費訂閱，請留意取消機制；頁面標示可隨時取消（Cancel anytime）。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示提供 7 天免費試用期。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Start 7-day free trial 1,000 AI credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 480,
+      "basis": "explicit-amount",
+      "usd": 14.99,
+      "quote": "$ 14.99 / mo",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "notion-pricing-20261127-1",
@@ -5040,36 +4984,37 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Notion 定價頁」，待人工核實，提取時間 2026-11-27T12:06:40.969Z",
     "lastVerified": "2026-11-27",
     "risks": "null",
-    "status": "pending"
-  },
-  {
-    "id": "kraken-blog-20261127-1",
-    "sourceId": "kraken-blog",
-    "name": "Kraken 節日存款挑戰",
-    "category": "crypto",
-    "summary": "每存入1歐元即獲得一次抽獎資格，總獎金為 €500,000。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "須註冊並遷移資產或向帳戶存款。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2026-01-07",
-    "ongoing": false,
-    "steps": [
-      "報名參與",
-      "將資產轉入或向帳戶存款"
-    ],
-    "officialUrl": "https://blog.kraken.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-27T12:07:33.872Z",
-    "lastVerified": "2026-11-27",
-    "risks": "需持續累積存款金額以增加抽獎機會",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "草稿描述的是 Notion 的永久免費方案（Free plan），提供零費用的基本功能與額度，符合「免費方案」的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$0 per seat / month\nFor individuals to organize personal projects and life.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For individuals to organize personal projects and life.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Price in USD",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261127-2",
@@ -5099,7 +5044,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-27T12:07:33.872Z",
     "lastVerified": "2026-11-27",
     "risks": "需達成交易額門檻方可獲得獎勵",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T14:05:16.795Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是限時的黑五存款與交易獎勵活動，提供最高額度的現金或代幣獎品。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Enroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "November 12 to December 1.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261127-3",
@@ -5185,6 +5168,348 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-27T12:07:33.872Z",
     "lastVerified": "2026-11-27",
     "risks": "需達成交易量以解鎖獎勵池",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-1",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd Black Friday VPS 限時特價",
+    "category": "vps-cloud",
+    "summary": "提供 1GB、2.5GB、4GB、6GB、8GB KVM VPS 方案，年費分別為 $15.98、$27.98、$47.98、$74.98、$94.98，包含 1Gbps 網路埠與完整 Root 存取權限。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 VPS 方案（1GB, 2.5GB, 4GB, 6GB, 或 8GB）。",
+      "點擊 Order Now 並完成訂單結帳。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "頁面顯示有倒數計時器（00 Days : 14 Minutes : 25 Seconds），表示此為限時活動，可能隨時結束。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-2",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 免費 Clientexec 授權",
+    "category": "vps-cloud",
+    "summary": "所有 Black Friday VPS 方案均包含免費的 Clientexec 授權。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需購買 Black Friday VPS 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "購買任一 Black Friday VPS 方案。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-3",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 免費 Shared Hosting 限時特價",
+    "category": "vps-cloud",
+    "summary": "Shared Hosting 方案年費從 $9.49 起。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Shared Hosting 分類並下單。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "屬於 Black Friday 限時優惠。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-4",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 免費 Reseller Hosting 限時特價",
+    "category": "vps-cloud",
+    "summary": "Reseller Hosting 方案年費從 $29.88 起。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Reseller Hosting 分類並下單。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "屬於 Black Friday 限時優惠。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-5",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd 免費 Dedicated Server 特價",
+    "category": "vps-cloud",
+    "summary": "Dedicated Server 方案月費從 $64 起。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Dedicated Server 分類並下單。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "屬於 Black Friday 限時優惠。",
+    "status": "pending"
+  },
+  {
+    "id": "racknerd-specials-20261127-6",
+    "sourceId": "racknerd-specials",
+    "name": "RackNerd AdminBolt 30 天免費試用",
+    "category": "vps-cloud",
+    "summary": "透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需在符合最低需求的 VPS（2+ vCPU, 2+ GB RAM, AlmaLinux 9）上安裝 AdminBolt。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "登入 ctrl 面板。",
+      "進入 One-Click Apps 並選擇 AdminBolt。",
+      "點擊 Install AdminBolt。"
+    ],
+    "officialUrl": "https://www.racknerd.com/specials/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
+    "lastVerified": "2026-11-27",
+    "risks": "安裝一鍵應用程式將永久抹除現有資料，包括作業系統、應用程式與檔案，且無法復原。,AdminBolt 為 30 天免費試用，到期後可能需要付費或移除。",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261127-1",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 1st Yr Sale 網域註冊折扣",
+    "category": "vps-cloud",
+    "summary": "提供超過60種TLD的網域「第一年銷售」（1st Yr Sale）低價方案，例如 .xyz 為 $1.29、.lol 為 $1.54、.cloud 為 $2.87，且列出常規價格供比較。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇TLD",
+      "註冊網域並完成結帳"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
+    "lastVerified": "2026-11-27",
+    "risks": "頁面說明價格為非優質（non-premium）網域的第一年註冊、續費及轉移價格；「Most transfers include a one year domain renewal」（多數轉移包含一年續費），轉移可能產生額外費用。",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261127-2",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 10 / User Sale 網域促銷",
+    "category": "vps-cloud",
+    "summary": "特定TLD如 .ca、.airforce 等提供「10 / User Sale」促銷價，例如 .ca 為 $6.53（原價 $11.12）、.airforce 為 $91.26（原價 $92.17）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "頁面標示「10 / User Sale!」，暗示可能有每人限購10個的數量限制。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇特定TLD",
+      "註冊網域並完成結帳"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
+    "lastVerified": "2026-11-27",
+    "risks": "若超出每人10個網域的限制，後續網域可能無法享受促銷價。",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261127-3",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 WHOIS 隱私保護",
+    "category": "vps-cloud",
+    "summary": "列出「Free WHOIS Privacy」為免費服務項目。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Porkbun 網域時自動包含"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
+    "lastVerified": "2026-11-27",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261127-4",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 SSL 憑證",
+    "category": "vps-cloud",
+    "summary": "列出「Free SSL Certificates」為免費服務項目。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Porkbun 服務時適用"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
+    "lastVerified": "2026-11-27",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "porkbun-domains-20261127-5",
+    "sourceId": "porkbun-domains",
+    "name": "Porkbun 免費 Email 轉發",
+    "category": "vps-cloud",
+    "summary": "列出「Free Email Forwarding」為免費服務項目。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Porkbun 網域時設定"
+    ],
+    "officialUrl": "https://porkbun.com/products/domains",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
+    "lastVerified": "2026-11-27",
+    "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "gog-free-games-20261127-1",
+    "sourceId": "gog-free-games",
+    "name": "GOG 歡迎優惠",
+    "category": "software",
+    "summary": "提供有限時間的特別交易，包含特定遊戲的折扣（例如 -{{ primaryProduct.price.discount }}%），並顯示倒數計時。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "瀏覽 GOG 網站",
+      "點擊「Browse the deals」或相關優惠連結"
+    ],
+    "officialUrl": "https://www.gog.com/en/games?priceRange=0,0",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-27T14:06:56.331Z",
+    "lastVerified": "2026-11-27",
+    "risks": "優惠為有限時間，需注意倒數計時過期風險",
     "status": "pending"
   }
 ]

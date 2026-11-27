@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T12:05:16.994Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T14:05:16.795Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -11,9 +11,6 @@
 | [Azure 免費帳戶 30 天免費額度與 $200 贈額](https://azure.microsoft.com/free/) | VPS/雲服務 | 新戶可享 20+ 種熱門服務 12 個月免費額度、65+ 種服務永遠免費，以及 $200 額度供 30 天內使用 Azure 服務。 | 約 TWD 6,400 | 長期活動 | 已核實 |
 | [Azure 65+ 永遠免費服務方案](https://azure.microsoft.com/free/) | VPS/雲服務 | 提供 65 種以上 Azure 服務永遠免費，例如 Azure DevOps（5 名使用者）、Azure Functions（每月 100  | 約 TWD 32,000 | 長期活動 | 已核實 |
 | [Azure 12 個月新客戶免費額度](https://azure.microsoft.com/free/) | VPS/雲服務 | 新客戶在註冊後 12 個月內，可享受 20+ 種熱門服務（如 Linux/Windows 虛擬機器、Container Registry、P | 約 TWD 32,000 | 長期活動 | 已核實 |
-| [RackNerd Black Friday VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
-| [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 約 TWD 50（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，包含 Fast DNS、無限 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損圖片優化、AM | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於小於 50 人的團隊或企業概念驗證測試，永久免費（$0 forever），提供社群論壇和 Discord 支援，標準日誌保留時長最高  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求免費，每次請求 10 毫秒 CPU 時間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -38,5 +35,16 @@
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits. Our investment scales with the size of t | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Start with Kiro Startup Credits, then grow into Activate Credits. | 約 TWD 50,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含100個專案，每個專案每月100 CU-hrs 計算資源，每專案1 GB 儲存空間，5 GB 物件儲存，100萬次 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創公司計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段的新創公司提供最高 $100k 的金額點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含100個專案，每個專案每月100 CU-hrs 計算資源，每專案1 GB 儲存空間，5 GB 物件儲存，100萬次 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 新創公司計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段的新創公司提供最高 $100k 的金額點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [RackNerd Black Friday VPS 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 1GB、2.5GB、4GB、6GB、8GB KVM VPS 方案，年費分別為 $15.98、$27.98、$47.98、$74.98、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有 Black Friday VPS 方案均包含免費的 Clientexec 授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Shared Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案年費從 $9.49 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Reseller Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案年費從 $29.88 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Dedicated Server 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Server 方案月費從 $64 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 1st Yr Sale 網域註冊折扣](https://porkbun.com/products/domains) | VPS/雲服務 | 提供超過60種TLD的網域「第一年銷售」（1st Yr Sale）低價方案，例如 .xyz 為 $1.29、.lol 為 $1.54、.cl | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 10 / User Sale 網域促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定TLD如 .ca、.airforce 等提供「10 / User Sale」促銷價，例如 .ca 為 $6.53（原價 $11.12）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free WHOIS Privacy」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free SSL Certificates」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free Email Forwarding」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
