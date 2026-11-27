@@ -4591,7 +4591,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-27T16:06:55.873Z",
     "lastVerified": "2026-11-27",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是一個基於匯款金額的常態性費用折扣機制，而非限時的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent?",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261127-2",
@@ -4619,7 +4652,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-27T16:06:55.873Z",
     "lastVerified": "2026-11-27",
     "risks": "如果政府違約或利率轉負，資金價值可能下降,目前的利率不保證未來的績效,浮動利率基於 7 天的績效,可能適用稅項",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供特定百分比的浮動收益率（interest/returns）作為吸引存款或持有的激勵措施。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn 3.47% variable rate\nEarn a return on your everyday balance by opting in to Wise Assets. 1 Find out more",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "by opting in to Wise Assets",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-free-20261127-1",
@@ -4649,7 +4714,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-27T16:07:30.254Z",
     "lastVerified": "2026-11-27",
     "risks": "若升級為付費方案或啟用純付費服務，將產生費用。額度用盡或 6 個月期限後帳戶自動關閉。超過免費限制或啟用付費功能時，額度將自動抵扣成本。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面內容明確提供新客戶最高 $200 的免費額度及多項服務的免費體驗方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surpr",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "The account closes on its own 6 months after you open it or when your credits run out, whichever comes first. You won’t be charged unless you convert to a Paid plan.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400,
+      "basis": "explicit-amount",
+      "usd": 200,
+      "quote": "Get up to $200 in credits for new customers",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "mistral-pricing-20261127-1",
@@ -4677,7 +4775,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
     "lastVerified": "2026-11-27",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面描述的是 API 計費規則中關於批次處理（Batch processing）的價格結構，屬於常態性定價機制而非限時或特定群體的促銷優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "mistral-pricing-20261127-2",
@@ -4705,7 +4836,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
     "lastVerified": "2026-11-27",
     "risks": "null",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面在常見問題中說明了 API 定價計算方式，指出快取輸入代幣的成本降低屬於定價機制，並非限時優惠或特殊獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "cached input tokens reduce input cost by up to 90% for repeated prompts",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "epic-free-games-20261127-1",
@@ -4735,7 +4899,41 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T18:05:57.278Z",
     "lastVerified": "2026-11-27",
     "risks": "錯過活動期間後需付費購買",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面內容顯示該遊戲的折扣價與原價均為 289 TWD 且無折扣，雖分類包含 freegames，但價格欄位未體現免費優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 289,
+      "basis": "ai-estimate",
+      "note": "根據頁面顯示的該遊戲原價 289 TWD 進行保守估算，假設使用者能獲得該遊戲。",
+      "confidence": "low"
+    }
   },
   {
     "id": "epic-free-games-20261127-2",
@@ -4765,7 +4963,8 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T18:05:57.278Z",
     "lastVerified": "2026-11-27",
     "risks": "錯過活動期間後需付費購買",
-    "status": "pending"
+    "status": "pending",
+    "reviewAttempts": 1
   },
   {
     "id": "cloudflare-plans-20261127-1",
@@ -4794,7 +4993,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-27T20:06:02.803Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T21:39:57.752Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該草稿描述的是一種持續提供、不需付費即可使用的免費方案與額度（$0/月），符合 promotion 定義。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\nFor personal or hobby projects that aren&#x27;t business-critical.\n$0\n/month\nGet started",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "For personal or hobby projects that aren&#x27;t business-critical.",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261127-2",
