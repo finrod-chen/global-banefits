@@ -3576,5 +3576,146 @@
     "status": "expired",
     "archivedAt": "2026-11-27T06:05:17.676Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261127-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時 2 倍用量與快速模式",
+    "category": "ai",
+    "summary": "在 11 月 30 日前簽名 ChatGPT Business，即可在 12 月 31 日前為所有席位免費獲得 2 倍包含的用量與快速模式（fast mode）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "須在 2024-11-30 前完成 ChatGPT Business 的簽名手續。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在 11 月 30 日前點擊「Get started」或前往 ChatGPT Business 頁面進行簽名。",
+      "完成簽名後，所有席位將自動享有至 12 月 31 日的 2 倍用量與快速模式。"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-27T10:05:43.619Z",
+    "lastVerified": "2026-11-27",
+    "risks": "此優惠僅適用於 12 月 31 日前，逾期後將恢復標準用量與速率限制。",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-27T10:05:17.933Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供限時簽名優惠，包含免費的額度和功能加成，屬於新戶獎勵與限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sign up for ChatGPT Business by Nov 30 and get 2x included usage and fast mode at no extra cost for all seats through Dec 31.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sign up for ChatGPT Business by Nov 30",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "through Dec 31",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing",
+        "expired"
+      ],
+      "numbersMissing": [
+        "11"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 1500,
+      "basis": "ai-estimate",
+      "note": "以單一席位 Business 方案月費 $30 估算，快速模式與加倍用量在一個月的保守價值約 $5-10，換算成新台幣約 150-300 元；考慮到促銷期長達 2-3 個月且為所有席位，保守估算整體價值下限。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-27T12:05:16.994Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261127-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday Sale",
+    "category": "ai",
+    "summary": "年繳方案最高可省 55%，Creator 年繳首年 $99，Pro 年繳首年 $445.50",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "在定價頁選擇年繳方案",
+      "完成訂閱"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-27T10:06:34.307Z",
+    "lastVerified": "2026-11-27",
+    "risks": "年繳價格包含兩個月免費，活動結束前未訂閱將恢復常態價格",
+    "status": "expired",
+    "review": {
+      "at": "2026-11-27T10:05:17.933Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標註 Black Friday Sale、限時 55% off 及特定截止日期，屬於限時折扣活動。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to 55% off\nGet up to 55% off\nEnds December 1",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "eligible customers can save up to 55% when they choose an annual plan.",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "Ends December 1",
+          "found": true
+        }
+      ],
+      "flags": [
+        "expired"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3600,
+      "basis": "ai-estimate",
+      "note": "保守估算以 Starter 年繳方案為例，一般價格 $60/年，依頁面「two months free」推算，約可節省 $10 美元，換算為新台幣約 360 元。",
+      "confidence": "medium"
+    },
+    "archivedAt": "2026-11-27T12:05:16.994Z",
+    "archiveReason": "endDate passed"
   }
 ]
