@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T21:39:57.752Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T22:05:15.290Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -57,15 +57,15 @@
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案（$0/月），包含無限 DDoS 防護、CDN、Universal SSL 憑證、WAF 等核心功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，適用於 50 人以下團隊或企業概念驗證測試，包含社群論壇及 Discord 支援。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Workers Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求與 10 ms/請求 CPU 時間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Containers Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU 及 200 GB-hrs 磁碟空間，另含 1 TB 網路流出量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Durable Objects Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入及 5 GB SQL 儲 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Browser Rendering Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間及 3 個並列瀏覽器免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入及 5 GB SQL 儲 | 約 TWD 3,000（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間及 3 個並列瀏覽器免費。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Workflows Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、10 ms/調用 CPU 時間及 1 GB 儲存空間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare R2 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作免費。 | 約 TWD 2,358（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Workers KV Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列表請求免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare D1 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 儲存空間、每日 500 萬行讀取及每日 100,000 行寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Queues Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
