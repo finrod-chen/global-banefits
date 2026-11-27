@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T02:05:16.625Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T04:05:16.101Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,8 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Suno Black Friday 促銷（年繳方案額外 30% 折扣）](https://suno.com/pricing) | AI 工具 | 年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。 | 約 TWD 550（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS 免費帳戶信用額度](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，包含 100,000 次 Workers 請求/天、10ms CPU 時間/請求、25 GiB-hrs 容器記憶體、375 vC | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0，適用於 50 名以下用戶的團隊或企業概念驗證測試，包含社群論壇及 Discord 支援，標準日誌保留最多 24 小時。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Functions 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每月可免費使用 90,000 GiB-seconds，超出部分按量收費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -80,5 +78,14 @@
 | [RackNerd Black Friday VPS 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Black Friday 2026 促銷活動，提供多種 KVM VPS 年費方案，價格從 $15.98/year 起（如 1GB RAM 方 | 約 TWD 500（AI 估） | 長期活動 | 待核實 |
 | [RackNerd AdminBolt 免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 在 RackNerd VPS 上使用 One-Click App 安裝 AdminBolt 控制面板，享有 30 天免費試用。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
 | [Porkbun 網域首年促銷與免費服務](https://porkbun.com/products/domains) | VPS/雲服務 | 多款網域 extension 提供首年優惠價格（first year sale），例如 .xyz 首年 $1.29（常態價 $14.21）、 | 約 TWD 50（AI 估） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 fre | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 fre | 約 TWD 289（AI 估） | 長期活動 | AI 預審通過 |
 | [GOG 新用戶歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | GOG 提供新用戶限時折扣方案，標榜為「Welcome Offer」，包含特殊限時交易，但具體折扣百分比與金額在頁面中為動態變數（{{ pr | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI Plus 方案每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Plus 方案可獲得每月 10 美元的 Google Cloud 信用額度（來自 Google Developer | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用額度（來自 Google Developer  | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案每月 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用額度（來自 Google Develope | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 方案贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 Google Health Premium 價值，提供 Gemini 建構的健康教練服務。 | 約 TWD 1,800（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案贈送 Google Health Premium](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 方案免費包含 Google Health Premium 價值，提供 Gemini 建構的健康教練服務 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 方案贈送 YouTube Premium Lite](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 方案免費包含 YouTube Premium Lite 個人方案，減少廣告、支援離線與背景播放。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Suno 黑色星期五限時促銷](https://suno.com/pricing) | AI 工具 | 年繳方案額外享有 30% 折扣 | 約 TWD 520（AI 估） | 長期活動 | 待核實 |
+| [GitHub Copilot Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用費用享 3 折優惠（7 折折扣）。 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經驗证的學生可存取 GitHub Copilot 學生方案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

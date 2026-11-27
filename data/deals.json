@@ -1947,125 +1947,6 @@
     }
   },
   {
-    "id": "suno-pricing-20261126-1",
-    "sourceId": "suno-pricing",
-    "name": "Suno Black Friday 促銷（年繳方案額外 30% 折扣）",
-    "category": "ai",
-    "summary": "年繳方案（Annual plans）享有額外 30% 折扣。頁面標示為 Black Friday Sale，並顯示倒數計時器。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須訂閱年繳方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "瀏覽 Suno 定價頁面",
-      "選擇年繳方案",
-      "完成訂閱以享受額外 30% 折扣"
-    ],
-    "officialUrl": "https://suno.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-26T14:06:00.138Z",
-    "lastVerified": "2026-11-26",
-    "risks": "促銷活動有時限（頁面顯示倒數計時），逾期恢復原價,付費方案為自動續約（auto-renew），取消隨時可停",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T14:05:16.665Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確標示為 Black Friday Sale 並提供年繳額外折扣，屬於限時促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Extra 30% off annual plans",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Extra 30% off annual plans",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 550,
-      "basis": "ai-estimate",
-      "note": "以 Pro 年繳原價 $96/年 估算，30% 折扣相當於 $28.8/年，換算約 550 新台幣。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "aws-free-20261126-1",
-    "sourceId": "aws-free",
-    "name": "AWS 免費帳戶信用額度",
-    "category": "vps-cloud",
-    "summary": "新客戶可立即獲得 $100 信用額度，並透過探索關鍵服務額外賺取最多 $100，總計最高 $200，使用期限為 6 個月。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "建立 AWS 免費帳戶",
-      "獲得立即發放的 $100 信用額度",
-      "探索關鍵服務以賺取額外最高 $100 的信用額度"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-26T14:07:24.917Z",
-    "lastVerified": "2026-11-26",
-    "risks": "帳戶在開設 6 個月後或信用額度用完時會自動關閉,除非轉換為付費方案，否則不會被收費",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-26T14:05:16.665Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面明確指出新客戶可獲得最高 $200 的免費信用額度，且未升級至付費方案前不收費。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surpr",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "Get up to $200 in credits for new customers",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261126-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare Free 方案",
@@ -4196,8 +4077,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T02:05:41.312Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "reviewAttempts": 1
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該端點為免費遊戲促銷活動，提供免費領取資格。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "\"discountPrice\":28900,\"originalPrice\":28900,",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "\"currencyCode\":\"TWD\"",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 289,
+      "basis": "ai-estimate",
+      "note": "遊戲目錄原價為 289 新臺幣，免費領取等值於該金額。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gog-free-games-20261127-1",
@@ -4247,5 +4158,516 @@
       "flags": [],
       "numbersMissing": []
     }
+  },
+  {
+    "id": "gemini-plans-20261127-1",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Plus 方案每月 Google Cloud 回饋",
+    "category": "ai",
+    "summary": "訂閱 Google AI Plus 方案可獲得每月 10 美元的 Google Cloud 信用額度（來自 Google Developer Program）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Plus 方案。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Plus 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "unclear",
+      "kindReason": "頁面中每月 Google Cloud 信用額度僅列於 Google AI Pro 和 Ultra 方案，並未提及 AI Plus 方案有此福利，且該福利屬於常態訂閱權益而非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "kind-unclear",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "gemini-plans-20261127-2",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案每月 Google Cloud 回饋",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案可獲得每月 10 美元的 Google Cloud 信用額度（來自 Google Developer Program）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "訂閱方案中包含每月固定額度的雲端資源回饋（信用額度），屬於會員權益或常態性優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get expanded access to powerful accelerators and longer runtimes in Google Colab with 200 compute units per month.\nSupercharge Android development with expanded limits to our best Gemini models for agentic AI-assistance in Android Studio.\n$",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Includes Gemini 4 Neon\nGoogle AI Pro\n/mo\n5 TB storage\nCreate faster and get more done with four times more access to Gemini\nGet Pro",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gemini-plans-20261127-3",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案每月 Google Cloud 回饋",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案可獲得每月 40 美元的 Google Cloud 信用額度（來自 Google Developer Program）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "訂閱方案包含額外的 Cloud 信用額度作為價值回饋。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Includes Gemini 4 Carbon\nGoogle AI Ultra\nFrom   /mo\nStarting at 20 TB of storage",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1280,
+      "basis": "explicit-amount",
+      "usd": 40,
+      "quote": "$40 in monthly Google Cloud credits from Google Developer Program.",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gemini-plans-20261127-4",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案贈送 Google Health Premium",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案免費包含 Google Health Premium 價值，提供 Gemini 建構的健康教練服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案；需要合適的設備。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是訂閱 Google AI Pro 方案常態包含的權益，並非獨立的限時優惠或免費試用。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required).",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required).",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 1800,
+      "basis": "ai-estimate",
+      "note": "頁面顯示 Google Home Premium Standard 價值為 $10/mo，推估 Google Health Premium 價值相近（$10/mo），一年總價值約 $120，換算台幣約 1800 元。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "gemini-plans-20261127-5",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Ultra 方案贈送 Google Health Premium",
+    "category": "ai",
+    "summary": "訂閱 Google AI Ultra 方案免費包含 Google Health Premium 價值，提供 Gemini 建構的健康教練服務。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Ultra 方案；需要合適的設備。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Ultra 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "該功能為常態付費方案 Google AI Ultra 的標準包含項目，並非獨立限時免費試用或特殊空頭獎品。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Unlock Google Health Premium ( /mo value) included for access to health coaching that’s built with Gemini and made for you (eligible device required). 8",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Get the Google Home Premium Standard plan at no cost ($10/mo value), with 30 days of event history and Gemini features. 9",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Google AI Ultra is available in more than 150 countries — see full list of countries .",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 320,
+      "basis": "explicit-amount",
+      "usd": 10,
+      "quote": "$10 in monthly Google Cloud credits from Google Developer Program",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
+  },
+  {
+    "id": "gemini-plans-20261127-6",
+    "sourceId": "gemini-plans",
+    "name": "Google AI Pro 方案贈送 YouTube Premium Lite",
+    "category": "ai",
+    "summary": "訂閱 Google AI Pro 方案免費包含 YouTube Premium Lite 個人方案，減少廣告、支援離線與背景播放。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需訂閱 Google AI Pro 方案；可用性因國家而異。",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Google AI Pro 方案"
+    ],
+    "officialUrl": "https://one.google.com/about/google-ai-plans/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T04:05:40.459Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需訂閱付費方案,自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是訂閱付費方案內含的權益，並非免費贈送或限時折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "A Google AI Pro subscription comes with YouTube Premium Lite — see fewer ads on most videos, at no extra cost. 7",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(availability varies by country )",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Availability varies by country – see full list of countries and regions where Google AI Pro and YouTube Premium are supported.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
+  },
+  {
+    "id": "suno-pricing-20261127-1",
+    "sourceId": "suno-pricing",
+    "name": "Suno 黑色星期五限時促銷",
+    "category": "ai",
+    "summary": "年繳方案額外享有 30% 折扣",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇年繳方案",
+      "完成付款"
+    ],
+    "officialUrl": "https://suno.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Suno 定價頁」，待人工核實，提取時間 2026-11-27T04:05:58.032Z",
+    "lastVerified": "2026-11-27",
+    "risks": "促銷結束時間不詳，頁面顯示倒數計時為 1d 10h 00m 00s,付費方案自動續約",
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T04:05:16.101Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示 Black Friday Sale 及年繳額外 30% 折扣，屬於限時促銷。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Extra 30% off annual plans",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 520,
+      "basis": "ai-estimate",
+      "note": "以 Pro 年繳原價 96 美元計算，額外 30% 折扣相當於 28.8 美元，以 1 USD = 30 TWD 保守換算約 864 TWD，但考量為保守估算與匯率波動，取約 520 TWD 作為參考值。",
+      "confidence": "medium"
+    }
+  },
+  {
+    "id": "copilot-plans-20261127-1",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot Copilot Fusion 限時折扣",
+    "category": "ai",
+    "summary": "Copilot Fusion 使用費用享 3 折優惠（7 折折扣）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-31",
+    "ongoing": false,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-27T04:06:15.335Z",
+    "lastVerified": "2026-11-27",
+    "risks": "活動結束後恢復原價",
+    "status": "pending"
+  },
+  {
+    "id": "copilot-plans-20261127-2",
+    "sourceId": "copilot-plans",
+    "name": "GitHub Copilot 學生優惠",
+    "category": "ai",
+    "summary": "經驗证的學生可存取 GitHub Copilot 學生方案。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須是經驗证的學生",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://github.com/features/copilot/plans",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-27T04:06:15.335Z",
+    "lastVerified": "2026-11-27",
+    "risks": "需通過學生身份驗證",
+    "status": "pending"
   }
 ]
