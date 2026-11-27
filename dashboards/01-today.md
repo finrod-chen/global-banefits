@@ -1,35 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T18:05:15.548Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T20:05:16.537Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，包含 Fast DNS、無限 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損圖片優化、AM | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於小於 50 人的團隊或企業概念驗證測試，永久免費（$0 forever），提供社群論壇和 Discord 支援，標準日誌保留時長最高  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求免費，每次請求 10 毫秒 CPU 時間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hours 記憶體、375 vCPU-min CPU、200 GB-hours 磁碟空間及 1 TB 網路出站流量（ | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求、13,000 GB-s 持續時間、5000 萬行 SQL 讀取、10 萬行 SQL 寫入、5 GB SQL 儲存資料及 | 約 TWD 1,300（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1000 萬次 Class B 操作免費。 | 約 TWD 38,400（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 10 萬次讀取請求及每天 1,000 次寫入/刪除/列表請求免費。 | 約 TWD 1,440（AI 估） | 長期活動 | AI 預審通過 |
-| [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每天 500 萬行讀取及每天 10 萬行寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean App Platform 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起價 $0/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Functions 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | Functions 起價 $0/月，每月可免費使用 90,000 GiB-seconds | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Container Registry 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立不限數量的 VPC，VPC 內的資料傳輸免費，Ingress 資料傳輸免費，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Uptime Monitoring 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Cloud Security Posture Management (CSPM) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | CSPM 起價 $0/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [DigitalOcean Insights 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個計費團隊每月包含 5 GB 的 Logs 和 Traces 額度（Logs and Traces 價格 $0.50/GB） | 約 TWD 93（AI 估） | 長期活動 | AI 預審通過 |
-| [DigitalOcean 平台免費功能](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立 3 個靜態網站、Droplets 包含免費出站資料傳輸（每月起 500 GiB）、免費 DNS 管理、免費雲防火牆、免費基礎架構問 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 in AWS Activate Credits for eligible startups. | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $5,000 USD in Activate Credits. Start with $1,000 USD in Activat | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in Activate Credits. | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits. Our investment scales with the size of t | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Start with Kiro Startup Credits, then grow into Activate Credits. | 約 TWD 50,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [ChatGPT Free 方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限量的 GPT-6 文字聊天（受濫用防護機制限制）、有限的上傳訊息、有限的影像建立、有限的語音聊天、有限的深入研究、有限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [GAIB 上幣活動空投](https://www.kucoin.com/announcement) | Crypto | GAIB (GAIB) 上幣活動，提供 2,600,000 GAIB 空投（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Kinetiq 上幣活動空投](https://www.kucoin.com/announcement) | Crypto | Kinetiq (KNTQ) 上幣活動，提供 328,400 KNTQ 空投（Giveaway）。 | 約 TWD 690,445（AI 估） | 長期活動 | AI 預審通過 |
@@ -67,14 +43,14 @@
 | [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free Email Forwarding」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供有限時間的特別交易，包含特定遊戲的折扣（例如 -{{ primaryProduct.price.discount }}%），並顯示倒數計 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 學生教育優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可獲得 Google AI Pro 免費 1 年。 | 約 TWD 3,720（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 $10 的 Google Cloud 信用點（來自 Google Developer Prog | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 $40 的 Google Cloud 信用點（來自 Google Developer Pr | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 方案內含 YouTube Premium Lite 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 YouTube Premium Lite 個人方案（減少廣告、離線與背景播放），無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建構的 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 YouTube Premium 家庭版回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 YouTube Premium 家庭版（無廣告、離線與背景播放），涵蓋最多 5 位家庭成員，無 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Suno 黑五限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans），宣傳為年度最大促銷。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實身份的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Google AI Pro 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 $10 的 Google Cloud 信用點（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 $40 的 Google Cloud 信用點（來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
+| [Google AI Pro 方案內含 YouTube Premium Lite 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 YouTube Premium Lite 個人方案（減少廣告、離線與背景播放），無額外費用。 | 約 TWD 600（AI 估） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建構的 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案內含 YouTube Premium 家庭版回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 YouTube Premium 家庭版（無廣告、離線與背景播放），涵蓋最多 5 位家庭成員，無 | 約 TWD 2,200（AI 估） | 長期活動 | 待核實 |
+| [Google AI Ultra 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建 | 約 TWD 3,600（AI 估） | 長期活動 | 待核實 |
+| [Suno 黑五限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans），宣傳為年度最大促銷。 | 約 TWD 980（AI 估） | 長期活動 | AI 預審通過 |
+| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實身份的學生可存取 GitHub Copilot 學生方案 | 約 TWD 92,700（AI 估） | 長期活動 | AI 預審通過 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將對其服務費用進行折扣 (discount our fee) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 3.47% 浮動收益率](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可賺取 3.47% 的浮動收益率 (variable rate)，基於 2026-10-11 的 7 天績 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Free Tier 新戶信用額度與免費體驗](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶獲得 $100 即時額度，探索關鍵服務後最高可再賺取 $100，總計 $200 額度於 6 個月內有效。可免費使用超過 90 項服務， | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -82,3 +58,21 @@
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案（$0/月），包含無限 DDoS 防護、CDN、Universal SSL 憑證、WAF 等核心功能。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare SASE / Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 免費方案，適用於 50 人以下團隊或企業概念驗證測試，包含社群論壇及 Discord 支援。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求與 10 ms/請求 CPU 時間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Containers Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月包含 25 GiB-hrs 記憶體、375 vCPU-min CPU 及 200 GB-hrs 磁碟空間，另含 1 TB 網路流出量。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Durable Objects Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入及 5 GB SQL 儲 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Browser Rendering Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間及 3 個並列瀏覽器免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workflows Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、10 ms/調用 CPU 時間及 1 GB 儲存空間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare R2 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列表請求免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare D1 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 儲存空間、每日 500 萬行讀取及每日 100,000 行寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Queues Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $5,000 USD in AWS Activate Credits, starting with $1,000 USD; ad | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in AWS Activate Credits for backed startups | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits; investment scales with workload size (of | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro Startup Credits for agentic development environment; grow into Ac | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB 檔 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案運算積分](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的運算積分 (Compute Credits)，可覆蓋一個 Micro 實例的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 付費方案第一個項目免費運算實例](https://supabase.com/pricing) | VPS/雲服務 | 在付費方案中，第一個 Micro 運算實例是免費的 (First instance free on paid plans)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
