@@ -1,6 +1,6 @@
 # D. Crypto 空投與積分專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T14:05:16.795Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T16:05:16.737Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -26,6 +26,6 @@
 | [Gate Web3 USDD 獎勵第 8 階段](https://www.gate.com/announcements) | Crypto | 存入以賺取基礎 4% APY，並分享額外的 90,000 USDD 獎勵 | 約 TWD 2,880,000（AI 估） | 長期活動 | 待核實 |
 | [Gate Web3 BountyDrop USDD 感恩節空投](https://www.gate.com/announcements) | Crypto | 參與 USDD 感恩節空投，分享 500 USDD 獎勵 | 約 TWD 750（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Black Friday 存款與交易獎品](https://blog.kraken.com/) | Crypto | 存款 $1,000 法幣並完成四個疊加的交易里程碑，最高可獲得 $100 的 BTC。 | 約 TWD 3,200（AI 估） | 2026-12-01 | AI 預審通過 |
-| [Kraken Pro ANTx 交易獎品](https://blog.kraken.com/) | Crypto | 交易 ANTx（追蹤 Anthropic 股價）可爭奪 $5,000 的獎品池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Pro Anthropic Pre-IPO 挑戰](https://blog.kraken.com/) | Crypto | 透過交易量排名爭奪 $20,000 的 ANTHROPICX 獎品池，可使用最高 10 倍槓桿。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken Futures 獎金挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產和加密貨幣期貨，幫助解鎖最高 $5,000,000 的 USDG 獎勵池。 | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
+| [Kraken Pro ANTx 交易獎品](https://blog.kraken.com/) | Crypto | 交易 ANTx（追蹤 Anthropic 股價）可爭奪 $5,000 的獎品池。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Pro Anthropic Pre-IPO 挑戰](https://blog.kraken.com/) | Crypto | 透過交易量排名爭奪 $20,000 的 ANTHROPICX 獎品池，可使用最高 10 倍槓桿。 | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken Futures 獎金挑戰](https://blog.kraken.com/) | Crypto | 交易黃金、真實世界資產和加密貨幣期貨，幫助解鎖最高 $5,000,000 的 USDG 獎勵池。 | 約 TWD 160,000,000（AI 估） | 2026-12-10 | AI 預審通過 |

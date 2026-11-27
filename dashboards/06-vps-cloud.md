@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T14:05:16.795Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T16:05:16.737Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -37,14 +37,15 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 永久免費，無需信用卡。包含100個專案，每個專案每月100 CU-hrs 計算資源，每專案1 GB 儲存空間，5 GB 物件儲存，100萬次 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon 新創公司計畫](https://neon.com/pricing) | VPS/雲服務 | 為早期階段的新創公司提供最高 $100k 的金額點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [RackNerd Black Friday VPS 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 1GB、2.5GB、4GB、6GB、8GB KVM VPS 方案，年費分別為 $15.98、$27.98、$47.98、$74.98、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd Black Friday VPS 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | 提供 1GB、2.5GB、4GB、6GB、8GB KVM VPS 方案，年費分別為 $15.98、$27.98、$47.98、$74.98、 | 約 TWD 4,500（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 所有 Black Friday VPS 方案均包含免費的 Clientexec 授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 免費 Shared Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案年費從 $9.49 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 免費 Reseller Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案年費從 $29.88 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd 免費 Dedicated Server 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Server 方案月費從 $64 起。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd 免費 Shared Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案年費從 $9.49 起。 | 約 TWD 304（AI 估） | 長期活動 | 待核實 |
+| [RackNerd 免費 Reseller Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案年費從 $29.88 起。 | 約 TWD 900（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd 免費 Dedicated Server 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Server 方案月費從 $64 起。 | 約 TWD 2,048（AI 估） | 長期活動 | 待核實 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 1st Yr Sale 網域註冊折扣](https://porkbun.com/products/domains) | VPS/雲服務 | 提供超過60種TLD的網域「第一年銷售」（1st Yr Sale）低價方案，例如 .xyz 為 $1.29、.lol 為 $1.54、.cl | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 10 / User Sale 網域促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定TLD如 .ca、.airforce 等提供「10 / User Sale」促銷價，例如 .ca 為 $6.53（原價 $11.12）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free WHOIS Privacy」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free SSL Certificates」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free Email Forwarding」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Free Tier 新戶信用額度與免費體驗](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶獲得 $100 即時額度，探索關鍵服務後最高可再賺取 $100，總計 $200 額度於 6 個月內有效。可免費使用超過 90 項服務， | 免費（價值視使用而定） | 長期活動 | 待核實 |
