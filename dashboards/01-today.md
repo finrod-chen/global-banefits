@@ -1,15 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T09:07:38.785Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T10:05:17.933Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Claude Pro 年繳優惠](https://claude.com/pricing) | AI 工具 | 年繳方案每月 $17（預先支付 $200），比月繳 $20 更划算。 | 約 TWD 96（AI 估） | 長期活動 | 待核實 |
-| [ElevenLabs 黑五促銷](https://elevenlabs.io/pricing) | AI 工具 | 選擇年繳方案最高可享 55% 折扣。Starter 年繳原價 $60，現價 $5/月（含 2 個月免費）；Creator 年繳第一年 $99 | 免費（價值視使用而定） | 2026-12-01 | AI 預審通過 |
-| [VerityAI (VERITY) Listing Campaign — 92,000 VERITY Giveaway](https://www.kucoin.com/announcement) | Crypto | 提供 92,000 VERITY 的贈送活動 (Giveaway)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin VIP Return Program](https://www.kucoin.com/announcement) | Crypto | 歡迎前 VIP 用戶返回 KuCoin，可領取最高 10,000 USDT 的獨家獎勵，包括比特幣 (BTC) 及熱門美國股票代幣。 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月提供 100 個專案，每個專案每月 100 CU-hrs 計算資源、1 GB 儲存空間、最多 2 CU (8 GB RAM) 的計算大小 | 約 TWD 1,500（AI 估） | 長期活動 | AI 預審通過 |
 | [Neon 早期創業公司計劃 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 提供最高 100,000 美元的使用額度 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Neon 開源專案計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 提供對您維護的開源專案的贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -59,4 +55,19 @@
 | [AWS Activate Portfolio Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in Activate Credits. | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits. Our investment scales with the size of t | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Start with Kiro Startup Credits, then grow into Activate Credits. | 約 TWD 50,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [ChatGPT Business 限時 2 倍用量與快速模式](https://openai.com/chatgpt/pricing/) | AI 工具 | 在 11 月 30 日前簽名 ChatGPT Business，即可在 12 月 31 日前為所有席位免費獲得 2 倍包含的用量與快速模式（ | 約 TWD 1,500（AI 估） | 2024-12-31 | 待核實 |
+| [ChatGPT Free 方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含無限量的 GPT-6 文字聊天（受濫用防護機制限制）、有限的上傳訊息、有限的影像建立、有限的語音聊天、有限的深入研究、有限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs Black Friday Sale](https://elevenlabs.io/pricing) | AI 工具 | 年繳方案最高可省 55%，Creator 年繳首年 $99，Pro 年繳首年 $445.50 | 約 TWD 3,600（AI 估） | 2025-12-01 | 待核實 |
+| [GAIB 上幣活動空投](https://www.kucoin.com/announcement) | Crypto | GAIB (GAIB) 上幣活動，提供 2,600,000 GAIB 空投（Giveaway）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Kinetiq 上幣活動空投](https://www.kucoin.com/announcement) | Crypto | Kinetiq (KNTQ) 上幣活動，提供 328,400 KNTQ 空投（Giveaway）。 | 約 TWD 690,445（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Launchpool 項目 #388: XAUT (Tether Gold) 代幣空投活動](https://www.gate.com/announcements) | Crypto | 儲備 USDT、GT 或 XAUT 以領取代幣空投 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate 2026 年度盛典活動](https://www.gate.com/announcements) | Crypto | 支持年度明星並參與抽獎，贏取驚喜獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Gate BTC 和 ETH 質押 APR 提升活動](https://www.gate.com/announcements) | Crypto | BTC 和 ETH 質押年利率 (APR) 最高提升至 5.50% | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate CFD Gold 空投活動](https://www.gate.com/announcements) | Crypto | 交易以分享價值 850,000 USDx 的獎勵，並最高可賺取 4,432 USDT 的 XAUT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [NVDA 期貨交易挑戰賽](https://www.gate.com/announcements) | Crypto | 首次交易獎勵 3 USDT，總獎勵最高 8,000 USDT | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Idle Earn × Simple Earn 限時活動第 3 階段](https://www.gate.com/announcements) | Crypto | USDT 最高可賺取 9% APR | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [感恩節 VIP 歡迎季活動](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 即可解鎖全新 LV 滑雪裝備 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Web3 ETH 鏈獎勵第 6 階段](https://www.gate.com/announcements) | Crypto | 存入以賺取基礎 4% APY，並分享額外的 72,000 USDD 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Web3 USDD 獎勵第 8 階段](https://www.gate.com/announcements) | Crypto | 存入以賺取基礎 4% APY，並分享額外的 90,000 USDD 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Web3 BountyDrop USDD 感恩節空投](https://www.gate.com/announcements) | Crypto | 參與 USDD 感恩節空投，分享 500 USDD 獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |

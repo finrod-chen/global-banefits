@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T09:07:38.785Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T10:05:17.933Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -40,4 +40,4 @@
 | [AWS Activate Portfolio Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in Activate Credits. | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits. Our investment scales with the size of t | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Start with Kiro Startup Credits, then grow into Activate Credits. | 約 TWD 50,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 月費 $0，包含無限制 API 請求、每月 50,000 名活躍使用者 (MAU)、500 MB 資料庫大小、共享 CPU 與 500 MB | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
