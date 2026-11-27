@@ -1947,166 +1947,6 @@
     }
   },
   {
-    "id": "mistral-pricing-20261127-1",
-    "sourceId": "mistral-pricing",
-    "name": "Mistral API 批次處理折扣",
-    "category": "ai",
-    "summary": "批次處理（Batch processing）價格減少50%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用 Mistral API 進行批次處理請求。"
-    ],
-    "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T00:05:58.419Z",
-    "lastVerified": "2026-11-27",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T00:05:15.946Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 API 常態定價機制中針對大量處理的固定折扣，屬於一般付費方案的價格結構，並非限時促銷或新戶獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Batch processing, for high-volume work, reduces the price by 50%",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "mistral-pricing-20261127-2",
-    "sourceId": "mistral-pricing",
-    "name": "Mistral API 緩存輸入代幣折扣",
-    "category": "ai",
-    "summary": "重複提示詞的緩存輸入代幣（cached input tokens）輸入成本最多降低90%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用 Mistral API 並啟用緩存功能以重用提示詞。"
-    ],
-    "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T00:05:58.419Z",
-    "lastVerified": "2026-11-27",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T00:05:15.946Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態的 API 計費機制，針對重複提示詞提供固定折扣，不屬於限時優惠或免費額度。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "cached input tokens reduce input cost by up to 90% for repeated prompts.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "epic-free-games-20261127-1",
-    "sourceId": "epic-free-games",
-    "name": "Epic 每週免費遊戲 Them's Fightin' Herds",
-    "category": "software",
-    "summary": "免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 freeGamesPromotions 及 JSON 資料結構推斷，但需注意 JSON 中 price 欄位顯示為 289.00，這可能是目錄資訊而非當前領取價格，然而頁面標題明確為「免費遊戲」且屬於 freeGamesPromotions 端點，故定義為免費領取）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "TW"
-    ],
-    "startDate": "2022-12-19",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Epic Games 商店頁面",
-      "點擊領取 Them's Fightin' Herds"
-    ],
-    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T02:05:41.312Z",
-    "lastVerified": "2026-11-27",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T04:05:16.101Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該端點為免費遊戲促銷活動，提供免費領取資格。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "\"discountPrice\":28900,\"originalPrice\":28900,",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": "\"currencyCode\":\"TWD\"",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 289,
-      "basis": "ai-estimate",
-      "note": "遊戲目錄原價為 289 新臺幣，免費領取等值於該金額。",
-      "confidence": "medium"
-    }
-  },
-  {
     "id": "cloudflare-plans-20261127-1",
     "sourceId": "cloudflare-plans",
     "name": "Cloudflare 免費方案",
@@ -5072,7 +4912,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「RackNerd 特價 VPS」，待人工核實，提取時間 2026-11-27T14:05:46.247Z",
     "lastVerified": "2026-11-27",
     "risks": "安裝一鍵應用程式將永久抹除現有資料，包括作業系統、應用程式與檔案，且無法復原。,AdminBolt 為 30 天免費試用，到期後可能需要付費或移除。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供 30 天免費試用，屬於免費試用方案",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "AdminBolt is a modern, affordable hosting control panel that brings website, email, DNS, SSL, WordPress, and database management together in one easy-to-use interface. Install AdminBolt in one click through ctrl and enjoy a 30-day free tria",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Minimum Requirements: 2+ vCPU · 2+ GB RAM\nInstalls on AlmaLinux 9",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261127-1",
@@ -5101,7 +4966,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
     "lastVerified": "2026-11-27",
     "risks": "頁面說明價格為非優質（non-premium）網域的第一年註冊、續費及轉移價格；「Most transfers include a one year domain renewal」（多數轉移包含一年續費），轉移可能產生額外費用。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面標示「everyday low price」及持續性的「Amazing prices, always and forever」，且列出多種TLD的註冊與續費價目表，屬於常態定價與一般付費方案，而非限時優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Amazing prices, always and forever\n.COM from $11.81\n.NET from $12.52\n.ORG from $7.98\nTrending\nAll Extensions\nThese are some of the hottest extensions around.\n.xyz\n1.29 first year sale\n$14.21 regular price\n.lol\n1.54 first year sale\n$26.26 re",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "60"
+      ]
+    },
+    "valueEstimate": {
+      "twd": 100,
+      "basis": "ai-estimate",
+      "note": "以頁面列出價格最低的 .xyz 第一年售價 $1.29 換算，約為 40 新台幣，加上一般網域管理價值，保守估算為 100 新台幣。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261127-2",
@@ -5130,7 +5026,36 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
     "lastVerified": "2026-11-27",
     "risks": "若超出每人10個網域的限制，後續網域可能無法享受促銷價。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示有特定的促銷價格標籤「10 / User Sale!」，顯示有數量限制的優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": ".ca\n$11.12 10 / User 1st Yr Sale! $ 6.52\n$11.64 Sale! $ 9.17\n$11.44 10 / User Sale! $ 8.97",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": ".airforce\n$ 92.17\n$ 92.17\n$92.17 10 / User Sale! $ 91.26",
+          "found": true
+        }
+      ],
+      "flags": [
+        "numbers-missing"
+      ],
+      "numbersMissing": [
+        "6.53"
+      ]
+    }
   },
   {
     "id": "porkbun-domains-20261127-3",
@@ -5158,7 +5083,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
     "lastVerified": "2026-11-27",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該服務為完全免費提供的功能，符合免費方案或額度的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free WHOIS Privacy",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 300,
+      "basis": "ai-estimate",
+      "note": "假設市面付費隱私保護服務年費約為 10 美元 (約 300 新台幣)，保守估算此免費服務的首年價值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "porkbun-domains-20261127-4",
@@ -5186,7 +5137,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
     "lastVerified": "2026-11-27",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面將「Free SSL Certificates」列為免費服務項目，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free SSL Certificates",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "porkbun-domains-20261127-5",
@@ -5214,7 +5185,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Porkbun 網域價格」，待人工核實，提取時間 2026-11-27T14:06:05.827Z",
     "lastVerified": "2026-11-27",
     "risks": "",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確列出「Free Email Forwarding」為免費服務項目，屬於免費方案。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free Email Forwarding",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gog-free-games-20261127-1",
@@ -5243,7 +5234,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GOG 免費遊戲」，待人工核實，提取時間 2026-11-27T14:06:56.331Z",
     "lastVerified": "2026-11-27",
     "risks": "優惠為有限時間，需注意倒數計時過期風險",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提及限時的新戶歡迎優惠與特別折扣。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Don’t miss your Welcome Offer! Start your game collection with these special limited-time deals! Browse the deals {{countdown}} left!",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "gemini-plans-20261127-1",
@@ -5273,7 +5284,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Google One AI 方案」，待人工核實，提取時間 2026-11-27T16:05:45.810Z",
     "lastVerified": "2026-11-27",
     "risks": "適用地區與資格依官方說明而定，可能有地區限制。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-27T18:05:15.548Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示學生可获得 Google AI Pro 免費一年，屬於學生優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get ahead this school year with Google AI Pro free for 1 year.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Students get exclusive offers on Google AI plans",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Availability varies by country – see full list of countries and regions where Google AI Pro and YouTube Premium are supported.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3720,
+      "basis": "ai-estimate",
+      "note": "假設 Google AI Pro 一般定價為每月 30 美元，一年總價值 360 美元，匯率約 10.3 換算成新台幣 3708，保守取整為 3720。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gemini-plans-20261127-3",
@@ -5473,34 +5520,6 @@
     "status": "pending"
   },
   {
-    "id": "copilot-plans-20261127-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot Fusion 限時 30% 折扣",
-    "category": "ai",
-    "summary": "Copilot Fusion 使用量享有 30% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2024-12-31",
-    "ongoing": false,
-    "steps": [
-      "在 12 月 31 日前使用 Copilot Fusion"
-    ],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-27T16:06:21.298Z",
-    "lastVerified": "2026-11-27",
-    "risks": "折扣期限結束後恢復原價",
-    "status": "pending"
-  },
-  {
     "id": "copilot-plans-20261127-2",
     "sourceId": "copilot-plans",
     "name": "GitHub Copilot 學生優惠",
@@ -5612,6 +5631,122 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-27T16:07:30.254Z",
     "lastVerified": "2026-11-27",
     "risks": "若升級為付費方案或啟用純付費服務，將產生費用。額度用盡或 6 個月期限後帳戶自動關閉。超過免費限制或啟用付費功能時，額度將自動抵扣成本。",
+    "status": "pending"
+  },
+  {
+    "id": "mistral-pricing-20261127-1",
+    "sourceId": "mistral-pricing",
+    "name": "Mistral API 批次處理折扣",
+    "category": "ai",
+    "summary": "使用批次處理進行高容量工作時，價格比即時處理降低 50%。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "使用 Mistral API 提交批次處理請求"
+    ],
+    "officialUrl": "https://mistral.ai/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
+    "lastVerified": "2026-11-27",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "mistral-pricing-20261127-2",
+    "sourceId": "mistral-pricing",
+    "name": "Mistral API 快取輸入代幣折扣",
+    "category": "ai",
+    "summary": "對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "null",
+    "regions": [
+      "null"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 API 請求中啟用快取功能並重用相同的輸入前綴"
+    ],
+    "officialUrl": "https://mistral.ai/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
+    "lastVerified": "2026-11-27",
+    "risks": "null",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261127-1",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
+    "category": "software",
+    "summary": "限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 平台",
+      "登入帳號",
+      "搜尋 Them's Fightin' Herds 並領取"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T18:05:57.278Z",
+    "lastVerified": "2026-11-27",
+    "risks": "錯過活動期間後需付費購買",
+    "status": "pending"
+  },
+  {
+    "id": "epic-free-games-20261127-2",
+    "sourceId": "epic-free-games",
+    "name": "Epic 每週免費遊戲：Model Builder: Complete Edition",
+    "category": "software",
+    "summary": "限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "TW"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "開啟 Epic Games 平台",
+      "登入帳號",
+      "搜尋 Model Builder: Complete Edition 並領取"
+    ],
+    "officialUrl": "https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Epic 每週免費遊戲（官方 JSON）」，待人工核實，提取時間 2026-11-27T18:05:57.278Z",
+    "lastVerified": "2026-11-27",
+    "risks": "錯過活動期間後需付費購買",
     "status": "pending"
   }
 ]

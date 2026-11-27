@@ -1,14 +1,11 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T16:05:16.737Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T18:05:15.548Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 批次處理（Batch processing）價格減少50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Mistral API 緩存輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 重複提示詞的緩存輸入代幣（cached input tokens）輸入成本最多降低90%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Epic 每週免費遊戲 Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 免費領取 Them's Fightin' Herds，該遊戲原價 289.00 TWD，目前折扣價格為 0 TWD（基於 URL 為 fre | 約 TWD 289（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 $0 的免費方案，包含 Fast DNS、無限 DDoS 防護、CDN、通用 SSL 憑證、免費管理規則集、WAF、無損圖片優化、AM | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare SASE/Zero Trust 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 適用於小於 50 人的團隊或企業概念驗證測試，永久免費（$0 forever），提供社群論壇和 Discord 支援，標準日誌保留時長最高  | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10 萬次請求免費，每次請求 10 毫秒 CPU 時間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -62,14 +59,14 @@
 | [RackNerd 免費 Shared Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Shared Hosting 方案年費從 $9.49 起。 | 約 TWD 304（AI 估） | 長期活動 | 待核實 |
 | [RackNerd 免費 Reseller Hosting 限時特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Reseller Hosting 方案年費從 $29.88 起。 | 約 TWD 900（AI 估） | 長期活動 | AI 預審通過 |
 | [RackNerd 免費 Dedicated Server 特價](https://www.racknerd.com/specials/) | VPS/雲服務 | Dedicated Server 方案月費從 $64 起。 | 約 TWD 2,048（AI 估） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 1st Yr Sale 網域註冊折扣](https://porkbun.com/products/domains) | VPS/雲服務 | 提供超過60種TLD的網域「第一年銷售」（1st Yr Sale）低價方案，例如 .xyz 為 $1.29、.lol 為 $1.54、.cl | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板的一鍵安裝功能安裝 AdminBolt 主機管理面板，享有 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 1st Yr Sale 網域註冊折扣](https://porkbun.com/products/domains) | VPS/雲服務 | 提供超過60種TLD的網域「第一年銷售」（1st Yr Sale）低價方案，例如 .xyz 為 $1.29、.lol 為 $1.54、.cl | 約 TWD 100（AI 估） | 長期活動 | 待核實 |
 | [Porkbun 10 / User Sale 網域促銷](https://porkbun.com/products/domains) | VPS/雲服務 | 特定TLD如 .ca、.airforce 等提供「10 / User Sale」促銷價，例如 .ca 為 $6.53（原價 $11.12）、 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free WHOIS Privacy」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free SSL Certificates」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free Email Forwarding」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供有限時間的特別交易，包含特定遊戲的折扣（例如 -{{ primaryProduct.price.discount }}%），並顯示倒數計 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Google AI Pro 學生教育優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可獲得 Google AI Pro 免費 1 年。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Porkbun 免費 WHOIS 隱私保護](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free WHOIS Privacy」為免費服務項目。 | 約 TWD 300（AI 估） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 SSL 憑證](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free SSL Certificates」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Porkbun 免費 Email 轉發](https://porkbun.com/products/domains) | VPS/雲服務 | 列出「Free Email Forwarding」為免費服務項目。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供有限時間的特別交易，包含特定遊戲的折扣（例如 -{{ primaryProduct.price.discount }}%），並顯示倒數計 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Google AI Pro 學生教育優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可獲得 Google AI Pro 免費 1 年。 | 約 TWD 3,720（AI 估） | 長期活動 | AI 預審通過 |
 | [Google AI Pro 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 $10 的 Google Cloud 信用點（來自 Google Developer Prog | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 $40 的 Google Cloud 信用點（來自 Google Developer Pr | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Pro 方案內含 YouTube Premium Lite 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 YouTube Premium Lite 個人方案（減少廣告、離線與背景播放），無額外費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -77,8 +74,11 @@
 | [Google AI Ultra 方案內含 YouTube Premium 家庭版回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 YouTube Premium 家庭版（無廣告、離線與背景播放），涵蓋最多 5 位家庭成員，無 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Google AI Ultra 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Suno 黑五限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans），宣傳為年度最大促銷。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Fusion 限時 30% 折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享有 30% 折扣 | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實身份的學生可存取 GitHub Copilot 學生方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將對其服務費用進行折扣 (discount our fee) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 3.47% 浮動收益率](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可賺取 3.47% 的浮動收益率 (variable rate)，基於 2026-10-11 的 7 天績 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS Free Tier 新戶信用額度與免費體驗](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶獲得 $100 即時額度，探索關鍵服務後最高可再賺取 $100，總計 $200 額度於 6 個月內有效。可免費使用超過 90 項服務， | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
