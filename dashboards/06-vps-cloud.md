@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T06:05:17.676Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-27T08:05:16.974Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -25,12 +25,12 @@
 | [Cloudflare R2 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1000 萬次 Class B 操作免費。 | 約 TWD 38,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare Workers KV 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存資料、每天 10 萬次讀取請求及每天 1,000 次寫入/刪除/列表請求免費。 | 約 TWD 1,440（AI 估） | 長期活動 | AI 預審通過 |
 | [Cloudflare D1 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 總儲存空間、每天 500 萬行讀取及每天 10 萬行寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean App Platform 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Queues 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Hyperdrive 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每天 100,000 次查詢免費。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [DigitalOcean App Platform 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | App Platform 起價 $0/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Functions 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | Functions 起價 $0/月，每月可免費使用 90,000 GiB-seconds | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Container Registry 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費容器註冊表，包含 1 個 repository 和 500 MiB 儲存空間，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立不限數量的 VPC，VPC 內的資料傳輸免費，Ingress 資料傳輸免費，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [DigitalOcean Virtual Private Cloud (VPC) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | 免費建立不限數量的 VPC，VPC 內的資料傳輸免費，Ingress 資料傳輸免費，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [DigitalOcean Uptime Monitoring 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個帳戶每月包含 1 次 Uptime Check，起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Cloud Security Posture Management (CSPM) 免費方案](https://www.digitalocean.com/pricing) | VPS/雲服務 | CSPM 起價 $0/月 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [DigitalOcean Insights 免費額度](https://www.digitalocean.com/pricing) | VPS/雲服務 | 每個計費團隊每月包含 5 GB 的 Logs 和 Traces 額度（Logs and Traces 價格 $0.50/GB） | 免費（價值視使用而定） | 長期活動 | 待核實 |
