@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-27T22:05:15.290Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T00:05:17.010Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -33,13 +33,13 @@
 | [Cloudflare Browser Rendering Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10 分鐘瀏覽器使用時間及 3 個並列瀏覽器免費。 | 約 TWD 16,000（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare Workflows Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 100,000 次請求、10 ms/調用 CPU 時間及 1 GB 儲存空間免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare R2 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每月 10 GB 標準儲存空間、100 萬次 Class A 操作及 1,000 萬次 Class B 操作免費。 | 約 TWD 2,358（AI 估） | 長期活動 | 待核實 |
-| [Cloudflare Workers KV Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列表請求免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Cloudflare Workers KV Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 1 GB 儲存空間、每日 100,000 次讀取請求及每日 1,000 次寫入/刪除/列表請求免費。 | 約 TWD 150（AI 估） | 長期活動 | 待核實 |
 | [Cloudflare D1 Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 5 GB 儲存空間、每日 500 萬行讀取及每日 100,000 行寫入免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Queues Free 額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日 10,000 次標準操作免費。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $5,000 USD in AWS Activate Credits, starting with $1,000 USD; ad | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in AWS Activate Credits for backed startups | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits; investment scales with workload size (of | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro Startup Credits for agentic development environment; grow into Ac | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB 檔 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $5,000 USD in AWS Activate Credits, starting with $1,000 USD; ad | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in AWS Activate Credits for backed startups | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits; investment scales with workload size (of | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro Startup Credits for agentic development environment; grow into Ac | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB 檔 | 約 TWD 30,000（AI 估） | 長期活動 | 待核實 |
 | [Supabase 付費方案運算積分](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的運算積分 (Compute Credits)，可覆蓋一個 Micro 實例的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案第一個項目免費運算實例](https://supabase.com/pricing) | VPS/雲服務 | 在付費方案中，第一個 Micro 運算實例是免費的 (First instance free on paid plans)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

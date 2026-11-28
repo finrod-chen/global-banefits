@@ -1947,722 +1947,6 @@
     }
   },
   {
-    "id": "openai-pricing-20261127-2",
-    "sourceId": "openai-pricing",
-    "name": "ChatGPT Free 方案",
-    "category": "ai",
-    "summary": "提供免費方案，包含無限量的 GPT-6 文字聊天（受濫用防護機制限制）、有限的上傳訊息、有限的影像建立、有限的語音聊天、有限的深入研究、有限的記憶與上下文、有限的 Codex 存取權以及有限的 ChatGPT Work 桌面存取。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需註冊帳號並選擇 Free 方案。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "點擊「Sign up for free」或「Get Free」建立帳號並啟動免費方案。"
-    ],
-    "officialUrl": "https://openai.com/chatgpt/pricing/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-27T10:05:43.619Z",
-    "lastVerified": "2026-11-27",
-    "risks": "免費方案的各項功能（上傳、影像、語音、深入研究等）均有限制，且回應時間可能受限於頻寬與可用性。",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T10:05:17.933Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該條目明確提供名為 Free 的無費用方案，符合免費方案或額度的定義。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Unlimited text chats with GPT-6\nLimited messages with uploads\nLimited image creation\nLimited voice chats\nLimited deep research\nLimited memory and context\nLimited Codex access\nLimited ChatGPT Work access on desktop",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Get Free",
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261127-1",
-    "sourceId": "kucoin-announce",
-    "name": "GAIB 上幣活動空投",
-    "category": "crypto",
-    "summary": "GAIB (GAIB) 上幣活動，提供 2,600,000 GAIB 空投（Giveaway）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-27T10:07:24.877Z",
-    "lastVerified": "2026-11-27",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T10:05:17.933Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為新幣上幣時的空投贈送（Giveaway），屬於新戶獎勵或空投積分性質。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "GAIB (GAIB) Listing Campaign — 2,600,000 GAIB Giveaway",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261127-2",
-    "sourceId": "kucoin-announce",
-    "name": "Kinetiq 上幣活動空投",
-    "category": "crypto",
-    "summary": "Kinetiq (KNTQ) 上幣活動，提供 328,400 KNTQ 空投（Giveaway）。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-27T10:07:24.877Z",
-    "lastVerified": "2026-11-27",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T10:05:17.933Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為新幣上幣搭配的 Giveaway（空投）活動，符合免費額度或空投積分之定義。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kinetiq (KNTQ) Listing Campaign — 328,400 KNTQ Giveaway",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 690445,
-      "basis": "ai-estimate",
-      "usd": 21576.42,
-      "note": "金額沒有在頁面原文逐字找到，僅供參考；以 Kinetiq (KNTQ) 當時市值估算總池價值約 21,576 美元。",
-      "confidence": "low"
-    }
-  },
-  {
-    "id": "gate-announce-20261127-1",
-    "sourceId": "gate-announce",
-    "name": "Gate Launchpool 項目 #388: XAUT (Tether Gold) 代幣空投活動",
-    "category": "crypto",
-    "summary": "儲備 USDT、GT 或 XAUT 以領取代幣空投",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需儲備 USDT、GT 或 XAUT",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate Launchpool 頁面",
-      "選擇 XAUT 項目",
-      "儲備 USDT、GT 或 XAUT"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T10:05:17.933Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供儲備資產即可領取代幣空投，屬於典型的空投積分與免費方案促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Launchpool Project #388: XAUT (Tether Gold). Stake USDT, GT, or XAUT to Claim Airdrops",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Stake USDT, GT, or XAUT to Claim Airdrops",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-2",
-    "sourceId": "gate-announce",
-    "name": "Gate 2026 年度盛典活動",
-    "category": "crypto",
-    "summary": "支持年度明星並參與抽獎，贏取驚喜獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-18",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate 2026 年度盛典活動頁面",
-      "支持指定的年度明星",
-      "參與抽獎"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T10:05:17.933Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動提供機會贏取驚喜獎勵，屬於抽獎或限時獎勵型的促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate 2026 Annual Gala: Support the Stars of the Year and Enter to Win Surprise Rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-3",
-    "sourceId": "gate-announce",
-    "name": "Gate BTC 和 ETH 質押 APR 提升活動",
-    "category": "crypto",
-    "summary": "BTC 和 ETH 質押年利率 (APR) 最高提升至 5.50%",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-24",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate Earn 頁面",
-      "選擇 BTC 或 ETH 質押產品",
-      "進行質押操作"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動明確標示為限時提升年利率的活動，屬於獎勵性質的金融產品促銷。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Raises BTC and ETH Staking APRs: Up to 5.50%",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-4",
-    "sourceId": "gate-announce",
-    "name": "Gate CFD Gold 空投活動",
-    "category": "crypto",
-    "summary": "交易以分享價值 850,000 USDx 的獎勵，並最高可賺取 4,432 USDT 的 XAUT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需進行交易",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-24",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 CFD Gold 交易頁面",
-      "進行交易",
-      "分享空投獎勵"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為空投（Airdrop），透過交易行為獲取獎勵，符合空投積分的定義。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "CFD Gold Airdrop: Trade for a Share of Rewards Worth 850,000 USDx and Earn Up to 4,432 USDT in XAUT",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 141824,
-      "basis": "explicit-amount",
-      "usd": 4432,
-      "quote": "Earn Up to 4,432 USDT in XAUT",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261127-5",
-    "sourceId": "gate-announce",
-    "name": "NVDA 期貨交易挑戰賽",
-    "category": "crypto",
-    "summary": "首次交易獎勵 3 USDT，總獎勵最高 8,000 USDT",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "首次交易 NVDA 期貨",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-23",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 NVDA 期貨交易頁面",
-      "進行首次交易",
-      "參與挑戰賽以贏取獎勵"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是針對特定資產（NVDA期貨）的限時交易競賽，提供首次交易獎勵與總額獎勵，屬於活動型優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "NVDA Futures Trading Challenge: 3 USDT on Your First Trade, Up to 8,000 USDT in Rewards",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 256000,
-      "basis": "explicit-amount",
-      "usd": 8000,
-      "quote": "Up to 8,000 USDT in Rewards",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261127-6",
-    "sourceId": "gate-announce",
-    "name": "Idle Earn × Simple Earn 限時活動第 3 階段",
-    "category": "crypto",
-    "summary": "USDT 最高可賺取 9% APR",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-02",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Idle Earn 或 Simple Earn 頁面",
-      "存入 USDT",
-      "賺取最高 9% APR"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示為限時活動（Limited-Time Event），提供高於常態的 APY 報酬。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Idle Earn × Simple Earn Limited-Time Event Phase 3: Earn Up to 9% APR on USDT",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-7",
-    "sourceId": "gate-announce",
-    "name": "感恩節 VIP 歡迎季活動",
-    "category": "crypto",
-    "summary": "首次升級至 VIP 5 即可解鎖全新 LV 滑雪裝備",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "首次升級至 VIP 5",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-23",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "升級至 VIP 5",
-      "領取獎勵"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該活動為特定節日（感恩節）的新戶/首次升級VIP獎勵，屬於限時優惠或新戶獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Upgrade to VIP 5 for the First Time",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-8",
-    "sourceId": "gate-announce",
-    "name": "Gate Web3 ETH 鏈獎勵第 6 階段",
-    "category": "crypto",
-    "summary": "存入以賺取基礎 4% APY，並分享額外的 72,000 USDD 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需存入資金",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate Web3 頁面",
-      "存入資金至 ETH 鏈",
-      "賺取 APY 和分享額外獎勵"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供基礎 APY 收益及額外空投獎勵，屬於限時活動性質。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Web3 Bonus on ETH Chain Phase 6 : Deposit to Earn Base 4% APY + Share an Extra 72,000 USDD",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Deposit to Earn Base 4% APY",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "gate-announce-20261127-9",
-    "sourceId": "gate-announce",
-    "name": "Gate Web3 USDD 獎勵第 8 階段",
-    "category": "crypto",
-    "summary": "存入以賺取基礎 4% APY，並分享額外的 90,000 USDD 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需存入資金",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate Web3 頁面",
-      "存入 USDD",
-      "賺取 APY 和分享額外獎勵"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面顯示該項目為針對USDD存款的限時獎勵活動，包含高於基礎的APY與額外分潤。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Web3 USDD Bonus Phase 8: Deposit to Earn Base 4% APY + Share an Extra 90,000 USDD",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 2880000,
-      "basis": "explicit-amount",
-      "usd": 90000,
-      "quote": "Share an Extra 90,000 USDD",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "gate-announce-20261127-10",
-    "sourceId": "gate-announce",
-    "name": "Gate Web3 BountyDrop USDD 感恩節空投",
-    "category": "crypto",
-    "summary": "參與 USDD 感恩節空投，分享 500 USDD 獎勵",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "前往 Gate Web3 BountyDrop 活動頁面",
-      "參與空投"
-    ],
-    "officialUrl": "https://www.gate.com/announcements",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-27T10:07:45.175Z",
-    "lastVerified": "2026-11-27",
-    "risks": "",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T12:05:16.994Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面標示為「USDD 感恩節空投」且提供獎勵分享，屬於限時或特定活動性質的空投獎勵。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Gate Web3 BountyDrop: Join the USDD Thanksgiving Airdrop and Share 500 USDD in Rewards",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 750,
-      "basis": "ai-estimate",
-      "note": "假設用戶獲得全部 500 USDD 獎勵，且 USDD 代幣與美元掛鉤（1 USDD ≈ 1 USD），換算成新臺幣約 750 元（1 USD ≈ 30 TWD）。",
-      "confidence": "low"
-    }
-  },
-  {
     "id": "neon-pricing-20261127-1",
     "sourceId": "neon-pricing",
     "name": "Neon 免費方案",
@@ -5525,7 +4809,46 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-27T20:06:02.803Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的是 Workers KV 服務常態的 Free 額度與 Paid 定價，並非限時優惠或折扣。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Stored Data\nFree 1 GB\nPaid $0.50 / GB-month\nRead Requests\nFree 100,000 / day\nPaid $0.50 / million requests\nWrite, Delete, List requests\nFree 1,000 / day\nPaid $5.00 / million requests",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 150,
+      "basis": "ai-estimate",
+      "note": "估算 Free 額度對應的付費價格：1 GB 儲存 (12 * $0.50) + 每日 100k 讀取 (30 * $0.50) + 每日 1k 寫入/刪除/列表 (30 * $5.00) = $6 + $15 + $150 = $171/年。換算成約 150-170 台幣，取保守整數 150。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261127-10",
@@ -5553,7 +4876,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-27T20:06:02.803Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "頁面列出的是一般產品（D1）的免費額度與付費計價標準，屬於常態定價結構，而非限時的促銷活動。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "5 GB (total)\n5 million / day\n100,000 / day",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "null",
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": "null",
+          "found": false
+        }
+      ],
+      "flags": [
+        "regular-pricing",
+        "numbers-missing",
+        "quote-missing"
+      ],
+      "numbersMissing": [
+        "500"
+      ]
+    }
   },
   {
     "id": "cloudflare-plans-20261127-11",
@@ -5581,7 +4940,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-27T20:06:02.803Z",
     "lastVerified": "2026-11-27",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提供每日免費額度，屬於免費方案。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Standard Operations\nFree 10,000 operations/day included",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "regions",
+          "quote": null,
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-startups-credits-20261127-1",
@@ -5612,7 +5003,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T20:07:12.087Z",
     "lastVerified": "2026-11-27",
     "risks": "Credits are subject to AWS Promotional Credit Terms & Conditions; application approval takes 5–10 business days",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "提供新創企業免費或促銷額度的 AWS 雲端服務額度 (Credits)",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $5,000 USD in Activate Credits *Start with $1,000 USD in Activate Credits. Select participants may qualify for additional credits up to $5,000",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Up to $5,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-2",
@@ -5643,7 +5067,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T20:07:12.087Z",
     "lastVerified": "2026-11-27",
     "risks": "Credits are subject to AWS Promotional Credit Terms & Conditions; requires validation via Activate Provider Org ID",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供額外的新創額度，屬於針對特定對象的推廣與激勵措施。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Up to $200,000 USD in Activate Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Eligibility for AWS Activate: Pre-series B, founded in the last 10 years, AWS Account on Paid Tier Plan, and either new to Activate Credits or requesting more credits than previously received",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "Up to $200,000 USD in Activate Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-3",
@@ -5673,7 +5130,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T20:07:12.087Z",
     "lastVerified": "2026-11-27",
     "risks": "Invite-only program; amount varies significantly based on individual startup scale and workload",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確標示為針對新創公司的推廣額度（Activate Credits）與特定資額方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "$200,000+ USD in AWS Credits",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Invite only, after Activate Portfolio",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 6400000,
+      "basis": "explicit-amount",
+      "usd": 200000,
+      "quote": "$200,000+ USD in AWS Credits",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "aws-startups-credits-20261127-4",
@@ -5701,7 +5191,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-27T20:07:12.087Z",
     "lastVerified": "2026-11-27",
     "risks": "Exclusivity condition: cannot hold current Activate Credits at time of application",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供 Kiro Startup Credits 額度，且提及可成長為 Activate Credits，屬於針對特定對象的免費額度或方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build faster with Kiro\nTurn prompts into working code, structured designs, and implementation tasks with an agentic development environment built on frontier models. Start with Kiro Startup Credits, then grow into Activate Credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "(Available to eligible startups without current Activate Credits)",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "supabase-pricing-20261127-1",
@@ -5730,7 +5245,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-27T20:07:47.399Z",
     "lastVerified": "2026-11-27",
     "risks": "長期不活躍項目會自動暫停；超出配額需升級或付費。",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T00:05:17.010Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是針對個人或專案的免費方案，提供固定額度。",
+      "passed": false,
+      "coverage": {
+        "found": 1,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Free\n$ 0 / month\nUnlimited API requests\n50,000 monthly active users\n500 MB database size\n5 GB egress\n5 GB cached egress\n1 GB file storage",
+          "found": false
+        },
+        {
+          "field": "requirements",
+          "quote": "Free projects are paused after 1 week of inactivity.\nLimit of 2 active projects.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 30000,
+      "basis": "ai-estimate",
+      "note": "保守估算：免費方案的總量相當於 $10/month 的 Pro 方案訂閱費加上一個 Micro 計算實例的價格，一年約 $120，換算成新台幣約 3,600 元。取整數 3,000 作為保守估算值。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "supabase-pricing-20261127-2",
@@ -5788,6 +5336,539 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Supabase 定價頁」，待人工核實，提取時間 2026-11-27T20:07:47.399Z",
     "lastVerified": "2026-11-27",
     "risks": "額外的項目或較大規格的實例需另外付費。",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261128-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時優惠",
+    "category": "ai",
+    "summary": "註冊 ChatGPT Business 可獲得不需要額外付費的 2 倍包含使用量與快速模式（fast mode），適用所有席位。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須在 11 月 30 日之前註冊",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [
+      "點擊「Get started」或「Get 2× usage and fast mode」按鈕",
+      "在 11 月 30 日前完成 ChatGPT Business 註冊"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-28T00:05:42.933Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "anthropic-pricing-20261128-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Anthropic Claude Pro 年繳優惠",
+    "category": "ai",
+    "summary": "Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Pro 方案",
+      "選擇年繳選項"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-28T00:06:00.551Z",
+    "lastVerified": "2026-11-28",
+    "risks": "年繳方案需一次付清 $200，包含自動續約風險",
+    "status": "pending"
+  },
+  {
+    "id": "anthropic-pricing-20261128-2",
+    "sourceId": "anthropic-pricing",
+    "name": "Anthropic Claude Max 與 Ultra 方案 API 額度回饋",
+    "category": "ai",
+    "summary": "Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "訂閱 Max 或 Ultra 方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Max 或 Ultra 方案",
+      "使用 Claude Platform 建置應用"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-28T00:06:00.551Z",
+    "lastVerified": "2026-11-28",
+    "risks": "訂閱費用分別為每月 $100 與 $200，包含自動續約風險",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261128-1",
+    "sourceId": "claude-pricing",
+    "name": "Claude Pro 年繳折扣方案",
+    "category": "ai",
+    "summary": "Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Pro 方案",
+      "選擇年繳付款方式"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
+    "lastVerified": "2026-11-28",
+    "risks": "需預先支付 $200,價格與方案可能隨時變更，且不含稅",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261128-2",
+    "sourceId": "claude-pricing",
+    "name": "Claude Max 方案含 API 額度",
+    "category": "ai",
+    "summary": "訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Max 方案"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
+    "lastVerified": "2026-11-28",
+    "risks": "額度僅限用於 Claude Platform,價格與方案可能隨時變更",
+    "status": "pending"
+  },
+  {
+    "id": "claude-pricing-20261128-3",
+    "sourceId": "claude-pricing",
+    "name": "Claude Ultra 方案含 API 額度",
+    "category": "ai",
+    "summary": "訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Platform 上建立應用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "訂閱 Ultra 方案"
+    ],
+    "officialUrl": "https://claude.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
+    "lastVerified": "2026-11-28",
+    "risks": "額度僅限用於 Claude Platform,價格與方案可能隨時變更",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261128-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 促銷",
+    "category": "ai",
+    "summary": "訂閱年繳方案最高可享 55% 折扣。Creator 年費第一年 $99，Pro 新用戶年費第一年 $445.50。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "點選「Get the offer」或選擇年繳方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-28T00:06:36.012Z",
+    "lastVerified": "2026-11-28",
+    "risks": "折扣僅限第一年，之後恢復標準價格。",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261128-1",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin GAIB (GAIB) 上市活動贈送活動",
+    "category": "crypto",
+    "summary": "提供 2,600,000 GAIB 空投（Giveaway）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T00:07:26.256Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261128-2",
+    "sourceId": "kucoin-announce",
+    "name": "KuCoin Kinetiq (KNTQ) 上市活動贈送活動",
+    "category": "crypto",
+    "summary": "提供 328,400 KNTQ 空投（Giveaway）",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-27",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T00:07:26.256Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-1",
+    "sourceId": "gate-announce",
+    "name": "Gate Sign up to claim 10,000+ USDT rewards",
+    "category": "crypto",
+    "summary": "註冊即可領取 10,000+ USDT 獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "註冊新帳號",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "註冊 Gate 帳號"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "獎勵可能有使用期限或限制，詳細條款需參考活動頁面",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-2",
+    "sourceId": "gate-announce",
+    "name": "Gate Launchpool Project #388: XAUT (Tether Gold)",
+    "category": "crypto",
+    "summary": "質押 USDT, GT, 或 XAUT 以獲取空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "質押 USDT, GT, 或 XAUT",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "質押 USDT, GT, 或 XAUT"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "質押期間可能無法提取或交易該代幣，市場波動風險",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-3",
+    "sourceId": "gate-announce",
+    "name": "Gate 2026 Annual Gala",
+    "category": "crypto",
+    "summary": "支持年度明星並參加活動贏取驚喜獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-18",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "支持年度明星",
+      "參加活動贏取獎勵"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-4",
+    "sourceId": "gate-announce",
+    "name": "Gate BTC and ETH Staking APRs",
+    "category": "crypto",
+    "summary": "BTC 和 ETH 質押 APY 提升至最高 5.50%",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "質押 BTC 或 ETH",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-24",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "質押 BTC 或 ETH"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "質押期間可能無法提取，市場波動風險",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-5",
+    "sourceId": "gate-announce",
+    "name": "Gate CFD Gold Airdrop",
+    "category": "crypto",
+    "summary": "交易 CFD Gold 可分得價值 850,000 USDx 的獎勵，最高可賺 4,432 USDT in XAUT",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "交易 CFD Gold",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-24",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "交易 CFD Gold"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "交易虧損風險，獎勵分發可能有延遲",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-6",
+    "sourceId": "gate-announce",
+    "name": "Gate NVDA Futures Trading Challenge",
+    "category": "crypto",
+    "summary": "首次交易 NVDA 期貨送 3 USDT，總獎勵池最高 8,000 USDT",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "首次交易 NVDA 期貨",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-23",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "首次交易 NVDA 期貨"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "期貨交易高槓桿，虧損風險大",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-7",
+    "sourceId": "gate-announce",
+    "name": "Gate Idle Earn × Simple Earn Limited-Time Event Phase 3",
+    "category": "crypto",
+    "summary": "USDT 最高可賺 9% APY",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "將 USDT 存入 Idle Earn 或 Simple Earn",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-02",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "將 USDT 存入 Idle Earn 或 Simple Earn"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "活動期限屆滿後 APY 可能恢復標準利率，資金鎖定期限",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-8",
+    "sourceId": "gate-announce",
+    "name": "Gate Thanksgiving VIP Welcome Season",
+    "category": "crypto",
+    "summary": "首次升級至 VIP 5 可解鎖新 LV 滑雪裝備",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "首次升級至 VIP 5",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": "2026-11-23",
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "升級至 VIP 5"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "VIP 升級可能需要達到一定交易額或資產門檻，獎勵發可能有延遲",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-9",
+    "sourceId": "gate-announce",
+    "name": "Gate Web3 Bonus on ETH Chain Phase 6",
+    "category": "crypto",
+    "summary": "存款賺取基礎 4% APY + 分享額外 72,000 USDD",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "在 ETH 鏈上存款",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "在 ETH 鏈上存款"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "鏈上交易Gas費，APY 可能隨市場波動",
+    "status": "pending"
+  },
+  {
+    "id": "gate-announce-20261128-10",
+    "sourceId": "gate-announce",
+    "name": "Gate Web3 USDD Bonus Phase 8",
+    "category": "crypto",
+    "summary": "存款賺取基礎 4% APY + 分享額外 90,000 USDD",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "存款 USDD",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "存款 USDD"
+    ],
+    "officialUrl": "https://www.gate.com/announcements",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
+    "lastVerified": "2026-11-28",
+    "risks": "USDD 代幣價值波動風險",
     "status": "pending"
   }
 ]
