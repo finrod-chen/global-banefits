@@ -1,6 +1,6 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T08:29:18.074Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T10:05:18.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -10,10 +10,6 @@
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
-| [AWS Activate Founders Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $5,000 USD in AWS Activate Credits, starting with $1,000 USD; ad | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Activate Portfolio Pre-Series B Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Up to $200,000 USD in AWS Activate Credits for backed startups | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [AWS Credits for AI Startups](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | $200,000+ USD in AWS Credits; investment scales with workload size (of | 約 TWD 6,400,000（AI 估） | 長期活動 | AI 預審通過 |
-| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | Kiro Startup Credits for agentic development environment; grow into Ac | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Anthropic Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。 | 約 TWD 155（AI 估） | 長期活動 | 待核實 |
 | [Anthropic Claude Max 與 Ultra 方案 API 額度回饋](https://www.anthropic.com/pricing) | AI 工具 | Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 約 TWD 1,050（AI 估） | 長期活動 | 待核實 |
@@ -46,18 +42,18 @@
 | [Setapp 7天免費試用](https://setapp.com/pricing) | 軟體/數位服務 | 提供所有會員方案（Mac、Mac + iOS、Power User）的7天免費試用，並包含AI額度（1,000或2,000 AI credi | 約 TWD 3,300（AI 估） | 長期活動 | AI 預審通過 |
 | [Setapp 年度訂閱折扣](https://setapp.com/pricing) | 軟體/數位服務 | 選擇年度訂閱可節省最高 40% 的費用。 | 約 TWD 4,100（AI 估） | 長期活動 | 待核實 |
 | [Notion 免費方案](https://www.notion.com/pricing) | 軟體/數位服務 | $0 每人 / 月，包含：有限儲存空間、Notion AI 試用版、基本表單、發布網頁、基本網站、連接多個日曆、資料庫功能。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Notion 年繳節省最高 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇 Pay yearly 付款方式可節省最多 20% 的費用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Notion 年繳節省最高 20%](https://www.notion.com/pricing) | 軟體/數位服務 | 選擇 Pay yearly 付款方式可節省最多 20% 的費用。 | 約 TWD 1,400（AI 估） | 長期活動 | 待核實 |
 | [玉山雙11購物盛典](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享9,800元回饋 | 約 TWD 9,800（AI 估） | 2026-11-30 | AI 預審通過 |
 | [玉山信用卡繳地價稅](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 最高享0.2%玉山e point回饋或3期0利率 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [玉山環球賞](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山指定萬事達卡啟用優惠最高20%現金回饋 | 約 TWD 20,000（AI 估） | 長期活動 | AI 預審通過 |
 | [玉山信用卡繳學費](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 滿額登錄享最高6期0利率 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [玉山信用卡綁定全支付](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 繳稅費享3%全點回饋 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Trip.com 玉山JCB卡日本飯店折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Trip.com 玉山Visa卡訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山Visa卡訂房享8%折扣無上限 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd Black Friday 2026 VPS 限時促銷](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年繳特價，1GB 方案 $15.98/年，2.5GB 方案 $27.98/年，4GB 方案 $47.98/年，6GB 方案  | 免費（價值視使用而定） | 2026-11-28 | 待核實 |
+| [Trip.com 玉山JCB卡日本飯店折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山JCB卡訂日本飯店最高享14%折扣 | 約 TWD 4,200（AI 估） | 長期活動 | AI 預審通過 |
+| [Trip.com 玉山Visa卡訂房折扣](https://www.esunbank.com/zh-tw/personal/credit-card/discount/shops) | 海外銀行/卡 | 玉山Visa卡訂房享8%折扣無上限 | 約 TWD 16,000（AI 估） | 長期活動 | AI 預審通過 |
+| [RackNerd Black Friday 2026 VPS 限時促銷](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年繳特價，1GB 方案 $15.98/年，2.5GB 方案 $27.98/年，4GB 方案 $47.98/年，6GB 方案  | 約 TWD 500（AI 估） | 2026-11-28 | AI 預審通過 |
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱 Black Friday VPS 方案即贈送免費 Clientexec 遊戲伺服器授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 控制面板，可享 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 控制面板，可享 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開設 Wise 個人帳戶免費（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Wise Assets 資產回報](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可於日常餘額賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -85,3 +81,7 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 月活躍用戶（MAU）、500 MB 資料庫大小、5 GB 出站流量、1 GB 檔案儲存、500,000 Ed | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案計算資源額度](https://supabase.com/pricing) | VPS/雲服務 | Pro 和 Team 方案訂閱費中每月包含 $10 的計算資源額度（Compute Credits），足以涵蓋一個 Micro 實例（$10 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Supabase 付費方案首個專案免費](https://supabase.com/pricing) | VPS/雲服務 | 訂閱 Pro 或 Team 方案時，訂閱費中已包含首個專案的費用（First project included），額外專案從每月 $10 起 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Founders 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 5,000 美元 AWS 優惠代幣。初始提供 1,000 美元，部分符合資格的自籌資金創業者可申请額外代幣至 5,000 美元上限。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 200,000 美元 AWS 優惠代幣。需提供來自 Accelerator、天使投資人或風險投資公司等 Activate 提供商的組織 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS AI Startups 代幣](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元以上的 AWS 代幣。投資規模隨創新的公司工作負載規模擴大，代幣範圍可從數千到數百萬美元。此為邀請制，通常在獲得 Act | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的代幣，幫助創新的公司將提示轉化為可用代碼。可作為成長為 Activate Credits 的起點。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

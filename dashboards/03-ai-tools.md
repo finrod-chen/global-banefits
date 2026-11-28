@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T08:29:18.074Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T10:05:18.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -30,5 +30,5 @@
 | [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 約 TWD 1,050（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Pl | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
-| [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
