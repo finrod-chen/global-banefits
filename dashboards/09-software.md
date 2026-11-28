@@ -1,12 +1,11 @@
 # I. 軟體與數位服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T02:05:16.942Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T04:05:19.613Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [GitHub Student Developer Pack（學生開發者大禮包）](https://education.github.com/pack) | 軟體/數位服務 | 經學校身分驗證的學生可免費獲得數十項開發者工具與額度，包括 GitHub Copilot、Codespaces、雲服務抵免額、網域、IDE  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [Figma Starter 免費方案](https://www.figma.com/pricing/) | 軟體/數位服務 | 免費享有有限度的 Figma 產品存取權限，包含無限草稿、UI 套件與模板，以及每天 150 點 AI 額度（每月上限 500 點 AI 額 | 免費（價值視使用而定） | 長期活動 | 已核實 |
-| [GOG 歡迎優惠](https://www.gog.com/en/games?priceRange=0,0) | 軟體/數位服務 | 提供有限時間的特別交易，包含特定遊戲的折扣（例如 -{{ primaryProduct.price.discount }}%），並顯示倒數計 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
 | [Humble Choice 黑色星期五/網一限時優惠 (HOLIDAY26)](https://www.humblebundle.com/) | 軟體/數位服務 | 使用代碼 HOLIDAY26 可獲得 Humble Choice 一年的會員資格，售價 114.99 美元（每月不到 10 美元）。此優惠允 | 免費（價值視使用而定） | 2026-11-30 | 待核實 |

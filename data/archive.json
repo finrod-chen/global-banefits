@@ -3839,5 +3839,37 @@
     "status": "expired",
     "archivedAt": "2026-11-28T02:05:16.942Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "kraken-blog-20261128-3",
+    "sourceId": "kraken-blog",
+    "name": "Kraken 節日存款抽獎活動",
+    "category": "crypto",
+    "summary": "在節日期間存入歐元，每存入 1 歐元即獲得 1 個抽獎名額，贏得 €500,000 大獎。活動於 1 月 7 日截止。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需存入資金（從其他平台轉移或新增資金）並完成註冊",
+    "regions": [
+      "EUR 地區（或歐洲經濟區）"
+    ],
+    "startDate": "2026-11-20",
+    "endDate": "2026-01-07",
+    "ongoing": false,
+    "steps": [
+      "註冊並加入活動",
+      "存入資金至帳戶（每 1 歐元為 1 個名額）",
+      "等待抽獎結果"
+    ],
+    "officialUrl": "https://blog.kraken.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
+    "lastVerified": "2026-11-28",
+    "risks": "僅有一位客戶中獎，其他參與者可能未中獎",
+    "status": "expired",
+    "archivedAt": "2026-11-28T04:05:19.613Z",
+    "archiveReason": "endDate passed"
   }
 ]

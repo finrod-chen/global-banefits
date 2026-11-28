@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T02:05:16.942Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T04:05:19.613Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -23,15 +23,6 @@
 | [Mistral 學生教育優惠](https://mistral.ai/pricing) | AI 工具 | 經驗證的學生可於獲得授權的高等教育機構中，以每月 5.99 美元（通常為 14.99 美元）使用 Mistral Pro 方案。 | 約 TWD 192 | 長期活動 | 已核實 |
 | [v0 免費方案](https://v0.app/pricing) | AI 工具 | 每月 $0，包含 v0 免費存取、部署應用程式到 Vercel、使用 Design Mode 視覺編輯、與 GitHub 同步，限制為每日  | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [v0 新用戶一次性獎勵](https://v0.app/pricing) | AI 工具 | 新用戶可獲得一次性的 $5 信用額度。 | 約 TWD 160 | 長期活動 | 已核實 |
-| [Google AI Pro 學生教育優惠](https://one.google.com/about/google-ai-plans/) | AI 工具 | 學生可獲得 Google AI Pro 免費 1 年。 | 約 TWD 3,720（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得每月 $10 的 Google Cloud 信用點（來自 Google Developer Prog | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 Google Cloud 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得每月 $40 的 Google Cloud 信用點（來自 Google Developer Pr | 約 TWD 1,280（AI 估） | 長期活動 | 待核實 |
-| [Google AI Pro 方案內含 YouTube Premium Lite 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 YouTube Premium Lite 個人方案（減少廣告、離線與背景播放），無額外費用。 | 約 TWD 600（AI 估） | 長期活動 | AI 預審通過 |
-| [Google AI Pro 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Pro 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建構的 | 約 TWD 2,500（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 YouTube Premium 家庭版回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 YouTube Premium 家庭版（無廣告、離線與背景播放），涵蓋最多 5 位家庭成員，無 | 約 TWD 2,200（AI 估） | 長期活動 | 待核實 |
-| [Google AI Ultra 方案內含 Google Health Premium 回饋](https://one.google.com/about/google-ai-plans/) | AI 工具 | 訂閱 Google AI Ultra 可獲得 Google Health Premium（價值 /mo，數值未明確），包含 Gemini 建 | 約 TWD 3,600（AI 估） | 長期活動 | 待核實 |
-| [Suno 黑五限時折扣](https://suno.com/pricing) | AI 工具 | 年繳方案額外 30% 折扣（Extra 30% off annual plans），宣傳為年度最大促銷。 | 約 TWD 980（AI 估） | 長期活動 | AI 預審通過 |
-| [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實身份的學生可存取 GitHub Copilot 學生方案 | 約 TWD 92,700（AI 估） | 長期活動 | AI 預審通過 |
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Anthropic Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。 | 約 TWD 155（AI 估） | 長期活動 | 待核實 |
@@ -39,3 +30,6 @@
 | [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 約 TWD 1,050（AI 估） | 長期活動 | 待核實 |
 | [Claude Max 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
 | [Claude Ultra 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Pl | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
+| [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享受 30% 折扣 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
+| [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
