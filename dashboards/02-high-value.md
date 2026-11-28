@@ -1,6 +1,6 @@
 # B. 高價值優惠排行榜
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T04:05:19.613Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T06:05:15.970Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -43,9 +43,6 @@
 | [Gate Stocks Activities 股票交易空投](https://www.gate.com/announcements) | Crypto | 交易熱門股票以解鎖豐厚空投獎勵 | 免費（價值視使用而定） | 長期活動 | 已核實 |
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款超過 20,000 GBP 或等額貨幣時，Wise 將對其服務費用進行折扣 (discount our fee) | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise Assets 3.47% 浮動收益率](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可賺取 3.47% 的浮動收益率 (variable rate)，基於 2026-10-11 的 7 天績 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS Free Tier 新戶信用額度與免費體驗](https://aws.amazon.com/free/) | VPS/雲服務 | 新客戶獲得 $100 即時額度，探索關鍵服務後最高可再賺取 $100，總計 $200 額度於 6 個月內有效。可免費使用超過 90 項服務， | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
@@ -82,14 +79,14 @@
 | [Gate CFD Gold Airdrop](https://www.gate.com/announcements) | Crypto | 交易 CFD Gold 可分得價值 850,000 USDx 的獎勵，最高可賺 4,432 USDT in XAUT | 約 TWD 27,200,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate NVDA Futures Trading Challenge](https://www.gate.com/announcements) | Crypto | 首次交易 NVDA 期貨送 3 USDT，總獎勵池最高 8,000 USDT | 約 TWD 256,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Idle Earn × Simple Earn Limited-Time Event Phase 3](https://www.gate.com/announcements) | Crypto | USDT 最高可賺 9% APY | 約 TWD 100,000（AI 估） | 長期活動 | 待核實 |
-| [Gate Thanksgiving VIP Welcome Season](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 可解鎖新 LV 滑雪裝備 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Web3 Bonus on ETH Chain Phase 6](https://www.gate.com/announcements) | Crypto | 存款賺取基礎 4% APY + 分享額外 72,000 USDD | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Gate Web3 USDD Bonus Phase 8](https://www.gate.com/announcements) | Crypto | 存款賺取基礎 4% APY + 分享額外 90,000 USDD | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken xStocks 交易挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 xStocks，可競爭總額高達 $100,000 的獎金池。交易量越大，獎金池越大。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Gate Thanksgiving VIP Welcome Season](https://www.gate.com/announcements) | Crypto | 首次升級至 VIP 5 可解鎖新 LV 滑雪裝備 | 約 TWD 50,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Web3 Bonus on ETH Chain Phase 6](https://www.gate.com/announcements) | Crypto | 存款賺取基礎 4% APY + 分享額外 72,000 USDD | 約 TWD 8,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Gate Web3 USDD Bonus Phase 8](https://www.gate.com/announcements) | Crypto | 存款賺取基礎 4% APY + 分享額外 90,000 USDD | 約 TWD 2,880,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken xStocks 交易挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 上交易 xStocks，可競爭總額高達 $100,000 的獎金池。交易量越大，獎金池越大。 | 約 TWD 3,200,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Krak 信用卡現金回饋](https://blog.kraken.com/) | Crypto | 使用 Krak 信用卡進行所有消費，最高可獲得 4% 的現金回饋，以美元或比特幣支付。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken ANTx 交易獎勵](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價的代幣），可獲得 $5,000 的總獎金池。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 註冊後存入 $1,000 法定貨幣，並在 11 月 12 日至 12 月 1 日期間達成四個疊加的里程碑，最高可獲 $100 的比特幣（BT | 免費（價值視使用而定） | 2026-12-01 | 待核實 |
-| [Kraken Anthropic 預 IPO 挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光度（ANTHROPICX），最高 10 倍槓桿，依交易量排名，競爭總額 $20, | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kraken ANTx 交易獎勵](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 ANTx（追蹤 Anthropic 股價的代幣），可獲得 $5,000 的總獎金池。 | 約 TWD 160,000（AI 估） | 長期活動 | AI 預審通過 |
+| [Kraken 黑五存款與交易獎金](https://blog.kraken.com/) | Crypto | 註冊後存入 $1,000 法定貨幣，並在 11 月 12 日至 12 月 1 日期間達成四個疊加的里程碑，最高可獲 $100 的比特幣（BT | 約 TWD 3,200（AI 估） | 2026-12-01 | 待核實 |
+| [Kraken Anthropic 預 IPO 挑戰](https://blog.kraken.com/) | Crypto | 在 Kraken Pro 交易 Anthropic 價格曝光度（ANTHROPICX），最高 10 倍槓桿，依交易量排名，競爭總額 $20, | 約 TWD 640,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Kraken Prop 大宗商品低手續費](https://blog.kraken.com/) | Crypto | 在 Kraken Prop 交易黃金、白銀、石油、銅和天然氣等大宗商品，非加密貨幣市場的手續費降至單邊 2 个基点（2bps），包括現有帳戶 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kraken $5,000,000 USDG 期貨挑戰](https://blog.kraken.com/) | Crypto | 在 2026 年 10 月 12 日至 12 月 10 日期間交易黃金、真實世界資產和加密貨幣期貨，可解鎖總額高達 $5,000,000 U | 免費（價值視使用而定） | 2026-12-10 | 待核實 |
 | [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0，包含 100 個專案，每個專案每月 100 CU-hrs 運算、1 GB 儲存空間、最高 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -112,5 +109,9 @@
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱 Black Friday VPS 方案即贈送免費 Clientexec 遊戲伺服器授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 控制面板，可享 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [GitHub Copilot Fusion 限時折扣](https://github.com/features/copilot/plans) | AI 工具 | Copilot Fusion 使用量享受 30% 折扣 | 免費（價值視使用而定） | 2025-12-31 | 待核實 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開設 Wise 個人帳戶免費（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise Assets 資產回報](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可於日常餘額賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將對其收取的費用進行折扣（You send over 20,000 GBP or | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 永久免費方案服務 (Always free)](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信 | 免費（價值視使用而定） | 長期活動 | 待核實 |

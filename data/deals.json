@@ -1947,190 +1947,6 @@
     }
   },
   {
-    "id": "wise-home-20261127-1",
-    "sourceId": "wise-home",
-    "name": "Wise 大額匯款費用折扣",
-    "category": "banking",
-    "summary": "匯款超過 20,000 GBP 或等額貨幣時，Wise 將對其服務費用進行折扣 (discount our fee)",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "匯款金額需超過 20,000 GBP 或等額貨幣",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "匯款超過 20,000 GBP 或等額貨幣"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-27T16:06:55.873Z",
-    "lastVerified": "2026-11-27",
-    "risks": "null",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T21:39:57.752Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是一個基於匯款金額的常態性費用折扣機制，而非限時的促銷活動。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Sending over 20,000 GBP or equivalent?",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "wise-home-20261127-2",
-    "sourceId": "wise-home",
-    "name": "Wise Assets 3.47% 浮動收益率",
-    "category": "banking",
-    "summary": "選擇加入 Wise Assets 可賺取 3.47% 的浮動收益率 (variable rate)，基於 2026-10-11 的 7 天績效",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇加入 (opting in) Wise Assets 功能",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇加入 Wise Assets"
-    ],
-    "officialUrl": "https://wise.com/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-27T16:06:55.873Z",
-    "lastVerified": "2026-11-27",
-    "risks": "如果政府違約或利率轉負，資金價值可能下降,目前的利率不保證未來的績效,浮動利率基於 7 天的績效,可能適用稅項",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T21:39:57.752Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "提供特定百分比的浮動收益率（interest/returns）作為吸引存款或持有的激勵措施。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Earn 3.47% variable rate\nEarn a return on your everyday balance by opting in to Wise Assets. 1 Find out more",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "by opting in to Wise Assets",
-          "found": true
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "aws-free-20261127-1",
-    "sourceId": "aws-free",
-    "name": "AWS Free Tier 新戶信用額度與免費體驗",
-    "category": "vps-cloud",
-    "summary": "新客戶獲得 $100 即時額度，探索關鍵服務後最高可再賺取 $100，總計 $200 額度於 6 個月內有效。可免費使用超過 90 項服務，無費用或意外帳單。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "必須為新客戶（New customers），建立 AWS Free Tier 帳戶。帳戶在開設 6 個月後或額度用盡時自動關閉。",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "建立免費 AWS 帳戶",
-      "立即獲得 $100 額度",
-      "探索關鍵服務以賺取更多額度（最多 $100）"
-    ],
-    "officialUrl": "https://aws.amazon.com/free/",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-27T16:07:30.254Z",
-    "lastVerified": "2026-11-27",
-    "risks": "若升級為付費方案或啟用純付費服務，將產生費用。額度用盡或 6 個月期限後帳戶自動關閉。超過免費限制或啟用付費功能時，額度將自動抵扣成本。",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-27T21:39:57.752Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面內容明確提供新客戶最高 $200 的免費額度及多項服務的免費體驗方案。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surpr",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "The account closes on its own 6 months after you open it or when your credits run out, whichever comes first. You won’t be charged unless you convert to a Paid plan.",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "Get up to $200 in credits for new customers",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
     "id": "mistral-pricing-20261127-1",
     "sourceId": "mistral-pricing",
     "name": "Mistral API 批次處理折扣",
@@ -4327,7 +4143,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
     "lastVerified": "2026-11-28",
     "risks": "VIP 升級可能需要達到一定交易額或資產門檻，獎勵發可能有延遲",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此為針對特定VIP等級升級條件贈送實體獎勵的限時或特定活動。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Thanksgiving VIP Welcome Season: Upgrade to VIP 5 for the First Time and Unlock New LV Ski Gear",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Upgrade to VIP 5 for the First Time",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 50000,
+      "basis": "ai-estimate",
+      "note": "LV（Louis Vuitton）滑雪裝備屬高級奢侈品，保守估計其市價約為1500美元上下，換算成新約為50000元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gate-announce-20261128-9",
@@ -4355,7 +4202,38 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
     "lastVerified": "2026-11-28",
     "risks": "鏈上交易Gas費，APY 可能隨市場波動",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個有限定階段（Phase 6）的 Web3 存款活動，提供額外的 USDD 獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Web3 Bonus on ETH Chain Phase 6 : Deposit to Earn Base 4% APY + Share an Extra 72,000 USDD",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Gate Web3 Bonus on ETH Chain Phase 6 : Deposit to Earn Base 4% APY + Share an Extra 72,000 USDD",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 8000,
+      "basis": "ai-estimate",
+      "note": "假設普通用戶投入 100 USDT 進行存款，按 4% APY 計算每年利息約 4 USDT，換算為新臺幣約 120 元；此估算極度保守，未計算分享 72,000 USDD 獎勵池的預期收益，因為該部分視參與人數而定。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "gate-announce-20261128-10",
@@ -4383,7 +4261,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Gate 官方公告」，待人工核實，提取時間 2026-11-28T00:07:46.968Z",
     "lastVerified": "2026-11-28",
     "risks": "USDD 代幣價值波動風險",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該公告為 Web3 存款獎勵活動，提供額外 USDD 空投分享與基礎 APY，屬於限時活動與獎勵。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gate Web3 USDD Bonus Phase 8: Deposit to Earn Base 4% APY + Share an Extra 90,000 USDD",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Gate Web3 USDD Bonus Phase 8: Deposit to Earn Base 4% APY + Share an Extra 90,000 USDD",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 2880000,
+      "basis": "explicit-amount",
+      "usd": 90000,
+      "quote": "90,000 USDD",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261128-1",
@@ -4412,7 +4323,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "高風險投資，不應預期在發生問題時受到保護；若失去投資價值，需準備好承擔全額損失",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該活動提供獎金池競爭，屬於限時獎勵性質。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Compete for up to $100,000 in the xStocks Trading Challenge on Kraken Pro",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "The more xStocks are traded on Kraken Pro, the bigger the prize pool gets.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200000,
+      "basis": "explicit-amount",
+      "usd": 100000,
+      "quote": "Compete for up to $100,000 in the xStocks Trading Challenge on Kraken Pro",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261128-2",
@@ -4440,7 +4384,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "常態信用卡現金回饋方案",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Meet the new Krak Credit Card: up to 4% cashback on all purchases¹",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "No points to chase. Just real cashback, paid in US dollars or bitcoin.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261128-4",
@@ -4469,7 +4440,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "活動提供獎金池（prizes）以交易特定資產為條件，屬於限時促銷或空投積分類別。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "ANTx, tracking Anthropic’s share price, is live.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000,
+      "basis": "explicit-amount",
+      "usd": 5000,
+      "quote": "Trade ANTx on Kraken Pro, with $5,000 in prizes",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261128-5",
@@ -4499,7 +4503,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個結合存款與交易里程碑的限時獎金優惠。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Get up to $100 in BTC with our Black Friday Deposit &#038; Trade Bonus\nEnroll, deposit $1,000 in fiat and trade your way through four stacked milestones, November 12 to December 1.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "deposit $1,000 in fiat and trade your way through four stacked milestones",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "December 1",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3200,
+      "basis": "explicit-amount",
+      "usd": 100,
+      "quote": "up to $100 in BTC",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261128-6",
@@ -4529,7 +4573,40 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "使用最高 10 倍槓桿，投資風險極高，可能損失超過本金",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T06:05:15.970Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個競賽活動，參與者可競爭獎金池，符合限時獎勵或競賽的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Trade Anthropic price exposure on Kraken Pro with up to 10x leverage, rank by volume, and claim your share of the prize pool",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 640000,
+      "basis": "explicit-amount",
+      "usd": 20000,
+      "quote": "The Anthropic Pre-IPO Challenge: compete for $20,000 in ANTHROPICX on Kraken Pro",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "kraken-blog-20261128-7",
@@ -5151,32 +5228,6 @@
     "status": "pending"
   },
   {
-    "id": "copilot-plans-20261128-1",
-    "sourceId": "copilot-plans",
-    "name": "GitHub Copilot Fusion 限時折扣",
-    "category": "ai",
-    "summary": "Copilot Fusion 使用量享受 30% 折扣",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": "2025-12-31",
-    "ongoing": false,
-    "steps": [],
-    "officialUrl": "https://github.com/features/copilot/plans",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-28T04:07:30.203Z",
-    "lastVerified": "2026-11-28",
-    "risks": "",
-    "status": "pending"
-  },
-  {
     "id": "copilot-plans-20261128-2",
     "sourceId": "copilot-plans",
     "name": "GitHub Copilot 學生方案",
@@ -5202,6 +5253,148 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「GitHub Copilot 方案」，待人工核實，提取時間 2026-11-28T04:07:30.203Z",
     "lastVerified": "2026-11-28",
     "risks": "",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261128-1",
+    "sourceId": "wise-home",
+    "name": "Wise 免費帳戶",
+    "category": "banking",
+    "summary": "開設 Wise 個人帳戶免費（Open a free account）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "United Kingdom"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Open a free account' 或 'Sign up' 連結",
+      "完成帳戶開設程序"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261128-2",
+    "sourceId": "wise-home",
+    "name": "Wise Assets 資產回報",
+    "category": "banking",
+    "summary": "選擇加入 Wise Assets 可於日常餘額賺取 3.47% 的可變利率回報。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "需選擇加入 Wise Assets 服務。",
+    "regions": [
+      "United Kingdom"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊 'Find out more' 或 'Explore' 以了解詳情並選擇加入 Wise Assets"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
+    "lastVerified": "2026-11-28",
+    "risks": "貨幣價值可能因政府違約或負利率而下跌,當前利率不保證未來表現,可能涉及稅務",
+    "status": "pending"
+  },
+  {
+    "id": "wise-home-20261128-3",
+    "sourceId": "wise-home",
+    "name": "Wise 大額匯款費用折扣",
+    "category": "banking",
+    "summary": "匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將對其收取的費用進行折扣（You send over 20,000 GBP or equivalent? We'll discount our fee）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "單次匯款金額需超過 20,000 GBP 或等值貨幣。",
+    "regions": [
+      "United Kingdom"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "進行超過 20,000 GBP 或等值金額的匯款交易"
+    ],
+    "officialUrl": "https://wise.com/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "aws-free-20261128-1",
+    "sourceId": "aws-free",
+    "name": "AWS 短期免費試用 (Short-term trial)",
+    "category": "vps-cloud",
+    "summary": "可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將自動套用。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 AWS 帳號",
+      "啟動選定的付費方案服務"
+    ],
+    "officialUrl": "https://aws.amazon.com/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-28T06:06:13.275Z",
+    "lastVerified": "2026-11-28",
+    "risks": "若使用量超出免費試用限制，系統會自動套用信用額度；若信用額度用盡或方案變更，可能產生費用。",
+    "status": "pending"
+  },
+  {
+    "id": "aws-free-20261128-2",
+    "sourceId": "aws-free",
+    "name": "AWS 永久免費方案服務 (Always free)",
+    "category": "vps-cloud",
+    "summary": "超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信用額度以覆蓋成本。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "建立 AWS 帳號"
+    ],
+    "officialUrl": "https://aws.amazon.com/free/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-28T06:06:13.275Z",
+    "lastVerified": "2026-11-28",
+    "risks": "超過每月使用限制或存取付費功能時，會自動套用信用額度；若額度不足可能產生費用。",
     "status": "pending"
   }
 ]
