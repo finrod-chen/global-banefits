@@ -1947,128 +1947,6 @@
     }
   },
   {
-    "id": "mistral-pricing-20261127-1",
-    "sourceId": "mistral-pricing",
-    "name": "Mistral API 批次處理折扣",
-    "category": "ai",
-    "summary": "使用批次處理進行高容量工作時，價格比即時處理降低 50%。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "使用 Mistral API 提交批次處理請求"
-    ],
-    "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
-    "lastVerified": "2026-11-27",
-    "risks": "null",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T21:39:57.752Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面描述的是 API 計費規則中關於批次處理（Batch processing）的價格結構，屬於常態性定價機制而非限時或特定群體的促銷優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Batch processing, for high-volume work, reduces the price by 50%, and cached input tokens reduce input cost by up to 90% for repeated prompts.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": null,
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": null,
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "mistral-pricing-20261127-2",
-    "sourceId": "mistral-pricing",
-    "name": "Mistral API 快取輸入代幣折扣",
-    "category": "ai",
-    "summary": "對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "null",
-    "regions": [
-      "null"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "在 API 請求中啟用快取功能並重用相同的輸入前綴"
-    ],
-    "officialUrl": "https://mistral.ai/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Mistral 定價頁」，待人工核實，提取時間 2026-11-27T18:05:39.472Z",
-    "lastVerified": "2026-11-27",
-    "risks": "null",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-27T21:39:57.752Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面在常見問題中說明了 API 定價計算方式，指出快取輸入代幣的成本降低屬於定價機制，並非限時優惠或特殊獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 3
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "cached input tokens reduce input cost by up to 90% for repeated prompts",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "null",
-          "found": false
-        },
-        {
-          "field": "regions",
-          "quote": "null",
-          "found": false
-        }
-      ],
-      "flags": [
-        "regular-pricing",
-        "quote-missing"
-      ],
-      "numbersMissing": []
-    }
-  },
-  {
     "id": "epic-free-games-20261127-1",
     "sourceId": "epic-free-games",
     "name": "Epic 每週免費遊戲：Them's Fightin' Herds",
@@ -2193,395 +2071,6 @@
       "basis": "ai-estimate",
       "note": "依據頁面中該遊戲的 originalPrice 與 discountPrice 為 31800 TWD，保守估算其價值為原價金額。",
       "confidence": "medium"
-    }
-  },
-  {
-    "id": "anthropic-pricing-20261128-1",
-    "sourceId": "anthropic-pricing",
-    "name": "Anthropic Claude Pro 年繳優惠",
-    "category": "ai",
-    "summary": "Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "需選擇年繳方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro 方案",
-      "選擇年繳選項"
-    ],
-    "officialUrl": "https://www.anthropic.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-28T00:06:00.551Z",
-    "lastVerified": "2026-11-28",
-    "risks": "年繳方案需一次付清 $200，包含自動續約風險",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是一般付費方案中，年繳訂閱費低於月繳費用的常態定價結構，並非限時折扣或特殊優惠。",
-      "passed": false,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Pro\nFor everyday work\n$17\nPer month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Per month with annual subscription discount ( $200 billed up front)",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 155,
-      "basis": "ai-estimate",
-      "note": "年繳每月 $17，較月繳 $20 省下 $3；一年 12 個月共節省 $36。以匯率 1 USD = 4.3 TWD 估算，$36 約為 155 TWD。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "anthropic-pricing-20261128-2",
-    "sourceId": "anthropic-pricing",
-    "name": "Anthropic Claude Max 與 Ultra 方案 API 額度回饋",
-    "category": "ai",
-    "summary": "Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "訂閱 Max 或 Ultra 方案",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Max 或 Ultra 方案",
-      "使用 Claude Platform 建置應用"
-    ],
-    "officialUrl": "https://www.anthropic.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-28T00:06:00.551Z",
-    "lastVerified": "2026-11-28",
-    "risks": "訂閱費用分別為每月 $100 與 $200，包含自動續約風險",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "該內容提供隨訂閱方案附贈的固定 API 額度回饋，屬於常態性權益。",
-      "passed": true,
-      "coverage": {
-        "found": 2,
-        "total": 2
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Max:\n\nFor all-day work\n$100\nPer month\n\nTry Claude\n\nEverything in Pro, plus:\n5x Pro usage every 5 hours and every week*\nFable included, up to half your weekly limit New\n$100 a month in API credits to build on the Claude Platform † New\n\nEarly",
-          "found": true
-        },
-        {
-          "field": "requirements",
-          "quote": "Everything in Pro, plus:\n5x Pro usage every 5 hours and every week*\nFable included, up to half your weekly limit New\n$100 a month in API credits to build on the Claude Platform † New\n\nEarly access to advanced Claude features\nPriority access",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "$200 a month in API credits, up from $100 on Max † New",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "claude-pricing-20261128-1",
-    "sourceId": "claude-pricing",
-    "name": "Claude Pro 年繳折扣方案",
-    "category": "ai",
-    "summary": "Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "選擇 Pro 方案",
-      "選擇年繳付款方式"
-    ],
-    "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
-    "lastVerified": "2026-11-28",
-    "risks": "需預先支付 $200,價格與方案可能隨時變更，且不含稅",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是常態的訂閱定價結構，年繳享有比月繳更低的月費，屬於一般年繳折扣機制，而非限時促銷或特殊優惠活動。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$17\nPer month with annual subscription discount ( $200 billed up front). $20 if billed monthly.",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 1050,
-      "basis": "ai-estimate",
-      "note": "年繳 $200 美元相比月繳 $20 x 12 = $240 美元，節省 $40 美元。以匯率 26 計算，$40 美元約為 1040 新台幣，保守取整數為 1050。",
-      "confidence": "medium"
-    }
-  },
-  {
-    "id": "claude-pricing-20261128-2",
-    "sourceId": "claude-pricing",
-    "name": "Claude Max 方案含 API 額度",
-    "category": "ai",
-    "summary": "訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Max 方案"
-    ],
-    "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
-    "lastVerified": "2026-11-28",
-    "risks": "額度僅限用於 Claude Platform,價格與方案可能隨時變更",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "這是 Max 方案定價中標準包含的 API 額度，屬於一般付費方案的常態功能，而非限時折扣或特殊新戶獎勵。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$100 a month in API credits to build on the Claude Platform † New",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 3200,
-      "basis": "explicit-amount",
-      "usd": 100,
-      "quote": "$100 a month in API credits to build on the Claude Platform † New",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "claude-pricing-20261128-3",
-    "sourceId": "claude-pricing",
-    "name": "Claude Ultra 方案含 API 額度",
-    "category": "ai",
-    "summary": "訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Platform 上建立應用。",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": null,
-    "endDate": null,
-    "ongoing": true,
-    "steps": [
-      "訂閱 Ultra 方案"
-    ],
-    "officialUrl": "https://claude.com/pricing",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「Claude 定價頁（claude.com）」，待人工核實，提取時間 2026-11-28T00:06:18.404Z",
-    "lastVerified": "2026-11-28",
-    "risks": "額度僅限用於 Claude Platform,價格與方案可能隨時變更",
-    "status": "pending",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "regular-pricing",
-      "kindReason": "頁面描述的是 Ultra 訂閱方案的標準定價與隨訂閱提供的功能，屬於常態的付費方案內容。",
-      "passed": false,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "$200 a month in API credits, up from $100 on Max † New",
-          "found": true
-        }
-      ],
-      "flags": [
-        "regular-pricing"
-      ],
-      "numbersMissing": []
-    },
-    "valueEstimate": {
-      "twd": 6400,
-      "basis": "explicit-amount",
-      "usd": 200,
-      "quote": "$200 a month in API credits",
-      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
-      "confidence": "high"
-    }
-  },
-  {
-    "id": "kucoin-announce-20261128-1",
-    "sourceId": "kucoin-announce",
-    "name": "KuCoin GAIB (GAIB) 上市活動贈送活動",
-    "category": "crypto",
-    "summary": "提供 2,600,000 GAIB 空投（Giveaway）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T00:07:26.256Z",
-    "lastVerified": "2026-11-28",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-28T02:05:16.942Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "頁面公告顯示為新幣種上市活動中的代幣贈送（Giveaway），屬於空投或新戶獎勵性質的優惠。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "GAIB (GAIB) Listing Campaign — 2,600,000 GAIB Giveaway",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
-    }
-  },
-  {
-    "id": "kucoin-announce-20261128-2",
-    "sourceId": "kucoin-announce",
-    "name": "KuCoin Kinetiq (KNTQ) 上市活動贈送活動",
-    "category": "crypto",
-    "summary": "提供 328,400 KNTQ 空投（Giveaway）",
-    "value": {
-      "type": "free",
-      "amountUSD": null,
-      "valueTWD": null,
-      "note": "待評估（LLM 草稿，未核實不填數字）"
-    },
-    "requirements": "待補",
-    "regions": [
-      "待確認"
-    ],
-    "startDate": "2026-11-27",
-    "endDate": null,
-    "ongoing": true,
-    "steps": [],
-    "officialUrl": "https://www.kucoin.com/announcement",
-    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T00:07:26.256Z",
-    "lastVerified": "2026-11-28",
-    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "ai-reviewed",
-    "review": {
-      "at": "2026-11-28T04:05:19.613Z",
-      "model": "agnes-3.0-flash",
-      "kind": "promotion",
-      "kindReason": "這是與新貨幣上市活動相關的資產空投（Giveaway），屬於促銷活動。",
-      "passed": true,
-      "coverage": {
-        "found": 1,
-        "total": 1
-      },
-      "claims": [
-        {
-          "field": "summary",
-          "quote": "Kinetiq (KNTQ) Listing Campaign — 328,400 KNTQ Giveaway",
-          "found": true
-        }
-      ],
-      "flags": [],
-      "numbersMissing": []
     }
   },
   {
@@ -4804,7 +4293,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面標示可免費開戶，屬於新用戶可獲得的免費帳戶方案。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Open a free account",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise: The international account | Money without borders | Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261128-2",
@@ -4832,7 +4346,39 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
     "lastVerified": "2026-11-28",
     "risks": "貨幣價值可能因政府違約或負利率而下跌,當前利率不保證未來表現,可能涉及稅務",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是常態性的資產回報利率方案，並非限時折扣或新戶專屬獎勵，且需要用戶主動選擇加入。",
+      "passed": false,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Earn a return on your everyday balance by opting in to Wise Assets. 1",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "opting in to Wise Assets",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "wise-home-20261128-3",
@@ -4860,7 +4406,43 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Wise 官網」，待人工核實，提取時間 2026-11-28T06:05:38.742Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "針對特定金額門檻（超過 20,000 GBP）提供費用折扣。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sending over 20,000 GBP or equivalent? We&#x27;ll discount our fee",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Sending over 20,000 GBP or equivalent?",
+          "found": true
+        },
+        {
+          "field": "regions",
+          "quote": "Wise: The international account | Money without borders | Wise United Kingdom",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 5000,
+      "basis": "ai-estimate",
+      "note": "假設匯款 20,000 GBP 的標準手續費約 30-50 美元，折扣幅度不明，估算折扣價值約為 15 美元。",
+      "confidence": "low"
+    }
   },
   {
     "id": "aws-free-20261128-1",
@@ -4889,7 +4471,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-28T06:06:13.275Z",
     "lastVerified": "2026-11-28",
     "risks": "若使用量超出免費試用限制，系統會自動套用信用額度；若信用額度用盡或方案變更，可能產生費用。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該內容描述特定服務的有限期免費試用 (limited free trials)，屬於典型的優惠與體驗活動。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Try selected Paid plan services through limited free trials. Your trial begins when you activate the service, and any eligible credits automatically apply to usage beyond the trial limits.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "aws-free-20261128-2",
@@ -4917,7 +4519,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Free Tier」，待人工核實，提取時間 2026-11-28T06:06:13.275Z",
     "lastVerified": "2026-11-28",
     "risks": "超過每月使用限制或存取付費功能時，會自動套用信用額度；若額度不足可能產生費用。",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面提到「Always free」與每月使用限制的免費額度，屬於常態的免費方案與額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "30+ AWS services are always free within monthly usage limits on both the Free and Paid plans. If you go beyond these limits or access paid features, credits are automatically applied to cover the costs.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261128-1",
@@ -4947,7 +4569,35 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-28T08:30:04.316Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "免費方案屬於提供常態的零成本使用額度，符合 promotion 的定義。",
+      "passed": false,
+      "coverage": {
+        "found": 0,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "For personal or hobby projects that aren't business-critical.",
+          "found": false
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 14600,
+      "basis": "ai-estimate",
+      "note": "假設一般個人使用者主要使用 5 GB 的 CDN 流量（Pro 方案每 GB 約 $0.5，5GB 約 $2.5 USD/月），一年共 $30 USD；加上免費的 SSL 憑證（商業價值約 $100 USD 以內）與無限 DDoS 防護，保守估計約 $140 USD。換算成新台幣約 14600 元。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "cloudflare-plans-20261128-2",
@@ -4977,7 +4627,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-28T08:30:04.316Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "此方案提供永久免費（$0 forever）的服務額度，符合免費方案的定義。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.\n$0\nforever",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Teams under 50 users or enterprise proof-of-concept tests.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261128-3",
@@ -5005,7 +4680,27 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Cloudflare 方案頁」，待人工核實，提取時間 2026-11-28T08:30:04.316Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T12:05:17.221Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出 Workers 產品的免費方案，包含每日請求數與 CPU 時間的免費額度。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Requests\nFree 100k / day\nPaid $0.30 / million requests\nCPU Time\nFree 10 ms / request\nPaid $0.02 / million CPU ms",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "cloudflare-plans-20261128-4",
@@ -5632,6 +5327,173 @@
     ],
     "officialUrl": "https://aws.amazon.com/startups/credits/",
     "source": "LLM 自動提取（agnes-3.0-flash）自「AWS Activate 新創額度」，待人工核實，提取時間 2026-11-28T10:05:45.575Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261128-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時加倍用量與快速模式",
+    "category": "ai",
+    "summary": "在 11 月 30 日前註冊 ChatGPT Business，所有席位在 12 月 31 日前可免費享有 2 倍包含用量（2x included usage）及快速模式（fast mode）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-12-31",
+    "ongoing": false,
+    "steps": [
+      "在 11 月 30 日前完成 ChatGPT Business 的註冊"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-28T12:05:45.051Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "openai-pricing-20261128-2",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT 免費方案",
+    "category": "ai",
+    "summary": "提供免費方案，包含不限次數的文字聊天（GPT-6，受濫用防範機制限制）、有限制的上傳訊息、圖片生成、語音聊天、深度研究、記憶與上下文、Codex 存取以及桌機版 ChatGPT Work 存取。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "點擊「Get Free」或註冊免費帳號"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-28T12:05:45.051Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "anthropic-pricing-20261128-1",
+    "sourceId": "anthropic-pricing",
+    "name": "Claude Pro 年繳優惠",
+    "category": "ai",
+    "summary": "年繳方案每月 $17（總計 $200 一次付清），低於月繳 $20 的價格",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [
+      "選擇 Claude Pro 年繳方案",
+      "支付 $200"
+    ],
+    "officialUrl": "https://www.anthropic.com/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「Anthropic Claude 定價頁」，待人工核實，提取時間 2026-11-28T12:06:02.210Z",
+    "lastVerified": "2026-11-28",
+    "risks": "需一次付清全年費用,方案與價格可能隨時調整",
+    "status": "pending"
+  },
+  {
+    "id": "elevenlabs-pricing-20261128-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs 黑色星期五年度折扣",
+    "category": "ai",
+    "summary": "最高 55% 折扣，活動於 12 月 1 日結束。Creator 年度方案第一年 $99，Pro 新戶年度方案第一年 $445.50。年繳方案提供 2 個月免費（2 months free）。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "進入定價頁面",
+      "選擇年繳方案",
+      "訂閱 Starter、Creator、Pro、Scale 或 Business 方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-28T12:06:36.760Z",
+    "lastVerified": "2026-11-28",
+    "risks": "若未取消訂閱，到期後將以一般價格自動續約。",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261128-1",
+    "sourceId": "kucoin-announce",
+    "name": "GAIB (GAIB) 新幣空投活動",
+    "category": "crypto",
+    "summary": "提供 2,600,000 個 GAIB 代幣作為空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T12:07:46.160Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "pending"
+  },
+  {
+    "id": "kucoin-announce-20261128-2",
+    "sourceId": "kucoin-announce",
+    "name": "Kinetiq (KNTQ) 新幣空投活動",
+    "category": "crypto",
+    "summary": "提供 328,400 個 KNTQ 代幣作為空投獎勵",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "待補",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": null,
+    "ongoing": true,
+    "steps": [],
+    "officialUrl": "https://www.kucoin.com/announcement",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「KuCoin 官方公告」，待人工核實，提取時間 2026-11-28T12:07:46.160Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
     "status": "pending"

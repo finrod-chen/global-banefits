@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T10:05:18.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T12:05:17.221Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -18,11 +18,11 @@
 | [RackNerd Black Friday 2026 VPS 限時促銷](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年繳特價，1GB 方案 $15.98/年，2.5GB 方案 $27.98/年，4GB 方案 $47.98/年，6GB 方案  | 約 TWD 500（AI 估） | 2026-11-28 | AI 預審通過 |
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱 Black Friday VPS 方案即贈送免費 Clientexec 遊戲伺服器授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 控制面板，可享 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS 永久免費方案服務 (Always free)](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 $0 的免費方案，包含不限量的 DDoS 防護、CDN、通用 SSL 憑證及免費管理的規則集。適用於個人或愛好者專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE/Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永久免費（$0 forever）的 SASE 或 Zero Trust 方案，限制為 50 名以內的使用者或企業概念驗證測試。包含社群論 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求和每請求 10ms 的 CPU 時間免費使用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS 永久免費方案服務 (Always free)](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 $0 的免費方案，包含不限量的 DDoS 防護、CDN、通用 SSL 憑證及免費管理的規則集。適用於個人或愛好者專案。 | 約 TWD 14,600（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare SASE/Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永久免費（$0 forever）的 SASE 或 Zero Trust 方案，限制為 50 名以內的使用者或企業概念驗證測試。包含社群論 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求和每請求 10ms 的 CPU 時間免費使用額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網絡傳出流量（北美/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB SQL  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器小時和 3 個並行瀏覽器的免費使用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |

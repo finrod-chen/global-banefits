@@ -1,22 +1,13 @@
 # A. 今日最新優惠
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T10:05:18.018Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T12:05:17.221Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
 | [ZA Bank Millionaire PowerDraw: Win HKD 1m!](https://bank.za.group/en/promotions) | 海外銀行/卡 | 參與活動有機會贏取 100 萬港幣 (HKD 1,000,000) | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [ZA Bank PowerDraw Up to 11% Rebate](https://bank.za.group/en/promotions) | 海外銀行/卡 | 提供最高 11% 的消費回饋 (Rebate) | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Them's Fightin' Herds](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Them's Fightin' Herds，原價 289 TWD，活動期間免費。 | 約 TWD 289（AI 估） | 長期活動 | 待核實 |
 | [Epic 每週免費遊戲：Model Builder: Complete Edition](https://store-site-backend-static.ak.epicgames.com/freeGamesPromotions?locale=zh-Hant&country=TW) | 軟體/數位服務 | 限時免費領取遊戲 Model Builder: Complete Edition，原價 318 TWD，活動期間免費。 | 約 TWD 318（AI 估） | 長期活動 | 待核實 |
-| [Anthropic Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。 | 約 TWD 155（AI 估） | 長期活動 | 待核實 |
-| [Anthropic Claude Max 與 Ultra 方案 API 額度回饋](https://www.anthropic.com/pricing) | AI 工具 | Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
-| [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 約 TWD 1,050（AI 估） | 長期活動 | 待核實 |
-| [Claude Max 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
-| [Claude Ultra 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Pl | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
-| [KuCoin GAIB (GAIB) 上市活動贈送活動](https://www.kucoin.com/announcement) | Crypto | 提供 2,600,000 GAIB 空投（Giveaway） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
-| [KuCoin Kinetiq (KNTQ) 上市活動贈送活動](https://www.kucoin.com/announcement) | Crypto | 提供 328,400 KNTQ 空投（Giveaway） | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate Sign up to claim 10,000+ USDT rewards](https://www.gate.com/announcements) | Crypto | 註冊即可領取 10,000+ USDT 獎勵 | 約 TWD 320,000（AI 估） | 長期活動 | AI 預審通過 |
 | [Gate Launchpool Project #388: XAUT (Tether Gold)](https://www.gate.com/announcements) | Crypto | 質押 USDT, GT, 或 XAUT 以獲取空投獎勵 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Gate 2026 Annual Gala](https://www.gate.com/announcements) | Crypto | 支持年度明星並參加活動贏取驚喜獎勵 | 約 TWD 1,000（AI 估） | 長期活動 | AI 預審通過 |
@@ -55,14 +46,14 @@
 | [RackNerd AdminBolt 30 天免費試用](https://www.racknerd.com/specials/) | VPS/雲服務 | 透過 ctrl 面板一鍵安裝 AdminBolt 控制面板，可享 30 天免費試用。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Suno 黑色星期五銷售](https://suno.com/pricing) | AI 工具 | 年繳方案額外享受30%折扣，宣稱為全年最大促銷活動。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [GitHub Copilot 學生方案](https://github.com/features/copilot/plans) | AI 工具 | 經驗證的學生可存取 GitHub Copilot Student 方案 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開設 Wise 個人帳戶免費（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 免費帳戶](https://wise.com/) | 海外銀行/卡 | 開設 Wise 個人帳戶免費（Open a free account）。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Wise Assets 資產回報](https://wise.com/) | 海外銀行/卡 | 選擇加入 Wise Assets 可於日常餘額賺取 3.47% 的可變利率回報。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將對其收取的費用進行折扣（You send over 20,000 GBP or | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [AWS 永久免費方案服務 (Always free)](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 $0 的免費方案，包含不限量的 DDoS 防護、CDN、通用 SSL 憑證及免費管理的規則集。適用於個人或愛好者專案。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare SASE/Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永久免費（$0 forever）的 SASE 或 Zero Trust 方案，限制為 50 名以內的使用者或企業概念驗證測試。包含社群論 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求和每請求 10ms 的 CPU 時間免費使用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Wise 大額匯款費用折扣](https://wise.com/) | 海外銀行/卡 | 匯款金額超過 20,000 GBP 或等值貨幣時，Wise 將對其收取的費用進行折扣（You send over 20,000 GBP or | 約 TWD 5,000（AI 估） | 長期活動 | AI 預審通過 |
+| [AWS 短期免費試用 (Short-term trial)](https://aws.amazon.com/free/) | VPS/雲服務 | 可免費試用選定的付費方案 (Paid plan) 服務。試用期從啟動服務時開始，若使用量超出試用限制，適用的信用額度 (credits) 將 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [AWS 永久免費方案服務 (Always free)](https://aws.amazon.com/free/) | VPS/雲服務 | 超過 30 項 AWS 服務在 Free 和 Paid 方案下均提供每月使用限制內的永久免費使用。若超過限制或存取付費功能，系統會自動套用信 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare 免費方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供每月 $0 的免費方案，包含不限量的 DDoS 防護、CDN、通用 SSL 憑證及免費管理的規則集。適用於個人或愛好者專案。 | 約 TWD 14,600（AI 估） | 長期活動 | 待核實 |
+| [Cloudflare SASE/Zero Trust Free 方案](https://www.cloudflare.com/plans/) | VPS/雲服務 | 提供永久免費（$0 forever）的 SASE 或 Zero Trust 方案，限制為 50 名以內的使用者或企業概念驗證測試。包含社群論 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Cloudflare Workers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求和每請求 10ms 的 CPU 時間免費使用額度。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Cloudflare Containers 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 包含每月 25 GiB-hrs 記憶體、375 vCPU-min CPU、200 GB-hrs 磁碟空間以及 1 TB 網絡傳出流量（北美/ | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Durable Objects 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 100,000 次請求、13,000 GB-s 持續時間、50M 行 SQL 讀取、100K 行 SQL 寫入、5 GB SQL  | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Cloudflare Browser Rendering 免費額度](https://www.cloudflare.com/plans/) | VPS/雲服務 | 每日包含 10 分鐘瀏覽器小時和 3 個並行瀏覽器的免費使用額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
@@ -85,3 +76,9 @@
 | [AWS Activate Portfolio 額度](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 最多 200,000 美元 AWS 優惠代幣。需提供來自 Accelerator、天使投資人或風險投資公司等 Activate 提供商的組織 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [AWS AI Startups 代幣](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 200,000 美元以上的 AWS 代幣。投資規模隨創新的公司工作負載規模擴大，代幣範圍可從數千到數百萬美元。此為邀請制，通常在獲得 Act | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Kiro Startup Credits](https://aws.amazon.com/startups/credits/) | VPS/雲服務 | 提供 Kiro 開發環境的代幣，幫助創新的公司將提示轉化為可用代碼。可作為成長為 Activate Credits 的起點。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ChatGPT Business 限時加倍用量與快速模式](https://openai.com/chatgpt/pricing/) | AI 工具 | 在 11 月 30 日前註冊 ChatGPT Business，所有席位在 12 月 31 日前可免費享有 2 倍包含用量（2x inclu | 免費（價值視使用而定） | 2024-12-31 | 待核實 |
+| [ChatGPT 免費方案](https://openai.com/chatgpt/pricing/) | AI 工具 | 提供免費方案，包含不限次數的文字聊天（GPT-6，受濫用防範機制限制）、有限制的上傳訊息、圖片生成、語音聊天、深度研究、記憶與上下文、Cod | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | 年繳方案每月 $17（總計 $200 一次付清），低於月繳 $20 的價格 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [ElevenLabs 黑色星期五年度折扣](https://elevenlabs.io/pricing) | AI 工具 | 最高 55% 折扣，活動於 12 月 1 日結束。Creator 年度方案第一年 $99，Pro 新戶年度方案第一年 $445.50。年繳方 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [GAIB (GAIB) 新幣空投活動](https://www.kucoin.com/announcement) | Crypto | 提供 2,600,000 個 GAIB 代幣作為空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Kinetiq (KNTQ) 新幣空投活動](https://www.kucoin.com/announcement) | Crypto | 提供 328,400 個 KNTQ 代幣作為空投獎勵 | 免費（價值視使用而定） | 長期活動 | 待核實 |
