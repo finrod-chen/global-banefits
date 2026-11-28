@@ -3778,5 +3778,66 @@
     "status": "expired",
     "archivedAt": "2026-11-27T18:05:15.548Z",
     "archiveReason": "endDate passed"
+  },
+  {
+    "id": "openai-pricing-20261128-1",
+    "sourceId": "openai-pricing",
+    "name": "ChatGPT Business 限時優惠",
+    "category": "ai",
+    "summary": "註冊 ChatGPT Business 可獲得不需要額外付費的 2 倍包含使用量與快速模式（fast mode），適用所有席位。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "必須在 11 月 30 日之前註冊",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2024-11-30",
+    "ongoing": false,
+    "steps": [
+      "點擊「Get started」或「Get 2× usage and fast mode」按鈕",
+      "在 11 月 30 日前完成 ChatGPT Business 註冊"
+    ],
+    "officialUrl": "https://openai.com/chatgpt/pricing/",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「OpenAI ChatGPT 定價頁」，待人工核實，提取時間 2026-11-28T00:05:42.933Z",
+    "lastVerified": "2026-11-28",
+    "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
+    "status": "expired",
+    "archivedAt": "2026-11-28T02:05:16.942Z",
+    "archiveReason": "endDate passed"
+  },
+  {
+    "id": "elevenlabs-pricing-20261128-1",
+    "sourceId": "elevenlabs-pricing",
+    "name": "ElevenLabs Black Friday 促銷",
+    "category": "ai",
+    "summary": "訂閱年繳方案最高可享 55% 折扣。Creator 年費第一年 $99，Pro 新用戶年費第一年 $445.50。",
+    "value": {
+      "type": "free",
+      "amountUSD": null,
+      "valueTWD": null,
+      "note": "待評估（LLM 草稿，未核實不填數字）"
+    },
+    "requirements": "選擇年繳方案。",
+    "regions": [
+      "待確認"
+    ],
+    "startDate": null,
+    "endDate": "2025-12-01",
+    "ongoing": false,
+    "steps": [
+      "點選「Get the offer」或選擇年繳方案"
+    ],
+    "officialUrl": "https://elevenlabs.io/pricing",
+    "source": "LLM 自動提取（agnes-3.0-flash）自「ElevenLabs 定價頁」，待人工核實，提取時間 2026-11-28T00:06:36.012Z",
+    "lastVerified": "2026-11-28",
+    "risks": "折扣僅限第一年，之後恢復標準價格。",
+    "status": "expired",
+    "archivedAt": "2026-11-28T02:05:16.942Z",
+    "archiveReason": "endDate passed"
   }
 ]

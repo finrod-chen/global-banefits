@@ -1,6 +1,6 @@
 # C. AI 工具免費與折扣專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T00:05:17.010Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T02:05:16.942Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -34,10 +34,8 @@
 | [GitHub Copilot 學生優惠](https://github.com/features/copilot/plans) | AI 工具 | 經核實身份的學生可存取 GitHub Copilot 學生方案 | 約 TWD 92,700（AI 估） | 長期活動 | AI 預審通過 |
 | [Mistral API 批次處理折扣](https://mistral.ai/pricing) | AI 工具 | 使用批次處理進行高容量工作時，價格比即時處理降低 50%。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [Mistral API 快取輸入代幣折扣](https://mistral.ai/pricing) | AI 工具 | 對於重複的提示詞，快取的輸入代幣最多可降低 90% 的輸入成本。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ChatGPT Business 限時優惠](https://openai.com/chatgpt/pricing/) | AI 工具 | 註冊 ChatGPT Business 可獲得不需要額外付費的 2 倍包含使用量與快速模式（fast mode），適用所有席位。 | 免費（價值視使用而定） | 2024-11-30 | 待核實 |
-| [Anthropic Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Anthropic Claude Max 與 Ultra 方案 API 額度回饋](https://www.anthropic.com/pricing) | AI 工具 | Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Max 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Claude Ultra 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Pl | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [ElevenLabs Black Friday 促銷](https://elevenlabs.io/pricing) | AI 工具 | 訂閱年繳方案最高可享 55% 折扣。Creator 年費第一年 $99，Pro 新用戶年費第一年 $445.50。 | 免費（價值視使用而定） | 2025-12-01 | 待核實 |
+| [Anthropic Claude Pro 年繳優惠](https://www.anthropic.com/pricing) | AI 工具 | Pro 方案年繳每個月 $17（總計 $200 一次扣款），較月繳 $20 便宜。 | 約 TWD 155（AI 估） | 長期活動 | 待核實 |
+| [Anthropic Claude Max 與 Ultra 方案 API 額度回饋](https://www.anthropic.com/pricing) | AI 工具 | Max 方案每月提供 $100 API 額度；Ultra 方案每月提供 $200 API 額度。 | 約 TWD 6,400（AI 估） | 長期活動 | AI 預審通過 |
+| [Claude Pro 年繳折扣方案](https://claude.com/pricing) | AI 工具 | Pro 方案選擇年繳時，月費降為 $17（需預先支付 $200），相較於月繳 $20 享有折扣。 | 約 TWD 1,050（AI 估） | 長期活動 | 待核實 |
+| [Claude Max 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Max 方案（$100/月）每月贈送 $100 的 API 額度，可用於在 Claude Platform 上建立應用。 | 約 TWD 3,200（AI 估） | 長期活動 | 待核實 |
+| [Claude Ultra 方案含 API 額度](https://claude.com/pricing) | AI 工具 | 訂閱 Ultra 方案（$200/月）每月贈送 $200 的 API 額度（比 Max 方案的 $100 多），可用於在 Claude Pl | 約 TWD 6,400（AI 估） | 長期活動 | 待核實 |
