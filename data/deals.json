@@ -4634,7 +4634,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是針對特定產品（非加密貨幣大宗商品）的常態交易費率調整，並非限時活動、免費額度或新戶獎勵。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Gold, silver, oil, and other commodities are now live on Kraken Prop at half the commission\nSilver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accoun",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Silver, WTI oil, Brent oil, copper, and natural gas join gold, and commission on every non-crypto market drops to 2bps per side, including on accounts you already hold.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "kraken-blog-20261128-8",
@@ -4664,7 +4691,47 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Kraken 官方部落格」，待人工核實，提取時間 2026-11-28T02:06:03.279Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時交易的獎勵挑戰活動。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": null,
+          "found": false
+        },
+        {
+          "field": "endDate",
+          "quote": "Trade gold, real-world assets, and crypto futures from October 12 to December 10, 2026, to help unlock a reward pool of up to $5,000,000 USDG.",
+          "found": true
+        }
+      ],
+      "flags": [
+        "quote-missing"
+      ],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 160000000,
+      "basis": "explicit-amount",
+      "usd": 5000000,
+      "quote": "up to $5,000,000 USDG",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "neon-pricing-20261128-1",
@@ -4693,7 +4760,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-28T02:06:38.855Z",
     "lastVerified": "2026-11-28",
     "risks": "超過 100 CU-hrs 或 5 GB 網路傳輸後，運算會被暫停直到下個計費週期,超過 1 GB Postgres 儲存空間（單專案）或 20 GB 總儲存空間時，增加儲存的操作會失敗,超過 10 個分支數限制時，建立分支會失敗",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "該方案提供永久免費使用權益，包含專案數量與資源額度，屬於免費方案類型。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Build and learn free with no time limits and no credit card required.\nTry Neon\nLakebase Postgres\n100 projects\n100 CU-hrs monthly per project\n1 GB of storage per project\nSizes up to 2 CU (8 GB RAM)\nUnlimited team members\nBackend\nManaged Bett",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Build and learn free with no time limits and no credit card required.",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261128-2",
@@ -4721,7 +4813,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-28T02:06:38.855Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "特定新創企業可獲得最高 10 萬美元的信貸點數，屬於新戶獎勵或專屬額度",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Launch faster with up to $100k in credits.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Early-stage startups",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261128-3",
@@ -4749,7 +4866,32 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-28T02:06:38.855Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面列出「Open Source Program」作為一項特許方案，提供「Sponsorship for the open source you maintain」。",
+      "passed": true,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Sponsorship for the open source you maintain.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Open source projects",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    }
   },
   {
     "id": "neon-pricing-20261128-4",
@@ -4777,7 +4919,34 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Neon 定價頁」，待人工核實，提取時間 2026-11-28T02:06:38.855Z",
     "lastVerified": "2026-11-28",
     "risks": "LLM 草稿：未經人工核實，請以官方頁面為準",
-    "status": "pending"
+    "status": "pending",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "regular-pricing",
+      "kindReason": "這是針對特定客群的客製化定價方案 (Custom rates and limits)，並非標準的折扣或免費額度。",
+      "passed": false,
+      "coverage": {
+        "found": 2,
+        "total": 2
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Custom rates and limits for thousands of databases.",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "App generation platforms",
+          "found": true
+        }
+      ],
+      "flags": [
+        "regular-pricing"
+      ],
+      "numbersMissing": []
+    }
   },
   {
     "id": "humble-bundle-20261128-1",
@@ -4808,7 +4977,45 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Humble Bundle 首頁」，待人工核實，提取時間 2026-11-28T02:06:56.853Z",
     "lastVerified": "2026-11-28",
     "risks": "優惠於 2026 年 11 月 30 日太平洋時間晚 11:59 失效；會員制可能涉及後續訂閱扣款（頁面提到可隨時跳過某個月，暗示為訂閱制）",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "這是一個限時的黑色星期五/網一特別優惠，提供特定價格的一年 Humble Choice 訂閱服務。",
+      "passed": true,
+      "coverage": {
+        "found": 3,
+        "total": 3
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Score 1 year of Humble Choice for $114.99 USD this BFCM! This month, add Mafia: The Old Country, The Outer Worlds 2, and six more titles to launch your year of gaming. Use code HOLIDAY26 at checkout to give a year of Choice to a friend or y",
+          "found": true
+        },
+        {
+          "field": "requirements",
+          "quote": "Use code HOLIDAY26 at checkout",
+          "found": true
+        },
+        {
+          "field": "endDate",
+          "quote": "C oupon expires on November 30, 2026, at 11:59pm PT",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3680,
+      "basis": "explicit-amount",
+      "usd": 114.99,
+      "quote": "Score 1 year of Humble Choice for $114.99 USD this BFCM!",
+      "note": "頁面原文有明確金額，依 1 USD ≈ 32 TWD 換算",
+      "confidence": "high"
+    }
   },
   {
     "id": "setapp-pricing-20261128-1",
@@ -4837,7 +5044,33 @@
     "source": "LLM 自動提取（agnes-3.0-flash）自「Setapp 定價頁」，待人工核實，提取時間 2026-11-28T02:07:17.031Z",
     "lastVerified": "2026-11-28",
     "risks": "需綁定支付方式（頁面顯示「Secure payment encryption」暗示需支付驗證，但未明確寫出綁卡條件，依常理推斷自動續約風險存在，但根據規則不補充未明確寫出的隱藏條件，故僅保留明確可見的扣款/續約風險提示若頁面有寫。頁面寫有「Cancel anytime」，暗示訂閱制。若未明確寫「試用後自動轉付費」，則不推測。但通常免費試用都含此風險。然而，頁面未明確文字寫出「試用結束自動扣款」，只寫了價格是月繳。為了嚴格遵守「不要推測」，此處風險僅列出頁面明確提及的或極度明顯的。頁面有「+ tax, billed monthly」，這暗示試用後會月繳。若嚴格遵循「頁面沒有明確寫到就填 null」，風險欄位若無明確文字應為空或僅列出的明確風險。頁面沒有明確寫出風險警示文字，只有價格與取消條款。因此 risks 應為 [] 或 null? 指令說「風險提示：扣款、自動續約...」，若頁面沒寫，就不該編造。頁面有寫「Cancel anytime」，這意味著它是訂閱。通常訂閱試用後會轉為付費。但頁面沒寫「試用後自動轉為 $14.99」。所以嚴格來說，頁面沒寫風險。但「Start 7-day f",
-    "status": "pending"
+    "status": "ai-reviewed",
+    "review": {
+      "at": "2026-11-28T08:05:16.215Z",
+      "model": "agnes-3.0-flash",
+      "kind": "promotion",
+      "kindReason": "頁面明確提供各方案的「7-day free trial」及包含的 AI 額度，屬於免費試用優惠。",
+      "passed": true,
+      "coverage": {
+        "found": 1,
+        "total": 1
+      },
+      "claims": [
+        {
+          "field": "summary",
+          "quote": "Mac\n$ 14.99 / mo\n+ tax, billed monthly\nStart 7-day free trial 1,000 AI credits",
+          "found": true
+        }
+      ],
+      "flags": [],
+      "numbersMissing": []
+    },
+    "valueEstimate": {
+      "twd": 3300,
+      "basis": "ai-estimate",
+      "note": "以最低階 Mac 方案月費 $14.99 USD 計算，假設用戶在第一年內利用免費試用期並繼續訂閱約 11 個月（132.89 USD），換算成新台约为 3300 元（匯率估 24.8）。",
+      "confidence": "medium"
+    }
   },
   {
     "id": "setapp-pricing-20261128-2",

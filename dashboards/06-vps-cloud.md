@@ -1,6 +1,6 @@
 # F. VPS 及雲服務專區
 > 本檔案由 scripts/build-dashboards.mjs 自動產生，資料來源 data/deals.json。
-> 產生時間：2026-11-28T06:05:15.970Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
+> 產生時間：2026-11-28T08:05:16.215Z（UTC）。手動編輯會被下一輪覆蓋，要改內容請改資料檔案。
 
 | 活動名稱 | 類別 | 優惠內容 | 價值 | 截止 | 狀態 |
 |---|---|---|---|---|---|
@@ -29,9 +29,9 @@
 | [Supabase 免費方案](https://supabase.com/pricing) | VPS/雲服務 | 每月 $0，包含 50,000 個月活躍用戶 (MAU)、500 MB 資料庫大小、5 GB 出口流量、5 GB 快取出口流量、1 GB 檔 | 約 TWD 30,000（AI 估） | 長期活動 | 待核實 |
 | [Supabase 付費方案運算積分](https://supabase.com/pricing) | VPS/雲服務 | 付費方案 (Pro/Team) 每月包含 $10 的運算積分 (Compute Credits)，可覆蓋一個 Micro 實例的費用。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
 | [Supabase 付費方案第一個項目免費運算實例](https://supabase.com/pricing) | VPS/雲服務 | 在付費方案中，第一個 Micro 運算實例是免費的 (First instance free on paid plans)。 | 約 TWD 320（AI 估） | 長期活動 | 待核實 |
-| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0，包含 100 個專案，每個專案每月 100 CU-hrs 運算、1 GB 儲存空間、最高 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 新創企業計劃 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期階段新創企業可獲得最高 $100k 的信貸點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
-| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 提供開源專案贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
+| [Neon 免費方案](https://neon.com/pricing) | VPS/雲服務 | 每月 $0，包含 100 個專案，每個專案每月 100 CU-hrs 運算、1 GB 儲存空間、最高 2 CU (8 GB RAM) 運算規 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 新創企業計劃 (Startup Program)](https://neon.com/pricing) | VPS/雲服務 | 早期階段新創企業可獲得最高 $100k 的信貸點數 (credits)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
+| [Neon 開源計劃 (Open Source Program)](https://neon.com/pricing) | VPS/雲服務 | 提供開源專案贊助 (Sponsorship)。 | 免費（價值視使用而定） | 長期活動 | AI 預審通過 |
 | [Neon Agent Plan](https://neon.com/pricing) | VPS/雲服務 | 專為應用程式生成平台 (App generation platforms) 設計，提供自訂費率與限制，支援數千個資料庫。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
 | [RackNerd Black Friday 2026 VPS 限時促銷](https://www.racknerd.com/specials/) | VPS/雲服務 | KVM VPS 年繳特價，1GB 方案 $15.98/年，2.5GB 方案 $27.98/年，4GB 方案 $47.98/年，6GB 方案  | 免費（價值視使用而定） | 2026-11-28 | 待核實 |
 | [RackNerd VPS 免費 Clientexec 授權](https://www.racknerd.com/specials/) | VPS/雲服務 | 訂閱 Black Friday VPS 方案即贈送免費 Clientexec 遊戲伺服器授權。 | 免費（價值視使用而定） | 長期活動 | 待核實 |
